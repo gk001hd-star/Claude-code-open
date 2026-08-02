@@ -1,0 +1,13 @@
+{
+  "_what": "People the institute rosters list as currently in the Clevers group but whom PubMed has not yet attached to a paper with Clevers. They carry no papers, so the pages draw them at the size of a single publication.",
+  "_why_empty": "hubrecht.eu and prinsesmaximacentrum.nl both answer automated requests with HTTP 403, and web.archive.org is unreachable from this environment, so the rosters could not be read. Paste them in here and re-run scripts/build_universe.py --inject.",
+  "_fields": {
+    "name": "Surname, Given names — same form as PubMed uses, e.g. \"Puschhof, Jens\"",
+    "site": "HUB | MAX | IMM",
+    "since": "year they joined, as an integer",
+    "role": "PhD student / postdoc / technician / staff scientist / ...",
+    "url": "optional link to their page"
+  },
+  "_source": "",
+  "members": []
+}

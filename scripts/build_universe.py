@@ -82,6 +82,47 @@ def primary_site(rec):
     return SITES.index(order[0][0]), spread
 
 
+SITE_CODE = {"IMM": 0, "HUB": 1, "MAX": 2}
+
+
+def add_roster(people, y1):
+    """Fold in people the institute lists as current but PubMed has not caught up with.
+
+    A first paper can lag a year or two behind arriving, and PubMed only indexes
+    an author's address once they are on something. Anyone named in
+    data/current_members.json who is not already in the set is added with no
+    papers; the pages floor a cell at the size of one publication, so they show
+    up at the size of a first paper rather than vanishing.
+    """
+    path = os.path.join(DATA, "current_members.json")
+    if not os.path.exists(path):
+        return 0
+    roster = json.load(open(path, encoding="utf-8")).get("members", [])
+    have = {author_key(p["n"]) for p in people}
+    added = 0
+    for m in roster:
+        name = m.get("name", "").strip()
+        if not name or author_key(name) in have:
+            continue
+        code = m.get("site", "HUB").upper()
+        if code not in SITE_CODE:
+            print(f"warning: unknown site {code!r} for {name}", file=sys.stderr)
+            continue
+        since = int(m.get("since", y1))
+        people.append({
+            "n": name, "p": [], "f": since, "l": y1,
+            "gf": since, "gl": y1,
+            "e": SITE_CODE[code], "sv": [[code, 0, since, y1]], "pl": 0,
+            "r": m.get("role", ""), "pi": "", "tr": True, "ck": False,
+            "pos": "", "inst": m.get("institute", ""), "url": m.get("url", ""),
+        })
+        have.add(author_key(name))
+        added += 1
+    if added:
+        print(f"{added} current members added from the institute rosters")
+    return added
+
+
 def add_lineage(people):
     """For each person, who was already in the lab and shared the most work.
 
@@ -155,10 +196,11 @@ def build():
         })
     # sorted by shared papers: the page places people by rank, so the core lands
     # in the inner orbits and the long tail forms the halo
+    years = [p[0] for p in papers if p[0]]
+    add_roster(people, max(years))
     people.sort(key=lambda x: (-len(x["p"]), x["n"]))
     add_lineage(people)
 
-    years = [p[0] for p in papers if p[0]]
     return {"papers": papers, "people": people,
             "meta": {"npapers": len(papers), "npeople": len(people),
                      "y0": min(years), "y1": max(years)}}
