@@ -75,11 +75,20 @@ def main():
                     if '{"articles":' in s:
                         harvest(s, sink)
 
+    # Keep only records that the Clevers search actually returned. Probe fetches
+    # made while working out the harvest strategy also land in the transcript.
+    wanted = [l.strip() for l in open("raw/all_pmids.txt") if l.strip()]
+    wanted_set = set(wanted)
+    dropped = [p for p in sink if p not in wanted_set]
+    for p in dropped:
+        del sink[p]
+    if dropped:
+        print(f"dropped {len(dropped)} record(s) outside the search result set: {dropped}")
+
     os.makedirs("data", exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump(sink, fh, ensure_ascii=False)
 
-    wanted = [l.strip() for l in open("raw/all_pmids.txt") if l.strip()]
     missing = [p for p in wanted if p not in sink]
     with open("raw/missing.txt", "w") as fh:
         fh.write("\n".join(missing))

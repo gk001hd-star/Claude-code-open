@@ -7,9 +7,10 @@ Compiled from **PubMed** (NCBI), author query `Clevers H[Author]`, retrieved thr
 | | |
 | --- | ---: |
 | Records returned by the PubMed query | 877 |
-| Records retrieved in full | 877 |
-| Records carrying an abstract | 877 |
-| Records carrying at least one affiliation | 836 |
+| Records retrieved in full | 876 |
+| Records carrying a substantive abstract | 799 |
+| Records PubMed marks as having no abstract | 77 |
+| Records carrying at least one affiliation | 835 |
 | Earliest publication year | 1985 |
 | Latest publication year | 2026 |
 
@@ -35,7 +36,7 @@ Compiled from **PubMed** (NCBI), author query `Clevers H[Author]`, retrieved thr
 | 2020 | 60 |
 | 2019 | 39 |
 | 2018 | 35 |
-| 2017 | 49 |
+| 2017 | 48 |
 | 2016 | 34 |
 | 2015 | 32 |
 | 2014 | 36 |
@@ -108,7 +109,7 @@ Compiled from **PubMed** (NCBI), author query `Clevers H[Author]`, retrieved thr
 
 1. Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center, Utrecht, the Netherlands; Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 3. Live-cell single-vRNP imaging identifies viral gene expression signatures that shape influenza infection heterogeneity
@@ -229,7 +230,7 @@ Compiled from **PubMed** (NCBI), author query `Clevers H[Author]`, retrieved thr
 
 1. Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Centre, Uppsalalaan 8, 3584 Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 7. Interferon-γ selectively promotes survival of alveolar progenitor cells in a human lung organoid model
@@ -873,7 +874,7 @@ These findings underscore the potential of IEOs as a valuable model for studying
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 26. Focal Adhesion Kinase Is Required for Intestinal Regeneration and Tumorigenesis Downstream of Wnt/c-Myc Signaling
@@ -908,7 +909,7 @@ These findings underscore the potential of IEOs as a valuable model for studying
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 27. Author Correction: The kinase TNIK is an essential activator of Wnt target genes
@@ -1107,7 +1108,7 @@ Overall, our IMO biobank captured the heterogeneous nature of IM, revealing mech
 7. Hubrecht Institute for Developmental Biology and Stem Cell Research and University Medical Centre Utrecht, Uppsalalaan 8, NL-3584, Utrecht, The Netherlands.
 8. Department of Morphology and Molecular Pathology, University Hospital Gasthuisberg, Herestraat 49, B-3000, Leuven, Belgium.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 32. Intestinal tuft cell subtypes represent successive stages of maturation driven by crypt-villus signaling gradients
@@ -1264,7 +1265,7 @@ Overall, our IMO biobank captured the heterogeneous nature of IM, revealing mech
 
 1. Hoffmann-La Roche, Basel, Switzerland.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 36. Author Correction: HDAC1 and HDAC2 regulate oligodendrocyte differentiation by disrupting the β-catenin-TCF interaction
@@ -1301,7 +1302,7 @@ Overall, our IMO biobank captured the heterogeneous nature of IM, revealing mech
 5. Hubrecht Institute, Utrecht, The Netherlands.
 6. West China Second University Hospital, Sichuan University, Chengdu, China.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 37. Human organoids as 3D in vitro platforms for drug discovery: opportunities and challenges
@@ -1921,7 +1922,7 @@ This study highlights that awareness is needed for easy-to-miss germline variant
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 53. Improved detection of colibactin-induced mutations by genotoxic E. coli in organoids and colorectal cancer
@@ -2174,7 +2175,7 @@ This study highlights that awareness is needed for easy-to-miss germline variant
 2. Oncode Institute, Utrecht, The Netherlands.
 3. Princess Maxima Center for Pediatric Oncology, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 60. Correction: KSR1- and ERK-dependent translational regulation of the epithelial-to-mesenchymal transition
@@ -2201,7 +2202,7 @@ This study highlights that awareness is needed for easy-to-miss germline variant
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 61. Multi-omic dataset of patient-derived tumor organoids of neuroendocrine neoplasms
@@ -2729,7 +2730,7 @@ This dataset will be critical to future studies relying on this PDTO biobank, su
 4. Cancer Bioinformatics, King's College London, Guy's Hospital London, London, UK.
 5. Hubrecht Laboratory, Netherlands Institute for Developmental Biology, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 75. Differential transcriptional invasion signatures from patient derived organoid models define a functional prognostic tool for head and neck cancer
@@ -4390,7 +4391,7 @@ This work was funded by Oncode PoC 2018-P0003.
 2. Department of Nephrology and Hypertension, University Medical Center Utrecht (UMCU), Utrecht, The Netherlands.
 3. Roche Pharmaceutical Research and Early Development, 4058, Basel, Switzerland.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 115. Transcriptomic profile comparison reveals conservation of ionocytes across multiple organs
@@ -5029,7 +5030,7 @@ Whether gut dysbiosis promotes tumorigenesis and how it controls tumor progressi
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 128. Optimized human intestinal organoid model reveals interleukin-22-dependency of paneth cell formation
@@ -6659,7 +6660,7 @@ This study provides a comprehensive map of the integration between the blood met
 47. Stanford Prevention Research Center, Department of Medicine, Stanford University, Stanford, CA, USA.
 48. Department of Epidemiology and Population Health and Department of Biomedical Data Sciences, Stanford University, Stanford, CA, USA.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 167. The Organoid Cell Atlas
@@ -6709,7 +6710,7 @@ This study provides a comprehensive map of the integration between the blood met
 18. Eidgenössische Technische Hochschule (ETH) Zurich, Department of Biosystems Science and Engineering, Basel, Switzerland.
 19. Foundation Hubrecht Organoid Technology, Utrecht, the Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 168. A CRISPR/Cas9 genetically engineered organoid biobank reveals essential host factors for coronaviruses
@@ -6859,7 +6860,7 @@ This study provides a comprehensive map of the integration between the blood met
 4. Mildred-Scheel Early Career Centre (MSNZ) for Cancer Research, University Hospital Würzburg, Würzburg, Germany.
 5. Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 172. Culture and analysis of kidney tubuloids and perfused tubuloid cells-on-a-chip
@@ -7204,7 +7205,7 @@ This study provides a comprehensive map of the integration between the blood met
 70. Barcelona Supercomputing Center (BSC), Barcelona, Spain.
 71. CNRS UMR3244, Institut Curie, PSL University, Paris, France.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 178. Single-cell Ribo-seq reveals cell cycle-dependent translational pausing
@@ -7565,7 +7566,7 @@ This study provides a comprehensive map of the integration between the blood met
 6. University Medical Center Utrecht, Utrecht, Netherlands.
 7. Department of Molecular Oncology, Genentech, South San Francisco, CA, USA.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 188. The Organoid Platform: Promises and Challenges as Tools in the Fight against COVID-19
@@ -7766,7 +7767,7 @@ This study provides a comprehensive map of the integration between the blood met
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 194. High-Resolution mRNA and Secretome Atlas of Human Enteroendocrine Cells
@@ -8458,7 +8459,7 @@ This study illustrates the potential for targeting BCL2 in combination with CDK4
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 209. How the COVID-19 pandemic highlights the necessity of animal research
@@ -9027,7 +9028,7 @@ We established a highly efficient method for culturing large numbers of LGR5-pos
 1. Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Centre (UMC) Utrecht, 3584 CT Utrecht, The Netherlands.
 2. Princess Máxima Centre for Paediatric Oncology, 3584 CS Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 222. Modeling Breast Cancer Using CRISPR-Cas9-Mediated Engineering of Human Breast Organoids
@@ -9510,7 +9511,7 @@ We established a highly efficient method for culturing large numbers of LGR5-pos
 12. Department of Experimental Medicine, University of Genoa, Genoa, Italy.
 13. Princess Maxima Center for Pediatric Oncology, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 236. Fasting-mimicking diet and hormone therapy induce breast cancer regression
@@ -10784,7 +10785,7 @@ We established a highly efficient method for culturing large numbers of LGR5-pos
 1. Amsterdam University Medical Centers, University of Amsterdam, Department of Pathology, Cancer Center Amsterdam, Amsterdam, The Netherlands.
 2. Hubrecht Institute, University of Utrecht, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 266. A ZNRF3-dependent Wnt/β-catenin signaling gradient is required for adrenal homeostasis
@@ -12414,7 +12415,7 @@ In analyses of mice with disruption of the ribonuclease H2 subunit B gene and co
 13. Division of Gastroenterology, Hepatology and Nutrition, Boston Children's Hospital, Boston, Massachusetts; Harvard Medical School, Boston, Massachusetts; Division of Gastroenterology, Brigham and Women's Hospital, Boston, Massachusetts.
 14. Dr. von Hauner Children's Hospital, Department of Pediatrics, University Hospital LMU München, Munich, Germany; Department of Pediatrics, Division of Gastroenterology, Nephrology and Metabolic Medicine, Charité-Universitätsmedizin Berlin, Berlin, Germany.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 304. Modeling Human Digestive Diseases With CRISPR-Cas9-Modified Organoids
@@ -12457,7 +12458,7 @@ In analyses of mice with disruption of the ribonuclease H2 subunit B gene and co
 1. Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), and Cancer Genomics Netherlands, UMC Utrecht, Netherlands.
 2. Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), and Cancer Genomics Netherlands, and Princess Máxima Center, and Oncode Institute, Hubrecht Institute, Utrecht, the Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 306. Use and application of 3D-organoid technology
@@ -12548,7 +12549,7 @@ US National Institute of Allergy and Infectious Diseases, Research Grants Counci
 4. Biomedical Research Institute, Barcelona Science Park, Barcelona 08028, Spain.
 5. Department of Immunology and Oncology, Centro Nacional de Biotecnologia/CSIC, Cantoblanco, Madrid E-28049, Spain.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 309. Enteroendocrine cells switch hormone expression along the crypt-to-villus BMP signalling gradient
@@ -13009,7 +13010,7 @@ US National Institute of Allergy and Infectious Diseases, Research Grants Counci
 
 1. ISSCR President, 2017-2018.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 322. Expansion of Adult Human Pancreatic Tissue Yields Organoids Harboring Progenitor Cells with Endocrine Differentiation Potential
@@ -14074,7 +14075,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 ### 353. Cancer stem cells revisited
@@ -14341,76 +14342,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Patient-derived xenografts (PDXs) have emerged as an important platform to elucidate new treatments and biomarkers in oncology. PDX models are used to address clinically relevant questions, including the contribution of tumour heterogeneity to therapeutic responsiveness, the patterns of cancer evolutionary dynamics during tumour progression and under drug pressure, and the mechanisms of resistance to treatment. The ability of PDX models to predict clinical outcomes is being improved through mouse humanization strategies and the implementation of co-clinical trials, within which patients and PDXs reciprocally inform therapeutic decisions. This Opinion article discusses aspects of PDX modelling that are relevant to these questions and highlights the merits of shared PDX resources to advance cancer medicine from the perspective of EurOPDX, an international initiative devoted to PDX-based research.
 
 ---
-### 359. Common genetic variation drives molecular heterogeneity in human iPSCs
-
-**Citation.** Kilpinen H, Goncalves A, Leha A, Afzal V, Alasoo K, Ashford S, Bala S, Bensaddek D, Casale FP, Culley OJ, Danecek P, Faulconbridge A, Harrison PW, Kathuria A, McCarthy D, McCarthy SA, Meleckyte R, Memari Y, Moens N, Soares F, Mann A, Streeter I, Agu CA, Alderton A, Nelson R, Harper S, Patel M, White A, Patel SR, Clarke L, Halai R, Kirton CM, Kolb-Kokocinski A, Beales P, Birney E, Danovi D, Lamond AI, Ouwehand WH, Vallier L, Watt FM, Durbin R, Stegle O, Gaffney DJ. Common genetic variation drives molecular heterogeneity in human iPSCs. Nature. 2017;546(7658):370-375.
-
-**Identifiers.** PMID [28489815](https://pubmed.ncbi.nlm.nih.gov/28489815/) · DOI [10.1038/nature22403](https://doi.org/10.1038/nature22403) · PMC [PMC5524171](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5524171/)
-
-**Journal.** Nature, vol. 546, issue 7658, pp. 370-375 (2017-05) — _Journal Article, Research Support, N.I.H., Extramural, Research Support, Non-U.S. Gov't_
-
-**Authors.**
-
-- Kilpinen, Helena<sup>1</sup>
-- Goncalves, Angela<sup>2</sup>
-- Leha, Andreas<sup>2</sup>
-- Afzal, Vackar<sup>3</sup>
-- Alasoo, Kaur<sup>2</sup>
-- Ashford, Sofie<sup>4</sup>
-- Bala, Sendu<sup>2</sup>
-- Bensaddek, Dalila<sup>3</sup>
-- Casale, Francesco Paolo<sup>1</sup>
-- Culley, Oliver J<sup>5</sup>
-- Danecek, Petr<sup>2</sup>
-- Faulconbridge, Adam<sup>1</sup>
-- Harrison, Peter W<sup>1</sup>
-- Kathuria, Annie<sup>5</sup>
-- McCarthy, Davis<sup>1</sup><sup>6</sup>
-- McCarthy, Shane A<sup>2</sup>
-- Meleckyte, Ruta<sup>5</sup>
-- Memari, Yasin<sup>2</sup>
-- Moens, Nathalie<sup>5</sup>
-- Soares, Filipa<sup>7</sup>
-- Mann, Alice<sup>2</sup>
-- Streeter, Ian<sup>1</sup>
-- Agu, Chukwuma A<sup>2</sup>
-- Alderton, Alex<sup>2</sup>
-- Nelson, Rachel<sup>2</sup>
-- Harper, Sarah<sup>2</sup>
-- Patel, Minal<sup>2</sup>
-- White, Alistair<sup>2</sup>
-- Patel, Sharad R<sup>2</sup>
-- Clarke, Laura<sup>1</sup>
-- Halai, Reena<sup>2</sup>
-- Kirton, Christopher M<sup>2</sup>
-- Kolb-Kokocinski, Anja<sup>2</sup>
-- Beales, Philip<sup>8</sup>
-- Birney, Ewan<sup>1</sup>
-- Danovi, Davide<sup>5</sup>
-- Lamond, Angus I<sup>3</sup>
-- Ouwehand, Willem H<sup>2</sup><sup>4</sup><sup>9</sup>
-- Vallier, Ludovic<sup>2</sup><sup>7</sup>
-- Watt, Fiona M<sup>5</sup>
-- Durbin, Richard<sup>2</sup>
-- Stegle, Oliver<sup>1</sup>
-- Gaffney, Daniel J<sup>2</sup>
-
-**Affiliations.**
-
-1. European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SD, UK.
-2. Wellcome Trust Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SA, UK.
-3. Centre for Gene Regulation &Expression, School of Life Sciences, University of Dundee, Dundee, DD1 5EH, UK.
-4. Department of Haematology, University of Cambridge, Cambridge Biomedical Campus, Cambridge CB2 0XY, UK.
-5. Centre for Stem Cells &Regenerative Medicine, King's College London, Tower Wing, Guy's Hospital, Great Maze Pond, London SE1 9RT, UK.
-6. St Vincent's Institute of Medical Research, 41 Victoria Parade, Fitzroy, Victoria 3065, Australia.
-7. Wellcome Trust and MRC Cambridge Stem Cell Institute and Biomedical Research Centre, Anne McLaren Laboratory, Department of Surgery, University of Cambridge, Cambridge CB2 0SZ, UK.
-8. UCL Great Ormond Street Institute of Child Health, University College London, London WC1N 1EH, UK.
-9. NHS Blood and Transplant, Cambridge Biomedical Campus, Cambridge CB2 0PT, UK.
-
-**Abstract.** Technology utilizing human induced pluripotent stem cells (iPS cells) has enormous potential to provide improved cellular models of human disease. However, variable genetic and phenotypic characterization of many existing iPS cell lines limits their potential use for research and therapy. Here we describe the systematic generation, genotyping and phenotyping of 711 iPS cell lines derived from 301 healthy individuals by the Human Induced Pluripotent Stem Cells Initiative. Our study outlines the major sources of genetic and phenotypic variation in iPS cells and establishes their suitability as models of complex human traits and cancer. Through genome-wide profiling we find that 5-46% of the variation in different iPS cell phenotypes, including differentiation capacity and cellular morphology, arises from differences between individuals. Additionally, we assess the phenotypic consequences of genomic copy-number alterations that are repeatedly observed in iPS cells. In addition, we present a comprehensive map of common regulatory variants affecting the transcriptome of human pluripotent cells.
-
----
-### 360. Surrogate Wnt agonists that phenocopy canonical Wnt and β-catenin signalling
+### 359. Surrogate Wnt agonists that phenocopy canonical Wnt and β-catenin signalling
 
 **Citation.** Janda CY, Dang LT, You C, Chang J, de Lau W, Zhong ZA, Yan KS, Marecic O, Siepe D, Li X, Moody JD, Williams BO, Clevers H, Piehler J, Baker D, Kuo CJ, Garcia KC. Surrogate Wnt agonists that phenocopy canonical Wnt and β-catenin signalling. Nature. 2017;545(7653):234-237.
 
@@ -14451,7 +14383,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Wnt proteins modulate cell proliferation and differentiation and the self-renewal of stem cells by inducing β-catenin-dependent signalling through the Wnt receptor frizzled (FZD) and the co-receptors LRP5 and LRP6 to regulate cell fate decisions and the growth and repair of several tissues. The 19 mammalian Wnt proteins are cross-reactive with the 10 FZD receptors, and this has complicated the attribution of distinct biological functions to specific FZD and Wnt subtype interactions. Furthermore, Wnt proteins are modified post-translationally by palmitoylation, which is essential for their secretion, function and interaction with FZD receptors. As a result of their acylation, Wnt proteins are very hydrophobic and require detergents for purification, which presents major obstacles to the preparation and application of recombinant Wnt proteins. This hydrophobicity has hindered the determination of the molecular mechanisms of Wnt signalling activation and the functional importance of FZD subtypes, and the use of Wnt proteins as therapeutic agents. Here we develop surrogate Wnt agonists, water-soluble FZD-LRP5/LRP6 heterodimerizers, with FZD5/FZD8-specific and broadly FZD-reactive binding domains. Similar to WNT3A, these Wnt agonists elicit a characteristic β-catenin signalling response in a FZD-selective fashion, enhance the osteogenic lineage commitment of primary mouse and human mesenchymal stem cells, and support the growth of a broad range of primary human organoid cultures. In addition, the surrogates can be systemically expressed and exhibit Wnt activity in vivo in the mouse liver, regulating metabolic liver zonation and promoting hepatocyte proliferation, resulting in hepatomegaly. These surrogates demonstrate that canonical Wnt signalling can be activated by bi-specific ligands that induce receptor heterodimerization. Furthermore, these easily produced, non-lipidated Wnt surrogate agonists facilitate functional studies of Wnt signalling and the exploration of Wnt agonists for translational applications in regenerative medicine.
 
 ---
-### 361. Correction: The Leukemia-Associated Mllt10/Af10-Dot1l Are Tcf4/β-Catenin Coactivators Essential for Intestinal Homeostasis
+### 360. Correction: The Leukemia-Associated Mllt10/Af10-Dot1l Are Tcf4/β-Catenin Coactivators Essential for Intestinal Homeostasis
 
 **Citation.** Mahmoudi T, Boj SF, Hatzis P, Li VSW, Taouatas N, Vries RGJ, Teunissen H, Begthel H, Korving J, Mohammed S, Heck AJR, Clevers H. Correction: The Leukemia-Associated Mllt10/Af10-Dot1l Are Tcf4/β-Catenin Coactivators Essential for Intestinal Homeostasis. PLoS Biol. 2017;15(2):e1002596.
 
@@ -14479,7 +14411,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** [This corrects the article DOI: 10.1371/journal.pbio.1000539.].
 
 ---
-### 362. Stem Cells in Repair of Gastrointestinal Epithelia
+### 361. Stem Cells in Repair of Gastrointestinal Epithelia
 
 **Citation.** Andersson-Rolf A, Zilbauer M, Koo B, Clevers H. Stem Cells in Repair of Gastrointestinal Epithelia. Physiology (Bethesda). 2017;32(4):278-289.
 
@@ -14506,7 +14438,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Among the endodermal tissues of adult mammals, the gastrointestinal (GI) epithelium exhibits the highest turnover rate. As the ingested food moves along the GI tract, gastric acid, digestive enzymes, and gut resident microbes aid digestion as well as nutrient and mineral absorption. Due to the harsh luminal environment, replenishment of new epithelial cells is essential to maintain organ structure and function during routine turnover and injury repair. Tissue-specific adult stem cells in the GI tract serve as a continuous source for this immense regenerative activity. Tissue homeostasis is achieved by a delicate balance between gain and loss of cells. In homeostasis, temporal tissue damage is rapidly restored by well-balanced tissue regeneration, whereas prolonged imbalance may result in diverse pathologies of homeostasis and injury repair. Starting with a summary of the current knowledge of GI tract homeostasis, we continue with providing models of acute injury and chronic diseases. Finally, we will discuss how primary organoid cultures allow new insights into the mechanisms of homeostasis, injury repair, and disease, and how this novel 3D culture system has the potential to translate into the clinic.
 
 ---
-### 363. Genetic dissection of colorectal cancer progression by orthotopic transplantation of engineered cancer organoids
+### 362. Genetic dissection of colorectal cancer progression by orthotopic transplantation of engineered cancer organoids
 
 **Citation.** Fumagalli A, Drost J, Suijkerbuijk SJE, van Boxtel R, de Ligt J, Offerhaus GJ, Begthel H, Beerling E, Tan EH, Sansom OJ, Cuppen E, Clevers H, van Rheenen J. Genetic dissection of colorectal cancer progression by orthotopic transplantation of engineered cancer organoids. Proc Natl Acad Sci U S A. 2017;114(12):E2357-E2364.
 
@@ -14543,7 +14475,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** In the adenoma-carcinoma sequence, it is proposed that intestinal polyps evolve through a set of defined mutations toward metastatic colorectal cancer (CRC). Here, we dissect this adenoma-carcinoma sequence in vivo by using an orthotopic organoid transplantation model of human colon organoids engineered to harbor different CRC mutation combinations. We demonstrate that sequential accumulation of oncogenic mutations in Wnt, EGFR, P53, and TGF-β signaling pathways facilitates efficient tumor growth, migration, and metastatic colonization. We show that reconstitution of specific niche signals can restore metastatic growth potential of tumor cells lacking one of the oncogenic mutations. Our findings imply that the ability to metastasize-i.e., to colonize distant sites-is the direct consequence of the loss of dependency on specific niche signals.
 
 ---
-### 364. Troy/TNFRSF19 marks epithelial progenitor cells during mouse kidney development that continue to contribute to turnover in adult kidney
+### 363. Troy/TNFRSF19 marks epithelial progenitor cells during mouse kidney development that continue to contribute to turnover in adult kidney
 
 **Citation.** Schutgens F, Rookmaaker MB, Blokzijl F, van Boxtel R, Vries R, Cuppen E, Verhaar MC, Clevers H. Troy/TNFRSF19 marks epithelial progenitor cells during mouse kidney development that continue to contribute to turnover in adult kidney. Proc Natl Acad Sci U S A. 2017;114(52):E11190-E11198.
 
@@ -14574,7 +14506,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** During kidney development, progressively committed progenitor cells give rise to the distinct segments of the nephron, the functional unit of the kidney. Similar segment-committed progenitor cells are thought to be involved in the homeostasis of adult kidney. However, markers for most segment-committed progenitor cells remain to be identified. Here, we evaluateas a segment-committed nephron progenitor cell marker. Troy is expressed in the ureteric bud during embryonic development. During postnatal nephrogenesis, Troycells are present in the cortex and papilla and display an immature tubular phenotype. Tracing of Troycells during nephrogenesis demonstrates that Troycells clonally give rise to tubular structures that persist for up to 2 y after induction. Troycells have a 40-fold higher capacity than Troycells to form organoids, which is considered a stem cell property in vitro. In the adult kidney, Troycells are present in the papilla and these cells continue to contribute to collecting duct formation during homeostasis. The number of Troy-derived cells increases after folic acid-induced injury. Our data show that Troy marks a renal stem/progenitor cell population in the developing kidney that in adult kidney contributes to homeostasis, predominantly of the collecting duct, and regeneration.
 
 ---
-### 365. FANTOM5 CAGE profiles of human and mouse samples
+### 364. FANTOM5 CAGE profiles of human and mouse samples
 
 **Citation.** Noguchi S, Arakawa T, Fukuda S, Furuno M, Hasegawa A, Hori F, Ishikawa-Kato S, Kaida K, Kaiho A, Kanamori-Katayama M, Kawashima T, Kojima M, Kubosaki A, Manabe R, Murata M, Nagao-Sato S, Nakazato K, Ninomiya N, Nishiyori-Sueki H, Noma S, Saijyo E, Saka A, Sakai M, Simon C, Suzuki N, Tagami M, Watanabe S, Yoshida S, Arner P, Axton RA, Babina M, Baillie JK, Barnett TC, Beckhouse AG, Blumenthal A, Bodega B, Bonetti A, Briggs J, Brombacher F, Carlisle AJ, Clevers HC, Davis CA, Detmar M, Dohi T, Edge ASB, Edinger M, Ehrlund A, Ekwall K, Endoh M, Enomoto H, Eslami A, Fagiolini M, Fairbairn L, Farach-Carson MC, Faulkner GJ, Ferrai C, Fisher ME, Forrester LM, Fujita R, Furusawa J, Geijtenbeek TB, Gingeras T, Goldowitz D, Guhl S, Guler R, Gustincich S, Ha TJ, Hamaguchi M, Hara M, Hasegawa Y, Herlyn M, Heutink P, Hitchens KJ, Hume DA, Ikawa T, Ishizu Y, Kai C, Kawamoto H, Kawamura YI, Kempfle JS, Kenna TJ, Kere J, Khachigian LM, Kitamura T, Klein S, Klinken SP, Knox AJ, Kojima S, Koseki H, Koyasu S, Lee W, Lennartsson A, Mackay-Sim A, Mejhert N, Mizuno Y, Morikawa H, Morimoto M, Moro K, Morris KJ, Motohashi H, Mummery CL, Nakachi Y, Nakahara F, Nakamura T, Nakamura Y, Nozaki T, Ogishima S, Ohkura N, Ohno H, Ohshima M, Okada-Hatakeyama M, Okazaki Y, Orlando V, Ovchinnikov DA, Passier R, Patrikakis M, Pombo A, Pradhan-Bhatt S, Qin X, Rehli M, Rizzu P, Roy S, Sajantila A, Sakaguchi S, Sato H, Satoh H, Savvi S, Saxena A, Schmidl C, Schneider C, Schulze-Tanzil GG, Schwegmann A, Sheng G, Shin JW, Sugiyama D, Sugiyama T, Summers KM, Takahashi N, Takai J, Tanaka H, Tatsukawa H, Tomoiu A, Toyoda H, van de Wetering M, van den Berg LM, Verardo R, Vijayan D, Wells CA, Winteringham LN, Wolvetang E, Yamaguchi Y, Yamamoto M, Yanagi-Mizuochi C, Yoneda M, Yonekura Y, Zhang PG, Zucchelli S, Abugessaisa I, Arner E, Harshbarger J, Kondo A, Lassmann T, Lizio M, Sahin S, Sengstag T, Severin J, Shimoji H, Suzuki M, Suzuki H, Kawai J, Kondo N, Itoh M, Daub CO, Kasukawa T, Kawaji H, Carninci P, Forrest ARR, Hayashizaki Y. FANTOM5 CAGE profiles of human and mouse samples. Sci Data. 2017;4:170112.
 
@@ -14846,7 +14778,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** In the FANTOM5 project, transcription initiation events across the human and mouse genomes were mapped at a single base-pair resolution and their frequencies were monitored by CAGE (Cap Analysis of Gene Expression) coupled with single-molecule sequencing. Approximately three thousands of samples, consisting of a variety of primary cells, tissues, cell lines, and time series samples during cell activation and development, were subjected to a uniform pipeline of CAGE data production. The analysis pipeline started by measuring RNA extracts to assess their quality, and continued to CAGE library production by using a robotic or a manual workflow, single molecule sequencing, and computational processing to generate frequencies of transcription initiation. Resulting data represents the consequence of transcriptional regulation in each analyzed state of mammalian cells. Non-overlapping peaks over the CAGE profiles, approximately 200,000 and 150,000 peaks for the human and mouse genomes, were identified and annotated to provide precise location of known promoters as well as novel ones, and to quantify their activities.
 
 ---
-### 366. Human tissues in a dish: The research and ethical implications of organoid technology
+### 365. Human tissues in a dish: The research and ethical implications of organoid technology
 
 **Citation.** Bredenoord AL, Clevers H, Knoblich JA. Human tissues in a dish: The research and ethical implications of organoid technology. Science. 2017;355(6322).
 
@@ -14869,7 +14801,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** The ability to generate human tissues in vitro from stem cells has raised enormous expectations among the biomedical research community, patients, and the general public. These organoids enable studies of normal development and disease and allow the testing of compounds directly on human tissue. Organoids hold the promise to influence the entire innovation cycle in biomedical research. They affect fields that have been subjects of intense ethical debate, ranging from animal experiments and the use of embryonic or fetal human tissues to precision medicine, organoid transplantation, and gene therapy. However, organoid research also raises additional ethical questions that require reexamination and potential recalibration of ethical and legal policies. In this Review, we describe the current state of research and discuss the ethical implications of organoid technology.
 
 ---
-### 367. Lineage-dependent spatial and functional organization of the mammalian enteric nervous system
+### 366. Lineage-dependent spatial and functional organization of the mammalian enteric nervous system
 
 **Citation.** Lasrado R, Boesmans W, Kleinjung J, Pin C, Bell D, Bhaw L, McCallum S, Zong H, Luo L, Clevers H, Vanden Berghe P, Pachnis V. Lineage-dependent spatial and functional organization of the mammalian enteric nervous system. Science. 2017;356(6339):722-726.
 
@@ -14903,7 +14835,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** The enteric nervous system (ENS) is essential for digestive function and gut homeostasis. Here we show that the amorphous neuroglia networks of the mouse ENS are composed of overlapping clonal units founded by postmigratory neural crest-derived progenitors. The spatial configuration of ENS clones depends on proliferation-driven local interactions of ENS progenitors with lineally unrelated neuroectodermal cells, the ordered colonization of the serosa-mucosa axis by clonal descendants, and gut expansion. Single-cell transcriptomics and mutagenesis analysis delineated dynamic molecular states of ENS progenitors and identified RET as a regulator of neurogenic commitment. Clonally related enteric neurons exhibit synchronous activity in response to network stimulation. Thus, lineage relationships underpin the organization of the peripheral nervous system.
 
 ---
-### 368. Origins of lymphatic and distant metastases in human colorectal cancer
+### 367. Origins of lymphatic and distant metastases in human colorectal cancer
 
 **Citation.** Naxerova K, Reiter JG, Brachtel E, Lennerz JK, van de Wetering M, Rowan A, Cai T, Clevers H, Swanton C, Nowak MA, Elledge SJ, Jain RK. Origins of lymphatic and distant metastases in human colorectal cancer. Science. 2017;357(6346):55-60.
 
@@ -14943,7 +14875,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** The spread of cancer cells from primary tumors to regional lymph nodes is often associated with reduced survival. One prevailing model to explain this association posits that fatal, distant metastases are seeded by lymph node metastases. This view provides a mechanistic basis for the TNM staging system and is the rationale for surgical resection of tumor-draining lymph nodes. Here we examine the evolutionary relationship between primary tumor, lymph node, and distant metastases in human colorectal cancer. Studying 213 archival biopsy samples from 17 patients, we used somatic variants in hypermutable DNA regions to reconstruct high-confidence phylogenetic trees. We found that in 65% of cases, lymphatic and distant metastases arose from independent subclones in the primary tumor, whereas in 35% of cases they shared common subclonal origin. Therefore, two different lineage relationships between lymphatic and distant metastases exist in colorectal cancer.
 
 ---
-### 369. Use of CRISPR-modified human stem cell organoids to study the origin of mutational signatures in cancer
+### 368. Use of CRISPR-modified human stem cell organoids to study the origin of mutational signatures in cancer
 
 **Citation.** Drost J, van Boxtel R, Blokzijl F, Mizutani T, Sasaki N, Sasselli V, de Ligt J, Behjati S, Grolleman JE, van Wezel T, Nik-Zainal S, Kuiper RP, Cuppen E, Clevers H. Use of CRISPR-modified human stem cell organoids to study the origin of mutational signatures in cancer. Science. 2017;358(6360):234-238.
 
@@ -14983,7 +14915,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Mutational processes underlie cancer initiation and progression. Signatures of these processes in cancer genomes may explain cancer etiology and could hold diagnostic and prognostic value. We developed a strategy that can be used to explore the origin of cancer-associated mutational signatures. We used CRISPR-Cas9 technology to delete key DNA repair genes in human colon organoids, followed by delayed subcloning and whole-genome sequencing. We found that mutation accumulation in organoids deficient in the mismatch repair geneis driven by replication errors and accurately models the mutation profiles observed in mismatch repair-deficient colorectal cancers. Application of this strategy to the cancer predisposition gene, which encodes a base excision repair protein, revealed a mutational footprint (signature 30) previously observed in a breast cancer cohort. We show that signature 30 can arise from germlinemutations.
 
 ---
-### 370. Long-Term Adult Feline Liver Organoid Cultures for Disease Modeling of Hepatic Steatosis
+### 369. Long-Term Adult Feline Liver Organoid Cultures for Disease Modeling of Hepatic Steatosis
 
 **Citation.** Kruitwagen HS, Oosterhoff LA, Vernooij IGWH, Schrall IM, van Wolferen ME, Bannink F, Roesch C, van Uden L, Molenaar MR, Helms JB, Grinwis GCM, Verstegen MMA, van der Laan LJW, Huch M, Geijsen N, Vries RG, Clevers H, Rothuizen J, Schotanus BA, Penning LC, Spee B. Long-Term Adult Feline Liver Organoid Cultures for Disease Modeling of Hepatic Steatosis. Stem Cell Reports. 2017;8(4):822-830.
 
@@ -15027,7 +14959,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Hepatic steatosis is a highly prevalent liver disease, yet research is hampered by the lack of tractable cellular and animal models. Steatosis also occurs in cats, where it can cause severe hepatic failure. Previous studies demonstrate the potential of liver organoids for modeling genetic diseases. To examine the possibility of using organoids to model steatosis, we established a long-term feline liver organoid culture with adult liver stem cell characteristics and differentiation potential toward hepatocyte-like cells. Next, organoids from mouse, human, dog, and cat liver were provided with fatty acids. Lipid accumulation was observed in all organoids and interestingly, feline liver organoids accumulated more lipid droplets than human organoids. Finally, we demonstrate effects of interference with β-oxidation on lipid accumulation in feline liver organoids. In conclusion, feline liver organoids can be successfully cultured and display a predisposition for lipid accumulation, making them an interesting model in hepatic steatosis research.
 
 ---
-### 371. SCA-1 Expression Level Identifies Quiescent Hematopoietic Stem and Progenitor Cells
+### 370. SCA-1 Expression Level Identifies Quiescent Hematopoietic Stem and Progenitor Cells
 
 **Citation.** Morcos MNF, Schoedel KB, Hoppe A, Behrendt R, Basak O, Clevers HC, Roers A, Gerbaulet A. SCA-1 Expression Level Identifies Quiescent Hematopoietic Stem and Progenitor Cells. Stem Cell Reports. 2017;8(6):1472-1478.
 
@@ -15055,7 +14987,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Blood cell generation depends on continuous cellular output by the sequential hierarchy of hematopoietic stem cell (HSC) and progenitor populations that all contain quiescent and actively cycling cells. Hematopoietic stem and progenitor cells (HSPCs) express the surface molecule Stem cell antigen 1 (SCA-1/LY6A). Using histone 2B-red fluorescent fusion protein label retention and cell-cycle reporter mice, we demonstrate that high SCA-1 expression (SCA-1) identifies not only quiescent HSCs but quiescent cells on all hierarchical levels within the lineageSCA-1KIT(LSK) population. Each transplanted SCA-1HSPC population also displayed self-renewal potential superior to that of the respective SCA-1population. SCA-1 expression is inducible by type I interferon (IFN). We show, however, that quiescence and high self-renewal capacity of cells with brighter SCA-1 expression at steady state were independent of type I IFN signaling. We conclude that SCA-1 expression levels can be used to prospectively isolate functionally heterogeneous HSPC subpopulations.
 
 ---
-### 372. Disease Modeling in Stem Cell-Derived 3D Organoid Systems
+### 371. Disease Modeling in Stem Cell-Derived 3D Organoid Systems
 
 **Citation.** Dutta D, Heo I, Clevers H. Disease Modeling in Stem Cell-Derived 3D Organoid Systems. Trends Mol Med. 2017;23(5):393-410.
 
@@ -15080,7 +15012,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 
 ## 2016
 
-### 373. Modeling Development and Disease with Organoids
+### 372. Modeling Development and Disease with Organoids
 
 **Citation.** Clevers H. Modeling Development and Disease with Organoids. Cell. 2016;165(7):1586-1597.
 
@@ -15099,7 +15031,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Recent advances in 3D culture technology allow embryonic and adult mammalian stem cells to exhibit their remarkable self-organizing properties, and the resulting organoids reflect key structural and functional properties of organs such as kidney, lung, gut, brain and retina. Organoid technology can therefore be used to model human organ development and various human pathologies 'in a dish." Additionally, patient-derived organoids hold promise to predict drug response in a personalized fashion. Organoids open up new avenues for regenerative medicine and, in combination with editing technology, for gene therapy. The many potential applications of this technology are only beginning to be explored.
 
 ---
-### 374. De Novo Prediction of Stem Cell Identity using Single-Cell Transcriptome Data
+### 373. De Novo Prediction of Stem Cell Identity using Single-Cell Transcriptome Data
 
 **Citation.** Grün D, Muraro MJ, Boisset J, Wiebrands K, Lyubimova A, Dharmadhikari G, van den Born M, van Es J, Jansen E, Clevers H, de Koning EJP, van Oudenaarden A. De Novo Prediction of Stem Cell Identity using Single-Cell Transcriptome Data. Cell Stem Cell. 2016;19(2):266-277.
 
@@ -15132,7 +15064,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Adult mitotic tissues like the intestine, skin, and blood undergo constant turnover throughout the life of an organism. Knowing the identity of the stem cell is crucial to understanding tissue homeostasis and its aberrations upon disease. Here we present a computational method for the derivation of a lineage tree from single-cell transcriptome data. By exploiting the tree topology and the transcriptome composition, we establish StemID, an algorithm for identifying stem cells among all detectable cell types within a population. We demonstrate that StemID recovers two known adult stem cell populations, Lgr5+ cells in the small intestine and hematopoietic stem cells in the bone marrow. We apply StemID to predict candidate multipotent cell populations in the human pancreas, a tissue with largely uncharacterized turnover dynamics. We hope that StemID will accelerate the search for novel stem cells by providing concrete markers for biological follow-up and validation.
 
 ---
-### 375. Induced Quiescence of Lgr5+ Stem Cells in Intestinal Organoids Enables Differentiation of Hormone-Producing Enteroendocrine Cells
+### 374. Induced Quiescence of Lgr5+ Stem Cells in Intestinal Organoids Enables Differentiation of Hormone-Producing Enteroendocrine Cells
 
 **Citation.** Basak O, Beumer J, Wiebrands K, Seno H, van Oudenaarden A, Clevers H. Induced Quiescence of Lgr5+ Stem Cells in Intestinal Organoids Enables Differentiation of Hormone-Producing Enteroendocrine Cells. Cell Stem Cell. 2016;20(2):177-190.e4.
 
@@ -15158,7 +15090,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Lgr5+ adult intestinal stem cells are highly proliferative throughout life. Single Lgr5+ stem cells can be cultured into three-dimensional organoids containing all intestinal epithelial cell types at near-normal ratios. Conditions to generate the main cell types (enterocyte, goblet cells, Paneth cells, and M cells) are well established, but signals to induce the spectrum of hormone-producing enteroendocrine cells (EECs) have remained elusive. Here, we induce Lgr5+ stem cell quiescence in vitro by blocking epidermal growth factor receptor (EGFR) or mitogen-associated protein kinase (MAPK) signaling pathways in organoids and show that their quiescent state is readily reverted. Quiescent Lgr5+ stem cells acquire a distinct molecular signature biased toward EEC differentiation. Indeed, combined inhibition of Wnt, Notch, and MAPK pathways efficiently generates a diversity of EEC hormone-expressing subtypes in vitro. Our observations uncouple Wnt-dependent stem cell maintenance from EGF-dependent proliferation and provide an approach for the study of the elusive EECs in a defined environment.
 
 ---
-### 376. Mule Regulates the Intestinal Stem Cell Niche via the Wnt Pathway and Targets EphB3 for Proteasomal and Lysosomal Degradation
+### 375. Mule Regulates the Intestinal Stem Cell Niche via the Wnt Pathway and Targets EphB3 for Proteasomal and Lysosomal Degradation
 
 **Citation.** Dominguez-Brauer C, Hao Z, Elia AJ, Fortin JM, Nechanitzky R, Brauer PM, Sheng Y, Mana MD, Chio IIC, Haight J, Pollett A, Cairns R, Tworzyanski L, Inoue S, Reardon C, Marques A, Silvester J, Cox MA, Wakeham A, Yilmaz OH, Sabatini DM, van Es JH, Clevers H, Sato T, Mak TW. Mule Regulates the Intestinal Stem Cell Niche via the Wnt Pathway and Targets EphB3 for Proteasomal and Lysosomal Degradation. Cell Stem Cell. 2016;19(2):205-216.
 
@@ -15210,7 +15142,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** The E3 ubiquitin ligase Mule is often overexpressed in human colorectal cancers, but its role in gut tumorigenesis is unknown. Here, we show in vivo that Mule controls murine intestinal stem and progenitor cell proliferation by modulating Wnt signaling via c-Myc. Mule also regulates protein levels of the receptor tyrosine kinase EphB3 by targeting it for proteasomal and lysosomal degradation. In the intestine, EphB/ephrinB interactions position cells along the crypt-villus axis and compartmentalize incipient colorectal tumors. Our study thus unveils an important new avenue by which Mule acts as an intestinal tumor suppressor by regulation of the intestinal stem cell niche.
 
 ---
-### 377. Replacement of Lost Lgr5-Positive Stem Cells through Plasticity of Their Enterocyte-Lineage Daughters
+### 376. Replacement of Lost Lgr5-Positive Stem Cells through Plasticity of Their Enterocyte-Lineage Daughters
 
 **Citation.** Tetteh PW, Basak O, Farin HF, Wiebrands K, Kretzschmar K, Begthel H, van den Born M, Korving J, de Sauvage F, van Es JH, van Oudenaarden A, Clevers H. Replacement of Lost Lgr5-Positive Stem Cells through Plasticity of Their Enterocyte-Lineage Daughters. Cell Stem Cell. 2016;18(2):203-13.
 
@@ -15241,7 +15173,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Intestinal crypts display robust regeneration upon injury. The relatively rare secretory precursors can replace lost stem cells, but it is unknown if the abundant enterocyte progenitors that express the Alkaline phosphate intestinal (Alpi) gene also have this capacity. We created an Alpi-IRES-CreERT2 (Alpi(CreER)) knockin allele for lineage tracing. Marked clones consist entirely of enterocytes and are all lost from villus tips within days. Genetic fate-mapping of Alpi(+) cells before or during targeted ablation of Lgr5-expressing stem cells generated numerous long-lived crypt-villus "ribbons," indicative of dedifferentiation of enterocyte precursors into Lgr5(+) stems. By single-cell analysis of dedifferentiating enterocytes, we observed the generation of Paneth-like cells and proliferative stem cells. We conclude that the highly proliferative, short-lived enterocyte precursors serve as a large reservoir of potential stem cells during crypt regeneration.
 
 ---
-### 378. Organoids: Modeling Development and the Stem Cell Niche in a Dish
+### 377. Organoids: Modeling Development and the Stem Cell Niche in a Dish
 
 **Citation.** Kretzschmar K, Clevers H. Organoids: Modeling Development and the Stem Cell Niche in a Dish. Dev Cell. 2016;38(6):590-600.
 
@@ -15262,7 +15194,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Organoids are three-dimensional in-vitro-grown cell clusters with near-native microanatomy that arise from self-organizing mammalian pluripotent or adult stem cells. Although monolayer stem cell cultures were established more than 40 years ago, organoid technology has recently emerged as an essential tool for both fundamental and biomedical research. For developmental biologists, organoids provide powerful means for ex vivo modeling of tissue morphogenesis and organogenesis. Here we discuss how organoid cultures of the intestine and other tissues have been established and how they are utilized as an in vitro model system for stem cell research and developmental biology.
 
 ---
-### 379. Regulation and plasticity of intestinal stem cells during homeostasis and regeneration
+### 378. Regulation and plasticity of intestinal stem cells during homeostasis and regeneration
 
 **Citation.** Beumer J, Clevers H. Regulation and plasticity of intestinal stem cells during homeostasis and regeneration. Development. 2016;143(20):3639-3649.
 
@@ -15284,7 +15216,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** The intestinal epithelium is the fastest renewing tissue in mammals and has a large flexibility to adapt to different types of damage. Lgr5crypt base columnar (CBC) cells act as stem cells during homeostasis and are essential during regeneration. Upon perturbation, the activity of CBCs is dynamically regulated to maintain homeostasis and multiple dedicated progenitor cell populations can reverse to the stem cell state upon damage, adding another layer of compensatory mechanisms to facilitate regeneration. Here, we review our current understanding of how intestinal stem and progenitor cells contribute to homeostasis and regeneration, and the different signaling pathways that regulate their behavior. Nutritional state and inflammation have been recently identified as upstream regulators of stem cell activity in the mammalian intestine, and we explore how these systemic signals can influence homeostasis and regeneration.
 
 ---
-### 380. TGFβ signaling directs serrated adenomas to the mesenchymal colorectal cancer subtype
+### 379. TGFβ signaling directs serrated adenomas to the mesenchymal colorectal cancer subtype
 
 **Citation.** Fessler E, Drost J, van Hooff SR, Linnekamp JF, Wang X, Jansen M, De Sousa E Melo F, Prasetyanti PR, IJspeert JE, Franitza M, Nürnberg P, van Noesel CJ, Dekker E, Vermeulen L, Clevers H, Medema JP. TGFβ signaling directs serrated adenomas to the mesenchymal colorectal cancer subtype. EMBO Mol Med. 2016;8(7):745-60.
 
@@ -15325,7 +15257,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** The heterogeneous nature of colorectal cancer (CRC) complicates prognosis and is suggested to be a determining factor in the efficacy of adjuvant therapy for individual patients. Based on gene expression profiling, CRC is currently classified into four consensus molecular subtypes (CMSs), characterized by specific biological programs, thus suggesting the existence of unifying developmental drivers for each CMS Using human organoid cultures, we investigated the role of such developmental drivers at the premalignant stage of distinct CRC subtypes and found that TGFβ plays an important role in the development of the mesenchymal CMS4, which is of special interest due to its association with dismal prognosis. We show that in tubular adenomas (TAs), which progress to classical CRCs, the dominating response to TGFβ is death by apoptosis. By contrast, induction of a mesenchymal phenotype upon TGFβ treatment prevails in a genetically engineered organoid culture carrying a BRAF(V) (600E) mutation, constituting a model system for sessile serrated adenomas (SSAs). Our data indicate that TGFβ signaling is already active in SSA precursor lesions and that TGFβ is a critical cue for directing SSAs to the mesenchymal, poor-prognosis CMS4 of CRC.
 
 ---
-### 381. Organoid biobanking: identifying the ethics: Organoids revive old and raise new ethical challenges for basic research and therapeutic use
+### 380. Organoid biobanking: identifying the ethics: Organoids revive old and raise new ethical challenges for basic research and therapeutic use
 
 **Citation.** Boers SN, van Delden JJ, Clevers H, Bredenoord AL. Organoid biobanking: identifying the ethics: Organoids revive old and raise new ethical challenges for basic research and therapeutic use. EMBO Rep. 2016;17(7):938-41.
 
@@ -15348,7 +15280,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Organoid technology is at the margin of basic research, precision medicine, and regenerative medicine where various research and clinical ethical issues converge. Resolving these interrelated ethical challenges requires an integrated approach rather than assessing each issue individually. [Image: see text]
 
 ---
-### 382. Targeting mutant RAS in patient-derived colorectal cancer organoids by combinatorial drug screening
+### 381. Targeting mutant RAS in patient-derived colorectal cancer organoids by combinatorial drug screening
 
 **Citation.** Verissimo CS, Overmeer RM, Ponsioen B, Drost J, Mertens S, Verlaan-Klink I, Gerwen Bv, van der Ven M, Wetering Mvd, Egan DA, Bernards R, Clevers H, Bos JL, Snippert HJ. Targeting mutant RAS in patient-derived colorectal cancer organoids by combinatorial drug screening. Elife. 2016;5.
 
@@ -15385,7 +15317,7 @@ In mice, expression of a missense mutant of Jag1 (Jag1) disrupts bile duct devel
 **Abstract.** Colorectal cancer (CRC) organoids can be derived from almost all CRC patients and therefore capture the genetic diversity of this disease. We assembled a panel of CRC organoids carrying either wild-type or mutant RAS, as well as normal organoids and tumor organoids with a CRISPR-introduced oncogenicmutation. Using this panel, we evaluated RAS pathway inhibitors and drug combinations that are currently in clinical trial for RAS mutant cancers. Presence of mutant RAS correlated strongly with resistance to these targeted therapies. This was observed in tumorigenic as well as in normal organoids. Moreover, dual inhibition of the EGFR-MEK-ERK pathway in RAS mutant organoids induced a transient cell-cycle arrest rather than cell death. In vivo drug response of xenotransplanted RAS mutant organoids confirmed this growth arrest upon pan-HER/MEK combination therapy. Altogether, our studies demonstrate the potential of patient-derived CRC organoid libraries in evaluating inhibitors and drug combinations in a preclinical setting.
 
 ---
-### 383. RNF43 germline and somatic mutation in serrated neoplasia pathway and its association with BRAF mutation
+### 382. RNF43 germline and somatic mutation in serrated neoplasia pathway and its association with BRAF mutation
 
 **Citation.** Yan HHN, Lai JCW, Ho SL, Leung WK, Law WL, Lee JFY, Chan AKW, Tsui WY, Chan ASY, Lee BCH, Yue SSK, Man AHY, Clevers H, Yuen ST, Leung SY. RNF43 germline and somatic mutation in serrated neoplasia pathway and its association with BRAF mutation. Gut. 2016;66(9):1645-1656.
 
@@ -15428,7 +15360,7 @@ In one out of four serrated polyposis families, we identified a germline RNF43 m
 These results illustrate the importance of RNF43, along with BRAF mutation in the serrated neoplasia pathway (both the sporadic and familial forms), inform genetic diagnosis protocol and raise therapeutic opportunities through Wnt inhibition in different stages of evolution of serrated polyps.
 
 ---
-### 384. IκBNS enhances follicular helper T-cell differentiation and function downstream of ASCl2
+### 383. IκBNS enhances follicular helper T-cell differentiation and function downstream of ASCl2
 
 **Citation.** Hosokawa J, Suzuki K, Meguro K, Tanaka S, Maezawa Y, Suto A, Fujimura L, Sakamoto A, Clevers H, Ohara O, Nakajima H. IκBNS enhances follicular helper T-cell differentiation and function downstream of ASCl2. J Allergy Clin Immunol. 2016;140(1):288-291.e8.
 
@@ -15457,10 +15389,10 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 3. Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, The Netherlands.
 4. Department of Technology Development, Kazusa DNA Research Institute, Chiba, Japan.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 385. CRISPR/Cas9-Mediated Genome Editing of Mouse Small Intestinal Organoids
+### 384. CRISPR/Cas9-Mediated Genome Editing of Mouse Small Intestinal Organoids
 
 **Citation.** Schwank G, Clevers H. CRISPR/Cas9-Mediated Genome Editing of Mouse Small Intestinal Organoids. Methods Mol Biol. 2016;1422:3-11.
 
@@ -15482,7 +15414,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The CRISPR/Cas9 system is an RNA-guided genome-editing tool that has been recently developed based on the bacterial CRISPR-Cas immune defense system. Due to its versatility and simplicity, it rapidly became the method of choice for genome editing in various biological systems, including mammalian cells. Here we describe a protocol for CRISPR/Cas9-mediated genome editing in murine small intestinal organoids, a culture system in which somatic stem cells are maintained by self-renewal, while giving rise to all major cell types of the intestinal epithelium. This protocol allows the study of gene function in intestinal epithelial homeostasis and pathophysiology and can be extended to epithelial organoids derived from other internal mouse and human organs.
 
 ---
-### 386. The Generation of Organoids for Studying Wnt Signaling
+### 385. The Generation of Organoids for Studying Wnt Signaling
 
 **Citation.** Drost J, Artegiani B, Clevers H. The Generation of Organoids for Studying Wnt Signaling. Methods Mol Biol. 2016;1481:141-59.
 
@@ -15503,7 +15435,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** We established an in vitro culture model in which intestinal epithelial stem cells can grow into three-dimensional, ever-expanding epithelial organoids that retain their original organ identity and genetic stability. Moreover, organoids can easily be genetically modified using different genome modification strategies, including viral delivery of transgenes and CRISPR/Cas9 technology. These combined characteristics make them a useful in vitro model system to study many biological processes including the contribution of cellular signaling pathways to tissue homeostasis and disease. Here we describe our current laboratory protocols to establish human intestinal organoids and how to genetically modify both mouse and human intestinal organoids to study cellular signaling pathways, specifically Wnt signaling. Moreover, we provide a detailed protocol for lentiviral transduction and CRISPR/Cas9-mediated genome modification of organoid cultures.
 
 ---
-### 387. Who Is in the Driver's Seat: Tracing Cancer Genes Using CRISPR-Barcoding
+### 386. Who Is in the Driver's Seat: Tracing Cancer Genes Using CRISPR-Barcoding
 
 **Citation.** Drost J, Clevers H. Who Is in the Driver's Seat: Tracing Cancer Genes Using CRISPR-Barcoding. Mol Cell. 2016;63(3):352-4.
 
@@ -15523,7 +15455,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Intratumor heterogeneity is thought to be the driving force of tumor evolution and therapy resistance. Yet tools to study these processes are limited. In this issue, Guernet et al. (2016) devised clustered regularly interspaced short palindromic repeats (CRISPR)-barcoding to functionally annotate specific mutations and study clonal evolution in heterogeneous cell populations.
 
 ---
-### 388. Tissue-specific designs of stem cell hierarchies
+### 387. Tissue-specific designs of stem cell hierarchies
 
 **Citation.** Visvader JE, Clevers H. Tissue-specific designs of stem cell hierarchies. Nat Cell Biol. 2016;18(4):349-55.
 
@@ -15544,7 +15476,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Recent work in the field of stem cell biology suggests that there is no single design for an adult tissue stem cell hierarchy, and that different tissues employ distinct strategies to meet their self-renewal and repair requirements. Stem cells may be multipotent or unipotent, and can exist in quiescent or actively dividing states. 'Professional' stem cells may also co-exist with facultative stem cells, which are more specialized daughter cells that revert to a stem cell state under specific tissue damage conditions. Here, we discuss stem cell strategies as seen in three solid mammalian tissues: the intestine, mammary gland and skeletal muscle.
 
 ---
-### 389. Dual regulatory switch through interactions of Tcf7l2/Tcf4 with stage-specific partners propels oligodendroglial maturation
+### 388. Dual regulatory switch through interactions of Tcf7l2/Tcf4 with stage-specific partners propels oligodendroglial maturation
 
 **Citation.** Zhao C, Deng Y, Liu L, Yu K, Zhang L, Wang H, He X, Wang J, Lu C, Wu LN, Weng Q, Mao M, Li J, van Es JH, Xin M, Parry L, Goldman SA, Clevers H, Lu QR. Dual regulatory switch through interactions of Tcf7l2/Tcf4 with stage-specific partners propels oligodendroglial maturation. Nat Commun. 2016;7:10883.
 
@@ -15589,7 +15521,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Constitutive activation of Wnt/β-catenin inhibits oligodendrocyte myelination. Tcf7l2/Tcf4, a β-catenin transcriptional partner, is required for oligodendrocyte differentiation. How Tcf7l2 modifies β-catenin signalling and controls myelination remains elusive. Here we define a stage-specific Tcf7l2-regulated transcriptional circuitry in initiating and sustaining oligodendrocyte differentiation. Multistage genome occupancy analyses reveal that Tcf7l2 serially cooperates with distinct co-regulators to control oligodendrocyte lineage progression. At the differentiation onset, Tcf7l2 interacts with a transcriptional co-repressor Kaiso/Zbtb33 to block β-catenin signalling. During oligodendrocyte maturation, Tcf7l2 recruits and cooperates with Sox10 to promote myelination. In that context, Tcf7l2 directly activates cholesterol biosynthesis genes and cholesterol supplementation partially rescues oligodendrocyte differentiation defects in Tcf712 mutants. Together, we identify stage-specific co-regulators Kaiso and Sox10 that sequentially interact with Tcf7l2 to coordinate the switch at the transitions of differentiation initiation and maturation during oligodendrocyte development, and point to a previously unrecognized role of Tcf7l2 in control of cholesterol biosynthesis for CNS myelinogenesis.
 
 ---
-### 390. Inactivation of TGFβ receptors in stem cells drives cutaneous squamous cell carcinoma
+### 389. Inactivation of TGFβ receptors in stem cells drives cutaneous squamous cell carcinoma
 
 **Citation.** Cammareri P, Rose AM, Vincent DF, Wang J, Nagano A, Libertini S, Ridgway RA, Athineos D, Coates PJ, McHugh A, Pourreyron C, Dayal JHS, Larsson J, Weidlich S, Spender LC, Sapkota GP, Purdie KJ, Proby CM, Harwood CA, Leigh IM, Clevers H, Barker N, Karlsson S, Pritchard C, Marais R, Chelala C, South AP, Sansom OJ, Inman GJ. Inactivation of TGFβ receptors in stem cells drives cutaneous squamous cell carcinoma. Nat Commun. 2016;7:12493.
 
@@ -15647,7 +15579,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Melanoma patients treated with oncogenic BRAF inhibitors can develop cutaneous squamous cell carcinoma (cSCC) within weeks of treatment, driven by paradoxical RAS/RAF/MAPK pathway activation. Here we identify frequent TGFBR1 and TGFBR2 mutations in human vemurafenib-induced skin lesions and in sporadic cSCC. Functional analysis reveals these mutations ablate canonical TGFβ Smad signalling, which is localized to bulge stem cells in both normal human and murine skin. MAPK pathway hyperactivation (through Braf(V600E) or Kras(G12D) knockin) and TGFβ signalling ablation (through Tgfbr1 deletion) in LGR5(+ve) stem cells enables rapid cSCC development in the mouse. Mutation of Tp53 (which is commonly mutated in sporadic cSCC) coupled with Tgfbr1 deletion in LGR5(+ve) cells also results in cSCC development. These findings indicate that LGR5(+ve) stem cells may act as cells of origin for cSCC, and that RAS/RAF/MAPK pathway hyperactivation or Tp53 mutation, coupled with loss of TGFβ signalling, are driving events of skin tumorigenesis.
 
 ---
-### 391. Programs for the persistence, vigilance and control of human CD8lung-resident memory T cells
+### 390. Programs for the persistence, vigilance and control of human CD8lung-resident memory T cells
 
 **Citation.** Hombrink P, Helbig C, Backer RA, Piet B, Oja AE, Stark R, Brasser G, Jongejan A, Jonkers RE, Nota B, Basak O, Clevers HC, Moerland PD, Amsen D, van Lier RAW. Programs for the persistence, vigilance and control of human CD8lung-resident memory T cells. Nat Immunol. 2016;17(12):1467-1478.
 
@@ -15685,7 +15617,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Tissue-resident memory T cells (Tcells) in the airways mediate protection against respiratory infection. We characterized Tcells expressing integrin α(CD103) that reside within the epithelial barrier of human lungs. These cells had specialized profiles of chemokine receptors and adhesion molecules, consistent with their unique localization. Lung Tcells were poised for rapid responsiveness by constitutive expression of deployment-ready mRNA encoding effector molecules, but they also expressed many inhibitory regulators, suggestive of programmed restraint. A distinct set of transcription factors was active in CD103Tcells, including Notch. Genetic and pharmacological experiments with mice revealed that Notch activity was required for the maintenance of CD103Tcells. We have thus identified specialized programs underlying the residence, persistence, vigilance and tight control of human lung Tcells.
 
 ---
-### 392. Genome-wide CRISPR screens reveal a Wnt-FZD5 signaling circuit as a druggable vulnerability of RNF43-mutant pancreatic tumors
+### 391. Genome-wide CRISPR screens reveal a Wnt-FZD5 signaling circuit as a druggable vulnerability of RNF43-mutant pancreatic tumors
 
 **Citation.** Steinhart Z, Pavlovic Z, Chandrashekhar M, Hart T, Wang X, Zhang X, Robitaille M, Brown KR, Jaksani S, Overmeer R, Boj SF, Adams J, Pan J, Clevers H, Sidhu S, Moffat J, Angers S. Genome-wide CRISPR screens reveal a Wnt-FZD5 signaling circuit as a druggable vulnerability of RNF43-mutant pancreatic tumors. Nat Med. 2016;23(1):60-68.
 
@@ -15726,7 +15658,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Forward genetic screens with CRISPR-Cas9 genome editing enable high-resolution detection of genetic vulnerabilities in cancer cells. We conducted genome-wide CRISPR-Cas9 screens in RNF43-mutant pancreatic ductal adenocarcinoma (PDAC) cells, which rely on Wnt signaling for proliferation. Through these screens, we discovered a unique requirement for a Wnt signaling circuit: engaging FZD5, one of the ten Frizzled receptors encoded in the human genome. Our results uncover an underappreciated level of context-dependent specificity at the Wnt receptor level. We further derived a panel of recombinant antibodies that reports the expression of nine FZD proteins and confirms that FZD5 functional specificity cannot be explained by protein expression patterns. Additionally, antibodies that specifically bind FZD5 and FZD8 robustly inhibited the growth of RNF43-mutant PDAC cells grown in vitro and as xenografts in vivo, providing orthogonal support for the functional specificity observed genetically. Proliferation of a patient-derived PDAC cell line harboring an RNF43 variant was also selectively inhibited by the FZD5 antibodies, further demonstrating their use as a potential targeted therapy. Tumor organoid cultures from colorectal carcinoma patients that carried RNF43 mutations were also sensitive to the FZD5 antibodies, highlighting the potential generalizability of these findings beyond PDAC. Our results show that CRIPSR-based genetic screens can be leveraged to identify and validate cell surface targets for antibody development and therapy.
 
 ---
-### 393. Culture and establishment of self-renewing human and mouse adult liver and pancreas 3D organoids and their genetic manipulation
+### 392. Culture and establishment of self-renewing human and mouse adult liver and pancreas 3D organoids and their genetic manipulation
 
 **Citation.** Broutier L, Andersson-Rolf A, Hindley CJ, Boj SF, Clevers H, Koo B, Huch M. Culture and establishment of self-renewing human and mouse adult liver and pancreas 3D organoids and their genetic manipulation. Nat Protoc. 2016;11(9):1724-43.
 
@@ -15756,7 +15688,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Adult somatic tissues have proven difficult to expand in vitro, largely because of the complexity of recreating appropriate environmental signals in culture. We have overcome this problem recently and developed culture conditions for adult stem cells that allow the long-term expansion of adult primary tissues from small intestine, stomach, liver and pancreas into self-assembling 3D structures that we have termed 'organoids'. We provide a detailed protocol that describes how to grow adult mouse and human liver and pancreas organoids, from cell isolation and long-term expansion to genetic manipulation in vitro. Liver and pancreas cells grow in a gel-based extracellular matrix (ECM) and a defined medium. The cells can self-organize into organoids that self-renew in vitro while retaining their tissue-of-origin commitment, genetic stability and potential to differentiate into functional cells in vitro (hepatocytes) and in vivo (hepatocytes and endocrine cells). Genetic modification of these organoids opens up avenues for the manipulation of adult stem cells in vitro, which could facilitate the study of human biology and allow gene correction for regenerative medicine purposes. The complete protocol takes 1-4 weeks to generate self-renewing 3D organoids and to perform genetic manipulation experiments. Personnel with basic scientific training can conduct this protocol.
 
 ---
-### 394. Organoid culture systems for prostate epithelial and cancer tissue
+### 393. Organoid culture systems for prostate epithelial and cancer tissue
 
 **Citation.** Drost J, Karthaus WR, Gao D, Driehuis E, Sawyers CL, Chen Y, Clevers H. Organoid culture systems for prostate epithelial and cancer tissue. Nat Protoc. 2016;11(2):347-58.
 
@@ -15785,7 +15717,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** This protocol describes a strategy for the generation of 3D prostate organoid cultures from healthy mouse and human prostate cells (either bulk or FACS-sorted single luminal and basal cells), metastatic prostate cancer lesions and circulating tumor cells. Organoids derived from healthy material contain the differentiated luminal and basal cell types, whereas organoids derived from prostate cancer tissue mimic the histology of the tumor. We explain how to establish these cultures in the fully defined serum-free conditioned medium that is required to sustain organoid growth. Starting with the plating of digested tissue material, full-grown organoids can usually be obtained in ∼2 weeks. The culture protocol we describe here is currently the only one that allows the growth of both the luminal and basal prostatic epithelial lineages, as well as the growth of advanced prostate cancers. Organoids established using this protocol can be used to study many different aspects of prostate biology, including homeostasis, tumorigenesis and drug discovery.
 
 ---
-### 395. Designer matrices for intestinal stem cell and organoid culture
+### 394. Designer matrices for intestinal stem cell and organoid culture
 
 **Citation.** Gjorevski N, Sachs N, Manfrin A, Giger S, Bragina ME, Ordóñez-Morán P, Clevers H, Lutolf MP. Designer matrices for intestinal stem cell and organoid culture. Nature. 2016;539(7630):560-564.
 
@@ -15814,7 +15746,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Epithelial organoids recapitulate multiple aspects of real organs, making them promising models of organ development, function and disease. However, the full potential of organoids in research and therapy has remained unrealized, owing to the poorly defined animal-derived matrices in which they are grown. Here we used modular synthetic hydrogel networks to define the key extracellular matrix (ECM) parameters that govern intestinal stem cell (ISC) expansion and organoid formation, and show that separate stages of the process require different mechanical environments and ECM components. In particular, fibronectin-based adhesion was sufficient for ISC survival and proliferation. High matrix stiffness significantly enhanced ISC expansion through a yes-associated protein 1 (YAP)-dependent mechanism. ISC differentiation and organoid formation, on the other hand, required a soft matrix and laminin-based adhesion. We used these insights to build a fully defined culture system for the expansion of mouse and human ISCs. We also produced mechanically dynamic matrices that were initially optimal for ISC expansion and subsequently permissive to differentiation and intestinal organoid formation, thus creating well-defined alternatives to animal-derived matrices for the culture of mouse and human stem-cell-derived organoids. Our approach overcomes multiple limitations of current organoid cultures and greatly expands their applicability in basic and clinical research. The principles presented here can be extended to identify designer matrices that are optimal for long-term culture of other types of stem cells and organoids.
 
 ---
-### 396. Reparative inflammation takes charge of tissue regeneration
+### 395. Reparative inflammation takes charge of tissue regeneration
 
 **Citation.** Karin M, Clevers H. Reparative inflammation takes charge of tissue regeneration. Nature. 2016;529(7586):307-15.
 
@@ -15836,7 +15768,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Inflammation underlies many chronic and degenerative diseases, but it also mitigates infections, clears damaged cells and initiates tissue repair. Many of the mechanisms that link inflammation to damage repair and regeneration in mammals are conserved in lower organisms, indicating that it is an evolutionarily important process. Recent insights have shed light on the cellular and molecular processes through which conventional inflammatory cytokines and Wnt factors control mammalian tissue repair and regeneration. This is particularly important for regeneration in the gastrointestinal system, especially for intestine and liver tissues in which aberrant and deregulated repair results in severe pathologies.
 
 ---
-### 397. Tissue-specific mutation accumulation in human adult stem cells during life
+### 396. Tissue-specific mutation accumulation in human adult stem cells during life
 
 **Citation.** Blokzijl F, de Ligt J, Jager M, Sasselli V, Roerink S, Sasaki N, Huch M, Boymans S, Kuijk E, Prins P, Nijman IJ, Martincorena I, Mokry M, Wiegerinck CL, Middendorp S, Sato T, Schwank G, Nieuwenhuis EES, Verstegen MMA, van der Laan LJW, de Jonge J, IJzermans JNM, Vries RG, van de Wetering M, Stratton MR, Clevers H, Cuppen E, van Boxtel R. Tissue-specific mutation accumulation in human adult stem cells during life. Nature. 2016;538(7624):260-264.
 
@@ -15887,7 +15819,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The gradual accumulation of genetic mutations in human adult stem cells (ASCs) during life is associated with various age-related diseases, including cancer. Extreme variation in cancer risk across tissues was recently proposed to depend on the lifetime number of ASC divisions, owing to unavoidable random mutations that arise during DNA replication. However, the rates and patterns of mutations in normal ASCs remain unknown. Here we determine genome-wide mutation patterns in ASCs of the small intestine, colon and liver of human donors with ages ranging from 3 to 87 years by sequencing clonal organoid cultures derived from primary multipotent cells. Our results show that mutations accumulate steadily over time in all of the assessed tissue types, at a rate of approximately 40 novel mutations per year, despite the large variation in cancer incidence among these tissues. Liver ASCs, however, have different mutation spectra compared to those of the colon and small intestine. Mutational signature analysis reveals that this difference can be attributed to spontaneous deamination of methylated cytosine residues in the colon and small intestine, probably reflecting their high ASC division rate. In liver, a signature with an as-yet-unknown underlying mechanism is predominant. Mutation spectra of driver genes in cancer show high similarity to the tissue-specific ASC mutation spectra, suggesting that intrinsic mutational processes in ASCs can initiate tumorigenesis. Notably, the inter-individual variation in mutation rate and spectra are low, suggesting tissue-specific activity of common mutational processes throughout life.
 
 ---
-### 398. Visualization of a short-range Wnt gradient in the intestinal stem-cell niche
+### 397. Visualization of a short-range Wnt gradient in the intestinal stem-cell niche
 
 **Citation.** Farin HF, Jordens I, Mosa MH, Basak O, Korving J, Tauriello DVF, de Punder K, Angers S, Peters PJ, Maurice MM, Clevers H. Visualization of a short-range Wnt gradient in the intestinal stem-cell niche. Nature. 2016;530(7590):340-3.
 
@@ -15922,7 +15854,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Mammalian Wnt proteins are believed to act as short-range signals, yet have not been previously visualized in vivo. Self-renewal, proliferation and differentiation are coordinated along a putative Wnt gradient in the intestinal crypt. Wnt3 is produced specifically by Paneth cells. Here we have generated an epitope-tagged, functional Wnt3 knock-in allele. Wnt3 covers basolateral membranes of neighbouring stem cells. In intestinal organoids, Wnt3-transfer involves direct contact between Paneth cells and stem cells. Plasma membrane localization requires surface expression of Frizzled receptors, which in turn is regulated by the transmembrane E3 ligases Rnf43/Znrf3 and their antagonists Lgr4-5/R-spondin. By manipulating Wnt3 secretion and by arresting stem-cell proliferation, we demonstrate that Wnt3 mainly travels away from its source in a cell-bound manner through cell division, and not through diffusion. We conclude that stem-cell membranes constitute a reservoir for Wnt proteins, while Frizzled receptor turnover and 'plasma membrane dilution' through cell division shape the epithelial Wnt3 gradient.
 
 ---
-### 399. Functional redundancy between Apc and Apc2 regulates tissue homeostasis and prevents tumorigenesis in murine mammary epithelium
+### 398. Functional redundancy between Apc and Apc2 regulates tissue homeostasis and prevents tumorigenesis in murine mammary epithelium
 
 **Citation.** Daly CS, Shaw P, Ordonez LD, Williams GT, Quist J, Grigoriadis A, Van Es JH, Clevers H, Clarke AR, Reed KR. Functional redundancy between Apc and Apc2 regulates tissue homeostasis and prevents tumorigenesis in murine mammary epithelium. Oncogene. 2016;36(13):1793-1803.
 
@@ -15954,7 +15886,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Aberrant Wnt signaling within breast cancer is associated with poor prognosis, but regulation of this pathway in breast tissue remains poorly understood and the consequences of immediate or long-term dysregulation remain elusive. The exact contribution of the Wnt-regulating proteins adenomatous polyposis coli (APC) and APC2 in the pathogenesis of human breast cancer are ill-defined, but our analysis of publically available array data sets indicates that tumors with concomitant low expression of both proteins occurs more frequently in the 'triple negative' phenotype, which is a subtype of breast cancer with particularly poor prognosis. We have used mouse transgenics to delete Apc and/or Apc2 from mouse mammary epithelium to elucidate the significance of these proteins in mammary homeostasis and delineate their influences on Wnt signaling and tumorigenesis. Loss of either protein alone failed to affect Wnt signaling levels or tissue homeostasis. Strikingly, concomitant loss led to local disruption of β-catenin status, disruption in epithelial integrity, cohesion and polarity, increased cell division and a distinctive form of ductal hyperplasia with 'squamoid' ghost cell nodules in young animals. Upon aging, the development of Wnt activated mammary carcinomas with squamous differentiation was accompanied by a significantly reduced survival. This novel Wnt-driven mammary tumor model highlights the importance of functional redundancies existing between the Apc proteins both in normal homeostasis and in tumorigenesis.
 
 ---
-### 400. Aberrantly expressed LGR4 empowers Wnt signaling in multiple myeloma by hijacking osteoblast-derived R-spondins
+### 399. Aberrantly expressed LGR4 empowers Wnt signaling in multiple myeloma by hijacking osteoblast-derived R-spondins
 
 **Citation.** van Andel H, Ren Z, Koopmans I, Joosten SPJ, Kocemba KA, de Lau W, Kersten MJ, de Bruin AM, Guikema JEJ, Clevers H, Spaargaren M, Pals ST. Aberrantly expressed LGR4 empowers Wnt signaling in multiple myeloma by hijacking osteoblast-derived R-spondins. Proc Natl Acad Sci U S A. 2016;114(2):376-381.
 
@@ -15990,7 +15922,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The unrestrained growth of tumor cells is generally attributed to mutations in essential growth control genes, but tumor cells are also affected by, or even addicted to, signals from the microenvironment. As therapeutic targets, these extrinsic signals may be equally significant as mutated oncogenes. In multiple myeloma (MM), a plasma cell malignancy, most tumors display hallmarks of active Wnt signaling but lack activating Wnt-pathway mutations, suggesting activation by autocrine Wnt ligands and/or paracrine Wnts emanating from the bone marrow (BM) niche. Here, we report a pivotal role for the R-spondin/leucine-rich repeat-containing G protein-coupled receptor 4 (LGR4) axis in driving aberrant Wnt/β-catenin signaling in MM. We show that LGR4 is expressed by MM plasma cells, but not by normal plasma cells or B cells. This aberrant LGR4 expression is driven by IL-6/STAT3 signaling and allows MM cells to hijack R-spondins produced by (pre)osteoblasts in the BM niche, resulting in Wnt (co)receptor stabilization and a dramatically increased sensitivity to auto- and paracrine Wnts. Our study identifies aberrant R-spondin/LGR4 signaling with consequent deregulation of Wnt (co)receptor turnover as a driver of oncogenic Wnt/β-catenin signaling in MM cells. These results advocate targeting of the LGR4/R-spondin interaction as a therapeutic strategy in MM.
 
 ---
-### 401. Generation of an inducible colon-specific Cre enzyme mouse line for colon cancer research
+### 400. Generation of an inducible colon-specific Cre enzyme mouse line for colon cancer research
 
 **Citation.** Tetteh PW, Kretzschmar K, Begthel H, van den Born M, Korving J, Morsink F, Farin H, van Es JH, Offerhaus GJA, Clevers H. Generation of an inducible colon-specific Cre enzyme mouse line for colon cancer research. Proc Natl Acad Sci U S A. 2016;113(42):11859-11864.
 
@@ -16020,7 +15952,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Current mouse models for colorectal cancer often differ significantly from human colon cancer, being largely restricted to the small intestine. Here, we aim to develop a colon-specific inducible mouse model that can faithfully recapitulate human colon cancer initiation and progression. Carbonic anhydrase I (Car1) is a gene expressed uniquely in colonic epithelial cells. We generated a colon-specific inducible Car1knock-in (KI) mouse with broad Cre activity in epithelial cells of the proximal colon and cecum. Deletion of the tumor suppressor gene Apc using the Car1KI caused tumor formation in the cecum but did not yield adenomas in the proximal colon. Mutation of both Apc and Kras yielded microadenomas in both the cecum and the proximal colon, which progressed to macroadenomas with significant morbidity. Aggressive carcinomas with some invasion into lymph nodes developed upon combined induction of oncogenic mutations of Apc, Kras, p53, and Smad4 Importantly, no adenomas were observed in the small intestine. Additionally, we observed tumors from differentiated Car1-expressing cells with Apc/Kras mutations, suggesting that a top-down model of intestinal tumorigenesis can occur with multiple mutations. Our results establish the Car1KI as a valuable mouse model to study colon-specific tumorigenesis and metastasis as well as cancer-cell-of-origin questions.
 
 ---
-### 402. Reg4+ deep crypt secretory cells function as epithelial niche for Lgr5+ stem cells in colon
+### 401. Reg4+ deep crypt secretory cells function as epithelial niche for Lgr5+ stem cells in colon
 
 **Citation.** Sasaki N, Sachs N, Wiebrands K, Ellenbroek SIJ, Fumagalli A, Lyubimova A, Begthel H, van den Born M, van Es JH, Karthaus WR, Li VSW, López-Iglesias C, Peters PJ, van Rheenen J, van Oudenaarden A, Clevers H. Reg4+ deep crypt secretory cells function as epithelial niche for Lgr5+ stem cells in colon. Proc Natl Acad Sci U S A. 2016;113(37):E5399-407.
 
@@ -16055,7 +15987,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Leucine-rich repeat-containing G-protein coupled receptor 5-positive (Lgr5(+)) stem cells reside at crypt bottoms of the small and large intestine. Small intestinal Paneth cells supply Wnt3, EGF, and Notch signals to neighboring Lgr5(+) stem cells. Whereas the colon lacks Paneth cells, deep crypt secretory (DCS) cells are intermingled with Lgr5(+) stem cells at crypt bottoms. Here, we report regenerating islet-derived family member 4 (Reg4) as a marker of DCS cells. To investigate a niche function, we eliminated DCS cells by using the diphtheria-toxin receptor gene knocked into the murine Reg4 locus. Ablation of DCS cells results in loss of stem cells from colonic crypts and disrupts gut homeostasis and colon organoid growth. In agreement, sorted Reg4(+) DCS cells promote organoid formation of single Lgr5(+) colon stem cells. DCS cells can be massively produced from Lgr5(+) colon stem cells in vitro by combined Notch inhibition and Wnt activation. We conclude that Reg4(+) DCS cells serve as Paneth cell equivalents in the colon crypt niche.
 
 ---
-### 403. Analysis of neural crest-derived clones reveals novel aspects of facial development
+### 402. Analysis of neural crest-derived clones reveals novel aspects of facial development
 
 **Citation.** Kaucka M, Ivashkin E, Gyllborg D, Zikmund T, Tesarova M, Kaiser J, Xie M, Petersen J, Pachnis V, Nicolis SK, Yu T, Sharpe P, Arenas E, Brismar H, Blom H, Clevers H, Suter U, Chagin AS, Fried K, Hellander A, Adameyko I. Analysis of neural crest-derived clones reveals novel aspects of facial development. Sci Adv. 2016;2(8):e1600060.
 
@@ -16107,7 +16039,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Cranial neural crest cells populate the future facial region and produce ectomesenchyme-derived tissues, such as cartilage, bone, dermis, smooth muscle, adipocytes, and many others. However, the contribution of individual neural crest cells to certain facial locations and the general spatial clonal organization of the ectomesenchyme have not been determined. We investigated how neural crest cells give rise to clonally organized ectomesenchyme and how this early ectomesenchyme behaves during the developmental processes that shape the face. Using a combination of mouse and zebrafish models, we analyzed individual migration, cell crowd movement, oriented cell division, clonal spatial overlapping, and multilineage differentiation. The early face appears to be built from multiple spatially defined overlapping ectomesenchymal clones. During early face development, these clones remain oligopotent and generate various tissues in a given location. By combining clonal analysis, computer simulations, mouse mutants, and live imaging, we show that facial shaping results from an array of local cellular activities in the ectomesenchyme. These activities mostly involve oriented divisions and crowd movements of cells during morphogenetic events. Cellular behavior that can be recognized as individual cell migration is very limited and short-ranged and likely results from cellular mixing due to the proliferation activity of the tissue. These cellular mechanisms resemble the strategy behind limb bud morphogenesis, suggesting the possibility of common principles and deep homology between facial and limb outgrowth.
 
 ---
-### 404. Generation and characterization of rat liver stem cell lines and their engraftment in a rat model of liver failure
+### 403. Generation and characterization of rat liver stem cell lines and their engraftment in a rat model of liver failure
 
 **Citation.** Kuijk EW, Rasmussen S, Blokzijl F, Huch M, Gehart H, Toonen P, Begthel H, Clevers H, Geurts AM, Cuppen E. Generation and characterization of rat liver stem cell lines and their engraftment in a rat model of liver failure. Sci Rep. 2016;6:22154.
 
@@ -16140,7 +16072,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The rat is an important model for liver regeneration. However, there is no in vitro culture system that can capture the massive proliferation that can be observed after partial hepatectomy in rats. We here describe the generation of rat liver stem cell lines. Rat liver stem cells, which grow as cystic organoids, were characterized by high expression of the stem cell marker Lgr5, by the expression of liver progenitor and duct markers, and by low expression of hepatocyte markers, oval cell markers, and stellate cell markers. Prolonged cultures of rat liver organoids depended on high levels of WNT-signalling and the inhibition of BMP-signaling. Upon transplantation of clonal lines to a Fah(-/-) Il2rg(-/-) rat model of liver failure, the rat liver stem cells engrafted into the host liver where they differentiated into areas with FAH and Albumin positive hepatocytes. Rat liver stem cell lines hold potential as consistent reliable cell sources for pharmacological, toxicological or metabolic studies. In addition, rat liver stem cell lines may contribute to the development of regenerative medicine in liver disease. To our knowledge, the here described liver stem cell lines represent the first organoid culture system in the rat.
 
 ---
-### 405. Characterizing responses to CFTR-modulating drugs using rectal organoids derived from subjects with cystic fibrosis
+### 404. Characterizing responses to CFTR-modulating drugs using rectal organoids derived from subjects with cystic fibrosis
 
 **Citation.** Dekkers JF, Berkers G, Kruisselbrink E, Vonk A, de Jonge HR, Janssens HM, Bronsveld I, van de Graaf EA, Nieuwenhuis EES, Houwen RHJ, Vleggaar FP, Escher JC, de Rijke YB, Majoor CJ, Heijerman HGM, de Winter-de Groot KM, Clevers H, van der Ent CK, Beekman JM. Characterizing responses to CFTR-modulating drugs using rectal organoids derived from subjects with cystic fibrosis. Sci Transl Med. 2016;8(344):344ra84.
 
@@ -16189,7 +16121,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Identifying subjects with cystic fibrosis (CF) who may benefit from cystic fibrosis transmembrane conductance regulator (CFTR)-modulating drugs is time-consuming, costly, and especially challenging for individuals with rare uncharacterized CFTR mutations. We studied CFTR function and responses to two drugs-the prototypical CFTR potentiator VX-770 (ivacaftor/KALYDECO) and the CFTR corrector VX-809 (lumacaftor)-in organoid cultures derived from the rectal epithelia of subjects with CF, who expressed a broad range of CFTR mutations. We observed that CFTR residual function and responses to drug therapy depended on both the CFTR mutation and the genetic background of the subjects. In vitro drug responses in rectal organoids positively correlated with published outcome data from clinical trials with VX-809 and VX-770, allowing us to predict from preclinical data the potential for CF patients carrying rare CFTR mutations to respond to drug therapy. We demonstrated proof of principle by selecting two subjects expressing an uncharacterized rare CFTR genotype (G1249R/F508del) who showed clinical responses to treatment with ivacaftor and one subject (F508del/R347P) who showed a limited response to drug therapy both in vitro and in vivo. These data suggest that in vitro measurements of CFTR function in patient-derived rectal organoids may be useful for identifying subjects who would benefit from CFTR-correcting treatment, independent of their CFTR mutation.
 
 ---
-### 406. Modeling pancreatic cancer with organoids
+### 405. Modeling pancreatic cancer with organoids
 
 **Citation.** Baker LA, Tiriac H, Clevers H, Tuveson DA. Modeling pancreatic cancer with organoids. Trends Cancer. 2016;2(4):176-190.
 
@@ -16216,7 +16148,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 
 ## 2015
 
-### 407. Lgr4 controls specialization of female gonads in mice
+### 406. Lgr4 controls specialization of female gonads in mice
 
 **Citation.** Koizumi M, Oyama K, Yamakami Y, Kida T, Satoh R, Kato S, Hidema S, Oe T, Goto T, Clevers H, Nawa A, Nishimori K. Lgr4 controls specialization of female gonads in mice. Biol Reprod. 2015;93(4):90.
 
@@ -16251,7 +16183,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Leucine-rich repeat-containing G protein-coupled receptor 4 (Lgr4) is a type of membrane receptor with a seven-transmembrane structure. LGR4 is homologous to gonadotropin receptors, such as follicle-stimulating hormone receptor (Fshr) and luteinizing hormone/choriogonadotropin receptor (Lhcgr). Recently, it has been reported that Lgr4 is a membrane receptor for R-spondin ligands, which mediate Wnt/beta-catenin signaling. Defects of R-spondin homolog (Rspo1) and wingless-type MMTV integration site family, member 4 (Wnt4) cause masculinization of female gonads. We observed that Lgr4(-/-) female mice show abnormal development of the Wolffian ducts and somatic cells similar to that in the male gonads. Lgr4(-/-) female mice exhibited masculinization similar to that observed in Rspo1-deficient mice. In Lgr4(-/-) ovarian somatic cells, the expression levels of lymphoid enhancer-binding factor 1 (Lefl) and Axin2 (Axin2), which are target genes of Wnt/beta-catenin signaling, were lower than they were in wild-type mice. This study suggests that Lgr4 is critical for ovarian somatic cell specialization via the cooperative signaling of Rspo1 and Wnt/beta-catenin.
 
 ---
-### 408. Apc Restoration Promotes Cellular Differentiation and Reestablishes Crypt Homeostasis in Colorectal Cancer
+### 407. Apc Restoration Promotes Cellular Differentiation and Reestablishes Crypt Homeostasis in Colorectal Cancer
 
 **Citation.** Dow LE, O'Rourke KP, Simon J, Tschaharganeh DF, van Es JH, Clevers H, Lowe SW. Apc Restoration Promotes Cellular Differentiation and Reestablishes Crypt Homeostasis in Colorectal Cancer. Cell. 2015;161(7):1539-1552.
 
@@ -16279,7 +16211,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The adenomatous polyposis coli (APC) tumor suppressor is mutated in the vast majority of human colorectal cancers (CRC) and leads to deregulated Wnt signaling. To determine whether Apc disruption is required for tumor maintenance, we developed a mouse model of CRC whereby Apc can be conditionally suppressed using a doxycycline-regulated shRNA. Apc suppression produces adenomas in both the small intestine and colon that, in the presence of Kras and p53 mutations, can progress to invasive carcinoma. In established tumors, Apc restoration drives rapid and widespread tumor-cell differentiation and sustained regression without relapse. Tumor regression is accompanied by the re-establishment of normal crypt-villus homeostasis, such that once aberrantly proliferating cells reacquire self-renewal and multi-lineage differentiation capability. Our study reveals that CRC cells can revert to functioning normal cells given appropriate signals and provide compelling in vivo validation of the Wnt pathway as a therapeutic target for treatment of CRC.
 
 ---
-### 409. Efficient intracellular delivery of native proteins
+### 408. Efficient intracellular delivery of native proteins
 
 **Citation.** D'Astolfo DS, Pagliero RJ, Pras A, Karthaus WR, Clevers H, Prasad V, Lebbink RJ, Rehmann H, Geijsen N. Efficient intracellular delivery of native proteins. Cell. 2015;161(3):674-690.
 
@@ -16310,7 +16242,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Modulation of protein function is used to intervene in cellular processes but is often done indirectly by means of introducing DNA or mRNA encoding the effector protein. Thus far, direct intracellular delivery of proteins has remained challenging. We developed a method termed iTOP, for induced transduction by osmocytosis and propanebetaine, in which a combination of NaCl hypertonicity-induced macropinocytosis and a transduction compound (propanebetaine) induces the highly efficient transduction of proteins into a wide variety of primary cells. We demonstrate that iTOP is a useful tool in systems in which transient cell manipulation drives permanent cellular changes. As an example, we demonstrate that iTOP can mediate the delivery of recombinant Cas9 protein and short guide RNA, driving efficient gene targeting in a non-integrative manner.
 
 ---
-### 410. Prospective derivation of a living organoid biobank of colorectal cancer patients
+### 409. Prospective derivation of a living organoid biobank of colorectal cancer patients
 
 **Citation.** van de Wetering M, Francies HE, Francis JM, Bounova G, Iorio F, Pronk A, van Houdt W, van Gorp J, Taylor-Weiner A, Kester L, McLaren-Douglas A, Blokker J, Jaksani S, Bartfeld S, Volckman R, van Sluis P, Li VSW, Seepo S, Sekhar Pedamallu C, Cibulskis K, Carter SL, McKenna A, Lawrence MS, Lichtenstein L, Stewart C, Koster J, Versteeg R, van Oudenaarden A, Saez-Rodriguez J, Vries RGJ, Getz G, Wessels L, Stratton MR, McDermott U, Meyerson M, Garnett MJ, Clevers H. Prospective derivation of a living organoid biobank of colorectal cancer patients. Cell. 2015;161(4):933-45.
 
@@ -16375,7 +16307,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** In Rspondin-based 3D cultures, Lgr5 stem cells from multiple organs form ever-expanding epithelial organoids that retain their tissue identity. We report the establishment of tumor organoid cultures from 20 consecutive colorectal carcinoma (CRC) patients. For most, organoids were also generated from adjacent normal tissue. Organoids closely recapitulate several properties of the original tumor. The spectrum of genetic changes within the "living biobank" agrees well with previous large-scale mutational analyses of CRC. Gene expression analysis indicates that the major CRC molecular subtypes are represented. Tumor organoids are amenable to high-throughput drug screens allowing detection of gene-drug associations. As an example, a single organoid culture was exquisitely sensitive to Wnt secretion (porcupine) inhibitors and carried a mutation in the negative Wnt feedback regulator RNF43, rather than in APC. Organoid technology may fill the gap between cancer genetics and patient trials, complement cell-line- and xenograft-based drug studies, and allow personalized therapy design. PAPERCLIP.
 
 ---
-### 411. Radical Sabbaticals
+### 410. Radical Sabbaticals
 
 **Citation.** Clevers H, Firestein S, Ringrose L, Bernards R, Darwin KH, Vance RE. Radical Sabbaticals. Cell. 2015;163(4):788-9.
 
@@ -16394,10 +16326,10 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 412. SnapShot: Growing Organoids from Stem Cells
+### 411. SnapShot: Growing Organoids from Stem Cells
 
 **Citation.** Sato T, Clevers H. SnapShot: Growing Organoids from Stem Cells. Cell. 2015;161(7):1700-1700.e1.
 
@@ -16418,7 +16350,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Tissue stem cells require unique niche microenvironments. In the presence of specific combinations of niche factors, mouse and human epithelial tissues from stomach, small intestine, colon, pancreas duct, and liver bile duct efficiently form stereotypic organoids. The platform of epitheloid organoids can also be employed for in vitro generation of digestive tissue from human pluripotent stem cells. Organoids hold great promise for basic and translational research.
 
 ---
-### 413. Identification of Different Classes of Luminal Progenitor Cells within Prostate Tumors
+### 412. Identification of Different Classes of Luminal Progenitor Cells within Prostate Tumors
 
 **Citation.** Agarwal S, Hynes PG, Tillman HS, Lake R, Abou-Kheir WG, Fang L, Casey OM, Ameri AH, Martin PL, Yin JJ, Iaquinta PJ, Karthaus WR, Clevers HC, Sawyers CL, Kelly K. Identification of Different Classes of Luminal Progenitor Cells within Prostate Tumors. Cell Rep. 2015;13(10):2147-58.
 
@@ -16455,7 +16387,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Primary prostate cancer almost always has a luminal phenotype. However, little is known about the stem/progenitor properties of transformed cells within tumors. Using the aggressive Pten/Tp53-null mouse model of prostate cancer, we show that two classes of luminal progenitors exist within a tumor. Not only did tumors contain previously described multipotent progenitors, but also a major population of committed luminal progenitors. Luminal cells, sorted directly from tumors or grown as organoids, initiated tumors of adenocarcinoma or multilineage histological phenotypes, which is consistent with luminal and multipotent differentiation potentials, respectively. Moreover, using organoids we show that the ability of luminal-committed progenitors to self-renew is a tumor-specific property, absent in benign luminal cells. Finally, a significant fraction of luminal progenitors survived in vivo castration. In all, these data reveal two luminal tumor populations with different stem/progenitor cell capacities, providing insight into prostate cancer cells that initiate tumors and can influence treatment response.
 
 ---
-### 414. Expanding intestinal stem cells in culture
+### 413. Expanding intestinal stem cells in culture
 
 **Citation.** Heo I, Clevers H. Expanding intestinal stem cells in culture. Cell Res. 2015;25(9):995-6.
 
@@ -16475,7 +16407,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Culturing intestinal stem cells into 3D organoids results in heterogeneous cell populations, reflecting the in vivo cell type diversity. In a recent paper published in Nature, Wang et al. established a culture condition for a highly homogeneous population of intestinal stem cells.
 
 ---
-### 415. Ascl2 acts as an R-spondin/Wnt-responsive switch to control stemness in intestinal crypts
+### 414. Ascl2 acts as an R-spondin/Wnt-responsive switch to control stemness in intestinal crypts
 
 **Citation.** Schuijers J, Junker JP, Mokry M, Hatzis P, Koo B, Sasselli V, van der Flier LG, Cuppen E, van Oudenaarden A, Clevers H. Ascl2 acts as an R-spondin/Wnt-responsive switch to control stemness in intestinal crypts. Cell Stem Cell. 2015;16(2):158-70.
 
@@ -16507,7 +16439,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The Wnt signaling pathway controls stem cell identity in the intestinal epithelium and in many other adult organs. The transcription factor Ascl2 (a Wnt target gene) is a master regulator of intestinal stem cell identity. It is unclear how the continuous Wnt gradient along the crypt axis is translated into discrete expression of Ascl2 and discrete specification of stem cells at crypt bottoms. We show that (1) Ascl2 is regulated in a direct autoactivatory loop, leading to a distinct on/off expression pattern, and (2) Wnt/R-spondin can activate this regulatory loop. This mechanism interprets the Wnt levels in the intestinal crypt and translates the continuous Wnt signal into a discrete Ascl2 "on" or "off" decision. In turn, Ascl2, together with β-catenin/Tcf, activates the genes fundamental to the stem cell state. In this manner, Ascl2 forms a transcriptional switch that is both Wnt responsive and Wnt dependent to define stem cell identity.
 
 ---
-### 416. Premigratory and migratory neural crest cells are multipotent in vivo
+### 415. Premigratory and migratory neural crest cells are multipotent in vivo
 
 **Citation.** Baggiolini A, Varum S, Mateos JM, Bettosini D, John N, Bonalli M, Ziegler U, Dimou L, Clevers H, Furrer R, Sommer L. Premigratory and migratory neural crest cells are multipotent in vivo. Cell Stem Cell. 2015;16(3):314-22.
 
@@ -16540,7 +16472,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The neural crest (NC) is an embryonic stem/progenitor cell population that generates a diverse array of cell lineages, including peripheral neurons, myelinating Schwann cells, and melanocytes, among others. However, there is a long-standing controversy as to whether this broad developmental perspective reflects in vivo multipotency of individual NC cells or whether the NC is comprised of a heterogeneous mixture of lineage-restricted progenitors. Here, we resolve this controversy by performing in vivo fate mapping of single trunk NC cells both at premigratory and migratory stages using the R26R-Confetti mouse model. By combining quantitative clonal analyses with definitive markers of differentiation, we demonstrate that the vast majority of individual NC cells are multipotent, with only few clones contributing to single derivatives. Intriguingly, multipotency is maintained in migratory NC cells. Thus, our findings provide definitive evidence for the in vivo multipotency of both premigratory and migrating NC cells in the mouse.
 
 ---
-### 417. In Situ Hybridization to Identify Gut Stem Cells
+### 416. In Situ Hybridization to Identify Gut Stem Cells
 
 **Citation.** Gregorieff A, Clevers H. In Situ Hybridization to Identify Gut Stem Cells. Curr Protoc Stem Cell Biol. 2015;34:2F.1.1-2F.1.11.
 
@@ -16560,7 +16492,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** In recent years, considerable effort has been directed toward identifying the repertoire of genes specifically expressed in adult stem cells. In this unit, we describe an in situ hybridization protocol adapted for the analysis of gene expression in the intestinal mucosa. This methodology allows researchers to quickly visualize the expression profile of putative stem cell markers with a high degree of sensitivity and resolution.
 
 ---
-### 418. The gut microbiota keeps enteric glial cells on the move; prospective roles of the gut epithelium and immune system
+### 417. The gut microbiota keeps enteric glial cells on the move; prospective roles of the gut epithelium and immune system
 
 **Citation.** Kabouridis PS, Lasrado R, McCallum S, Chng SH, Snippert HJ, Clevers H, Pettersson S, Pachnis V. The gut microbiota keeps enteric glial cells on the move; prospective roles of the gut epithelium and immune system. Gut Microbes. 2015;6(6):398-403.
 
@@ -16590,7 +16522,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The enteric nervous system (ENS) coordinates the major functions of the gastrointestinal tract. Its development takes place within a constantly changing environment which, after birth, culminates in the establishment of a complex gut microbiota. How such changes affect ENS development and its subsequent function throughout life is an emerging field of study that holds great interest but which is inadequately explored thus far. In this addendum, we discuss our recent findings showing that a component of the ENS, the enteric glial cell network that resides in the gut lamina propria, develops after birth and parallels the evolution of the gut microbiota. Importantly, this network was found to be malleable throughout life by incorporating new cells that arrive from the area of the gut wall in a process of directional movement which was controlled by the lumen gut microbiota. Finally, we postulate on the roles of the intestinal epithelium and the immune system as potential intermediaries between gut microbiota and ENS responses.
 
 ---
-### 419. Germline deletions in the tumour suppressor gene FOCAD are associated with polyposis and colorectal cancer development
+### 418. Germline deletions in the tumour suppressor gene FOCAD are associated with polyposis and colorectal cancer development
 
 **Citation.** Weren RDA, Venkatachalam R, Cazier J, Farin HF, Kets CM, de Voer RM, Vreede L, Verwiel ETP, van Asseldonk M, Kamping EJ, Kiemeney LA, Neveling K, Aben KKH, Carvajal-Carmona L, Nagtegaal ID, Schackert HK, Clevers H, van de Wetering M, Tomlinson IP, Ligtenberg MJL, Hoogerbrugge N, Geurts van Kessel A, Kuiper RP. Germline deletions in the tumour suppressor gene FOCAD are associated with polyposis and colorectal cancer development. J Pathol. 2015;236(2):155-64.
 
@@ -16638,7 +16570,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Heritable genetic variants can significantly affect the lifetime risk of developing cancer, including polyposis and colorectal cancer (CRC). Variants in genes currently known to be associated with a high risk for polyposis or CRC, however, explain only a limited number of hereditary cases. The identification of additional genetic causes is, therefore, crucial to improve CRC prevention, detection and treatment. We have performed genome-wide and targeted DNA copy number profiling and resequencing in early-onset and familial polyposis/CRC patients, and show that deletions affecting the open reading frame of the tumour suppressor gene FOCAD are recurrent and significantly enriched in CRC patients compared with unaffected controls. All patients carrying FOCAD deletions exhibited a personal or family history of polyposis. RNA in situ hybridization revealed FOCAD expression in epithelial cells in the colonic crypt, the site of tumour initiation, as well as in colonic tumours and organoids. Our data suggest that monoallelic germline deletions in the tumour suppressor gene FOCAD underlie moderate genetic predisposition to the development of polyposis and CRC.
 
 ---
-### 420. Preclinical models of pancreatic ductal adenocarcinoma
+### 419. Preclinical models of pancreatic ductal adenocarcinoma
 
 **Citation.** Hwang C, Boj SF, Clevers H, Tuveson DA. Preclinical models of pancreatic ductal adenocarcinoma. J Pathol. 2015;238(2):197-204.
 
@@ -16664,7 +16596,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Pancreatic ductal adenocarcinoma (PDA) is one of the most difficult human malignancies to treat. The 5-year survival rate of PDA patients is 7% and PDA is predicted to become the second leading cancer-related cause of death in the USA. Despite intensive efforts, the translation of findings in preclinical studies has been ineffective, due partially to the lack of preclinical models that faithfully recapitulate features of human PDA. Here, we review current preclinical models for human PDA (eg human PDA cell lines, cell line-based xenografts and patient-derived tumour xenografts). In addition, we discuss potential applications of the recently developed pancreatic ductal organoids, three-dimensional culture systems and organoid-based xenografts as new preclinical models for PDA.
 
 ---
-### 421. Organoids as Model for Infectious Diseases: Culture of Human and Murine Stomach Organoids and Microinjection of Helicobacter Pylori
+### 420. Organoids as Model for Infectious Diseases: Culture of Human and Murine Stomach Organoids and Microinjection of Helicobacter Pylori
 
 **Citation.** Bartfeld S, Clevers H. Organoids as Model for Infectious Diseases: Culture of Human and Murine Stomach Organoids and Microinjection of Helicobacter Pylori. J Vis Exp. 2015(105).
 
@@ -16685,7 +16617,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Recently infection biologists have employed stem cell derived cultures to answer the need for new and better models to study host-pathogen interactions. Three cellular sources have been used: Embryonic stem cells (ESC), induced pluripotent stem cells (iPSC) or adult stem cells. Here, culture of mouse and human gastric organoids derived from adult stem cells is described and used for infection with the gastric pathogen Helicobacter pylori. Human gastric glands are isolated from resection material, seeded in a basement matrix and embedded in medium containing growth factors epidermal growth factor (EGF), R-spondin, Noggin, Wnt, fibroblast growth factor (FGF) 10, gastrin and transforming growth factor (TGF) beta inhibitor. In these conditions, gastric glands grow into 3-dimensional organoids containing 4 lineages of the stomach. The organoids expand indefinitely and can be frozen and thawed similarly as cell lines. For infection studies, bacteria are microinjected into the lumen of the organoids. Infected organoids are processed for imaging. The described methods can be adapted to other organoids and infections with other bacteria, viruses or parasites. This allows the study of infection-induced changes in primary cells.
 
 ---
-### 422. Generation and analysis of mouse intestinal tumors and organoids harboring APC and K-Ras mutations
+### 421. Generation and analysis of mouse intestinal tumors and organoids harboring APC and K-Ras mutations
 
 **Citation.** van Es JH, Clevers H. Generation and analysis of mouse intestinal tumors and organoids harboring APC and K-Ras mutations. Methods Mol Biol. 2015;1267:125-44.
 
@@ -16705,7 +16637,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Genetically engineered mouse models of intestinal cancer are experimental systems in which mice are genetically manipulated to develop malignancies in the gastrointestinal tract. These models enable researchers to study the mechanisms of onset, progression, and metastasis of the disease. They also provide a valuable biological system which is suitable for testing (novel) drugs in vivo. Recently, an in vitro culture model has been established in which intestinal epithelial stem cells can grow into three-dimensional, ever-expanding epithelial organoids that retain their original organ identity and genetic stability. This culture system has been applied to diseased epithelia, such as adenoma, adenocarcinoma, and Barrett's epithelium. These organoids can be particularly useful for studying the mechanisms of intestinal tumors and to test (novel) drugs in vitro. Here, we describe our current laboratory protocols to generate and analyze intestinal tumors and organoids harboring APC and K-Ras double mutations.
 
 ---
-### 423. Model organoids provide new research opportunities for ductal pancreatic cancer
+### 422. Model organoids provide new research opportunities for ductal pancreatic cancer
 
 **Citation.** Boj SF, Hwang C, Baker LA, Engle DD, Tuveson DA, Clevers H. Model organoids provide new research opportunities for ductal pancreatic cancer. Mol Cell Oncol. 2015;3(1):e1014757.
 
@@ -16732,7 +16664,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** We recently established organoid models from normal and neoplastic murine and human pancreas tissues. These organoids exhibit ductal- and disease stage-specific characteristics and, after orthotopic transplantation, recapitulate the full spectrum of tumor progression. Pancreatic organoid technology provides a novel platform for the study of tumor biology and the discovery of potential biomarkers, therapeutics, and personalized medicine strategies.
 
 ---
-### 424. Development and application of human adult stem or progenitor cell organoids
+### 423. Development and application of human adult stem or progenitor cell organoids
 
 **Citation.** Rookmaaker MB, Schutgens F, Verhaar MC, Clevers H. Development and application of human adult stem or progenitor cell organoids. Nat Rev Nephrol. 2015;11(9):546-54.
 
@@ -16755,7 +16687,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Adult stem or progenitor cell organoids are 3D adult-organ-derived epithelial structures that contain self-renewing and organ-specific stem or progenitor cells as well as differentiated cells. This organoid culture system was first established in murine intestine and subsequently developed for several other organs and translated to humans. Organoid cultures have proved valuable for basic research and for the study of healthy tissue homeostasis and the biology of disease. In addition, data from proof-of-principle experiments support promising clinical applications of adult stem or progenitor cell organoids. Although renal organoids have many potential applications, an adult stem or progenitor cell organoid culture system has not yet been developed for the kidney. The development of such a system is likely to be challenging because of the intricate renal architecture. Differentiated 3D cultures and stem or progenitor cell 3D sphere cultures are, however, available for the kidney. These cultures indicate the feasibility of renal organoid culture and provide a solid basis for its development. In this Review, we discuss the state-of-the-art of human adult stem or progenitor cell organoid culture and the potential of renal organoids as tools in basic and clinical research.
 
 ---
-### 425. Q&A: Hans Clevers. Banking on organoids
+### 424. Q&A: Hans Clevers. Banking on organoids
 
 **Citation.** Clevers H, Bender E. Q&A: Hans Clevers. Banking on organoids. Nature. 2015;521(7551):S15.
 
@@ -16770,10 +16702,10 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 426. Sequential cancer mutations in cultured human intestinal stem cells
+### 425. Sequential cancer mutations in cultured human intestinal stem cells
 
 **Citation.** Drost J, van Jaarsveld RH, Ponsioen B, Zimberlin C, van Boxtel R, Buijs A, Sachs N, Overmeer RM, Offerhaus GJ, Begthel H, Korving J, van de Wetering M, Schwank G, Logtenberg M, Cuppen E, Snippert HJ, Medema JP, Kops GJPL, Clevers H. Sequential cancer mutations in cultured human intestinal stem cells. Nature. 2015;521(7550):43-7.
 
@@ -16815,7 +16747,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Crypt stem cells represent the cells of origin for intestinal neoplasia. Both mouse and human intestinal stem cells can be cultured in medium containing the stem-cell-niche factors WNT, R-spondin, epidermal growth factor (EGF) and noggin over long time periods as epithelial organoids that remain genetically and phenotypically stable. Here we utilize CRISPR/Cas9 technology for targeted gene modification of four of the most commonly mutated colorectal cancer genes (APC, P53 (also known as TP53), KRAS and SMAD4) in cultured human intestinal stem cells. Mutant organoids can be selected by removing individual growth factors from the culture medium. Quadruple mutants grow independently of all stem-cell-niche factors and tolerate the presence of the P53 stabilizer nutlin-3. Upon xenotransplantation into mice, quadruple mutants grow as tumours with features of invasive carcinoma. Finally, combined loss of APC and P53 is sufficient for the appearance of extensive aneuploidy, a hallmark of tumour progression.
 
 ---
-### 427. Single-cell messenger RNA sequencing reveals rare intestinal cell types
+### 426. Single-cell messenger RNA sequencing reveals rare intestinal cell types
 
 **Citation.** Grün D, Lyubimova A, Kester L, Wiebrands K, Basak O, Sasaki N, Clevers H, van Oudenaarden A. Single-cell messenger RNA sequencing reveals rare intestinal cell types. Nature. 2015;525(7568):251-5.
 
@@ -16842,7 +16774,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Understanding the development and function of an organ requires the characterization of all of its cell types. Traditional methods for visualizing and isolating subpopulations of cells are based on messenger RNA or protein expression of only a few known marker genes. The unequivocal identification of a specific marker gene, however, poses a major challenge, particularly if this cell type is rare. Identifying rare cell types, such as stem cells, short-lived progenitors, cancer stem cells, or circulating tumour cells, is crucial to acquire a better understanding of normal or diseased tissue biology. To address this challenge we first sequenced the transcriptome of hundreds of randomly selected cells from mouse intestinal organoids, cultured self-organizing epithelial structures that contain all cell lineages of the mammalian intestine. Organoid buds, like intestinal crypts, harbour stem cells that continuously differentiate into a variety of cell types, occurring at widely different abundances. Since available computational methods can only resolve more abundant cell types, we developed RaceID, an algorithm for rare cell type identification in complex populations of single cells. We demonstrate that this algorithm can resolve cell types represented by only a single cell in a population of randomly sampled organoid cells. We use this algorithm to identify Reg4 as a novel marker for enteroendocrine cells, a rare population of hormone-producing intestinal cells. Next, we use Reg4 expression to enrich for these rare cells and investigate the heterogeneity within this population. RaceID confirmed the existence of known enteroendocrine lineages, and moreover discovered novel subtypes, which we subsequently validated in vivo. Having validated RaceID we then applied the algorithm to ex vivo-isolated Lgr5-positive stem cells and their direct progeny. We find that Lgr5-positive cells represent a homogenous abundant population of stem cells mixed with a rare population of Lgr5-positive secretory cells. We envision broad applicability of our method for discovering rare cell types and the corresponding marker genes in healthy and diseased organs.
 
 ---
-### 428. Microbiota controls the homeostasis of glial cells in the gut lamina propria
+### 427. Microbiota controls the homeostasis of glial cells in the gut lamina propria
 
 **Citation.** Kabouridis PS, Lasrado R, McCallum S, Chng SH, Snippert HJ, Clevers H, Pettersson S, Pachnis V. Microbiota controls the homeostasis of glial cells in the gut lamina propria. Neuron. 2015;85(2):289-95.
 
@@ -16871,7 +16803,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The intrinsic neural networks of the gastrointestinal tract are derived from dedicated neural crest progenitors that colonize the gut during embryogenesis and give rise to enteric neurons and glia. Here, we study how an essential subpopulation of enteric glial cells (EGCs) residing within the intestinal mucosa is integrated into the dynamic microenvironment of the alimentary tract. We find that under normal conditions colonization of the lamina propria by glial cells commences during early postnatal stages but reaches steady-state levels after weaning. By employing genetic lineage tracing, we provide evidence that in adult mice the network of mucosal EGCs is continuously renewed by incoming glial cells originating in the plexi of the gut wall. Finally, we demonstrate that both the initial colonization and homeostasis of glial cells in the intestinal mucosa are regulated by the indigenous gut microbiota.
 
 ---
-### 429. An inducible mouse model for microvillus inclusion disease reveals a role for myosin Vb in apical and basolateral trafficking
+### 428. An inducible mouse model for microvillus inclusion disease reveals a role for myosin Vb in apical and basolateral trafficking
 
 **Citation.** Schneeberger K, Vogel GF, Teunissen H, van Ommen DD, Begthel H, El Bouazzaoui L, van Vugt AHM, Beekman JM, Klumperman J, Müller T, Janecke A, Gerner P, Huber LA, Hess MW, Clevers H, van Es JH, Nieuwenhuis EES, Middendorp S. An inducible mouse model for microvillus inclusion disease reveals a role for myosin Vb in apical and basolateral trafficking. Proc Natl Acad Sci U S A. 2015;112(40):12408-13.
 
@@ -16916,7 +16848,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Microvillus inclusion disease (MVID) is a rare intestinal enteropathy with an onset within a few days to months after birth, resulting in persistent watery diarrhea. Mutations in the myosin Vb gene (MYO5B) have been identified in the majority of MVID patients. However, the exact pathophysiology of MVID still remains unclear. To address the specific role of MYO5B in the intestine, we generated an intestine-specific conditional Myo5b-deficient (Myo5bfl/fl;Vil-CreERT2) mouse model. We analyzed intestinal tissues and cultured organoids of Myo5bfl/fl;Vil-CreERT2 mice by electron microscopy, immunofluorescence, and immunohistochemistry. Our data showed that Myo5bfl/fl;Vil-CreERT2 mice developed severe diarrhea within 4 d after tamoxifen induction. Periodic Acid Schiff and alkaline phosphatase staining revealed subapical accumulation of intracellular vesicles in villus enterocytes. Analysis by electron microscopy confirmed an almost complete absence of apical microvilli, the appearance of microvillus inclusions, and enlarged intercellular spaces in induced Myo5bfl/fl;Vil-CreERT2 intestines. In addition, we determined that MYO5B is involved not only in apical but also basolateral trafficking of proteins. The analysis of the intestine during the early onset of the disease revealed that subapical accumulation of secretory granules precedes occurrence of microvillus inclusions, indicating involvement of MYO5B in early differentiation of epithelial cells. By comparing our data with a novel MVID patient, we conclude that our mouse model completely recapitulates the intestinal phenotype of human MVID. This includes severe diarrhea, loss of microvilli, occurrence of microvillus inclusions, and subapical secretory granules. Thus, loss of MYO5B disturbs both apical and basolateral trafficking of proteins and causes MVID in mice.
 
 ---
-### 430. Porcupine inhibitor suppresses paracrine Wnt-driven growth of Rnf43;Znrf3-mutant neoplasia
+### 429. Porcupine inhibitor suppresses paracrine Wnt-driven growth of Rnf43;Znrf3-mutant neoplasia
 
 **Citation.** Koo B, van Es JH, van den Born M, Clevers H. Porcupine inhibitor suppresses paracrine Wnt-driven growth of Rnf43;Znrf3-mutant neoplasia. Proc Natl Acad Sci U S A. 2015;112(24):7548-50.
 
@@ -16939,7 +16871,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Rnf43 (RING finger protein 43) and Znrf3 (zinc/RING finger protein 3) (RZ) are two closely related transmembrane E3 ligases, encoded by Wnt target genes, that remove surface Wnt (wingless-int) receptors. The two genes are mutated in various human cancers. Such tumors are predicted to be hypersensitive to, yet still depend on, secreted Wnts. We previously showed that mutation of RZ in the intestine yields rapidly growing adenomas containing LGR5(+) (leucine-rich repeat-containing G-protein coupled receptor 5) stem cells and Wnt3-producing Paneth cells. We now show that removal of Paneth cells by Math1 mutation inhibits RZ(-/-) tumor formation. Similarly, deletion of Wnt3 inhibits tumorigenesis. Treatment of mice carrying RZ(-/-) intestinal neoplasia with a small molecule Wnt secretion inhibitor (porcupine inhibitor C59) strongly inhibited growth, whereas adjacent normal crypts remained intact. These results establish that paracrine Wnt secretion is an essential driver of RZ(-/-) tumor growth and imply that a therapeutic window exists for the use of porcupine inhibitors for RZ-mutant cancers.
 
 ---
-### 431. Preserved genetic diversity in organoids cultured from biopsies of human colorectal cancer metastases
+### 430. Preserved genetic diversity in organoids cultured from biopsies of human colorectal cancer metastases
 
 **Citation.** Weeber F, van de Wetering M, Hoogstraat M, Dijkstra KK, Krijgsman O, Kuilman T, Gadellaa-van Hooijdonk CGM, van der Velden DL, Peeper DS, Cuppen EPJG, Vries RG, Clevers H, Voest EE. Preserved genetic diversity in organoids cultured from biopsies of human colorectal cancer metastases. Proc Natl Acad Sci U S A. 2015;112(43):13308-11.
 
@@ -16976,7 +16908,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Tumor organoids are 3D cultures of cancer cells. They can be derived from the tumor of each individual patient, thereby providing an attractive ex vivo assay to tailor treatment. Using patient-derived tumor organoids for this purpose requires that organoids derived from biopsies maintain the genetic diversity of the in vivo tumor. In this study tumor biopsies were obtained from 14 patients with metastatic colorectal cancer (i) to test the feasibility of organoid culture from metastatic biopsy specimens and (ii) to compare the genetic diversity of patient-derived tumor organoids and the original tumor biopsy. Genetic analysis was performed using SOLiD sequencing for 1,977 cancer-relevant genes. Copy number profiles were generated from sequencing data using CopywriteR. Here we demonstrate that organoid cultures can be established from tumor biopsies of patients with metastatic colorectal cancer with a success rate of 71%. Genetic analysis showed that organoids reflect the metastasis from which they were derived. Ninety percent of somatic mutations were shared between organoids and biopsies from the same patient, and the DNA copy number profiles of organoids and the corresponding original tumor show a correlation of 0.89. Most importantly, none of the mutations that were found exclusively in either the tumor or organoid culture are in driver genes or genes amenable for drug targeting. These findings support further exploration of patient-derived organoids as an ex vivo platform to personalize anticancer treatment.
 
 ---
-### 432. An EphB-Abl signaling pathway is associated with intestinal tumor initiation and growth
+### 431. An EphB-Abl signaling pathway is associated with intestinal tumor initiation and growth
 
 **Citation.** Kundu P, Genander M, Strååt K, Classon J, Ridgway RA, Tan EH, Björk J, Martling A, van Es J, Sansom OJ, Clevers H, Pettersson S, Frisén J. An EphB-Abl signaling pathway is associated with intestinal tumor initiation and growth. Sci Transl Med. 2015;7(281):281ra44.
 
@@ -17013,7 +16945,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** EphB receptors regulate the proliferation and positioning of intestinal stem and progenitor cells. In addition, they can act as tumor promoters for adenoma development but suppress progression to invasive carcinoma. We used imatinib to abrogate Abl kinase activity in Apc(Min/+) mice and in mice with LGR5(+) stem cells that were genetically engineered to develop adenomatous polyposis coli. Imatinib treatment inhibited the tumor-promoting effects of EphB signaling without attenuating EphB-mediated tumor suppression, demonstrating a role for EphB signaling in the initiation of intestinal tumors. The imatinib treatment regimen extended the life span of Apc(Min/+) mice and reduced cell proliferation in cultured slices of adenomas from patients with familial adenomatous polyposis. These findings connect the EphB signaling pathway to the regulation of intestinal adenoma initiation via Abl kinase. Our findings may have clinical implications for pharmacological therapy against adenoma formation and cancer progression in patients predisposed to develop colorectal cancer.
 
 ---
-### 433. STEM CELLS. What is an adult stem cell?
+### 432. STEM CELLS. What is an adult stem cell?
 
 **Citation.** Clevers H. STEM CELLS. What is an adult stem cell?. Science. 2015;350(6266):1319-20.
 
@@ -17029,10 +16961,10 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 
 1. Department of Developmental Biology and Stem Cell Research, Hubrecht Institute and University Medical Center, Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 434. Disease Modeling and Gene Therapy of Copper Storage Disease in Canine Hepatic Organoids
+### 433. Disease Modeling and Gene Therapy of Copper Storage Disease in Canine Hepatic Organoids
 
 **Citation.** Nantasanti S, Spee B, Kruitwagen HS, Chen C, Geijsen N, Oosterhoff LA, van Wolferen ME, Pelaez N, Fieten H, Wubbolts RW, Grinwis GC, Chan J, Huch M, Vries RRG, Clevers H, de Bruin A, Rothuizen J, Penning LC, Schotanus BA. Disease Modeling and Gene Therapy of Copper Storage Disease in Canine Hepatic Organoids. Stem Cell Reports. 2015;5(5):895-907.
 
@@ -17075,7 +17007,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The recent development of 3D-liver stem cell cultures (hepatic organoids) opens up new avenues for gene and/or stem cell therapy to treat liver disease. To test safety and efficacy, a relevant large animal model is essential but not yet established. Because of its shared pathologies and disease pathways, the dog is considered the best model for human liver disease. Here we report the establishment of a long-term canine hepatic organoid culture allowing undifferentiated expansion of progenitor cells that can be differentiated toward functional hepatocytes. We show that cultures can be initiated from fresh and frozen liver tissues using Tru-Cut or fine-needle biopsies. The use of Wnt agonists proved important for canine organoid proliferation and inhibition of differentiation. Finally, we demonstrate that successful gene supplementation in hepatic organoids of COMMD1-deficient dogs restores function and can be an effective means to cure copper storage disease.
 
 ---
-### 435. Dynamics of Lgr6⁺ Progenitor Cells in the Hair Follicle, Sebaceous Gland, and Interfollicular Epidermis
+### 434. Dynamics of Lgr6⁺ Progenitor Cells in the Hair Follicle, Sebaceous Gland, and Interfollicular Epidermis
 
 **Citation.** Füllgrabe A, Joost S, Are A, Jacob T, Sivan U, Haegebarth A, Linnarsson S, Simons BD, Clevers H, Toftgård R, Kasper M. Dynamics of Lgr6⁺ Progenitor Cells in the Hair Follicle, Sebaceous Gland, and Interfollicular Epidermis. Stem Cell Reports. 2015;5(5):843-855.
 
@@ -17107,7 +17039,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The dynamics and interactions between stem cell pools in the hair follicle (HF), sebaceous gland (SG), and interfollicular epidermis (IFE) of murine skin are still poorly understood. In this study, we used multicolor lineage tracing to mark Lgr6⁺ -expressing basal cells in the HF isthmus, SG, and IFE.We show that these Lgr6⁺ cells constitute long-term self-renewing populations within each compartment in adult skin. Quantitative analysis of clonal dynamics revealed that the Lgr6⁺ progenitor cells compete neutrally in the IFE, isthmus, and SG, indicating population asymmetry as the underlying mode of tissue renewal. Transcriptional profiling of Lgr6⁺ and Lgr6⁺ cells did not reveal a distinct Lgr6⁺ -associated gene expression signature, raising the question of whether Lgr6⁺ expression requires extrinsic niche signals. Our results elucidate the interrelation and behavior of Lgr6⁺ populations in the IFE, HF, and SG and suggest population asymmetry as a common mechanism for homeostasis in several epithelial skin compartments.
 
 ---
-### 436. Frizzled7 functions as a Wnt receptor in intestinal epithelial Lgr5(+) stem cells
+### 435. Frizzled7 functions as a Wnt receptor in intestinal epithelial Lgr5(+) stem cells
 
 **Citation.** Flanagan DJ, Phesse TJ, Barker N, Schwab RHM, Amin N, Malaterre J, Stange DE, Nowell CJ, Currie SA, Saw JTS, Beuchert E, Ramsay RG, Sansom OJ, Ernst M, Clevers H, Vincan E. Frizzled7 functions as a Wnt receptor in intestinal epithelial Lgr5(+) stem cells. Stem Cell Reports. 2015;4(5):759-67.
 
@@ -17147,7 +17079,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The mammalian adult small intestinal epithelium is a rapidly self-renewing tissue that is maintained by a pool of cycling stem cells intermingled with Paneth cells at the base of crypts. These crypt base stem cells exclusively express Lgr5 and require Wnt3 or, in its absence, Wnt2b. However, the Frizzled (Fzd) receptor that transmits these Wnt signals is unknown. We determined the expression profile of Fzd receptors in Lgr5(+) stem cells, their immediate daughter cells, and Paneth cells. Here we show Fzd7 is enriched in Lgr5(+) stem cells and binds Wnt3 and Wnt2b. Conditional deletion of the Fzd7 gene in adult intestinal epithelium leads to stem cell loss in vivo and organoid death in vitro. Crypts of conventional Fzd7 knockout mice show decreased basal Wnt signaling and impaired capacity to regenerate the epithelium following deleterious insult. These observations indicate that Fzd7 is required for robust Wnt-dependent processes in Lgr5(+) intestinal stem cells.
 
 ---
-### 437. Long-Term In Vitro Expansion of Salivary Gland Stem Cells Driven by Wnt Signals
+### 436. Long-Term In Vitro Expansion of Salivary Gland Stem Cells Driven by Wnt Signals
 
 **Citation.** Maimets M, Rocchi C, Bron R, Pringle S, Kuipers J, Giepmans BNG, Vries RGJ, Clevers H, de Haan G, van Os R, Coppes RP. Long-Term In Vitro Expansion of Salivary Gland Stem Cells Driven by Wnt Signals. Stem Cell Reports. 2015;6(1):150-62.
 
@@ -17179,7 +17111,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Adult stem cells are the ultimate source for replenishment of salivary gland (SG) tissue. Self-renewal ability of stem cells is dependent on extrinsic niche signals that have not been unraveled for the SG. The ductal compartment in SG has been identified as the location harboring stem cells. Here, we report that rare SG ductal EpCAM(+) cells express nuclear β-catenin, indicating active Wnt signaling. In cell culture experiments, EpCAM(high) cells respond potently to Wnt signals stimulating self-renewal and long-term expansion of SG organoids, containing all differentiated SG cell types. Conversely, Wnt inhibition ablated long-term organoid cultures. Finally, transplantation of cells pre-treated with Wnt agonists into submandibular glands of irradiated mice successfully and robustly restored saliva secretion and increased the number of functional acini in vivo. Collectively, these results identify Wnt signaling as a key driver of adult SG stem cells, allowing extensive in vitro expansion and enabling restoration of SG function upon transplantation.
 
 ---
-### 438. Repairing organs: lessons from intestine and liver
+### 437. Repairing organs: lessons from intestine and liver
 
 **Citation.** Gehart H, Clevers H. Repairing organs: lessons from intestine and liver. Trends Genet. 2015;31(6):344-51.
 
@@ -17202,7 +17134,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 
 ## 2014
 
-### 439. KLF5 regulates the integrity and oncogenicity of intestinal stem cells
+### 438. KLF5 regulates the integrity and oncogenicity of intestinal stem cells
 
 **Citation.** Nakaya T, Ogawa S, Manabe I, Tanaka M, Sanada M, Sato T, Taketo MM, Nakao K, Clevers H, Fukayama M, Kuroda M, Nagai R. KLF5 regulates the integrity and oncogenicity of intestinal stem cells. Cancer Res. 2014;74(10):2882-91.
 
@@ -17236,7 +17168,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The intestinal epithelium maintains homeostasis by a self-renewal process involving resident stem cells, including Lgr5(+) crypt-base columnar cells, but core mechanisms and their contributions to intestinal cancer are not fully defined. In this study, we examined a hypothesized role for KLF5, a zinc-finger transcription factor that is critical to maintain the integrity of embryonic and induced pluripotent stem cells, in intestinal stem-cell integrity and cancer in the mouse. Klf5 was indispensable for the integrity and oncogenic transformation of intestinal stem cells. In mice, inducible deletion of Klf5 in Lgr5(+) stem cells suppressed their proliferation and survival in a manner associated with nuclear localization of β-catenin (Catnb), generating abnormal apoptotic cells in intestinal crypts. Moreover, production of lethal adenomas and carcinomas by specific expression of an oncogenic mutant of β-catenin in Lgr5(+) stem cells was suppressed completely by Klf5 deletion in the same cells. Given that activation of the Wnt/β-catenin pathway is the most frequently altered pathway in human colorectal cancer, our results argue that KLF5 acts as a fundamental core regulator of intestinal oncogenesis at the stem-cell level, and they suggest KLF5 targeting as a rational strategy to eradicate stem-like cells in colorectal cancer.
 
 ---
-### 440. Selection of personalized patient therapy through the use of knowledge-based computational models that identify tumor-driving signal transduction pathways
+### 439. Selection of personalized patient therapy through the use of knowledge-based computational models that identify tumor-driving signal transduction pathways
 
 **Citation.** Verhaegh W, van Ooijen H, Inda MA, Hatzis P, Versteeg R, Smid M, Martens J, Foekens J, van de Wiel P, Clevers H, van de Stolpe A. Selection of personalized patient therapy through the use of knowledge-based computational models that identify tumor-driving signal transduction pathways. Cancer Res. 2014;74(11):2936-45.
 
@@ -17266,7 +17198,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Increasing knowledge about signal transduction pathways as drivers of cancer growth has elicited the development of "targeted drugs," which inhibit aberrant signaling pathways. They require a companion diagnostic test that identifies the tumor-driving pathway; however, currently available tests like estrogen receptor (ER) protein expression for hormonal treatment of breast cancer do not reliably predict therapy response, at least in part because they do not adequately assess functional pathway activity. We describe a novel approach to predict signaling pathway activity based on knowledge-based Bayesian computational models, which interpret quantitative transcriptome data as the functional output of an active signaling pathway, by using expression levels of transcriptional target genes. Following calibration on only a small number of cell lines or cohorts of patient data, they provide a reliable assessment of signaling pathway activity in tumors of different tissue origin. As proof of principle, models for the canonical Wnt and ER pathways are presented, including initial clinical validation on independent datasets from various cancer types.
 
 ---
-### 441. Identification of multipotent luminal progenitor cells in human prostate organoid cultures
+### 440. Identification of multipotent luminal progenitor cells in human prostate organoid cultures
 
 **Citation.** Karthaus WR, Iaquinta PJ, Drost J, Gracanin A, van Boxtel R, Wongvipat J, Dowling CM, Gao D, Begthel H, Sachs N, Vries RGJ, Cuppen E, Chen Y, Sawyers CL, Clevers HC. Identification of multipotent luminal progenitor cells in human prostate organoid cultures. Cell. 2014;159(1):163-175.
 
@@ -17301,7 +17233,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The prostate gland consists of basal and luminal cells arranged as pseudostratified epithelium. In tissue recombination models, only basal cells reconstitute a complete prostate gland, yet murine lineage-tracing experiments show that luminal cells generate basal cells. It has remained challenging to address the molecular details of these transitions and whether they apply to humans, due to the lack of culture conditions that recapitulate prostate gland architecture. Here, we describe a 3D culture system that supports long-term expansion of primary mouse and human prostate organoids, composed of fully differentiated CK5+ basal and CK8+ luminal cells. Organoids are genetically stable, reconstitute prostate glands in recombination assays, and can be experimentally manipulated. Single human luminal and basal cells give rise to organoids, yet luminal-cell-derived organoids more closely resemble prostate glands. These data support a luminal multilineage progenitor cell model for prostate tissue and establish a robust, scalable system for mechanistic studies.
 
 ---
-### 442. Long-term culture of genome-stable bipotent stem cells from adult human liver
+### 441. Long-term culture of genome-stable bipotent stem cells from adult human liver
 
 **Citation.** Huch M, Gehart H, van Boxtel R, Hamer K, Blokzijl F, Verstegen MMA, Ellis E, van Wenum M, Fuchs SA, de Ligt J, van de Wetering M, Sasaki N, Boers SJ, Kemperman H, de Jonge J, Ijzermans JNM, Nieuwenhuis EES, Hoekstra R, Strom S, Vries RRG, van der Laan LJW, Cuppen E, Clevers H. Long-term culture of genome-stable bipotent stem cells from adult human liver. Cell. 2014;160(1-2):299-312.
 
@@ -17349,7 +17281,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Despite the enormous replication potential of the human liver, there are currently no culture systems available that sustain hepatocyte replication and/or function in vitro. We have shown previously that single mouse Lgr5+ liver stem cells can be expanded as epithelial organoids in vitro and can be differentiated into functional hepatocytes in vitro and in vivo. We now describe conditions allowing long-term expansion of adult bile duct-derived bipotent progenitor cells from human liver. The expanded cells are highly stable at the chromosome and structural level, while single base changes occur at very low rates. The cells can readily be converted into functional hepatocytes in vitro and upon transplantation in vivo. Organoids from α1-antitrypsin deficiency and Alagille syndrome patients mirror the in vivo pathology. Clonal long-term expansion of primary adult liver stem cells opens up experimental avenues for disease modeling, toxicology studies, regenerative medicine, and gene therapy.
 
 ---
-### 443. Organoid cultures derived from patients with advanced prostate cancer
+### 442. Organoid cultures derived from patients with advanced prostate cancer
 
 **Citation.** Gao D, Vela I, Sboner A, Iaquinta PJ, Karthaus WR, Gopalan A, Dowling C, Wanjala JN, Undvall EA, Arora VK, Wongvipat J, Kossai M, Ramazanoglu S, Barboza LP, Di W, Cao Z, Zhang QF, Sirota I, Ran L, MacDonald TY, Beltran H, Mosquera J, Touijer KA, Scardino PT, Laudone VP, Curtis KR, Rathkopf DE, Morris MJ, Danila DC, Slovin SF, Solomon SB, Eastham JA, Chi P, Carver B, Rubin MA, Scher HI, Clevers H, Sawyers CL, Chen Y. Organoid cultures derived from patients with advanced prostate cancer. Cell. 2014;159(1):176-187.
 
@@ -17422,7 +17354,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** The lack of in vitro prostate cancer models that recapitulate the diversity of human prostate cancer has hampered progress in understanding disease pathogenesis and therapy response. Using a 3D organoid system, we report success in long-term culture of prostate cancer from biopsy specimens and circulating tumor cells. The first seven fully characterized organoid lines recapitulate the molecular diversity of prostate cancer subtypes, including TMPRSS2-ERG fusion, SPOP mutation, SPINK1 overexpression, and CHD1 loss. Whole-exome sequencing shows a low mutational burden, consistent with genomics studies, but with mutations in FOXA1 and PIK3R1, as well as in DNA repair and chromatin modifier pathways that have been reported in advanced disease. Loss of p53 and RB tumor suppressor pathway function are the most common feature shared across the organoid lines. The methodology described here should enable the generation of a large repertoire of patient-derived prostate cancer lines amenable to genetic and pharmacologic studies.
 
 ---
-### 444. Organoid models of human and mouse ductal pancreatic cancer
+### 443. Organoid models of human and mouse ductal pancreatic cancer
 
 **Citation.** Boj SF, Hwang C, Baker LA, Chio IIC, Engle DD, Corbo V, Jager M, Ponz-Sarvise M, Tiriac H, Spector MS, Gracanin A, Oni T, Yu KH, van Boxtel R, Huch M, Rivera KD, Wilson JP, Feigin ME, Öhlund D, Handly-Santana A, Ardito-Abraham CM, Ludwig M, Elyada E, Alagesan B, Biffi G, Yordanov GN, Delcuze B, Creighton B, Wright K, Park Y, Morsink FHM, Molenaar IQ, Borel Rinkes IH, Cuppen E, Hao Y, Jin Y, Nijman IJ, Iacobuzio-Donahue C, Leach SD, Pappin DJ, Hammell M, Klimstra DS, Basturk O, Hruban RH, Offerhaus GJ, Vries RGJ, Clevers H, Tuveson DA. Organoid models of human and mouse ductal pancreatic cancer. Cell. 2014;160(1-2):324-38.
 
@@ -17501,7 +17433,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Pancreatic cancer is one of the most lethal malignancies due to its late diagnosis and limited response to treatment. Tractable methods to identify and interrogate pathways involved in pancreatic tumorigenesis are urgently needed. We established organoid models from normal and neoplastic murine and human pancreas tissues. Pancreatic organoids can be rapidly generated from resected tumors and biopsies, survive cryopreservation, and exhibit ductal- and disease-stage-specific characteristics. Orthotopically transplanted neoplastic organoids recapitulate the full spectrum of tumor development by forming early-grade neoplasms that progress to locally invasive and metastatic carcinomas. Due to their ability to be genetically manipulated, organoids are a platform to probe genetic cooperation. Comprehensive transcriptional and proteomic analyses of murine pancreatic organoids revealed genes and pathways altered during disease progression. The confirmation of many of these protein changes in human tissues demonstrates that organoids are a facile model system to discover characteristics of this deadly malignancy.
 
 ---
-### 445. Inducible in vivo silencing of Brd4 identifies potential toxicities of sustained BET protein inhibition
+### 444. Inducible in vivo silencing of Brd4 identifies potential toxicities of sustained BET protein inhibition
 
 **Citation.** Bolden JE, Tasdemir N, Dow LE, van Es JH, Wilkinson JE, Zhao Z, Clevers H, Lowe SW. Inducible in vivo silencing of Brd4 identifies potential toxicities of sustained BET protein inhibition. Cell Rep. 2014;8(6):1919-1929.
 
@@ -17532,7 +17464,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** BET family proteins are novel therapeutic targets for cancer and inflammation and represent the first chromatin readers against which small-molecule inhibitors have been developed. First-generation BET inhibitors have shown therapeutic efficacy in preclinical models, but the consequences of sustained BET protein inhibition in normal tissues remain poorly characterized. Using an inducible and reversible transgenic RNAi mouse model, we show that strong suppression of the BET protein Brd4 in adult animals has dramatic effects in multiple tissues. Brd4-depleted mice display reversible epidermal hyperplasia, alopecia, and decreased cellular diversity and stem cell depletion in the small intestine. Furthermore, Brd4-suppressed intestines are sensitive to organ stress and show impaired regeneration following irradiation, suggesting that concurrent Brd4 suppression and certain cytotoxic therapies may induce undesirable synergistic effects. These findings provide important insight into Brd4 function in normal tissues and, importantly, predict several potential outcomes associated with potent and sustained BET protein inhibition.
 
 ---
-### 446. Large-scale identification of coregulated enhancer networks in the adult human brain
+### 445. Large-scale identification of coregulated enhancer networks in the adult human brain
 
 **Citation.** Vermunt MW, Reinink P, Korving J, de Bruijn E, Creyghton PM, Basak O, Geeven G, Toonen PW, Lansu N, Meunier C, van Heesch S, Clevers H, de Laat W, Cuppen E, Creyghton MP. Large-scale identification of coregulated enhancer networks in the adult human brain. Cell Rep. 2014;9(2):767-79.
 
@@ -17565,7 +17497,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Understanding the complexity of the human brain and its functional diversity remain a major challenge. Distinct anatomical regions are involved in an array of processes, including organismal homeostasis, cognitive functions, and susceptibility to neurological pathologies, many of which define our species. Distal enhancers have emerged as key regulatory elements that acquire histone modifications in a cell- and species-specific manner, thus enforcing specific gene expression programs. Here, we survey the epigenomic landscape of promoters and cis-regulatory elements in 136 regions of the adult human brain. We identify a total of 83,553 promoter-distal H3K27ac-enriched regions showing global characteristics of brain enhancers. We use coregulation of enhancer elements across many distinct regions of the brain to uncover functionally distinct networks at high resolution and link these networks to specific neuroglial functions. Furthermore, we use these data to understand the relevance of noncoding genomic variations previously linked to Parkinson's disease incidence.
 
 ---
-### 447. Paneth cells
+### 446. Paneth cells
 
 **Citation.** van Es JH, Clevers H. Paneth cells. Curr Biol. 2014;24(12):R547-R548.
 
@@ -17582,10 +17514,10 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 
 1. Hubrecht Institute-KNAW & University Medical Center, Utrecht, Uppsalalaan 8, 3584 CT Utrecht, Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 448. Mapping early fate determination in Lgr5+ crypt stem cells using a novel Ki67-RFP allele
+### 447. Mapping early fate determination in Lgr5+ crypt stem cells using a novel Ki67-RFP allele
 
 **Citation.** Basak O, van de Born M, Korving J, Beumer J, van der Elst S, van Es JH, Clevers H. Mapping early fate determination in Lgr5+ crypt stem cells using a novel Ki67-RFP allele. EMBO J. 2014;33(18):2057-68.
 
@@ -17611,7 +17543,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Cycling Lgr5+ stem cells fuel the rapid turnover of the adult intestinal epithelium. The existence of quiescent Lgr5+ cells has been reported, while an alternative quiescent stem cell population is believed to reside at crypt position +4. Here, we generated a novel Ki67RFP knock-in allele that identifies dividing cells. Using Lgr5-GFP;Ki67RFP mice, we isolated crypt stem and progenitor cells with distinct Wnt signaling levels and cell cycle features and generated their molecular signature using microarrays. Stem cell potential of these populations was further characterized using the intestinal organoid culture. We found that Lgr5high stem cells are continuously in cell cycle, while a fraction of Lgr5low progenitors that reside predominantly at +4 position exit the cell cycle. Unlike fast dividing CBCs, Lgr5low Ki67- cells have lost their ability to initiate organoid cultures, are enriched in secretory differentiation factors, and resemble the Dll1 secretory precursors and the label-retaining cells of Winton and colleagues. Our findings support the cycling stem cell hypothesis and highlight the cell cycle heterogeneity of early progenitors during lineage commitment.
 
 ---
-### 449. Wnt-induced transcriptional activation is exclusively mediated by TCF/LEF
+### 448. Wnt-induced transcriptional activation is exclusively mediated by TCF/LEF
 
 **Citation.** Schuijers J, Mokry M, Hatzis P, Cuppen E, Clevers H. Wnt-induced transcriptional activation is exclusively mediated by TCF/LEF. EMBO J. 2014;33(2):146-56.
 
@@ -17634,7 +17566,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Active canonical Wnt signaling results in recruitment of β-catenin to DNA by TCF/LEF family members, leading to transcriptional activation of TCF target genes. However, additional transcription factors have been suggested to recruit β-catenin and tether it to DNA. Here, we describe the genome-wide pattern of β-catenin DNA binding in murine intestinal epithelium, Wnt-responsive colorectal cancer (CRC) cells and HEK293 embryonic kidney cells. We identify two classes of β-catenin binding sites. The first class represents the majority of the DNA-bound β-catenin and co-localizes with TCF4, the prominent TCF/LEF family member in these cells. The second class consists of β-catenin binding sites that co-localize with a minimal amount of TCF4. The latter consists of lower affinity β-catenin binding events, does not drive transcription and often does not contain a consensus TCF binding motif. Surprisingly, a dominant-negative form of TCF4 abrogates the β-catenin/DNA interaction of both classes of binding sites, implying that the second class comprises low affinity TCF-DNA complexes. Our results indicate that β-catenin is tethered to chromatin overwhelmingly through the TCF/LEF transcription factors in these three systems.
 
 ---
-### 450. Ovarian LGR5 is critical for successful pregnancy
+### 449. Ovarian LGR5 is critical for successful pregnancy
 
 **Citation.** Sun X, Terakawa J, Clevers H, Barker N, Daikoku T, Dey SK. Ovarian LGR5 is critical for successful pregnancy. FASEB J. 2014;28(5):2380-9.
 
@@ -17658,7 +17590,7 @@ These results illustrate the importance of RNF43, along with BRAF mutation in th
 **Abstract.** Leucine-rich repeat-containing G-protein-coupled receptor 5 (Lgr5) is expressed in many organs, including female reproductive organs, and is a stem cell marker in the stomach and intestinal epithelium, hair follicles, and ovarian surface epithelium. Despite ongoing studies, the definitive physiological functions of Lgr5 remain unclear. We utilized mice with conditional deletion of Lgr5 (Lgr5(d/d)) in the female reproductive organs by progesterone receptor-Cre (Pgr(Cre)) to determine Lgr5's functions during pregnancy. Only 30% of plugged Lgr5(d/d) females delivered live pups, and their litter sizes were lower. We found that pregnancy failure in Lgr5(d/d) females was due to insufficient ovarian progesterone (P4) secretion that compromised decidualization, terminating pregnancy. The drop in P4 levels was reflected in elevated levels of P4-metabolizing enzyme 20α-hydroxysteroid dehydrogenase in corpora lutea (CL) inactivated of Lgr5. Of interest, P4 supplementation rescued decidualization failure and supported pregnancy to full term in Lgr5(d/d) females. These results provide strong evidence that Lgr5 is critical to normal CL function, unveiling a new role of LGR5 in the ovary.
 
 ---
-### 451. In vitro expansion of human gastric epithelial stem cells and their responses to bacterial infection
+### 450. In vitro expansion of human gastric epithelial stem cells and their responses to bacterial infection
 
 **Citation.** Bartfeld S, Bayram T, van de Wetering M, Huch M, Begthel H, Kujala P, Vries R, Peters PJ, Clevers H. In vitro expansion of human gastric epithelial stem cells and their responses to bacterial infection. Gastroenterology. 2014;148(1):126-136.e6.
 
@@ -17693,7 +17625,7 @@ Human gastric cells were expanded indefinitely in 3-dimensional cultures. We cul
 We developed a system to culture human gastric organoids. This system can be used to study H pylori infection and other gastric pathologies.
 
 ---
-### 452. Loss of syntaxin 3 causes variant microvillus inclusion disease
+### 451. Loss of syntaxin 3 causes variant microvillus inclusion disease
 
 **Citation.** Wiegerinck CL, Janecke AR, Schneeberger K, Vogel GF, van Haaften-Visser DY, Escher JC, Adam R, Thöni CE, Pfaller K, Jordan AJ, Weis C, Nijman IJ, Monroe GR, van Hasselt PM, Cutz E, Klumperman J, Clevers H, Nieuwenhuis EES, Houwen RHJ, van Haaften G, Hess MW, Huber LA, Stapelbroek JM, Müller T, Middendorp S. Loss of syntaxin 3 causes variant microvillus inclusion disease. Gastroenterology. 2014;147(1):65-68.e10.
 
@@ -17751,7 +17683,7 @@ We developed a system to culture human gastric organoids. This system can be use
 **Abstract.** Microvillus inclusion disease (MVID) is a disorder of intestinal epithelial differentiation characterized by life-threatening intractable diarrhea. MVID can be diagnosed based on loss of microvilli, microvillus inclusions, and accumulation of subapical vesicles. Most patients with MVID have mutations in myosin Vb that cause defects in recycling of apical vesicles. Whole-exome sequencing of DNA from patients with variant MVID showed homozygous truncating mutations in syntaxin 3 (STX3). STX3 is an apical receptor involved in membrane fusion of apical vesicles in enterocytes. Patient-derived organoid cultures and overexpression of truncated STX3 in Caco-2 cells recapitulated most characteristics of variant MVID. We conclude that loss of STX3 function causes variant MVID.
 
 ---
-### 453. Stem cells marked by the R-spondin receptor LGR5
+### 452. Stem cells marked by the R-spondin receptor LGR5
 
 **Citation.** Koo B, Clevers H. Stem cells marked by the R-spondin receptor LGR5. Gastroenterology. 2014;147(2):289-302.
 
@@ -17772,7 +17704,7 @@ We developed a system to culture human gastric organoids. This system can be use
 **Abstract.** Since the discovery of LGR5 as a marker of intestinal stem cells, the field has developed explosively and led to many new avenues of research. The inner workings of the intestinal crypt stem cell niche are now well understood. The study of stem cell-enriched genes has uncovered some previously unknown aspects of the Wnt signaling pathway, the major driver of crypt dynamics. LGR5(+) stem cells can now be cultured over long periods in vitro as epithelial organoids or "mini-guts." This technology opens new possibilities of using cultured adult stem cells for drug development, disease modeling, gene therapy, and regenerative medicine. This review describes the rediscovery of crypt base columnar cells as LGR5(+) adult stem cells and summarizes subsequent progress, promises, unresolved issues, and challenges of the field.
 
 ---
-### 454. The R-spondin/Lgr5/Rnf43 module: regulator of Wnt signal strength
+### 453. The R-spondin/Lgr5/Rnf43 module: regulator of Wnt signal strength
 
 **Citation.** de Lau W, Peng WC, Gros P, Clevers H. The R-spondin/Lgr5/Rnf43 module: regulator of Wnt signal strength. Genes Dev. 2014;28(4):305-16.
 
@@ -17794,7 +17726,7 @@ We developed a system to culture human gastric organoids. This system can be use
 **Abstract.** Lgr5 was originally discovered as a common Wnt target gene in adult intestinal crypts and colon cancer. It was subsequently identified as an exquisite marker of multiple Wnt-driven adult stem cell types. Lgr5 and its homologs, Lgr4 and Lgr6, constitute the receptors for R-spondins, potent Wnt signal enhancers and stem cell growth factors. The Lgr5/R-spondin complex acts by neutralizing Rnf43 and Znrf3, two transmembrane E3 ligases that remove Wnt receptors from the stem cell surface. Rnf43/Znrf3 are themselves encoded by Wnt target genes and constitute a negative Wnt feedback loop. Thus, adult stem cells are controlled by an intricate interplay of potent Wnt agonists, antagonists, and anti-antagonists.
 
 ---
-### 455. Immune deficiency-related enteropathy-lymphocytopenia-alopecia syndrome results from tetratricopeptide repeat domain 7A deficiency
+### 454. Immune deficiency-related enteropathy-lymphocytopenia-alopecia syndrome results from tetratricopeptide repeat domain 7A deficiency
 
 **Citation.** Lemoine R, Pachlopnik-Schmid J, Farin HF, Bigorgne A, Debré M, Sepulveda F, Héritier S, Lemale J, Talbotec C, Rieux-Laucat F, Ruemmele F, Morali A, Cathebras P, Nitschke P, Bole-Feysot C, Blanche S, Brousse N, Picard C, Clevers H, Fischer A, de Saint Basile G. Immune deficiency-related enteropathy-lymphocytopenia-alopecia syndrome results from tetratricopeptide repeat domain 7A deficiency. J Allergy Clin Immunol. 2014;134(6):1354-1364.e6.
 
@@ -17853,7 +17785,7 @@ We identified biallelic missense mutations in tetratricopeptide repeat domain 7A
 We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes through the RhoA signaling pathway and is required in both lymphocytes and epithelial cells for maintaining equilibrium between cell proliferation, migration, polarization, and cell death. Our study highlights variability in the phenotypic expression resulting from TTC7A deficiency and outlines that impairment of both epithelial cells and lymphocytes cooperatively causes IBD.
 
 ---
-### 456. Leucine-rich repeat-containing G-protein-coupled Receptor 5 marks short-term hematopoietic stem and progenitor cells during mouse embryonic development
+### 455. Leucine-rich repeat-containing G-protein-coupled Receptor 5 marks short-term hematopoietic stem and progenitor cells during mouse embryonic development
 
 **Citation.** Liu D, He XC, Qian P, Barker N, Trainor PA, Clevers H, Liu H, Li L. Leucine-rich repeat-containing G-protein-coupled Receptor 5 marks short-term hematopoietic stem and progenitor cells during mouse embryonic development. J Biol Chem. 2014;289(34):23809-16.
 
@@ -17885,7 +17817,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** Lgr5 is a marker for proliferating stem cells in adult intestine, stomach, and hair follicle. However, Lgr5 is not expressed in adult hematopoietic stem and progenitor cells (HSPCs). Whether Lgr5 is expressed in the embryonic and fetal HSPCs that undergo rapid proliferation is unknown. Here we report the detection of Lgr5 expression in HSPCs in the aorta-gonad-mesonephros (AGM) and fetal liver. We also found that a portion of Lgr5(+) cells expressed the Runx1 gene that is critical for the ontogeny of HSPCs. A small portion of Lgr5(+) cells also expressed HSPC surface markers c-Kit and CD34 in AGM or CD41 in fetal liver. Furthermore, the majority of Lgr5(+) cells expressed Ki67, indicating their proliferating state. Transplantation of fetal liver-derived Lgr5-GFP(+) cells (E12.5) demonstrated that Lgr5-GFP(+) cells were able to reconstitute myeloid and lymphoid lineages in adult recipients, but the engraftment was short-term (4-8 weeks) and 20-fold lower compared with the Lgr5-GFP(-) control. Our data show that Lgr5-expressing cells mark short-term hematopoietic stem and progenitor cells, consistent with the role of Lgr5 in supporting HSPCs rapid proliferation during embryonic and fetal development.
 
 ---
-### 457. Polarizing intestinal epithelial cells electrically through Ror2
+### 456. Polarizing intestinal epithelial cells electrically through Ror2
 
 **Citation.** Cao L, McCaig CD, Scott RH, Zhao S, Milne G, Clevers H, Zhao M, Pu J. Polarizing intestinal epithelial cells electrically through Ror2. J Cell Sci. 2014;127(Pt 15):3233-9.
 
@@ -17916,7 +17848,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** The apicobasal polarity of enterocytes determines where the brush border membrane (apical membrane) will form, but how this apical membrane faces the lumen is not well understood. The electrical signal across the epithelium could serve as a coordinating cue, orienting and polarizing enterocytes. Here, we show that applying a physiological electric field to intestinal epithelial cells, to mimic the natural electric field created by the transepithelial potential difference, polarized phosphorylation of the actin-binding protein ezrin, increased expression of intestinal alkaline phosphatase (ALPI, a differentiation marker) and remodeled the actin cytoskeleton selectively on the cathode side. In addition, an applied electric field also activated ERK1/2 and LKB1 (also known as STK11), key molecules in apical membrane formation. Disruption of the tyrosine protein kinase transmembrane receptor Ror2 suppressed activation of ERK1/2 and LKB1 significantly, and subsequently inhibited apical membrane formation in enterocytes. Our findings indicate that the endogenous electric field created by the transepithelial potential difference might act as an essential coordinating signal for apical membrane formation at a tissue level, through activation of LKB1 mediated by Ror2-ERK signaling.
 
 ---
-### 458. TTC7A mutations disrupt intestinal epithelial apicobasal polarity
+### 457. TTC7A mutations disrupt intestinal epithelial apicobasal polarity
 
 **Citation.** Bigorgne AE, Farin HF, Lemoine R, Mahlaoui N, Lambert N, Gil M, Schulz A, Philippet P, Schlesser P, Abrahamsen TG, Oymar K, Davies EG, Ellingsen CL, Leteurtre E, Moreau-Massart B, Berrebi D, Bole-Feysot C, Nischke P, Brousse N, Fischer A, Clevers H, de Saint Basile G. TTC7A mutations disrupt intestinal epithelial apicobasal polarity. J Clin Invest. 2014;124(1):328-37.
 
@@ -17954,7 +17886,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** Multiple intestinal atresia (MIA) is a rare cause of bowel obstruction that is sometimes associated with a combined immunodeficiency (CID), leading to increased susceptibility to infections. The factors underlying this rare disease are poorly understood. We characterized the immunological and intestinal features of 6 unrelated MIA-CID patients. All patients displayed a profound, generalized lymphocytopenia, with few lymphocytes present in the lymph nodes. The thymus was hypoplastic and exhibited an abnormal distribution of epithelial cells. Patients also had profound disruption of the epithelial barrier along the entire gastrointestinal tract. Using linkage analysis and whole-exome sequencing, we identified 10 mutations in tetratricopeptide repeat domain–7A (TTC7A), all of which potentially abrogate TTC7A expression. Intestinal organoid cultures from patient biopsies displayed an inversion of apicobasal polarity of the epithelial cells that was normalized by pharmacological inhibition of Rho kinase. Our data indicate that TTC7A deficiency results in increased Rho kinase activity, which disrupts polarity, growth, and differentiation of intestinal epithelial cells, and which impairs immune cell homeostasis, thereby promoting MIA-CID development.
 
 ---
-### 459. Targeting development of incretin-producing cells increases insulin secretion
+### 458. Targeting development of incretin-producing cells increases insulin secretion
 
 **Citation.** Petersen N, Reimann F, van Es JH, van den Berg BM, Kroone C, Pais R, Jansen E, Clevers H, Gribble FM, de Koning EJP. Targeting development of incretin-producing cells increases insulin secretion. J Clin Invest. 2014;125(1):379-85.
 
@@ -17980,7 +17912,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** Glucagon-like peptide-1-based (GLP-1-based) therapies improve glycemic control in patients with type 2 diabetes. While these agents augment insulin secretion, they do not mimic the physiological meal-related rise and fall of GLP-1 concentrations. Here, we tested the hypothesis that increasing the number of intestinal L cells, which produce GLP-1, is an alternative strategy to augment insulin responses and improve glucose tolerance. Blocking the NOTCH signaling pathway with the γ-secretase inhibitor dibenzazepine increased the number of L cells in intestinal organoid-based mouse and human culture systems and augmented glucose-stimulated GLP-1 secretion. In a high-fat diet-fed mouse model of impaired glucose tolerance and type 2 diabetes, dibenzazepine administration increased L cell numbers in the intestine, improved the early insulin response to glucose, and restored glucose tolerance. Dibenzazepine also increased K cell numbers, resulting in increased gastric inhibitory polypeptide (GIP) secretion. Using a GLP-1 receptor antagonist, we determined that the insulinotropic effect of dibenzazepine was mediated through an increase in GLP-1 signaling. Together, our data indicate that modulation of the development of incretin-producing cells in the intestine has potential as a therapeutic strategy to improve glycemic control.
 
 ---
-### 460. Paneth cell extrusion and release of antimicrobial products is directly controlled by immune cell-derived IFN-γ
+### 459. Paneth cell extrusion and release of antimicrobial products is directly controlled by immune cell-derived IFN-γ
 
 **Citation.** Farin HF, Karthaus WR, Kujala P, Rakhshandehroo M, Schwank G, Vries RGJ, Kalkhoven E, Nieuwenhuis EES, Clevers H. Paneth cell extrusion and release of antimicrobial products is directly controlled by immune cell-derived IFN-γ. J Exp Med. 2014;211(7):1393-405.
 
@@ -18012,7 +17944,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** Paneth cells (PCs) are terminally differentiated, highly specialized secretory cells located at the base of the crypts of Lieberkühn in the small intestine. Besides their antimicrobial function, PCs serve as a component of the intestinal stem cell niche. By secreting granules containing bactericidal proteins like defensins/cryptdins and lysozyme, PCs regulate the microbiome of the gut. Here we study the control of PC degranulation in primary epithelial organoids in culture. We show that PC degranulation does not directly occur upon stimulation with microbial antigens or bacteria. In contrast, the pro-inflammatory cytokine Interferon gamma (IFN-γ) induces rapid and complete loss of granules. Using live cell imaging, we show that degranulation is coupled to luminal extrusion and death of PCs. Transfer of supernatants from in vitro stimulated iNKT cells recapitulates degranulation in an IFN-γ-dependent manner. Furthermore, endogenous IFN-γ secretion induced by anti-CD3 antibody injection causes Paneth loss and release of goblet cell mucus. The identification of IFN-γ as a trigger for degranulation and extrusion of PCs establishes a novel effector mechanism by which immune responses may regulate epithelial status and the gut microbiome.
 
 ---
-### 461. A20 controls intestinal homeostasis through cell-specific activities
+### 460. A20 controls intestinal homeostasis through cell-specific activities
 
 **Citation.** Vereecke L, Vieira-Silva S, Billiet T, van Es JH, Mc Guire C, Slowicka K, Sze M, van den Born M, De Hertogh G, Clevers H, Raes J, Rutgeerts P, Vermeire S, Beyaert R, van Loo G. A20 controls intestinal homeostasis through cell-specific activities. Nat Commun. 2014;5:5103.
 
@@ -18050,7 +17982,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** The transcription factor NF-κB is indispensable for intestinal immune homeostasis, but contributes to chronic inflammation and inflammatory bowel disease (IBD). A20, an inhibitor of both NF-κB and apoptotic signalling, was identified as a susceptibility gene for multiple inflammatory diseases, including IBD. Despite absence of spontaneous intestinal inflammation in intestinal epithelial cell (IEC) specific A20 knockout mice, we found additional myeloid-specific A20 deletion to synergistically drive intestinal pathology through cell-specific mechanisms. A20 ensures intestinal barrier stability by preventing cytokine-induced IEC apoptosis, while A20 prevents excessive cytokine production in myeloid cells. Combining IEC and myeloid A20 deletion induces ileitis and severe colitis, characterized by IEC apoptosis, Paneth and goblet cell loss, epithelial hyperproliferation and intestinal microbiota dysbiosis. Continuous epithelial cell death and regeneration in an inflammatory environment sensitizes cells for neoplastic transformation and the development of colorectal tumours in aged mice.
 
 ---
-### 462. Transformation of intestinal stem cells into gastric stem cells on loss of transcription factor Cdx2
+### 461. Transformation of intestinal stem cells into gastric stem cells on loss of transcription factor Cdx2
 
 **Citation.** Simmini S, Bialecka M, Huch M, Kester L, van de Wetering M, Sato T, Beck F, van Oudenaarden A, Clevers H, Deschamps J. Transformation of intestinal stem cells into gastric stem cells on loss of transcription factor Cdx2. Nat Commun. 2014;5:5728.
 
@@ -18079,7 +18011,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** The endodermal lining of the adult gastro-intestinal tract harbours stem cells that are responsible for the day-to-day regeneration of the epithelium. Stem cells residing in the pyloric glands of the stomach and in the small intestinal crypts differ in their differentiation programme and in the gene repertoire that they express. Both types of stem cells have been shown to grow from single cells into 3D structures (organoids) in vitro. We show that single adult Lgr5-positive stem cells, isolated from small intestinal organoids, require Cdx2 to maintain their intestinal identity and are converted cell-autonomously into pyloric stem cells in the absence of this transcription factor. Clonal descendants of Cdx2(null) small intestinal stem cells enter the gastric differentiation program instead of producing intestinal derivatives. We show that the intestinal genetic programme is critically dependent on the single transcription factor encoding gene Cdx2.
 
 ---
-### 463. Whole-genome sequencing and comprehensive molecular profiling identify new driver mutations in gastric cancer
+### 462. Whole-genome sequencing and comprehensive molecular profiling identify new driver mutations in gastric cancer
 
 **Citation.** Wang K, Yuen ST, Xu J, Lee SP, Yan HHN, Shi ST, Siu HC, Deng S, Chu KM, Law S, Chan KH, Chan ASY, Tsui WY, Ho SL, Chan AKW, Man JLK, Foglizzo V, Ng MK, Chan AS, Ching YP, Cheng GHW, Xie T, Fernandez J, Li VSW, Clevers H, Rejto PA, Mao M, Leung SY. Whole-genome sequencing and comprehensive molecular profiling identify new driver mutations in gastric cancer. Nat Genet. 2014;46(6):573-82.
 
@@ -18134,7 +18066,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** Gastric cancer is a heterogeneous disease with diverse molecular and histological subtypes. We performed whole-genome sequencing in 100 tumor-normal pairs, along with DNA copy number, gene expression and methylation profiling, for integrative genomic analysis. We found subtype-specific genetic and epigenetic perturbations and unique mutational signatures. We identified previously known (TP53, ARID1A and CDH1) and new (MUC6, CTNNA2, GLI3, RNF43 and others) significantly mutated driver genes. Specifically, we found RHOA mutations in 14.3% of diffuse-type tumors but not in intestinal-type tumors (P < 0.001). The mutations clustered in recurrent hotspots affecting functional domains and caused defective RHOA signaling, promoting escape from anoikis in organoid cultures. The top perturbed pathways in gastric cancer included adherens junction and focal adhesion, in which RHOA and other mutated genes we identified participate as key players. These findings illustrate a multidimensional and comprehensive genomic landscape that highlights the molecular complexity of gastric cancer and provides a road map to facilitate genome-guided personalized therapy.
 
 ---
-### 464. A promoter-level mammalian expression atlas
+### 463. A promoter-level mammalian expression atlas
 
 **Citation.** Forrest ARR, Kawaji H, Rehli M, Baillie JK, de Hoon MJL, Haberle V, Lassmann T, Kulakovskiy IV, Lizio M, Itoh M, Andersson R, Mungall CJ, Meehan TF, Schmeier S, Bertin N, Jørgensen M, Dimont E, Arner E, Schmidl C, Schaefer U, Medvedeva YA, Plessy C, Vitezic M, Severin J, Semple CA, Ishizu Y, Young RS, Francescatto M, Alam I, Albanese D, Altschuler GM, Arakawa T, Archer JAC, Arner P, Babina M, Rennie S, Balwierz PJ, Beckhouse AG, Pradhan-Bhatt S, Blake JA, Blumenthal A, Bodega B, Bonetti A, Briggs J, Brombacher F, Burroughs AM, Califano A, Cannistraci CV, Carbajo D, Chen Y, Chierici M, Ciani Y, Clevers HC, Dalla E, Davis CA, Detmar M, Diehl AD, Dohi T, Drabløs F, Edge ASB, Edinger M, Ekwall K, Endoh M, Enomoto H, Fagiolini M, Fairbairn L, Fang H, Farach-Carson MC, Faulkner GJ, Favorov AV, Fisher ME, Frith MC, Fujita R, Fukuda S, Furlanello C, Furino M, Furusawa J, Geijtenbeek TB, Gibson AP, Gingeras T, Goldowitz D, Gough J, Guhl S, Guler R, Gustincich S, Ha TJ, Hamaguchi M, Hara M, Harbers M, Harshbarger J, Hasegawa A, Hasegawa Y, Hashimoto T, Herlyn M, Hitchens KJ, Ho Sui SJ, Hofmann OM, Hoof I, Hori F, Huminiecki L, Iida K, Ikawa T, Jankovic BR, Jia H, Joshi A, Jurman G, Kaczkowski B, Kai C, Kaida K, Kaiho A, Kajiyama K, Kanamori-Katayama M, Kasianov AS, Kasukawa T, Katayama S, Kato S, Kawaguchi S, Kawamoto H, Kawamura YI, Kawashima T, Kempfle JS, Kenna TJ, Kere J, Khachigian LM, Kitamura T, Klinken SP, Knox AJ, Kojima M, Kojima S, Kondo N, Koseki H, Koyasu S, Krampitz S, Kubosaki A, Kwon AT, Laros JFJ, Lee W, Lennartsson A, Li K, Lilje B, Lipovich L, Mackay-Sim A, Manabe R, Mar JC, Marchand B, Mathelier A, Mejhert N, Meynert A, Mizuno Y, de Lima Morais DA, Morikawa H, Morimoto M, Moro K, Motakis E, Motohashi H, Mummery CL, Murata M, Nagao-Sato S, Nakachi Y, Nakahara F, Nakamura T, Nakamura Y, Nakazato K, van Nimwegen E, Ninomiya N, Nishiyori H, Noma S, Noma S, Noazaki T, Ogishima S, Ohkura N, Ohimiya H, Ohno H, Ohshima M, Okada-Hatakeyama M, Okazaki Y, Orlando V, Ovchinnikov DA, Pain A, Passier R, Patrikakis M, Persson H, Piazza S, Prendergast JGD, Rackham OJL, Ramilowski JA, Rashid M, Ravasi T, Rizzu P, Roncador M, Roy S, Rye MB, Saijyo E, Sajantila A, Saka A, Sakaguchi S, Sakai M, Sato H, Savvi S, Saxena A, Schneider C, Schultes EA, Schulze-Tanzil GG, Schwegmann A, Sengstag T, Sheng G, Shimoji H, Shimoni Y, Shin JW, Simon C, Sugiyama D, Sugiyama T, Suzuki M, Suzuki N, Swoboda RK, 't Hoen PAC, Tagami M, Takahashi N, Takai J, Tanaka H, Tatsukawa H, Tatum Z, Thompson M, Toyodo H, Toyoda T, Valen E, van de Wetering M, van den Berg LM, Verado R, Vijayan D, Vorontsov IE, Wasserman WW, Watanabe S, Wells CA, Winteringham LN, Wolvetang E, Wood EJ, Yamaguchi Y, Yamamoto M, Yoneda M, Yonekura Y, Yoshida S, Zabierowski SE, Zhang PG, Zhao X, Zucchelli S, Summers KM, Suzuki H, Daub CO, Kawai J, Heutink P, Hide W, Freeman TC, Lenhard B, Bajic VB, Taylor MS, Makeev VJ, Sandelin A, Hume DA, Carninci P, Hayashizaki Y. A promoter-level mammalian expression atlas. Nature. 2014;507(7493):462-70.
 
@@ -18411,7 +18343,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** Regulated transcription controls the diversity, developmental pathways and spatial organization of the hundreds of cell types that make up a mammal. Using single-molecule cDNA sequencing, we mapped transcription start sites (TSSs) and their usage in human and mouse primary cells, cell lines and tissues to produce a comprehensive overview of mammalian gene expression across the human body. We find that few genes are truly 'housekeeping', whereas many mammalian promoters are composite entities composed of several closely separated TSSs, with independent cell-type-specific expression profiles. TSSs specific to different cell types evolve at different rates, whereas promoters of broadly expressed genes are the most conserved. Promoter-based expression analysis reveals key transcription factors defining cell states and links them to binding-site motifs. The functions of identified novel transcripts can be predicted by coexpression and sample ontology enrichment analyses. The functional annotation of the mammalian genome 5 (FANTOM5) project provides comprehensive expression profiles and functional annotation of mammalian cell-type-specific transcriptomes with wide applications in biomedical research.
 
 ---
-### 465. Genome sequencing of normal cells reveals developmental lineages and mutational processes
+### 464. Genome sequencing of normal cells reveals developmental lineages and mutational processes
 
 **Citation.** Behjati S, Huch M, van Boxtel R, Karthaus W, Wedge DC, Tamuri AU, Martincorena I, Petljak M, Alexandrov LB, Gundem G, Tarpey PS, Roerink S, Blokker J, Maddison M, Mudie L, Robinson B, Nik-Zainal S, Campbell P, Goldman N, van de Wetering M, Cuppen E, Clevers H, Stratton MR. Genome sequencing of normal cells reveals developmental lineages and mutational processes. Nature. 2014;513(7518):422-425.
 
@@ -18457,7 +18389,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** The somatic mutations present in the genome of a cell accumulate over the lifetime of a multicellular organism. These mutations can provide insights into the developmental lineage tree, the number of divisions that each cell has undergone and the mutational processes that have been operative. Here we describe whole genomes of clonal lines derived from multiple tissues of healthy mice. Using somatic base substitutions, we reconstructed the early cell divisions of each animal, demonstrating the contributions of embryonic cells to adult tissues. Differences were observed between tissues in the numbers and types of mutations accumulated by each cell, which likely reflect differences in the number of cell divisions they have undergone and varying contributions of different mutational processes. If somatic mutation rates are similar to those in mice, the results indicate that precise insights into development and mutagenesis of normal human cells will be possible.
 
 ---
-### 466. Glial origin of mesenchymal stem cells in a tooth model system
+### 465. Glial origin of mesenchymal stem cells in a tooth model system
 
 **Citation.** Kaukua N, Shahidi MK, Konstantinidou C, Dyachuk V, Kaucka M, Furlan A, An Z, Wang L, Hultman I, Ahrlund-Richter L, Blom H, Brismar H, Lopes NA, Pachnis V, Suter U, Clevers H, Thesleff I, Sharpe P, Ernfors P, Fried K, Adameyko I. Glial origin of mesenchymal stem cells in a tooth model system. Nature. 2014;513(7519):551-4.
 
@@ -18508,7 +18440,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** Mesenchymal stem cells occupy niches in stromal tissues where they provide sources of cells for specialized mesenchymal derivatives during growth and repair. The origins of mesenchymal stem cells have been the subject of considerable discussion, and current consensus holds that perivascular cells form mesenchymal stem cells in most tissues. The continuously growing mouse incisor tooth offers an excellent model to address the origin of mesenchymal stem cells. These stem cells dwell in a niche at the tooth apex where they produce a variety of differentiated derivatives. Cells constituting the tooth are mostly derived from two embryonic sources: neural crest ectomesenchyme and ectodermal epithelium. It has been thought for decades that the dental mesenchymal stem cells giving rise to pulp cells and odontoblasts derive from neural crest cells after their migration in the early head and formation of ectomesenchymal tissue. Here we show that a significant population of mesenchymal stem cells during development, self-renewal and repair of a tooth are derived from peripheral nerve-associated glia. Glial cells generate multipotent mesenchymal stem cells that produce pulp cells and odontoblasts. By combining a clonal colour-coding technique with tracing of peripheral glia, we provide new insights into the dynamics of tooth organogenesis and growth.
 
 ---
-### 467. Intestinal crypt homeostasis revealed at single-stem-cell level by in vivo live imaging
+### 466. Intestinal crypt homeostasis revealed at single-stem-cell level by in vivo live imaging
 
 **Citation.** Ritsma L, Ellenbroek SIJ, Zomer A, Snippert HJ, de Sauvage FJ, Simons BD, Clevers H, van Rheenen J. Intestinal crypt homeostasis revealed at single-stem-cell level by in vivo live imaging. Nature. 2014;507(7492):362-365.
 
@@ -18540,7 +18472,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** The rapid turnover of the mammalian intestinal epithelium is supported by stem cells located around the base of the crypt. In addition to the Lgr5 marker, intestinal stem cells have been associated with other markers that are expressed heterogeneously within the crypt base region. Previous quantitative clonal fate analyses have led to the proposal that homeostasis occurs as the consequence of neutral competition between dividing stem cells. However, the short-term behaviour of individual Lgr5(+) cells positioned at different locations within the crypt base compartment has not been resolved. Here we establish the short-term dynamics of intestinal stem cells using the novel approach of continuous intravital imaging of Lgr5- Confetti mice. We find that Lgr5(+) cells in the upper part of the niche (termed 'border cells') can be passively displaced into the transit-amplifying domain, after the division of proximate cells, implying that the determination of stem-cell fate can be uncoupled from division. Through quantitative analysis of individual clonal lineages, we show that stem cells at the crypt base, termed 'central cells', experience a survival advantage over border stem cells. However, through the transfer of stem cells between the border and central regions, all Lgr5(+) cells are endowed with long-term self-renewal potential. These findings establish a novel paradigm for stem-cell maintenance in which a dynamically heterogeneous cell population is able to function long term as a single stem-cell pool.
 
 ---
-### 468. Transcription factor achaete-scute homologue 2 initiates follicular T-helper-cell development
+### 467. Transcription factor achaete-scute homologue 2 initiates follicular T-helper-cell development
 
 **Citation.** Liu X, Chen X, Zhong B, Wang A, Wang X, Chu F, Nurieva RI, Yan X, Chen P, van der Flier LG, Nakatsukasa H, Neelapu SS, Chen W, Clevers H, Tian Q, Qi H, Wei L, Dong C. Transcription factor achaete-scute homologue 2 initiates follicular T-helper-cell development. Nature. 2014;507(7493):513-8.
 
@@ -18586,7 +18518,7 @@ We show that TTC7A regulates the actin cytoskeleton dynamics in lymphocytes thro
 **Abstract.** In immune responses, activated T cells migrate to B-cell follicles and develop into follicular T-helper (TFH) cells, a recently identified subset of CD4(+) T cells specialized in providing help to B lymphocytes in the induction of germinal centres. Although Bcl6 has been shown to be essential in TFH-cell function, it may not regulate the initial migration of T cells or the induction of the TFH program, as exemplified by C-X-C chemokine receptor type 5 (CXCR5) upregulation. Here we show that expression of achaete-scute homologue 2 (Ascl2)--a basic helix-loop-helix (bHLH) transcription factor--is selectively upregulated in TFH cells. Ectopic expression of Ascl2 upregulates CXCR5 but not Bcl6, and downregulates C-C chemokine receptor 7 (CCR7) expression in T cells in vitro, as well as accelerating T-cell migration to the follicles and TFH-cell development in vivo in mice. Genome-wide analysis indicates that Ascl2 directly regulates TFH-related genes whereas it inhibits expression of T-helper cell 1 (TH1) and TH17 signature genes. Acute deletion of Ascl2, as well as blockade of its function with the Id3 protein in CD4(+) T cells, results in impaired TFH-cell development and germinal centre response. Conversely, mutation of Id3, known to cause antibody-mediated autoimmunity, greatly enhances TFH-cell generation. Thus, Ascl2 directly initiates TFH-cell development.
 
 ---
-### 469. STRAD pseudokinases regulate axogenesis and LKB1 stability
+### 468. STRAD pseudokinases regulate axogenesis and LKB1 stability
 
 **Citation.** Veleva-Rotse BO, Smart JL, Baas AF, Edmonds B, Zhao Z, Brown A, Klug LR, Hansen K, Reilly G, Gardner AP, Subbiah K, Gaucher EA, Clevers H, Barnes AP. STRAD pseudokinases regulate axogenesis and LKB1 stability. Neural Dev. 2014;9:5.
 
@@ -18622,7 +18554,7 @@ We find that STRADα is highly spliced and appears to be the primal STRAD paralo
 We demonstrate a novel role for STRADβ in axogenesis and also show for the first time in vivo that STRADα, but not STRADβ, is responsible for LKB1 protein stability.
 
 ---
-### 470. Stem cell signaling. An integral program for tissue renewal and regeneration: Wnt signaling and stem cell control
+### 469. Stem cell signaling. An integral program for tissue renewal and regeneration: Wnt signaling and stem cell control
 
 **Citation.** Clevers H, Loh KM, Nusse R. Stem cell signaling. An integral program for tissue renewal and regeneration: Wnt signaling and stem cell control. Science. 2014;346(6205):1248012.
 
@@ -18644,7 +18576,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Stem cells fuel tissue development, renewal, and regeneration, and these activities are controlled by the local stem cell microenvironment, the "niche." Wnt signals emanating from the niche can act as self-renewal factors for stem cells in multiple mammalian tissues. Wnt proteins are lipid-modified, which constrains them to act as short-range cellular signals. The locality of Wnt signaling dictates that stem cells exiting the Wnt signaling domain differentiate, spatially delimiting the niche in certain tissues. In some instances, stem cells may act as or generate their own niche, enabling the self-organization of patterned tissues. In this Review, we discuss the various ways by which Wnt operates in stem cell control and, in doing so, identify an integral program for tissue renewal and regeneration.
 
 ---
-### 471. Human intestinal tissue with adult stem cell properties derived from pluripotent stem cells
+### 470. Human intestinal tissue with adult stem cell properties derived from pluripotent stem cells
 
 **Citation.** Forster R, Chiba K, Schaeffer L, Regalado SG, Lai CS, Gao Q, Kiani S, Farin HF, Clevers H, Cost GJ, Chan A, Rebar EJ, Urnov FD, Gregory PD, Pachter L, Jaenisch R, Hockemeyer D. Human intestinal tissue with adult stem cell properties derived from pluripotent stem cells. Stem Cell Reports. 2014;2(6):838-52.
 
@@ -18685,7 +18617,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Genetically engineered human pluripotent stem cells (hPSCs) have been proposed as a source for transplantation therapies and are rapidly becoming valuable tools for human disease modeling. However, many applications are limited due to the lack of robust differentiation paradigms that allow for the isolation of defined functional tissues. Here, using an endogenous LGR5-GFP reporter, we derived adult stem cells from hPSCs that gave rise to functional human intestinal tissue comprising all major cell types of the intestine. Histological and functional analyses revealed that such human organoid cultures could be derived with high purity and with a composition and morphology similar to those of cultures obtained from human biopsies. Importantly, hPSC-derived organoids responded to the canonical signaling pathways that control self-renewal and differentiation in the adult human intestinal stem cell compartment. This adult stem cell system provides a platform for studying human intestinal disease in vitro using genetically engineered hPSCs.
 
 ---
-### 472. Robust cre-mediated recombination in small intestinal stem cells utilizing the olfm4 locus
+### 471. Robust cre-mediated recombination in small intestinal stem cells utilizing the olfm4 locus
 
 **Citation.** Schuijers J, van der Flier LG, van Es J, Clevers H. Robust cre-mediated recombination in small intestinal stem cells utilizing the olfm4 locus. Stem Cell Reports. 2014;3(2):234-41.
 
@@ -18707,7 +18639,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** The epithelium of the small intestine is the most rapidly self-renewing tissue in mammals. We previously demonstrated the existence of a long-lived pool of cycling stem cells defined by Lgr5 expression at the bottom of intestinal crypts. An Lgr5-eGFP-IRES-CreERT2 knockin allele has been instrumental in characterizing and profiling these cells, yet its low level expression and its silencing in patches of adjacent crypts have not allowed quantitative gene deletion. Olfactomedin-4 (Olfm4) has emerged from a gene signature of Lgr5 stem cells as a robust marker for murine small intestinal stem cells. We observe that Olfm4(null) animals show no phenotype and report the generation of an Olfm4-IRES-eGFPCreERT2 knockin mouse model that allows visualization and genetic manipulation of Lgr5+ stem cells in the epithelium of the small intestine. The eGFPCreERT2 fusion protein faithfully marks all stem cells in the small intestine and induces the activation of a conditional LacZ reporter with robust efficiency.
 
 ---
-### 473. Adult stem cells in the small intestine are intrinsically programmed with their location-specific function
+### 472. Adult stem cells in the small intestine are intrinsically programmed with their location-specific function
 
 **Citation.** Middendorp S, Schneeberger K, Wiegerinck CL, Mokry M, Akkerman RDL, van Wijngaarden S, Clevers H, Nieuwenhuis EES. Adult stem cells in the small intestine are intrinsically programmed with their location-specific function. Stem Cells. 2014;32(5):1083-91.
 
@@ -18733,7 +18665,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Differentiation and specialization of epithelial cells in the small intestine are regulated in two ways. First, there is differentiation along the crypt-villus axis of the intestinal stem cells into absorptive enterocytes, Paneth, goblet, tuft, enteroendocrine, or M cells, which is mainly regulated by WNT. Second, there is specialization along the cephalocaudal axis with different absorptive and digestive functions in duodenum, jejunum, and ileum that is controlled by several transcription factors such as GATA4. However, so far it is unknown whether location-specific functional properties are intrinsically programmed within stem cells or if continuous signaling from mesenchymal cells is necessary to maintain the location-specific identity of the small intestine. Using the pure epithelial organoid technique, we show that region-specific gene expression profiles are conserved throughout long-term cultures of both mouse and human intestinal stem cells and correlated with differential Gata4 expression. Furthermore, the human organoid culture system demonstrates that Gata4-regulated gene expression is only allowed in absence of WNT signaling. These data show that location-specific function is intrinsically programmed in the adult stem cells of the small intestine and that their differentiation fate is independent of location-specific extracellular signals. In light of the potential future clinical application of small intestine-derived organoids, our data imply that it is important to generate GATA4-positive and GATA4-negative cultures to regenerate all essential functions of the small intestine.
 
 ---
-### 474. Plasticity within stem cell hierarchies in mammalian epithelia
+### 473. Plasticity within stem cell hierarchies in mammalian epithelia
 
 **Citation.** Tetteh PW, Farin HF, Clevers H. Plasticity within stem cell hierarchies in mammalian epithelia. Trends Cell Biol. 2014;25(2):100-8.
 
@@ -18757,7 +18689,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 
 ## 2013
 
-### 475. Spdef null mice lack conjunctival goblet cells and provide a model of dry eye
+### 474. Spdef null mice lack conjunctival goblet cells and provide a model of dry eye
 
 **Citation.** Marko CK, Menon BB, Chen G, Whitsett JA, Clevers H, Gipson IK. Spdef null mice lack conjunctival goblet cells and provide a model of dry eye. Am J Pathol. 2013;183(1):35-48.
 
@@ -18781,7 +18713,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Goblet cell numbers decrease within the conjunctival epithelium in drying and cicatrizing ocular surface diseases. Factors regulating goblet cell differentiation in conjunctival epithelium are unknown. Recent data indicate that the transcription factor SAM-pointed domain epithelial-specific transcription factor (Spdef) is essential for goblet cell differentiation in tracheobronchial and gastrointestinal epithelium of mice. Using Spdef(-/-) mice, we determined that Spdef is required for conjunctival goblet cell differentiation and that Spdef(-/-) mice, which lack conjunctival goblet cells, have significantly increased corneal surface fluorescein staining and tear volume, a phenotype consistent with dry eye. Microarray analysis of conjunctival epithelium in Spdef(-/-) mice revealed down-regulation of goblet cell-specific genes (Muc5ac, Tff1, Gcnt3). Up-regulated genes included epithelial cell differentiation/keratinization genes (Sprr2h, Tgm1) and proinflammatory genes (Il1-α, Il-1β, Tnf-α), all of which are up-regulated in dry eye. Interestingly, four Wnt pathway genes were down-regulated. SPDEF expression was significantly decreased in the conjunctival epithelium of Sjögren syndrome patients with dry eye and decreased goblet cell mucin expression. These data demonstrate that Spdef is required for conjunctival goblet cell differentiation and down-regulation of SPDEF may play a role in human dry eye with goblet cell loss. Spdef(-/-) mice have an ocular surface phenotype similar to that in moderate dry eye, providing a new, more convenient model for the disease.
 
 ---
-### 476. Paneth cells: maestros of the small intestinal crypts
+### 475. Paneth cells: maestros of the small intestinal crypts
 
 **Citation.** Clevers HC, Bevins CL. Paneth cells: maestros of the small intestinal crypts. Annu Rev Physiol. 2013;75:289-311.
 
@@ -18801,7 +18733,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Paneth cells are highly specialized epithelial cells of the small intestine, where they coordinate many physiological functions. First identified more than a century ago on the basis of their readily discernible secretory granules by routine histology, these cells are located at the base of the crypts of Lieberkühn, tiny invaginations that line the mucosal surface all along the small intestine. Investigations over the past several decades determined that these cells synthesize and secrete substantial quantities of antimicrobial peptides and proteins. More recent studies have determined that these antimicrobial molecules are key mediators of host-microbe interactions, including homeostatic balance with colonizing microbiota and innate immune protection from enteric pathogens. Perhaps more intriguing, Paneth cells secrete factors that help sustain and modulate the epithelial stem and progenitor cells that cohabitate in the crypts and rejuvenate the small intestinal epithelium. Dysfunction of Paneth cell biology contributes to the pathogenesis of chronic inflammatory bowel disease.
 
 ---
-### 477. LGR5 positivity defines stem-like cells in colorectal cancer
+### 476. LGR5 positivity defines stem-like cells in colorectal cancer
 
 **Citation.** Hirsch D, Barker N, McNeil N, Hu Y, Camps J, McKinnon K, Clevers H, Ried T, Gaiser T. LGR5 positivity defines stem-like cells in colorectal cancer. Carcinogenesis. 2013;35(4):849-58.
 
@@ -18828,7 +18760,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Like normal colorectal epithelium, colorectal carcinomas (CRCs) are organized hierarchically and include populations of cells with stem-like properties. Leucine-rich-repeat-containing G-protein-coupled receptor 5 (LGR5) is associated with these stem cells in normal colorectal epithelium; however, the precise function of LGR5 in CRC remains largely unknown. Here, we analyzed the functional and molecular consequences of short hairpin RNA-mediated silencing of LGR5 in CRC cell lines SW480 and HT-29. Additionally, we exposed Lgr5-EGFP-IRES-CreERT2 mice to azoxymethane/dextrane sodium sulfate (AOM/DSS), which induces inflammation-driven colon tumors. Tumors were then flow-sorted into fractions of epithelial cells that expressed high or low levels of Lgr5 and were molecularly characterized using gene expression profiling and array comparative genomic hybridization. Silencing of LGR5 in SW480 CRC cells resulted in a depletion of spheres but did not affect adherently growing cells. Spheres expressed higher levels of several stem cell-associated genes than adherent cells, including LGR5. Silencing of LGR5 reduced proliferation, migration and colony formation in vitro and tumorigenicity in vivo. In accordance with these results, NOTCH signaling was downregulated upon LGR5 silencing. In AOM/DSS-induced colon tumors, Lgr5 high cells showed higher levels of several stem cell-associated genes and higher Wnt signaling than Lgr5 low tumor cells and Lgr5 high normal colon cells. Array comparative genomic hybridization revealed no genomic imbalances in either tumor cell fraction. Our data elucidate mechanisms that define the role of LGR5 as a marker for stem-like cells in CRC.
 
 ---
-### 478. Occult progression by Apc-deficient intestinal crypts as a target for chemoprevention
+### 477. Occult progression by Apc-deficient intestinal crypts as a target for chemoprevention
 
 **Citation.** Fischer JM, Schepers AG, Clevers H, Shibata D, Liskay RM. Occult progression by Apc-deficient intestinal crypts as a target for chemoprevention. Carcinogenesis. 2013;35(1):237-46.
 
@@ -18851,7 +18783,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Although Apc mutation is widely considered an initiating event in colorectal cancer, little is known about the earliest stages of tumorigenesis following sporadic Apc loss. Therefore, we have utilized a novel mouse model that facilitates the sporadic inactivation of Apc via frameshift reversion of Cre in single, isolated cells and subsequently tracks the fates of Apc-deficient intestinal cells. Our results suggest that consistent with Apc being a 'gatekeeper', loss of Apc early in life during intestinal growth leads to adenomas or increased crypt fission, manifested by fields of mutant but otherwise normal-appearing crypts. In contrast, Apc loss occurring later in life has minimal consequences, with mutant crypts being less prone to either increased crypt fission or adenoma formation. Using the stem cell-specific Lgr5-CreER mouse, we generated different sized fields of Apc-deficient crypts via independent recombination events and found that field size correlates with progression to adenoma. To evaluate this early stage prior to adenoma formation as a therapeutic target, we examined the chemopreventive effects of sulindac on Apc-deficient occult crypt fission. We found that sulindac treatment started early in life inhibits the morphologically occult spread of Apc-deficient crypts and thus reduces adenoma numbers. Taken together these results suggest that: (i) earlier Apc loss promotes increased crypt fission, (ii) a field of Apc-deficient crypts, which can form via occult crypt fission or independent neighboring events, is an important intermediate between loss of Apc and adenoma formation and (iii) normal-appearing Apc-deficient crypts are potential unappreciated targets for cancer screening and chemoprevention.
 
 ---
-### 479. Differentiated Troy+ chief cells act as reserve stem cells to generate all lineages of the stomach epithelium
+### 478. Differentiated Troy+ chief cells act as reserve stem cells to generate all lineages of the stomach epithelium
 
 **Citation.** Stange DE, Koo B, Huch M, Sibbel G, Basak O, Lyubimova A, Kujala P, Bartfeld S, Koster J, Geahlen JH, Peters PJ, van Es JH, van de Wetering M, Mills JC, Clevers H. Differentiated Troy+ chief cells act as reserve stem cells to generate all lineages of the stomach epithelium. Cell. 2013;155(2):357-68.
 
@@ -18884,7 +18816,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Proliferation of the self-renewing epithelium of the gastric corpus occurs almost exclusively in the isthmus of the glands, from where cells migrate bidirectionally toward pit and base. The isthmus is therefore generally viewed as the stem cell zone. We find that the stem cell marker Troy is expressed at the gland base by a small subpopulation of fully differentiated chief cells. By lineage tracing with a Troy-eGFP-ires-CreERT2 allele, single marked chief cells are shown to generate entirely labeled gastric units over periods of months. This phenomenon accelerates upon tissue damage. Troy(+) chief cells can be cultured to generate long-lived gastric organoids. Troy marks a specific subset of chief cells that display plasticity in that they are capable of replenishing entire gastric units, essentially serving as quiescent "reserve" stem cells. These observations challenge the notion that stem cell hierarchies represent a "one-way street."
 
 ---
-### 480. SnapShot: the intestinal crypt
+### 479. SnapShot: the intestinal crypt
 
 **Citation.** Clevers H, Batlle E. SnapShot: the intestinal crypt. Cell. 2013;152(5):1198-1198.e2.
 
@@ -18901,10 +18833,10 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 
 1. Hubrecht Institute, KNAW and University Medical Centre Utrecht, Uppsalalaan 8, 3584CT Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 481. The intestinal crypt, a prototype stem cell compartment
+### 480. The intestinal crypt, a prototype stem cell compartment
 
 **Citation.** Clevers H. The intestinal crypt, a prototype stem cell compartment. Cell. 2013;154(2):274-84.
 
@@ -18923,7 +18855,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Due to its intense self-renewal kinetics and its simple repetitive architecture, the intestinal epithelium has become a prime model for studying adult stem cells in health and disease. Transgenic mouse models allow in vivo visualization and genetic lineage tracing of individual intestinal stem cells and their offspring. Fluorescently marked stem cells can be isolated for molecular analyses or can be cultured to build ever-expanding "mini-guts" in vitro. These studies are filling in the outlines of a robust homeostatic self-renewal process that defies some of the classical definitions of stem cell behavior, such as asymmetric division, quiescence, and exhaustion.
 
 ---
-### 482. Immunosurveillance against tetraploidization-induced colon tumorigenesis
+### 481. Immunosurveillance against tetraploidization-induced colon tumorigenesis
 
 **Citation.** Boilève A, Senovilla L, Vitale I, Lissa D, Martins I, Métivier D, van den Brink S, Clevers H, Galluzzi L, Castedo M, Kroemer G. Immunosurveillance against tetraploidization-induced colon tumorigenesis. Cell Cycle. 2013;12(3):473-9.
 
@@ -18952,7 +18884,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Circumstantial evidence suggests that colon carcinogenesis can ensue the transient tetraploidization of (pre-)malignant cells. In line with this notion, the tumor suppressors APC and TP53, both of which are frequently inactivated in colon cancer, inhibit tetraploidization in vitro and in vivo. Here, we show that-contrarily to their wild-type counterparts- Tp53 (-/-) colonocytes are susceptible to drug-induced or spontaneous tetraploidization in vitro. Colon organoids generated from tetraploid Tp53 (-/-) cells exhibit a close-to-normal morphology as compared to their diploid Tp53 (-/-) counterparts, yet the colonocytes constituting these organoids are characterized by an increased cell size and an elevated expression of the immunostimulatory protein calreticulin on the cell surface. The subcutaneous injection of tetraploid Tp53 (-/-) colon organoids led to the generation of proliferating tumors in immunodeficient, but not immunocompetent, mice. Thus, tetraploid Tp53 (-/-) colonocytes fail to survive in immunocompetent mice and develop neoplastic lesions in immunocompromised settings only. These results suggest that tetraploidy is particularly oncogenic in the context of deficient immunosurveillance.
 
 ---
-### 483. ER stress causes rapid loss of intestinal epithelial stemness through activation of the unfolded protein response
+### 482. ER stress causes rapid loss of intestinal epithelial stemness through activation of the unfolded protein response
 
 **Citation.** Heijmans J, van Lidth de Jeude JF, Koo B, Rosekrans SL, Wielenga MCB, van de Wetering M, Ferrante M, Lee AS, Onderwater JJM, Paton JC, Paton AW, Mommaas AM, Kodach LL, Hardwick JC, Hommes DW, Clevers H, Muncan V, van den Brink GR. ER stress causes rapid loss of intestinal epithelial stemness through activation of the unfolded protein response. Cell Rep. 2013;3(4):1128-39.
 
@@ -18988,7 +18920,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Stem cells generate rapidly dividing transit-amplifying cells that have lost the capacity for self-renewal but cycle for a number of times until they exit the cell cycle and undergo terminal differentiation. We know very little of the type of signals that trigger the earliest steps of stem cell differentiation and mediate a stem cell to transit-amplifying cell transition. We show that in normal intestinal epithelium, endoplasmic reticulum (ER) stress and activity of the unfolded protein response (UPR) are induced at the transition from stem cell to transit-amplifying cell. Induction of ER stress causes loss of stemness in a Perk-eIF2α-dependent manner. Inhibition of Perk-eIF2α signaling results in stem cell accumulation in organoid culture of primary intestinal epithelium. Our findings show that the UPR plays an important role in the regulation of intestinal epithelial stem cell differentiation.
 
 ---
-### 484. Structure of stem cell growth factor R-spondin 1 in complex with the ectodomain of its receptor LGR5
+### 483. Structure of stem cell growth factor R-spondin 1 in complex with the ectodomain of its receptor LGR5
 
 **Citation.** Peng WC, de Lau W, Forneris F, Granneman JCM, Huch M, Clevers H, Gros P. Structure of stem cell growth factor R-spondin 1 in complex with the ectodomain of its receptor LGR5. Cell Rep. 2013;3(6):1885-92.
 
@@ -19013,7 +18945,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Leucine-rich repeat-containing G protein-coupled receptors 4-6 (LGR4-LGR6) are receptors for R-spondins, potent Wnt agonists that exert profound trophic effects on Wnt-driven stem cells compartments. We present crystal structures of a signaling-competent fragment of R-spondin 1 (Rspo1) at a resolution of 2.0 Å and its complex with the LGR5 ectodomain at a resolution of 3.2 Å. Ecto-LGR5 binds Rspo1 at its concave leucine-rich-repeat (LRR) surface, forming a dimeric 2:2 complex. Fully conserved residues on LGR4-LGR6 explain promiscuous binding of R-spondins. A phenylalanine clamp formed by Rspo1 Phe106 and Phe110 pinches Ala190 of LGR5 and is critical for binding. Mutations related to congenital anonychia reduce signaling, but not binding of Rspo1 to LGR5. Furthermore, antibody binding to the extended loop of the C-terminal LRR cap of LGR5 activates signaling in a ligand-independent manner. Thus, our data reveal binding of R-spondins to conserved sites on LGR4-LGR6 and, in analogy to FSHR and related receptors, suggest a direct signaling role for LGR4-LGR6 in addition to its formation of Wnt receptor and coreceptor complexes.
 
 ---
-### 485. Functional repair of CFTR by CRISPR/Cas9 in intestinal stem cell organoids of cystic fibrosis patients
+### 484. Functional repair of CFTR by CRISPR/Cas9 in intestinal stem cell organoids of cystic fibrosis patients
 
 **Citation.** Schwank G, Koo B, Sasselli V, Dekkers JF, Heo I, Demircan T, Sasaki N, Boymans S, Cuppen E, van der Ent CK, Nieuwenhuis EES, Beekman JM, Clevers H. Functional repair of CFTR by CRISPR/Cas9 in intestinal stem cell organoids of cystic fibrosis patients. Cell Stem Cell. 2013;13(6):653-8.
 
@@ -19044,7 +18976,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Single murine and human intestinal stem cells can be expanded in culture over long time periods as genetically and phenotypically stable epithelial organoids. Increased cAMP levels induce rapid swelling of such organoids by opening the cystic fibrosis transmembrane conductor receptor (CFTR). This response is lost in organoids derived from cystic fibrosis (CF) patients. Here we use the CRISPR/Cas9 genome editing system to correct the CFTR locus by homologous recombination in cultured intestinal stem cells of CF patients. The corrected allele is expressed and fully functional as measured in clonally expanded organoids. This study provides proof of concept for gene correction by homologous recombination in primary adult stem cells derived from patients with a single-gene hereditary defect.
 
 ---
-### 486. Intestinal regeneration: YAP-tumor suppressor and oncoprotein?
+### 485. Intestinal regeneration: YAP-tumor suppressor and oncoprotein?
 
 **Citation.** Li VSW, Clevers H. Intestinal regeneration: YAP-tumor suppressor and oncoprotein?. Curr Biol. 2013;23(3):R110-2.
 
@@ -19064,7 +18996,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** The Hippo signaling pathway exerts a growth-suppressive effect by inhibitory phosphorylation of the oncogenic transcription co-activator Yki/YAP. A recent study paradoxically reports that genetic removal of YAP enhances intestinal stem cell expansion and regeneration.
 
 ---
-### 487. Organoid cultures for the analysis of cancer phenotypes
+### 486. Organoid cultures for the analysis of cancer phenotypes
 
 **Citation.** Sachs N, Clevers H. Organoid cultures for the analysis of cancer phenotypes. Curr Opin Genet Dev. 2013;24:68-73.
 
@@ -19084,7 +19016,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Preclinical models of cancer are essential for a basic understanding of cancer biology and its translation into efficient treatment options for affected patients. Cancer cell lines and xenografts derived directly from primary human tumors have proven very valuable in fundamental oncology research and anticancer drug discovery. Both models inherently comprise advantages and caveats that have to be accounted for. We will outline in these and discuss primary patient derived organoids as third preclinical cancer model. We propose that cancer organoids could potentially fill the gap between simple cancer cell lines suitable for high-throughput screens and complicated, but physiologically relevant xenografts. The resulting applications for cancer organoids range from basic research to drug screens and patient stratification.
 
 ---
-### 488. Retroviral gene expression control in primary organoid cultures
+### 487. Retroviral gene expression control in primary organoid cultures
 
 **Citation.** Koo B, Sasselli V, Clevers H. Retroviral gene expression control in primary organoid cultures. Curr Protoc Stem Cell Biol. 2013;27:5A.6.1-5A.6.8.
 
@@ -19105,7 +19037,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** In this unit, we describe a protocol for regulated gene expression in primary endodermal organoid culture using retroviral vectors. The study of gene function in endodermal epithelia such as those lining the stomach, small intestine, and colon has so far mainly relied on the generation of transgenic mouse lines. Establishing such animal models is laborious, expensive, and time-consuming. Ever-expanding endodermal organoids, grown in an in vitro 3-D epithelial culture system, faithfully recapitulate the in vivo counterpart and represent a sustainable alternative. Gene overexpression and knockdown can be achieved in organoids by retroviral transduction. The technique can also be applied to organoids derived from pre-established mutant mouse lines or used in combination with chemical and biological inhibitors or activators. This method provides a novel, versatile tool for phenotypic analysis of endodermal epithelium in vitro.
 
 ---
-### 489. Lgr proteins in epithelial stem cell biology
+### 488. Lgr proteins in epithelial stem cell biology
 
 **Citation.** Barker N, Tan S, Clevers H. Lgr proteins in epithelial stem cell biology. Development. 2013;140(12):2484-94.
 
@@ -19126,7 +19058,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** The ultimate success of global efforts to exploit adult stem cells for regenerative medicine will depend heavily on the availability of robust, highly selective stem cell surface markers that facilitate the isolation of stem cells from human tissues. Any subsequent expansion or manipulation of isolated stem cells will also require an intimate knowledge of the mechanisms that regulate these cells, to ensure maintenance of their regenerative capacities and to minimize the risk of introducing undesirable growth traits that could pose health risks for patients. A subclass of leucine-rich repeat-containing G-protein-coupled receptor (Lgr) proteins has recently gained prominence as adult stem cell markers with crucial roles in maintaining stem cell functions. Here, we discuss the major impact that their discovery has had on our understanding of adult stem cell biology in various self-renewing tissues and in accelerating progress towards the development of effective stem cell therapies.
 
 ---
-### 490. Conversion of mature human β-cells into glucagon-producing α-cells
+### 489. Conversion of mature human β-cells into glucagon-producing α-cells
 
 **Citation.** Spijker HS, Ravelli RBG, Mommaas-Kienhuis AM, van Apeldoorn AA, Engelse MA, Zaldumbide A, Bonner-Weir S, Rabelink TJ, Hoeben RC, Clevers H, Mummery CL, Carlotti F, de Koning EJP. Conversion of mature human β-cells into glucagon-producing α-cells. Diabetes. 2013;62(7):2471-80.
 
@@ -19157,7 +19089,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Conversion of one terminally differentiated cell type into another (or transdifferentiation) usually requires the forced expression of key transcription factors. We examined the plasticity of human insulin-producing β-cells in a model of islet cell aggregate formation. Here, we show that primary human β-cells can undergo a conversion into glucagon-producing α-cells without introduction of any genetic modification. The process occurs within days as revealed by lentivirus-mediated β-cell lineage tracing. Converted cells are indistinguishable from native α-cells based on ultrastructural morphology and maintain their α-cell phenotype after transplantation in vivo. Transition of β-cells into α-cells occurs after β-cell degranulation and is characterized by the presence of β-cell-specific transcription factors Pdx1 and Nkx6.1 in glucagon(+) cells. Finally, we show that lentivirus-mediated knockdown of Arx, a determinant of the α-cell lineage, inhibits the conversion. Our findings reveal an unknown plasticity of human adult endocrine cells that can be modulated. This endocrine cell plasticity could have implications for islet development, (patho)physiology, and regeneration.
 
 ---
-### 491. Generation of L cells in mouse and human small intestine organoids
+### 490. Generation of L cells in mouse and human small intestine organoids
 
 **Citation.** Petersen N, Reimann F, Bartfeld S, Farin HF, Ringnalda FC, Vries RGJ, van den Brink S, Clevers H, Gribble FM, de Koning EJP. Generation of L cells in mouse and human small intestine organoids. Diabetes. 2013;63(2):410-20.
 
@@ -19185,7 +19117,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Upon a nutrient challenge, L cells produce glucagon-like peptide 1 (GLP-1), a powerful stimulant of insulin release. Strategies to augment endogenous GLP-1 production include promoting L-cell differentiation and increasing L-cell number. Here we present a novel in vitro platform to generate functional L cells from three-dimensional cultures of mouse and human intestinal crypts. We show that short-chain fatty acids selectively increase the number of L cells, resulting in an elevation of GLP-1 release. This is accompanied by the upregulation of transcription factors associated with the endocrine lineage of intestinal stem cell development. Thus, our platform allows us to study and modulate the development of L cells in mouse and human crypts as a potential basis for novel therapeutic strategies in patients with type 2 diabetes.
 
 ---
-### 492. A gutsy approach to stem cells and signalling: an interview with Hans Clevers
+### 491. A gutsy approach to stem cells and signalling: an interview with Hans Clevers
 
 **Citation.** Clevers H. A gutsy approach to stem cells and signalling: an interview with Hans Clevers. Dis Model Mech. 2013;6(5):1053-6.
 
@@ -19202,7 +19134,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Hans Clevers, Professor of Molecular Genetics at Utrecht University, began his career in immunology and developmental biology, but a shift towards intestinal research in the late 1990s led to his group’s pioneering discovery that Lgr5 is a marker of tissue stem cells – a finding that paved the way for a cascade of key insights into the molecular signalling pathways that are dysregulated in cancer. Interviewed here by Ross Cagan, Editor-in-Chief of, Hans recalls the mentors and discoveries that motivated his transition from basic to applied science, discusses his style of lab management and mentorship, and highlights the potential of organoid-based therapy for personalised medicine.
 
 ---
-### 493. Regulation of stem cell therapies under attack in Europe: for whom the bell tolls
+### 492. Regulation of stem cell therapies under attack in Europe: for whom the bell tolls
 
 **Citation.** Bianco P, Barker R, Brüstle O, Cattaneo E, Clevers H, Daley GQ, De Luca M, Goldstein L, Lindvall O, Mummery C, Robey PG, Sattler de Sousa E Brito C, Smith A. Regulation of stem cell therapies under attack in Europe: for whom the bell tolls. EMBO J. 2013;32(11):1489-95.
 
@@ -19233,7 +19165,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** At the time of writing, the Italian Parliament is debating a new law that would make it legal to practice an unproven stem cell treatment in public hospitals. The treatment, offered by a private non-medical organization, may not be safe, lacks a rationale, and violates current national laws and European regulations. This case raises multiple concerns, most prominently the urgent need to protect patients who are severely ill, exposed to significant risks, and vulnerable to exploitation. The scientific community must consider the context-social, financial, medical, legal-in which stem cell science is currently situated and the need for stringent regulation. Additional concerns are emerging. These emanate from the novel climate, created within science itself, and stem cell science in particular, by the currently prevailing model of 'translational medicine'. Only rigorous science and rigorous regulation can ensure translation of science into effective therapies rather than into ineffective market products, and mark, at the same time, the sharp distinction between the striving for new therapies and the deceit of patients.
 
 ---
-### 494. Unlimited in vitro expansion of adult bi-potent pancreas progenitors through the Lgr5/R-spondin axis
+### 493. Unlimited in vitro expansion of adult bi-potent pancreas progenitors through the Lgr5/R-spondin axis
 
 **Citation.** Huch M, Bonfanti P, Boj SF, Sato T, Loomans CJM, van de Wetering M, Sojoodi M, Li VSW, Schuijers J, Gracanin A, Ringnalda F, Begthel H, Hamer K, Mulder J, van Es JH, de Koning E, Vries RGJ, Heimberg H, Clevers H. Unlimited in vitro expansion of adult bi-potent pancreas progenitors through the Lgr5/R-spondin axis. EMBO J. 2013;32(20):2708-21.
 
@@ -19270,7 +19202,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** Lgr5 marks adult stem cells in multiple adult organs and is a receptor for the Wnt-agonistic R-spondins (RSPOs). Intestinal, stomach and liver Lgr5(+) stem cells grow in 3D cultures to form ever-expanding organoids, which resemble the tissues of origin. Wnt signalling is inactive and Lgr5 is not expressed under physiological conditions in the adult pancreas. However, we now report that the Wnt pathway is robustly activated upon injury by partial duct ligation (PDL), concomitant with the appearance of Lgr5 expression in regenerating pancreatic ducts. In vitro, duct fragments from mouse pancreas initiate Lgr5 expression in RSPO1-based cultures, and develop into budding cyst-like structures (organoids) that expand five-fold weekly for >40 weeks. Single isolated duct cells can also be cultured into pancreatic organoids, containing Lgr5 stem/progenitor cells that can be clonally expanded. Clonal pancreas organoids can be induced to differentiate into duct as well as endocrine cells upon transplantation, thus proving their bi-potentiality.
 
 ---
-### 495. Biased competition between Lgr5 intestinal stem cells driven by oncogenic mutation induces clonal expansion
+### 494. Biased competition between Lgr5 intestinal stem cells driven by oncogenic mutation induces clonal expansion
 
 **Citation.** Snippert HJ, Schepers AG, van Es JH, Simons BD, Clevers H. Biased competition between Lgr5 intestinal stem cells driven by oncogenic mutation induces clonal expansion. EMBO Rep. 2013;15(1):62-9.
 
@@ -19293,7 +19225,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** The concept of 'field cancerization' describes the clonal expansion of genetically altered, but morphologically normal cells that predisposes a tissue to cancer development. Here, we demonstrate that biased stem cell competition in the mouse small intestine can initiate the expansion of such clones. We quantitatively analyze how the activation of oncogenic K-ras in individual Lgr5(+) stem cells accelerates their cell division rate and creates a biased drift towards crypt clonality. K-ras mutant crypts then clonally expand within the epithelium through enhanced crypt fission, which distributes the existing Paneth cell niche over the two new crypts. Thus, an unequal competition between wild-type and mutant intestinal stem cells initiates a biased drift that leads to the clonal expansion of crypts carrying oncogenic mutations.
 
 ---
-### 496. LGR4 expressed in uterine epithelium is necessary for uterine gland development and contributes to decidualization in mice
+### 495. LGR4 expressed in uterine epithelium is necessary for uterine gland development and contributes to decidualization in mice
 
 **Citation.** Sone M, Oyama K, Mohri Y, Hayashi R, Clevers H, Nishimori K. LGR4 expressed in uterine epithelium is necessary for uterine gland development and contributes to decidualization in mice. FASEB J. 2013;27(12):4917-28.
 
@@ -19317,7 +19249,7 @@ We demonstrate a novel role for STRADβ in axogenesis and also show for the firs
 **Abstract.** In previous work we generated mice with a tissue specific ablation of a leucine-rich repeat containing G-protein-coupled receptor 4 (Lgr4) using the Keratin-5 (K5) Cre transgenic mouse strain (Lgr4(K5 KO)). Interestingly, the Lgr4(K5 KO) female mice were subfertile, and their embryos had impaired development. Notably, the contributions of uterine development to the subfertility phenotype were not elucidated in the previous report. In a readdress, the following study explores uterine aberration in Lgr4(K5 KO) female mice. Histological analysis revealed that the uteri of Lgr4(K5 KO) mice displayed altered epithelial differentiation characterized by a reduction in the number of uterine glands. Furthermore, Lgr4 deletion led to the reduced expression of morphoregulatory genes related to the Wnt signaling pathway. Additionally, the uteri of the Lgr4(K5 KO) mice lost the ability to undergo induced decidualization. Quantitative reverse transcription-polymerase chain reaction (qRT-PCR) analysis and administration of recombinant leukemia inhibitory factor (LIF) demonstrated that the impaired decidualization in Lgr4(K5 KO) mice resulted from the decreased secretion of LIF concurrent with a reduction in uterine gland count. Thus, we propose that LGR4 contributes to uterine gland development, which supports decidualization during pregnancy.
 
 ---
-### 497. Many inflammatory bowel disease risk loci include regions that regulate gene expression in immune cells and the intestinal epithelium
+### 496. Many inflammatory bowel disease risk loci include regions that regulate gene expression in immune cells and the intestinal epithelium
 
 **Citation.** Mokry M, Middendorp S, Wiegerinck CL, Witte M, Teunissen H, Meddens CA, Cuppen E, Clevers H, Nieuwenhuis EES. Many inflammatory bowel disease risk loci include regions that regulate gene expression in immune cells and the intestinal epithelium. Gastroenterology. 2013;146(4):1040-7.
 
@@ -19353,7 +19285,7 @@ We have generated acetylated histone 3 lysine 27 profiles from primary intestina
 In addition to variants in protein coding genes, variants in noncoding DNA regulatory regions that are active in intestinal epithelium and immune cells are potentially involved in the pathogenesis of IBD.
 
 ---
-### 498. DNA methylation dynamics during intestinal stem cell differentiation reveals enhancers driving gene expression in the villus
+### 497. DNA methylation dynamics during intestinal stem cell differentiation reveals enhancers driving gene expression in the villus
 
 **Citation.** Kaaij LTJ, van de Wetering M, Fang F, Decato B, Molaro A, van de Werken HJG, van Es JH, Schuijers J, de Wit E, de Laat W, Hannon GJ, Clevers HC, Smith AD, Ketting RF. DNA methylation dynamics during intestinal stem cell differentiation reveals enhancers driving gene expression in the villus. Genome Biol. 2013;14(5):R50.
 
@@ -19387,7 +19319,7 @@ We present the first genome-wide, single-base-resolution view into DNA methylati
 Our results reveal limited DNA methylation dynamics during small intestine stem cell differentiation and an impact of transcription factor binding on shaping the DNA methylation landscape during differentiation of stem cells in vivo.
 
 ---
-### 499. Primary mouse small intestinal epithelial cell cultures
+### 498. Primary mouse small intestinal epithelial cell cultures
 
 **Citation.** Sato T, Clevers H. Primary mouse small intestinal epithelial cell cultures. Methods Mol Biol. 2013;945:319-28.
 
@@ -19407,7 +19339,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** The intestinal epithelium is the most rapidly self-renewing tissue in adult mammals. We have recently shown that Lgr5 (Leucine-rich repeat-containing G protein-coupled receptor) is expressed in intestinal stem cells by an in vivo genetic lineage tracing strategy. In the past, extensive efforts have been made to establish primary small intestinal culture systems. However, no defined, reproducible and robust culture system had been developed. To establish such a system, we screened for optimal growth factor combinations based on genetic evidence of self-renewal regulation, differentiation, and carcinogenesis of intestinal stem cells. Here, we describe methods that we have established for the isolation and culture of primary small intestinal epithelial stem cells. In this culture system, isolated crypts form "organoid structures" with a histological hierarchy recapitulating in vivo small intestinal epithelium. Single isolated Lgr5+ intestinal stem cells also form these organoid structures, in which stem cells are maintained by self-renewal and give rise to all lineages of the intestinal epithelium. This culture system is particularly useful for studying the regulation of intestinal stem cell self-renewal and differentiation.
 
 ---
-### 500. Amplification of progenitors in the mammalian telencephalon includes a new radial glial cell type
+### 499. Amplification of progenitors in the mammalian telencephalon includes a new radial glial cell type
 
 **Citation.** Pilz G, Shitamukai A, Reillo I, Pacary E, Schwausch J, Stahl R, Ninkovic J, Snippert HJ, Clevers H, Godinho L, Guillemot F, Borrell V, Matsuzaki F, Götz M. Amplification of progenitors in the mammalian telencephalon includes a new radial glial cell type. Nat Commun. 2013;4:2125.
 
@@ -19439,7 +19371,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** The mechanisms governing the expansion of neuron number in specific brain regions are still poorly understood. Enlarged neuron numbers in different species are often anticipated by increased numbers of progenitors dividing in the subventricular zone. Here we present live imaging analysis of radial glial cells and their progeny in the ventral telencephalon, the region with the largest subventricular zone in the murine brain during neurogenesis. We observe lineage amplification by a new type of progenitor, including bipolar radial glial cells dividing at subapical positions and generating further proliferating progeny. The frequency of this new type of progenitor is increased not only in larger clones of the mouse lateral ganglionic eminence but also in cerebral cortices of gyrated species, and upon inducing gyrification in the murine cerebral cortex. This implies key roles of this new type of radial glia in ontogeny and phylogeny.
 
 ---
-### 501. A functional CFTR assay using primary cystic fibrosis intestinal organoids
+### 500. A functional CFTR assay using primary cystic fibrosis intestinal organoids
 
 **Citation.** Dekkers JF, Wiegerinck CL, de Jonge HR, Bronsveld I, Janssens HM, de Winter-de Groot KM, Brandsma AM, de Jong NWM, Bijvelds MJC, Scholte BJ, Nieuwenhuis EES, van den Brink S, Clevers H, van der Ent CK, Middendorp S, Beekman JM. A functional CFTR assay using primary cystic fibrosis intestinal organoids. Nat Med. 2013;19(7):939-45.
 
@@ -19473,7 +19405,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** We recently established conditions allowing for long-term expansion of epithelial organoids from intestine, recapitulating essential features of the in vivo tissue architecture. Here we apply this technology to study primary intestinal organoids of people suffering from cystic fibrosis, a disease caused by mutations in CFTR, encoding cystic fibrosis transmembrane conductance regulator. Forskolin induces rapid swelling of organoids derived from healthy controls or wild-type mice, but this effect is strongly reduced in organoids of subjects with cystic fibrosis or in mice carrying the Cftr F508del mutation and is absent in Cftr-deficient organoids. This pattern is phenocopied by CFTR-specific inhibitors. Forskolin-induced swelling of in vitro-expanded human control and cystic fibrosis organoids corresponds quantitatively with forskolin-induced anion currents in freshly excised ex vivo rectal biopsies. Function of the CFTR F508del mutant protein is restored by incubation at low temperature, as well as by CFTR-restoring compounds. This relatively simple and robust assay will facilitate diagnosis, functional studies, drug development and personalized medicine approaches in cystic fibrosis.
 
 ---
-### 502. Niche-independent high-purity cultures of Lgr5+ intestinal stem cells and their progeny
+### 501. Niche-independent high-purity cultures of Lgr5+ intestinal stem cells and their progeny
 
 **Citation.** Yin X, Farin HF, van Es JH, Clevers H, Langer R, Karp JM. Niche-independent high-purity cultures of Lgr5+ intestinal stem cells and their progeny. Nat Methods. 2013;11(1):106-12.
 
@@ -19500,7 +19432,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Although Lgr5(+) intestinal stem cells have been expanded in vitro as organoids, homogeneous culture of these cells has not been possible thus far. Here we show that two small molecules, CHIR99021 and valproic acid, synergistically maintain self-renewal of mouse Lgr5(+) intestinal stem cells, resulting in nearly homogeneous cultures. The colony-forming efficiency of cells from these cultures is ~100-fold greater than that of cells cultured in the absence of CHIR99021 and valproic acid, and multilineage differentiation ability is preserved. We made use of these homogeneous cultures to identify conditions employing simultaneous modulation of Wnt and Notch signaling to direct lineage differentiation into mature enterocytes, goblet cells and Paneth cells. Expansion in these culture conditions may be feasible for Lgr5(+) cells from the mouse stomach and colon and from the human small intestine. These methods provide new tools for the study and application of multiple intestinal epithelial cell types.
 
 ---
-### 503. Live imaging of astrocyte responses to acute injury reveals selective juxtavascular proliferation
+### 502. Live imaging of astrocyte responses to acute injury reveals selective juxtavascular proliferation
 
 **Citation.** Bardehle S, Krüger M, Buggenthin F, Schwausch J, Ninkovic J, Clevers H, Snippert HJ, Theis FJ, Meyer-Luehmann M, Bechmann I, Dimou L, Götz M. Live imaging of astrocyte responses to acute injury reveals selective juxtavascular proliferation. Nat Neurosci. 2013;16(5):580-6.
 
@@ -19530,7 +19462,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Astrocytes are thought to have important roles after brain injury, but their behavior has largely been inferred from postmortem analysis. To examine the mechanisms that recruit astrocytes to sites of injury, we used in vivo two-photon laser-scanning microscopy to follow the response of GFP-labeled astrocytes in the adult mouse cerebral cortex over several weeks after acute injury. Live imaging revealed a marked heterogeneity in the reaction of individual astrocytes, with one subset retaining their initial morphology, another directing their processes toward the lesion, and a distinct subset located at juxtavascular sites proliferating. Although no astrocytes actively migrated toward the injury site, selective proliferation of juxtavascular astrocytes was observed after the introduction of a lesion and was still the case, even though the extent was reduced, after astrocyte-specific deletion of the RhoGTPase Cdc42. Thus, astrocyte recruitment after injury relies solely on proliferation in a specific niche.
 
 ---
-### 504. In vitro expansion of single Lgr5+ liver stem cells induced by Wnt-driven regeneration
+### 503. In vitro expansion of single Lgr5+ liver stem cells induced by Wnt-driven regeneration
 
 **Citation.** Huch M, Dorrell C, Boj SF, van Es JH, Li VSW, van de Wetering M, Sato T, Hamer K, Sasaki N, Finegold MJ, Haft A, Vries RG, Grompe M, Clevers H. In vitro expansion of single Lgr5+ liver stem cells induced by Wnt-driven regeneration. Nature. 2013;494(7436):247-50.
 
@@ -19562,7 +19494,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** The Wnt target gene Lgr5 (leucine-rich-repeat-containing G-protein-coupled receptor 5) marks actively dividing stem cells in Wnt-driven, self-renewing tissues such as small intestine and colon, stomach and hair follicles. A three-dimensional culture system allows long-term clonal expansion of single Lgr5(+) stem cells into transplantable organoids (budding cysts) that retain many characteristics of the original epithelial architecture. A crucial component of the culture medium is the Wnt agonist RSPO1, the recently discovered ligand of LGR5. Here we show that Lgr5-lacZ is not expressed in healthy adult liver, however, small Lgr5-LacZ(+) cells appear near bile ducts upon damage, coinciding with robust activation of Wnt signalling. As shown by mouse lineage tracing using a new Lgr5-IRES-creERT2 knock-in allele, damage-induced Lgr5(+) cells generate hepatocytes and bile ducts in vivo. Single Lgr5(+) cells from damaged mouse liver can be clonally expanded as organoids in Rspo1-based culture medium over several months. Such clonal organoids can be induced to differentiate in vitro and to generate functional hepatocytes upon transplantation into Fah(-/-) mice. These findings indicate that previous observations concerning Lgr5(+) stem cells in actively self-renewing tissues can also be extended to damage-induced stem cells in a tissue with a low rate of spontaneous proliferation.
 
 ---
-### 505. Stem Cells: A unifying theory for the crypt
+### 504. Stem Cells: A unifying theory for the crypt
 
 **Citation.** Clevers H. Stem Cells: A unifying theory for the crypt. Nature. 2013;495(7439):53-4.
 
@@ -19576,10 +19508,10 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 506. Stem cell CD44v isoforms promote intestinal cancer formation in Apc(min) mice downstream of Wnt signaling
+### 505. Stem cell CD44v isoforms promote intestinal cancer formation in Apc(min) mice downstream of Wnt signaling
 
 **Citation.** Zeilstra J, Joosten SPJ, van Andel H, Tolg C, Berns A, Snoek M, van de Wetering M, Spaargaren M, Clevers H, Pals ST. Stem cell CD44v isoforms promote intestinal cancer formation in Apc(min) mice downstream of Wnt signaling. Oncogene. 2013;33(5):665-70.
 
@@ -19609,7 +19541,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** A gene signature specific for intestinal stem cells (ISCs) has recently been shown to predict relapse in colorectal cancer (CRC) but the tumorigenic role of individual signature genes remains poorly defined. A prominent ISC-signature gene is the cancer stem cell marker CD44, which encodes various splice variants comprising a diverse repertoire of adhesion and signaling molecules. Using Lgr5 as ISC marker, we have fluorescence-activated cell sorting-purified ISCs to define their CD44 repertoire. ISCs display a specific set of CD44 variant isoforms (CD44v), but remarkably lack the CD44 standard (CD44s) isoform. These CD44v also stand-out in transformed human ISCs isolated from microadenomas of familial adenomatous polyposis patients. By employing knock-in mice expressing either CD44v4-10 or CD44s, we demonstrate that the CD44v isoform, but not CD44s, promotes adenoma initiation in Apc(Min/+)mice. Our data identify CD44v as component of the ISCs program critical for tumor initiation, and as potential treatment target in CRC.
 
 ---
-### 507. A positive feedback loop involving Gcm1 and Fzd5 directs chorionic branching morphogenesis in the placenta
+### 506. A positive feedback loop involving Gcm1 and Fzd5 directs chorionic branching morphogenesis in the placenta
 
 **Citation.** Lu J, Zhang S, Nakano H, Simmons DG, Wang S, Kong S, Wang Q, Shen L, Tu Z, Wang W, Wang B, Wang H, Wang Y, van Es JH, Clevers H, Leone G, Cross JC, Wang H. A positive feedback loop involving Gcm1 and Fzd5 directs chorionic branching morphogenesis in the placenta. PLoS Biol. 2013;11(4):e1001536.
 
@@ -19645,7 +19577,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Chorioallantoic branching morphogenesis is a key milestone during placental development, creating the large surface area for nutrient and gas exchange, and is therefore critical for the success of term pregnancy. Several Wnt pathway molecules have been shown to regulate placental development. However, it remains largely unknown how Wnt-Frizzled (Fzd) signaling spatiotemporally interacts with other essential regulators, ensuring chorionic branching morphogenesis and angiogenesis during placental development. Employing global and trophoblast-specific Fzd5-null and Gcm1-deficient mouse models, combining trophoblast stem cell lines and tetraploid aggregation assay, we demonstrate here that an amplifying signaling loop between Gcm1 and Fzd5 is essential for normal initiation of branching in the chorionic plate. While Gcm1 upregulates Fzd5 specifically at sites where branching initiates in the basal chorion, this elevated Fzd5 expression via nuclear β-catenin signaling in turn maintains expression of Gcm1. Moreover, we show that Fzd5-mediated signaling induces the disassociation of cell junctions for branching initiation via downregulating ZO-1, claudin 4, and claudin 7 expressions in trophoblast cells at the base of the chorion. In addition, Fzd5-mediated signaling is also important for upregulation of Vegf expression in chorion trophoblast cells. Finally, we demonstrate that Fzd5-Gcm1 signaling cascade is operative during human trophoblast differentiation. These data indicate that Gcm1 and Fzd5 function in an evolutionary conserved positive feedback loop that regulates trophoblast differentiation and sites of chorionic branching morphogenesis.
 
 ---
-### 508. Generation of BAC transgenic epithelial organoids
+### 507. Generation of BAC transgenic epithelial organoids
 
 **Citation.** Schwank G, Andersson-Rolf A, Koo B, Sasaki N, Clevers H. Generation of BAC transgenic epithelial organoids. PLoS One. 2013;8(10):e76871.
 
@@ -19668,7 +19600,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Under previously developed culture conditions, mouse and human intestinal epithelia can be cultured and expanded over long periods. These so-called organoids recapitulate the three-dimensional architecture of the gut epithelium, and consist of all major intestinal cell types. One key advantage of these ex vivo cultures is their accessibility to live imaging. So far the establishment of transgenic fluorescent reporter organoids has required the generation of transgenic mice, a laborious and time-consuming process, which cannot be extended to human cultures. Here we present a transfection protocol that enables the generation of recombinant mouse and human reporter organoids using BAC (bacterial artificial chromosome) technology.
 
 ---
-### 509. Retromer dependent recycling of the Wnt secretion factor Wls is dispensable for stem cell maintenance in the mammalian intestinal epithelium
+### 508. Retromer dependent recycling of the Wnt secretion factor Wls is dispensable for stem cell maintenance in the mammalian intestinal epithelium
 
 **Citation.** de Groot REA, Farin HF, Macůrková M, van Es JH, Clevers HC, Korswagen HC. Retromer dependent recycling of the Wnt secretion factor Wls is dispensable for stem cell maintenance in the mammalian intestinal epithelium. PLoS One. 2013;8(10):e76971.
 
@@ -19692,7 +19624,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** In C. elegans and Drosophila, retromer mediated retrograde transport of Wntless (Wls) from endosomes to the trans-Golgi network (TGN) is required for Wnt secretion. When this retrograde transport pathway is blocked, Wls is missorted to lysosomes and degraded, resulting in reduced Wnt secretion and various Wnt related phenotypes. In the mammalian intestine, Wnt signaling is essential to maintain stem cells. This prompted us to ask if retromer mediated Wls recycling is also important for Wnt signaling and stem cell maintenance in this system. To answer this question, we generated a conditional Vps35 (fl) allele. As Vps35 is an essential subunit of the retromer complex, this genetic tool allowed us to inducibly interfere with retromer function in the intestinal epithelium. Using a pan-intestinal epithelial Cre line (Villin-CreERT2), we did not observe defects in crypt or villus morphology after deletion of Vps35 from the intestinal epithelium. Wnt secreted from the mesenchyme of the intestine may compensate for a reduction in epithelial Wnt secretion. To exclude the effect of the mesenchyme, we generated intestinal organoid cultures. Loss of Vps35 in intestinal organoids did not affect the overall morphology of the organoids. We were able to culture Vps35 (∆/∆) organoids for many passages without Wnt supplementation in the growth medium. However, Wls protein levels were reduced and we observed a subtle growth defect in the Vps35 (∆/∆) organoids. These results confirm the role of retromer in the retrograde trafficking of Wls in the intestine, but show that retromer mediated Wls recycling is not essential to maintain Wnt signaling or stem cell proliferation in the intestinal epithelium.
 
 ---
-### 510. Structures of Wnt-antagonist ZNRF3 and its complex with R-spondin 1 and implications for signaling
+### 509. Structures of Wnt-antagonist ZNRF3 and its complex with R-spondin 1 and implications for signaling
 
 **Citation.** Peng WC, de Lau W, Madoori PK, Forneris F, Granneman JCM, Clevers H, Gros P. Structures of Wnt-antagonist ZNRF3 and its complex with R-spondin 1 and implications for signaling. PLoS One. 2013;8(12):e83110.
 
@@ -19718,7 +19650,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Zinc RING finger 3 (ZNRF3) and its homolog RING finger 43 (RNF43) antagonize Wnt signaling in adult stem cells by ubiquitinating Frizzled receptors (FZD), which leads to endocytosis of the Wnt receptor. Conversely, binding of ZNRF3/RNF43 to LGR4-6 - R-spondin blocks Frizzled ubiquitination and enhances Wnt signaling. Here, we present crystal structures of the ZNRF3 ectodomain and its complex with R-spondin 1 (RSPO1). ZNRF3 binds RSPO1 and LGR5-RSPO1 with micromolar affinity via RSPO1 furin-like 1 (Fu1) domain. Anonychia-related mutations in RSPO4 support the importance of the observed interface. The ZNRF3-RSPO1 structure resembles that of LGR5-RSPO1-RNF43, though Fu2 of RSPO1 is variably oriented. The ZNRF3-binding site overlaps with trans-interactions observed in 2:2 LGR5-RSPO1 complexes, thus binding of ZNRF3/RNF43 would disrupt such an arrangement. Sequence conservation suggests a single ligand-binding site on ZNRF3, consistent with the proposed competing binding role of ZNRF3/RNF43 in Wnt signaling.
 
 ---
-### 511. Lgr5(+) liver stem cells, hepatic organoids and regenerative medicine
+### 510. Lgr5(+) liver stem cells, hepatic organoids and regenerative medicine
 
 **Citation.** Huch M, Boj SF, Clevers H. Lgr5(+) liver stem cells, hepatic organoids and regenerative medicine. Regen Med. 2013;8(4):385-7.
 
@@ -19734,10 +19666,10 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 512. Growing self-organizing mini-guts from a single intestinal stem cell: mechanism and applications
+### 511. Growing self-organizing mini-guts from a single intestinal stem cell: mechanism and applications
 
 **Citation.** Sato T, Clevers H. Growing self-organizing mini-guts from a single intestinal stem cell: mechanism and applications. Science. 2013;340(6137):1190-4.
 
@@ -19757,7 +19689,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Recent examples have highlighted how stem cells have the capability to initiate morphogenesis in vitro; that is, to generate complex structures in culture that closely parallel their in vivo counterparts. Lgr5, the receptor for the Wnt-agonistic R-spondins, marks stem cells in multiple adult organs of mice and humans. In R-spondin-based three-dimensional cultures, these Lgr5 stem cells can grow into ever-expanding epithelial organoids that retain their original organ identity. Single Lgr5 stem cells derived from the intestine can be cultured to build epithelial structures that retain hallmarks of the in vivo epithelium. Here, we review the mechanisms that support this notable example of self-organization and discuss applications of this technology for stem cell research, disease modeling (e.g., for colorectal cancer and cystic fibrosis), and regenerative medicine.
 
 ---
-### 513. Concise review: the yin and yang of intestinal (cancer) stem cells and their progenitors
+### 512. Concise review: the yin and yang of intestinal (cancer) stem cells and their progenitors
 
 **Citation.** Stange DE, Clevers H. Concise review: the yin and yang of intestinal (cancer) stem cells and their progenitors. Stem Cells. 2013;31(11):2287-95.
 
@@ -19780,7 +19712,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 
 ## 2012
 
-### 514. What does the concept of the stem cell niche really mean today?
+### 513. What does the concept of the stem cell niche really mean today?
 
 **Citation.** Lander AD, Kimble J, Clevers H, Fuchs E, Montarras D, Buckingham M, Calof AL, Trumpp A, Oskarsson T. What does the concept of the stem cell niche really mean today?. BMC Biol. 2012;10:19.
 
@@ -19804,10 +19736,10 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 
 1. University of California, Irvine, CA 92697-2300, USA.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 515. Diabetes risk gene and Wnt effector Tcf7l2/TCF4 controls hepatic response to perinatal and adult metabolic demand
+### 514. Diabetes risk gene and Wnt effector Tcf7l2/TCF4 controls hepatic response to perinatal and adult metabolic demand
 
 **Citation.** Boj SF, van Es JH, Huch M, Li VSW, José A, Hatzis P, Mokry M, Haegebarth A, van den Born M, Chambon P, Voshol P, Dor Y, Cuppen E, Fillat C, Clevers H. Diabetes risk gene and Wnt effector Tcf7l2/TCF4 controls hepatic response to perinatal and adult metabolic demand. Cell. 2012;151(7):1595-607.
 
@@ -19840,7 +19772,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Most studies on TCF7L2 SNP variants in the pathogenesis of type 2 diabetes (T2D) focus on a role of the encoded transcription factor TCF4 in β cells. Here, a mouse genetics approach shows that removal of TCF4 from β cells does not affect their function, whereas manipulating TCF4 levels in the liver has major effects on metabolism. In Tcf7l2(-/-) mice, the immediate postnatal surge in liver metabolism does not occur. Consequently, pups die due to hypoglycemia. By combining chromatin immunoprecipitation with gene expression profiling, we identify a TCF4-controlled metabolic gene program that is acutely activated in the postnatal liver. In concordance, adult liver-specific Tcf7l2 knockout mice show reduced hepatic glucose production during fasting and display improved glucose homeostasis when maintained on high-fat diet. Furthermore, liver-specific TCF4 overexpression increases hepatic glucose production. These observations imply that TCF4 directly activates metabolic genes and that inhibition of Wnt signaling may be beneficial in metabolic disease.
 
 ---
-### 516. Intestinal tumorigenesis initiated by dedifferentiation and acquisition of stem-cell-like properties
+### 515. Intestinal tumorigenesis initiated by dedifferentiation and acquisition of stem-cell-like properties
 
 **Citation.** Schwitalla S, Fingerle AA, Cammareri P, Nebelsiek T, Göktuna SI, Ziegler PK, Canli O, Heijmans J, Huels DJ, Moreaux G, Rupec RA, Gerhard M, Schmid R, Barker N, Clevers H, Lang R, Neumann J, Kirchner T, Taketo MM, van den Brink GR, Sansom OJ, Arkan MC, Greten FR. Intestinal tumorigenesis initiated by dedifferentiation and acquisition of stem-cell-like properties. Cell. 2012;152(1-2):25-38.
 
@@ -19881,7 +19813,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Cell-type plasticity within a tumor has recently been suggested to cause a bidirectional conversion between tumor-initiating stem cells and nonstem cells triggered by an inflammatory stroma. NF-κB represents a key transcription factor within the inflammatory tumor microenvironment. However, NF-κB's function in tumor-initiating cells has not been examined yet. Using a genetic model of intestinal epithelial cell (IEC)-restricted constitutive Wnt-activation, which comprises the most common event in the initiation of colon cancer, we demonstrate that NF-κB modulates Wnt signaling and show that IEC-specific ablation of RelA/p65 retards crypt stem cell expansion. In contrast, elevated NF-κB signaling enhances Wnt activation and induces dedifferentiation of nonstem cells that acquire tumor-initiating capacity. Thus, our data support the concept of bidirectional conversion and highlight the importance of inflammatory signaling for dedifferentiation and generation of tumor-initiating cells in vivo.
 
 ---
-### 517. Optimality in the development of intestinal crypts
+### 516. Optimality in the development of intestinal crypts
 
 **Citation.** Itzkovitz S, Blat IC, Jacks T, Clevers H, van Oudenaarden A. Optimality in the development of intestinal crypts. Cell. 2012;148(3):608-19.
 
@@ -19904,7 +19836,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Intestinal crypts in mammals are comprised of long-lived stem cells and shorter-lived progenies. These two populations are maintained in specific proportions during adult life. Here, we investigate the design principles governing the dynamics of these proportions during crypt morphogenesis. Using optimal control theory, we show that a proliferation strategy known as a "bang-bang" control minimizes the time to obtain a mature crypt. This strategy consists of a surge of symmetric stem cell divisions, establishing the entire stem cell pool first, followed by a sharp transition to strictly asymmetric stem cell divisions, producing nonstem cells with a delay. We validate these predictions using lineage tracing and single-molecule fluorescence in situ hybridization of intestinal crypts in infant mice, uncovering small crypts that are entirely composed of Lgr5-labeled stem cells, which become a minority as crypts continue to grow. Our approach can be used to uncover similar design principles in other developmental systems.
 
 ---
-### 518. Wnt signaling through inhibition of β-catenin degradation in an intact Axin1 complex
+### 517. Wnt signaling through inhibition of β-catenin degradation in an intact Axin1 complex
 
 **Citation.** Li VSW, Ng SS, Boersema PJ, Low TY, Karthaus WR, Gerlach JP, Mohammed S, Heck AJR, Maurice MM, Mahmoudi T, Clevers H. Wnt signaling through inhibition of β-catenin degradation in an intact Axin1 complex. Cell. 2012;149(6):1245-56.
 
@@ -19933,7 +19865,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Degradation of cytosolic β-catenin by the APC/Axin1 destruction complex represents the key regulated step of the Wnt pathway. It is incompletely understood how the Axin1 complex exerts its Wnt-regulated function. Here, we examine the mechanism of Wnt signaling under endogenous levels of the Axin1 complex. Our results demonstrate that β-catenin is not only phosphorylated inside the Axin1 complex, but also ubiquinated and degraded via the proteasome, all within an intact Axin1 complex. In disagreement with current views, we find neither a disassembly of the complex nor an inhibition of phosphorylation of Axin1-bound β-catenin upon Wnt signaling. Similar observations are made in primary intestinal epithelium and in colorectal cancer cell lines carrying activating Wnt pathway mutations. Wnt signaling suppresses β-catenin ubiquitination normally occurring within the complex, leading to complex saturation by accumulated phospho-β-catenin. Subsequently, newly synthesized β-catenin can accumulate in a free cytosolic form and engage nuclear TCF transcription factors.
 
 ---
-### 519. Wnt/β-catenin signaling and disease
+### 518. Wnt/β-catenin signaling and disease
 
 **Citation.** Clevers H, Nusse R. Wnt/β-catenin signaling and disease. Cell. 2012;149(6):1192-205.
 
@@ -19953,7 +19885,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** The WNT signal transduction cascade controls myriad biological phenomena throughout development and adult life of all animals. In parallel, aberrant Wnt signaling underlies a wide range of pathologies in humans. In this Review, we provide an update of the core Wnt/β-catenin signaling pathway, discuss how its various components contribute to disease, and pose outstanding questions to be addressed in the future.
 
 ---
-### 520. Lgr5(+ve) stem/progenitor cells contribute to nephron formation during kidney development
+### 519. Lgr5(+ve) stem/progenitor cells contribute to nephron formation during kidney development
 
 **Citation.** Barker N, Rookmaaker MB, Kujala P, Ng A, Leushacke M, Snippert H, van de Wetering M, Tan S, Van Es JH, Huch M, Poulsom R, Verhaar MC, Peters PJ, Clevers H. Lgr5(+ve) stem/progenitor cells contribute to nephron formation during kidney development. Cell Rep. 2012;2(3):540-52.
 
@@ -19985,7 +19917,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Multipotent stem cells and their lineage-restricted progeny drive nephron formation within the developing kidney. Here, we document expression of the adult stem cell marker Lgr5 in the developing kidney and assess the stem/progenitor identity of Lgr5(+ve) cells via in vivo lineage tracing. The appearance and localization of Lgr5(+ve) cells coincided with that of the S-shaped body around embryonic day 14. Lgr5 expression remained restricted to cell clusters within developing nephrons in the cortex until postnatal day 7, when expression was permanently silenced. In vivo lineage tracing identified Lgr5 as a marker of a stem/progenitor population within nascent nephrons dedicated to generating the thick ascending limb of Henle's loop and distal convoluted tubule. The Lgr5 surface marker and experimental models described here will be invaluable for deciphering the contribution of early nephron stem cells to developmental defects and for isolating human nephron progenitors as a prerequisite to evaluating their therapeutic potential.
 
 ---
-### 521. Identifying the stem cell of the intestinal crypt: strategies and pitfalls
+### 520. Identifying the stem cell of the intestinal crypt: strategies and pitfalls
 
 **Citation.** Barker N, van Oudenaarden A, Clevers H. Identifying the stem cell of the intestinal crypt: strategies and pitfalls. Cell Stem Cell. 2012;11(4):452-60.
 
@@ -20006,7 +19938,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Decades ago, two nonoverlapping crypt stem cell populations were proposed: Leblond's Crypt Base Columnar (CBC) cell and Potten's +4 cell. The identification of CBC markers including Lgr5 has confirmed Leblond's predictions that CBC cells are anatomically distinct, long-lived stem cells that permanently cycle. While Potten originally described +4 cells as proliferative and unusually radiation-sensitive, recent efforts to identify +4 stem cells have focused on the identification of cells that are quiescent and radiation-resistant. Here, we describe commonalities and discrepancies between the individual studies and discuss challenges of marker-based lineage tracing.
 
 ---
-### 522. Wnt signaling, stem cells, and cancer of the gastrointestinal tract
+### 521. Wnt signaling, stem cells, and cancer of the gastrointestinal tract
 
 **Citation.** Schepers A, Clevers H. Wnt signaling, stem cells, and cancer of the gastrointestinal tract. Cold Spring Harb Perspect Biol. 2012;4(4):a007989.
 
@@ -20026,7 +19958,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** The Wnt signaling pathway was originally uncovered as one of the prototype developmental signaling cascades in invertebrates as well as in vertebrates. The first indication that Wnt signaling also plays a role in the adult animal came from the study of the intestine of Tcf-4 (Tcf7L2) knockout mice. The gastrointestinal epithelium continuously self-renews over the lifetime of an organism and is, in fact, the most rapidly self-renewing tissue of the mammalian body. Recent studies indicate that Wnt signaling plays a central role in the biology of gastrointestinal stem cells. Furthermore, mutational activation of the Wnt cascade is the principle cause of colon cancer.
 
 ---
-### 523. Adult mammalian stem cells: the role of Wnt, Lgr5 and R-spondins
+### 522. Adult mammalian stem cells: the role of Wnt, Lgr5 and R-spondins
 
 **Citation.** Schuijers J, Clevers H. Adult mammalian stem cells: the role of Wnt, Lgr5 and R-spondins. EMBO J. 2012;31(12):2685-96.
 
@@ -20046,7 +19978,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** After its discovery as oncogen and morphogen, studies on Wnt focused initially on its role in animal development. With the finding that the colorectal tumour suppressor gene APC is a negative regulator of the Wnt pathway in (colorectal) cancer, attention gradually shifted to the study of the role of Wnt signalling in the adult. The first indication that adult Wnt signalling controls stem cells came from a Tcf4 knockout experiment: mutant mice failed to build crypt stem cell compartments. This observation was followed by similar findings in multiple other tissues. Recent studies have indicated that Wnt agonists of the R-spondin family provide potent growth stimuli for crypts in vivo and in vitro. Independently, Lgr5 was found as an exquisite marker for these crypt stem cells. The story has come full circle with the finding that the stem cell marker Lgr5 constitutes the receptor for R-spondins and occurs in complex with Frizzled/Lrp.
 
 ---
-### 524. Identification of a clonally expanding haematopoietic compartment in bone marrow
+### 523. Identification of a clonally expanding haematopoietic compartment in bone marrow
 
 **Citation.** Wang L, Benedito R, Bixel MG, Zeuschner D, Stehling M, Sävendahl L, Haigh JJ, Snippert H, Clevers H, Breier G, Kiefer F, Adams RH. Identification of a clonally expanding haematopoietic compartment in bone marrow. EMBO J. 2012;32(2):219-30.
 
@@ -20076,7 +20008,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** In mammals, postnatal haematopoiesis occurs in the bone marrow (BM) and involves specialized microenvironments controlling haematopoietic stem cell (HSC) behaviour and, in particular, stem cell dormancy and self-renewal. While these processes have been linked to a number of different stromal cell types and signalling pathways, it is currently unclear whether BM has a homogenous architecture devoid of structural and functional partitions. Here, we show with genetic labelling techniques, high-resolution imaging and functional experiments in mice that the periphery of the adult BM cavity harbours previously unrecognized compartments with distinct properties. These units, which we have termed hemospheres, were composed of endothelial, haematopoietic and mesenchymal cells, were enriched in CD150+ CD48- putative HSCs, and enabled rapid haematopoietic cell proliferation and clonal expansion. Inducible gene targeting of the receptor tyrosine kinase VEGFR2 in endothelial cells disrupted hemospheres and, concomitantly, reduced the number of CD150+ CD48- cells. Our results identify a previously unrecognized, vessel-associated BM compartment with a specific localization and properties distinct from the marrow cavity.
 
 ---
-### 525. The Lgr5 intestinal stem cell signature: robust expression of proposed quiescent '+4' cell markers
+### 524. The Lgr5 intestinal stem cell signature: robust expression of proposed quiescent '+4' cell markers
 
 **Citation.** Muñoz J, Stange DE, Schepers AG, van de Wetering M, Koo B, Itzkovitz S, Volckmann R, Kung KS, Koster J, Radulescu S, Myant K, Versteeg R, Sansom OJ, van Es JH, Barker N, van Oudenaarden A, Mohammed S, Heck AJR, Clevers H. The Lgr5 intestinal stem cell signature: robust expression of proposed quiescent '+4' cell markers. EMBO J. 2012;31(14):3079-91.
 
@@ -20113,7 +20045,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** Two types of stem cells are currently defined in small intestinal crypts: cycling crypt base columnar (CBC) cells and quiescent '+4' cells. Here, we combine transcriptomics with proteomics to define a definitive molecular signature for Lgr5(+) CBC cells. Transcriptional profiling of FACS-sorted Lgr5(+) stem cells and their daughters using two microarray platforms revealed an mRNA stem cell signature of 384 unique genes. Quantitative mass spectrometry on the same cell populations identified 278 proteins enriched in intestinal stem cells. The mRNA and protein data sets showed a high level of correlation and a combined signature of 510 stem cell-enriched genes was defined. Spatial expression patterns were further characterized by mRNA in-situ hybridization, revealing that approximately half of the genes were expressed in a gradient with highest levels at the crypt bottom, while the other half was expressed uniquely in Lgr5(+)stem cells. Lineage tracing using a newly established knock-in mouse for one of the signature genes, Smoc2, confirmed its stem cell specificity. Using this resource, we find-and confirm by independent approaches-that the proposed quiescent/'+4' stem cell markers Bmi1, Tert, Hopx and Lrig1 are robustly expressed in CBC cells.
 
 ---
-### 526. On the biomechanics of stem cell niche formation in the gut--modelling growing organoids
+### 525. On the biomechanics of stem cell niche formation in the gut--modelling growing organoids
 
 **Citation.** Buske P, Przybilla J, Loeffler M, Sachs N, Sato T, Clevers H, Galle J. On the biomechanics of stem cell niche formation in the gut--modelling growing organoids. FEBS J. 2012;279(18):3475-87.
 
@@ -20138,7 +20070,7 @@ Our results reveal limited DNA methylation dynamics during small intestine stem 
 **Abstract.** In vitro culture of intestinal tissue has been attempted for decades. Only recently did Sato et al. [Sato, T., Vries, R. G., Snippert, H. J., van de Wetering, M., Barker, N., Stange, D. E., van Es, J. H., Abo, A., Kujala, P., Peters, P. J., et al. (2009) Nature 459, 262-265] succeed in establishing long-term intestinal culture, demonstrating that cells expressing the Lgr5 gene can give rise to organoids with crypt-like domains similar to those found in vivo. In these cultures, Paneth cells provide essential signals supporting stem cell function. We have recently developed an individual cell-based computational model of the intestinal tissue [Buske, P., Galle, J., Barker, N., Aust, G., Clevers, H. & Loeffler, M. (2011) PLoS Comput Biol 7, e1001045]. The model is capable of quantitatively reproducing a comprehensive set of experimental data on intestinal cell organization. Here, we present a significant extension of this model that allows simulation of intestinal organoid formation in silico. For this purpose, we introduce a flexible basal membrane that assigns a bending modulus to the organoid surface. This membrane may be re-organized by cells attached to it depending on their differentiation status. Accordingly, the morphology of the epithelium is self-organized. We hypothesize that local tissue curvature is a key regulatory factor in stem cell organization in the intestinal tissue by controlling Paneth cell specification. In simulation studies, our model closely resembles the spatio-temporal organization of intestinal organoids. According to our results, proliferation-induced shape fluctuations are sufficient to induce crypt-like domains, and spontaneous tissue curvature induced by Paneth cells can control cell number ratios. Thus, stem cell expansion in an organoid depends sensitively on its biomechanics. We suggest a number of experiments that will enable new insights into mechano-transduction in the intestine, and suggest model extensions in the field of gland formation.
 
 ---
-### 527. Crypt base columnar stem cells in small intestines of mice are radioresistant
+### 526. Crypt base columnar stem cells in small intestines of mice are radioresistant
 
 **Citation.** Hua G, Thin TH, Feldman R, Haimovitz-Friedman A, Clevers H, Fuks Z, Kolesnick R. Crypt base columnar stem cells in small intestines of mice are radioresistant. Gastroenterology. 2012;143(5):1266-1276.
 
@@ -20171,7 +20103,7 @@ CBCs are relatively radioresistant, repairing DNA by homologous recombination si
 Adult ISCs in mice can cycle rapidly yet still be radioresistant. Importantly, homologous recombination can protect adult stem cell populations from genotoxic stress. These findings broaden and refine concepts of the phenotype of adult stem cells.
 
 ---
-### 528. In vitro expansion and transplantation of intestinal crypt stem cells
+### 527. In vitro expansion and transplantation of intestinal crypt stem cells
 
 **Citation.** Li VSW, Clevers H. In vitro expansion and transplantation of intestinal crypt stem cells. Gastroenterology. 2012;143(1):30-4.
 
@@ -20188,10 +20120,10 @@ Adult ISCs in mice can cycle rapidly yet still be radioresistant. Importantly, h
 
 1. Hubrecht Institute-KNAW and University Medical Centre Utrecht, Uppsalalaan 8, 3584CT, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 529. Redundant sources of Wnt regulate intestinal stem cells and promote formation of Paneth cells
+### 528. Redundant sources of Wnt regulate intestinal stem cells and promote formation of Paneth cells
 
 **Citation.** Farin HF, Van Es JH, Clevers H. Redundant sources of Wnt regulate intestinal stem cells and promote formation of Paneth cells. Gastroenterology. 2012;143(6):1518-1529.e7.
 
@@ -20218,7 +20150,7 @@ Unexpectedly, Wnt3 was dispensable for maintenance of intestinal stem cells in m
 Wnt is part of a signaling loop that affects homeostasis of intestinal stem and Paneth cells in mice. Wnt3 signaling is required for growth and development of organoid cultures, whereas nonepithelial Wnt signals could provide a secondary physiological source of Wnt.
 
 ---
-### 530. The R-spondin protein family
+### 529. The R-spondin protein family
 
 **Citation.** de Lau WBM, Snel B, Clevers HC. The R-spondin protein family. Genome Biol. 2012;13(3):242.
 
@@ -20239,7 +20171,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** The four vertebrate R-spondin proteins are secreted agonists of the canonical Wnt/β-catenin signaling pathway. These proteins are approximately 35 kDa, and are characterized by two amino-terminal furin-like repeats, which are necessary and sufficient for Wnt signal potentiation, and a thrombospondin domain situated more towards the carboxyl terminus that can bind matrix glycosaminoglycans and/or proteoglycans. Although R-spondins are unable to initiate Wnt signaling, they can potently enhance responses to low-dose Wnt proteins. In humans, rare disruptions of the gene encoding R-spondin1 cause a syndrome of XX sex reversal (phenotypic male), palmoplantar keratosis (a thickening of the palms and soles caused by excess keratin formation) and predisposition to squamous cell carcinoma of the skin. Mutations in the gene encoding R-spondin4 cause anonychia (absence or hypoplasia of nails on fingers and toes). Recently, leucine-rich repeat-containing G-protein-coupled receptor (Lgr)4, Lgr5 and Lgr6, three closely related orphans of the leucine-rich repeat family of G-protein-coupled receptors, have been identified as receptors for R-spondins. Lgr5 and Lgr6 are markers for adult stem cells. Because R-spondins are potent stimulators of adult stem cell proliferation in vivo and in vitro, these findings might guide the therapeutic use of R-spondins in regenerative medicine.
 
 ---
-### 531. Tales of the unexpected: Tcf1 functions as a tumor suppressor for leukemias
+### 530. Tales of the unexpected: Tcf1 functions as a tumor suppressor for leukemias
 
 **Citation.** Staal FJT, Clevers H. Tales of the unexpected: Tcf1 functions as a tumor suppressor for leukemias. Immunity. 2012;37(5):761-3.
 
@@ -20259,7 +20191,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** The Wnt-responsive transcription factors Tcf1 and Lef1 are well-known for their roles in lymphocyte development. In this issue of Immunity, Yu et al. (2012) report that Tcf1-deficient mice develop aggressive T cell lymphomas that are characterized by high Lef1 expression.
 
 ---
-### 532. Clinical evidence for an association between familial adenomatous polyposis and type II diabetes
+### 531. Clinical evidence for an association between familial adenomatous polyposis and type II diabetes
 
 **Citation.** Nieuwenhuis MH, Douma KFL, Bleiker EMA, Aaronson NK, Clevers H, Vasen HFA. Clinical evidence for an association between familial adenomatous polyposis and type II diabetes. Int J Cancer. 2012;131(6):1488-9.
 
@@ -20278,10 +20210,10 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 533. Developmental stage-specific contribution of LGR5(+) cells to basal and luminal epithelial lineages in the postnatal mammary gland
+### 532. Developmental stage-specific contribution of LGR5(+) cells to basal and luminal epithelial lineages in the postnatal mammary gland
 
 **Citation.** de Visser KE, Ciampricotti M, Michalak EM, Tan DW, Speksnijder EN, Hau C, Clevers H, Barker N, Jonkers J. Developmental stage-specific contribution of LGR5(+) cells to basal and luminal epithelial lineages in the postnatal mammary gland. J Pathol. 2012;228(3):300-9.
 
@@ -20308,7 +20240,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** The leucine-rich repeat-containing heterotrimeric guanine nucleotide-binding protein-coupled receptor 5 (LGR5) has been identified as a marker of cycling stem cells in several epithelial tissues, including small intestine, colon, stomach and hair follicle. To investigate whether LGR5 also marks mammary epithelial stem cells, we performed in situ lineage-tracing studies and mammary gland reconstitutions with LGR5-expressing mammary epithelial cells. Interestingly, the LGR5 progeny population in mammary epithelium switches from the luminal to the myoepithelial compartment during the first 12 days of postnatal development, likely reflecting local changes in Wnt signalling. Together, our findings point to a stage-specific contribution of LGR5-expressing cells to luminal and basal epithelial lineages during postnatal mammary gland development.
 
 ---
-### 534. Loss of Tcf7 diminishes hematopoietic stem/progenitor cell function
+### 533. Loss of Tcf7 diminishes hematopoietic stem/progenitor cell function
 
 **Citation.** Huls G, van Es J, Clevers H, de Haan G, van Os R. Loss of Tcf7 diminishes hematopoietic stem/progenitor cell function. Leukemia. 2012;27(7):1613-4.
 
@@ -20326,10 +20258,10 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 535. A critical role for the Wnt effector Tcf4 in adult intestinal homeostatic self-renewal
+### 534. A critical role for the Wnt effector Tcf4 in adult intestinal homeostatic self-renewal
 
 **Citation.** van Es JH, Haegebarth A, Kujala P, Itzkovitz S, Koo B, Boj SF, Korving J, van den Born M, van Oudenaarden A, Robine S, Clevers H. A critical role for the Wnt effector Tcf4 in adult intestinal homeostatic self-renewal. Mol Cell Biol. 2012;32(10):1918-27.
 
@@ -20358,7 +20290,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** Throughout life, intestinal Lgr5+ stem cells give rise to proliferating transient amplifying cells in crypts, which subsequently differentiate into one of the five main cell types and migrate along the crypt-villus axis. These dynamic processes are coordinated by a relatively small number of evolutionarily conserved signaling pathways, which includes the Wnt signaling pathway. The DNA-binding proteins of the T-cell factor family, Tcf1/Tcf7, Lef, Tcf3/Tcf7l1, and Tcf4/Tcf7l2, constitute the downstream effectors of the Wnt signaling pathway. While Tcf4 is the major member active during embryogenesis, the role of these Wnt effectors in the homeostasis of the adult mouse intestinal epithelium is unresolved. Using Tcf1-/-, Tcf3(flox), and novel Tcf4(flox) mice, we demonstrate an essential role for Tcf4 during homeostasis of the adult mouse intestine.
 
 ---
-### 536. Peyer's patch M cells derived from Lgr5(+) stem cells require SpiB and are induced by RankL in cultured "miniguts"
+### 535. Peyer's patch M cells derived from Lgr5(+) stem cells require SpiB and are induced by RankL in cultured "miniguts"
 
 **Citation.** de Lau W, Kujala P, Schneeberger K, Middendorp S, Li VSW, Barker N, Martens A, Hofhuis F, DeKoter RP, Peters PJ, Nieuwenhuis E, Clevers H. Peyer's patch M cells derived from Lgr5(+) stem cells require SpiB and are induced by RankL in cultured "miniguts". Mol Cell Biol. 2012;32(18):3639-47.
 
@@ -20388,7 +20320,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** Peyer's patches consist of domains of specialized intestinal epithelium overlying gut-associated lymphoid tissue (GALT). Luminal antigens reach the GALT by translocation through epithelial gatekeeper cells, the so-called M cells. We recently demonstrated that all epithelial cells required for the digestive functions of the intestine are generated from Lgr5-expressing stem cells. Here, we show that M cells also derive from these crypt-based Lgr5 stem cells. The Ets family transcription factor SpiB, known to control effector functions of bone marrow-derived immune cells, is specifically expressed in M cells. In SpiB(-/-) mice, M cells are entirely absent, which occurs in a cell-autonomous fashion. It has been shown that Tnfsf11 (RankL) can induce M cell development in vivo. We show that in intestinal organoid ("minigut") cultures, stimulation with RankL induces SpiB expression within 24 h and expression of other M cell markers subsequently. We conclude that RankL-induced expression of SpiB is essential for Lgr5 stem cell-derived epithelial precursors to develop into M cells.
 
 ---
-### 537. The Paneth cell, caloric restriction, and intestinal integrity
+### 536. The Paneth cell, caloric restriction, and intestinal integrity
 
 **Citation.** Clevers H. The Paneth cell, caloric restriction, and intestinal integrity. N Engl J Med. 2012;367(16):1560-1.
 
@@ -20404,10 +20336,10 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 
 1. Hubrecht Institute and University Medical Center Utrecht, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 538. Modulating WNT receptor turnover for tissue repair
+### 537. Modulating WNT receptor turnover for tissue repair
 
 **Citation.** Abo A, Clevers H. Modulating WNT receptor turnover for tissue repair. Nat Biotechnol. 2012;30(9):835-6.
 
@@ -20422,10 +20354,10 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 539. Dll1+ secretory progenitor cells revert to stem cells upon crypt damage
+### 538. Dll1+ secretory progenitor cells revert to stem cells upon crypt damage
 
 **Citation.** van Es JH, Sato T, van de Wetering M, Lyubimova A, Yee Nee AN, Gregorieff A, Sasaki N, Zeinstra L, van den Born M, Korving J, Martens ACM, Barker N, van Oudenaarden A, Clevers H. Dll1+ secretory progenitor cells revert to stem cells upon crypt damage. Nat Cell Biol. 2012;14(10):1099-1104.
 
@@ -20461,7 +20393,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** Lgr5+ intestinal stem cells generate enterocytes and secretory cells. Secretory lineage commitment requires Notch silencing. The Notch ligand Dll1 is expressed by a subset of immediate stem cell daughters. Lineage tracing in Dll1(GFP-ires-CreERT2) knock-in mice reveals that single Dll1(high) cells generate small, short-lived clones containing all four secretory cell types. Lineage specification thus occurs in immediate stem cell daughters through Notch lateral inhibition. Cultured Dll1(high) cells form long-lived organoids (mini-guts) on brief Wnt3A exposure. When Dll1(high) cells are genetically marked before tissue damage, stem cell tracing events occur. Thus, secretory progenitors exhibit plasticity by regaining stemness on damage.
 
 ---
-### 540. Lrig1 controls intestinal stem-cell homeostasis by negative regulation of ErbB signalling
+### 539. Lrig1 controls intestinal stem-cell homeostasis by negative regulation of ErbB signalling
 
 **Citation.** Wong VWY, Stange DE, Page ME, Buczacki S, Wabik A, Itami S, van de Wetering M, Poulsom R, Wright NA, Trotter MWB, Watt FM, Winton DJ, Clevers H, Jensen KB. Lrig1 controls intestinal stem-cell homeostasis by negative regulation of ErbB signalling. Nat Cell Biol. 2012;14(4):401-8.
 
@@ -20493,7 +20425,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** Maintenance of adult tissues is carried out by stem cells and is sustained throughout life in a highly ordered manner. Homeostasis within the stem-cell compartment is governed by positive- and negative-feedback regulation of instructive extrinsic and intrinsic signals. ErbB signalling is a prerequisite for maintenance of the intestinal epithelium following injury and tumour formation. As ErbB-family ligands and receptors are highly expressed within the stem-cell niche, we hypothesize that strong endogenous regulators must control the pathway in the stem-cell compartment. Here we show that Lrig1, a negative-feedback regulator of the ErbB receptor family, is highly expressed by intestinal stem cells and controls the size of the intestinal stem-cell niche by regulating the amplitude of growth-factor signalling. Intestinal stem-cell maintenance has so far been attributed to a combination of Wnt and Notch activation and Bmpr inhibition. Our findings reveal ErbB activation as a strong inductive signal for stem-cell proliferation. This has implications for our understanding of ErbB signalling in tissue development and maintenance and the progression of malignant disease.
 
 ---
-### 541. Rap2A links intestinal cell polarity to brush border formation
+### 540. Rap2A links intestinal cell polarity to brush border formation
 
 **Citation.** Gloerich M, ten Klooster JP, Vliem MJ, Koorman T, Zwartkruis FJ, Clevers H, Bos JL. Rap2A links intestinal cell polarity to brush border formation. Nat Cell Biol. 2012;14(8):793-801.
 
@@ -20518,7 +20450,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** The microvillus brush border at the apex of the highly polarized enterocyte allows the regulated uptake of nutrients from the intestinal lumen. Here, we identify the small G protein Rap2A as a molecular link that couples the formation of microvilli directly to the preceding cell polarization. Establishment of apicobasal polarity, which can be triggered by the kinase LKB1 in single, isolated colon cells, results in enrichment of PtdIns(4,5)P(2) at the apical membrane. The subsequent recruitment of phospholipase D1 allows polarized accumulation of phosphatidic acid, which provides a local cue for successive signalling by the guanine nucleotide exchange factor PDZGEF, the small G protein Rap2A, its effector TNIK, the kinase MST4 and, ultimately, the actin-binding protein Ezrin. Thus, epithelial cell polarization is translated directly into the acquisition of brush borders through a small G protein signalling module whose action is positioned by a cortical lipid cue.
 
 ---
-### 542. Functional engraftment of colon epithelium expanded in vitro from a single adult Lgr5⁺ stem cell
+### 541. Functional engraftment of colon epithelium expanded in vitro from a single adult Lgr5⁺ stem cell
 
 **Citation.** Yui S, Nakamura T, Sato T, Nemoto Y, Mizutani T, Zheng X, Ichinose S, Nagaishi T, Okamoto R, Tsuchiya K, Clevers H, Watanabe M. Functional engraftment of colon epithelium expanded in vitro from a single adult Lgr5⁺ stem cell. Nat Med. 2012;18(4):618-23.
 
@@ -20548,7 +20480,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** Adult stem-cell therapy holds promise for the treatment of gastrointestinal diseases. Here we describe methods for long-term expansion of colonic stem cells positive for leucine-rich repeat containing G protein-coupled receptor 5 (Lgr5(+) cells) in culture. To test the transplantability of these cells, we reintroduced cultured GFP(+) colon organoids into superficially damaged mouse colon. The transplanted donor cells readily integrated into the mouse colon, covering the area that lacked epithelium as a result of the introduced damage in recipient mice. At 4 weeks after transplantation, the donor-derived cells constituted a single-layered epithelium, which formed self-renewing crypts that were functionally and histologically normal. Moreover, we observed long-term (>6 months) engraftment with transplantation of organoids derived from a single Lgr5(+) colon stem cell after extensive in vitro expansion. These data show the feasibility of colon stem-cell therapy based on the in vitro expansion of a single adult colonic stem cell.
 
 ---
-### 543. ACE2 links amino acid malnutrition to microbial ecology and intestinal inflammation
+### 542. ACE2 links amino acid malnutrition to microbial ecology and intestinal inflammation
 
 **Citation.** Hashimoto T, Perlot T, Rehman A, Trichereau J, Ishiguro H, Paolino M, Sigl V, Hanada T, Hanada R, Lipinski S, Wild B, Camargo SMR, Singer D, Richter A, Kuba K, Fukamizu A, Schreiber S, Clevers H, Verrey F, Rosenstiel P, Penninger JM. ACE2 links amino acid malnutrition to microbial ecology and intestinal inflammation. Nature. 2012;487(7408):477-81.
 
@@ -20587,7 +20519,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** Malnutrition affects up to one billion people in the world and is a major cause of mortality. In many cases, malnutrition is associated with diarrhoea and intestinal inflammation, further contributing to morbidity and death. The mechanisms by which unbalanced dietary nutrients affect intestinal homeostasis are largely unknown. Here we report that deficiency in murine angiotensin I converting enzyme (peptidyl-dipeptidase A) 2 (Ace2), which encodes a key regulatory enzyme of the renin-angiotensin system (RAS), results in highly increased susceptibility to intestinal inflammation induced by epithelial damage. The RAS is known to be involved in acute lung failure, cardiovascular functions and SARS infections. Mechanistically, ACE2 has a RAS-independent function, regulating intestinal amino acid homeostasis, expression of antimicrobial peptides, and the ecology of the gut microbiome. Transplantation of the altered microbiota from Ace2 mutant mice into germ-free wild-type hosts was able to transmit the increased propensity to develop severe colitis. ACE2-dependent changes in epithelial immunity and the gut microbiota can be directly regulated by the dietary amino acid tryptophan. Our results identify ACE2 as a key regulator of dietary amino acid homeostasis, innate immunity, gut microbial ecology, and transmissible susceptibility to colitis. These results provide a molecular explanation for how amino acid malnutrition can cause intestinal inflammation and diarrhoea.
 
 ---
-### 544. Tumour suppressor RNF43 is a stem-cell E3 ligase that induces endocytosis of Wnt receptors
+### 543. Tumour suppressor RNF43 is a stem-cell E3 ligase that induces endocytosis of Wnt receptors
 
 **Citation.** Koo B, Spit M, Jordens I, Low TY, Stange DE, van de Wetering M, van Es JH, Mohammed S, Heck AJR, Maurice MM, Clevers H. Tumour suppressor RNF43 is a stem-cell E3 ligase that induces endocytosis of Wnt receptors. Nature. 2012;488(7413):665-9.
 
@@ -20616,7 +20548,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** LGR5+ stem cells reside at crypt bottoms, intermingled with Paneth cells that provide Wnt, Notch and epidermal growth factor signals. Here we find that the related RNF43 and ZNRF3 transmembrane E3 ubiquitin ligases are uniquely expressed in LGR5+ stem cells. Simultaneous deletion of the two genes encoding these proteins in the intestinal epithelium of mice induces rapidly growing adenomas containing high numbers of Paneth and LGR5+ stem cells. In vitro, growth of organoids derived from these adenomas is arrested when Wnt secretion is inhibited, indicating a dependence of the adenoma stem cells on Wnt produced by adenoma Paneth cells. In the HEK293T human cancer cell line, expression of RNF43 blocks Wnt responses and targets surface-expressed frizzled receptors to lysosomes. In the RNF43-mutant colorectal cancer cell line HCT116, reconstitution of RNF43 expression removes its response to exogenous Wnt. We conclude that RNF43 and ZNRF3 reduce Wnt signals by selectively ubiquitinating frizzled receptors, thereby targeting these Wnt receptors for degradation.
 
 ---
-### 545. The nuclear effector of Wnt-signaling, Tcf1, functions as a T-cell-specific tumor suppressor for development of lymphomas
+### 544. The nuclear effector of Wnt-signaling, Tcf1, functions as a T-cell-specific tumor suppressor for development of lymphomas
 
 **Citation.** Tiemessen MM, Baert MRM, Schonewille T, Brugman MH, Famili F, Salvatori DCF, Meijerink JPP, Ozbek U, Clevers H, van Dongen JJM, Staal FJT. The nuclear effector of Wnt-signaling, Tcf1, functions as a T-cell-specific tumor suppressor for development of lymphomas. PLoS Biol. 2012;10(11):e1001430.
 
@@ -20645,7 +20577,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** The HMG-box factor Tcf1 is required during T-cell development in the thymus and mediates the nuclear response to Wnt signals. Tcf1(-/-) mice have previously been characterized and show developmental blocks at the CD4-CD8- double negative (DN) to CD4+CD8+ double positive transition. Due to the blocks in T-cell development, Tcf1(-/-) mice normally have a very small thymus. Unexpectedly, a large proportion of Tcf1(-/-) mice spontaneously develop thymic lymphomas with 50% of mice developing a thymic lymphoma/leukemia at the age of 16 wk. These lymphomas are clonal, highly metastatic, and paradoxically show high Wnt signaling when crossed with Wnt reporter mice and have high expression of Wnt target genes Lef1 and Axin2. In wild-type thymocytes, Tcf1 is higher expressed than Lef1, with a predominance of Wnt inhibitory isoforms. Loss of Tcf1 as repressor of Lef1 leads to high Wnt activity and is the initiating event in lymphoma development, which is exacerbated by activating Notch1 mutations. Thus, Notch1 and loss of Tcf1 functionally act as collaborating oncogenic events. Tcf1 deficiency predisposes to the development of thymic lymphomas by ectopic up-regulation of Lef1 due to lack of Tcf1 repressive isoforms and frequently by cooperating activating mutations in Notch1. Tcf1 therefore functions as a T-cell-specific tumor suppressor gene, besides its established role as a Wnt responsive transcription factor. Thus, Tcf1 acts as a molecular switch between proliferative and repressive signals during T-lymphocyte development in the thymus.
 
 ---
-### 546. Chronic epithelial NF-κB activation accelerates APC loss and intestinal tumor initiation through iNOS up-regulation
+### 545. Chronic epithelial NF-κB activation accelerates APC loss and intestinal tumor initiation through iNOS up-regulation
 
 **Citation.** Shaked H, Hofseth LJ, Chumanevich A, Chumanevich AA, Wang J, Wang Y, Taniguchi K, Guma M, Shenouda S, Clevers H, Harris CC, Karin M. Chronic epithelial NF-κB activation accelerates APC loss and intestinal tumor initiation through iNOS up-regulation. Proc Natl Acad Sci U S A. 2012;109(35):14007-12.
 
@@ -20675,7 +20607,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** The role of NF-κB activation in tumor initiation has not been thoroughly investigated. We generated Ikkβ(EE)(IEC) transgenic mice expressing constitutively active IκB kinase β (IKKβ) in intestinal epithelial cells (IECs). Despite absence of destructive colonic inflammation, Ikkβ(EE)(IEC) mice developed intestinal tumors after a long latency. However, when crossed to mice with IEC-specific allelic deletion of the adenomatous polyposis coli (Apc) tumor suppressor locus, Ikkβ(EE)(IEC) mice exhibited more β-catenin(+) early lesions and visible small intestinal and colonic tumors relative to Apc(+/ΔIEC) mice, and their survival was severely compromised. IEC of Ikkβ(EE)(IEC) mice expressed high amounts of inducible nitric oxide synthase (iNOS) and elevated DNA damage markers and contained more oxidative DNA lesions. Treatment of Ikkβ(EE)(IEC)/Apc(+/ΔIEC) mice with an iNOS inhibitor decreased DNA damage markers and reduced early β-catenin(+) lesions and tumor load. The results suggest that persistent NF-κB activation in IEC may accelerate loss of heterozygocity by enhancing nitrosative DNA damage.
 
 ---
-### 547. Wnt/β-catenin and MAPK signaling: allies and enemies in different battlefields
+### 546. Wnt/β-catenin and MAPK signaling: allies and enemies in different battlefields
 
 **Citation.** Guardavaccaro D, Clevers H. Wnt/β-catenin and MAPK signaling: allies and enemies in different battlefields. Sci Signal. 2012;5(219):pe15.
 
@@ -20695,7 +20627,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** Two papers published in Science Signaling reveal extensive crosstalk between Wnt/β-catenin and mitogen-activated protein kinase (MAPK) signaling in cancer. Although both studies describe previously unknown links between these two signaling pathways, the relationship between Wnt/β-catenin and MAPK signaling depends on the specific cellular context. Indeed, in melanoma, hyperactivated MAPK signaling down-regulates the Wnt/β-catenin signal transduction cascade, thereby establishing a negative crosstalk between the two signaling pathways. In contrast, in colorectal cancer, stimulation of the Wnt/β-catenin pathway leads to activation of the MAPK pathway through Ras stabilization, representing an example of positive crosstalk. Moreover, activation of Wnt/β-catenin signaling has context-dependent functions that trigger opposing effects on tumor growth. In melanoma, aberrant activation of Wnt/β-catenin signaling may have anti-oncogenic functions by promoting programmed cell death; by contrast, in the intestine, Wnt/β-catenin signaling drives malignant transformation. Thus, there is no single correct way to target the Wnt/β-catenin pathway for all cancers.
 
 ---
-### 548. Cell biology. The unusual case of Porcupine
+### 547. Cell biology. The unusual case of Porcupine
 
 **Citation.** Lum L, Clevers H. Cell biology. The unusual case of Porcupine. Science. 2012;337(6097):922-3.
 
@@ -20715,7 +20647,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** A compound that targets the Wnt signaling pathway in cancer moves into therapeutic trials, 30 years after Wnt was discovered.
 
 ---
-### 549. Lineage tracing reveals Lgr5+ stem cell activity in mouse intestinal adenomas
+### 548. Lineage tracing reveals Lgr5+ stem cell activity in mouse intestinal adenomas
 
 **Citation.** Schepers AG, Snippert HJ, Stange DE, van den Born M, van Es JH, van de Wetering M, Clevers H. Lineage tracing reveals Lgr5+ stem cell activity in mouse intestinal adenomas. Science. 2012;337(6095):730-5.
 
@@ -20740,7 +20672,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** The concept that tumors are maintained by dedicated stem cells, the so-called cancer stem cell hypothesis, has attracted great interest but remains controversial. Studying mouse models, we provide direct, functional evidence for the presence of stem cell activity within primary intestinal adenomas, a precursor to intestinal cancer. By "lineage retracing" using the multicolor Cre-reporter R26R-Confetti, we demonstrate that the crypt stem cell marker Lgr5 (leucine-rich repeat-containing heterotrimeric guanine nucleotide-binding protein-coupled receptor 5) also marks a subpopulation of adenoma cells that fuel the growth of established intestinal adenomas. These Lgr5(+) cells, which represent about 5 to 10% of the cells in the adenomas, generate additional Lgr5(+) cells as well as all other adenoma cell types. The Lgr5(+) cells are intermingled with Paneth cells near the adenoma base, a pattern reminiscent of the architecture of the normal crypt niche.
 
 ---
-### 550. Monoclonal antibodies against Lgr5 identify human colorectal cancer stem cells
+### 549. Monoclonal antibodies against Lgr5 identify human colorectal cancer stem cells
 
 **Citation.** Kemper K, Prasetyanti PR, De Lau W, Rodermond H, Clevers H, Medema JP. Monoclonal antibodies against Lgr5 identify human colorectal cancer stem cells. Stem Cells. 2012;30(11):2378-86.
 
@@ -20767,7 +20699,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 
 ## 2011
 
-### 551. Method for estimating the single molecular affinity
+### 550. Method for estimating the single molecular affinity
 
 **Citation.** Schasfoort RBM, Lau Wd, Kooi Avd, Clevers H, Engbers GHM. Method for estimating the single molecular affinity. Anal Biochem. 2011;421(2):794-6.
 
@@ -20790,7 +20722,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** Affinity constants (k(d), k(a), and K(D)) can be determined by methods that apply immobilized ligands such as immunoassays and label-free biosensor technologies. This article outlines a new surface plasmon resonance (SPR) array imaging method that yields affinity constants that can be considered as the best estimate of the affinity constant for single biomolecular interactions. Calculated rate (k(d) and k(a)) and dissociation equilibrium (K(D)) constants for various ligand densities and analyte concentrations are extrapolated to the K(D) at the zero response level (K(D)(R0)). By applying this method to an LGR5-exo-Fc-RSPO1-FH interaction couple, the K(D)(R0) was determined as 3.1 nM.
 
 ---
-### 552. Actomyosin-mediated cellular tension drives increased tissue stiffness and β-catenin activation to induce epidermal hyperplasia and tumor growth
+### 551. Actomyosin-mediated cellular tension drives increased tissue stiffness and β-catenin activation to induce epidermal hyperplasia and tumor growth
 
 **Citation.** Samuel MS, Lopez JI, McGhee EJ, Croft DR, Strachan D, Timpson P, Munro J, Schröder E, Zhou J, Brunton VG, Barker N, Clevers H, Sansom OJ, Anderson KI, Weaver VM, Olson MF. Actomyosin-mediated cellular tension drives increased tissue stiffness and β-catenin activation to induce epidermal hyperplasia and tumor growth. Cancer Cell. 2011;19(6):776-91.
 
@@ -20824,7 +20756,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** Tumors and associated stroma manifest mechanical properties that promote cancer. Mechanosensation of tissue stiffness activates the Rho/ROCK pathway to increase actomyosin-mediated cellular tension to re-establish force equilibrium. To determine how actomyosin tension affects tissue homeostasis and tumor development, we expressed conditionally active ROCK2 in mouse skin. ROCK activation elevated tissue stiffness via increased collagen. β-catenin, a key element of mechanotranscription pathways, was stabilized by ROCK activation leading to nuclear accumulation, transcriptional activation, and consequent hyperproliferation and skin thickening. Inhibiting actomyosin contractility by blocking LIMK or myosin ATPase attenuated these responses, as did FAK inhibition. Tumor number, growth, and progression were increased by ROCK activation, while ROCK blockade was inhibitory, implicating actomyosin-mediated cellular tension and consequent collagen deposition as significant tumor promoters.
 
 ---
-### 553. Strategies for homeostatic stem cell self-renewal in adult tissues
+### 552. Strategies for homeostatic stem cell self-renewal in adult tissues
 
 **Citation.** Simons BD, Clevers H. Strategies for homeostatic stem cell self-renewal in adult tissues. Cell. 2011;145(6):851-62.
 
@@ -20844,7 +20776,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** In adult tissues, an exquisite balance exists between stem cell proliferation and the generation of differentiated offspring. Classically, it has been argued that this balance is obtained at the level of a single stem cell, which divides strictly into a new stem cell and a progenitor. However, recent evidence suggests that balance can also be achieved at the level of the stem cell population. Some stem cells might be lost due to differentiation or damage, whereas others divide symmetrically to fill this gap. Here, we consider the general strategies for stem cell self-renewal and review the evidence for stochastic stem cell fate in adult tissues across a range of tissue types and organisms.
 
 ---
-### 554. The intestinal stem cell signature identifies colorectal cancer stem cells and predicts disease relapse
+### 553. The intestinal stem cell signature identifies colorectal cancer stem cells and predicts disease relapse
 
 **Citation.** Merlos-Suárez A, Barriga FM, Jung P, Iglesias M, Céspedes MV, Rossell D, Sevillano M, Hernando-Momblona X, da Silva-Diz V, Muñoz P, Clevers H, Sancho E, Mangues R, Batlle E. The intestinal stem cell signature identifies colorectal cancer stem cells and predicts disease relapse. Cell Stem Cell. 2011;8(5):511-24.
 
@@ -20876,7 +20808,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** A frequent complication in colorectal cancer (CRC) is regeneration of the tumor after therapy. Here, we report that a gene signature specific for adult intestinal stem cells (ISCs) predicts disease relapse in CRC patients. ISCs are marked by high expression of the EphB2 receptor, which becomes gradually silenced as cells differentiate. Using EphB2 and the ISC marker Lgr5, we have FACS-purified and profiled mouse ISCs, crypt proliferative progenitors, and late transient amplifying cells to define a gene program specific for normal ISCs. Furthermore, we discovered that ISC-specific genes identify a stem-like cell population positioned at the bottom of tumor structures reminiscent of crypts. EphB2 sorted ISC-like tumor cells display robust tumor-initiating capacity in immunodeficient mice as well as long-term self-renewal potential. Taken together, our data suggest that the ISC program defines a cancer stem cell niche within colorectal tumors and plays a central role in CRC relapse.
 
 ---
-### 555. Cdx2 determines the fate of postnatal intestinal endoderm
+### 554. Cdx2 determines the fate of postnatal intestinal endoderm
 
 **Citation.** Stringer EJ, Duluc I, Saandi T, Davidson I, Bialecka M, Sato T, Barker N, Clevers H, Pritchard CA, Winton DJ, Wright NA, Freund J, Deschamps J, Beck F. Cdx2 determines the fate of postnatal intestinal endoderm. Development. 2011;139(3):465-74.
 
@@ -20908,7 +20840,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** Knock out of intestinal Cdx2 produces different effects depending upon the developmental stage at which this occurs. Early in development it produces histologically ordered stomach mucosa in the midgut. Conditional inactivation of Cdx2 in adult intestinal epithelium, as well as specifically in the Lgr5-positive stem cells, of adult mice allows long-term survival of the animals but fails to produce this phenotype. Instead, the endodermal cells exhibit cell-autonomous expression of gastric genes in an intestinal setting that is not accompanied by mesodermal expression of Barx1, which is necessary for gastric morphogenesis. Cdx2-negative endodermal cells also fail to express Sox2, a marker of gastric morphogenesis. Maturation of the stem cell niche thus appears to be associated with loss of ability to express positional information cues that are required for normal stomach development. Cdx2-negative intestinal crypts produce subsurface cystic vesicles, whereas untargeted crypts hypertrophy to later replace the surface epithelium. These observations are supported by studies involving inactivation of Cdx2 in intestinal crypts cultured in vitro. This abolishes their ability to form long-term growing intestinal organoids that differentiate into intestinal phenotypes. We conclude that expression of Cdx2 is essential for differentiation of gut stem cells into any of the intestinal cell types, but they maintain a degree of cell-autonomous plasticity that allows them to switch on a variety of gastric genes.
 
 ---
-### 556. Lgr5 intestinal stem cells have high telomerase activity and randomly segregate their chromosomes
+### 555. Lgr5 intestinal stem cells have high telomerase activity and randomly segregate their chromosomes
 
 **Citation.** Schepers AG, Vries R, van den Born M, van de Wetering M, Clevers H. Lgr5 intestinal stem cells have high telomerase activity and randomly segregate their chromosomes. EMBO J. 2011;30(6):1104-9.
 
@@ -20931,7 +20863,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** Somatic cells have been proposed to be limited in the number of cell divisions they can undergo. This is thought to be a mechanism by which stem cells retain their integrity preventing disease. However, we have recently discovered intestinal crypt stem cells that persist for the lifetime of a mouse, yet divide every day. We now demonstrate biochemically that primary isolated Lgr5+ve stem cells contain significant telomerase activity. Telomerase activity rapidly decreases in the undifferentiated progeny of these stem cells and is entirely lost in differentiated villus cells. Conversely, asymmetric segregation of chromosomes has been proposed as a mechanism for stem cells to protect their genomes against damage. We determined the average cell cycle length of Lgr5+ve stem cells at 21.5 h and find that Lgr5+ve intestinal stem cells randomly segregate newly synthesized DNA strands, opposing the 'immortal strand' hypothesis.
 
 ---
-### 557. Neural stem cells for diabetes cell-based therapy
+### 556. Neural stem cells for diabetes cell-based therapy
 
 **Citation.** Basak O, Clevers H. Neural stem cells for diabetes cell-based therapy. EMBO Mol Med. 2011;3(12):698-700.
 
@@ -20948,10 +20880,10 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 
 1. Hubrecht Institute for Development Biology and Stem Cell Research, Utrecht, Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 558. Tracking adult stem cells
+### 557. Tracking adult stem cells
 
 **Citation.** Snippert HJ, Clevers H. Tracking adult stem cells. EMBO Rep. 2011;12(2):113-22.
 
@@ -20971,7 +20903,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** The maintenance of stem-cell-driven tissue homeostasis requires a balance between the generation and loss of cell mass. Adult stem cells have a close relationship with the surrounding tissue--known as their niche--and thus, stem-cell studies should preferably be performed in a physiological context, rather than outside their natural environment. The mouse is an attractive model in which to study adult mammalian stem cells, as numerous experimental systems and genetic tools are available. In this review, we describe strategies commonly used to identify and functionally characterize adult stem cells in mice and discuss their potential, limitations and interpretations, as well as how they have informed our understanding of adult stem-cell biology. An accurate interpretation of physiologically relevant stem-cell assays is crucial to identify adult stem cells and elucidate how they self-renew and give rise to differentiated progeny.
 
 ---
-### 559. Stem cell self-renewal in intestinal crypt
+### 558. Stem cell self-renewal in intestinal crypt
 
 **Citation.** Simons BD, Clevers H. Stem cell self-renewal in intestinal crypt. Exp Cell Res. 2011;317(19):2719-24.
 
@@ -20991,7 +20923,7 @@ Wnt is part of a signaling loop that affects homeostasis of intestinal stem and 
 **Abstract.** As a rapidly cycling tissue capable of fast repair and regeneration, the intestinal epithelium has emerged as a favored model system to explore the principles of adult stem cell biology. However, until recently, the identity and characteristics of the stem cell population in both the small intestine and colon has remained the subject of debate. Recent studies based on targeted lineage tracing strategies, combined with the development of an organotypic culture system, have identified the crypt base columnar cell as the intestinal stem cell, and have unveiled the strategy by which the balance between proliferation and differentiation is maintained. These results show that intestinal stem cells operate in a dynamic environment in which frequent and stochastic stem cell loss is compensated by the proliferation of neighboring stem cells. We review the basis of these experimental findings and the insights they offer into the mechanisms of homeostatic stem cell regulation.
 
 ---
-### 560. Differentiated human colorectal cancer cells protect tumor-initiating cells from irinotecan
+### 559. Differentiated human colorectal cancer cells protect tumor-initiating cells from irinotecan
 
 **Citation.** Emmink BL, Van Houdt WJ, Vries RG, Hoogwater FJH, Govaert KM, Verheem A, Nijkamp MW, Steller EJA, Jimenez CR, Clevers H, Borel Rinkes IHM, Kranenburg O. Differentiated human colorectal cancer cells protect tumor-initiating cells from irinotecan. Gastroenterology. 2011;141(1):269-78.
 
@@ -21027,7 +20959,7 @@ Colonosphere cultures had a high capacity to initiate tumors in mice and were re
 The resistance of colorectal tumors to irinotecan requires the cooperative action of tumor-initiating ALDHhigh/ABCB1negative cells and their differentiated, drug-expelling, ALDHlow/ABCB1positive daughter cells.
 
 ---
-### 561. Long-term expansion of epithelial organoids from human colon, adenoma, adenocarcinoma, and Barrett's epithelium
+### 560. Long-term expansion of epithelial organoids from human colon, adenoma, adenocarcinoma, and Barrett's epithelium
 
 **Citation.** Sato T, Stange DE, Ferrante M, Vries RGJ, Van Es JH, Van den Brink S, Van Houdt WJ, Pronk A, Van Gorp J, Siersema PD, Clevers H. Long-term expansion of epithelial organoids from human colon, adenoma, adenocarcinoma, and Barrett's epithelium. Gastroenterology. 2011;141(5):1762-72.
 
@@ -21062,7 +20994,7 @@ Addition of Wnt3A to the combination of growth factors applied to mouse colon cr
 We developed a technology that can be used to study infected, inflammatory, or neoplastic tissues from the human gastrointestinal tract. These tools might have applications in regenerative biology through ex vivo expansion of the intestinal epithelia. Studies of these cultures indicate that there is no inherent restriction in the replicative potential of adult stem cells (or a Hayflick limit) ex vivo.
 
 ---
-### 562. Retinoic acid-induced pancreatic stellate cell quiescence reduces paracrine Wnt-β-catenin signaling to slow tumor progression
+### 561. Retinoic acid-induced pancreatic stellate cell quiescence reduces paracrine Wnt-β-catenin signaling to slow tumor progression
 
 **Citation.** Froeling FEM, Feig C, Chelala C, Dobson R, Mein CE, Tuveson DA, Clevers H, Hart IR, Kocher HM. Retinoic acid-induced pancreatic stellate cell quiescence reduces paracrine Wnt-β-catenin signaling to slow tumor progression. Gastroenterology. 2011;141(4):1486-97, 1497.e1-14.
 
@@ -21095,7 +21027,7 @@ After incubation with ATRA, PSCs were quiescent and had altered expression of ge
 RA induces quiescence and reduces motility of PSCs, leading to reduced proliferation and increased apoptosis of surrounding pancreatic cancer cells. RA isoforms might be developed as therapeutic reagents for pancreatic cancer.
 
 ---
-### 563. Distinct ATOH1 and Neurog3 requirements define tuft cells as a new secretory cell type in the intestinal epithelium
+### 562. Distinct ATOH1 and Neurog3 requirements define tuft cells as a new secretory cell type in the intestinal epithelium
 
 **Citation.** Gerbe F, van Es JH, Makrini L, Brulin B, Mellitzer G, Robine S, Romagnolo B, Shroyer NF, Bourgaux J, Pignodel C, Clevers H, Jay P. Distinct ATOH1 and Neurog3 requirements define tuft cells as a new secretory cell type in the intestinal epithelium. J Cell Biol. 2011;192(5):767-80.
 
@@ -21125,7 +21057,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** The unique morphology of tuft cells was first revealed by electron microscopy analyses in several endoderm-derived epithelia. Here, we explore the relationship of these cells with the other cell types of the intestinal epithelium and describe the first marker signature allowing their unambiguous identification. We demonstrate that although mature tuft cells express DCLK1, a putative marker of quiescent stem cells, they are post-mitotic, short lived, derive from Lgr5-expressing epithelial stem cells, and are found in mouse and human tumors. We show that whereas the ATOH1/MATH1 transcription factor is essential for their differentiation, Neurog3, SOX9, GFI1, and SPDEF are dispensable, which distinguishes these cells from enteroendocrine, Paneth, and goblet cells, and raises from three to four the number of secretory cell types in the intestinal epithelium. Moreover, we show that tuft cells are the main source of endogenous intestinal opioids and are the only epithelial cells that express cyclooxygenase enzymes, suggesting important roles for these cells in the intestinal epithelium physiopathology.
 
 ---
-### 564. Highly sensitive proteome analysis of FACS-sorted adult colon stem cells
+### 563. Highly sensitive proteome analysis of FACS-sorted adult colon stem cells
 
 **Citation.** Di Palma S, Stange D, van de Wetering M, Clevers H, Heck AJR, Mohammed S. Highly sensitive proteome analysis of FACS-sorted adult colon stem cells. J Proteome Res. 2011;10(8):3814-9.
 
@@ -21149,7 +21081,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** In proteomics, multidimensional liquid chromatography combined with mass spectrometry has become a standard technique to reduce sample complexity and tackle the vast dynamic range. Such fractionation is necessary to obtain a comprehensive analysis of biological samples such as tissues and cell lines. However, extensive fractionation comes at the expense of sample losses, hampering the analysis of limited material. We previously described a highly sensitive multidimensional chromatographic strategy based on a combination of hydrophilic interaction liquid chromatography and reversed phase chromatography, which allows proteomic analysis with minimal sample losses. Here we apply this strategy to the analysis of a limited number of FACS-sorted colon stem cells extracted from mouse intestine, obtaining a proteome coverage comparable to current methods that generally require 100-fold more starting material. We propose that this alternative multidimensional chromatographic technology will find ample application such as in the analysis of distinct cellular populations obtained by laser microdissection.
 
 ---
-### 565. Comparative proteomics of colon cancer stem cells and differentiated tumor cells identifies BIRC6 as a potential therapeutic target
+### 564. Comparative proteomics of colon cancer stem cells and differentiated tumor cells identifies BIRC6 as a potential therapeutic target
 
 **Citation.** Van Houdt WJ, Emmink BL, Pham TV, Piersma SR, Verheem A, Vries RG, Fratantoni SA, Pronk A, Clevers H, Borel Rinkes IHM, Jimenez CR, Kranenburg O. Comparative proteomics of colon cancer stem cells and differentiated tumor cells identifies BIRC6 as a potential therapeutic target. Mol Cell Proteomics. 2011;10(12):M111.011353.
 
@@ -21179,7 +21111,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** Patients with liver metastases from colon carcinoma show highly variable responses to chemotherapy and tumor recurrence is frequently observed. Therapy-resistant cancer stem cells have been implicated in drug resistance and tumor recurrence. However, the factors determining therapy resistance and tumor recurrence are poorly understood. The aim of this study was to gain insight into these mechanisms by comparing the proteomes of patient-derived cancer stem cell cultures and their differentiated isogenic offspring. We established colonosphere cultures derived from resection specimens of liver metastases in patients with colon cancer. These colonospheres, enriched for colon cancer stem cells, were used to establish isogenic cultures of stably differentiated nontumorigenic progeny. Proteomics based on one-dimensional gel electrophoresis coupled to nano liquid chromatography tandem MS was used to identify proteome differences between three of these paired cultures. The resulting data were analyzed using Ingenuity Pathway Software. Out of a total data set of 3048 identified proteins, 32 proteins were at least twofold up-regulated in the colon cancer stem cells when compared with the differentiated cells. Pathway analysis showed that "cell death " regulation is strikingly different between the two cell types. Interestingly, one of the top-up-regulated proteins was BIRC6, which belongs to the class of Inhibitor of Apoptosis Proteins. Knockdown of BIRC6 sensitized colon cancer stem cells against the chemotherapeutic drugs oxaliplatin and cisplatin. This study reveals that differentiation of colon cancer stem cells is accompanied by altered regulation of cell death pathways. We identified BIRC6 as an important mediator of cancer stem cell resistance against cisplatin and oxaliplatin. Targeting BIRC6, or other Inhibitors of Apoptosis Proteins, may help eradicating colon cancer stem cells.
 
 ---
-### 566. Single-cell dissection of transcriptional heterogeneity in human colon tumors
+### 565. Single-cell dissection of transcriptional heterogeneity in human colon tumors
 
 **Citation.** Dalerba P, Kalisky T, Sahoo D, Rajendran PS, Rothenberg ME, Leyrat AA, Sim S, Okamoto J, Johnston DM, Qian D, Zabala M, Bueno J, Neff NF, Wang J, Shelton AA, Visser B, Hisamori S, Shimono Y, van de Wetering M, Clevers H, Clarke MF, Quake SR. Single-cell dissection of transcriptional heterogeneity in human colon tumors. Nat Biotechnol. 2011;29(12):1120-7.
 
@@ -21219,7 +21151,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** Cancer is often viewed as a caricature of normal developmental processes, but the extent to which its cellular heterogeneity truly recapitulates multilineage differentiation processes of normal tissues remains unknown. Here we implement single-cell PCR gene-expression analysis to dissect the cellular composition of primary human normal colon and colon cancer epithelia. We show that human colon cancer tissues contain distinct cell populations whose transcriptional identities mirror those of the different cellular lineages of normal colon. By creating monoclonal tumor xenografts from injection of a single (n = 1) cell, we demonstrate that the transcriptional diversity of cancer tissues is largely explained by in vivo multilineage differentiation and not only by clonal genetic heterogeneity. Finally, we show that the different gene-expression programs linked to multilineage differentiation are strongly associated with patient survival. We develop two-gene classifier systems (KRT20 versus CA1, MS4A12, CD177, SLC26A3) that predict clinical outcomes with hazard ratios superior to those of pathological grade and comparable to those of microarray-derived multigene expression signatures.
 
 ---
-### 567. Single-molecule transcript counting of stem-cell markers in the mouse intestine
+### 566. Single-molecule transcript counting of stem-cell markers in the mouse intestine
 
 **Citation.** Itzkovitz S, Lyubimova A, Blat IC, Maynard M, van Es J, Lees J, Jacks T, Clevers H, van Oudenaarden A. Single-molecule transcript counting of stem-cell markers in the mouse intestine. Nat Cell Biol. 2011;14(1):106-14.
 
@@ -21246,7 +21178,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** Determining the molecular identities of adult stem cells requires technologies for sensitive transcript detection in tissues. In mouse intestinal crypts, lineage-tracing studies indicated that different genes uniquely mark spatially distinct stem-cell populations, residing either at crypt bases or at position +4, but a detailed analysis of their spatial co-expression has not been feasible. Here we apply three-colour single-molecule fluorescent in situ hybridization to study a comprehensive panel of intestinal stem-cell markers during homeostasis, ageing and regeneration. We find that the expression of all markers overlaps at crypt-base cells. This co-expression includes Lgr5, Bmi1 and mTert, genes previously suggested to mark distinct stem cells. Strikingly, Dcamkl1 tuft cells, distributed throughout the crypt axis, co-express Lgr5 and other stem-cell markers that are otherwise confined to crypt bases. We also detect significant changes in the expression of some of the markers following irradiation, indicating their potential role in the regeneration process. Our approach can enable the sensitive detection of putative stem cells in other tissues and in tumours, guiding complementary functional studies to evaluate their stem-cell properties.
 
 ---
-### 568. Sox9 marks adult organ progenitors
+### 567. Sox9 marks adult organ progenitors
 
 **Citation.** Huch M, Clevers H. Sox9 marks adult organ progenitors. Nat Genet. 2011;43(1):9-10.
 
@@ -21261,10 +21193,10 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 569. Isolation and in vitro expansion of human colonic stem cells
+### 568. Isolation and in vitro expansion of human colonic stem cells
 
 **Citation.** Jung P, Sato T, Merlos-Suárez A, Barriga FM, Iglesias M, Rossell D, Auer H, Gallardo M, Blasco MA, Sancho E, Clevers H, Batlle E. Isolation and in vitro expansion of human colonic stem cells. Nat Med. 2011;17(10):1225-7.
 
@@ -21294,7 +21226,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** Here we describe the isolation of stem cells of the human colonic epithelium. Differential cell surface abundance of ephrin type-B receptor 2 (EPHB2) allows the purification of different cell types from human colon mucosa biopsies. The highest EPHB2 surface levels correspond to epithelial colonic cells with the longest telomeres and elevated expression of intestinal stem cell (ISC) marker genes. Moreover, using culturing conditions that recreate the ISC niche, a substantial proportion of EPHB2-high cells can be expanded in vitro as an undifferentiated and multipotent population.
 
 ---
-### 570. The cancer stem cell: premises, promises and challenges
+### 569. The cancer stem cell: premises, promises and challenges
 
 **Citation.** Clevers H. The cancer stem cell: premises, promises and challenges. Nat Med. 2011;17(3):313-9.
 
@@ -21313,7 +21245,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** Over the last decade, the notion that tumors are maintained by their own stem cells, the so-called cancer stem cells, has created great excitement in the research community. This review attempts to summarize the underlying concepts of this notion, to distinguish hard facts from beliefs and to define the future challenges of the field.
 
 ---
-### 571. Controlled gene expression in primary Lgr5 organoid cultures
+### 570. Controlled gene expression in primary Lgr5 organoid cultures
 
 **Citation.** Koo B, Stange DE, Sato T, Karthaus W, Farin HF, Huch M, van Es JH, Clevers H. Controlled gene expression in primary Lgr5 organoid cultures. Nat Methods. 2011;9(1):81-3.
 
@@ -21339,7 +21271,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** The study of gene function in endodermal epithelia such as of stomach, small intestine and colon relies heavily on transgenic approaches. Establishing such animal models is laborious, expensive and time-consuming. We present here a method based on Cre recombinase-inducible retrovirus vectors that allows the conditional manipulation of gene expression in primary mouse organoid culture systems.
 
 ---
-### 572. Slide preparation for single-cell-resolution imaging of fluorescent proteins in their three-dimensional near-native environment
+### 571. Slide preparation for single-cell-resolution imaging of fluorescent proteins in their three-dimensional near-native environment
 
 **Citation.** Snippert HJ, Schepers AG, Delconte G, Siersema PD, Clevers H. Slide preparation for single-cell-resolution imaging of fluorescent proteins in their three-dimensional near-native environment. Nat Protoc. 2011;6(8):1221-8.
 
@@ -21362,7 +21294,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** In recent years, many mouse models have been developed to mark and trace the fate of adult cell populations using fluorescent proteins. High-resolution visualization of such fluorescent markers in their physiological setting is thus an important aspect of adult stem cell research. Here we describe a protocol to produce sections (150-200 μm) of near-native tissue with optimal tissue and cellular morphology by avoiding artifacts inherent in standard freezing or embedding procedures. The activity of genetically expressed fluorescent proteins is maintained, thereby enabling high-resolution three-dimensional (3D) reconstructions of fluorescent structures in virtually all types of tissues. The procedure allows immunofluorescence labeling of proteins to depths up to 50 μm, as well as a chemical 'Click-iT' reaction to detect DNA-intercalating analogs such as ethynyl deoxyuridine (EdU). Generation of near-native sections ready for imaging analysis takes approximately 2-3 h. Postsectioning processes, such as antibody labeling or EdU detection, take up to 10 h.
 
 ---
-### 573. Lgr5 homologues associate with Wnt receptors and mediate R-spondin signalling
+### 572. Lgr5 homologues associate with Wnt receptors and mediate R-spondin signalling
 
 **Citation.** de Lau W, Barker N, Low TY, Koo B, Li VSW, Teunissen H, Kujala P, Haegebarth A, Peters PJ, van de Wetering M, Stange DE, van Es JE, Guardavaccaro D, Schasfoort RBM, Mohri Y, Nishimori K, Mohammed S, Heck AJR, Clevers H. Lgr5 homologues associate with Wnt receptors and mediate R-spondin signalling. Nature. 2011;476(7360):293-7.
 
@@ -21399,7 +21331,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** The adult stem cell marker Lgr5 and its relative Lgr4 are often co-expressed in Wnt-driven proliferative compartments. We find that conditional deletion of both genes in the mouse gut impairs Wnt target gene expression and results in the rapid demise of intestinal crypts, thus phenocopying Wnt pathway inhibition. Mass spectrometry demonstrates that Lgr4 and Lgr5 associate with the Frizzled/Lrp Wnt receptor complex. Each of the four R-spondins, secreted Wnt pathway agonists, can bind to Lgr4, -5 and -6. In HEK293 cells, RSPO1 enhances canonical WNT signals initiated by WNT3A. Removal of LGR4 does not affect WNT3A signalling, but abrogates the RSPO1-mediated signal enhancement, a phenomenon rescued by re-expression of LGR4, -5 or -6. Genetic deletion of Lgr4/5 in mouse intestinal crypt cultures phenocopies withdrawal of Rspo1 and can be rescued by Wnt pathway activation. Lgr5 homologues are facultative Wnt receptor components that mediate Wnt signal enhancement by soluble R-spondin proteins. These results will guide future studies towards the application of R-spondins for regenerative purposes of tissues expressing Lgr5 homologues.
 
 ---
-### 574. Integrated genome-wide analysis of transcription factor occupancy, RNA polymerase II binding and steady-state RNA levels identify differentially regulated functional gene classes
+### 573. Integrated genome-wide analysis of transcription factor occupancy, RNA polymerase II binding and steady-state RNA levels identify differentially regulated functional gene classes
 
 **Citation.** Mokry M, Hatzis P, Schuijers J, Lansu N, Ruzius F, Clevers H, Cuppen E. Integrated genome-wide analysis of transcription factor occupancy, RNA polymerase II binding and steady-state RNA levels identify differentially regulated functional gene classes. Nucleic Acids Res. 2011;40(1):148-58.
 
@@ -21424,7 +21356,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** Routine methods for assaying steady-state mRNA levels such as RNA-seq and micro-arrays are commonly used as readouts to study the role of transcription factors (TFs) in gene expression regulation. However, cellular RNA levels do not solely depend on activity of TFs and subsequent transcription by RNA polymerase II (Pol II), but are also affected by RNA turnover rate. Here, we demonstrate that integrated analysis of genome-wide TF occupancy, Pol II binding and steady-state RNA levels provide important insights in gene regulatory mechanisms. Pol II occupancy, as detected by Pol II ChIP-seq, was found to correlate better with TF occupancy compared to steady-state RNA levels and is thus a more precise readout for the primary transcriptional mechanisms that are triggered by signal transduction. Furthermore, analysis of differential Pol II occupancy and RNA-seq levels identified genes with high Pol II occupancy and relatively low RNA levels and vice versa. These categories are strongly enriched for genes from different functional classes. Our results demonstrate a complementary value in Pol II chip-seq and RNA-seq approaches for better understanding of gene expression regulation.
 
 ---
-### 575. A comprehensive model of the spatio-temporal stem cell and tissue organisation in the intestinal crypt
+### 574. A comprehensive model of the spatio-temporal stem cell and tissue organisation in the intestinal crypt
 
 **Citation.** Buske P, Galle J, Barker N, Aust G, Clevers H, Loeffler M. A comprehensive model of the spatio-temporal stem cell and tissue organisation in the intestinal crypt. PLoS Comput Biol. 2011;7(1):e1001045.
 
@@ -21448,7 +21380,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** We introduce a novel dynamic model of stem cell and tissue organisation in murine intestinal crypts. Integrating the molecular, cellular and tissue level of description, this model links a broad spectrum of experimental observations encompassing spatially confined cell proliferation, directed cell migration, multiple cell lineage decisions and clonal competition.Using computational simulations we demonstrate that the model is capable of quantitatively describing and predicting the dynamic behaviour of the intestinal tissue during steady state as well as after cell damage and following selective gain or loss of gene function manipulations affecting Wnt- and Notch-signalling. Our simulation results suggest that reversibility and flexibility of cellular decisions are key elements of robust tissue organisation of the intestine. We predict that the tissue should be able to fully recover after complete elimination of cellular subpopulations including subpopulations deemed to be functional stem cells. This challenges current views of tissue stem cell organisation.
 
 ---
-### 576. The BMP antagonist follistatin-like 1 is required for skeletal and lung organogenesis
+### 575. The BMP antagonist follistatin-like 1 is required for skeletal and lung organogenesis
 
 **Citation.** Sylva M, Li VSW, Buffing AAA, van Es JH, van den Born M, van der Velden S, Gunst Q, Koolstra JH, Moorman AFM, Clevers H, van den Hoff MJB. The BMP antagonist follistatin-like 1 is required for skeletal and lung organogenesis. PLoS One. 2011;6(8):e22616.
 
@@ -21477,7 +21409,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** Follistatin-like 1 (Fstl1) is a secreted protein of the BMP inhibitor class. During development, expression of Fstl1 is already found in cleavage stage embryos and becomes gradually restricted to mesenchymal elements of most organs during subsequent development. Knock down experiments in chicken and zebrafish demonstrated a role as a BMP antagonist in early development. To investigate the role of Fstl1 during mouse development, a conditional Fstl1 KO allele as well as a Fstl1-GFP reporter mouse were created. KO mice die at birth from respiratory distress and show multiple defects in lung development. Also, skeletal development is affected. Endochondral bone development, limb patterning as well as patterning of the axial skeleton are perturbed in the absence of Fstl1. Taken together, these observations show that Fstl1 is a crucial regulator in BMP signalling during mouse development.
 
 ---
-### 577. The serine-threonine kinase LKB1 is essential for survival under energetic stress in zebrafish
+### 576. The serine-threonine kinase LKB1 is essential for survival under energetic stress in zebrafish
 
 **Citation.** van der Velden YU, Wang L, Zevenhoven J, van Rooijen E, van Lohuizen M, Giles RH, Clevers H, Haramis AG. The serine-threonine kinase LKB1 is essential for survival under energetic stress in zebrafish. Proc Natl Acad Sci U S A. 2011;108(11):4358-63.
 
@@ -21506,7 +21438,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 
 ## 2010
 
-### 578. Active Wnt signaling in response to cardiac injury
+### 577. Active Wnt signaling in response to cardiac injury
 
 **Citation.** Oerlemans MIFJ, Goumans M, van Middelaar B, Clevers H, Doevendans PA, Sluijter JPG. Active Wnt signaling in response to cardiac injury. Basic Res Cardiol. 2010;105(5):631-41.
 
@@ -21530,7 +21462,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** Although the contribution of Wnt signaling in infarct healing is suggested, its exact role after myocardial infarction (MI) still needs to be unraveled. We evaluated the cardiac presence of active Wnt signaling in vivo following MI, and investigated in which cell types active Wnt signaling was present by determining Axin2 promoter-driven LacZ expression. C57BL/6 Axin2-LacZ reporter mice were sacrificed at days 0, 1, 3, 7, 14, and 21 after LAD ligation. Hearts were snap-frozen for immunohistochemistry (IHC) or enzymatically digested to obtain a single cell suspension for flow cytometric analysis. For both FACS and IHC, samples were stained for beta-galactosidase and antibodies against Sca-1, CD31, ckit, and CD45. Active Wnt signaling increased markedly in the myocardium, from 7 days post-MI onwards. Using Sca-1 and CD31, to identify progenitor and endothelial cells, a significant increase in LacZ+ cells was found at 7 and 14 days post-MI. LacZ+ cells also increased in the ckit+ and CD45+ cell population. IHC revealed LacZ+ cells co-expressing Sca, CD31, CD45, vWF, and alphaSMA in the border zone and the infarcted area. Wnt signaling increased significantly after MI in Sca+- and CD31+-expressing cells, suggesting involvement of Wnt signaling in resident Sca+ progenitor cells, as well as endothelial cells. Moreover, active Wnt signaling was present in ckit+ cells, leukocytes, and fibroblast. Given its broad role during the healing phase after cardiac injury, additional research seems warranted before a therapeutic approach on Wnt to enhance cardiac regeneration can be carried out safely.
 
 ---
-### 579. MAP3K1 functionally interacts with Axin1 in the canonical Wnt signalling pathway
+### 578. MAP3K1 functionally interacts with Axin1 in the canonical Wnt signalling pathway
 
 **Citation.** Sue Ng S, Mahmoudi T, Li VSW, Hatzis P, Boersema PJ, Mohammed S, Heck AJ, Clevers H. MAP3K1 functionally interacts with Axin1 in the canonical Wnt signalling pathway. Biol Chem. 2010;391(2-3):171-180.
 
@@ -21557,7 +21489,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** A central point of regulation in the Wnt/beta-catenin signalling pathway is the formation of the beta-catenin destruction complex. Axin1, an essential negative regulator of Wnt signalling, serves as a scaffold within this complex and is critical for rapid turnover of beta-catenin. To examine the mechanism by which Wnt signalling disables the destruction complex, we used an immunoprecipitation-coupled proteomics approach to identify novel endogenous binding partners of Axin1. We found mitogen-activated protein kinase kinase kinase 1 (MAP3K1) as an Axin1 interactor in Ls174T colorectal cancer (CRC) cells. Importantly, confirmation of this interaction in HEK293T cells indicated that the Axin1-MAP3K1 interaction is induced and modulated by Wnt stimulation. siRNA depletion of MAP3K1 specifically abrogated TCF/LEF-driven transcription and Wnt3A-driven endogenous gene expression in both HEK293T as well as DLD-1 CRC. Expression of ubiquitin ligase mutants of MAP3K1 abrogated TCF/LEF transcription, whereas kinase mutants had no effect in TCF-driven activity, highlighting the essential role of the MAP3K1 E3 ubiquitin ligase activity in regulation of the Wnt/beta-catenin pathway. These results suggest that MAP3K1, previously reported as an Axin1 inter-actor in c-Jun NH(2)-terminal kinase pathway, is also involved in the canonical Wnt signalling pathway and positively regulates expression of Wnt target genes.
 
 ---
-### 580. Cyclin D2-cyclin-dependent kinase 4/6 is required for efficient proliferation and tumorigenesis following Apc loss
+### 579. Cyclin D2-cyclin-dependent kinase 4/6 is required for efficient proliferation and tumorigenesis following Apc loss
 
 **Citation.** Cole AM, Myant K, Reed KR, Ridgway RA, Athineos D, Van den Brink GR, Muncan V, Clevers H, Clarke AR, Sicinski P, Sansom OJ. Cyclin D2-cyclin-dependent kinase 4/6 is required for efficient proliferation and tumorigenesis following Apc loss. Cancer Res. 2010;70(20):8149-58.
 
@@ -21586,7 +21518,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** Inactivation of the Apc gene is recognized as the key early event in the development of sporadic colorectal cancer (CRC), where its loss leads to constitutive activation of β-catenin/T-cell factor 4 signaling and hence transcription of Wnt target genes such as c-Myc. Our and other previous studies have shown that although cyclin D1 is required for adenoma formation, it is not immediately upregulated following Apc loss within the intestine, suggesting that proliferation following acute Apc loss may be dependent on another D-type cyclin. In this study, we investigated the expression and functional relevance of cyclin D2 following Apc loss in the intestinal epithelium. Cyclin D2 is upregulated immediately following Apc loss, which corresponded with a significant increase in cyclin-dependent kinase 4 (CDK4) and hyperphosphorylated Rb levels. Deficiency of cyclin D2 resulted in a reduction in enterocyte proliferation and crypt size within Apc-deficient intestinal epithelium. Moreover, cyclin D2 dramatically reduced tumor growth and development in Apc(Min/+) mice. Importantly, cyclin D2 knockout did not affect proliferation of normal enterocytes, and furthermore, CDK4/6 inhibition also suppressed the proliferation of adenomatous cells and not normal cells from Apc(Min/+) mice. Taken together, these results indicate that cyclin D-CDK4/6 complexes are required for the efficient proliferation of cells with deregulated Wnt signaling, and inhibiting this complex may be an effective chemopreventative strategy in CRC.
 
 ---
-### 581. Intestinal crypt homeostasis results from neutral competition between symmetrically dividing Lgr5 stem cells
+### 580. Intestinal crypt homeostasis results from neutral competition between symmetrically dividing Lgr5 stem cells
 
 **Citation.** Snippert HJ, van der Flier LG, Sato T, van Es JH, van den Born M, Kroon-Veenboer C, Barker N, Klein AM, van Rheenen J, Simons BD, Clevers H. Intestinal crypt homeostasis results from neutral competition between symmetrically dividing Lgr5 stem cells. Cell. 2010;143(1):134-44.
 
@@ -21615,7 +21547,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** Intestinal stem cells, characterized by high Lgr5 expression, reside between Paneth cells at the small intestinal crypt base and divide every day. We have carried out fate mapping of individual stem cells by generating a multicolor Cre-reporter. As a population, Lgr5(hi) stem cells persist life-long, yet crypts drift toward clonality within a period of 1-6 months. We have collected short- and long-term clonal tracing data of individual Lgr5(hi) cells. These reveal that most Lgr5(hi) cell divisions occur symmetrically and do not support a model in which two daughter cells resulting from an Lgr5(hi) cell division adopt divergent fates (i.e., one Lgr5(hi) cell and one transit-amplifying [TA] cell per division). The cellular dynamics are consistent with a model in which the resident stem cells double their numbers each day and stochastically adopt stem or TA fates. Quantitative analysis shows that stem cell turnover follows a pattern of neutral drift dynamics.
 
 ---
-### 582. Lgr5(+ve) stem cells drive self-renewal in the stomach and build long-lived gastric units in vitro
+### 581. Lgr5(+ve) stem cells drive self-renewal in the stomach and build long-lived gastric units in vitro
 
 **Citation.** Barker N, Huch M, Kujala P, van de Wetering M, Snippert HJ, van Es JH, Sato T, Stange DE, Begthel H, van den Born M, Danenberg E, van den Brink S, Korving J, Abo A, Peters PJ, Wright N, Poulsom R, Clevers H. Lgr5(+ve) stem cells drive self-renewal in the stomach and build long-lived gastric units in vitro. Cell Stem Cell. 2010;6(1):25-36.
 
@@ -21651,7 +21583,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** The study of gastric epithelial homeostasis and cancer has been hampered by the lack of stem cell markers and in vitro culture methods. The Wnt target gene Lgr5 marks stem cells in the small intestine, colon, and hair follicle. Here, we investigated Lgr5 expression in the stomach and assessed the stem cell potential of the Lgr5(+ve) cells by using in vivo lineage tracing. In neonatal stomach, Lgr5 was expressed at the base of prospective corpus and pyloric glands, whereas expression in the adult was predominantly restricted to the base of mature pyloric glands. Lineage tracing revealed these Lgr5(+ve) cells to be self-renewing, multipotent stem cells responsible for the long-term renewal of the gastric epithelium. With an in vitro culture system, single Lgr5(+ve) cells efficiently generated long-lived organoids resembling mature pyloric epithelium. The Lgr5 stem cell marker and culture method described here will be invaluable tools for accelerating research into gastric epithelial renewal, inflammation/infection, and cancer.
 
 ---
-### 583. Spindle orientation bias in gut epithelial stem cell compartments is lost in precancerous tissue
+### 582. Spindle orientation bias in gut epithelial stem cell compartments is lost in precancerous tissue
 
 **Citation.** Quyn AJ, Appleton PL, Carey FA, Steele RJC, Barker N, Clevers H, Ridgway RA, Sansom OJ, Näthke IS. Spindle orientation bias in gut epithelial stem cell compartments is lost in precancerous tissue. Cell Stem Cell. 2010;6(2):175-81.
 
@@ -21678,7 +21610,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** The importance of asymmetric divisions for stem cell function and maintenance is well established in the developing nervous system and the skin; however, its role in gut epithelium and its importance for tumorigenesis is still debated. We demonstrate alignment of mitotic spindles perpendicular to the apical surface specifically in the stem cell compartments of mouse and human intestine and colon. This orientation correlates with the asymmetric retention of label-retaining DNA. Both the preference for perpendicular spindle alignment and asymmetric label retention are lost in precancerous tissue heterozygous for the adenomatous polyposis coli tumor suppressor (Apc). This loss correlates with cell shape changes specifically in the stem cell compartment. Our data suggest that loss of asymmetric division in stem cells might contribute to the oncogenic effect of Apc mutations in gut epithelium.
 
 ---
-### 584. Tissue-resident adult stem cell populations of rapidly self-renewing organs
+### 583. Tissue-resident adult stem cell populations of rapidly self-renewing organs
 
 **Citation.** Barker N, Bartfeld S, Clevers H. Tissue-resident adult stem cell populations of rapidly self-renewing organs. Cell Stem Cell. 2010;7(6):656-70.
 
@@ -21699,7 +21631,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** The epithelial lining of the intestine, stomach, and skin is continuously exposed to environmental assault, imposing a requirement for regular self-renewal. Resident adult stem cell populations drive this renewal, and much effort has been invested in revealing their identity. Reliable adult stem cell biomarkers would accelerate our understanding of stem cell roles in tissue homeostasis and cancer. Membrane-expressed markers would also facilitate isolation of these adult stem cell populations for exploitation of their regenerative potential. Here, we review recent advances in adult stem cell biology, highlighting the promise and pitfalls of the candidate biomarkers of the various stem cell populations.
 
 ---
-### 585. Wnts as self-renewal factors: mammary stem cells and beyond
+### 584. Wnts as self-renewal factors: mammary stem cells and beyond
 
 **Citation.** Verheyen EM, Clevers H. Wnts as self-renewal factors: mammary stem cells and beyond. Cell Stem Cell. 2010;6(6):494-5.
 
@@ -21716,10 +21648,10 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 
 1. Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, British Columbia, Canada.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 586. In situ hybridization to identify gut stem cells
+### 585. In situ hybridization to identify gut stem cells
 
 **Citation.** Gregorieff A, Clevers H. In situ hybridization to identify gut stem cells. Curr Protoc Stem Cell Biol. 2010;Chapter 2:Unit 2F.1.
 
@@ -21739,7 +21671,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** In recent years, considerable effort has been directed towards identifying the repertoire of genes specifically expressed in adult stem cells. In this unit, we describe an in situ hybridization protocol adapted for the analysis of gene expression in the intestinal mucosa. This methodology allows researchers to quickly visualize the expression profile of putative stem cell markers with a high degree of sensitivity and resolution.
 
 ---
-### 587. Lineage tracing in the intestinal epithelium
+### 586. Lineage tracing in the intestinal epithelium
 
 **Citation.** Barker N, Clevers H. Lineage tracing in the intestinal epithelium. Curr Protoc Stem Cell Biol. 2010;Chapter 5:Unit5A.4.
 
@@ -21759,7 +21691,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** This unit describes the theory and detailed protocols for performing in vivo lineage tracing from Lgr5(+ve) intestinal stem cells using an Lgr5-EGFP-ires-CreERT2/Rosa26lacZ mouse model. Lineage tracing can be initiated in mice at any age by administering limiting doses of the hormone tamoxifen. This activates the lacZ reporter gene in the Lgr5(+ve) stem cells, which subsequently transmit this permanent genetic mark to their progeny as they repopulate the epithelium during normal homeostasis. Because the Lgr5(+ve) cells are long-lived, self-renewing stem cells, they continuously generate lacZ progeny, which contribute to tissue renewal over the entire lifetime of the mouse. The same protocols can be applied to performing in vivo lineage tracing from other Lgr5(+ve) stem cell populations, including those in the hair-follicle and stomach.
 
 ---
-### 588. Focal adhesion kinase is required for intestinal regeneration and tumorigenesis downstream of Wnt/c-Myc signaling
+### 587. Focal adhesion kinase is required for intestinal regeneration and tumorigenesis downstream of Wnt/c-Myc signaling
 
 **Citation.** Ashton GH, Morton JP, Myant K, Phesse TJ, Ridgway RA, Marsh V, Wilkins JA, Athineos D, Muncan V, Kemp R, Neufeld K, Clevers H, Brunton V, Winton DJ, Wang X, Sears RC, Clarke AR, Frame MC, Sansom OJ. Focal adhesion kinase is required for intestinal regeneration and tumorigenesis downstream of Wnt/c-Myc signaling. Dev Cell. 2010;19(2):259-69.
 
@@ -21796,7 +21728,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** The intestinal epithelium has a remarkable capacity to regenerate after injury and DNA damage. Here, we show that the integrin effector protein Focal Adhesion Kinase (FAK) is dispensable for normal intestinal homeostasis and DNA damage signaling, but is essential for intestinal regeneration following DNA damage. Given Wnt/c-Myc signaling is activated following intestinal regeneration, we investigated the functional importance of FAK following deletion of the Apc tumor suppressor protein within the intestinal epithelium. Following Apc loss, FAK expression increased in a c-Myc-dependent manner. Codeletion of Apc and Fak strongly reduced proliferation normally induced following Apc loss, and this was associated with reduced levels of phospho-Akt and suppression of intestinal tumorigenesis in Apc heterozygous mice. Thus, FAK is required downstream of Wnt Signaling, for Akt/mTOR activation, intestinal regeneration, and tumorigenesis. Importantly, this work suggests that FAK inhibitors may suppress tumorigenesis in patients at high risk of developing colorectal cancer.
 
 ---
-### 589. Conversion of metaplastic Barrett's epithelium into post-mitotic goblet cells by gamma-secretase inhibition
+### 588. Conversion of metaplastic Barrett's epithelium into post-mitotic goblet cells by gamma-secretase inhibition
 
 **Citation.** Menke V, van Es JH, de Lau W, van den Born M, Kuipers EJ, Siersema PD, de Bruin RWF, Kusters JG, Clevers H. Conversion of metaplastic Barrett's epithelium into post-mitotic goblet cells by gamma-secretase inhibition. Dis Model Mech. 2010;3(1-2):104-10.
 
@@ -21823,7 +21755,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** Barrett's esophagus (BE) affects approximately 2% of the Western population and progresses to esophageal adenocarcinoma (EAC) in 0.5% of these patients each year. In BE, the stratified epithelium is replaced by an intestinal-type epithelium owing to chronic gastroduodenal reflux. Since self-renewal of intestinal crypts is driven by Notch signaling, we investigated whether this pathway was active in the proliferative crypts of BE. Immunohistochemistry confirmed the presence of an intact and activated Notch signaling pathway in metaplastic BE epithelium, but not in the normal human esophagus. Similar observations were made in two well-known human Barrett's-derived EAC cell lines, OE33 and SKGT-5. We then sought to investigate the effects of Notch inhibition by systemic treatment with a gamma-secretase inhibitor in a well-validated rodent model for BE. As we have shown previously in normal intestinal epithelium, Notch inhibition converted the proliferative Barrett's epithelial cells into terminally differentiated goblet cells, whereas the squamous epithelium remained intact. These data imply that local application of gamma-secretase inhibitors may present a simple therapeutic strategy for this increasingly common pre-malignant condition.
 
 ---
-### 590. p21 loss blocks senescence following Apc loss and provokes tumourigenesis in the renal but not the intestinal epithelium
+### 589. p21 loss blocks senescence following Apc loss and provokes tumourigenesis in the renal but not the intestinal epithelium
 
 **Citation.** Cole AM, Ridgway RA, Derkits SE, Parry L, Barker N, Clevers H, Clarke AR, Sansom OJ. p21 loss blocks senescence following Apc loss and provokes tumourigenesis in the renal but not the intestinal epithelium. EMBO Mol Med. 2010;2(11):472-86.
 
@@ -21849,7 +21781,7 @@ RA induces quiescence and reduces motility of PSCs, leading to reduced prolifera
 **Abstract.** Senescence has been implicated as an important mechanism of tumour suppression in a number of human malignancies, including colorectal cancer (CRC). However, we still have a relatively poor understanding of how the underlying mutations that occur in cancer cause senescence and its relevance in vivo. The Apc gene is mutated in approximately 80% of CRC as the initiating event, but rarely elsewhere. In this study we have examined the capacity of Apc loss to induce senescence in the intestinal epithelium compared to the renal epithelium. Within the renal epithelium, loss of Apc function led to an induction of senescence, however, bypassing senescence through combined Apc and p21 or Ink4A gene deletion rapidly initiated renal carcinoma. Within the intestinal epithelium, loss of Apc did not induce senescence. Moreover, combined Apc and p21 or Ink4A loss had no impact upon tumourigenesis. Taken together, these results show that Apc loss in vivo invokes a senescence program in a context-dependent fashion, and implies senescence may play a key barrier to tumourigenesis in the kidney. However, in CRC, escape from senescence is likely to only be a barrier in cancers initiated by other mutations.
 
 ---
-### 591. Indian hedgehog regulates intestinal stem cell fate through epithelial-mesenchymal interactions during development
+### 590. Indian hedgehog regulates intestinal stem cell fate through epithelial-mesenchymal interactions during development
 
 **Citation.** Kosinski C, Stange DE, Xu C, Chan AS, Ho C, Yuen ST, Mifflin RC, Powell DW, Clevers H, Leung SY, Chen X. Indian hedgehog regulates intestinal stem cell fate through epithelial-mesenchymal interactions during development. Gastroenterology. 2010;139(3):893-903.
 
@@ -21884,7 +21816,7 @@ Deletion of intestinal epithelial Ihh disrupted the intestinal mesenchymal archi
 Ihh regulates ISC self-renewal and differentiation. Intestinal epithelial Ihh signals to the mesenchymal compartment to regulate formation and proliferation of mesenchymal cells, which in turn affect epithelial proliferation and differentiation. These findings provide a basis for analyses of the role of the muscularis mucosae in ISC regulation.
 
 ---
-### 592. Leucine-rich repeat-containing G-protein-coupled receptors as markers of adult stem cells
+### 591. Leucine-rich repeat-containing G-protein-coupled receptors as markers of adult stem cells
 
 **Citation.** Barker N, Clevers H. Leucine-rich repeat-containing G-protein-coupled receptors as markers of adult stem cells. Gastroenterology. 2010;138(5):1681-96.
 
@@ -21904,7 +21836,7 @@ Ihh regulates ISC self-renewal and differentiation. Intestinal epithelial Ihh si
 **Abstract.** Molecular markers are used to characterize and track adult stem cells. Colon cancer research has led to the identification of 2 related receptors, leucine-rich repeat-containing, G-protein-coupled receptors (Lgr)5 and Lgr6, that are expressed by small populations of cells in a variety of adult organs. Genetic mouse models have allowed the visualization, isolation, and genetic marking of Lgr5(+ve) and Lgr6(+ve) cells and provided evidence that they are stem cells. The Lgr5(+ve) cells were found to occupy locations not commonly associated with stem cells in the stomach, small intestine, colon, and hair follicles. A multipotent population of skin stem cells express Lgr6. Single Lgr5(+ve) stem cells from the small intestine and the stomach can be cultured into long-lived organoids. Further studies of these markers might reveal adult stem cell populations in additional tissues. Identification of the ligands for Lgr5 and 6 will help elucidate stem cell functions and modes of intracellular signaling.
 
 ---
-### 593. Sumoylation by Ubc9 regulates the stem cell compartment and structure and function of the intestinal epithelium in mice
+### 592. Sumoylation by Ubc9 regulates the stem cell compartment and structure and function of the intestinal epithelium in mice
 
 **Citation.** Demarque MD, Nacerddine K, Neyret-Kahn H, Andrieux A, Danenberg E, Jouvion G, Bomme P, Hamard G, Romagnolo B, Terris B, Cumano A, Barker N, Clevers H, Dejean A. Sumoylation by Ubc9 regulates the stem cell compartment and structure and function of the intestinal epithelium in mice. Gastroenterology. 2010;140(1):286-96.
 
@@ -21942,7 +21874,7 @@ Loss of Ubc9 from adult mice primarily affected the small intestine. Ubc9fl/-/RO
 Sumoylation maintains intestinal stem cells and the architecture, mechanical stability, and function of the intestinal epithelium of mice.
 
 ---
-### 594. The cytomegalovirus-encoded chemokine receptor US28 promotes intestinal neoplasia in transgenic mice
+### 593. The cytomegalovirus-encoded chemokine receptor US28 promotes intestinal neoplasia in transgenic mice
 
 **Citation.** Bongers G, Maussang D, Muniz LR, Noriega VM, Fraile-Ramos A, Barker N, Marchesi F, Thirunarayanan N, Vischer HF, Qin L, Mayer L, Harpaz N, Leurs R, Furtado GC, Clevers H, Tortorella D, Smit MJ, Lira SA. The cytomegalovirus-encoded chemokine receptor US28 promotes intestinal neoplasia in transgenic mice. J Clin Invest. 2010;120(11):3969-78.
 
@@ -21978,7 +21910,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** US28 is a constitutively active chemokine receptor encoded by CMV (also referred to as human herpesvirus 5), a highly prevalent human virus that infects a broad spectrum of cells, including intestinal epithelial cells (IECs). To study the role of US28 in vivo, we created transgenic mice (VS28 mice) in which US28 expression was targeted to IECs. Expression of US28 was detected in all IECs of the small and large intestine, including in cells expressing leucine rich repeat containing GPCR5 (Lgr5), a marker gene of intestinal epithelial stem cells. US28 expression in IECs inhibited glycogen synthase 3β (GSK-3β) function, promoted accumulation of β-catenin protein, and increased expression of Wnt target genes involved in the control of the cell proliferation. VS28 mice showed a hyperplastic intestinal epithelium and, strikingly, developed adenomas and adenocarcinomas by 40 weeks of age. When exposed to an inflammation-driven tumor model (azoxymethane/dextran sodium sulfate), VS28 mice developed a significantly higher tumor burden than control littermates. Transgenic coexpression of the US28 ligand CCL2 (an inflammatory chemokine) increased IEC proliferation as well as tumor burden, suggesting that the oncogenic activity of US28 can be modulated by inflammatory factors. Together, these results indicate that expression of US28 promotes development of intestinal dysplasia and cancer in transgenic mice and suggest that CMV infection may facilitate development of intestinal neoplasia in humans.
 
 ---
-### 595. Loss of the tumor suppressor CYLD enhances Wnt/beta-catenin signaling through K63-linked ubiquitination of Dvl
+### 594. Loss of the tumor suppressor CYLD enhances Wnt/beta-catenin signaling through K63-linked ubiquitination of Dvl
 
 **Citation.** Tauriello DVF, Haegebarth A, Kuper I, Edelmann MJ, Henraat M, Canninga-van Dijk MR, Kessler BM, Clevers H, Maurice MM. Loss of the tumor suppressor CYLD enhances Wnt/beta-catenin signaling through K63-linked ubiquitination of Dvl. Mol Cell. 2010;37(5):607-19.
 
@@ -22005,7 +21937,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** The mechanism by which Wnt receptors transduce signals to activate downstream beta-catenin-mediated target gene transcription remains incompletely understood but involves Frizzled (Fz) receptor-mediated plasma membrane recruitment and activation of the cytoplasmic effector Dishevelled (Dvl). Here, we identify the deubiquitinating enzyme CYLD, the familial cylindromatosis tumor suppressor gene, as a negative regulator of proximal events in Wnt/beta-catenin signaling. Depletion of CYLD from cultured cells markedly enhances Wnt-induced accumulation of beta-catenin and target gene activation. Moreover, we demonstrate hyperactive Wnt signaling in human cylindroma skin tumors that arise from mutations in CYLD. At the molecular level, CYLD interacts with and regulates K63-linked ubiquitination of Dvl. Enhanced ubiquitination of the polymerization-prone DIX domain in CYLD-deficient cells positively links to the signaling activity of Dvl. Together, our results argue that loss of CYLD instigates tumor growth in human cylindromatosis through a mechanism in which hyperubiquitination of polymerized Dvl drives enhancement of Wnt responses.
 
 ---
-### 596. Stem cells and cancer of the stomach and intestine
+### 595. Stem cells and cancer of the stomach and intestine
 
 **Citation.** Vries RGJ, Huch M, Clevers H. Stem cells and cancer of the stomach and intestine. Mol Oncol. 2010;4(5):373-84.
 
@@ -22026,7 +21958,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** Cancer in the 21st century has become the number one cause of death in developed countries. Although much progress has been made in improving patient survival, tumour relapse is one of the important causes of cancer treatment failure. An early observation in the study of cancer was the heterogeneity of tumours. Traditionally, this was explained by a combination of genomic instability of tumours and micro environmental factors leading to diverse phenotypical characteristics. It was assumed that cells in a tumour have an equal capacity to propagate the cancer. This model is currently known as the stochastic model. Recently, the Cancer stem cell model has been proposed to explain the heterogeneity of a tumour and its progression. According to this model, the heterogeneity of tumours is the result of aberrant differentiation of tumour cells into the cells of the tissue the tumour originated from. Tumours were suggested to contain stem cell-like cells, the cancer stem cells or tumour-initiating cells, which are uniquely capable of propagating a tumour much like normal stem cells fuel proliferation and differentiation in normal tissue. In this review we discuss the normal stem cell biology of the stomach and intestine followed by both the stochastic and cancer stem cell models in light of recent findings in the gastric and intestinal systems. The molecular pathways underlying normal and tumourigenic growth have been well studied, and recently the stem cells of the stomach and intestine have been identified. Furthermore, intestinal stem cells were identified as the cells-of-origin of colon cancer upon loss of the tumour suppressor APC. Lastly, several studies have proposed the positive identification of a cancer stem cell of human colon cancer. At the end we compare the cancer stem cell model and the stochastic model. We conclude that clonal evolution of tumour cells resulting from genetic mutations underlies tumour initiation and progression in both cancer models. This implies that at any point during tumour development any tumour cell can revert to a cancer stem cell after having gained a clonal advantage over the original cancer stem cell. Therefore, these models represent two sides of the same coin.
 
 ---
-### 597. Intestinal stem cells lacking the Math1 tumour suppressor are refractory to Notch inhibitors
+### 596. Intestinal stem cells lacking the Math1 tumour suppressor are refractory to Notch inhibitors
 
 **Citation.** van Es JH, de Geest N, van de Born M, Clevers H, Hassan BA. Intestinal stem cells lacking the Math1 tumour suppressor are refractory to Notch inhibitors. Nat Commun. 2010;1(2):18.
 
@@ -22049,7 +21981,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** Intestinal cells are constantly produced from a stem cell reservoir that gives rise to proliferating transient amplifying cells, which subsequently differentiate into one of the four principal cell types. Signalling pathways, including the Notch signalling pathway, coordinate these differentiation processes and their deregulation may cause cancer. Pharmacological inhibition through γ-secretase inhibitors or genetic inactivation of the Notch signalling pathway results in the complete loss of proliferating crypt progenitors due to their conversion into post-mitotic goblet cells. The basic helix-loop-helix transcription factor Math1 is essential for intestinal secretory cell differentiation. Because of the critical roles of both Math1 and Notch signalling in intestinal homeostasis and neoplastic transformation, we sought to determine the genetic hierarchy regulating the differentiation of intestinal stem cells into secretory cells. In this paper, we demonstrate that the conversion of intestinal stem cells into goblet cells upon inhibition of the Notch signalling pathway requires Math1.
 
 ---
-### 598. Paneth cells constitute the niche for Lgr5 stem cells in intestinal crypts
+### 597. Paneth cells constitute the niche for Lgr5 stem cells in intestinal crypts
 
 **Citation.** Sato T, van Es JH, Snippert HJ, Stange DE, Vries RG, van den Born M, Barker N, Shroyer NF, van de Wetering M, Clevers H. Paneth cells constitute the niche for Lgr5 stem cells in intestinal crypts. Nature. 2010;469(7330):415-8.
 
@@ -22077,7 +22009,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** Homeostasis of self-renewing small intestinal crypts results from neutral competition between Lgr5 stem cells, which are small cycling cells located at crypt bottoms. Lgr5 stem cells are interspersed between terminally differentiated Paneth cells that are known to produce bactericidal products such as lysozyme and cryptdins/defensins. Single Lgr5-expressing stem cells can be cultured to form long-lived, self-organizing crypt-villus organoids in the absence of non-epithelial niche cells. Here we find a close physical association of Lgr5 stem cells with Paneth cells in mice, both in vivo and in vitro. CD24(+) Paneth cells express EGF, TGF-α, Wnt3 and the Notch ligand Dll4, all essential signals for stem-cell maintenance in culture. Co-culturing of sorted stem cells with Paneth cells markedly improves organoid formation. This Paneth cell requirement can be substituted by a pulse of exogenous Wnt. Genetic removal of Paneth cells in vivo results in the concomitant loss of Lgr5 stem cells. In colon crypts, CD24(+) cells residing between Lgr5 stem cells may represent the Paneth cell equivalents. We conclude that Lgr5 stem cells compete for essential niche signals provided by a specialized daughter cell, the Paneth cell.
 
 ---
-### 599. The leukemia-associated Mllt10/Af10-Dot1l are Tcf4/β-catenin coactivators essential for intestinal homeostasis
+### 598. The leukemia-associated Mllt10/Af10-Dot1l are Tcf4/β-catenin coactivators essential for intestinal homeostasis
 
 **Citation.** Mahmoudi T, Boj SF, Hatzis P, Li VSW, Taouatas N, Vries RGJ, Teunissen H, Begthel H, Korving J, Mohammed S, Heck AJR, Clevers H. The leukemia-associated Mllt10/Af10-Dot1l are Tcf4/β-catenin coactivators essential for intestinal homeostasis. PLoS Biol. 2010;8(11):e1000539.
 
@@ -22107,7 +22039,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** Wnt signaling maintains the undifferentiated state of intestinal crypt progenitor cells by inducing the formation of nuclear TCF4/β-catenin complexes. In colorectal cancer, activating mutations in Wnt pathway components cause inappropriate activation of TCF4/β-catenin-driven transcription. Despite the passage of a decade after the discovery of TCF4 and β-catenin as the molecular effectors of the Wnt signal, few transcriptional activators essential and unique to the regulation of this transcription program have been found. Using proteomics, we identified the leukemia-associated Mllt10/Af10 and the methyltransferase Dot1l as Tcf4/β-catenin interactors in mouse small intestinal crypts. Mllt10/Af10-Dot1l, essential for transcription elongation, are recruited to Wnt target genes in a β-catenin-dependent manner, resulting in H3K79 methylation over their coding regions in vivo in proliferative crypts of mouse small intestine in colorectal cancer and Wnt-inducible HEK293T cells. Depletion of MLLT10/AF10 in colorectal cancer and Wnt-inducible HEK293T cells followed by expression array analysis identifies MLLT10/AF10 and DOT1L as essential activators to a large extent dedicated to Wnt target gene regulation. In contrast, previously published β-catenin coactivators p300 and BRG1 displayed a more pleiotropic target gene expression profile controlling Wnt and other pathways. tcf4, mllt10/af10, and dot1l are co-expressed in Wnt-driven tissues in zebrafish and essential for Wnt-reporter activity. Intestinal differentiation defects in apc-mutant zebrafish can be rescued by depletion of Mllt10 and Dot1l, establishing these genes as activators downstream of Apc in Wnt target gene activation in vivo. Morpholino-depletion of mllt10/af10-dot1l in zebrafish results in defects in intestinal homeostasis and a significant reduction in the in vivo expression of direct Wnt target genes and in the number of proliferative intestinal epithelial cells. We conclude that Mllt10/Af10-Dot1l are essential, largely dedicated activators of Wnt-dependent transcription, critical for maintenance of intestinal proliferation and homeostasis. The methyltransferase DOT1L may present an attractive candidate for drug targeting in colorectal cancer.
 
 ---
-### 600. Efficient double fragmentation ChIP-seq provides nucleotide resolution protein-DNA binding profiles
+### 599. Efficient double fragmentation ChIP-seq provides nucleotide resolution protein-DNA binding profiles
 
 **Citation.** Mokry M, Hatzis P, de Bruijn E, Koster J, Versteeg R, Schuijers J, van de Wetering M, Guryev V, Clevers H, Cuppen E. Efficient double fragmentation ChIP-seq provides nucleotide resolution protein-DNA binding profiles. PLoS One. 2010;5(11):e15092.
 
@@ -22135,7 +22067,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** Immunoprecipitated crosslinked protein-DNA fragments typically range in size from several hundred to several thousand base pairs, with a significant part of chromatin being much longer than the optimal length for next-generation sequencing (NGS) procedures. Because these larger fragments may be non-random and represent relevant biology that may otherwise be missed, but also because they represent a significant fraction of the immunoprecipitated material, we designed a double-fragmentation ChIP-seq procedure. After conventional crosslinking and immunoprecipitation, chromatin is de-crosslinked and sheared a second time to concentrate fragments in the optimal size range for NGS. Besides the benefits of increased chromatin yields, the procedure also eliminates a laborious size-selection step. We show that the double-fragmentation ChIP-seq approach allows for the generation of biologically relevant genome-wide protein-DNA binding profiles from sub-nanogram amounts of TCF7L2/TCF4, TBP and H3K4me3 immunoprecipitated material. Although optimized for the AB/SOLiD platform, the same approach may be applied to other platforms.
 
 ---
-### 601. Chemoprevention by nonsteroidal anti-inflammatory drugs eliminates oncogenic intestinal stem cells via SMAC-dependent apoptosis
+### 600. Chemoprevention by nonsteroidal anti-inflammatory drugs eliminates oncogenic intestinal stem cells via SMAC-dependent apoptosis
 
 **Citation.** Qiu W, Wang X, Leibowitz B, Liu H, Barker N, Okada H, Oue N, Yasui W, Clevers H, Schoen RE, Yu J, Zhang L. Chemoprevention by nonsteroidal anti-inflammatory drugs eliminates oncogenic intestinal stem cells via SMAC-dependent apoptosis. Proc Natl Acad Sci U S A. 2010;107(46):20027-32.
 
@@ -22165,7 +22097,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** Nonsteroidal anti-inflammatory drugs (NSAIDs) such as sulindac effectively prevent colon cancer in humans and rodent models. However, their cellular targets and underlying mechanisms have remained elusive. We found that dietary sulindac induced apoptosis to remove the intestinal stem cells with nuclear or phosphorylated β-catenin in APC(Min/+) mice. NSAIDs also induced apoptosis in human colonic polyps and effectively removed cells with aberrant Wnt signaling. Furthermore, deficiency in SMAC, a mitochondrial apoptogenic protein, attenuated the tumor-suppressive effect of sulindac in APC(Min/+) mice by blocking apoptosis and removal of stem cells with nuclear or phosphorylated β-catenin. These results suggest that effective chemoprevention of colon cancer by NSAIDs lies in the elimination of stem cells that are inappropriately activated by oncogenic events through induction of apoptosis.
 
 ---
-### 602. TCF4 and CDX2, major transcription factors for intestinal function, converge on the same cis-regulatory regions
+### 601. TCF4 and CDX2, major transcription factors for intestinal function, converge on the same cis-regulatory regions
 
 **Citation.** Verzi MP, Hatzis P, Sulahian R, Philips J, Schuijers J, Shin H, Freed E, Lynch JP, Dang DT, Brown M, Clevers H, Liu XS, Shivdasani RA. TCF4 and CDX2, major transcription factors for intestinal function, converge on the same cis-regulatory regions. Proc Natl Acad Sci U S A. 2010;107(34):15157-62.
 
@@ -22196,7 +22128,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** Surprisingly few pathways signal between cells, raising questions about mechanisms for tissue-specific responses. In particular, Wnt ligands signal in many mammalian tissues, including the intestinal epithelium, where constitutive signaling causes cancer. Genome-wide analysis of DNA cis-regulatory regions bound by the intestine-restricted transcription factor CDX2 in colonic cells uncovered highly significant overrepresentation of sequences that bind TCF4, a transcriptional effector of intestinal Wnt signaling. Chromatin immunoprecipitation confirmed TCF4 occupancy at most such sites and co-occupancy of CDX2 and TCF4 across short distances. A region spanning the single nucleotide polymorphism rs6983267, which lies within a MYC enhancer and confers colorectal cancer risk in humans, represented one of many co-occupied sites. Co-occupancy correlated with intestine-specific gene expression and CDX2 loss reduced TCF4 binding. These results implicate CDX2 in directing TCF4 binding in intestinal cells. Co-occupancy of regulatory regions by signal-effector and tissue-restricted transcription factors may represent a general mechanism for ubiquitous signaling pathways to achieve tissue-specific outcomes.
 
 ---
-### 603. Coexistence of quiescent and active adult stem cells in mammals
+### 602. Coexistence of quiescent and active adult stem cells in mammals
 
 **Citation.** Li L, Clevers H. Coexistence of quiescent and active adult stem cells in mammals. Science. 2010;327(5965):542-5.
 
@@ -22216,7 +22148,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** Adult stem cells are crucial for physiological tissue renewal and regeneration after injury. Prevailing models assume the existence of a single quiescent population of stem cells residing in a specialized niche of a given tissue. Emerging evidence indicates that both quiescent (out of cell cycle and in a lower metabolic state) and active (in cell cycle and not able to retain DNA labels) stem cell subpopulations may coexist in several tissues, in separate yet adjoining locations. Here, we summarize these findings and propose that quiescent and active stem cell populations have separate but cooperative functional roles.
 
 ---
-### 604. Lgr6 marks stem cells in the hair follicle that generate all cell lineages of the skin
+### 603. Lgr6 marks stem cells in the hair follicle that generate all cell lineages of the skin
 
 **Citation.** Snippert HJ, Haegebarth A, Kasper M, Jaks V, van Es JH, Barker N, van de Wetering M, van den Born M, Begthel H, Vries RG, Stange DE, Toftgård R, Clevers H. Lgr6 marks stem cells in the hair follicle that generate all cell lineages of the skin. Science. 2010;327(5971):1385-9.
 
@@ -22250,7 +22182,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 
 ## 2009
 
-### 605. Wnt signaling, lgr5, and stem cells in the intestine and skin
+### 604. Wnt signaling, lgr5, and stem cells in the intestine and skin
 
 **Citation.** Haegebarth A, Clevers H. Wnt signaling, lgr5, and stem cells in the intestine and skin. Am J Pathol. 2009;174(3):715-21.
 
@@ -22270,7 +22202,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** Stem cells hold great promise for regenerative medicine, but have remained elusive in many tissues because of a lack of adequate definitive markers. Progress in mouse genetics has provided the tools for characterization and validation of stem cell markers by functional and/or lineage tracing assays. The Wnt target gene Lgr5 has been recently identified as a novel stem cell marker of the intestinal epithelium and the hair follicle. In the intestine, Lgr5 is exclusively expressed in cycling crypt base columnar cells. Genetic lineage-tracing experiments revealed that crypt base columnar cells are capable of self-renewal and multipotency, thus representing genuine intestinal stem cells. In the stem cell niche of the murine hair follicle, Lgr5 is expressed in actively cycling cells. Transplantation and lineage tracing experiments have demonstrated that these Lgr5(+ve) cells maintain all cell lineages of the hair follicle throughout long periods of time and can build entire new hair follicles. Expression of Lgr5 in multiple other organs indicates that it may represent a global marker of adult stem cells. This review attempts to provide a comprehensive overview of the stem cell compartments in the intestine and skin with a focus on the cycling, yet long-lived and multipotent, Lgr5(+ve) stem cell populations.
 
 ---
-### 606. Stem cells, self-renewal, and differentiation in the intestinal epithelium
+### 605. Stem cells, self-renewal, and differentiation in the intestinal epithelium
 
 **Citation.** van der Flier LG, Clevers H. Stem cells, self-renewal, and differentiation in the intestinal epithelium. Annu Rev Physiol. 2009;71:241-60.
 
@@ -22290,7 +22222,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** The mammalian intestine is covered by a single layer of epithelial cells that is renewed every 4-5 days. This high cell turnover makes it a very attractive and comprehensive adult organ system for the study of cell proliferation and differentiation. The intestine is composed of proliferative crypts, which contain intestinal stem cells, and villi, which contain differentiated specialized cell types. Through the recent identification of Lgr5, an intestinal stem cell marker, it is now possible to visualize stem cells and study their behavior and differentiation in a much broader context. In this review we describe the identification of intestinal stem cells. We also discuss genetic studies that have helped to elucidate those signals important for progenitor cells to differentiate into one of the specialized intestinal epithelial cell types. These studies describe a genetic hierarchy responsible for cell fate commitment in normal gut physiology. Where relevant we also mention aberrant deregulation of these molecular pathways that results in colon cancer.
 
 ---
-### 607. Distinct gene mutation profiles among luminal-type and basal-type breast cancer cell lines
+### 606. Distinct gene mutation profiles among luminal-type and basal-type breast cancer cell lines
 
 **Citation.** Hollestelle A, Nagel JHA, Smid M, Lam S, Elstrodt F, Wasielewski M, Ng SS, French PJ, Peeters JK, Rozendaal MJ, Riaz M, Koopman DG, Ten Hagen TLM, de Leeuw BHCGM, Zwarthoff EC, Teunisse A, van der Spek PJ, Klijn JGM, Dinjens WNM, Ethier SP, Clevers H, Jochemsen AG, den Bakker MA, Foekens JA, Martens JWM, Schutte M. Distinct gene mutation profiles among luminal-type and basal-type breast cancer cell lines. Breast Cancer Res Treat. 2009;121(1):53-64.
 
@@ -22334,7 +22266,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** Breast cancer has for long been recognized as a highly diverse tumor group, but the underlying genetic basis has been elusive. Here, we report an extensive molecular characterization of a collection of 41 human breast cancer cell lines. Protein and gene expression analyses indicated that the collection of breast cancer cell lines has retained most, if not all, molecular characteristics that are typical for clinical breast cancers. Gene mutation analyses identified 146 oncogenic mutations among 27 well-known cancer genes, amounting to an average of 3.6 mutations per cell line. Mutations in genes from the p53, RB and PI3K tumor suppressor pathways were widespread among all breast cancer cell lines. Most important, we have identified two gene mutation profiles that are specifically associated with luminal-type and basal-type breast cancer cell lines. The luminal mutation profile involved E-cadherin and MAP2K4 gene mutations and amplifications of Cyclin D1, ERBB2 and HDM2, whereas the basal mutation profile involved BRCA1, RB1, RAS and BRAF gene mutations and deletions of p16 and p14ARF. These subtype-specific gene mutation profiles constitute a genetic basis for the heterogeneity observed among human breast cancers, providing clues for their underlying biology and providing guidance for targeted pharmacogenetic intervention in breast cancer patients.
 
 ---
-### 608. Eyeing up new Wnt pathway players
+### 607. Eyeing up new Wnt pathway players
 
 **Citation.** Clevers H. Eyeing up new Wnt pathway players. Cell. 2009;139(2):227-9.
 
@@ -22353,7 +22285,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** The Wnt signaling pathway controls cell fate decisions during animal development and the self-renewal and repair of adult tissues. In this issue, Ye et al. (2009) and Junge et al. (2009) reveal how an unusual Wnt receptor-ligand complex associated with a spectrum of retinal diseases instructs vascular development in the retina.
 
 ---
-### 609. Transcription factor achaete scute-like 2 controls intestinal stem cell fate
+### 608. Transcription factor achaete scute-like 2 controls intestinal stem cell fate
 
 **Citation.** van der Flier LG, van Gijn ME, Hatzis P, Kujala P, Haegebarth A, Stange DE, Begthel H, van den Born M, Guryev V, Oving I, van Es JH, Barker N, Peters PJ, van de Wetering M, Clevers H. Transcription factor achaete scute-like 2 controls intestinal stem cell fate. Cell. 2009;136(5):903-12.
 
@@ -22386,7 +22318,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** The small intestinal epithelium is the most rapidly self-renewing tissue of mammals. Proliferative cells are confined to crypts, while differentiated cell types predominantly occupy the villi. We recently demonstrated the existence of a long-lived pool of cycling stem cells defined by Lgr5 expression and intermingled with post-mitotic Paneth cells at crypt bottoms. We have now determined a gene signature for these Lgr5 stem cells. One of the genes within this stem cell signature is the Wnt target Achaete scute-like 2 (Ascl2). Transgenic expression of the Ascl2 transcription factor throughout the intestinal epithelium induces crypt hyperplasia and ectopic crypts on villi. Induced deletion of the Ascl2 gene in adult small intestine leads to disappearance of the Lgr5 stem cells within days. The combined results from these gain- and loss-of-function experiments imply that Ascl2 controls intestinal stem cell fate.
 
 ---
-### 610. Mst4 and Ezrin induce brush borders downstream of the Lkb1/Strad/Mo25 polarization complex
+### 609. Mst4 and Ezrin induce brush borders downstream of the Lkb1/Strad/Mo25 polarization complex
 
 **Citation.** ten Klooster JP, Jansen M, Yuan J, Oorschot V, Begthel H, Di Giacomo V, Colland F, de Koning J, Maurice MM, Hornbeck P, Clevers H. Mst4 and Ezrin induce brush borders downstream of the Lkb1/Strad/Mo25 polarization complex. Dev Cell. 2009;16(4):551-62.
 
@@ -22415,7 +22347,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** The human Lkb1 kinase, encoded by the ortholog of the invertebrate Par4 polarity gene, is mutated in Peutz-Jeghers cancer syndrome. Lkb1 activity requires complex formation with the pseudokinase Strad and the adaptor protein Mo25. The complex can induce complete polarization in a single isolated intestinal epithelial cell. We describe an interaction between Mo25alpha and a human serine/threonine kinase termed Mst4. A homologous interaction occurs in the yeast Schizosaccharomyces pombe in the control of polar tip growth. Human Mst4 translocates from the Golgi to the subapical membrane compartment upon activation of Lkb1. Inhibition of Mst4 activity inhibits Lkb1-induced brush border formation, whereas other aspects of polarity such as the formation of lateral junctions remain unaffected. As an essential event in brush border formation, Mst4 phosphorylates the regulatory T567 residue of Ezrin. These data define a brush border induction pathway downstream of the Lkb1/Strad/Mo25 polarization complex, yet separate from other polarity events.
 
 ---
-### 611. The kinase TNIK is an essential activator of Wnt target genes
+### 610. The kinase TNIK is an essential activator of Wnt target genes
 
 **Citation.** Mahmoudi T, Li VSW, Ng SS, Taouatas N, Vries RGJ, Mohammed S, Heck AJ, Clevers H. The kinase TNIK is an essential activator of Wnt target genes. EMBO J. 2009;28(21):3329-40.
 
@@ -22441,7 +22373,7 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 **Abstract.** Wnt signalling maintains the undifferentiated state of intestinal crypt/progenitor cells through the TCF4/beta-catenin-activating transcriptional complex. In colorectal cancer, activating mutations in Wnt pathway components lead to inappropriate activation of the TCF4/beta-catenin transcriptional programme and tumourigenesis. The mechanisms by which TCF4/beta-catenin activate key target genes are not well understood. Using a proteomics approach, we identified Tnik, a member of the germinal centre kinase family as a Tcf4 interactor in the proliferative crypts of mouse small intestine. Tnik is recruited to promoters of Wnt target genes in mouse crypts and in Ls174T colorectal cancer cells in a beta-catenin-dependent manner. Depletion of TNIK and expression of TNIK kinase mutants abrogated TCF-LEF transcription, highlighting the essential function of the kinase activity in Wnt target gene activation. In vitro binding and kinase assays show that TNIK directly binds both TCF4 and beta-catenin and phosphorylates TCF4. siRNA depletion of TNIK followed by expression array analysis showed that TNIK is an essential, specific activator of Wnt transcriptional programme. This kinase may present an attractive candidate for drug targeting in colorectal cancer.
 
 ---
-### 612. Searching for adult stem cells in the intestine
+### 611. Searching for adult stem cells in the intestine
 
 **Citation.** Clevers H. Searching for adult stem cells in the intestine. EMBO Mol Med. 2009;1(5):255-9.
 
@@ -22457,10 +22389,10 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 
 1. Hubrecht Institute for Developmental Biology and Stem Cell Research, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 613. OLFM4 is a robust marker for stem cells in human intestine and marks a subset of colorectal cancer cells
+### 612. OLFM4 is a robust marker for stem cells in human intestine and marks a subset of colorectal cancer cells
 
 **Citation.** van der Flier LG, Haegebarth A, Stange DE, van de Wetering M, Clevers H. OLFM4 is a robust marker for stem cells in human intestine and marks a subset of colorectal cancer cells. Gastroenterology. 2009;137(1):15-7.
 
@@ -22480,10 +22412,10 @@ Sumoylation maintains intestinal stem cells and the architecture, mechanical sta
 
 1. Hubrecht Institute, KNAW & University Medical Center Utrecht, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 614. Prominin-1/CD133 marks stem cells and early progenitors in mouse small intestine
+### 613. Prominin-1/CD133 marks stem cells and early progenitors in mouse small intestine
 
 **Citation.** Snippert HJ, van Es JH, van den Born M, Begthel H, Stange DE, Barker N, Clevers H. Prominin-1/CD133 marks stem cells and early progenitors in mouse small intestine. Gastroenterology. 2009;136(7):2187-2194.e1.
 
@@ -22514,7 +22446,7 @@ In the small intestine, Prom1 mRNA was detected throughout the lower half of cry
 Prom-1 marks intestinal stem cells, as well as transit-amplifying progenitors, so it is not a specific marker for Lgr5(+) intestinal stem cells.
 
 ---
-### 615. The ets-domain transcription factor Spdef promotes maturation of goblet and paneth cells in the intestinal epithelium
+### 614. The ets-domain transcription factor Spdef promotes maturation of goblet and paneth cells in the intestinal epithelium
 
 **Citation.** Gregorieff A, Stange DE, Kujala P, Begthel H, van den Born M, Korving J, Peters PJ, Clevers H. The ets-domain transcription factor Spdef promotes maturation of goblet and paneth cells in the intestinal epithelium. Gastroenterology. 2009;137(4):1333-45.e1-3.
 
@@ -22546,7 +22478,7 @@ In accordance with expression data, we found that loss of Spdef severely impaire
 Spdef acts downstream of Math1 to promote terminal differentiation of a secretory progenitor pool into Paneth and goblet cells.
 
 ---
-### 616. The SRY-HMG box gene, SOX4, is a target of gene amplification at chromosome 6p in lung cancer
+### 615. The SRY-HMG box gene, SOX4, is a target of gene amplification at chromosome 6p in lung cancer
 
 **Citation.** Medina PP, Castillo SD, Blanco S, Sanz-Garcia M, Largo C, Alvarez S, Yokota J, Gonzalez-Neira A, Benitez J, Clevers HC, Cigudosa JC, Lazo PA, Sanchez-Cespedes M. The SRY-HMG box gene, SOX4, is a target of gene amplification at chromosome 6p in lung cancer. Hum Mol Genet. 2009;18(7):1343-52.
 
@@ -22577,7 +22509,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** The search for oncogenes is becoming increasingly important in cancer genetics because they are suitable targets for therapeutic intervention. To identify novel oncogenes, activated by gene amplification, we analyzed cDNA microarrays by high-resolution comparative genome hybridization and compared DNA copy number and mRNA expression levels in lung cancer cell lines. We identified several amplicons (5p13, 6p22-21, 11q13, 17q21 and 19q13) that had a concomitant increase in gene expression. These regions were also found to be amplified in lung primary tumours. We mapped the boundaries and measured expression levels of genes within the chromosome 6p amplicon. The Sry-HMG box gene SOX4 (sex-determining region Y box 4), which encodes a transcription factor involved in embryonic cell differentiation, was overexpressed by a factor of 10 in cells with amplification relative to normal cells. SOX4 expression was also stronger in a fraction of lung primary tumours and lung cancer cell lines and was associated with the presence of gene amplification. We also found variants of SOX4 in lung primary tumours and cancer cell lines, including a somatic mutation that introduced a premature stop codon (S395X) at the serine-rich C-terminal domain. Although none of the variants increased the transactivation ability of SOX4, overexpression of the wildtype and of the non-truncated variants in NIH3T3 cells significantly increased the transforming ability of the weakly oncogenic RHOA-Q63L. In conclusion, our results show that, in lung cancer, SOX4 is overexpressed due to gene amplification and provide evidence of oncogenic properties of SOX4.
 
 ---
-### 617. Phosphatidylinositol 3-kinase signaling does not activate the wnt cascade
+### 616. Phosphatidylinositol 3-kinase signaling does not activate the wnt cascade
 
 **Citation.** Ng SS, Mahmoudi T, Danenberg E, Bejaoui I, de Lau W, Korswagen HC, Schutte M, Clevers H. Phosphatidylinositol 3-kinase signaling does not activate the wnt cascade. J Biol Chem. 2009;284(51):35308-13.
 
@@ -22603,7 +22535,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** Mutational activation of the phosphatidylinositol 3-kinase (PI3K) pathway occurs in a wide variety of tumors, whereas activating Wnt pathway mutants are predominantly found in colon cancer. Because GSK3 is a key component of both pathways, it is widely assumed that active PI3K signaling feeds positively into the Wnt pathway by protein kinase B (PKB)-mediatefd inhibition of GSK3. In addition, PKB has been proposed to modulate the canonical Wnt signaling through direct stabilization and nuclear localization of beta-catenin. Here, we show that compartmentalization by Axin of GSK3 prohibits cross-talk between the PI3K and Wnt pathways and that Wnt-mediated transcriptional activity is not modulated by activation of the PI3K/PKB pathway.
 
 ---
-### 618. SPDEF is required for mouse pulmonary goblet cell differentiation and regulates a network of genes associated with mucus production
+### 617. SPDEF is required for mouse pulmonary goblet cell differentiation and regulates a network of genes associated with mucus production
 
 **Citation.** Chen G, Korfhagen TR, Xu Y, Kitzmiller J, Wert SE, Maeda Y, Gregorieff A, Clevers H, Whitsett JA. SPDEF is required for mouse pulmonary goblet cell differentiation and regulates a network of genes associated with mucus production. J Clin Invest. 2009;119(10):2914-24.
 
@@ -22630,7 +22562,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** Various acute and chronic inflammatory stimuli increase the number and activity of pulmonary mucus-producing goblet cells, and goblet cell hyperplasia and excess mucus production are central to the pathogenesis of chronic pulmonary diseases. However, little is known about the transcriptional programs that regulate goblet cell differentiation. Here, we show that SAM-pointed domain-containing Ets-like factor (SPDEF) controls a transcriptional program critical for pulmonary goblet cell differentiation in mice. Initial cell-lineage-tracing analysis identified nonciliated secretory epithelial cells, known as Clara cells, as the progenitors of goblet cells induced by pulmonary allergen exposure in vivo. Furthermore, in vivo expression of SPDEF in Clara cells caused rapid and reversible goblet cell differentiation in the absence of cell proliferation. This was associated with enhanced expression of genes regulating goblet cell differentiation and protein glycosylation, including forkhead box A3 (Foxa3), anterior gradient 2 (Agr2), and glucosaminyl (N-acetyl) transferase 3, mucin type (Gcnt3). Consistent with these findings, levels of SPDEF and FOXA3 were increased in mouse goblet cells after sensitization with pulmonary allergen, and the proteins were colocalized in goblet cells lining the airways of patients with chronic lung diseases. Deletion of the mouse Spdef gene resulted in the absence of goblet cells in tracheal/laryngeal submucosal glands and in the conducting airway epithelium after pulmonary allergen exposure in vivo. These data show that SPDEF plays a critical role in regulating a transcriptional network mediating the goblet cell differentiation and mucus hyperproduction associated with chronic pulmonary disorders.
 
 ---
-### 619. A genome-wide screen for spatially restricted expression patterns identifies transcription factors that regulate glial development
+### 618. A genome-wide screen for spatially restricted expression patterns identifies transcription factors that regulate glial development
 
 **Citation.** Fu H, Cai J, Clevers H, Fast E, Gray S, Greenberg R, Jain MK, Ma Q, Qiu M, Rowitch DH, Taylor CM, Stiles CD. A genome-wide screen for spatially restricted expression patterns identifies transcription factors that regulate glial development. J Neurosci. 2009;29(36):11399-408.
 
@@ -22660,7 +22592,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** Forward genetic screens in genetically accessible invertebrate organisms such as Drosophila melanogaster have shed light on transcription factors that specify formation of neurons in the vertebrate CNS. However, invertebrate models have, to date, been uninformative with respect to genes that specify formation of the vertebrate glial lineages. All recent insights into specification of vertebrate glia have come via monitoring the spatial and temporal expression patterns of individual transcription factors during development. In studies described here, we have taken this approach to the genome scale with an in silico screen of the Mahoney pictorial atlas of transcription factor expression in the developing CNS. From the population of 1445 known or probable transcription factors encoded in the mouse genome, we identify 12 novel transcription factors that are expressed in glial lineage progenitor cells. Entry-level screens for biological function establish one of these transcription factors, Klf15, as sufficient for genesis of precocious GFAP-positive astrocytes in spinal cord explants. Another transcription factor, Tcf4, plays an important role in maturation of oligodendrocyte progenitors.
 
 ---
-### 620. Inflammatory bowel disease, stress, and the endoplasmic reticulum
+### 619. Inflammatory bowel disease, stress, and the endoplasmic reticulum
 
 **Citation.** Clevers H. Inflammatory bowel disease, stress, and the endoplasmic reticulum. N Engl J Med. 2009;360(7):726-7.
 
@@ -22676,10 +22608,10 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 
 1. Hubrecht Institute, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 621. p53 deletion impairs clearance of chromosomal-instable stem cells in aging telomere-dysfunctional mice
+### 620. p53 deletion impairs clearance of chromosomal-instable stem cells in aging telomere-dysfunctional mice
 
 **Citation.** Begus-Nahrmann Y, Lechel A, Obenauf AC, Nalapareddy K, Peit E, Hoffmann E, Schlaudraff F, Liss B, Schirmacher P, Kestler H, Danenberg E, Barker N, Clevers H, Speicher MR, Rudolph KL. p53 deletion impairs clearance of chromosomal-instable stem cells in aging telomere-dysfunctional mice. Nat Genet. 2009;41(10):1138-43.
 
@@ -22712,7 +22644,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** Telomere dysfunction limits the proliferative capacity of human cells and induces organismal aging by activation of p53 and p21. Although deletion of p21 elongates the lifespan of telomere-dysfunctional mice, a direct analysis of p53 in telomere-related aging has been hampered by early tumor formation in p53 knockout mice. Here we analyzed the functional consequences of conditional p53 deletion. Intestinal deletion of p53 shortened the lifespan of telomere-dysfunctional mice without inducing tumor formation. In contrast to p21 deletion, the deletion of p53 impaired the depletion of chromosomal-instable intestinal stem cells in aging telomere-dysfunctional mice. These instable stem cells contributed to epithelial regeneration leading to an accumulation of chromosomal instability, increased apoptosis, altered epithelial cell differentiation and premature intestinal failure. Together, these results provide the first experimental evidence for an organ system in which p53-dependent mechanisms prevent tissue destruction in response to telomere dysfunction by depleting genetically instable stem cells.
 
 ---
-### 622. HDAC1 and HDAC2 regulate oligodendrocyte differentiation by disrupting the beta-catenin-TCF interaction
+### 621. HDAC1 and HDAC2 regulate oligodendrocyte differentiation by disrupting the beta-catenin-TCF interaction
 
 **Citation.** Ye F, Chen Y, Hoang T, Montgomery RL, Zhao X, Bu H, Hu T, Taketo MM, van Es JH, Clevers H, Hsieh J, Bassel-Duby R, Olson EN, Lu QR. HDAC1 and HDAC2 regulate oligodendrocyte differentiation by disrupting the beta-catenin-TCF interaction. Nat Neurosci. 2009;12(7):829-38.
 
@@ -22744,7 +22676,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** Oligodendrocyte development is regulated by the interaction of repressors and activators in a complex transcriptional network. We found that two histone-modifying enzymes, HDAC1 and HDAC2, were required for oligodendrocyte formation. Genetic deletion of both Hdac1 and Hdac2 in oligodendrocyte lineage cells resulted in stabilization and nuclear translocation of beta-catenin, which negatively regulates oligodendrocyte development by repressing Olig2 expression. We further identified the oligodendrocyte-restricted transcription factor TCF7L2/TCF4 as a bipartite co-effector of beta-catenin for regulating oligodendrocyte differentiation. Targeted disruption of Tcf7l2 in mice led to severe defects in oligodendrocyte maturation, whereas expression of its dominant-repressive form promoted precocious oligodendrocyte specification in developing chick neural tube. Transcriptional co-repressors HDAC1 and HDAC2 compete with beta-catenin for TCF7L2 interaction to regulate downstream genes involved in oligodendrocyte differentiation. Thus, crosstalk between HDAC1/2 and the canonical Wnt signaling pathway mediated by TCF7L2 serves as a regulatory mechanism for oligodendrocyte differentiation.
 
 ---
-### 623. Single Lgr5 stem cells build crypt-villus structures in vitro without a mesenchymal niche
+### 622. Single Lgr5 stem cells build crypt-villus structures in vitro without a mesenchymal niche
 
 **Citation.** Sato T, Vries RG, Snippert HJ, van de Wetering M, Barker N, Stange DE, van Es JH, Abo A, Kujala P, Peters PJ, Clevers H. Single Lgr5 stem cells build crypt-villus structures in vitro without a mesenchymal niche. Nature. 2009;459(7244):262-5.
 
@@ -22773,7 +22705,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** The intestinal epithelium is the most rapidly self-renewing tissue in adult mammals. We have recently demonstrated the presence of about six cycling Lgr5(+) stem cells at the bottoms of small-intestinal crypts. Here we describe the establishment of long-term culture conditions under which single crypts undergo multiple crypt fission events, while simultanously generating villus-like epithelial domains in which all differentiated cell types are present. Single sorted Lgr5(+) stem cells can also initiate these cryptvillus organoids. Tracing experiments indicate that the Lgr5(+) stem-cell hierarchy is maintained in organoids. We conclude that intestinal cryptvillus units are self-organizing structures, which can be built from a single stem cell in the absence of a non-epithelial cellular niche.
 
 ---
-### 624. LKB1 and AMPK family signaling: the intimate link between cell polarity and energy metabolism
+### 623. LKB1 and AMPK family signaling: the intimate link between cell polarity and energy metabolism
 
 **Citation.** Jansen M, Ten Klooster JP, Offerhaus GJ, Clevers H. LKB1 and AMPK family signaling: the intimate link between cell polarity and energy metabolism. Physiol Rev. 2009;89(3):777-98.
 
@@ -22795,7 +22727,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** Research on the LKB1 tumor suppressor protein mutated in cancer-prone Peutz-Jeghers patients has continued at a feverish pace following exciting developments linking energy metabolism and cancer development. This review summarizes the current state of research on the LKB1 tumor suppressor. The weight of the evidence currently indicates an evolutionary conserved role for the protein in the regulation of various aspects of cellular polarity and energy metabolism. We focus on studies examining the concept that both cellular polarity and energy metabolism are regulated through the conserved LKB1-AMPK signal transduction pathway. Recent studies from a variety of model organisms have given new insight into the mechanism of polyp development and cancer formation in Peutz-Jeghers patients and the role of LKB1 mutation in sporadic tumorigenesis. Conditional LKB1 mouse models have outlined a tissue-dependent context for pathway activation and suggest that LKB1 may affect different AMPK isoforms independently. Elucidation of the molecular mechanism responsible for Peutz-Jeghers syndrome will undoubtedly reveal important insight into cancer development in the larger population.
 
 ---
-### 625. Fishing for intestinal cancer models: unraveling gastrointestinal homeostasis and tumorigenesis in zebrafish
+### 624. Fishing for intestinal cancer models: unraveling gastrointestinal homeostasis and tumorigenesis in zebrafish
 
 **Citation.** Faro A, Boj SF, Clevers H. Fishing for intestinal cancer models: unraveling gastrointestinal homeostasis and tumorigenesis in zebrafish. Zebrafish. 2009;6(4):361-76.
 
@@ -22816,7 +22748,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** Zebrafish has proven to be a highly versatile model for comprehensive studies of gene function in development. Given that the molecular pathways involved in epithelial carcinogenesis appear to be conserved across vertebrates, zebrafish is now considered as a valid model to study tumor biology. Development and homeostasis in multicellular organisms are dependent on a complex interplay between cell proliferation, migration, differentiation, and cell death. The Wnt signaling pathway is a major signaling pathway during embryonic development and is the key regulator of self-renewal homeostasis in several adult tissues. A large body of knowledge on adult stem-cell biology has arisen from the study of the intestinal epithelium over the past 20 years. The Wnt pathway has appeared as its principal regulator of homeostatic self-renewal. Moreover, most cancers of the intestine are caused by activating mutations in the Wnt pathway. Recently, zebrafish models have been developed to study Wnt pathway-induced cancer. An appealing avenue for cancer research in zebrafish is large-scale screens to identify chemotherapeutic and chemopreventive agents in conjunction with the in vivo imaging approaches that zebrafish affords.
 
 ---
-### 626. T-cell factor 4 (tcf7l2) is the main effector of Wnt signaling during zebrafish intestine organogenesis
+### 625. T-cell factor 4 (tcf7l2) is the main effector of Wnt signaling during zebrafish intestine organogenesis
 
 **Citation.** Faro A, Boj SF, Ambrósio R, van den Broek O, Korving J, Clevers H. T-cell factor 4 (tcf7l2) is the main effector of Wnt signaling during zebrafish intestine organogenesis. Zebrafish. 2009;6(1):59-68.
 
@@ -22843,7 +22775,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 
 ## 2008
 
-### 627. Very long-term self-renewal of small intestine, colon, and hair follicles from cycling Lgr5+ve stem cells
+### 626. Very long-term self-renewal of small intestine, colon, and hair follicles from cycling Lgr5+ve stem cells
 
 **Citation.** Barker N, van Es JH, Jaks V, Kasper M, Snippert H, Toftgård R, Clevers H. Very long-term self-renewal of small intestine, colon, and hair follicles from cycling Lgr5+ve stem cells. Cold Spring Harb Symp Quant Biol. 2008;73:351-6.
 
@@ -22868,7 +22800,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** The intestinal epithelium and the hair follicle represent examples of rapidly self-renewing tissue in adult mammals. We have recently identified a novel stem cell gene Lgr5 expressed in multiple adult tissues. At the bottoms of crypts in small intestine and colon as well as in hair follicles, Lgr5 marks cycling cells with stem cell properties (Barker et al. 2007; Jaks et al. 2008). Using an inducible Lgr5-Cre knockin allele in conjunction with the Rosa26-LacZ Cre reporter strain, long-term lineage-tracing experiments were performed in adult mice. The Lgr5(+ve) crypt-based cell generated all epithelial lineages during a 14-month period, implying that it represents the stem cell of the small intestine and colon. Similarly, lineage tracing during a 14-month period revealed that Lgr5(+ve) cells located in the bulge of the hair follicle sustained multiple rounds of hair growth. These observations support the counterintuitive notion that Lgr5(+ve) cells are actively cycling, yet represent long-term stem cells of these adult, self-renewing tissues.
 
 ---
-### 628. APC mutant zebrafish uncover a changing temporal requirement for wnt signaling in liver development
+### 627. APC mutant zebrafish uncover a changing temporal requirement for wnt signaling in liver development
 
 **Citation.** Goessling W, North TE, Lord AM, Ceol C, Lee S, Weidinger G, Bourque C, Strijbosch R, Haramis A, Puder M, Clevers H, Moon RT, Zon LI. APC mutant zebrafish uncover a changing temporal requirement for wnt signaling in liver development. Dev Biol. 2008;320(1):161-74.
 
@@ -22899,7 +22831,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** Developmental signaling pathways hold the keys to unlocking the promise of adult tissue regeneration, and to inhibiting carcinogenesis. Patients with mutations in the Adenomatous Polyposis Coli (APC) gene are at increased risk of developing hepatoblastoma, an embryonal form of liver cancer, suggesting that Wnt affects hepatic progenitor cells. To elucidate the role of APC loss and enhanced Wnt activity in liver development, we examined APC mutant and wnt inducible transgenic zebrafish. APC(+/-) embryos developed enlarged livers through biased induction of hepatic gene programs and increased proliferation. Conversely, APC(-/-) embryos formed no livers. Blastula transplantations determined that the effects of APC loss were cell autonomous. Induction of wnt modulators confirmed biphasic consequences of wnt activation: endodermal pattern formation and gene expression required suppression of wnt signaling in early somitogenesis; later, increased wnt activity altered endodermal fate by enhancing liver growth at the expense of pancreas formation; these effects persisted into the larval stage. In adult APC(+/-) zebrafish, increased wnt activity significantly accelerated liver regeneration after partial hepatectomy. Similarly, liver regeneration was significantly enhanced in APC(Min/+) mice, indicating the conserved effect of Wnt pathway activation in liver regeneration across vertebrate species. These studies reveal an important and time-dependent role for wnt signaling during liver development and regeneration.
 
 ---
-### 629. Investigation of Frizzled-5 during embryonic neural development in mouse
+### 628. Investigation of Frizzled-5 during embryonic neural development in mouse
 
 **Citation.** Burns CJ, Zhang J, Brown EC, Van Bibber AM, Van Es J, Clevers H, Ishikawa T, Taketo MM, Vetter ML, Fuhrmann S. Investigation of Frizzled-5 during embryonic neural development in mouse. Dev Dyn. 2008;237(6):1614-26.
 
@@ -22927,7 +22859,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** Recent studies revealed that the Wnt receptor Frizzled-5 (Fzd5) is required for eye and retina development in zebrafish and Xenopus, however, its role during mammalian eye development is unknown. In the mouse embryo, Fzd5 is prominently expressed in the pituitary, distal optic vesicle, and optic stalk, then later in the progenitor zone of the developing retina. To elucidate the role of Fzd5 during eye development, we analyzed embryos with a germline disruption of the Fzd5 gene at E10.25, just before embryos die due to defects in yolk sac angiogenesis. We observed severe defects in optic cup morphogenesis and lens development. However, in embryos with conditional inactivation of Fzd5 using Six3-Cre, we observed no obvious early eye defects. Analysis of Axin2 mRNA expression and TCF/LEF-responsive reporter activation demonstrate that Fzd5 does not regulate the Wnt/beta-catenin pathway in the eye. Thus, the function of Fzd5 during eye development appears to be species-dependent.
 
 ---
-### 630. Loss of intestinal crypt progenitor cells owing to inactivation of both Notch1 and Notch2 is accompanied by derepression of CDK inhibitors p27Kip1 and p57Kip2
+### 629. Loss of intestinal crypt progenitor cells owing to inactivation of both Notch1 and Notch2 is accompanied by derepression of CDK inhibitors p27Kip1 and p57Kip2
 
 **Citation.** Riccio O, van Gijn ME, Bezdek AC, Pellegrinet L, van Es JH, Zimber-Strobl U, Strobl LJ, Honjo T, Clevers H, Radtke F. Loss of intestinal crypt progenitor cells owing to inactivation of both Notch1 and Notch2 is accompanied by derepression of CDK inhibitors p27Kip1 and p57Kip2. EMBO Rep. 2008;9(4):377-83.
 
@@ -22955,7 +22887,7 @@ Spdef acts downstream of Math1 to promote terminal differentiation of a secretor
 **Abstract.** The crucial role of individual Notch receptors and the mechanism by which they maintain intestinal crypt progenitor cells were assessed by using a series of inducible gut-specific Notch mutant mice. We found that Notch1 and Notch2 receptors function redundantly in the gut, as only simultaneous loss of both receptors results in complete conversion of proliferating crypt progenitors into post-mitotic goblet cells. This conversion correlates with the loss of Hes1 expression and derepression of the cyclin-dependent kinase (CDK) inhibitors p27Kip1 and p57Kip2. We also found that the promoter of both CDK inhibitor genes is occupied by the Notch effector Hes1 in wild-type crypt progenitor cells. Thus, our results indicate that Notch-mediated Hes1 expression contributes to the maintenance of the proliferative crypt compartment of the small intestine by transcriptionally repressing two CDK inhibitors.
 
 ---
-### 631. The role of APC and beta-catenin in the aetiology of aggressive fibromatosis (desmoid tumors)
+### 630. The role of APC and beta-catenin in the aetiology of aggressive fibromatosis (desmoid tumors)
 
 **Citation.** Lips DJ, Barker N, Clevers H, Hennipman A. The role of APC and beta-catenin in the aetiology of aggressive fibromatosis (desmoid tumors). Eur J Surg Oncol. 2008;35(1):3-10.
 
@@ -22983,7 +22915,7 @@ The neoplastic nature of aggressive fibromatosis and the role of the adenomatous
 Mutations in either the APC or beta-catenin genes are likely to be a major driving force in the formation of these desmoid tumors. More research is needed to develop new treatment strategies.
 
 ---
-### 632. Identification of primary MAFB target genes in multiple myeloma
+### 631. Identification of primary MAFB target genes in multiple myeloma
 
 **Citation.** van Stralen E, van de Wetering M, Agnelli L, Neri A, Clevers HC, Bast BJEG. Identification of primary MAFB target genes in multiple myeloma. Exp Hematol. 2008;37(1):78-86.
 
@@ -23013,7 +22945,7 @@ The inducible cell lines identified a total of 284 modulated transcripts. After 
 We identified 14 upregulated genes, and their downstream consequences in the combined MAFB/C-MAF pathway. Eleven of these genes are novel in the C-MAF pathway as well. These direct target genes may be responsible for the oncogenic transformation of MAF expressing myeloma cells.
 
 ---
-### 633. The intestinal stem cell
+### 632. The intestinal stem cell
 
 **Citation.** Barker N, van de Wetering M, Clevers H. The intestinal stem cell. Genes Dev. 2008;22(14):1856-64.
 
@@ -23034,7 +22966,7 @@ We identified 14 upregulated genes, and their downstream consequences in the com
 **Abstract.** The epithelium of the adult mammalian intestine is in a constant dialog with its underlying mesenchyme to direct progenitor proliferation, lineage commitment, terminal differentiation, and, ultimately, cell death. The epithelium is shaped into spatially distinct compartments that are dedicated to each of these events. While the intestinal epithelium represents the most vigorously renewing adult tissue in mammals, the stem cells that fuel this self-renewal process have been identified only recently. The unique epithelial anatomy makes the intestinal crypt one of the most accessible models for the study of adult stem cell biology. This review attempts to provide a comprehensive overview of four decades of research on crypt stem cells.
 
 ---
-### 634. A transgenic mouse model for "lipid hang-up", or why pathologists need to be involved in genetically engineered mouse modelling
+### 633. A transgenic mouse model for "lipid hang-up", or why pathologists need to be involved in genetically engineered mouse modelling
 
 **Citation.** Offerhaus GJA, Milne ANA, Oving IM, van Gijn ME, Hruban RH, Clevers H. A transgenic mouse model for "lipid hang-up", or why pathologists need to be involved in genetically engineered mouse modelling. Gut. 2008;57(12):1739-40.
 
@@ -23053,10 +22985,10 @@ We identified 14 upregulated genes, and their downstream consequences in the com
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 635. MafB oncoprotein detected by immunohistochemistry as a highly sensitive and specific marker for the prognostic unfavorable t(14;20) (q32;q12) in multiple myeloma patients
+### 634. MafB oncoprotein detected by immunohistochemistry as a highly sensitive and specific marker for the prognostic unfavorable t(14;20) (q32;q12) in multiple myeloma patients
 
 **Citation.** Stralen E, Leguit RJ, Begthel H, Michaux L, Buijs A, Lemmens H, Scheiff JM, Doyen C, Pierre P, Forget F, Clevers HC, Bast B. MafB oncoprotein detected by immunohistochemistry as a highly sensitive and specific marker for the prognostic unfavorable t(14;20) (q32;q12) in multiple myeloma patients. Leukemia. 2008;23(4):801-3.
 
@@ -23081,10 +23013,10 @@ We identified 14 upregulated genes, and their downstream consequences in the com
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 636. Genome-wide pattern of TCF7L2/TCF4 chromatin occupancy in colorectal cancer cells
+### 635. Genome-wide pattern of TCF7L2/TCF4 chromatin occupancy in colorectal cancer cells
 
 **Citation.** Hatzis P, van der Flier LG, van Driel MA, Guryev V, Nielsen F, Denissov S, Nijman IJ, Koster J, Santo EE, Welboren W, Versteeg R, Cuppen E, van de Wetering M, Clevers H, Stunnenberg HG. Genome-wide pattern of TCF7L2/TCF4 chromatin occupancy in colorectal cancer cells. Mol Cell Biol. 2008;28(8):2732-44.
 
@@ -23117,7 +23049,7 @@ We identified 14 upregulated genes, and their downstream consequences in the com
 **Abstract.** Wnt signaling activates gene expression through the induced formation of complexes between DNA-binding T-cell factors (TCFs) and the transcriptional coactivator beta-catenin. In colorectal cancer, activating Wnt pathway mutations transform epithelial cells through the inappropriate activation of a TCF7L2/TCF4 target gene program. Through a DNA array-based genome-wide analysis of TCF4 chromatin occupancy, we have identified 6,868 high-confidence TCF4-binding sites in the LS174T colorectal cancer cell line. Most TCF4-binding sites are located at large distances from transcription start sites, while target genes are frequently "decorated" by multiple binding sites. Motif discovery algorithms define the in vivo-occupied TCF4-binding site as evolutionarily conserved A-C/G-A/T-T-C-A-A-A-G motifs. The TCF4-binding regions significantly correlate with Wnt-responsive gene expression profiles derived from primary human adenomas and often behave as beta-catenin/TCF4-dependent enhancers in transient reporter assays.
 
 ---
-### 637. Lgr5 marks cycling, yet long-lived, hair follicle stem cells
+### 636. Lgr5 marks cycling, yet long-lived, hair follicle stem cells
 
 **Citation.** Jaks V, Barker N, Kasper M, van Es JH, Snippert HJ, Clevers H, Toftgård R. Lgr5 marks cycling, yet long-lived, hair follicle stem cells. Nat Genet. 2008;40(11):1291-9.
 
@@ -23142,7 +23074,7 @@ We identified 14 upregulated genes, and their downstream consequences in the com
 **Abstract.** In mouse hair follicles, a group of quiescent cells in the bulge is believed to have stem cell activity. Lgr5, a marker of intestinal stem cells, is expressed in actively cycling cells in the bulge and secondary germ of telogen hair follicles and in the lower outer root sheath of anagen hair follicles. Here we show that Lgr5(+) cells comprise an actively proliferating and multipotent stem cell population able to give rise to new hair follicles and maintain all cell lineages of the hair follicle over long periods of time. Lgr5(+) progeny repopulate other stem cell compartments in the hair follicle, supporting the existence of a stem or progenitor cell hierarchy. By marking Lgr5(+) cells during trafficking through the lower outer root sheath, we show that these cells retain stem cell properties and contribute to hair follicle growth during the next anagen. Expression analysis suggests involvement of autocrine Hedgehog signaling in maintaining the Lgr5(+) stem cell population.
 
 ---
-### 638. Crypt stem cells as the cells-of-origin of intestinal cancer
+### 637. Crypt stem cells as the cells-of-origin of intestinal cancer
 
 **Citation.** Barker N, Ridgway RA, van Es JH, van de Wetering M, Begthel H, van den Born M, Danenberg E, Clarke AR, Sansom OJ, Clevers H. Crypt stem cells as the cells-of-origin of intestinal cancer. Nature. 2008;457(7229):608-11.
 
@@ -23173,7 +23105,7 @@ We identified 14 upregulated genes, and their downstream consequences in the com
 
 ## 2007
 
-### 639. Wnt signaling and phosphorylation status of beta-catenin: importance of the correct antibody tools
+### 638. Wnt signaling and phosphorylation status of beta-catenin: importance of the correct antibody tools
 
 **Citation.** van Noort M, Weerkamp F, Clevers HC, Staal FJT. Wnt signaling and phosphorylation status of beta-catenin: importance of the correct antibody tools. Blood. 2007;110(7):2778-9.
 
@@ -23190,10 +23122,10 @@ We identified 14 upregulated genes, and their downstream consequences in the com
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 640. Mapping the consequence of Notch1 proteolysis in vivo with NIP-CRE
+### 639. Mapping the consequence of Notch1 proteolysis in vivo with NIP-CRE
 
 **Citation.** Vooijs M, Ong C, Hadland B, Huppert S, Liu Z, Korving J, van den Born M, Stappenbeck T, Wu Y, Clevers H, Kopan R. Mapping the consequence of Notch1 proteolysis in vivo with NIP-CRE. Development. 2007;134(3):535-44.
 
@@ -23222,7 +23154,7 @@ We identified 14 upregulated genes, and their downstream consequences in the com
 **Abstract.** The four highly conserved Notch receptors receive short-range signals that control many biological processes during development and in adult vertebrate tissues. The involvement of Notch1 signaling in tissue self-renewal is less clear, however. We developed a novel genetic approach N(1)IP-CRE (Notch1 Intramembrane Proteolysis) to follow, at high resolution, the descendents of cells experiencing Notch1 activation in the mouse. By combining N(1)IP-CRE with loss-of-function analysis, Notch activation patterns were correlated with function during development, self-renewal and malignancy in selected tissues. Identification of many known functions of Notch1 throughout development validated the utility of this approach. Importantly, novel roles for Notch1 signaling were identified in heart, vasculature, retina and in the stem cell compartments of self-renewing epithelia. We find that the probability of Notch1 activation in different tissues does not always indicate a requirement for this receptor and that gradients of Notch1 activation are evident within one organ. These findings highlight an underappreciated layer of complexity of Notch signaling in vivo. Moreover, NIP-CRE represents a general strategy applicable for monitoring proteolysis-dependent signaling in vivo.
 
 ---
-### 641. Wnt signaling mediates regional specification in the vertebrate face
+### 640. Wnt signaling mediates regional specification in the vertebrate face
 
 **Citation.** Brugmann SA, Goodnough LH, Gregorieff A, Leucht P, ten Berge D, Fuerer C, Clevers H, Nusse R, Helms JA. Wnt signaling mediates regional specification in the vertebrate face. Development. 2007;134(18):3283-95.
 
@@ -23249,7 +23181,7 @@ We identified 14 upregulated genes, and their downstream consequences in the com
 **Abstract.** At early stages of development, the faces of vertebrate embryos look remarkably similar, yet within a very short timeframe they adopt species-specific facial characteristics. What are the mechanisms underlying this regional specification of the vertebrate face? Using transgenic Wnt reporter embryos we found a highly conserved pattern of Wnt responsiveness in the developing mouse face that later corresponded to derivatives of the frontonasal and maxillary prominences. We explored the consequences of disrupting Wnt signaling, first using a genetic approach. Mice carrying compound null mutations in the nuclear mediators Lef1 and Tcf4 exhibited radically altered facial features that culminated in a hyperteloric appearance and a foreshortened midface. We also used a biochemical approach to perturb Wnt signaling and found that in utero delivery of a Wnt antagonist, Dkk1, produced similar midfacial malformations. We tested the hypothesis that Wnt signaling is an evolutionarily conserved mechanism controlling facial morphogenesis by determining the pattern of Wnt responsiveness in avian faces, and then by evaluating the consequences of Wnt inhibition in the chick face. Collectively, these data elucidate a new role for Wnt signaling in regional specification of the vertebrate face, and suggest possible mechanisms whereby species-specific facial features are generated.
 
 ---
-### 642. T-cell factor 4 (Tcf7l2) maintains proliferative compartments in zebrafish intestine
+### 641. T-cell factor 4 (Tcf7l2) maintains proliferative compartments in zebrafish intestine
 
 **Citation.** Muncan V, Faro A, Haramis AG, Hurlstone AFL, Wienholds E, van Es J, Korving J, Begthel H, Zivkovic D, Clevers H. T-cell factor 4 (Tcf7l2) maintains proliferative compartments in zebrafish intestine. EMBO Rep. 2007;8(10):966-73.
 
@@ -23277,7 +23209,7 @@ We identified 14 upregulated genes, and their downstream consequences in the com
 **Abstract.** Previous studies have shown that Wnt signals, relayed through beta-catenin and T-cell factor 4 (Tcf4), are essential for the induction and maintenance of crypts in mice. We have now generated a tcf4 (tcf7l2) mutant zebrafish by reverse genetics. We first observe a phenotypic defect at 4 weeks post-fertilization (wpf), leading to death at about 6 wpf. The phenotype comprises a loss of proliferation at the base of the intestinal folds of the middle and distal parts of the intestine. The proximal intestine represents an independent compartment, as it expresses sox2 in the epithelium and barx1 in the surrounding mesenchyme, which are early stomach markers in higher vertebrates. Zebrafish are functionally stomach-less, but the proximal intestine might share its ontogeny with the mammalian stomach. Rare adult homozygous tcf4(-/-) 'escapers' show proliferation defects in the gut epithelium, but have no other obvious abnormalities. This study underscores the involvement of Tcf4 in maintaining proliferative self-renewal in the intestine throughout life.
 
 ---
-### 643. WNT signaling in the normal intestine and colorectal cancer
+### 642. WNT signaling in the normal intestine and colorectal cancer
 
 **Citation.** de Lau W, Barker N, Clevers H. WNT signaling in the normal intestine and colorectal cancer. Front Biosci. 2007;12:471-91.
 
@@ -23298,7 +23230,7 @@ We identified 14 upregulated genes, and their downstream consequences in the com
 **Abstract.** The intestinal epithelium is a self-renewing tissue that represents a unique model for studying interconnected cellular processes such as proliferation, differentiation, cell migration and carcinogenesis. This review covers work from the past decade and highlights the importance of the canonical Wnt pathway in regulating multiple aspects of intestinal homeostasis. Numerous in vivo studies combined with gene profiling experiments have shown that Wnt signaling promotes maintenance of epithelial stem cells and early progenitors by driving transcription of genes associated with proliferation. These studies also revealed strong similarities between the genetic program initiated by Wnt signals in normal crypt progenitors and in colorectal cancer cells. More recently it has become apparent that Wnts do not act alone but rather cooperate with Notch signals in maintaining progenitor cell populations. Processes associated with differentiated epithelial cells also appear to be regulated by Wnt signals. For instance, Paneth cells employ active Wnt signals for terminal differentiation. Moreover, through transcriptional regulation of members of the Eph and Ephrin families, Wnt signaling promotes compartmentalization of epithelial cells along the crypt-villus axis. The Eph/Ephrin system also operates to limit progression of colorectal cancer beyond the early stages.
 
 ---
-### 644. SOX9 is required for the differentiation of paneth cells in the intestinal epithelium
+### 643. SOX9 is required for the differentiation of paneth cells in the intestinal epithelium
 
 **Citation.** Mori-Akiyama Y, van den Born M, van Es JH, Hamilton SR, Adams HP, Zhang J, Clevers H, de Crombrugghe B. SOX9 is required for the differentiation of paneth cells in the intestinal epithelium. Gastroenterology. 2007;133(2):539-46.
 
@@ -23330,7 +23262,7 @@ In the absence of SOX9, Paneth cells were not formed, but the differentiation of
 We conclude that SOX9 is required for the differentiation of Paneth cells. Our results elucidate an essential step in the differentiation of gut epithelium.
 
 ---
-### 645. Tracking down the stem cells of the intestine: strategies to identify adult stem cells
+### 644. Tracking down the stem cells of the intestine: strategies to identify adult stem cells
 
 **Citation.** Barker N, Clevers H. Tracking down the stem cells of the intestine: strategies to identify adult stem cells. Gastroenterology. 2007;133(6):1755-60.
 
@@ -23347,10 +23279,10 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 
 1. Hubrecht Institute for Developmental Biology and Stem Cell Research, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 646. Giving APCmin tumours a SPARC
+### 645. Giving APCmin tumours a SPARC
 
 **Citation.** Gregorieff A, Clevers H. Giving APCmin tumours a SPARC. Gut. 2007;56(10):1341-3.
 
@@ -23370,7 +23302,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** A new study identifies the extracellular matrix (ECM) component, SPARC (secreted protein acidic, rich in cysteine), as a critical determinant of tumour burden in the/+ model of intestinal cancer.
 
 ---
-### 647. Peutz-Jeghers syndrome polyps are polyclonal with expanded progenitor cell compartment
+### 646. Peutz-Jeghers syndrome polyps are polyclonal with expanded progenitor cell compartment
 
 **Citation.** de Leng WWJ, Jansen M, Keller JJ, de Gijsel M, Milne ANA, Morsink FHM, Weterman MAJ, Iacobuzio-Donahue CA, Clevers HC, Giardiello FM, Offerhaus GJA. Peutz-Jeghers syndrome polyps are polyclonal with expanded progenitor cell compartment. Gut. 2007;56(10):1475-6.
 
@@ -23394,10 +23326,10 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 648. Suppression of tubulin polymerization by the LKB1-microtubule-associated protein/microtubule affinity-regulating kinase signaling
+### 647. Suppression of tubulin polymerization by the LKB1-microtubule-associated protein/microtubule affinity-regulating kinase signaling
 
 **Citation.** Kojima Y, Miyoshi H, Clevers HC, Oshima M, Aoki M, Taketo MM. Suppression of tubulin polymerization by the LKB1-microtubule-associated protein/microtubule affinity-regulating kinase signaling. J Biol Chem. 2007;282(32):23532-40.
 
@@ -23421,7 +23353,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** LKB1, a tumor suppressor gene mutated in the Peutz-Jeghers syndrome, encodes a serine/threonine protein kinase. Recent biochemical studies have shown that LKB1 activates 14 AMP-activated protein kinase-related kinases including MARKs (microtubule-associated protein/microtubule affinity-regulating kinases) that regulate microtubule dynamics. Here we show in vitro that LKB1 phosphorylates and activates MARK2, which in turn phosphorylates microtubule-associated protein Tau at the KXGS motif and suppresses tubulin polymerization. In cells, forced expression of LKB1 suppresses microtubule regrowth, whereas LKB1 knockdown accelerates it. We further show that the phosphorylation of Tau by the LKB1-MARK signaling triggers proteasome-mediated degradation of Tau. These results indicate that LKB1 is involved in the regulation of microtubule dynamics through the activation of MARKs.
 
 ---
-### 649. The Paneth cell alpha-defensin deficiency of ileal Crohn's disease is linked to Wnt/Tcf-4
+### 648. The Paneth cell alpha-defensin deficiency of ileal Crohn's disease is linked to Wnt/Tcf-4
 
 **Citation.** Wehkamp J, Wang G, Kübler I, Nuding S, Gregorieff A, Schnabel A, Kays RJ, Fellermann K, Burk O, Schwab M, Clevers H, Bevins CL, Stange EF. The Paneth cell alpha-defensin deficiency of ileal Crohn's disease is linked to Wnt/Tcf-4. J Immunol. 2007;179(5):3109-18.
 
@@ -23452,7 +23384,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** Ileal Crohn's disease (CD), a chronic mucosal inflammation, is characterized by two pertinent features: a specific decrease of Paneth cell-produced antimicrobial alpha-defensins and the presence of mucosal-adherent bacteria. A mutation in NOD2, the muramyl dipeptide recognition receptor, is found in some patients, which leads to an even more pronounced alpha-defensin decrease. However, the underlying mechanism remains unclear for the majority of patients. In this study, we report a reduced expression in ileal CD of the Wnt-signaling pathway transcription factor Tcf-4, a known regulator of Paneth cell differentiation and alpha-defensin expression. Within specimens, the levels of Tcf-4 mRNA showed a high degree of correlation with both HD5 and HD6 mRNA. The levels of Tcf-4 mRNA were decreased in patients with ileal disease irrespective of degree of inflammation, but were not decreased in colonic CD or ulcerative colitis. As a functional indicator of Tcf-4 protein, quantitative binding analysis with nuclear extracts from small intestine biopsies to a Tcf-4 high-affinity binding site in the HD-5 and HD-6 promoters showed significantly reduced activity in ileal CD. Furthermore, a causal link was shown in a murine Tcf-4 knockout model, where the comparably reduced expression of Tcf-4 in heterozygous (+/-) mice was sufficient to cause a significant decrease of both Paneth cell alpha-defensin levels and bacterial killing activity. Finally, the association between Paneth cell alpha-defensins and Tcf-4 was found to be independent of the NOD2 genotype. This new link established between a human inflammatory bowel disease and the Wnt pathway/Tcf-4 provides a novel mechanism for pathogenesis in patients with ileal CD.
 
 ---
-### 650. Proteome changes induced by knock-down of the deubiquitylating enzyme HAUSP/USP7
+### 649. Proteome changes induced by knock-down of the deubiquitylating enzyme HAUSP/USP7
 
 **Citation.** Kessler BM, Fortunati E, Melis M, Pals CEGM, Clevers H, Maurice MM. Proteome changes induced by knock-down of the deubiquitylating enzyme HAUSP/USP7. J Proteome Res. 2007;6(11):4163-72.
 
@@ -23476,7 +23408,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** Modification of proteins by ubiquitin plays a major role in a broad array of biological processes. Reversal of this process through deubiquitylation likely represents an important regulatory step in the maintenance of cellular homeostasis. However, the biological functions of deubiquitylating enzymes still remain poorly characterized. To investigate the biological role of the herpes virus-associated ubiquitin-specific protease HAUSP/USP7, we have generated stably transfected cells carrying inducible shRNA expression plasmids. USP7 mRNA and protein were strongly down-regulated 48-72 h after shRNA induction. We used a selected clone to compare whole-cell proteomes by 2D-SDS-PAGE before and after knockdown of USP7. Alterations in 36 proteins were detected and their identities were revealed by mass spectrometry analysis. Components of the replication machinery, DNA/RNA binding proteins, enzymes involved in apoptosis and metabolism were found to be down-regulated upon USP7 removal, representing proteins that are either more rapidly turned over or synthesized less efficiently in the absence of USP7-mediated deubiquitylation. Alix/HP95, a protein implicated in endosomal organization and virus budding, was confirmed by immunoblotting to become down-regulated when USP7 levels were reduced. Our results extend the current list of USP7-dependent biological processes and suggest a role for this enzyme not only in transcriptional regulation but also in DNA replication, apoptosis, and possibly endosomal organization.
 
 ---
-### 651. Transcriptome profile of human colorectal adenomas
+### 650. Transcriptome profile of human colorectal adenomas
 
 **Citation.** Sabates-Bellver J, Van der Flier LG, de Palo M, Cattaneo E, Maake C, Rehrauer H, Laczko E, Kurowski MA, Bujnicki JM, Menigatti M, Luz J, Ranalli TV, Gomes V, Pastorelli A, Faggiani R, Anti M, Jiricny J, Clevers H, Marra G. Transcriptome profile of human colorectal adenomas. Mol Cancer Res. 2007;5(12):1263-75.
 
@@ -23513,7 +23445,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** Colorectal cancers are believed to arise predominantly from adenomas. Although these precancerous lesions have been subjected to extensive clinical, pathologic, and molecular analyses, little is currently known about the global gene expression changes accompanying their formation. To characterize the molecular processes underlying the transformation of normal colonic epithelium, we compared the transcriptomes of 32 prospectively collected adenomas with those of normal mucosa from the same individuals. Important differences emerged not only between the expression profiles of normal and adenomatous tissues but also between those of small and large adenomas. A key feature of the transformation process was the remodeling of the Wnt pathway reflected in patent overexpression and underexpression of 78 known components of this signaling cascade. The expression of 19 Wnt targets was closely correlated with clear up-regulation of KIAA1199, whose function is currently unknown. In normal mucosa, KIAA1199 expression was confined to cells in the lower portion of intestinal crypts, where Wnt signaling is physiologically active, but it was markedly increased in all adenomas, where it was expressed in most of the epithelial cells, and in colon cancer cell lines, it was markedly reduced by inactivation of the beta-catenin/T-cell factor(s) transcription complex, the pivotal mediator of Wnt signaling. Our transcriptomic profiles of normal colonic mucosa and colorectal adenomas shed new light on the early stages of colorectal tumorigenesis and identified KIAA1199 as a novel target of the Wnt signaling pathway and a putative marker of colorectal adenomatous transformation.
 
 ---
-### 652. Identification of stem cells in small intestine and colon by marker gene Lgr5
+### 651. Identification of stem cells in small intestine and colon by marker gene Lgr5
 
 **Citation.** Barker N, van Es JH, Kuipers J, Kujala P, van den Born M, Cozijnsen M, Haegebarth A, Korving J, Begthel H, Peters PJ, Clevers H. Identification of stem cells in small intestine and colon by marker gene Lgr5. Nature. 2007;449(7165):1003-7.
 
@@ -23542,7 +23474,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** The intestinal epithelium is the most rapidly self-renewing tissue in adult mammals. It is currently believed that four to six crypt stem cells reside at the +4 position immediately above the Paneth cells in the small intestine; colon stem cells remain undefined. Lgr5 (leucine-rich-repeat-containing G-protein-coupled receptor 5, also known as Gpr49) was selected from a panel of intestinal Wnt target genes for its restricted crypt expression. Here, using two knock-in alleles, we reveal exclusive expression of Lgr5 in cycling columnar cells at the crypt base. In addition, Lgr5 was expressed in rare cells in several other tissues. Using an inducible Cre knock-in allele and the Rosa26-lacZ reporter strain, lineage-tracing experiments were performed in adult mice. The Lgr5-positive crypt base columnar cell generated all epithelial lineages over a 60-day period, suggesting that it represents the stem cell of the small intestine and colon. The expression pattern of Lgr5 suggests that it marks stem cells in multiple adult tissues and cancers.
 
 ---
-### 653. Myc deletion rescues Apc deficiency in the small intestine
+### 652. Myc deletion rescues Apc deficiency in the small intestine
 
 **Citation.** Sansom OJ, Meniel VS, Muncan V, Phesse TJ, Wilkins JA, Reed KR, Vass JK, Athineos D, Clevers H, Clarke AR. Myc deletion rescues Apc deficiency in the small intestine. Nature. 2007;446(7136):676-9.
 
@@ -23570,7 +23502,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** The APC gene encodes the adenomatous polyposis coli tumour suppressor protein, germline mutation of which characterizes familial adenomatous polyposis (FAP), an autosomal intestinal cancer syndrome. Inactivation of APC is also recognized as the key early event in the development of sporadic colorectal cancers, and its loss results in constitutive activity of the beta-catenin-Tcf4 transcription complex. The proto-oncogene c-MYC has been identified as a target of the Wnt pathway in colorectal cancer cells in vitro, in normal crypts in vivo and in intestinal epithelial cells acutely transformed on in vivo deletion of the APC gene; however, the significance of this is unclear. Therefore, to elucidate the role Myc has in the intestine after Apc loss, we have simultaneously deleted both Apc and Myc in the adult murine small intestine. Here we show that loss of Myc rescued the phenotypes of perturbed differentiation, migration, proliferation and apoptosis, which occur on deletion of Apc. Remarkably, this rescue occurred in the presence of high levels of nuclear beta-catenin. Array analysis revealed that Myc is required for the majority of Wnt target gene activation following Apc loss. These data establish Myc as the critical mediator of the early stages of neoplasia following Apc loss.
 
 ---
-### 654. c-Myb is required for progenitor cell homeostasis in colonic crypts
+### 653. c-Myb is required for progenitor cell homeostasis in colonic crypts
 
 **Citation.** Malaterre J, Carpinelli M, Ernst M, Alexander W, Cooke M, Sutton S, Dworkin S, Heath JK, Frampton J, McArthur G, Clevers H, Hilton D, Mantamadiotis T, Ramsay RG. c-Myb is required for progenitor cell homeostasis in colonic crypts. Proc Natl Acad Sci U S A. 2007;104(10):3829-34.
 
@@ -23605,7 +23537,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 
 ## 2006
 
-### 655. EphB/EphrinB receptors and Wnt signaling in colorectal cancer
+### 654. EphB/EphrinB receptors and Wnt signaling in colorectal cancer
 
 **Citation.** Clevers H, Batlle E. EphB/EphrinB receptors and Wnt signaling in colorectal cancer. Cancer Res. 2006;66(1):2-5.
 
@@ -23625,7 +23557,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** Eph receptors and their ephrin ligands mediate cell repulsion during embryonic development. In the intestinal epithelium, EphB receptors are Wnt signaling target genes that control cell compartmentalization along the crypt axis. Recent findings have shown that this family of receptors are key players during colorectal cancer progression. Here, we review the current knowledge of the EphB/ephrinB system in the intestinal epithelium and we discuss their tumor suppressor role in the context of the multistep progression of colorectal cancer.
 
 ---
-### 656. Transcription factor target practice
+### 655. Transcription factor target practice
 
 **Citation.** Holstege FCP, Clevers H. Transcription factor target practice. Cell. 2006;124(1):21-3.
 
@@ -23645,7 +23577,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** In this issue of Cell, Hallikas et al. (2006) and Wei et al. (2006) describe different ways of identifying direct targets of transcription factors and their corresponding regulatory sequences in the genome. Although still under development, these studies provide an efficient way to decipher regulatory networks.
 
 ---
-### 657. Wnt/beta-catenin signaling in development and disease
+### 656. Wnt/beta-catenin signaling in development and disease
 
 **Citation.** Clevers H. Wnt/beta-catenin signaling in development and disease. Cell. 2006;127(3):469-80.
 
@@ -23664,7 +23596,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** A remarkable interdisciplinary effort has unraveled the WNT (Wingless and INT-1) signal transduction cascade over the last two decades. Wnt genes encode small secreted proteins that are found in all animal genomes. Wnt signaling is involved in virtually every aspect of embryonic development and also controls homeostatic self-renewal in a number of adult tissues. Germline mutations in the Wnt pathway cause several hereditary diseases, and somatic mutations are associated with cancer of the intestine and a variety of other tissues.
 
 ---
-### 658. From gut homeostasis to cancer
+### 657. From gut homeostasis to cancer
 
 **Citation.** Radtke F, Clevers H, Riccio O. From gut homeostasis to cancer. Curr Mol Med. 2006;6(3):275-89.
 
@@ -23685,7 +23617,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** The mammalian intestine has one of the highest turnover rates in the body. The intestinal epithelium is completely renewed in less than a week. It is divided into spatially distinct compartments in the form of finger-like projections and invaginations that are dedicated to specific functions. Intestinal cells are constantly produced from a stem cell reservoir that gives rise to proliferating transient amplifying cells, which subsequently differentiate and migrate to the correct compartment before dying after having fulfilled their physiological function. In recent years, a substantial body of evidence has accumulated to support the concept that signaling pathways known to be crucial for embryonic development of multiple organisms play a critical role in tightly regulating and controlling the self-renewing process of the intestine. Moreover, the same pathways appear to be deregulated in several hereditary and sporadic colorectal cancer syndromes due to activating and/or inactivating mutations of key components of such pathways. In this review we discuss recent findings demonstrating that differentiation and homeostasis of the intestine are controlled by developmental pathways such as Wnt, Notch, TGF-beta and Hedgehog, and illustrate how their deregulation contributes to intestinal neoplasia.
 
 ---
-### 659. The inner nuclear membrane protein emerin regulates beta-catenin activity by restricting its accumulation in the nucleus
+### 658. The inner nuclear membrane protein emerin regulates beta-catenin activity by restricting its accumulation in the nucleus
 
 **Citation.** Markiewicz E, Tilgner K, Barker N, van de Wetering M, Clevers H, Dorobek M, Hausmanowa-Petrusewicz I, Ramaekers FCS, Broers JLV, Blankesteijn WM, Salpingidou G, Wilson RG, Ellis JA, Hutchison CJ. The inner nuclear membrane protein emerin regulates beta-catenin activity by restricting its accumulation in the nucleus. EMBO J. 2006;25(14):3275-85.
 
@@ -23717,7 +23649,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** Emerin is a type II inner nuclear membrane (INM) protein of unknown function. Emerin function is likely to be important because, when it is mutated, emerin promotes both skeletal muscle and heart defects. Here we show that one function of Emerin is to regulate the flux of beta-catenin, an important transcription coactivator, into the nucleus. Emerin interacts with beta-catenin through a conserved adenomatous polyposis coli (APC)-like domain. When GFP-emerin is expressed in HEK293 cells, beta-catenin is restricted to the cytoplasm and beta-catenin activity is inhibited. In contrast, expression of an emerin mutant, lacking its APC-like domain (GFP-emerinDelta), dominantly stimulates beta-catenin activity and increases nuclear accumulation of beta-catenin. Human fibroblasts that are null for emerin have an autostimulatory growth phenotype. This unusual growth phenotype arises through enhanced nuclear accumulation and activity of beta-catenin and can be replicated in wild-type fibroblasts by transfection with constitutively active beta-catenin. Our results support recent findings that suggest that INM proteins can influence signalling pathways by restricting access of transcription coactivators to the nucleus.
 
 ---
-### 660. Adenomatous polyposis coli-deficient zebrafish are susceptible to digestive tract neoplasia
+### 659. Adenomatous polyposis coli-deficient zebrafish are susceptible to digestive tract neoplasia
 
 **Citation.** Haramis AG, Hurlstone A, van der Velden Y, Begthel H, van den Born M, Offerhaus GJA, Clevers HC. Adenomatous polyposis coli-deficient zebrafish are susceptible to digestive tract neoplasia. EMBO Rep. 2006;7(4):444-9.
 
@@ -23742,7 +23674,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** Truncation of the tumour suppressor adenomatous polyposis coli (APC) constitutively activates the Wnt/beta-catenin signalling pathway. This event constitutes the primary transforming event in sporadic colorectal cancer in humans. Moreover, humans or mice carrying germline truncating mutations in APC develop large numbers of intestinal adenomas. Here, we report that zebrafish that are heterozygous for a truncating APC mutation spontaneously develop intestinal, hepatic and pancreatic neoplasias that are highly proliferative, accumulate beta-catenin and express Wnt target genes. Treatment with the chemical carcinogen 7,12-dimethylbenz[a]anthracene accelerates the induction of these lesions. These observations establish apc-mutant zebrafish as a bona fide model for the study of digestive tract cancer.
 
 ---
-### 661. AU-rich elements and alternative splicing in the beta-catenin 3'UTR can influence the human beta-catenin mRNA stability
+### 660. AU-rich elements and alternative splicing in the beta-catenin 3'UTR can influence the human beta-catenin mRNA stability
 
 **Citation.** Thiele A, Nagamine Y, Hauschildt S, Clevers H. AU-rich elements and alternative splicing in the beta-catenin 3'UTR can influence the human beta-catenin mRNA stability. Exp Cell Res. 2006;312(12):2367-78.
 
@@ -23764,7 +23696,7 @@ We conclude that SOX9 is required for the differentiation of Paneth cells. Our r
 **Abstract.** Beta-catenin, the central player of the Wnt signaling cascade, is a well-known oncogene. The regulation of beta-catenin protein stability has been studied extensively while other mechanisms that control cellular levels of beta-catenin have hardly been addressed. In this study, we show that there are three beta-catenin mRNA splice variants that differ solely in their 3'-untranslated region (3'UTR) due to alternative splicing or retaining of an intron. The three isoforms were found to be ubiquitously expressed though in different quantities. Upon induction of the beta-catenin protein in peripheral blood mononuclear leukocytes (PBMC), the beta-catenin mRNA is induced in an isoform-specific manner. All three variants occur in the cytoplasm and contribute to the synthesis of beta-catenin acting as a transcriptional coactivator but have different cytoplasmic stabilities in Hela cells. AU-rich elements (AREs), sequence elements implicated in the regulation of mRNA stability, are found in each of the three transcripts. Surprisingly, the AREs contribute to stabilization of the beta-catenin mRNA transcripts in a splicing-dependent manner. The isoform most affected is the one found to be most induced when beta-catenin protein accumulates. These results suggest that alternative splicing and AREs can act together in regulating beta-catenin mRNA stability and thereby provide a step of controlling the cellular beta-catenin concentration.
 
 ---
-### 662. The Intestinal Wnt/TCF Signature
+### 661. The Intestinal Wnt/TCF Signature
 
 **Citation.** Van der Flier LG, Sabates-Bellver J, Oving I, Haegebarth A, De Palo M, Anti M, Van Gijn ME, Suijkerbuijk S, Van de Wetering M, Marra G, Clevers H. The Intestinal Wnt/TCF Signature. Gastroenterology. 2006;132(2):628-32.
 
@@ -23799,7 +23731,7 @@ Expression analyses of approximately 80 genes common between these data sets wer
 The genes were invariably expressed in adenomas, yet could be subdivided into 3 modules, based on expression in distinct crypt compartments. A module of 17 genes was specifically expressed at the position of the crypt stem cell.
 
 ---
-### 663. Mucosal prolapse in the pathogenesis of Peutz-Jeghers polyposis
+### 662. Mucosal prolapse in the pathogenesis of Peutz-Jeghers polyposis
 
 **Citation.** Jansen M, de Leng WWJ, Baas AF, Myoshi H, Mathus-Vliegen L, Taketo MM, Clevers H, Giardiello FM, Offerhaus GJA. Mucosal prolapse in the pathogenesis of Peutz-Jeghers polyposis. Gut. 2006;55(1):1-5.
 
@@ -23826,7 +23758,7 @@ The genes were invariably expressed in adenomas, yet could be subdivided into 3 
 **Abstract.** Germline mutations in LKB1 cause the rare cancer prone disorder Peutz-Jeghers syndrome (PJS). Gastrointestinal hamartomatous polyps constitute the major phenotypic trait in PJS. Hamartomatous polyps arising in PJS patients are generally considered to lack premalignant potential although rare neoplastic changes in these polyps and an increased gastrointestinal cancer risk in PJS are well documented. These conflicting observations are resolved in the current hypothesis by providing a unifying explanation for these contrasting features of PJS polyposis. We postulate that a genetic predisposition to epithelial prolapse underlies the formation of the polyps associated with PJS. Conventional sporadic adenomas arising in PJS patients will similarly show mucosal prolapse and carry the associated histological features.
 
 ---
-### 664. Transcriptional regulation of CD4 gene expression by T cell factor-1/beta-catenin pathway
+### 663. Transcriptional regulation of CD4 gene expression by T cell factor-1/beta-catenin pathway
 
 **Citation.** Huang Z, Xie H, Ioannidis V, Held W, Clevers H, Sadim MS, Sun Z. Transcriptional regulation of CD4 gene expression by T cell factor-1/beta-catenin pathway. J Immunol. 2006;176(8):4880-7.
 
@@ -23851,7 +23783,7 @@ The genes were invariably expressed in adenomas, yet could be subdivided into 3 
 **Abstract.** By interacting with MHC class II molecules, CD4 facilitates lineage development as well as activation of Th cells. Expression of physiological levels of CD4 requires a proximal CD4 enhancer to stimulate basic CD4 promoter activity. T cell factor (TCF)-1/beta-catenin pathway has previously been shown to regulate thymocyte survival via up-regulating antiapoptotic molecule Bcl-xL. By both loss and gain of function studies, in this study we show additional function of TCF-1/beta-catenin pathway in the regulation of CD4 expression in vivo. Mice deficient in TCF-1 displayed significantly reduced protein and mRNA levels of CD4 in CD4+ CD8+ double-positive (DP) thymocytes. A transgene encoding Bcl-2 restored survival but not CD4 levels of TCF-1(-/-) DP cells. Thus, TCF-1-regulated survival and CD4 expression are two separate events. In contrast, CD4 levels were restored on DP TCF-1(-/-) cells by transgenic expression of a wild-type TCF-1, but not a truncated TCF-1 that lacks a domain required for interacting with beta-catenin. Furthermore, forced expression of a stabilized beta-catenin, a coactivator of TCF-1, resulted in up-regulation of CD4. TCF-1 or stabilized beta-catenin greatly stimulated activity of a CD4 reporter gene driven by a basic CD4 promoter and the CD4 enhancer. However, mutation of a potential TCF binding site located within the enhancer abrogated TCF-1 and beta-catenin-mediated activation of CD4 reporter. Finally, recruitment of TCF-1 to CD4 enhancer was detected in wild-type but not TCF-1 null mice by chromatin-immunoprecipitation analysis. Thus, our results demonstrated that TCF/beta-catenin pathway enhances CD4 expression in vivo by recruiting TCF-1 to stimulate CD4 enhancer activity.
 
 ---
-### 665. Rapid loss of intestinal crypts upon conditional deletion of the Wnt/Tcf-4 target gene c-Myc
+### 664. Rapid loss of intestinal crypts upon conditional deletion of the Wnt/Tcf-4 target gene c-Myc
 
 **Citation.** Muncan V, Sansom OJ, Tertoolen L, Phesse TJ, Begthel H, Sancho E, Cole AM, Gregorieff A, de Alboran IM, Clevers H, Clarke AR. Rapid loss of intestinal crypts upon conditional deletion of the Wnt/Tcf-4 target gene c-Myc. Mol Cell Biol. 2006;26(22):8418-26.
 
@@ -23880,7 +23812,7 @@ The genes were invariably expressed in adenomas, yet could be subdivided into 3 
 **Abstract.** Inhibition of the mutationally activated Wnt cascade in colorectal cancer cell lines induces a rapid G1 arrest and subsequent differentiation. This arrest can be overcome by maintaining expression of a single Tcf4 target gene, the proto-oncogene c-Myc. Since colorectal cancer cells share many molecular characteristics with proliferative crypt progenitors, we have assessed the physiological role of c-Myc in adult crypts by conditional gene deletion. c-Myc-deficient crypts are lost within weeks and replaced by c-Myc-proficient crypts through a fission process of crypts that have escaped gene deletion. Although c-Myc(-/-) crypt cells remain in the cell cycle, they are on average much smaller than wild-type cells, cycle slower, and divide at a smaller cell size. c-Myc appears essential for crypt progenitor cells to provide the necessary biosynthetic capacity to successfully progress through the cell cycle.
 
 ---
-### 666. Colon cancer--understanding how NSAIDs work
+### 665. Colon cancer--understanding how NSAIDs work
 
 **Citation.** Clevers H. Colon cancer--understanding how NSAIDs work. N Engl J Med. 2006;354(7):761-3.
 
@@ -23896,10 +23828,10 @@ The genes were invariably expressed in adenomas, yet could be subdivided into 3 
 
 1. Netherlands Institute for Developmental Biology, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 667. Mining the Wnt pathway for cancer therapeutics
+### 666. Mining the Wnt pathway for cancer therapeutics
 
 **Citation.** Barker N, Clevers H. Mining the Wnt pathway for cancer therapeutics. Nat Rev Drug Discov. 2006;5(12):997-1014.
 
@@ -23919,7 +23851,7 @@ The genes were invariably expressed in adenomas, yet could be subdivided into 3 
 **Abstract.** Aberrant activation of the Wnt pathway is implicated in driving the formation of various human cancers, particularly those of the digestive tract. Inhibition of aberrant Wnt pathway activity in cancer cell lines efficiently blocks their growth, highlighting the great potential of therapeutics designed to achieve this in cancer patients. Here we provide an overview of the promise and pitfalls of current drug development strategies striving to inhibit the Wnt pathway and present new opportunities for therapeutic intervention.
 
 ---
-### 668. Dysfunctional AMPK activity, signalling through mTOR and survival in response to energetic stress in LKB1-deficient lung cancer
+### 667. Dysfunctional AMPK activity, signalling through mTOR and survival in response to energetic stress in LKB1-deficient lung cancer
 
 **Citation.** Carretero J, Medina PP, Blanco R, Smit L, Tang M, Roncador G, Maestre L, Conde E, Lopez-Rios F, Clevers HC, Sanchez-Cespedes M. Dysfunctional AMPK activity, signalling through mTOR and survival in response to energetic stress in LKB1-deficient lung cancer. Oncogene. 2006;26(11):1616-25.
 
@@ -23948,7 +23880,7 @@ The genes were invariably expressed in adenomas, yet could be subdivided into 3 
 **Abstract.** LKB1, mutated in Peutz-Jeghers and in sporadic lung tumours, phosphorylates a group of protein kinases named AMP-activated protein kinase (AMPK)-related kinases. Among them is included the AMPK, a sensor of cellular energy status. To investigate the relevance of LKB1 in lung carcinogenesis, we study several lung cancer cells with and without LKB1-inactivating mutations. We report that LKB1-mutant cells are deficient for AMPK activity and refractory to mTOR inhibition upon glucose depletion but not growth-factor deprivation. The requirement for wild-type LKB1 to properly activate AMPK is further demonstrated in genetically modified cancer cells. In addition, LKB1-deficient lung primary tumours had diminished AMPK activity, assessed by complete absence or low level of phosphorylation of its critical substrate, acetyl-CoA carboxylase. We also demonstrate that LKB1 wild-type cells are more resistant to cell death upon glucose withdrawal than their mutant counterparts. Finally, modulation of AMPK activity did not affect PI3K/AKT signalling, an advantage for the potential use of AMPK as a target for cancer therapy in LKB1 wild-type tumours. Thus, sustained abrogation of cell energetic checkpoint control, through alterations at key genes, appear to be an obligatory step in the development of some lung tumours.
 
 ---
-### 669. Interplay between VHL/HIF1alpha and Wnt/beta-catenin pathways during colorectal tumorigenesis
+### 668. Interplay between VHL/HIF1alpha and Wnt/beta-catenin pathways during colorectal tumorigenesis
 
 **Citation.** Giles RH, Lolkema MP, Snijckers CM, Belderbos M, van der Groep P, Mans DA, van Beest M, van Noort M, Goldschmeding R, van Diest PJ, Clevers H, Voest EE. Interplay between VHL/HIF1alpha and Wnt/beta-catenin pathways during colorectal tumorigenesis. Oncogene. 2006;25(21):3065-70.
 
@@ -23981,7 +23913,7 @@ The genes were invariably expressed in adenomas, yet could be subdivided into 3 
 
 ## 2005
 
-### 670. Down-regulation of Rap1 activity is involved in ephrinB1-induced cell contraction
+### 669. Down-regulation of Rap1 activity is involved in ephrinB1-induced cell contraction
 
 **Citation.** Riedl JA, Brandt DT, Batlle E, Price LS, Clevers H, Bos JL. Down-regulation of Rap1 activity is involved in ephrinB1-induced cell contraction. Biochem J. 2005;389(Pt 2):465-9.
 
@@ -24005,7 +23937,7 @@ The genes were invariably expressed in adenomas, yet could be subdivided into 3 
 **Abstract.** Ephrins are cell surface ligands that activate Eph receptor tyrosine kinases. This ligand-receptor interaction plays a central role in the sorting of cells. We have previously shown that the ephrinB-EphB signalling pathway is also involved in the migration of intestinal precursor cells along the crypts. Using the colon cell line DLD1 expressing the EphB2 receptor, we showed that stimulation of these cells with soluble ephrinB1 results in a rapid retraction of cell extensions and a detachment of cells. On ephrinB1 stimulation, the small GTPases Rho and Ras are activated and Rap1 is inactivated. Importantly, when a constitutively active Rap1 mutant was introduced into these cells, ephrinB1-induced retraction was inhibited. From these results, we conclude that down-regulation of Rap1 is a prerequisite for ephrin-induced cell retraction in colon cells.
 
 ---
-### 671. Wnt, stem cells and cancer in the intestine
+### 670. Wnt, stem cells and cancer in the intestine
 
 **Citation.** Pinto D, Clevers H. Wnt, stem cells and cancer in the intestine. Biol Cell. 2005;97(3):185-96.
 
@@ -24025,7 +23957,7 @@ The genes were invariably expressed in adenomas, yet could be subdivided into 3 
 **Abstract.** The intestinal epithelium is a self-renewing tissue which represents a unique model for studying interconnected cellular processes such as proliferation, differentiation, cell migration and carcinogenesis. Although the stem cells of the intestine have not yet been physically characterized or isolated, data over the past decade have strongly implicated the Wnt/beta-catenin signalling pathway in their maintenance and progression to cancer. This review will (i) describe the distinctive features of the intestinal epithelium in relation to stem-cell function, (ii) illustrate the major genetic alterations that can lead to cancer, and (iii) show how Wnt/beta-catenin signalling controls homoeostasis in this tissue.
 
 ---
-### 672. Canonical Wnt signaling in differentiated osteoblasts controls osteoclast differentiation
+### 671. Canonical Wnt signaling in differentiated osteoblasts controls osteoclast differentiation
 
 **Citation.** Glass DA, Bialek P, Ahn JD, Starbuck M, Patel MS, Clevers H, Taketo MM, Long F, McMahon AP, Lang RA, Karsenty G. Canonical Wnt signaling in differentiated osteoblasts controls osteoclast differentiation. Dev Cell. 2005;8(5):751-64.
 
@@ -24054,7 +23986,7 @@ The genes were invariably expressed in adenomas, yet could be subdivided into 3 
 **Abstract.** Inactivation of beta-catenin in mesenchymal progenitors prevents osteoblast differentiation; inactivation of Lrp5, a gene encoding a likely Wnt coreceptor, results in low bone mass (osteopenia) by decreasing bone formation. These observations indicate that Wnt signaling controls osteoblast differentiation and suggest that it may regulate bone formation in differentiated osteoblasts. Here, we study later events and find that stabilization of beta-catenin in differentiated osteoblasts results in high bone mass, while its deletion from differentiated osteoblasts leads to osteopenia. Surprisingly, histological analysis showed that these mutations primarily affect bone resorption rather than bone formation. Cellular and molecular studies showed that beta-catenin together with TCF proteins regulates osteoblast expression of Osteoprotegerin, a major inhibitor of osteoclast differentiation. These findings demonstrate that beta-catenin, and presumably Wnt signaling, promote the ability of differentiated osteoblasts to inhibit osteoclast differentiation; thus, they broaden our knowledge of the functions Wnt proteins have at various stages of skeletogenesis.
 
 ---
-### 673. The HMG box transcription factor Sox4 contributes to the development of the endocrine pancreas
+### 672. The HMG box transcription factor Sox4 contributes to the development of the endocrine pancreas
 
 **Citation.** Wilson ME, Yang KY, Kalousova A, Lau J, Kosaka Y, Lynn FC, Wang J, Mrejen C, Episkopou V, Clevers HC, German MS. The HMG box transcription factor Sox4 contributes to the development of the endocrine pancreas. Diabetes. 2005;54(12):3402-9.
 
@@ -24083,7 +24015,7 @@ The genes were invariably expressed in adenomas, yet could be subdivided into 3 
 **Abstract.** To investigate the role of the Sry/hydroxymethylglutaryl box (Sox) transcription factors in the development of the pancreas, we determined the expression pattern of Sox factors in the developing mouse pancreas. By RT-PCR, we detected the presence of multiple Sox family members in both the developing pancreas and mature islets and then focused on two factors, Sox2 and Sox4. The expression field of Sox2, which plays a role in the maintenance of some stem cell populations, included the developing duodenum, but Sox2 was specifically excluded from the pancreatic buds. In contrast, Sox4 was detected broadly in the early pancreatic buds and eventually became restricted to the nuclei of all islet cells in the adult mouse. Mice homozygous for a null mutation of the sox4 gene showed normal pancreatic bud formation and endocrine cell differentiation up to embryonic day 12.5. Beyond that date, cultured pancreatic explants lacking sox4 failed to form normal islets. Instead, a markedly reduced number of endocrine cells were found scattered through the explant. We show here that several Sox transcription factors are expressed in the developing pancreas and in the islet, and that one of these factors, Sox4, is required for the normal development of pancreatic islets.
 
 ---
-### 674. Wnt control of stem cells and differentiation in the intestinal epithelium
+### 673. Wnt control of stem cells and differentiation in the intestinal epithelium
 
 **Citation.** Pinto D, Clevers H. Wnt control of stem cells and differentiation in the intestinal epithelium. Exp Cell Res. 2005;306(2):357-63.
 
@@ -24103,7 +24035,7 @@ The genes were invariably expressed in adenomas, yet could be subdivided into 3 
 **Abstract.** The intestinal epithelium represents a very attractive experimental model for the study of integrated key cellular processes such as proliferation and differentiation. The tissue is subjected to a rapid and perpetual self-renewal along the crypt-villus axis. Renewal requires division of multipotent stem cells, still to be morphologically identified and isolated, followed by transit amplification, and differentiation of daughter cells into specialized absorptive and secretory cells. Our understanding of the crucial role played by the Wnt/beta-catenin signaling pathway in controlling the fine balance between cell proliferation and differentiation in the gut has been significantly enhanced in recent years. Mutations in some of its components irreversibly lead to carcinogenesis in humans and in mice. Here, we discuss recent advances related to the Wnt/beta-catenin signaling pathway in regulating intestinal stem cells, homeostasis, and cancer. We emphasize how Wnt signaling is able to maintain a stem cell/progenitor phenotype in normal intestinal crypts, and to impose a very similar phenotype onto colorectal adenomas.
 
 ---
-### 675. Expression pattern of Wnt signaling components in the adult intestine
+### 674. Expression pattern of Wnt signaling components in the adult intestine
 
 **Citation.** Gregorieff A, Pinto D, Begthel H, Destrée O, Kielman M, Clevers H. Expression pattern of Wnt signaling components in the adult intestine. Gastroenterology. 2005;129(2):626-38.
 
@@ -24133,7 +24065,7 @@ Our analysis showed high expression of several signaling components (including W
 Our study predicts a much broader role for Wnt signaling in gut development and homeostasis than was previously anticipated from available genetic studies and identifies novel factors likely involved in promoting canonical and noncanonical Wnt signals in the intestine.
 
 ---
-### 676. Wnt signaling in the intestinal epithelium: from endoderm to cancer
+### 675. Wnt signaling in the intestinal epithelium: from endoderm to cancer
 
 **Citation.** Gregorieff A, Clevers H. Wnt signaling in the intestinal epithelium: from endoderm to cancer. Genes Dev. 2005;19(8):877-90.
 
@@ -24153,7 +24085,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** The Wnt pathway controls cell fate during embryonic development. It also persists as a key regulator of homeostasis in adult self-renewing tissues. In these tissues, mutational deregulation of the Wnt cascade is closely associated with malignant transformation. The intestinal epithelium represents the best-understood example for the closely linked roles of Wnt signaling in homeostatic self-renewal and malignant transformation. In this review, we outline current understanding of the physiological role of Wnt signaling in intestinal biology. From this perspective, we then describe how mutational subversion of the Wnt cascade leads to colorectal cancer.
 
 ---
-### 677. Functional analysis of Peutz-Jeghers mutations reveals that the LKB1 C-terminal region exerts a crucial role in regulating both the AMPK pathway and the cell polarity
+### 676. Functional analysis of Peutz-Jeghers mutations reveals that the LKB1 C-terminal region exerts a crucial role in regulating both the AMPK pathway and the cell polarity
 
 **Citation.** Forcet C, Etienne-Manneville S, Gaude H, Fournier L, Debilly S, Salmi M, Baas A, Olschwang S, Clevers H, Billaud M. Functional analysis of Peutz-Jeghers mutations reveals that the LKB1 C-terminal region exerts a crucial role in regulating both the AMPK pathway and the cell polarity. Hum Mol Genet. 2005;14(10):1283-92.
 
@@ -24181,7 +24113,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Germline mutations of the LKB1 gene are responsible for the cancer-prone Peutz-Jeghers syndrome (PJS). LKB1 encodes a serine-threonine kinase that acts as a regulator of cell cycle, metabolism and cell polarity. The majority of PJS missense mutations abolish LKB1 enzymatic activity and thereby impair all functions assigned to LKB1. Here, we have investigated the functional consequences of recurrent missense mutations identified in PJS and in sporadic tumors which map in the LKB1 C-terminal non-catalytic region. We report that these C-terminal mutations neither disrupt LKB1 kinase activity nor interfere with LKB1-induced growth arrest. However, these naturally occuring mutations lessened LKB1-mediated activation of the AMP-activated protein kinase (AMPK) and impaired downstream signaling. Furthermore, C-terminal mutations compromise LKB1 ability to establish and maintain polarity of both intestinal epithelial cells and migrating astrocytes. Consistent with these findings, mutational analysis reveals that the LKB1 tail exerts an essential function in the control of cell polarity. Overall, our results ascribe a crucial regulatory role to the LKB1 C-terminal region. Our findings further indicate that LKB1 tumor suppressor activity is likely to depend on the regulation of AMPK signaling and cell polarization.
 
 ---
-### 678. Cyclin D1 is not an immediate target of beta-catenin following Apc loss in the intestine
+### 677. Cyclin D1 is not an immediate target of beta-catenin following Apc loss in the intestine
 
 **Citation.** Sansom OJ, Reed KR, van de Wetering M, Muncan V, Winton DJ, Clevers H, Clarke AR. Cyclin D1 is not an immediate target of beta-catenin following Apc loss in the intestine. J Biol Chem. 2005;280(31):28463-7.
 
@@ -24206,7 +24138,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Cyclin D1 is postulated to be a target of the canonical Wnt pathway and critical for intestinal adenoma development. We show here that, unlike cyclin D1 reporter assays, endogenous cyclin D1 levels are not affected following antagonism of the Wnt pathway in vitro, nor is cyclin D1 immediately up-regulated following conditional loss of Apc in vivo. Cyclin D1 levels do, however, increase in a delayed manner in a small subset of cells, suggesting such up-regulation occurs as a secondary event. We also analyzed the immediate consequences of Apc loss in a cyclin D1(-/-) background and failed to find any cyclin D1-dependent phenotypes. However, we did observe elevated cyclin D1 expression in lesions developing 20 days after Apc loss. In these circumstances, all adenomas (but not smaller lesions) showed cyclin D1 up-regulation. Finally in a smaller study, we analyzed whether cyclin D1 deficiency affected adenoma formation 20 days following induced loss of Apc. Unlike AhCre(+) Apc(fl/fl) mice (which all developed adenomas), doubly mutant AhCre(+) Apc(fl/fl) cyclin D1(-/-) mice only developed small lesions. Taken together, this argues that cyclin D1 up-regulation in intestinal neoplasia is important for tumor progression rather than initiation.
 
 ---
-### 679. The rac activator Tiam1 is a Wnt-responsive gene that modifies intestinal tumor development
+### 678. The rac activator Tiam1 is a Wnt-responsive gene that modifies intestinal tumor development
 
 **Citation.** Malliri A, Rygiel TP, van der Kammen RA, Song J, Engers R, Hurlstone AFL, Clevers H, Collard JG. The rac activator Tiam1 is a Wnt-responsive gene that modifies intestinal tumor development. J Biol Chem. 2005;281(1):543-8.
 
@@ -24232,7 +24164,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Mutations in the canonical Wnt signaling pathway leading to its activation are known to cause the majority of intestinal tumors. However, few genes targeted by this pathway have been demonstrated to affect tumor development in vivo. Here we show that Tiam1, a selective Rac GTPase activator, is a Wnt-responsive gene expressed in the base of intestinal crypts and up-regulated in mouse intestinal tumors and human colon adenomas. Moreover, by comparing tumor development in APC mutant Min (multiple intestinal neoplasia) mice expressing or lacking Tiam1, we found that Tiam1 deficiency significantly reduces the formation and growth of polyps in vivo. However, invasion of malignant intestinal tumors is enhanced by a lack of Tiam1. In line with this, knock-down of Tiam1 reduced the growth potential of human colorectal cancer cells and their ability to form E-cadherin-based adhesions, a prerequisite for local invasion of tumor cells. Our data indicate a novel cross-talk between Tiam1-Rac and canonical Wnt-signaling pathways that influences intestinal tumor formation and progression.
 
 ---
-### 680. FoxM1 is required for execution of the mitotic programme and chromosome stability
+### 679. FoxM1 is required for execution of the mitotic programme and chromosome stability
 
 **Citation.** Laoukili J, Kooistra MRH, Brás A, Kauw J, Kerkhoven RM, Morrison A, Clevers H, Medema RH. FoxM1 is required for execution of the mitotic programme and chromosome stability. Nat Cell Biol. 2005;7(2):126-36.
 
@@ -24258,7 +24190,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Transcriptional induction of cell-cycle regulatory proteins ensures proper timing of subsequent cell-cycle events. Here we show that the Forkhead transcription factor FoxM1 regulates expression of many G2-specific genes and is essential for chromosome stability. Loss of FoxM1 leads to pleiotropic cell-cycle defects, including a delay in G2, chromosome mis-segregation and frequent failure of cytokinesis. We show that transcriptional activation of cyclin B by FoxM1 is essential for timely mitotic entry, whereas CENP-F, another direct target of FoxM1 identified here, is essential for precise functioning of the mitotic spindle checkpoint. Thus, our data uncover a transcriptional cluster regulated by FoxM1 that is essential for proper mitotic progression.
 
 ---
-### 681. Wnt signalling induces maturation of Paneth cells in intestinal crypts
+### 680. Wnt signalling induces maturation of Paneth cells in intestinal crypts
 
 **Citation.** van Es JH, Jay P, Gregorieff A, van Gijn ME, Jonkheer S, Hatzis P, Thiele A, van den Born M, Begthel H, Brabletz T, Taketo MM, Clevers H. Wnt signalling induces maturation of Paneth cells in intestinal crypts. Nat Cell Biol. 2005;7(4):381-6.
 
@@ -24288,7 +24220,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Wnt signalling, which is transduced through beta-catenin/TCF4, maintains the undifferentiated state of intestinal crypt progenitor cells. Mutational activation of the pathway initiates the adenomacarcinoma sequence. Whereas all other differentiated epithelial cells migrate from the crypt onto the villus, Paneth cells home towards the source of Wnt signals--that is, the crypt bottom. Here, we show that expression of a Paneth gene programme is critically dependent on TCF4 in embryonic intestine. Moreover, conditional deletion of the Wnt receptor Frizzled-5 abrogates expression of these genes in Paneth cells in the adult intestine. Conversely, adenomas in Apc-mutant mice and colorectal cancers in humans inappropriately express these Paneth-cell genes. These observations imply that Wnt signals in the crypt can separately drive a stem-cell/progenitor gene programme and a Paneth-cell maturation programme. In intestinal cancer, both gene programmes are activated simultaneously.
 
 ---
-### 682. Stem cells, asymmetric division and cancer
+### 681. Stem cells, asymmetric division and cancer
 
 **Citation.** Clevers H. Stem cells, asymmetric division and cancer. Nat Genet. 2005;37(10):1027-8.
 
@@ -24302,10 +24234,10 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 683. WNT signalling and haematopoiesis: a WNT-WNT situation
+### 682. WNT signalling and haematopoiesis: a WNT-WNT situation
 
 **Citation.** Staal FJT, Clevers HC. WNT signalling and haematopoiesis: a WNT-WNT situation. Nat Rev Immunol. 2005;5(1):21-30.
 
@@ -24325,7 +24257,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** The evolutionarily conserved WNT-signalling pathway has pivotal roles during the development of many organ systems, and dysregulated WNT signalling is a key factor in the initiation of various tumours. Recent studies have implicated a role for WNT signal transduction at several stages of lymphocyte development and in the self-renewal of haematopoietic stem cells. Here, we outline new insights into the WNT-signalling pathway, review its role in the self-renewal of haematopoietic stem cells and in the development of T and B cells, and discuss controversies and future developments with regard to WNT signalling in the thymus.
 
 ---
-### 684. EphB receptor activity suppresses colorectal cancer progression
+### 683. EphB receptor activity suppresses colorectal cancer progression
 
 **Citation.** Batlle E, Bacani J, Begthel H, Jonkheer S, Gregorieff A, van de Born M, Malats N, Sancho E, Boon E, Pawson T, Gallinger S, Pals S, Clevers H. EphB receptor activity suppresses colorectal cancer progression. Nature. 2005;435(7045):1126-30.
 
@@ -24356,7 +24288,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Most sporadic colorectal cancers are initiated by activating Wnt pathway mutations, characterized by the stabilization of beta-catenin and constitutive transcription by the beta-catenin/T cell factor-4 (Tcf-4) complex. EphB guidance receptors are Tcf4 target genes that control intestinal epithelial architecture through repulsive interactions with Ephrin-B ligands. Here we show that, although Wnt signalling remains constitutively active, most human colorectal cancers lose expression of EphB at the adenoma-carcinoma transition. Loss of EphB expression strongly correlates with degree of malignancy. Furthermore, reduction of EphB activity accelerates tumorigenesis in the colon and rectum of Apc(Min/+) mice, and results in the formation of aggressive adenocarcinomas. Our data demonstrate that loss of EphB expression represents a critical step in colorectal cancer progression.
 
 ---
-### 685. Notch/gamma-secretase inhibition turns proliferative cells in intestinal crypts and adenomas into goblet cells
+### 684. Notch/gamma-secretase inhibition turns proliferative cells in intestinal crypts and adenomas into goblet cells
 
 **Citation.** van Es JH, van Gijn ME, Riccio O, van den Born M, Vooijs M, Begthel H, Cozijnsen M, Robine S, Winton DJ, Radtke F, Clevers H. Notch/gamma-secretase inhibition turns proliferative cells in intestinal crypts and adenomas into goblet cells. Nature. 2005;435(7044):959-63.
 
@@ -24385,7 +24317,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** The self-renewing epithelium of the small intestine is ordered into stem/progenitor crypt compartments and differentiated villus compartments. Recent evidence indicates that the Wnt cascade is the dominant force in controlling cell fate along the crypt-villus axis. Here we show a rapid, massive conversion of proliferative crypt cells into post-mitotic goblet cells after conditional removal of the common Notch pathway transcription factor CSL/RBP-J. We obtained a similar phenotype by blocking the Notch cascade with a gamma-secretase inhibitor. The inhibitor also induced goblet cell differentiation in adenomas in mice carrying a mutation of the Apc tumour suppressor gene. Thus, maintenance of undifferentiated, proliferative cells in crypts and adenomas requires the concerted activation of the Notch and Wnt cascades. Our data indicate that gamma-secretase inhibitors, developed for Alzheimer's disease, might be of therapeutic benefit in colorectal neoplastic disease.
 
 ---
-### 686. Wnt signalling in stem cells and cancer
+### 685. Wnt signalling in stem cells and cancer
 
 **Citation.** Reya T, Clevers H. Wnt signalling in stem cells and cancer. Nature. 2005;434(7035):843-50.
 
@@ -24405,7 +24337,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** The canonical Wnt cascade has emerged as a critical regulator of stem cells. In many tissues, activation of Wnt signalling has also been associated with cancer. This has raised the possibility that the tightly regulated self-renewal mediated by Wnt signalling in stem and progenitor cells is subverted in cancer cells to allow malignant proliferation. Insights gained from understanding how the Wnt pathway is integrally involved in both stem cell and cancer cell maintenance and growth in the intestinal, epidermal and haematopoietic systems may serve as a paradigm for understanding the dual nature of self-renewal signals.
 
 ---
-### 687. Self-renewal and cancer of the gut: two sides of a coin
+### 686. Self-renewal and cancer of the gut: two sides of a coin
 
 **Citation.** Radtke F, Clevers H. Self-renewal and cancer of the gut: two sides of a coin. Science. 2005;307(5717):1904-9.
 
@@ -24425,7 +24357,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** The intestinal epithelium follows the paradigms of stem cell biology established for other self-renewing tissues. With a unique topology, it constitutes a two-dimensional structure folded into valleys and hills: the proliferative crypts and the differentiated villi. Its unprecedented self-renewal rate appears reflected in a high susceptibility to malignant transformation. The molecular mechanisms that control homeostatic self-renewal and those that underlie colorectal cancer are remarkably symmetrical. Here, we discuss the biology of the intestinal epithelium, emphasizing the roles played by Wnt, bone morphogenic protein, and Notch signaling cascades in epithelial self-renewal and cancer.
 
 ---
-### 688. Notch and Wnt inhibitors as potential new drugs for intestinal neoplastic disease
+### 687. Notch and Wnt inhibitors as potential new drugs for intestinal neoplastic disease
 
 **Citation.** van Es JH, Clevers H. Notch and Wnt inhibitors as potential new drugs for intestinal neoplastic disease. Trends Mol Med. 2005;11(11):496-502.
 
@@ -24448,7 +24380,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 
 ## 2004
 
-### 689. Signaling pathways in intestinal development and cancer
+### 688. Signaling pathways in intestinal development and cancer
 
 **Citation.** Sancho E, Batlle E, Clevers H. Signaling pathways in intestinal development and cancer. Annu Rev Cell Dev Biol. 2004;20:695-723.
 
@@ -24469,7 +24401,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** The study of the epithelium of the adult mammalian intestine touches upon many modern aspects of biology. The epithelium is in a constant dialogue with the underlying mesenchyme to control stem cell activity, proliferation in transit-amplifying compartments, lineage commitment, terminal differentiation and, ultimately, cell death. There are spatially distinct compartments dedicated to each of these events. The Wnt, TGF-beta, BMP, Notch, and Par polarity pathways are the major players in homeostatic control of the adult epithelium. Several hereditary cancer syndromes deregulate these same signaling cascades through mutational (in)activation. Moreover, these mutations often also occur in sporadic tumors. Thus symmetry exists between the roles that these signaling pathways play in physiology and in cancer of the intestine. This is particularly evident for the Wnt/APC pathway, for which the mammalian intestine has become one of the most-studied paradigms. Here, we integrate recent knowledge of the molecular inner workings of the prototype signaling cascades with their specific roles in intestinal epithelial homeostasis and in neoplastic transformation of the epithelium.
 
 ---
-### 690. The recurrent translocation t(14;20)(q32;q12) in multiple myeloma results in aberrant expression of MAFB: a molecular and genetic analysis of the chromosomal breakpoint
+### 689. The recurrent translocation t(14;20)(q32;q12) in multiple myeloma results in aberrant expression of MAFB: a molecular and genetic analysis of the chromosomal breakpoint
 
 **Citation.** Boersma-Vreugdenhil GR, Kuipers J, Van Stralen E, Peeters T, Michaux L, Hagemeijer A, Pearson PL, Clevers HC, Bast BJEG. The recurrent translocation t(14;20)(q32;q12) in multiple myeloma results in aberrant expression of MAFB: a molecular and genetic analysis of the chromosomal breakpoint. Br J Haematol. 2004;126(3):355-63.
 
@@ -24496,7 +24428,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Chromosomal translocations of the immunoglobulin heavy chain (IgH) gene region at 14q32 are regularly involved in B lymphoid malignancies; they may initiate transformation either by deregulation of existing (proto) oncogenes or creation of new hybrid genes with transforming properties. Previously, we reported a reciprocal novel translocation, t(14;20)(q32;q12), found in the myeloma cell line UM3. In this cell line, the t(14;20) is the only translocation involving the IgH locus. Using double colour immunofluorescence in situ hybridization, the t(14;20) was also found in the diagnostic bone marrow sample, excluding a possible in vitro artefact. We also have found this recurrent t(14;20) in four other cell lines and in additional patient material. We cloned the regions containing the breakpoints in the der(14) and der(20) chromosomes from UM3, and analysed ectopic mRNA expression of genes in the breakpoint regions of both derivative chromosomes. Ectopic gene expression was observed for the transcription factor MAFB in der(14). The breakpoint scatter in the five cell lines with a t(14;20)--all expressing MAFB--is comprised within a region of 0.8 Mb. Provisional data indicate that this t(14;20) is associated with an adverse prognosis. Aberrant expression of MAFB may be involved in the oncogenic transformation of myeloma cells that harbour the t(14;20).
 
 ---
-### 691. Wnt breakers in colon cancer
+### 690. Wnt breakers in colon cancer
 
 **Citation.** Clevers H. Wnt breakers in colon cancer. Cancer Cell. 2004;5(1):5-6.
 
@@ -24515,7 +24447,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Beta-catenin and Tcf4 are the downstream effectors of the Wnt signaling cascade. In colorectal cancer, mutations in Wnt cascade genes such as APC lead to the inappropriate formation of beta-catenin/Tcf4 complexes. Earlier work has predicted that disruption of the beta-catenin/Tcf4 protein-protein interaction could revert the proliferative phenotype of colorectal cancer cells. In this issue of Cancer Cell, Shivdasani and colleagues have explored high-throughput screening of compound libraries in a search for small molecule inhibitors of the Wnt cascade. Ultimately, such inhibitors could become a novel class of smart anticancer drugs.
 
 ---
-### 692. At the crossroads of inflammation and cancer
+### 691. At the crossroads of inflammation and cancer
 
 **Citation.** Clevers H. At the crossroads of inflammation and cancer. Cell. 2004;118(6):671-4.
 
@@ -24534,7 +24466,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Chronic inflammation and cancer are closely associated in the intestine. Anti-inflammatory medication reduces intestinal neoplasia, while colorectal cancer incidence is increased in ulcerative colitis. Cyclooxygenases are key to both diseases, yet the molecular basis of the association remains incompletely understood. Two recent Cell (Greten et al., 2004; Rakoff-Nahoum et al., 2004) papers illuminate roles of Toll-like receptors and the NF-kappaB pathway in the control of epithelial homeostasis in health and disease.
 
 ---
-### 693. Complete polarization of single intestinal epithelial cells upon activation of LKB1 by STRAD
+### 692. Complete polarization of single intestinal epithelial cells upon activation of LKB1 by STRAD
 
 **Citation.** Baas AF, Kuipers J, van der Wel NN, Batlle E, Koerten HK, Peters PJ, Clevers HC. Complete polarization of single intestinal epithelial cells upon activation of LKB1 by STRAD. Cell. 2004;116(3):457-66.
 
@@ -24559,7 +24491,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** The LKB1 gene encodes a serine/threonine kinase that is mutated in the Peutz-Jeghers cancer syndrome. LKB1 is homologous to the Par-4 polarity genes in C. elegans and D. melanogaster. We have previously reported the identification and characterization of an LKB1-specific adaptor protein, STRAD, which activates LKB1 and translocates it from nucleus to cytoplasm. We have now constructed intestinal epithelial cell lines in which inducible STRAD activates LKB1. Upon LKB1 activation, single cells rapidly remodel their actin cytoskeleton to form an apical brush border. The junctional proteins ZO-1 and p120 redistribute in a dotted circle peripheral to the brush border, in the absence of cell-cell contacts. Apical and basolateral markers sort to their respective membrane domains. We conclude that LKB1 can induce complete polarity in intestinal epithelial cells. In contrast to current thinking on polarization of simple epithelia, these cells can fully polarize in the absence of junctional cell-cell contacts.
 
 ---
-### 694. Wnt signaling: Ig-norrin the dogma
+### 693. Wnt signaling: Ig-norrin the dogma
 
 **Citation.** Clevers H. Wnt signaling: Ig-norrin the dogma. Curr Biol. 2004;14(11):R436-7.
 
@@ -24578,7 +24510,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Secreted Wnt proteins trigger the intracellular Wnt signaling cascade upon engagement of dedicated Frizzled-Lrp receptor complexes. Unexpectedly, a non-Wnt ligand for this receptor complex has now been discovered. This novel ligand, Norrin, is mutated in the hereditary ocular Norrie syndrome.
 
 ---
-### 695. Signaling mucins in the (S)limelight
+### 694. Signaling mucins in the (S)limelight
 
 **Citation.** Clevers H. Signaling mucins in the (S)limelight. Dev Cell. 2004;7(2):150-1.
 
@@ -24597,7 +24529,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Mucins may be the ugly ducklings of molecular biology. Their large size, repetitive nature, and unglamorous biological activities have not favored their study. However, integral membrane mucins have conserved intracellular C termini that may influence intracellular signaling. In a recent issue of Genes & Development, Cullen et al. show that the C terminus of membrane mucin-like Msb2 activates a CDC42/MAPK cascade to control filamentous growth of baker's yeast.
 
 ---
-### 696. Hindgut defects and transformation of the gastro-intestinal tract in Tcf4(-/-)/Tcf1(-/-) embryos
+### 695. Hindgut defects and transformation of the gastro-intestinal tract in Tcf4(-/-)/Tcf1(-/-) embryos
 
 **Citation.** Gregorieff A, Grosschedl R, Clevers H. Hindgut defects and transformation of the gastro-intestinal tract in Tcf4(-/-)/Tcf1(-/-) embryos. EMBO J. 2004;23(8):1825-33.
 
@@ -24618,7 +24550,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Wnt signalling plays a critical role in both initiating and patterning of the anterior-posterior axis during development. Wnts exert their biological effects, in part, by activating specific target genes through members of the TCF/LEF family of transcription factors. To gain new insight into the role of T-cell factors (or Tcf's) during development, we analysed Tcf4 and Tcf1 compound null embryos. These mutants showed severe caudal truncations, as well as duplications of the neural tube. Unlike other mutations affecting Wnt signalling, paraxial mesoderm formation was not impaired and early caudal markers, such as T, were unaffected. Analysis of endodermal markers uncovered early and specific defects in hindgut expansion, and later an anterior transformation of the gastro-intestinal tract. Our results reveal a novel role for Wnt signalling in early gut morphogenesis and suggest that specific Wnt-driven patterning events are determined by the unique tissue distribution of Tcf/Lef family members.
 
 ---
-### 697. Loss of Apc in vivo immediately perturbs Wnt signaling, differentiation, and migration
+### 696. Loss of Apc in vivo immediately perturbs Wnt signaling, differentiation, and migration
 
 **Citation.** Sansom OJ, Reed KR, Hayes AJ, Ireland H, Brinkmann H, Newton IP, Batlle E, Simon-Assmann P, Clevers H, Nathke IS, Clarke AR, Winton DJ. Loss of Apc in vivo immediately perturbs Wnt signaling, differentiation, and migration. Genes Dev. 2004;18(12):1385-90.
 
@@ -24648,7 +24580,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Although Apc is well characterized as a tumor-suppressor gene in the intestine, the precise mechanism of this suppression remains to be defined. Using a novel inducible Ahcre transgenic line in conjunction with a loxP-flanked Apc allele we, show that loss of Apc acutely activates Wnt signaling through the nuclear accumulation of beta-catenin. Coincidentally, it perturbs differentiation, migration, proliferation, and apoptosis, such that Apc-deficient cells maintain a "crypt progenitor-like" phenotype. Critically, for the first time we confirm a series of Wnt target molecules in an in vivo setting and also identify a series of new candidate targets within the same setting.
 
 ---
-### 698. Aberrant polycystin-1 expression results in modification of activator protein-1 activity, whereas Wnt signaling remains unaffected
+### 697. Aberrant polycystin-1 expression results in modification of activator protein-1 activity, whereas Wnt signaling remains unaffected
 
 **Citation.** Le NH, van der Bent P, Huls G, van de Wetering M, Loghman-Adham M, Ong ACM, Calvet JP, Clevers H, Breuning MH, van Dam H, Peters DJM. Aberrant polycystin-1 expression results in modification of activator protein-1 activity, whereas Wnt signaling remains unaffected. J Biol Chem. 2004;279(26):27472-81.
 
@@ -24677,7 +24609,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Polycystin-1, the polycystic kidney disease 1 gene product, has been implicated in several signaling complexes that are known to regulate essential cellular functions. We investigated the role of polycystin-1 in Wnt signaling and activator protein-1 (AP-1) activation. To this aim, a membrane-targeted construct encoding the conserved C-terminal region of mouse polycystin-1 reported to mediate signal transduction activity was expressed in human embryonic and renal epithelial cells. To ensure specificity and minimal cotransfection effects, we focused our study on the endogenous proteins that actually transduce the signals, beta-catenin and T-cell factor/lymphoid-enhancing factor for Wnt signaling and (phosphorylated) c-Jun, ATF2, and c-Fos for AP-1. Our data indicate that the C-terminal region of polycystin-1 activates AP-1 by inducing phosphorylation and expression of at least c-Jun and ATF2, whereas c-Fos was not affected. Under our experimental conditions, polycystin-1 did not modulate Wnt signaling. AP-1 activity was aberrant in human autosomal dominant polycystic kidney disease (ADPKD) renal cystic epithelial cells and in renal epithelial cells expressing transgenic full-length polycystin-1, resulting in decreased Jun-ATF and increased Jun-Fos activity, whereas Wnt signaling remained unaffected. Since our data indicate that aberrant polycystin-1 expression results in altered AP-1 activity, polycystin-1 may be required for adequate AP-1 activity.
 
 ---
-### 699. Wnt activates the Tak1/Nemo-like kinase pathway
+### 698. Wnt activates the Tak1/Nemo-like kinase pathway
 
 **Citation.** Smit L, Baas A, Kuipers J, Korswagen H, van de Wetering M, Clevers H. Wnt activates the Tak1/Nemo-like kinase pathway. J Biol Chem. 2004;279(17):17232-40.
 
@@ -24701,7 +24633,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Genetic studies on endoderm-mesoderm specification in Caenorhabditis elegans have demonstrated a role for several Wnt cascade components as well as for a MAPK-like pathway in this process. The latter pathway includes the MAPK kinase kinase-like MOM-4/Tak1, its adaptor TAP-1/Tab1, and the MAPK-like LIT-1/Nemo-like kinase. A model has been proposed in which the Tak1 kinase cascade counteracts the Wnt cascade at the level of beta-catenin/TCF phosphorylation. In this model, the signal that activates the Tak1 kinase cascade is unknown. As an alternative explanation of these genetic data, we have explored whether Tak1 is directly activated by Wnt. We find that Wnt1 stimulation results in autophosphorylation and activation of MOM-4/Tak1 in a TAP-1/Tab1-dependent fashion. Wnt1-induced Tak1 stimulation activates Nemo-like kinase, resulting in the phosphorylation of TCF. Our results combined with the genetic data from C. elegans imply a mechanism whereby Wnt directly activates the MOM-4/Tak1 kinase signaling pathway. Thus, Wnt signal transduction through the canonical pathway activates beta-catenin/TCF, whereas Wnt signal transduction through the Tak1 pathway phosphorylates and inhibits TCF, which might function as a feedback mechanism.
 
 ---
-### 700. SOX9 is an intestine crypt transcription factor, is regulated by the Wnt pathway, and represses the CDX2 and MUC2 genes
+### 699. SOX9 is an intestine crypt transcription factor, is regulated by the Wnt pathway, and represses the CDX2 and MUC2 genes
 
 **Citation.** Blache P, van de Wetering M, Duluc I, Domon C, Berta P, Freund J, Clevers H, Jay P. SOX9 is an intestine crypt transcription factor, is regulated by the Wnt pathway, and represses the CDX2 and MUC2 genes. J Cell Biol. 2004;166(1):37-47.
 
@@ -24727,7 +24659,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** TCF and SOX proteins belong to the high mobility group box transcription factor family. Whereas TCFs, the transcriptional effectors of the Wnt pathway, have been widely implicated in the development, homeostasis and disease of the intestine epithelium, little is known about the function of the SOX proteins in this tissue. Here, we identified SOX9 in a SOX expression screening in the mouse fetal intestine. We report that the SOX9 protein is expressed in the intestinal epithelium in a pattern characteristic of Wnt targets. We provide in vitro and in vivo evidence that a bipartite beta-catenin/TCF4 transcription factor, the effector of the Wnt signaling pathway, is required for SOX9 expression in epithelial cells. Finally, in colon epithelium-derived cells, SOX9 transcriptionally represses the CDX2 and MUC2 genes, normally expressed in the mature villus cells of the intestinal epithelium, and may therefore contribute to the Wnt-dependent maintenance of a progenitor cell phenotype.
 
 ---
-### 701. Illegitimate WNT signaling promotes proliferation of multiple myeloma cells
+### 700. Illegitimate WNT signaling promotes proliferation of multiple myeloma cells
 
 **Citation.** Derksen PWB, Tjin E, Meijer HP, Klok MD, MacGillavry HD, van Oers MHJ, Lokhorst HM, Bloem AC, Clevers H, Nusse R, van der Neut R, Spaargaren M, Pals ST. Illegitimate WNT signaling promotes proliferation of multiple myeloma cells. Proc Natl Acad Sci U S A. 2004;101(16):6122-7.
 
@@ -24758,7 +24690,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** The unrestrained growth of tumor cells is generally attributed to mutations in essential growth control genes, but tumor cells are also influenced by signals from the environment. In multiple myeloma (MM), the factors and signals coming from the bone marrow microenvironment are possibly even essential for the growth of the tumor cells. As targets for intervention, these signals may be equally important as mutated oncogenes. Given their oncogenic potential, WNT signals form a class of paracrine growth factors that could act to influence MM cell growth. In this paper, we report that MM cells have hallmarks of active WNT signaling, whereas the cells have not undergone detectable mutations in WNT signaling genes such as adenomatous polyposis coli and beta-catenin (CTNNB1). We show that the malignant MM plasma cells overexpress beta-catenin, including its N-terminally unphosphorylated form, suggesting active beta-catenin/T cell factor-mediated transcription. Further accumulation and nuclear localization of beta-catenin, and/or increased cell proliferation, was achieved by stimulation of WNT signaling with either Wnt3a, LiCl, or the constitutively active S33Y mutant of beta-catenin. In contrast, by blocking WNT signaling by dominant-negative T cell factor, we can interfere with the growth of MM cells. We therefore suggest that MM cells are dependent on an active WNT signal, which may have important implications for the management of this incurable form of cancer.
 
 ---
-### 702. De novo crypt formation and juvenile polyposis on BMP inhibition in mouse intestine
+### 701. De novo crypt formation and juvenile polyposis on BMP inhibition in mouse intestine
 
 **Citation.** Haramis AG, Begthel H, van den Born M, van Es J, Jonkheer S, Offerhaus GJA, Clevers H. De novo crypt formation and juvenile polyposis on BMP inhibition in mouse intestine. Science. 2004;303(5664):1684-6.
 
@@ -24783,7 +24715,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Little is known about the signaling mechanisms that determine the highly regular patterning of the intestinal epithelium into crypts and villi. With the use of mouse models, we show that bone morphogenetic protein (BMP)-4 expression occurs exclusively in the intravillus mesenchyme. Villus epithelial cells respond to the BMP signal. Inhibition of BMP signaling by transgenic expression of noggin results in the formation of numerous ectopic crypt units perpendicular to the crypt-villus axis. These changes phenocopy the intestinal histopathology of patients with the cancer predisposition syndrome juvenile polyposis (JP), including the frequent occurrence of intraepithelial neoplasia. Many JP cases are known to harbor mutations in BMP pathway genes. These data indicate that intestinal BMP signaling represses de novo crypt formation and polyp growth.
 
 ---
-### 703. LKB1 tumor suppressor protein: PARtaker in cell polarity
+### 702. LKB1 tumor suppressor protein: PARtaker in cell polarity
 
 **Citation.** Baas AF, Smit L, Clevers H. LKB1 tumor suppressor protein: PARtaker in cell polarity. Trends Cell Biol. 2004;14(6):312-9.
 
@@ -24807,7 +24739,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 
 ## 2003
 
-### 704. Caught up in a Wnt storm: Wnt signaling in cancer
+### 703. Caught up in a Wnt storm: Wnt signaling in cancer
 
 **Citation.** Giles RH, van Es JH, Clevers H. Caught up in a Wnt storm: Wnt signaling in cancer. Biochim Biophys Acta. 2003;1653(1):1-24.
 
@@ -24828,7 +24760,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** The Wnt signaling pathway, named for its most upstream ligands, the Wnts, is involved in various differentiation events during embryonic development and leads to tumor formation when aberrantly activated. Molecular studies have pinpointed activating mutations of the Wnt signaling pathway as the cause of approximately 90% of colorectal cancer (CRC), and somewhat less frequently in cancers at other sites, such as hepatocellular carcinoma (HCC). Ironically, Wnts themselves are only rarely involved in the activation of the pathway during carcinogenesis. Mutations mimicking Wnt stimulation-generally inactivating APC mutations or activating beta-catenin mutations-result in nuclear accumulation of beta-catenin which subsequently complexes with T-cell factor/lymphoid enhancing factor (TCF/LEF) transcription factors to activate gene transcription. Recent data identifying target genes has revealed a genetic program regulated by beta-catenin/TCF controlling the transcription of a suite of genes promoting cellular proliferation and repressing differentiation during embryogenesis, carcinogenesis, and in the post-embryonic regulation of cell positioning in the intestinal crypts. This review considers the spectra of tumors arising from active Wnt signaling and attempts to place perspective on recent data that begin to elucidate the mechanisms prompting uncontrolled cell growth following induction of Wnt signaling.
 
 ---
-### 705. Live and let die in the intestinal epithelium
+### 704. Live and let die in the intestinal epithelium
 
 **Citation.** Sancho E, Batlle E, Clevers H. Live and let die in the intestinal epithelium. Curr Opin Cell Biol. 2003;15(6):763-70.
 
@@ -24849,7 +24781,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** The intestinal epithelium is a relatively simple developmental system and a prime example of tissue renewal from a source of multipotent stem cells. Throughout adulthood, intestinal epithelial proliferation, cell-fate specification and differentiation are coupled to migration in discrete units known as crypts of Lieberkühn. Physically guided by Eph receptors and their ligands, the ephrins, stem cell progeny transit through the proliferation/differentiation switch, and Notch diversifies their subsequent fates. Wnt signalling appears to control most of these events.
 
 ---
-### 706. You Wnt some, you lose some: oncogenes in the Wnt signaling pathway
+### 705. You Wnt some, you lose some: oncogenes in the Wnt signaling pathway
 
 **Citation.** van Es JH, Barker N, Clevers H. You Wnt some, you lose some: oncogenes in the Wnt signaling pathway. Curr Opin Genet Dev. 2003;13(1):28-33.
 
@@ -24870,7 +24802,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** The highly regulated Wnt signaling cascade plays a decisive role during embryonic patterning and cell-fate determination. The inappropriate expression of Wnt target genes, resulting from deregulation of this pathway, is also implicated in tumorigenesis. Thus, regulation of this pathway is of paramount importance. The Wnt signals are extracellularly regulated by a diverse group of antagonists, cofactors and coreceptors. In the cytoplasm, beta-catenin, a key effector of the Wnt signaling cascade, is highly regulated by a large and fascinating complex of proteins. In the nucleus, activation of target genes is regulated by a complex interplay of activators, repressors and other proteins. Recently, new factors in this pathway have been identified and the interplay and mechanisms of action of key players have been better characterized. Collectively, this represents an important step forward in our understanding of the role of Wnt signaling in development and oncogenesis.
 
 ---
-### 707. Wnt signaling in the thymus
+### 706. Wnt signaling in the thymus
 
 **Citation.** Staal FJT, Clevers HC. Wnt signaling in the thymus. Curr Opin Immunol. 2003;15(2):204-8.
 
@@ -24890,7 +24822,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Wnt proteins are secreted signaling molecules that regulate cell-to-cell interactions during embryogenesis in many different tissues and species. Wnt signaling is required for normal thymocyte development, most dramatically at the pro-T-cell stage, although recent reports also indicate a role for Wnt proteins in later stages of thymocyte differentiation. The Wnt cascade induces the interaction of the normally cytoplasmic cofactor beta-catenin with the nuclear Tcf and Lef transcription factors. Active Wnt signaling is an absolute requirement for T-cell development, as demonstrated by the complete block in thymocyte development observed in the absence of Tcf1 and Lef1, or in the presence of extracellular Wnt inhibitors.
 
 ---
-### 708. Beta-catenin regulates Cripto- and Wnt3-dependent gene expression programs in mouse axis and mesoderm formation
+### 707. Beta-catenin regulates Cripto- and Wnt3-dependent gene expression programs in mouse axis and mesoderm formation
 
 **Citation.** Morkel M, Huelsken J, Wakamiya M, Ding J, van de Wetering M, Clevers H, Taketo MM, Behringer RR, Shen MM, Birchmeier W. Beta-catenin regulates Cripto- and Wnt3-dependent gene expression programs in mouse axis and mesoderm formation. Development. 2003;130(25):6283-94.
 
@@ -24918,7 +24850,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Gene expression profiling of beta-catenin, Cripto and Wnt3 mutant mouse embryos has been used to characterise the genetic networks that regulate early embryonic development. We have defined genes whose expression is regulated by beta-catenin during formation of the anteroposterior axis and the mesoderm, and have identified Cripto, which encodes a Nodal co-receptor, as a primary target of beta-catenin signals both in embryogenesis as well as in colon carcinoma cell lines and tissues. We have also defined groups of genes regulated by Wnt3/beta-catenin signalling during primitive streak and mesoderm formation. Our data assign a key role to beta-catenin upstream of two distinct gene expression programs during anteroposterior axis and mesoderm formation.
 
 ---
-### 709. Activation of the tumour suppressor kinase LKB1 by the STE20-like pseudokinase STRAD
+### 708. Activation of the tumour suppressor kinase LKB1 by the STE20-like pseudokinase STRAD
 
 **Citation.** Baas AF, Boudeau J, Sapkota GP, Smit L, Medema R, Morrice NA, Alessi DR, Clevers HC. Activation of the tumour suppressor kinase LKB1 by the STE20-like pseudokinase STRAD. EMBO J. 2003;22(12):3062-72.
 
@@ -24944,7 +24876,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** The LKB1 gene encodes a serine/threonine kinase mutated in Peutz-Jeghers cancer syndrome. Despite several proposed models for LKB1 function in development and in tumour suppression, the detailed molecular action of LKB1 remains undefined. Here, we report the identification and characterization of an LKB1-specific adaptor protein and substrate, STRAD (STe20 Related ADaptor). STRAD consists of a STE20- like kinase domain, but lacks several residues that are indispensable for intrinsic catalytic activity. Endogenous LKB1 and STRAD form a complex in which STRAD activates LKB1, resulting in phosphorylation of both partners. STRAD determines the subcellular localization of wild-type, but not mutant LKB1, translocating it from nucleus to cytoplasm. One LKB1 mutation previously identified in a Peutz-Jeghers family that does not compromise its kinase activity is shown here to interfere with LKB1 binding to STRAD, and hence with STRAD-dependent regulation. Removal of endogenous STRAD by siRNA abrogates the LKB1-induced G(1) arrest. Our results imply that STRAD plays a key role in regulating the tumour suppressor activities of LKB1.
 
 ---
-### 710. MO25alpha/beta interact with STRADalpha/beta enhancing their ability to bind, activate and localize LKB1 in the cytoplasm
+### 709. MO25alpha/beta interact with STRADalpha/beta enhancing their ability to bind, activate and localize LKB1 in the cytoplasm
 
 **Citation.** Boudeau J, Baas AF, Deak M, Morrice NA, Kieloch A, Schutkowski M, Prescott AR, Clevers HC, Alessi DR. MO25alpha/beta interact with STRADalpha/beta enhancing their ability to bind, activate and localize LKB1 in the cytoplasm. EMBO J. 2003;22(19):5102-14.
 
@@ -24971,7 +24903,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Mutations in the LKB1 protein kinase result in the inherited Peutz Jeghers cancer syndrome. LKB1 has been implicated in regulating cell proliferation and polarity although little is known about how this enzyme is regulated. We recently showed that LKB1 is activated through its interaction with STRADalpha, a catalytically deficient pseudokinase. Here we show that endogenous LKB1-STRADalpha complex is associated with a protein of unknown function, termed MO25alpha, through the interaction of MO25alpha with the last three residues of STRADalpha. MO25alpha and STRADalpha anchor LKB1 in the cytoplasm, excluding it from the nucleus. Moreover, MO25alpha enhances the formation of the LKB1-STRADalpha complex in vivo, stimulating the catalytic activity of LKB1 approximately 10-fold. We demonstrate that the related STRADbeta and MO25beta isoforms are also able to stabilize LKB1 in an active complex and that it is possible to isolate complexes of LKB1 bound to STRAD and MO25 isoforms, in which the subunits are present in equimolar amounts. Our results indicate that MO25 may function as a scaffolding component of the LKB1-STRAD complex and plays a crucial role in regulating LKB1 activity and cellular localization.
 
 ---
-### 711. Specific inhibition of gene expression using a stably integrated, inducible small-interfering-RNA vector
+### 710. Specific inhibition of gene expression using a stably integrated, inducible small-interfering-RNA vector
 
 **Citation.** van de Wetering M, Oving I, Muncan V, Pon Fong MT, Brantjes H, van Leenen D, Holstege FCP, Brummelkamp TR, Agami R, Clevers H. Specific inhibition of gene expression using a stably integrated, inducible small-interfering-RNA vector. EMBO Rep. 2003;4(6):609-15.
 
@@ -24999,7 +24931,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** We have designed a doxycycline-regulated form of the H1 promoter of RNA polymerase III that allows the inducible knockdown of gene expression by small interfering RNAs (siRNAs). As a proof-of-principle, we have targeted beta-catenin in colorectal cancer (CRC) cells. T-cell factor (TCF) target-gene expression is induced by accumulated beta-catenin, and is the main transforming event in these cells. We have shown previously that the disruption of beta-catenin/TCF4 activity in CRC cells by the overexpression of dominant-negative TCF induces rapid G1 arrest and differentiation. Stable integration of our inducible siRNA vector allowed the rapid production of siRNAs on doxycycline induction, followed by specific downregulation of beta-catenin. In these CRC cells, TCF reporter-gene activity was inhibited, and G1 arrest and differentiation occurred. The inhibition of two other genes using this vector system shows that it should be useful for the inducible knockdown of gene expression.
 
 ---
-### 712. Redundant functions of TCF-1 and LEF-1 during T and NK cell development, but unique role of TCF-1 for Ly49 NK cell receptor acquisition
+### 711. Redundant functions of TCF-1 and LEF-1 during T and NK cell development, but unique role of TCF-1 for Ly49 NK cell receptor acquisition
 
 **Citation.** Held W, Clevers H, Grosschedl R. Redundant functions of TCF-1 and LEF-1 during T and NK cell development, but unique role of TCF-1 for Ly49 NK cell receptor acquisition. Eur J Immunol. 2003;33(5):1393-8.
 
@@ -25020,7 +24952,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Members of the TCF/LEF (T cell factor / lymphoid enhancer factor) family of DNA-binding factors play important roles during embryogenesis, the establishment and/or maintenance of self-renewing tissues such as the immune system and for malignant transformation. Specifically, it has been shown that TCF-1 is required for T cell development. A role for LEF-1 became apparent when mice harbored two hypomorphic TCF-1 alleles and consequently expressed low levels of TCF-1. Here we show that NK cell development is similarly regulated by redundant functions of TCF-1 and LEF-1, whereby TCF-1 contributes significantly more to NK cell development than LEF-1. Despite this role for NK cell development, LEF-1 is not required for the establishment of a repertoire of MHC class I-specific Ly49 receptors on NK cells. The proper formation of this repertoire depends to a large extent on TCF-1. These findings suggest common and distinct functions of TCF-1 and LEF-1 during lymphocyte development.
 
 ---
-### 713. Canonical Wnt signals are essential for homeostasis of the intestinal epithelium
+### 712. Canonical Wnt signals are essential for homeostasis of the intestinal epithelium
 
 **Citation.** Pinto D, Gregorieff A, Begthel H, Clevers H. Canonical Wnt signals are essential for homeostasis of the intestinal epithelium. Genes Dev. 2003;17(14):1709-13.
 
@@ -25042,7 +24974,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** To assess the critical role of Wnt signals in intestinal crypts, we generated transgenic mice ectopically expressing Dickkopf1 (Dkk1), a secreted Wnt inhibitor. We find that epithelial proliferation is greatly reduced coincidentally with the loss of crypts. Although enterocyte differentiation appears unaffected, secretory cell lineages are largely absent. Disrupted intestinal homeostasis is reflected by an absence of nuclear beta-catenin, inhibition of c-myc expression, and subsequent up-regulation of p21CIP1/WAF1. Thus, our data are the first to establish a direct requirement for Wnt ligands in driving proliferation in the intestinal epithelium, and also define an unexpected role for Wnts in controlling secretory cell differentiation.
 
 ---
-### 714. Thymocyte development: drama without Brahma
+### 713. Thymocyte development: drama without Brahma
 
 **Citation.** Clevers H. Thymocyte development: drama without Brahma. Immunity. 2003;19(2):157-8.
 
@@ -25058,10 +24990,10 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 
 1. Hubrecht Laboratory, Center for Biomedical Genetics, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 715. Differential contribution of the immunoreceptor tyrosine-based inhibitory motifs of human leukocyte-associated Ig-like receptor-1 to inhibitory function and phosphatase recruitment
+### 714. Differential contribution of the immunoreceptor tyrosine-based inhibitory motifs of human leukocyte-associated Ig-like receptor-1 to inhibitory function and phosphatase recruitment
 
 **Citation.** Verbrugge A, Ruiter Td Td, Clevers H, Meyaard L. Differential contribution of the immunoreceptor tyrosine-based inhibitory motifs of human leukocyte-associated Ig-like receptor-1 to inhibitory function and phosphatase recruitment. Int Immunol. 2003;15(11):1349-58.
 
@@ -25083,7 +25015,7 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 **Abstract.** Leukocyte-associated Ig-like receptor (LAIR)-1 is an inhibitory receptor expressed on most human leukocytes. It contains two immunoreceptor tyrosine-based inhibitory motifs (ITIM) in its cytoplasmic tail and recruits phosphatases upon phosphorylation. Here we show that both ITIM are required for full inhibition of cellular responses and optimal phosphatase recruitment. Mutation of the C-terminal ITIM still allows partial inhibition of the cytotoxic activity of the NK-like YT.2C2 cells, while mutation of the N-terminal ITIM completely abolishes this inhibitory activity. In contrast, in rat basophilic leukemia (RBL) cells, both mutants of LAIR-1 are partially effective. This is reflected in phosphorylation of these mutants in the different cell types upon pervanadate treatment. However, in both YT.2C2 cells and RBL cells, only the mutant containing the N-terminal ITIM recruits Src homology 2 domain-containing tyrosine phosphatase-2 (SHP-2), while the mutant containing the C-terminal ITIM does not. In RBL cells the mutant containing only the N-terminal ITIM also binds SHP-1, although to a lesser extent than wild-type LAIR-1. We find that in Jurkat T cells Lck is required for the association of SHP-1 with LAIR-1. Co-expression with Lck in 293T cells leads to phosphorylation of both wild-type LAIR-1 and the mutant containing only the N-terminal ITIM, while the mutant lacking this ITIM is not phosphorylated. These results indicate that Lck, or another Src family kinase, is essential for the consecutive phosphorylation of the N- and C-terminal ITIM. Our data imply that the N-terminal ITIM is dominant in LAIR-1 signaling, but that both ITIM contribute to an optimal inhibitory function.
 
 ---
-### 716. Retraction
+### 715. Retraction
 
 **Citation.** Meyaard L, van der Vuurst de Vries A, de Ruiter T, Lanier LL, Phillips JH, Clevers H. Retraction. J Exp Med. 2003;198(7):1129.
 
@@ -25102,10 +25034,10 @@ Our study predicts a much broader role for Wnt signaling in gut development and 
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 717. Survivin and molecular pathogenesis of colorectal cancer
+### 716. Survivin and molecular pathogenesis of colorectal cancer
 
 **Citation.** Kim PJ, Plescia J, Clevers H, Fearon ER, Altieri DC. Survivin and molecular pathogenesis of colorectal cancer. Lancet. 2003;362(9379):205-9.
 
@@ -25134,7 +25066,7 @@ TCF/beta catenin stimulated a six-fold to 12-fold increased expression of the su
 Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-like phenotype to colonic crypt epithelium coupling enhanced cell proliferation with resistance to apoptosis, and contribute to the molecular pathogenesis of colorectal cancer.
 
 ---
-### 718. TCF and Groucho-related genes influence pituitary growth and development
+### 717. TCF and Groucho-related genes influence pituitary growth and development
 
 **Citation.** Brinkmeier ML, Potok MA, Cha KB, Gridley T, Stifani S, Meeldijk J, Clevers H, Camper SA. TCF and Groucho-related genes influence pituitary growth and development. Mol Endocrinol. 2003;17(11):2152-61.
 
@@ -25160,7 +25092,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Mutations in the prophet of PIT1 gene (PROP1) are the most common cause of multiple pituitary hormone deficiency in humans; however, the mechanism of PROP1 action is not well understood. We report that Prop1 is essential for dorsally restricted expression of a Groucho-related gene, transducin-like enhancer of split 3 (Tle3), which encodes a transcriptional corepressor. Deficiency of a related gene, amino terminal enhancer of split (Aes), causes pituitary anomalies and growth insufficiency. TLE3 and AES have been shown to interact with TCF/LEF (transcripiton factors of the T cell-specific and lymphoid enhancer specific group) family members in cell culture systems. In the absence of TCF4 (Tcf7L2), Prop1 levels are elevated, pituitary hyperplasia ensues and palate closure is abnormal. Thus, we demonstrate that Tcf4 and Aes influence pituitary growth and development, and place Tcf4 and Tle3 in the genetic hierarchy with Prop1.
 
 ---
-### 719. Armadillo/beta-catenin signals in the nucleus--proof beyond a reasonable doubt?
+### 718. Armadillo/beta-catenin signals in the nucleus--proof beyond a reasonable doubt?
 
 **Citation.** Bienz M, Clevers H. Armadillo/beta-catenin signals in the nucleus--proof beyond a reasonable doubt?. Nat Cell Biol. 2003;5(3):179-82.
 
@@ -25180,7 +25112,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Wnt signalling results in transcriptional stimulation of genes controlling normal and malignant development. A key effector of the canonical Wnt pathway is beta-catenin (also known as Drosophila melanogaster Armadillo (Arm)), thought to function as a nuclear co-activator of TCF transcription factors. This has been challenged by unexpected observations of membrane-bound Arm/beta-catenin signalling activity. Plausible explanations allow these observations to be reconciled with the large body of evidence supporting a nuclear function of Arm/beta-catenin.
 
 ---
-### 720. Notch1 functions as a tumor suppressor in mouse skin
+### 719. Notch1 functions as a tumor suppressor in mouse skin
 
 **Citation.** Nicolas M, Wolfer A, Raj K, Kummer JA, Mill P, van Noort M, Hui C, Clevers H, Dotto GP, Radtke F. Notch1 functions as a tumor suppressor in mouse skin. Nat Genet. 2003;33(3):416-21.
 
@@ -25208,7 +25140,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Notch proteins are important in binary cell-fate decisions and inhibiting differentiation in many developmental systems, and aberrant Notch signaling is associated with tumorigenesis. The role of Notch signaling in mammalian skin is less well characterized and is mainly based on in vitro studies, which suggest that Notch signaling induces differentiation in mammalian skin. Conventional gene targeting is not applicable to establishing the role of Notch receptors or ligands in the skin because Notch1-/- embryos die during gestation. Therefore, we used a tissue-specific inducible gene-targeting approach to study the physiological role of the Notch1 receptor in the mouse epidermis and the corneal epithelium of adult mice. Unexpectedly, ablation of Notch1 results in epidermal and corneal hyperplasia followed by the development of skin tumors and facilitated chemical-induced skin carcinogenesis. Notch1 deficiency in skin and in primary keratinocytes results in increased and sustained expression of Gli2, causing the development of basal-cell carcinoma-like tumors. Furthermore, Notch1 inactivation in the epidermis results in derepressed beta-catenin signaling in cells that should normally undergo differentiation. Enhanced beta-catenin signaling can be reversed by re-introduction of a dominant active form of the Notch1 receptor. This leads to a reduction in the signaling-competent pool of beta-catenin, indicating that Notch1 can inhibit beta-catenin-mediated signaling. Our results indicate that Notch1 functions as a tumor-suppressor gene in mammalian skin.
 
 ---
-### 721. The Wnt/beta-catenin pathway regulates cardiac valve formation
+### 720. The Wnt/beta-catenin pathway regulates cardiac valve formation
 
 **Citation.** Hurlstone AFL, Haramis AG, Wienholds E, Begthel H, Korving J, Van Eeden F, Cuppen E, Zivkovic D, Plasterk RHA, Clevers H. The Wnt/beta-catenin pathway regulates cardiac valve formation. Nature. 2003;425(6958):633-7.
 
@@ -25239,7 +25171,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 ## 2002
 
-### 722. Cloning and characterization of hELD/OSA1, a novel BRG1 interacting protein
+### 721. Cloning and characterization of hELD/OSA1, a novel BRG1 interacting protein
 
 **Citation.** Hurlstone AFL, Olave IA, Barker N, van Noort M, Clevers H. Cloning and characterization of hELD/OSA1, a novel BRG1 interacting protein. Biochem J. 2002;364(Pt 1):255-64.
 
@@ -25262,7 +25194,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** A highly conserved multisubunit enzymic complex, SWI/SNF, participates in the regulation of eukaryote gene expression through its ability to remodel chromatin. While a single component of SWI/SNF, Swi2 or a related protein, can perform this function in vitro, the other components appear to modulate the activity and specificity of the complex in vivo. Here we describe the cloning of hELD/OSA1, a 189 KDa human homologue of Drosophila Eld/Osa protein, a constituent of Drosophila SWI/SNF. By comparing conserved peptide sequences in Eld/Osa homologues we define three domains common to all family members. A putative DNA binding domain, or ARID (AT-rich DNA-interacting domain), may function in targetting SWI/SNF to chromatin. Two other domains unique to Eld/Osa proteins, EHD1 and EHD2, map to the C-terminus. We show that EHD2 mediates binding to Brahma-related gene 1 (BRG1), a human homologue of yeast Swi2. EHD1 and EHD2 also appear capable of interacting with each other. Using an antibody raised against EHD2 of hELD/OSA1, we detected Eld/Osa1 in endogenous SWI/SNF complexes derived from mouse brain.
 
 ---
-### 723. TCF: Lady Justice casting the final verdict on the outcome of Wnt signalling
+### 722. TCF: Lady Justice casting the final verdict on the outcome of Wnt signalling
 
 **Citation.** Brantjes H, Barker N, van Es J, Clevers H. TCF: Lady Justice casting the final verdict on the outcome of Wnt signalling. Biol Chem. 2002;383(2):255-61.
 
@@ -25284,7 +25216,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The Wnt signalling cascade plays an important role during embryonic patterning and cell fate determination and is highly conserved throughout evolution. Factors of the TCF/LEF HMG domain family (Tcfs) are the downstream effectors of this signal transduction pathway. Upon Wnt signalling, a cascade is initiated that results in the translocation of beta-catenin to the nucleus, where it interacts with Tcf to generate a transcriptionally active complex. This bipartite transcription factor is targeted to the upstream regulatory regions of Tcf target genes. In the absence of Wnt signals, beta-catenin is degraded in the cytoplasm via the ubiquitin-proteasome pathway. Several proteins are instrumental in achieving this tight regulation of beta-catenin levels in the cell, including adenomatous polyposis coli (APC), GSK3 beta, and Axin/Conductin. Deregulation of the Wnt signalling pathway is implicated in several forms of cancer, such as colon carcinoma and melanoma. This deregulation is achieved via mutation of APC, beta-catenin or Axin, resulting in elevated beta-catenin levels and the presence of constitutively active Tcf-beta-catenin complexes in the nucleus. The accompanying inappropriate activation of target genes is considered to be a critical, early event in this carcinogenesis. In addition to regulating beta-catenin levels, normal healthy cells have evolved a second level of regulation, by manipulating the activity of the Tcf proteins themselves. In the absence of Wnt signalling, Tcf complexes with several transcriptional repressor proteins ensuring active repression of Tcf target genes. In this review the dual role of Tcf proteins in the Wnt signalling cascade will be discussed.
 
 ---
-### 724. Wnt signaling regulates expression of the receptor tyrosine kinase met in colorectal cancer
+### 723. Wnt signaling regulates expression of the receptor tyrosine kinase met in colorectal cancer
 
 **Citation.** Boon EMJ, van der Neut R, van de Wetering M, Clevers H, Pals ST. Wnt signaling regulates expression of the receptor tyrosine kinase met in colorectal cancer. Cancer Res. 2002;62(18):5126-8.
 
@@ -25307,7 +25239,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Overexpression of the receptor tyrosine kinase Met is an early event in the colorectal adenoma-carcinoma sequence. This suggests a link with disruption of adenomatous polyposis coli-controlled regulation of beta-catenin/T-cell factor (TCF)-mediated transcriptional activation, which is crucial in initiating tumorigenesis. Indeed, in intestinal biopsies from patients with familial adenomatous polyposis, we find Met already overexpressed in dysplastic aberrant crypt foci, the earliest neoplastic lesions of colorectal cancer (CRC). Moreover, in CRC cells, induction of dominant-negative TCF proteins and the consequent abrogation of beta-catenin/TCF-mediated transcriptional activation lead to a strong down-regulation of Met expression. Our results indicate that Met expression is part of a genetic program controlled by the Wnt pathway and suggest a role for Met in controlling the turnover and differentiation of intestinal epithelium.
 
 ---
-### 725. Beta-catenin and TCF mediate cell positioning in the intestinal epithelium by controlling the expression of EphB/ephrinB
+### 724. Beta-catenin and TCF mediate cell positioning in the intestinal epithelium by controlling the expression of EphB/ephrinB
 
 **Citation.** Batlle E, Henderson JT, Beghtel H, van den Born MMW, Sancho E, Huls G, Meeldijk J, Robertson J, van de Wetering M, Pawson T, Clevers H. Beta-catenin and TCF mediate cell positioning in the intestinal epithelium by controlling the expression of EphB/ephrinB. Cell. 2002;111(2):251-63.
 
@@ -25336,7 +25268,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** In the small intestine, the progeny of stem cells migrate in precise patterns. Absorptive, enteroendocrine, and goblet cells migrate toward the villus while Paneth cells occupy the bottom of the crypts. We show here that beta-catenin and TCF inversely control the expression of the EphB2/EphB3 receptors and their ligand ephrin-B1 in colorectal cancer and along the crypt-villus axis. Disruption of EphB2 and EphB3 genes reveals that their gene products restrict cell intermingling and allocate cell populations within the intestinal epithelium. In EphB2/EphB3 null mice, the proliferative and differentiated populations intermingle. In adult EphB3(-/-) mice, Paneth cells do not follow their downward migratory path, but scatter along crypt and villus. We conclude that in the intestinal epithelium beta-catenin and TCF couple proliferation and differentiation to the sorting of cell populations through the EphB/ephrin-B system.
 
 ---
-### 726. The beta-catenin/TCF-4 complex imposes a crypt progenitor phenotype on colorectal cancer cells
+### 725. The beta-catenin/TCF-4 complex imposes a crypt progenitor phenotype on colorectal cancer cells
 
 **Citation.** van de Wetering M, Sancho E, Verweij C, de Lau W, Oving I, Hurlstone A, van der Horn K, Batlle E, Coudreuse D, Haramis AP, Tjon-Pon-Fong M, Moerer P, van den Born M, Soete G, Pals S, Eilers M, Medema R, Clevers H. The beta-catenin/TCF-4 complex imposes a crypt progenitor phenotype on colorectal cancer cells. Cell. 2002;111(2):241-50.
 
@@ -25372,7 +25304,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The transactivation of TCF target genes induced by Wnt pathway mutations constitutes the primary transforming event in colorectal cancer (CRC). We show that disruption of beta-catenin/TCF-4 activity in CRC cells induces a rapid G1 arrest and blocks a genetic program that is physiologically active in the proliferative compartment of colon crypts. Coincidently, an intestinal differentiation program is induced. The TCF-4 target gene c-MYC plays a central role in this switch by direct repression of the p21(CIP1/WAF1) promoter. Following disruption of beta-catenin/TCF-4 activity, the decreased expression of c-MYC releases p21(CIP1/WAF1) transcription, which in turn mediates G1 arrest and differentiation. Thus, the beta-catenin/TCF-4 complex constitutes the master switch that controls proliferation versus differentiation in healthy and malignant intestinal epithelial cells.
 
 ---
-### 727. WNT signaling and lymphocyte development
+### 726. WNT signaling and lymphocyte development
 
 **Citation.** van de Wetering M, de Lau W, Clevers H. WNT signaling and lymphocyte development. Cell. 2002;109 Suppl:S13-9.
 
@@ -25393,7 +25325,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Developmental studies in model organisms have revealed that cell fate decisions are governed by only a handful of highly conserved signal transduction cascades. Recent data indicate that at least two of these, the Wnt and the Notch cascades, have been recruited by the vertebrate immune system to control early lymphopoiesis.
 
 ---
-### 728. TCF transcription factors, mediators of Wnt-signaling in development and cancer
+### 727. TCF transcription factors, mediators of Wnt-signaling in development and cancer
 
 **Citation.** van Noort M, Clevers H. TCF transcription factors, mediators of Wnt-signaling in development and cancer. Dev Biol. 2002;244(1):1-8.
 
@@ -25410,10 +25342,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 1. Department of Immunology, UMC Utrecht, Heidelberglaan 100, Utrecht, 3584 CX, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 729. T-cell factors: turn-ons and turn-offs
+### 728. T-cell factors: turn-ons and turn-offs
 
 **Citation.** Hurlstone A, Clevers H. T-cell factors: turn-ons and turn-offs. EMBO J. 2002;21(10):2303-11.
 
@@ -25430,10 +25362,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 1. Department of Immunology and Centre for Biomedical Genetics, University Medical Centre Utrecht, Heidelberglaan 100, 3584 CX Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 730. Molecular causes of colon cancer
+### 729. Molecular causes of colon cancer
 
 **Citation.** Oving IM, Clevers HC. Molecular causes of colon cancer. Eur J Clin Invest. 2002;32(6):448-57.
 
@@ -25453,7 +25385,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Cells in a developing embryo communicate with each other through a limited number of intercellular signalling pathways, of which the Wnt signalling pathway is one. Little is known about the function of Wnt signalling beyond that in embryogenesis. However, recent insights into the molecular etiology of colon cancer have implied a central role for the Wnt signalling pathway. The malignant transformation of colorectal epithelium is well defined, leading to adenoma and sequentially carcinoma formation. Several genes that regulate the Wnt pathway are mutated in cancer of the human colon and other organs. All of these mutations lead to the inappropriate activation of the pathway, which instructs the cell to divide unrestrictedly. These insights now allow the Wnt pathway to be exploited as a new target for drug development in colon cancer.
 
 ---
-### 731. Identification of two novel regulated serines in the N terminus of beta-catenin
+### 730. Identification of two novel regulated serines in the N terminus of beta-catenin
 
 **Citation.** van Noort M, van de Wetering M, Clevers H. Identification of two novel regulated serines in the N terminus of beta-catenin. Exp Cell Res. 2002;276(2):264-72.
 
@@ -25474,7 +25406,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Beta-catenin plays a key role in the Wnt signaling cascade. The levels of beta-catenin within a cell are regulated via phosphorylation of the N terminus of beta-catenin by GSK-3beta. The phosphorylation leads to ubiquitination and subsequent degradation of the protein. Thus far three serines (S33, 37, 45) and one threonine (T41) are considered to be the substrates for GSK-3beta phosphorylation. Indeed, these amino acids are regularly mutated in tumors, resulting in beta-catenin molecules with enhanced transcriptional activity. Aligning N-terminal sequences of beta-catenin homologues of different species revealed two other highly conserved serines (S23, 29), which have also been found mutated in tumors. We show that these serines are modified in the same fashion as that of the known regulatory residues. During embryogenesis, the phosphorylation status of S23 and S29 appears to be actively regulated. Nevertheless, constructs harboring the mutations found in tumors fail to show enhanced transcriptional activity or transforming properties.
 
 ---
-### 732. The Axin-like protein PRY-1 is a negative regulator of a canonical Wnt pathway in C. elegans
+### 731. The Axin-like protein PRY-1 is a negative regulator of a canonical Wnt pathway in C. elegans
 
 **Citation.** Korswagen HC, Coudreuse DYM, Betist MC, van de Water S, Zivkovic D, Clevers HC. The Axin-like protein PRY-1 is a negative regulator of a canonical Wnt pathway in C. elegans. Genes Dev. 2002;16(10):1291-302.
 
@@ -25498,7 +25430,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Axin, APC, and the kinase GSK3 beta are part of a destruction complex that regulates the stability of the Wnt pathway effector beta-catenin. In C. elegans, several Wnt-controlled developmental processes have been described, but an Axin ortholog has not been found in the genome sequence and SGG-1/GSK3 beta, and the APC-related protein APR-1 have been shown to act in a positive, rather than negative fashion in Wnt signaling. We have shown previously that the EGL-20/Wnt-dependent expression of the homeobox gene mab-5 in the Q neuroblast lineage requires BAR-1/beta-catenin and POP-1/Tcf. Here, we have investigated how BAR-1 is regulated by the EGL-20 pathway. First, we have characterized a negative regulator of the EGL-20 pathway, pry-1. We show that pry-1 encodes an RGS and DIX domain-containing protein that is distantly related to Axin/Conductin. Our results demonstrate that despite its sequence divergence, PRY-1 is a functional Axin homolog. We show that PRY-1 interacts with BAR-1, SGG-1, and APR-1 and that overexpression of PRY-1 inhibits mab-5 expression. Furthermore, pry-1 rescues the zebrafish axin1 mutation masterblind, showing that it can functionally interact with vertebrate destruction complex components. Finally, we show that SGG-1, in addition to its positive regulatory role in early embryonic Wnt signaling, may function as a negative regulator of the EGL-20 pathway. We conclude that a highly divergent destruction complex consisting of PRY-1, SGG-1, and APR-1 regulates BAR-1/beta-catenin signaling in C. elegans.
 
 ---
-### 733. Wnt signaling controls the phosphorylation status of beta-catenin
+### 732. Wnt signaling controls the phosphorylation status of beta-catenin
 
 **Citation.** van Noort M, Meeldijk J, van der Zee R, Destree O, Clevers H. Wnt signaling controls the phosphorylation status of beta-catenin. J Biol Chem. 2002;277(20):17901-5.
 
@@ -25521,7 +25453,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** At the heart of the canonical Wnt signaling cascade, adenomatous polyposis coli (APC), axin, and GSK3 constitute the so-called destruction complex, which controls the stability of beta-catenin. It is generally believed that four conserved Ser/Thr residues in the N terminus of beta-catenin are the pivotal targets for the constitutively active serine kinase GSK3. In cells that do not receive Wnt signals, glycogen synthase kinase (GSK) is presumed to phosphorylate beta-catenin, thus marking the latter for proteasomal degradation. Wnt signaling inhibits GSK3 activity. As a consequence, beta-catenin would no longer be phosphorylated and accumulate to form nuclear complexes with TCF/LEF factors. Although mutations in or near the N-terminal Ser/Thr residues stabilize beta-catenin in several types of cancer, the hypothesis that Wnt signaling controls phosphorylation of these residues remains unproven. We have generated a monoclonal antibody that recognizes an epitope containing two of the four residues when both are not phosphorylated. The epitope is generated upon Wnt signaling as well as upon pharmacological inhibition of GSK3 by lithium, providing formal proof for the regulated phosphorylation of the Ser/Thr residues of beta-catenin by Wnt signaling. Immunohistochemical analysis of mouse embryos utilizing the antibody visualizes sites that transduce Wnt signals through the canonical Wnt cascade.
 
 ---
-### 734. Inflating cell numbers by Wnt
+### 733. Inflating cell numbers by Wnt
 
 **Citation.** Clevers H. Inflating cell numbers by Wnt. Mol Cell. 2002;10(6):1260-1.
 
@@ -25540,7 +25472,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** One of the prominent biological phenomena controlled by Wnt signaling is the expansion of cells with predefined fates. In the November 27, 2002, issue of Cell, Rosenfeld and colleagues describe an example of Wnt-controlled proliferation during genesis of the cardiac outflow tract and the pituitary gland. As a downstream target gene of the Wnt cascade, the bicoid-related transcription factor Pitx2 directly drives proliferation in these tissues.
 
 ---
-### 735. Negative feedback loop of Wnt signaling through upregulation of conductin/axin2 in colorectal and liver tumors
+### 734. Negative feedback loop of Wnt signaling through upregulation of conductin/axin2 in colorectal and liver tumors
 
 **Citation.** Lustig B, Jerchow B, Sachs M, Weiler S, Pietsch T, Karsten U, van de Wetering M, Clevers H, Schlag PM, Birchmeier W, Behrens J. Negative feedback loop of Wnt signaling through upregulation of conductin/axin2 in colorectal and liver tumors. Mol Cell Biol. 2002;22(4):1184-93.
 
@@ -25569,7 +25501,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Activation of Wnt signaling through beta-catenin/TCF complexes is a key event in the development of various tumors, in particular colorectal and liver tumors. Wnt signaling is controlled by the negative regulator conductin/axin2/axil, which induces degradation of beta-catenin by functional interaction with the tumor suppressor APC and the serine/threonine kinase GSK3beta. Here we show that conductin is upregulated in human tumors that are induced by beta-catenin/Wnt signaling, i.e., high levels of conductin protein and mRNA were found in colorectal and liver tumors but not in the corresponding normal tissues. In various other tumor types, conductin levels did not differ between tumor and normal tissue. Upregulation of conductin was also observed in the APC-deficient intestinal tumors of Min mice. Inhibition of Wnt signaling by a dominant-negative mutant of TCF downregulated conductin but not the related protein, axin, in DLD1 colorectal tumor cells. Conversely, activation of Wnt signaling by Wnt-1 or dishevelled increased conductin levels in MDA MB 231 and Neuro2A cells, respectively. In time course experiments, stabilization of beta-catenin preceded the upregulation of conductin by Wnt-1. These results demonstrate that conductin is a target of the Wnt signaling pathway. Upregulation of conductin may constitute a negative feedback loop that controls Wnt signaling activity.
 
 ---
-### 736. Inactivation of Apc perturbs mammary development, but only directly results in acanthoma in the context of Tcf-1 deficiency
+### 735. Inactivation of Apc perturbs mammary development, but only directly results in acanthoma in the context of Tcf-1 deficiency
 
 **Citation.** Gallagher RCJ, Hay T, Meniel V, Naughton C, Anderson TJ, Shibata H, Ito M, Clevers H, Noda T, Sansom OJ, Mason JO, Clarke AR. Inactivation of Apc perturbs mammary development, but only directly results in acanthoma in the context of Tcf-1 deficiency. Oncogene. 2002;21(42):6446-57.
 
@@ -25599,7 +25531,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Apc (adenomatous polyposis coli) encodes a tumour suppressor gene that is mutated in the majority of colorectal cancers. Recent evidence has also implicated Apc mutations in the aetiology of breast tumours. Apc is a component of the canonical Wnt signal transduction pathway, of which one target is Tcf-1. In the mouse, mutations of both Apc and Tcf-1 have been implicated in mammary tumorigenesis. We have conditionally inactivated Apc in both the presence and absence of Tcf-1 to examine the function of these genes in both normal and neoplastic development. Mice harbouring mammary-specific mutations in Apc show markedly delayed development of the mammary ductal network. During lactation, the mice develop multiple metaplastic growths which, surprisingly, do not spontaneously progress to neoplasia up to a year following their induction. However, additional deficiency of Tcf-1 completely blocks normal mammary development and results in acanthoma.
 
 ---
-### 737. beta-Catenin stabilization dysregulates mesenchymal cell proliferation, motility, and invasiveness and causes aggressive fibromatosis and hyperplastic cutaneous wounds
+### 736. beta-Catenin stabilization dysregulates mesenchymal cell proliferation, motility, and invasiveness and causes aggressive fibromatosis and hyperplastic cutaneous wounds
 
 **Citation.** Cheon SS, Cheah AYL, Turley S, Nadesan P, Poon R, Clevers H, Alman BA. beta-Catenin stabilization dysregulates mesenchymal cell proliferation, motility, and invasiveness and causes aggressive fibromatosis and hyperplastic cutaneous wounds. Proc Natl Acad Sci U S A. 2002;99(10):6973-8.
 
@@ -25627,7 +25559,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 ## 2001
 
-### 738. Mutant E-cadherin breast cancer cells do not display constitutive Wnt signaling
+### 737. Mutant E-cadherin breast cancer cells do not display constitutive Wnt signaling
 
 **Citation.** van de Wetering M, Barker N, Harkes IC, van der Heyden M, Dijk NJ, Hollestelle A, Klijn JG, Clevers H, Schutte M. Mutant E-cadherin breast cancer cells do not display constitutive Wnt signaling. Cancer Res. 2001;61(1):278-84.
 
@@ -25654,7 +25586,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Participation of E-cadherin in the Wnt signaling pathway was suggested because of the dual role of beta-catenin in cell adhesion and the Wnt signaling cascade. Whereas beta-catenin interacts at the cell membrane with the cell adhesion protein E-cadherin, in the nucleus it activates Wnt target genes through formation of transcriptionally active complexes with members of the Tcf/Lef family of transcription factors. Here, we analyzed by PCR and direct cycle sequencing 26 human breast cancer cell lines for alterations in the E-cadherin gene. Genetic alterations were identified in eight cell lines. Five cell lines had truncating mutations, whereas three cell lines had in-frame deletions in the gene transcript and expressed mutant E-cadherin proteins at the cell membrane. Involvement of E-cadherin in the Wnt pathway was evaluated through determination of the activity of a Tcf reporter gene, which had been transiently transfected into 15 breast cancer cell lines. None of six E-cadherin mutant cell lines and four cell lines that exhibit transcriptional silencing of the E-cadherin gene showed Tcf-mediated transcriptional activation. E-cadherin wild-type cell line DU4475 exhibited constitutive Tcf-beta-catenin signaling activity and was found to express truncated APC proteins. These results indicate that if cellular transformation occurred through mutation of E-cadherin, it is not mediated via constitutive activation of the Wnt signaling pathway.
 
 ---
-### 739. Ectopic Wnt signal determines the eyeless phenotype of zebrafish masterblind mutant
+### 738. Ectopic Wnt signal determines the eyeless phenotype of zebrafish masterblind mutant
 
 **Citation.** van de Water S, van de Wetering M, Joore J, Esseling J, Bink R, Clevers H, Zivkovic D. Ectopic Wnt signal determines the eyeless phenotype of zebrafish masterblind mutant. Development. 2001;128(20):3877-88.
 
@@ -25679,7 +25611,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** masterblind (mbl) is a zebrafish mutation characterised by the absence or reduction in size of the telencephalon, optic vesicles and olfactory placodes. We show that inhibition of Gsk3beta in zebrafish embryos either by overexpression of dominant negative dn gsk3beta mRNA or by lithium treatment after the midblastula transition phenocopies mbl. The loss of anterior neural tissue in mbl and lithium-treated embryos is preceded by posteriorization of presumptive anterior neuroectoderm during gastrulation, which is evident from the anterior shift of marker genes Otx2 and Wnt1. Heterozygous mbl embryos showed increased sensitivity to inhibition of GSK3beta by lithium or dn Xgsk3beta that led to the loss of eyes. Overexpression of gsk3beta mRNA rescued eyes and the wild-type fgf8 expression of homozygous mbl embryos. emx1 that delineates the telencephalon is expanded and shifted ventroanteriorly in mbl embryos. In contrast to fgf8, the emx1 expression domain was not restored upon overexpression of gsk3beta mRNA. These experiments place mbl as an antagonist of the Wnt pathway in parallel or upstream of the complex consisting of Axin, APC and Gsk3beta that binds and phosphorylates beta-catenin, thereby destabilising it. mbl maps on LG 3 close to a candidate gene axin1. In mbl we detected a point mutation in the conserved minimal Gsk3beta-binding domain of axin1 leading to a leucine to glutamine substitution at position 399. Overexpression of wild-type axin1 mRNA rescued mbl completely, demonstrating that mutant axin1 is responsible for the mutant phenotype. Overexpression of mutant L399Q axin1 in wild-type embryos resulted in a dose-dependent dominant negative activity as demonstrated by the loss of telencephalon and eyes. We suggest that the function of Axin1/Mbl protein is to antagonise the Wnt signal and in doing so to establish and maintain the most anterior CNS. Our findings provide new insights into the mechanisms by which the Wnt pathway generates anteroposterior polarity of the neural plate.
 
 ---
-### 740. The chromatin remodelling factor Brg-1 interacts with beta-catenin to promote target gene activation
+### 739. The chromatin remodelling factor Brg-1 interacts with beta-catenin to promote target gene activation
 
 **Citation.** Barker N, Hurlstone A, Musisi H, Miles A, Bienz M, Clevers H. The chromatin remodelling factor Brg-1 interacts with beta-catenin to promote target gene activation. EMBO J. 2001;20(17):4935-43.
 
@@ -25703,7 +25635,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Wnt-induced formation of nuclear Tcf-beta-catenin complexes promotes transcriptional activation of target genes involved in cell fate decisions. Inappropriate expression of Tcf target genes resulting from mutational activation of this pathway is also implicated in tumorigenesis. The C-terminus of beta-catenin is indispensable for the transactivation function, which probably reflects the presence of binding sites for essential transcriptional coactivators such as p300/CBP. However, the precise mechanism of transactivation remains unclear. Here we demonstrate an interaction between beta-catenin and Brg-1, a component of mammalian SWI/SNF and Rsc chromatin-remodelling complexes. A functional consequence of reintroduction of Brg-1 into Brg-1-deficient cells is enhanced activity of a Tcf-responsive reporter gene. Consistent with this, stable expression of inactive forms of Brg-1 in colon carcinoma cell lines specifically inhibits expression of endogenous Tcf target genes. In addition, we observe genetic interactions between the Brg-1 and beta-catenin homologues in flies. We conclude that beta-catenin recruits Brg-1 to Tcf target gene promoters, facilitating chromatin remodelling as a prerequisite for transcriptional activation.
 
 ---
-### 741. Wnt signals are transmitted through N-terminally dephosphorylated beta-catenin
+### 740. Wnt signals are transmitted through N-terminally dephosphorylated beta-catenin
 
 **Citation.** Staal FJT, van Noort M, Strous GJ, Clevers HC. Wnt signals are transmitted through N-terminally dephosphorylated beta-catenin. EMBO Rep. 2001;3(1):63-8.
 
@@ -25725,7 +25657,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** beta-catenin mediates Wnt signaling by acting as the essential co-activator for TCF transcription factors. Wnt signaling increases the half-life and therefore the absolute level of beta-catenin in responding cells. The current model states that these changes in beta-catenin stability set the threshold for Wnt signaling. However, we find that pharmacological inhibition of proteasome activity by ALLN leads to accumulation of cytosolic beta-catenin but not to increased TCF-mediated transcription. In addition, in temperature-sensitive ubiquitylation mutant CHO cells inhibition of ubiquitylation increases beta-catenin levels, but does not induce transcriptional activation of TCF reporter genes. Using an antibody specific for beta-catenin dephosphorylated at residues Ser37 and Thr41, we show that Wnt signals specifically increase the levels of dephosphorylated beta-catenin, whereas ALLN does not. We conclude that changes in the phosphorylation status of the N-terminus of beta-catenin that occur upon Wnt signaling independently affect the signaling properties and half-life of beta-catenin. Hence, Wnt signals are transduced via N-terminally dephosphorylated beta-catenin.
 
 ---
-### 742. Wnt signaling is required for thymocyte development and activates Tcf-1 mediated transcription
+### 741. Wnt signaling is required for thymocyte development and activates Tcf-1 mediated transcription
 
 **Citation.** Staal FJ, Meeldijk J, Moerer P, Jay P, van de Weerdt BC, Vainio S, Nolan GP, Clevers H. Wnt signaling is required for thymocyte development and activates Tcf-1 mediated transcription. Eur J Immunol. 2001;31(1):285-93.
 
@@ -25751,7 +25683,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** T cell factor / lymphocyte enhancer factor (Tcf/Lef) transcription factors complex with the transcriptional co-activator beta-catenin to transduce Wnt signals in a variety of developmental systems. The prototypic family member Tcf-1 is highly expressed in T lineage cells. Tcf1-/- mice are defective in cell cycling of early thymocyte stages. Here, we show that the interaction of beta-catenin with Tcf-1 is required for full thymocyte development. This interaction may be established by signals mediated by Wnt1 and Wnt4, leading to increased Tcf-dependent transcriptional activity in thymocytes, as demonstrated in Tcf-LacZ reporter mice. Transduction of fetal thymocytes with Wnt1 and Wnt4 results in increased survival in an in vitro cell culture system. Retroviral expression of soluble Wnt receptor mutants that block Wnt signaling inhibits thymocyte development. These results imply an important role for the Wnt cascade in thymocyte development.
 
 ---
-### 743. The many faces of the tumor suppressor gene APC
+### 742. The many faces of the tumor suppressor gene APC
 
 **Citation.** van Es JH, Giles RH, Clevers HC. The many faces of the tumor suppressor gene APC. Exp Cell Res. 2001;264(1):126-34.
 
@@ -25772,7 +25704,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Inactivation of the tumor suppressor adenomatous polyposis coli (APC) protein is a critical early step in the development of familial and sporadic colon cancer. Close examination of the function of APC has shown that it is a multifunctional protein involved in a wide variety of processes, including regulation of cell proliferation, cell migration, cell adhesion, cytoskeletal reorganization, and chromosomal stability. Tantalizing clues to the different functions of APC have been provided by the identification of proteins interacting with several discrete motifs within APC. Each of these putative functions could link APC inactivation with tumorigenesis. Here, we will summarize recent findings regarding the diverse role of APC. We will emphasize the interaction of APC with different binding partners, the role of these complex interactions for normal functioning of the cell, and how disruption of these interactions may play a role in tumor development. The rapid progress made recently shows the many faces of APC, leading to a constant reappreciation of this multitasking tumor suppressor protein.
 
 ---
-### 744. Regulation of lineage commitment during lymphocyte development
+### 743. Regulation of lineage commitment during lymphocyte development
 
 **Citation.** Staal FJ, Clevers HC. Regulation of lineage commitment during lymphocyte development. Int Rev Immunol. 2001;20(1):45-64.
 
@@ -25789,10 +25721,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 1. Department of Immunology, Erasmus University Rotterdam, Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 745. The epithelial cellular adhesion molecule (Ep-CAM) is a ligand for the leukocyte-associated immunoglobulin-like receptor (LAIR)
+### 744. The epithelial cellular adhesion molecule (Ep-CAM) is a ligand for the leukocyte-associated immunoglobulin-like receptor (LAIR)
 
 **Citation.** Meyaard L, van der Vuurst de Vries AR, de Ruiter T, Lanier LL, Phillips JH, Clevers H. The epithelial cellular adhesion molecule (Ep-CAM) is a ligand for the leukocyte-associated immunoglobulin-like receptor (LAIR). J Exp Med. 2001;194(1):107-12.
 
@@ -25816,7 +25748,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Human leukocyte-associated immunoglobulin-like receptor (LAIR)-1 is expressed on many cells of the immune system and is predicted to mediate inhibitory functions based on the presence of immunoreceptor tyrosine-based inhibitory motifs (ITIMs) in its cytoplasmic domain. Although the role of LAIR-1 in the regulation of immune responses in vivo is unknown, LAIR-1 cross-linking by monoclonal antibody inhibits various immune cell functions in vitro. Here, we identify the colon carcinoma-associated epithelial cellular adhesion molecule (Ep-CAM) as a ligand for LAIR-1 and LAIR-2, a related soluble LAIR-1 family member. Ep-CAM interacts with the LAIR molecules through its first epidermal growth factor domain; Ep-CAM--specific antibodies can abrogate the binding. Intraepithelial T lymphocytes express LAIR-1 and thus may interact with Ep-CAM present on human intestinal epithelium. We propose that LAIR-1--Ep-CAM interaction may contribute to mucosal tolerance and that LAIR-2 possibly modulates this function.
 
 ---
-### 746. Mutations in the APC tumour suppressor gene cause chromosomal instability
+### 745. Mutations in the APC tumour suppressor gene cause chromosomal instability
 
 **Citation.** Fodde R, Kuipers J, Rosenberg C, Smits R, Kielman M, Gaspar C, van Es JH, Breukel C, Wiegant J, Giles RH, Clevers H. Mutations in the APC tumour suppressor gene cause chromosomal instability. Nat Cell Biol. 2001;3(4):433-8.
 
@@ -25845,7 +25777,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Two forms of genetic instability have been described in colorectal cancer: microsatellite instability and chromosomal instability. Microsatellite instability results from mutations in mismatch repair genes; chromosomal instability is the hallmark of many colorectal cancers, although it is not completely understood at the molecular level. As truncations of the Adenomatous Polyposis Coli (APC) gene are found in most colorectal tumours, we thought that mutations in APC might be responsible for chromosomal instability. To test this hypothesis, we examined mouse embryonic stem (ES) cells homozygous for Min (multiple intestinal neoplasia) or Apc1638T alleles. Here we show that Apc mutant ES cells display extensive chromosome and spindle aberrations, providing genetic evidence for a role of APC in chromosome segregation. Consistent with this, APC accumulates at the kinetochore during mitosis. Apc mutant cells form mitotic spindles with an abundance of microtubules that inefficiently connect with kinetochores. This phenotype is recapitulated by the induced expression of a 253-amino-acid carboxy-terminal fragment of APC in microsatellite unstable colorectal cancer cells. We conclude that loss of APC sequences that lie C-terminal to the beta-catenin regulatory domain contributes to chromosomal instability in colorectal cancer.
 
 ---
-### 747. LEF1 turns over a new leaf
+### 746. LEF1 turns over a new leaf
 
 **Citation.** de Lau W, Clevers H. LEF1 turns over a new leaf. Nat Genet. 2001;28(1):3-4.
 
@@ -25860,10 +25792,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 748. The beta-catenin--TCF-1 pathway ensures CD4(+)CD8(+) thymocyte survival
+### 747. The beta-catenin--TCF-1 pathway ensures CD4(+)CD8(+) thymocyte survival
 
 **Citation.** Ioannidis V, Beermann F, Clevers H, Held W. The beta-catenin--TCF-1 pathway ensures CD4(+)CD8(+) thymocyte survival. Nat Immunol. 2001;2(8):691-7.
 
@@ -25885,7 +25817,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The association of trans-acting T cell factors (TCFs) or lymphoid enhancer factor 1 (LEF-1) with their coactivator beta-catenin mediates transient transcriptional responses to extracellular Wnt signals. We show here that T cell maturation depends on the presence of the beta-catenin--binding domain in TCF-1. This domain is necessary to mediate the survival of immature CD4(+)CD8(+) double-positive (DP) thymocytes. Accelerated spontaneous thymocyte death in the absence of TCF-1 correlates with aberrantly low expression of the anti-apoptotic protein Bcl-x(L). Increasing anti-apoptotic effectors in thymocytes by the use of a Bcl-2 transgene rescued TCF-1-deficient DP thymocytes from apoptosis. Thus, TCF-1, upon association with beta-catenin, transiently ensures the survival of immature T cells, which enables them to generate and edit T cell receptor (TCR) alpha chains and attempt TCR-mediated positive selection.
 
 ---
-### 749. APC, signal transduction and genetic instability in colorectal cancer
+### 748. APC, signal transduction and genetic instability in colorectal cancer
 
 **Citation.** Fodde R, Smits R, Clevers H. APC, signal transduction and genetic instability in colorectal cancer. Nat Rev Cancer. 2001;1(1):55-67.
 
@@ -25906,7 +25838,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Colorectal cancer arises through a gradual series of histological changes, each of which is accompanied by a specific genetic alteration. In general, an intestinal cell needs to comply with two essential requirements to develop into a cancer: it must acquire selective advantage to allow for the initial clonal expansion, and genetic instability to allow for multiple hits in other genes that are responsible for tumour progression and malignant transformation. Inactivation of APC--the gene responsible for most cases of colorectal cancer--might fulfil both requirements.
 
 ---
-### 750. All Tcf HMG box transcription factors interact with Groucho-related co-repressors
+### 749. All Tcf HMG box transcription factors interact with Groucho-related co-repressors
 
 **Citation.** Brantjes H, Roose J, van De Wetering M, Clevers H. All Tcf HMG box transcription factors interact with Groucho-related co-repressors. Nucleic Acids Res. 2001;29(7):1410-9.
 
@@ -25928,7 +25860,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Tcf/Lef family transcription factors are the downstream effectors of the Wingless/Wnt signal transduction pathway. Upon Wingless/Wnt signalling, beta-catenin translocates to the nucleus, interacts with Tcf (1-3) and thus activates transcription of target genes (4,5). Tcf factors also interact with members of the Groucho (Grg/TLE) family of transcriptional co-repressors (6). We have now tested all known mammalian Groucho family members for their ability to interact specifically with individual Tcf/Lef family members. Transcriptional activation by any Tcf could be repressed by Grg-1, Grg-2/TLE-2, Grg-3 and Grg-4 in a reporter assay. Specific interactions between Tcf and Grg proteins may be achieved in vivo by tissue- or cell type-limited expression. To address this, we determined the expression of all Tcf and Grg/TLE family members in a panel of cell lines. Within any cell line, several Tcfs and TLEs are co-expressed. Thus, redundancy in Tcf/Grg interactions appears to be the rule. The 'long' Groucho family members containing five domains are repressors of Tcf-mediated transactivation, whereas Grg-5, which only contains the first two domains, acts as a de-repressor. As previously shown for Drosophila Groucho, we show that long Grg proteins interact with histone deacetylase-1. Although Grg-5 contains the GP homology domain that mediates HDAC binding in long Grg proteins, Grg-5 fails to bind this co-repressor, explaining how it can de-repress transcription.
 
 ---
-### 751. Transcriptional control of t lymphocyte differentiation
+### 750. Transcriptional control of t lymphocyte differentiation
 
 **Citation.** Staal FJ, Weerkamp F, Langerak AW, Hendriks RW, Clevers HC. Transcriptional control of t lymphocyte differentiation. Stem Cells. 2001;19(3):165-79.
 
@@ -25951,7 +25883,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Initiation of gene transcription by transcription factors (TFs) is an important regulatory step in many developmental processes. The differentiation of T cell progenitors in the thymus is tightly controlled by signaling molecules, ultimately activating nuclear TFs that regulate the expression of T lineage-specific genes. During the last 2 years, significant progress has been made in our understanding of the signaling routes and TFs operating during the earliest stages of thymic differentiation at the CD4(-)CD8(-) double negative stage. Here we will review the TF families that play an important role in differentiation of thymocytes, particularly focusing on recent new information with respect to the Tcf, bHLH, GATA, and CBF/HES TF families.
 
 ---
-### 752. Tumor environment: a potent driving force in colorectal cancer?
+### 751. Tumor environment: a potent driving force in colorectal cancer?
 
 **Citation.** Barker N, Clevers H. Tumor environment: a potent driving force in colorectal cancer?. Trends Mol Med. 2001;7(12):535-7.
 
@@ -25966,13 +25898,13 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 
 ## 2000
 
-### 753. The Yin-Yang of TCF/beta-catenin signaling
+### 752. The Yin-Yang of TCF/beta-catenin signaling
 
 **Citation.** Barker N, Morin PJ, Clevers H. The Yin-Yang of TCF/beta-catenin signaling. Adv Cancer Res. 2000;77:1-24.
 
@@ -25993,7 +25925,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Wingless/Wnt signaling directs cell-fate choices during embryonic development. In Drosophila, Wingless signaling mediates endoderm induction and the establishment of segment polarity in the developing embryo. The fly Wingless cascade is strikingly similar to the vertebrate Wnt signaling pathway, which controls a number of key developmental decisions such as dorsal-ventral patterning in Xenopus. Factors of the TCF/LEF HMG domain family (Tcfs) have recently been established as the downstream effectors of the Wingless/Wnt signal transduction pathways. Upon Wingless/Wnt signaling, a cascade is initiated that results in the accumulation of cytoplasmic beta-catenin (or its fly homolog, Armadillo). There is also a concomitant translocation of beta-catenin/Armadillo to the nucleus, where it interacts with a specific sequence motif at the N terminus of Tcfs to generate a transcriptionally active complex. This bipartite transcription factor is targeted to the upstream regulatory regions of Tcf target genes including Siamois and Nodal related gene-3 in Xenopus, engrailed and Ultrabithorax in Drosophila via the sequence-specific HMG box, and mediates their transcriptional activation by virtue of transactivation domains contributed by beta-catenin/Armadillo. In the absence of Wingless/Wnt signals, a key negative regulator of the pathway, GSK3 beta, is activated, which mediates the downregulation of cytoplasmic beta-catenin/Armadillo via the ubiquitin-proteasome pathway. In the absence of nuclear beta-catenin, the Tcfs recruit the corepressor protein Groucho to the target gene enhancers and actively repress their transcription. An additional corepressor protein, CREB-binding protein (CBP), may also be involved in this repression of Tcf target gene activity. Several other proteins, including adenomatous polyposis coli (APC), GSK3 beta, and Axin/Conductin, are instrumental in the regulation of beta-catenin/Armadillo. In APC-deficient colon carcinoma cell lines, beta-catenin accumulates and is constitutively complexed with nuclear Tcf-4. A proportion of APC wild-type colon carcinomas and melanomas also contains constitutive nuclear Tcf-4/beta-catenin complexes as a result of dominant mutations in the N terminus of beta-catenin that render it insensitive to downregulation by APC, GSK3 beta, and Axin/Conductin. This results in the unregulated expression of Tcf-4 target genes such as c-myc. Based on the established role for Tcf-4 in maintaining intestinal stem cells it is likely that deregulation of c-myc expression as a result of constitutive Tcf-4/beta-catenin activity promotes uncontrolled intestinal cell proliferation. This would readily explain the formation of intestinal polyps during colon carcinogenesis. Similar mechanisms leading to deregulation of Tcf target gene activity are likely to be involved in melanoma and other forms of cancer.
 
 ---
-### 754. Iron overload and heart fibrosis in mice deficient for both beta2-microglobulin and Rag1
+### 753. Iron overload and heart fibrosis in mice deficient for both beta2-microglobulin and Rag1
 
 **Citation.** Santos MM, de Sousa M, Rademakers LH, Clevers H, Marx JJ, Schilham MW. Iron overload and heart fibrosis in mice deficient for both beta2-microglobulin and Rag1. Am J Pathol. 2000;157(6):1883-92.
 
@@ -26017,7 +25949,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Genetic causes of hereditary hemochromatosis (HH) include mutations in the HFE gene, a ss2-microglobulin (ss2m)-associated major histocompatibility complex class I-like protein. Accordingly, mutant ss2m(-/-) mice have increased intestinal iron absorption and develop parenchymal iron overload in the liver. In humans, other genetic and environmental factors have been suggested to influence the pathology and severity of HH. Previously, an association has been reported between low numbers of lymphocytes and the severity of clinical expression of the iron overload in HH. In the present study, the effect of a total absence of lymphocytes on iron overload was investigated by crossing ss2m(-/-) mice (which develop iron overload resembling human disease) with mice deficient in recombinase activator gene 1 (Rag1), which is required for normal B and T lymphocyte development. Iron overload was more severe in ss2mRag1 double-deficient mice than in each of the single deficient mice, with iron accumulation in parenchymal cells of the liver, in acinar cells of the pancreas, and in heart myocytes. With increasing age ss2mRag1(-/-) mice develop extensive heart fibrosis, which could be prevented by reconstitution with normal hematopoietic cells. Thus, the development of iron-mediated cellular damage is substantially enhanced when a Rag1 mutation, which causes a lack of mature lymphocytes, is introduced into ss2m(-/-) mice. Mice deficient in ss2m and Rag1 thus offer a new experimental model of iron-related cardiomyopathy.
 
 ---
-### 755. Catenins, Wnt signaling and cancer
+### 754. Catenins, Wnt signaling and cancer
 
 **Citation.** Barker N, Clevers H. Catenins, Wnt signaling and cancer. Bioessays. 2000;22(11):961-5.
 
@@ -26037,7 +25969,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Recent studies indicate that plakoglobin may have a similar function to that of beta-catenin within the Wnt signaling pathway. beta-catenin is known to be an oncogene in many forms of human cancer, following acquisition of stabilizing mutations in amino terminal sequences. Kolligs(1) and coworkers show, however, that unlike beta-catenin, plakoglobin induces neoplastic transformation of rat epithelial cells in the absence of such stabilizing mutations. Cellular transformation by plakoglobin also appears to be distinct from that of beta-catenin in that it requires activation of the proto-oncogene c-myc. Surprisingly, c-myc is activated more efficiently by plakoglobin than beta-catenin, despite its previous identification as a target of Tcf/beta-catenin.(2) In contrast, a synthetic Tcf reporter gene is activated to a much greater extent by beta-catenin than plakoglobin. Plakoglobin and beta-catenin may therefore have different roles in Wnt signaling and cancer, which reflect their differential effects on target gene activity.
 
 ---
-### 756. Roles of Sox4 in central nervous system development
+### 755. Roles of Sox4 in central nervous system development
 
 **Citation.** Cheung M, Abu-Elmagd M, Clevers H, Scotting PJ. Roles of Sox4 in central nervous system development. Brain Res Mol Brain Res. 2000;79(1-2):180-91.
 
@@ -26059,7 +25991,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The transcription factor-encoding gene, Sox4, is expressed in a wide range of tissues and has been shown to be functionally involved in heart, B-cell and reproductive system development. Sox4 shows a high degree of sequence homology with another group C Sox gene, Sox11, which is predominantly expressed in the CNS. Since the expression of Sox4 in the CNS has not been described we have carried out such a study. Sox4 and Sox11 expression increased simultaneously in the same early differentiating cells of the developing CNS except in the external granule layer of the cerebellum where Sox11 expression preceded that of Sox4. As development proceeded, their expression always appeared to relate to the maturational stage of the cell population, with Sox11 expression more transient than Sox4, except in the spinal cord where the reverse was true. Sox4 knock-out mice have been shown to die of a heart defect half way through gestation with no observable CNS phenotype. Our more detailed analysis showed no abnormality in the spatial restriction of expression of Sox2, Sox11, Mash1, neurogenin1 or neurogenin2, although the level of expression of Sox11 and Mash1 appeared a little different from the wild-type, implying that Sox4 might indeed have a functional role in CNS development. However, since Sox4 and Sox11 expression is so similar, we propose that Sox11 might compensate for the loss of Sox4 function in the CNS such that the phenotype is extremely mild in the Sox4 null mutant.
 
 ---
-### 757. Linking colorectal cancer to Wnt signaling
+### 756. Linking colorectal cancer to Wnt signaling
 
 **Citation.** Bienz M, Clevers H. Linking colorectal cancer to Wnt signaling. Cell. 2000;103(2):311-20.
 
@@ -26076,10 +26008,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 1. MRC Laboratory of Molecular Biology, Cambridge, United Kingdom.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 758. Wnt/(beta)-catenin signaling regulates the expression of the homeobox gene Cdx1 in embryonic intestine
+### 757. Wnt/(beta)-catenin signaling regulates the expression of the homeobox gene Cdx1 in embryonic intestine
 
 **Citation.** Lickert H, Domon C, Huls G, Wehrle C, Duluc I, Clevers H, Meyer BI, Freund JN, Kemler R. Wnt/(beta)-catenin signaling regulates the expression of the homeobox gene Cdx1 in embryonic intestine. Development. 2000;127(17):3805-13.
 
@@ -26106,7 +26038,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** During mammalian development, the Cdx1 homeobox gene exhibits an early period of expression when the embryonic body axis is established, and a later period where expression is restricted to the embryonic intestinal endoderm. Cdx1 expression is maintained throughout adulthood in the proliferative cell compartment of the continuously renewed intestinal epithelium, the crypts. In this study, we provide evidence in vitro and in vivo that Cdx1 is a direct transcriptional target of the Wnt/(beta)-catenin signaling pathway. Upon Wnt stimulation, expression of Cdx1 can be induced in mouse embryonic stem (ES) cells as well as in undifferentiated rat embryonic endoderm. Tcf4-deficient mouse embryos show abrogation of Cdx1 protein in the small intestinal epithelium, making Tcf4 the likely candidate to transduce Wnt signal in this part of gut. The promoter region of the Cdx1 gene contains several Tcf-binding motifs, and these bind Tcf/Lef1/(beta)-catenin complexes and mediate (beta)-catenin-dependent transactivation. The transcriptional regulation of the homeobox gene Cdx1 in the intestinal epithelium by Wnt/(beta)-catenin signaling underlines the importance of this signaling pathway in mammalian endoderm development.
 
 ---
-### 759. decapentaplegic is a direct target of dTcf repression in the Drosophila visceral mesoderm
+### 758. decapentaplegic is a direct target of dTcf repression in the Drosophila visceral mesoderm
 
 **Citation.** Yang X, van Beest M, Clevers H, Jones T, Hursh DA, Mortin MA. decapentaplegic is a direct target of dTcf repression in the Drosophila visceral mesoderm. Development. 2000;127(17):3695-702.
 
@@ -26130,7 +26062,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Drosophila T cell factor (dTcf) mediates transcriptional activation in the presence of Wingless signalling and repression in its absence. Wingless signalling is required for the correct expression of decapentaplegic (dpp), a Transforming Growth Factor (beta) family member, in parasegments 3 and 7 of the Drosophila visceral mesoderm. Here we demonstrate that a dpp enhancer element, which directs expression of a reporter gene in the visceral mesoderm in a pattern indistinguishable from dpp, has two functional dTcf binding sites. Mutations that reduce or eliminate Wingless signalling abolish dpp reporter gene expression in parasegment 3 and reduce it in parasegment 7 while ectopic expression of Wingless signalling components expand reporter gene expression anteriorly in the visceral mesoderm. However, mutation of the dTcf binding sites in the dpp enhancer results in ectopic expression of reporter gene expression throughout the visceral mesoderm, with no diminution of expression in the endogenous sites of expression. These results demonstrate that the primary function of dTcf binding to the dpp enhancer is repression throughout the visceral mesoderm and that activation by Wingless signalling is probably not mediated via these dTcf binding sites to facilitate correct dpp expression in the visceral mesoderm.
 
 ---
-### 760. Tcf/Lef transcription factors during T-cell development: unique and overlapping functions
+### 759. Tcf/Lef transcription factors during T-cell development: unique and overlapping functions
 
 **Citation.** Staal FJ, Clevers H. Tcf/Lef transcription factors during T-cell development: unique and overlapping functions. Hematol J. 2000;1(1):3-6.
 
@@ -26150,7 +26082,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The founding members of the TCF family are T-cell factor-1 (Tcf-1) and lymphoid enhancing factor-1 (Lef-1). In adult mammals, Tcf-1 is uniquely expressed in T lymphocytes, while Lef-1 is expressed in T cells and early B cells. During murine development, however, expression of Tcf-1 and Lef-1 occurs in complex overlapping patterns in many tissues. The unique in vivo function of Tcf-1 and Lef-1 have been explored by gene disruption experiments. Tcf-1-/- knockout mice are severely impaired in the generation of T cells, but are otherwise normal. Lef-1-/- mice lack hair, teeth, mammary glands and trigeminal nuclei and as a consequence die around birth. As deduced from direct analyses and from transplantation experiments, the Lef-1 mutation has no major effects on the immune system. In Tcf-1/Lef-1 double knockout mice, development of T cells is completely abrogated, indicating that Lef-1 can substitute for Tcf-1 in T-cell differentiation. Factors of the TCF/LEF HMG domain family (TCFs) exist throughout the animal kingdom. It has become evident that the TCFs interact with the vertebrate Wnt effector beta-catenin to mediate axis formation in Xenopus. Likewise, Armadillo (the Drosophila ortholog of beta-catenin) is genetically upstream of Drosophila TCF in the Wingless pathway. Upon Wingless/Wnt signaling, Armadillo/beta-catenin associate with nuclear TCFs and contribute a trans-activation domain to the resulting bipartite transcription factor. In the absence of Wnt signaling, Tcf factors associate with proteins of the Groucho family of transcriptional repressors to strongly repress target gene transcription.
 
 ---
-### 761. dTcf antagonises Wingless signalling during the development and patterning of the wing in Drosophila
+### 760. dTcf antagonises Wingless signalling during the development and patterning of the wing in Drosophila
 
 **Citation.** Lawrence N, Dearden P, Hartley D, Roose J, Clevers H, Arias AM. dTcf antagonises Wingless signalling during the development and patterning of the wing in Drosophila. Int J Dev Biol. 2000;44(7):749-56.
 
@@ -26174,7 +26106,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Members of the Tcf family of HMG box-containing transcriptional regulators mediate Wnt signalling in the nucleus. Current models suggest that in the absence of Wnt signalling, Tcf interacts with the repressor protein Groucho and suppresses the expression of Wnt targets. Wnt signalling leads to increases in the level of cytoplasmic beta catenin, which enters the nucleus, displaces Tcf from Groucho and leads to transcriptional activation. In order to test this model we have studied the effects of Drosophila Tcf (dTcf) on signalling by Wingless, a Drosophila member of the Wnt family. We show that overexpression of wild-type dTcf during the development and patterning of the wing antagonises Wingless signalling. Furthermore, increases in the concentration of Armadillo, the Drosophila homologue of beta catenin, do not appear to be sufficient to trigger the change from antagonism to activation. This leads us to suggest that the inactivation of the repressive activity of dTcf requires the activity of Wingless in a manner that is independent of Armadillo. We observe that a Groucho molecule devoid of the WD40 repeats can interact with dTcf and acts as a dominant repressor of Wingless signalling in vivo and in vitro. Coexpression of this molecule with dTcf however, does not lead to enhancement of the repressive effects of dTcf alone. This observation suggests that repression by dTcf might not simply be mediated by an interaction with Groucho but that dTcf may have an intrinsic repressive activity that has to be antagonised by Wingless signalling.
 
 ---
-### 762. Sequence-specific high mobility group box factors recognize 10-12-base pair minor groove motifs
+### 761. Sequence-specific high mobility group box factors recognize 10-12-base pair minor groove motifs
 
 **Citation.** van Beest M, Dooijes D, van De Wetering M, Kjaerulff S, Bonvin A, Nielsen O, Clevers H. Sequence-specific high mobility group box factors recognize 10-12-base pair minor groove motifs. J Biol Chem. 2000;275(35):27266-73.
 
@@ -26199,7 +26131,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Sequence-specific high mobility group (HMG) box factors bind and bend DNA via interactions in the minor groove. Three-dimensional NMR analyses have provided the structural basis for this interaction. The cognate HMG domain DNA motif is generally believed to span 6-8 bases. However, alignment of promoter elements controlled by the yeast genes ste11 and Rox1 has indicated strict conservation of a larger DNA motif. By site selection, we identify a highly specific 12-base pair motif for Ste11, AGAACAAAGAAA. Similarly, we show that Tcf1, MatMc, and Sox4 bind unique, highly specific DNA motifs of 12, 12, and 10 base pairs, respectively. Footprinting with a deletion mutant of Ste11 reveals a novel interaction between the 3' base pairs of the extended DNA motif and amino acids C-terminal to the HMG domain. The sequence-specific interaction of Ste11 with these 3' base pairs contributes significantly to binding and bending of the DNA motif.
 
 ---
-### 763. Differential expression of the Groucho-related genes 4 and 5 during early development of Xenopus laevis
+### 762. Differential expression of the Groucho-related genes 4 and 5 during early development of Xenopus laevis
 
 **Citation.** Molenaar M, Brian E, Roose J, Clevers H, Destrée O. Differential expression of the Groucho-related genes 4 and 5 during early development of Xenopus laevis. Mech Dev. 2000;91(1-2):311-5.
 
@@ -26222,7 +26154,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Recently, we demonstrated that the Xenopus Wnt effector XTcf-3 interacts with Groucho-related transcriptional repressors (Roose et al., 1998. Nature 395, 608-612). A long form of the Groucho-related genes, XGrg-4, was shown to repress axis formation in the Xenopus embryo, whereas a short form, XGrg-5, acted as a potentiator. In this study, the temporal and spatial expression of XGrg-4 and XGrg-5 is described in Xenopus laevis embryos. Both genes are maternally expressed. In the gastrula, transcripts of both genes are present in the animal as well as the vegetal region. At later stages, XGrg-4 and XGrg-5 show specific patterns of expression in the central nervous system (CNS), cranial ganglia, eyes, otic vesicles, stomodeal-hypophyseal anlage, cement gland, head mesenchyme, branchial arches, neural crest and derivatives, somites, pronephros, pronephric duct, heart and tailbud. Differences in the expression of XGrg-4 and XGrg-5 were found in the CNS, cranial ganglia, olfactory placodes, stomodeal-pharyngeal anlage, cement gland, head mesenchyme and ectoderm.
 
 ---
-### 764. Armadillo takes the APC shuttle
+### 763. Armadillo takes the APC shuttle
 
 **Citation.** Clevers H. Armadillo takes the APC shuttle. Nat Cell Biol. 2000;2(10):E177-8.
 
@@ -26236,10 +26168,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 765. Axin and hepatocellular carcinomas
+### 764. Axin and hepatocellular carcinomas
 
 **Citation.** Clevers H. Axin and hepatocellular carcinomas. Nat Genet. 2000;24(3):206-8.
 
@@ -26253,10 +26185,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 766. Distinct beta-catenins mediate adhesion and signalling functions in C. elegans
+### 765. Distinct beta-catenins mediate adhesion and signalling functions in C. elegans
 
 **Citation.** Korswagen HC, Herman MA, Clevers HC. Distinct beta-catenins mediate adhesion and signalling functions in C. elegans. Nature. 2000;406(6795):527-32.
 
@@ -26280,7 +26212,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 ## 1999
 
-### 767. Expression of CD44 in Apc and Tcf mutant mice implies regulation by the WNT pathway
+### 766. Expression of CD44 in Apc and Tcf mutant mice implies regulation by the WNT pathway
 
 **Citation.** Wielenga VJ, Smits R, Korinek V, Smit L, Kielman M, Fodde R, Clevers H, Pals ST. Expression of CD44 in Apc and Tcf mutant mice implies regulation by the WNT pathway. Am J Pathol. 1999;154(2):515-23.
 
@@ -26306,7 +26238,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Overexpression of cell surface glycoproteins of the CD44 family is an early event in the colorectal adenoma-carcinoma sequence. This suggests a link with disruption of APC tumor suppressor protein-mediated regulation of beta-catenin/Tcf-4 signaling, which is crucial in initiating tumorigenesis. To explore this hypothesis, we analyzed CD44 expression in the intestinal mucosa of mice and humans with genetic defects in either APC or Tcf-4, leading to constitutive activation or blockade of the beta-catenin/Tcf-4 pathway, respectively. We show that CD44 expression in the non-neoplastic intestinal mucosa of Apc mutant mice is confined to the crypt epithelium but that CD44 is strongly overexpressed in adenomas as well as in invasive carcinomas. This overexpression includes the standard part of the CD44 (CD44s) as well as variant exons (CD44v). Interestingly, deregulated CD44 expression is already present in aberrant crypt foci with dysplasia (ACFs), the earliest detectable lesions of colorectal neoplasia. Like ACFs of Apc-mutant mice, ACFs of familial adenomatous polyposis (FAP) patients also overexpress CD44. In sharp contrast, Tcf-4 mutant mice show a complete absence of CD44 in the epithelium of the small intestine. This loss of CD44 concurs with loss of stem cell characteristics, shared with adenoma cells. Our results indicate that CD44 expression is part of a genetic program controlled by the beta-catenin/Tcf-4 signaling pathway and suggest a role for CD44 in the generation and turnover of epithelial cells.
 
 ---
-### 768. Restricted high level expression of Tcf-4 protein in intestinal and mammary gland epithelium
+### 767. Restricted high level expression of Tcf-4 protein in intestinal and mammary gland epithelium
 
 **Citation.** Barker N, Huls G, Korinek V, Clevers H. Restricted high level expression of Tcf-4 protein in intestinal and mammary gland epithelium. Am J Pathol. 1999;154(1):29-35.
 
@@ -26328,7 +26260,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Tcf-4 is a member of the Tcf/Lef family of transcription factors that interact functionally with beta-catenin to mediate Wnt signaling in vertebrates. We have previously demonstrated that the tumor suppressor function of APC in the small intestine is mediated via regulation of Tcf-4/beta-catenin transcriptional activity. To gain further insight into the role of Tcf-4 in development and carcinogenesis we have generated several mouse monoclonal antibodies, one of which is specific for Tcf-4 and another of which recognizes both Tcf-3 and Tcf-4. Immunohistochemistry performed with the Tcf 4- specific monoclonal antibody revealed high levels of expression in normal intestinal and mammary epithelium and carcinomas derived therefrom. Additional sites of Tcf-3 expression, as revealed by staining with the Tcf-3/-4 antibody, occurred only within the stomach epithelium, hair follicles, and keratinocytes of the skin. A temporal Tcf-4 expression gradient was observed along the crypt-villus axis of human small intestinal epithelium: strong Tcf-4 expression was present within the crypts of early (week 16) human fetal small intestine, with the villi showing barely detectable Tcf-4 protein levels. Tcf-4 expression levels increased dramatically on the villi of more highly developed (week 22) fetal small intestine. We conclude that Tcf-4 exhibits a highly restricted expression pattern related to the developmental stage of the intestinal epithelium. The high levels of Tcf-4 expression in mammary epithelium and mammary carcinomas may also indicate a role in the development of this tissue and breast carcinoma.
 
 ---
-### 769. TCF transcription factors: molecular switches in carcinogenesis
+### 768. TCF transcription factors: molecular switches in carcinogenesis
 
 **Citation.** Roose J, Clevers H. TCF transcription factors: molecular switches in carcinogenesis. Biochim Biophys Acta. 1999;1424(2-3):M23-37.
 
@@ -26348,7 +26280,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Although originally cloned as lymphoid transcription factors, members of the T-cell factor (Tcf) family are now well recognized as key activators/repressors in many developmental processes. Transcriptionally inert Tcf factors become potent transactivators upon interaction with the Wnt signaling product beta-catenin or its Drosophila counterpart Armadillo. In contrast, Tcf proteins mediate repression when bound to members of the Groucho family of transcriptional repressors, CBP and CtBP. Recently, Tcf factors have been reported as tumor inducers, aberrantly activating their target genes as a result of elevated beta-catenin levels in many types of cancer. These abnormal beta-catenin levels are usually caused by stabilizing mutations in beta-catenin itself or truncating mutations in the adenomatous polyposis coli (APC) tumor suppressor gene. In this review, we will give a chronological overview of the Tcf factors and the phenotypes of Tcf mutant mice, as well as Tcf-binding partners. We will discuss Tcf signaling upon interaction with different partners, resulting in activator and repressor roles of Tcf factors in the light of carcinogenic events.
 
 ---
-### 770. Fluorescence in situ hybridization analysis shows the frequent occurrence of 14q32.3 rearrangements with involvement of immunoglobulin switch regions in myeloma cell lines
+### 769. Fluorescence in situ hybridization analysis shows the frequent occurrence of 14q32.3 rearrangements with involvement of immunoglobulin switch regions in myeloma cell lines
 
 **Citation.** Kuipers J, Vaandrager JW, Weghuis DO, Pearson PL, Scheres J, Lokhorst HM, Clevers H, Bast BJ. Fluorescence in situ hybridization analysis shows the frequent occurrence of 14q32.3 rearrangements with involvement of immunoglobulin switch regions in myeloma cell lines. Cancer Genet Cytogenet. 1999;109(2):99-107.
 
@@ -26374,7 +26306,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** In many B-cell malignancies, 14q32.3 chromosomal rearrangements involving the immunoglobulin heavy chain (IgH) locus have been shown to be pathognomonic for the disease. Although in myeloma heterogeneous and complex karyotypes are found, 14q32.3 translocations are prominent. However, owing to the telomeric position of the IgH locus, 14q32.3 translocations may be easily missed. We established fluorescence in situ hybridization (FISH) assays on chromosomes and DNA fibers to determine both the occurrence of 14q32.3 rearrangements in myeloma cell lines and the precise localization of the breakpoints in the IgH locus. Our results show that 14q32.3 chromosomal rearrangements are present in almost every myeloma cell line analyzed (17 of 19, 89%). Breakpoint analysis of the lines harboring one or more 14q32.3 rearrangements with the use of fiber-FISH revealed the involvement of switch regions in the IgH locus in 11 of 17 cell lines. Remarkably, pseudogamma genes without switch regions were involved in 3 of 17 cell lines, all derived from IgA myelomas. Three of 17 cell lines contained breakpoints outside a switch or immunoglobulin heavy chain constant region. The almost ubiquitous presence of 14q32.3 rearrangements suggests an obligatory role in the development of myeloma. The high incidence of breakpoints involving switch regions indicates an oncogenic event in a late stage of B-cell differentiation.
 
 ---
-### 771. Activation and repression of wingless/Wnt target genes by the TCF/LEF-1 family of transcription factors
+### 770. Activation and repression of wingless/Wnt target genes by the TCF/LEF-1 family of transcription factors
 
 **Citation.** Korswagen HC, Clevers HC. Activation and repression of wingless/Wnt target genes by the TCF/LEF-1 family of transcription factors. Cold Spring Harb Symp Quant Biol. 1999;64:141-7.
 
@@ -26391,10 +26323,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 1. Department of Immunology, University Hospital, 3508 GA, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 772. Identification of APC2, a homologue of the adenomatous polyposis coli tumour suppressor
+### 771. Identification of APC2, a homologue of the adenomatous polyposis coli tumour suppressor
 
 **Citation.** van Es JH, Kirkpatrick C, van de Wetering M, Molenaar M, Miles A, Kuipers J, Destrée O, Peifer M, Clevers H. Identification of APC2, a homologue of the adenomatous polyposis coli tumour suppressor. Curr Biol. 1999;9(2):105-8.
 
@@ -26421,7 +26353,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The adenomatous polyposis coli (APC) tumour-suppressor protein controls the Wnt signalling pathway by forming a complex with glycogen synthase kinase 3beta (GSK-3beta), axin/conductin and betacatenin. Complex formation induces the rapid degradation of betacatenin. In colon carcinoma cells, loss of APC leads to the accumulation of betacatenin in the nucleus, where it binds to and activates the Tcf-4 transcription factor (reviewed in [1] [2]). Here, we report the identification and genomic structure of APC homologues. Mammalian APC2, which closely resembles APC in overall domain structure, was functionally analyzed and shown to contain two SAMP domains, both of which are required for binding to conductin. Like APC, APC2 regulates the formation of active betacatenin-Tcf complexes, as demonstrated using transient transcriptional activation assays in APC -/- colon carcinoma cells. Human APC2 maps to chromosome 19p13.3. APC and APC2 may therefore have comparable functions in development and cancer.
 
 ---
-### 773. Leukocyte-associated immunoglobulin-like receptor-1 (LAIR-1) is differentially expressed during human B cell differentiation and inhibits B cell receptor-mediated signaling
+### 772. Leukocyte-associated immunoglobulin-like receptor-1 (LAIR-1) is differentially expressed during human B cell differentiation and inhibits B cell receptor-mediated signaling
 
 **Citation.** van der Vuurst de Vries AR, Clevers H, Logtenberg T, Meyaard L. Leukocyte-associated immunoglobulin-like receptor-1 (LAIR-1) is differentially expressed during human B cell differentiation and inhibits B cell receptor-mediated signaling. Eur J Immunol. 1999;29(10):3160-7.
 
@@ -26443,7 +26375,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Leukocyte-associated Ig-like receptor-1 (LAIR-1) belongs to the growing family of immunoreceptor tyrosine-based inhibitory motif-bearing receptors and is expressed on the majority of peripheral mononuclear cells, including NK cells, T cells, B cells, monocytes, and dendritic cells. In this study, we investigated the distribution and the capacity of LAIR-1 to function as an inhibitory receptor on human B cells. LAIR-1 is expressed from early on during B cell differentiation, but is absent on approximately half of the memory B cells, and all germinal center B cells, plasmablasts, and terminally differentiated plasma cells. In vitro stimulation of naive B cells via the B cell receptor (BCR) or CD40, triggering proliferation and differentiation into Ig-producing plasma cells, is accompanied by loss of LAIR-1 expression. We previously reported that LAIR-1 can function as an inhibitory receptor on NK cells and T cells. Here, we demonstrate that it can also function as a negative regulator of BCR-mediated signaling, since simultaneous cross-linking of LAIR-1 and the BCR reduces the increase of intracellular Ca(2+) evoked by BCR ligation. Taken together, this suggests that the inhibitory mechanism of LAIR-1 is functional in multiple components of the hematopoietic system.
 
 ---
-### 774. Wnt3a-/--like phenotype and limb deficiency in Lef1(-/-)Tcf1(-/-) mice
+### 773. Wnt3a-/--like phenotype and limb deficiency in Lef1(-/-)Tcf1(-/-) mice
 
 **Citation.** Galceran J, Fariñas I, Depew MJ, Clevers H, Grosschedl R. Wnt3a-/--like phenotype and limb deficiency in Lef1(-/-)Tcf1(-/-) mice. Genes Dev. 1999;13(6):709-17.
 
@@ -26466,7 +26398,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Members of the LEF-1/TCF family of transcription factors have been implicated in the transduction of Wnt signals. However, targeted gene inactivations of Lef1, Tcf1, or Tcf4 in the mouse do not produce phenotypes that mimic any known Wnt mutation. Here we show that null mutations in both Lef1 and Tcf1, which are expressed in an overlapping pattern in the early mouse embryo, cause a severe defect in the differentiation of paraxial mesoderm and lead to the formation of additional neural tubes, phenotypes identical to those reported for Wnt3a-deficient mice. In addition, Lef1(-/-)Tcf1(-/-) embryos have defects in the formation of the placenta and in the development of limb buds, which fail both to express Fgf8 and to form an apical ectodermal ridge. Together, these data provide evidence for a redundant role of LEF-1 and TCF-1 in Wnt signaling during mouse development.
 
 ---
-### 775. The Sox-13 gene: structure, promoter characterization, and chromosomal localization
+### 774. The Sox-13 gene: structure, promoter characterization, and chromosomal localization
 
 **Citation.** Roose J, Korver W, de Boer R, Kuipers J, Hurenkamp J, Clevers H. The Sox-13 gene: structure, promoter characterization, and chromosomal localization. Genomics. 1999;57(2):301-5.
 
@@ -26490,7 +26422,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** We have recently identified the HMG box transcription factor Sox-13 and described its expression during murine embryogenesis. Here we describe the structure of the murine Sox-13 gene. This gene spans approximately 12 kb and consists of 13 exons. The HMG domain is encoded by exons XI and XII, separated by an intron that is conserved among Sox-5, Sox-13, and Sox-17. A single major transcription initiation site was identified. Deletion analysis of the 3-kb promoter region revealed a 400-bp fragment driving transcription of a luciferase reporter in a Sox-13-expressing cell line. To determine the chromosomal localization of the human gene, a human SOX13 cDNA was isolated with 75% homology to the mouse Sox-13. FISH analysis mapped the human SOX13 gene to chromosome 1 band q32.
 
 ---
-### 776. Clonal acquisition of the Ly49A NK cell receptor is dependent on the trans-acting factor TCF-1
+### 775. Clonal acquisition of the Ly49A NK cell receptor is dependent on the trans-acting factor TCF-1
 
 **Citation.** Held W, Kunz B, Lowin-Kropf B, van de Wetering M, Clevers H. Clonal acquisition of the Ly49A NK cell receptor is dependent on the trans-acting factor TCF-1. Immunity. 1999;11(4):433-42.
 
@@ -26513,7 +26445,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Families of clonally expressed major histocompatibility complex (MHC) class I-specific receptors provide specificity to and regulate the function of natural killer (NK) cells. One of these receptors, mouse Ly49A, is expressed by 20% of NK cells and inhibits the killing of H-2D(d) but not D(b)-expressing target cells. Here, we show that the trans-acting factor TCF-1 binds to two sites in the Ly49A promoter and regulates its activity. Moreover, we find that TCF-1 determines the size of the Ly49A NK cell subset in vivo in a dosage-dependent manner. We propose that clonal Ly49A acquisition during NK cell development is regulated by TCF-1.
 
 ---
-### 777. Tcf-1-mediated transcription in T lymphocytes: differential role for glycogen synthase kinase-3 in fibroblasts and T cells
+### 776. Tcf-1-mediated transcription in T lymphocytes: differential role for glycogen synthase kinase-3 in fibroblasts and T cells
 
 **Citation.** Staal FJ, Burgering BM, van de Wetering M, Clevers HC. Tcf-1-mediated transcription in T lymphocytes: differential role for glycogen synthase kinase-3 in fibroblasts and T cells. Int Immunol. 1999;11(3):317-23.
 
@@ -26535,7 +26467,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Beta-catenin is the vertebrate homolog of the Drosophila segment polarity gene Armadillo and plays roles in both cell-cell adhesion and transduction of the Wnt signaling cascade. Recently, members of the Lef/Tcf transcription factor family have been identified as protein partners of beta-catenin, explaining how beta-catenin alters gene expression. Here we report that in T cells, Tcf-1 also becomes transcriptionally active through interaction with beta-catenin, suggesting that the Wnt signal transduction pathway is operational in T lymphocytes as well. However, although Wnt signals are known to inhibit the activity of the negative regulatory protein kinase glycogen synthase kinase-3beta (GSK-3beta), resulting in increased levels of beta-catenin, we find no evidence for involvement of GSK-3beta in Tcf-mediated transcription in T cells. That is, a dominant negative GSK-3beta does not specifically activate Tcf transcription and stimuli (lithium or phytohemagglutinin) that inhibit GSK-3beta activity also do not activate Tcf reporter genes. Thus, inhibition of GSK-3beta is insufficient to activate Tcf-dependent transcription in T lymphocytes. In contrast, in C57MG fibroblast cells, lithium inactivates GSK-3beta and induces Tcf-controlled transcription. This is the first demonstration that lithium can alter gene expression of Tcf-responsive genes, and points to a difference in regulation of Wnt signaling between fibroblasts and lymphocytes.
 
 ---
-### 778. Leukocyte-associated Ig-like receptor-1 functions as an inhibitory receptor on cytotoxic T cells
+### 777. Leukocyte-associated Ig-like receptor-1 functions as an inhibitory receptor on cytotoxic T cells
 
 **Citation.** Meyaard L, Hurenkamp J, Clevers H, Lanier LL, Phillips JH. Leukocyte-associated Ig-like receptor-1 functions as an inhibitory receptor on cytotoxic T cells. J Immunol. 1999;162(10):5800-4.
 
@@ -26558,7 +26490,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Leukocyte associated Ig-like receptor-1 (LAIR-1) is a surface molecule expressed on human mononuclear leukocytes that functions as an inhibitory receptor on human NK cells. In addition to NK cells, LAIR-1 is expressed on T cells, B cells, macrophages, and dendritic cells. Most cells express two biochemically distinct forms of LAIR-1, which we now show are likely alternative splice variants of the same gene. Cross-linking of LAIR-1 on human T cell clones results in inhibition of cytotoxicity only in T cell clones that lack CD28 and are able to spontaneously lyse certain targets in vitro. Moreover, the cytolytic activity of freshly isolated T cells, which is thought to be mainly due to "effector" T cells, can be inhibited by anti-LAIR-1 mAb. Thus, LAIR-1 functions as an inhibitory receptor not only on NK cells, but also on human T cells. This indicates that LAIR-1 provides a mechanism of regulation of effector T cells and may play a role in the inhibition of unwanted bystander responses mediated by Ag-specific T cells.
 
 ---
-### 779. The TAK1-NLK-MAPK-related pathway antagonizes signalling between beta-catenin and transcription factor TCF
+### 778. The TAK1-NLK-MAPK-related pathway antagonizes signalling between beta-catenin and transcription factor TCF
 
 **Citation.** Ishitani T, Ninomiya-Tsuji J, Nagai S, Nishita M, Meneghini M, Barker N, Waterman M, Bowerman B, Clevers H, Shibuya H, Matsumoto K. The TAK1-NLK-MAPK-related pathway antagonizes signalling between beta-catenin and transcription factor TCF. Nature. 1999;399(6738):798-802.
 
@@ -26587,7 +26519,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The Wnt signalling pathway regulates many developmental processes through a complex of beta-catenin and the T-cell factor/lymphoid enhancer factor (TCF/LEF) family of high-mobility-group transcription factors. Wnt stabilizes cytosolic beta-catenin, which then binds to TCF and activates gene transcription. This signalling cascade is conserved in vertebrates, Drosophila and Caenorhabditis elegans. In C. elegans, the proteins MOM-4 and LIT-1 regulate Wnt signalling to polarize responding cells during embryogenesis. MOM-4 and LIT-1 are homologous to TAK1 (a kinase activated by transforming growth factor-beta) mitogen-activated protein-kinase-kinase kinase (MAP3K) and MAP kinase (MAPK)-related NEMO-like kinase (NLK), respectively, in mammalian cells. These results raise the possibility that TAK1 and NLK are also involved in Wnt signalling in mammalian cells. Here we show that TAK1 activation stimulates NLK activity and downregulates transcriptional activation mediated by beta-catenin and TCF. Injection of NLK suppresses the induction of axis duplication by microinjected beta-catenin in Xenopus embryos. NLK phosphorylates TCF/LEF factors and inhibits the interaction of the beta-catenin-TCF complex with DNA. Thus, the TAK1-NLK-MAPK-like pathway negatively regulates the Wnt signalling pathway.
 
 ---
-### 780. Synergy between tumor suppressor APC and the beta-catenin-Tcf4 target Tcf1
+### 779. Synergy between tumor suppressor APC and the beta-catenin-Tcf4 target Tcf1
 
 **Citation.** Roose J, Huls G, van Beest M, Moerer P, van der Horn K, Goldschmeding R, Logtenberg T, Clevers H. Synergy between tumor suppressor APC and the beta-catenin-Tcf4 target Tcf1. Science. 1999;285(5435):1923-6.
 
@@ -26616,7 +26548,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 ## 1998
 
-### 781. Adaptive response of iron absorption to anemia, increased erythropoiesis, iron deficiency, and iron loading in beta2-microglobulin knockout mice
+### 780. Adaptive response of iron absorption to anemia, increased erythropoiesis, iron deficiency, and iron loading in beta2-microglobulin knockout mice
 
 **Citation.** Santos M, Clevers H, de Sousa M, Marx JJ. Adaptive response of iron absorption to anemia, increased erythropoiesis, iron deficiency, and iron loading in beta2-microglobulin knockout mice. Blood. 1998;91(8):3059-65.
 
@@ -26638,7 +26570,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Recently, a novel gene of the major histocompatibility complex (MHC) class I family, HFE (HLA-H), has been found to be mutated in a large proportion of hereditary hemochromatosis (HH) patients. Further support for a causative role of HFE in this disease comes from the observation that beta2-microglobulin knockout (beta2m-/-) mice, that fail to express MHC class I products, develop iron overload. We have now used this animal model of HH to examine the capacity to adapt iron absorption in response to altered iron metabolism in the absence of beta2m-dependent molecule(s). Mucosal uptake, mucosal transfer and retention of iron were measured in control and beta2m-/- mice with altered iron metabolism. Mucosal uptake of Fe(III), but not of Fe(II), by the mutant mice was significantly higher when compared with B6 control mice. Mucosal transfer in the beta2m-/- mice was higher, independent of the iron form tested. No significant differences were found in iron absorption between control and beta2m-/- mice when anemia was induced either by repetitive bleeding or by hemolysis through phenylhydrazine treatment. However, iron absorption in mice made anemic by dietary deprivation of iron was significantly higher in the mutant mice. Furthermore, the beta2m-/- mice manifested an impaired capacity to downmodulate iron absorption when dietary or parenterally iron-loaded. The expression of the defect in iron absorption in the beta2m-/- mice is quantitative, with iron absorption being excessively high for the size of body iron stores. The higher iron absorption capacity in the beta2m-/- mice may involve the initial step of ferric mucosal uptake and the subsequent step of mucosal transfer of iron to the plasma.
 
 ---
-### 782. Sox4-deficiency syndrome in mice is an animal model for common trunk
+### 781. Sox4-deficiency syndrome in mice is an animal model for common trunk
 
 **Citation.** Ya J, Schilham MW, de Boer PA, Moorman AF, Clevers H, Lamers WH. Sox4-deficiency syndrome in mice is an animal model for common trunk. Circ Res. 1998;83(10):986-94.
 
@@ -26662,7 +26594,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Embryonic mice lacking functional Sox4 transcription factor die from cardiac failure at embryonic day (ED) 14. Heart morphogenesis in these embryos was analyzed in hematoxylin-azophlochsin or immunohistochemically stained, 3-dimensionally reconstructed serial sections between ED12 and ED14. Although Sox4 is expressed in the endocardially derived tissue of both the outflow tract and atrioventricular canal, Sox4-deficient hearts only suffer from defective transformation of the endocardial ridges into semilunar valves and from lack of fusion of these ridges, usually resulting in common trunk, although the least affected hearts should be classified as having a large infundibular septal defect. The more serious cases are, in addition, characterized by an abnormal number and position of the semilunar valve-leaflet anlagen, a configuration of the ridges typical for transposition of the great arteries (with linear rather than spiral course of both ridges and posterior position of the pulmonary trunk at the level of the valve), and variable size of the aorta relative to the pulmonary trunk. The coronary arteries always originated from the aorta, irrespective of its position relative to the pulmonary trunk. The restriction of the malformations to the arterial pole implies that the interaction between the endocardially derived tissue of the outflow tract and the neural crest-derived myofibroblasts determines proper development of the arterial pole.
 
 ---
-### 783. Uncoupling of S phase and mitosis in cardiomyocytes and hepatocytes lacking the winged-helix transcription factor Trident
+### 782. Uncoupling of S phase and mitosis in cardiomyocytes and hepatocytes lacking the winged-helix transcription factor Trident
 
 **Citation.** Korver W, Schilham MW, Moerer P, van den Hoff MJ, Dam K, Lamers WH, Medema RH, Clevers H. Uncoupling of S phase and mitosis in cardiomyocytes and hepatocytes lacking the winged-helix transcription factor Trident. Curr Biol. 1998;8(24):1327-30.
 
@@ -26688,7 +26620,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** In order to maintain a stable karyotype, the eukaryotic cell cycle is coordinated such that only one round of S phase precedes each mitosis, and mitosis is not initiated until DNA replication is completed. Several checkpoints and regulatory proteins have been defined in lower eukaryotes that govern this coordination, but little is known about the proteins that are involved in mammalian cells. Previously, we have shown that the winged-helix transcription factor Trident - also known as HFH-11, FKL16 and WIN [1] [2] [3] - is exclusively expressed in cycling cells and is phosphorylated during mitosis [1] [4]. The cellular function of Trident has yet to be described, however. Here, we have shown that disruption of the Trident gene in mice resulted in postnatal death, most probably because of circulatory failure. Histological analysis of Trident -/- embryos from embryonic day 10 (E10) onwards revealed a specific, characteristic defect in the developing myocardium. The orientation of the myocytes was highly irregular and the nuclei of these disorganized cardiomyocytes were clearly polyploid with up to a 50-fold increase in DNA content. Polyploidy was also observed in embryonic hepatocytes. Our results indicate that expression of Trident is required to prevent multiple rounds of S phase in the heart and the liver. Trident therefore appears to have a role in preventing DNA re-replication during the G2 and M phases.
 
 ---
-### 784. Transcriptional control during T-cell development
+### 783. Transcriptional control during T-cell development
 
 **Citation.** Clevers H, Ferrier P. Transcriptional control during T-cell development. Curr Opin Immunol. 1998;10(2):166-71.
 
@@ -26708,7 +26640,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** During the past few years, the essential role of distinct transcription factors in specifying cell-fate decisions in a stepwise fashion during T-cell differentiation has been revealed. One striking feature is that a single factor can act at several sites throughout T-cell development, possibly through interactions with different partners. The challenge is now to understand how these interactions can account for the co-ordination of complex extracellular signals and gene expression programs, such as those involved in T-cell receptor gene recombination and expression.
 
 ---
-### 785. Redundant regulation of T cell differentiation and TCRalpha gene expression by the transcription factors LEF-1 and TCF-1
+### 784. Redundant regulation of T cell differentiation and TCRalpha gene expression by the transcription factors LEF-1 and TCF-1
 
 **Citation.** Okamura RM, Sigvardsson M, Galceran J, Verbeek S, Clevers H, Grosschedl R. Redundant regulation of T cell differentiation and TCRalpha gene expression by the transcription factors LEF-1 and TCF-1. Immunity. 1998;8(1):11-20.
 
@@ -26732,7 +26664,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Lymphoid enhancer factor 1 (LEF-1) and T cell factor 1 (TCF-1) are closely related transcription factors that are both expressed during murine T cell differentiation and that regulate the T cell receptor alpha (TCRalpha) enhancer in transfection assays. Targeted gene disruption of either the Tcf1 or Lef1 gene in mice did not affect TCRalpha gene expression and resulted in an incomplete defect or no defect in thymocyte differentiation. Here, we examine a potential redundancy of these transcription factors by analyzing double-mutant mice. In fetal thymic organ cultures from Lef1-/- Tcf1-/- mice, alpha/beta T cell differentiation is completely arrested at the immature CD8+ single-positive (CD8+ ISP) stage and is markedly impaired at an earlier stage. In addition, we find that sorted CD8+ ISP cells from Lef1-/- Tcf1-/- mice express TCRbeta but show a severely reduced level of TCRalpha gene transcription. Together, these data show that LEF-1 and TCF-1 are redundant in the regulation of T cell differentiation and gene expression.
 
 ---
-### 786. Critical involvement of Tcf-1 in expansion of thymocytes
+### 785. Critical involvement of Tcf-1 in expansion of thymocytes
 
 **Citation.** Schilham MW, Wilson A, Moerer P, Benaissa-Trouw BJ, Cumano A, Clevers HC. Critical involvement of Tcf-1 in expansion of thymocytes. J Immunol. 1998;161(8):3984-91.
 
@@ -26756,7 +26688,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** T cell maturation in Tcf-1(-/-) mice deteriorates progressively and halts completely around 6 mo of age. During fetal development thymocyte subpopulations seem normal, although total cell numbers are lower. By 4 to 6 wk of age, obvious blockades in the differentiation of CD4- 8- thymocytes are observed at two distinct stages (CD44+ 25+ and CD44- 25-), both of which are normally characterized by extensive proliferation. This lack of thymocyte expansion and/or differentiation was also observed when Tcf-1(-/-) progenitor cells from the aorta-gonad-mesonephros region (embryonic day 11.5), fetal liver (embryonic day 12.5/14.5), and fetal bone marrow (embryonic day 18.5) were allowed to differentiate in normal thymic lobes (fetal thymic organ cultures) or were injected intrathymically into normal recipients. Despite these apparent defects in thymocyte differentiation and expansion, adult Tcf-1(-/-) mice are immunocompetent, as they generate virus neutralizing Abs at normal titers. Furthermore, their peripheral T cells have an activated phenotype (increased CD44 and decreased CD62L expression) and proliferate normally in response to Ag or mitogen, suggesting that these cells may have arisen from the early wave of development during embryogenesis and are either long lived or have subsequently been maintained by peripheral expansion. As Tcf-1 is a critical component in the Wnt/beta-catenin signaling pathway, these data suggest that Wnt-like factors play a role in the expansion of double-negative thymocytes.
 
 ---
-### 787. Putative myeloma precursor cells expressing 2,6 sialic acid-modified antigens actually belong to the erythroid lineage
+### 786. Putative myeloma precursor cells expressing 2,6 sialic acid-modified antigens actually belong to the erythroid lineage
 
 **Citation.** de Lau WB, Kuipers J, Peters PJ, Lokhorst HM, Clevers H, Bast BJ. Putative myeloma precursor cells expressing 2,6 sialic acid-modified antigens actually belong to the erythroid lineage. Leuk Res. 1998;22(2):163-73.
 
@@ -26780,7 +26712,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The Golgi enzyme alpha2,6-sialyltransferase modifies glycoconjugates by adding sialic acid. In lymphocytes, different epitopes that result from this modification have been identified by the B cell-related CDw75, CDw76, HB4 or HB6 Ab. We previously described positive staining with these Ab of a highly transferrin receptor-positive (CD71) cell type in the bone marrow of multiple myeloma patients. These cells were distinct from plasma cells, but did contain Ig of the same isotype and idiotype as seen in the plasma cells. We postulated a precursor role for this cell type in myeloma. Here, we report that this CD71+ (HB4/HB6/CDw75/CDw76)+ cell is an erythroid precursor cell instead. RT-PCR did not detect Ig mRNA, and from immuno electron microscopy Ig appeared to be endocytosed rather than synthesized by these cells. At their cell surface the erythroid/megakaryocytic markers CD36 and CD41, and the erythroid-specific glycophorin A can be detected, while haemoglobin can be detected antigenically in the cytoplasm. Finally, purified cells proliferate in vitro upon addition of erythropoietin. Uptake of Ig could be explained by the presence of Fc gammaRIII(CD16), which has also been found on other haematopoietic precursor cells.
 
 ---
-### 788. Differential expression of the HMG box transcription factors XTcf-3 and XLef-1 during early xenopus development
+### 787. Differential expression of the HMG box transcription factors XTcf-3 and XLef-1 during early xenopus development
 
 **Citation.** Molenaar M, Roose J, Peterson J, Venanzi S, Clevers H, Destrée O. Differential expression of the HMG box transcription factors XTcf-3 and XLef-1 during early xenopus development. Mech Dev. 1998;75(1-2):151-4.
 
@@ -26804,7 +26736,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The recent discovery that the HMG box transcription factor XTCF-3 is involved in early axis specification in Xenopus laevis (Molenaar, M., van de Wetering, M., Oosterwegel, M., Peterson-Maduro, J. Godsave, S., Korinek, V., Roose, J., Destree, O., Clevers, H., 1996. XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos. Cell 86, 391-399) led us to search for other members of the TCF/LEF family in this species. A newly identified HMG box factor was cloned with highest homology to human LEF-1, called XLEF-1. Unlike XTcf-3, XLef-1 is not expressed maternally, but its transcripts become detectable directly after the mid blastula transition (MBT). At later stages, both genes are expressed in the central nervous system (CNS), eyes, otic vesicles, head mesenchyme, neural crest and derivatives, branchial arches, developing heart, tailbud and limb buds. The expression pattern of Lef-1 during later stages of development is evolutionarily conserved.
 
 ---
-### 789. Two members of the Tcf family implicated in Wnt/beta-catenin signaling during embryogenesis in the mouse
+### 788. Two members of the Tcf family implicated in Wnt/beta-catenin signaling during embryogenesis in the mouse
 
 **Citation.** Korinek V, Barker N, Willert K, Molenaar M, Roose J, Wagenaar G, Markman M, Lamers W, Destree O, Clevers H. Two members of the Tcf family implicated in Wnt/beta-catenin signaling during embryogenesis in the mouse. Mol Cell Biol. 1998;18(3):1248-56.
 
@@ -26832,7 +26764,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Tcf transcription factors interact with beta-catenin and Armadillo to mediate Wnt/Wingless signaling. We now report the characterization of genes encoding two murine members of the Tcf family, mTcf-3 and mTcf-4. mTcf-3 mRNA is ubiquitously present in embryonic day 6.5 (E6.5) mouse embryos but gradually disappears over the next 3 to 4 days. mTcf-4 expression occurs first at E10.5 and is restricted to di- and mesencephalon and the intestinal epithelium during embryogenesis. The mTcf-3 and mTcf-4 proteins bind a canonical Tcf DNA motif and can complex with the transcriptional coactivator beta-catenin. Overexpression of Wnt-1 in a mammary epithelial cell line leads to the formation of a nuclear complex between beta-catenin and Tcf proteins and to Tcf reporter gene transcription. These data demonstrate a direct link between Wnt stimulation and beta-catenin/Tcf transcriptional activation and imply a role for mTcf-3 and -4 in early Wnt-driven developmental decisions in the mouse embryo.
 
 ---
-### 790. Genomic organization of the segment polarity gene pan in Drosophila melanogaster
+### 789. Genomic organization of the segment polarity gene pan in Drosophila melanogaster
 
 **Citation.** Dooijes D, van Beest M, van de Wetering M, Boulanger G, Jones T, Clevers H, Mortin MA. Genomic organization of the segment polarity gene pan in Drosophila melanogaster. Mol Gen Genet. 1998;258(1-2):45-52.
 
@@ -26857,7 +26789,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** We previously described the molecular cloning of a mammalian T cell factor 1 (TCF-1)-like protein from Drosophila melanogaster, encoded by the pangolin (pan) locus, and demonstrated that it consists of a DNA binding domain similar to that of other high mobility group proteins and a protein-protein interaction domain that binds beta-catenin (Armadillo in Drosophila) but that it lacks a transcriptional activation domain. Here we show that the pan locus spans approximately 50 kb and the mRNA results from the splicing of 13 exons. We note remarkable conservation of the exon/intron boundaries between the human and D. melanogaster genes, suggesting that they share a common ancestor. Chromosomal in situ hybridization locates pan to the base of chromosome 4, near the cubitus interruptus locus. Restriction map and sequence analyses confirm their close proximity. The small fourth chromosome undergoes little or no recombination and was previously reported to lack DNA polymorphisms; however, we note two DNA polymorphisms occurring in three combinations within the pan locus, demonstrating the presence of synonymous substitutions and the past occurrence of recombination. We present evidence suggesting that the protein encoded by pan is more similar to mammalian TCF-1 and Caenorhabditis elegans POP-1 than to mammalian LEF-1.
 
 ---
-### 791. Depletion of epithelial stem-cell compartments in the small intestine of mice lacking Tcf-4
+### 790. Depletion of epithelial stem-cell compartments in the small intestine of mice lacking Tcf-4
 
 **Citation.** Korinek V, Barker N, Moerer P, van Donselaar E, Huls G, Peters PJ, Clevers H. Depletion of epithelial stem-cell compartments in the small intestine of mice lacking Tcf-4. Nat Genet. 1998;19(4):379-83.
 
@@ -26882,7 +26814,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Mutations of the genes encoding APC or beta-catenin in colon carcinoma induce the constitutive formation of nuclear beta-catenin/Tcf-4 complexes, resulting in activated transcription of Tcf target genes. To study the physiological role of Tcf-4 (which is encoded by the Tcf7/2 gene), we disrupted Tcf7/2 by homologous recombination. Tcf7/2-/- mice die shortly after birth. A single histopathological abnormality was observed. An apparently normal transition of intestinal endoderm into epithelium occurred at approximately embryonic day (E) 14.5. However, no proliferative compartments were maintained in the prospective crypt regions between the villi. As a consequence, the neonatal epithelium was composed entirely of differentiated, non-dividing villus cells. We conclude that the genetic program controlled by Tcf-4 maintains the crypt stem cells of the small intestine. The constitutive activity of Tcf-4 in APC-deficient human epithelial cells may contribute to their malignant transformation by maintaining stem-cell characteristics.
 
 ---
-### 792. Destabilization of beta-catenin by mutations in presenilin-1 potentiates neuronal apoptosis
+### 791. Destabilization of beta-catenin by mutations in presenilin-1 potentiates neuronal apoptosis
 
 **Citation.** Zhang Z, Hartmann H, Do VM, Abramowski D, Sturchler-Pierrat C, Staufenbiel M, Sommer B, van de Wetering M, Clevers H, Saftig P, De Strooper B, He X, Yankner BA. Destabilization of beta-catenin by mutations in presenilin-1 potentiates neuronal apoptosis. Nature. 1998;395(6703):698-702.
 
@@ -26913,7 +26845,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Mutations of the presenilin-1 gene are a major cause of familial early-onset Alzheimer's disease. Presenilin-1 can associate with members of the catenin family of signalling proteins, but the significance of this association is unknown. Here we show that presenilin-1 forms a complex with beta-catenin in vivo that increases beta-catenin stability. Pathogenic mutations in the presenilin-1 gene reduce the ability of presenilin-1 to stabilize beta-catenin, and lead to increased degradation of beta-catenin in the brains of transgenic mice. Moreover, beta-catenin levels are markedly reduced in the brains of Alzheimer's disease patients with presenilin-1 mutations. Loss of beta-catenin signalling increases neuronal vulnerability to apoptosis induced by amyloid-beta protein. Thus, mutations in presenilin-1 may increase neuronal apoptosis by altering the stability of beta-catenin, predisposing individuals to early-onset Alzheimer's disease.
 
 ---
-### 793. Drosophila Tcf and Groucho interact to repress Wingless signalling activity
+### 792. Drosophila Tcf and Groucho interact to repress Wingless signalling activity
 
 **Citation.** Cavallo RA, Cox RT, Moline MM, Roose J, Polevoy GA, Clevers H, Peifer M, Bejsovec A. Drosophila Tcf and Groucho interact to repress Wingless signalling activity. Nature. 1998;395(6702):604-8.
 
@@ -26939,7 +26871,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Wingless/Wnt signalling directs cell-fate choices during embryonic development. Inappropriate reactivation of the pathway causes cancer. In Drosophila, signal transduction from Wingless stabilizes cytosolic Armadillo, which then forms a bipartite transcription factor with the HMG-box protein Drosophila Tcf (dTcf) and activates expression of Wingless-responsive genes. Here we report that in the absence of Armadillo, dTcf acts as a transcriptional repressor of Wingless-responsive genes, and we show that Groucho acts as a corepressor in this process. Reduction of dTcf activity partially suppresses wingless and armadillo mutant phenotypes, leading to derepression of Wingless-responsive genes. Furthermore, overexpression of wild-type dTcf enhances the phenotype of a weak wingless allele. Finally, mutations in the Drosophila groucho gene also suppress wingless and armadillo mutant phenotypes as Groucho physically interacts with dTcf and is required for its full repressor activity.
 
 ---
-### 794. The Xenopus Wnt effector XTcf-3 interacts with Groucho-related transcriptional repressors
+### 793. The Xenopus Wnt effector XTcf-3 interacts with Groucho-related transcriptional repressors
 
 **Citation.** Roose J, Molenaar M, Peterson J, Hurenkamp J, Brantjes H, Moerer P, van de Wetering M, Destrée O, Clevers H. The Xenopus Wnt effector XTcf-3 interacts with Groucho-related transcriptional repressors. Nature. 1998;395(6702):608-12.
 
@@ -26966,7 +26898,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Tcf/Lef transcription factors mediate signalling from Wingless/Wnt proteins by recruiting Armadillo/beta-catenin as a transcriptional co-activator. However, studies of Drosophila, Xenopus and Caenorhabditis elegans have indicated that Tcf factors may also be transcriptional repressors. Here we show that Tcf factors physically interact with members of the Groucho family of transcriptional repressors. In transient transfection assays, the Xenopus Groucho homologue XGrg-4 inhibited activation of transcription of synthetic Tcf reporter genes. In contrast, the naturally truncated Groucho-family member XGrg-5 enhanced transcriptional activation. Injection of XGrg-4 into Xenopus embryos repressed transcription of Siamois and Xnr-3, endogenous targets of beta-catenin-Tcf. Dorsal injection of XGrg-4 had a ventralizing effect on Xenopus embryos. Secondary-axis formation induced by a dominant-positive Armadillo-Tcf fusion protein was inhibited by XGrg-4 and enhanced by XGrg-5. These data indicate that expression of Tcf target genes is regulated by a balance between Armadillo and Groucho.
 
 ---
-### 795. Drosophila RpS3a, a novel Minute gene situated between the segment polarity genescubitus interruptus and dTCF
+### 794. Drosophila RpS3a, a novel Minute gene situated between the segment polarity genescubitus interruptus and dTCF
 
 **Citation.** van Beest M, Mortin M, Clevers H. Drosophila RpS3a, a novel Minute gene situated between the segment polarity genescubitus interruptus and dTCF. Nucleic Acids Res. 1998;26(19):4471-5.
 
@@ -26987,7 +26919,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Genetic analysis of the small chromosome 4 of Drosophila has been hampered by the virtual lack of recombination. The segment polarity gene cubitus interruptus (ci) maps to the most intensively studied locus on this chromosome. Up to four complementation groups have been found to be associated with ci. We and others have recently characterized a second segment polarity gene, dTCF or pan, 12 kb upstream of ci, in a head-to-head configuration. During the course of these studies we identified a transcription unit in the intergenic region. We report here the cloning of cDNAs from this transcription unit, which encode the Drosophila homologue of the human ribosomal protein S3a (RpS3a). The RpS3a gene is expressed ubiquitously and throughout development. A Minute allele, M(4)101, linked tightly to ci, was found to harbour an integration of a Doc retroposon in the promotor region of RpS3a. Thus, like other Minute loci, M(4)101 encodes a component of the protein synthesis machinery. These data further unravel the complex genetics surrounding the ci and dTCF loci.
 
 ---
-### 796. High expression of the HMG box factor sox-13 in arterial walls during embryonic development
+### 795. High expression of the HMG box factor sox-13 in arterial walls during embryonic development
 
 **Citation.** Roose J, Korver W, Oving E, Wilson A, Wagenaar G, Markman M, Lamers W, Clevers H. High expression of the HMG box factor sox-13 in arterial walls during embryonic development. Nucleic Acids Res. 1998;26(2):469-76.
 
@@ -27013,7 +26945,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Members of the Sox gene family of transcription factors are defined by the presence of an 80 amino acid homology domain, the High Mobility Group (HMG) box. Here we report the cloning and initial analysis of murine Sox-13 . The 984 amino acids Sox-13 protein contains a single HMG box, a leucine zipper motif and a glutamine-rich stretch. These characteristics are shared with another member of the Sox gene family, Sox-6. High level embryonic expression of Sox-13 occurs uniquely in the arterial walls of 13.5 days post coitum (dpc) mice and later. Low level expression was observed in the inner ear of 13.5 dpc mice and in a limited number of cells in the thymus of 16.5 dpc mice, from which Sox-13 was originally cloned. At 18.5 dpc, Sox-13 is expressed in the tracheal epithelium below the vocal cord and in the hair follicles. The Sox-13 protein binds to the consensus HMG box motif, AACAAAG, but does not transactivate transcription through a concatamer of this motif. Sox-13, like other members of the Sox family likely plays an important role in development.
 
 ---
-### 797. The gene encoding the granulocyte colony-stimulating factor receptor is a target for deregulation in pre-B ALL by the t(1;19)-specific oncoprotein E2A-Pbx1
+### 796. The gene encoding the granulocyte colony-stimulating factor receptor is a target for deregulation in pre-B ALL by the t(1;19)-specific oncoprotein E2A-Pbx1
 
 **Citation.** de Lau WB, Hurenkamp J, Berendes P, Touw IP, Clevers HC, van Dijk MA. The gene encoding the granulocyte colony-stimulating factor receptor is a target for deregulation in pre-B ALL by the t(1;19)-specific oncoprotein E2A-Pbx1. Oncogene. 1998;17(4):503-10.
 
@@ -27037,7 +26969,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Approximately 25-30% of childhood pre-B cell acute lymphoblastic leukemias (pre-B ALL) is characterized by the presence of a (1;19)(q23;p13.3) translocation. The presence of this translocation is generally accompanied by a poor prognosis. The chimeric gene resulting from this chromosomal rearrangement encodes a hybrid transcription factor, E2A-Pbx1. In an attempt to delineate the genetic cascade initiated by E2A-Pbx1, we sought to identify genes that are deregulated by this transcription factor in t(1;19) pre-B ALL. We show here that the gene encoding the granulocyte colony-stimulating factor receptor (G-CSFr) is specifically upregulated in pre-B cells expressing E2A-Pbx1. G-CSFr is also expressed in cell lines established from t(1;19) pre-B cell leukemia and on primary t(1;19) tumor cells, but not on control cells. These data indicate that G-CSFr gene is a target for deregulation by E2A-Pbx1.
 
 ---
-### 798. HMG box containing transcription factors in lymphocyte differentiation
+### 797. HMG box containing transcription factors in lymphocyte differentiation
 
 **Citation.** Schilham MW, Clevers H. HMG box containing transcription factors in lymphocyte differentiation. Semin Immunol. 1998;10(2):127-32.
 
@@ -27060,7 +26992,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 ## 1997
 
-### 799. Control of gene expression during lymphoid development: targeted gene disruption provides new clues
+### 798. Control of gene expression during lymphoid development: targeted gene disruption provides new clues
 
 **Citation.** Dooijes D, Clevers H. Control of gene expression during lymphoid development: targeted gene disruption provides new clues. APMIS. 1997;105(5):337-44.
 
@@ -27080,7 +27012,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The expression of structural genes is thought to be regulated by DNA-binding factors interacting with cis-acting regulatory elements. These regulatory elements, identified for many lymphopoietic genes, have served in recent years to identify and clone novel transcription factors. The expression of some of these factors is found to be confined to the lymphoid lineage. This regulated expression in both time and space is thought to mediate entry into and progression along the correct developmental differentiation programs. In recent years, many laboratories have tried to assess the functional relevance of these DNA-binding factors by making use of gene targeting techniques. A review of the results of such knock-out experiments and the consequences for lymphoid development models appears below.
 
 ---
-### 800. Armadillo coactivates transcription driven by the product of the Drosophila segment polarity gene dTCF
+### 799. Armadillo coactivates transcription driven by the product of the Drosophila segment polarity gene dTCF
 
 **Citation.** van de Wetering M, Cavallo R, Dooijes D, van Beest M, van Es J, Loureiro J, Ypma A, Hursh D, Jones T, Bejsovec A, Peifer M, Mortin M, Clevers H. Armadillo coactivates transcription driven by the product of the Drosophila segment polarity gene dTCF. Cell. 1997;88(6):789-99.
 
@@ -27111,7 +27043,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The vertebrate transcription factors TCF (T cell factor) and LEF (lymphocyte enhancer binding factor) interact with beta-catenin and are hypothesized to mediate Wingless/Wnt signaling. We have cloned a maternally expressed Drosophila TCF family member, dTCF. dTCF binds a canonical TCF DNA motif and interacts with the beta-catenin homolog Armadillo. Previous studies have identified two regions in Armadillo required for Wingless signaling. One of these interacts with dTCF, while the other constitutes a transactivation domain. Mutations in dTCF and expression of a dominant-negative dTCF transgene cause a segment polarity phenotype and affect expression of the Wingless target genes engrailed and Ultrabithorax. Epistasis analysis positions dTCF downstream of armadillo. The Armadillo-dTCF complex mediates Wingless signaling as a bipartite transcription factor.
 
 ---
-### 801. Cell differentiation by interaction of two HMG-box proteins: Mat1-Mc activates M cell-specific genes in S.pombe by recruiting the ubiquitous transcription factor Ste11 to weak binding sites
+### 800. Cell differentiation by interaction of two HMG-box proteins: Mat1-Mc activates M cell-specific genes in S.pombe by recruiting the ubiquitous transcription factor Ste11 to weak binding sites
 
 **Citation.** Kjaerulff S, Dooijes D, Clevers H, Nielsen O. Cell differentiation by interaction of two HMG-box proteins: Mat1-Mc activates M cell-specific genes in S.pombe by recruiting the ubiquitous transcription factor Ste11 to weak binding sites. EMBO J. 1997;16(13):4021-33.
 
@@ -27133,7 +27065,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The Schizosaccharomyces pombe mfm1 gene is expressed in an M cell-specific fashion. This regulation requires two HMG-box proteins: the ubiquitous Ste11 transcription factor and the M cell-controlling protein Mat1-Mc. Here we report that the mfm1 promoter contains a single, weak Stell-binding site (a so-called TR-box) that can confer M-specificity on a heterologous promoter when present in eight copies. In vitro, both Mat1-Mc and Ste11 can bind this box with approximately the same affinity. The Mat1-Mc protein caused a dramatic increase in the DNA-binding of Ste11 to this box, under conditions where we could not detect Mat1-Mc in the resulting protein-DNA complex. When we changed a single base in the mfm1 TR-box, such that it resembled those boxes found in ubiquitously expressed genes, Ste11 binding was enhanced, and in vivo the mfm1 gene also became expressed in P cells where Mat1-Mc is absent. These findings suggest that M-specificity results from Mat1-Mc-mediated Ste11 binding to weak TR-boxes. We have also defined a novel motif (termed M-box), adjacent to the mfm1 TR-box, to which Mat1-Mc binds strongly. A DNA fragment containing both the TR- and the M-box allowed the formation of a complex containing both Ste11 and Mat1-Mc. A single copy of this fragment was sufficient to activate a heterologous promoter in an M-specific fashion, suggesting that these two boxes act in a synergistic manner.
 
 ---
-### 802. Sox-4 facilitates thymocyte differentiation
+### 801. Sox-4 facilitates thymocyte differentiation
 
 **Citation.** Schilham MW, Moerer P, Cumano A, Clevers HC. Sox-4 facilitates thymocyte differentiation. Eur J Immunol. 1997;27(5):1292-5.
 
@@ -27155,7 +27087,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The mouse Sry-like transcription factor Sox-4 is expressed in thymus, bone marrow, and gonads of adult mice. Sox-4-deficient mice die at embryonic day E14 due to cardiac malformation. In transfer experiments to irradiated recipients, B cell development was shown to be severely impaired in Sox-4-deficient progenitor cells. However, no drastic effects on T lymphocyte development were noted, despite the high level expression of the Sox-4 gene in the thymus of normal mice. Here, we report a detailed analysis of T cell development from Sox-4-deficient progenitors. Explanted fetal thymic organ cultures (FTOC) of Sox-4-deficient thymi yielded 10-50-fold fewer CD4 CD8 double-positive and single-positive cells than FTOC of littermates. This effect was T cell-autonomous, since similar observations were made when FTOC were performed by culturing of Sox-4-deficient progenitors in wild-type thymus lobes. When Sox-4-deficient fetal liver cells were injected together with normal cells intrathymically, they did not compete efficiently for reconstitution. It is concluded that Sox-4 facilitates thymocyte development.
 
 ---
-### 803. The human TRIDENT/HFH-11/FKHL16 gene: structure, localization, and promoter characterization
+### 802. The human TRIDENT/HFH-11/FKHL16 gene: structure, localization, and promoter characterization
 
 **Citation.** Korver W, Roose J, Heinen K, Weghuis DO, de Bruijn D, van Kessel AG, Clevers H. The human TRIDENT/HFH-11/FKHL16 gene: structure, localization, and promoter characterization. Genomics. 1997;46(3):435-42.
 
@@ -27180,7 +27112,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** We recently identified the winged-helix/fork head transcription factor Trident in mouse and described its expression in cycling cells. Here we report the isolation and characterization of the human TRIDENT (HGMW-approved symbol FKHL16) cDNA and gene. Homology between the human and the mouse Trident proteins was 79%. The gene consists of 10 exons and is located on chromosome 12 band p13. The winged-helix DNA-binding domain is encoded on three exons. Analysis of the promoter in synchronized Rat-1 fibroblasts revealed a fragment of 300 bases responsible for the cell cycle-specific expression of the TRIDENT gene.
 
 ---
-### 804. The winged-helix transcription factor Trident is expressed in actively dividing lymphocytes
+### 803. The winged-helix transcription factor Trident is expressed in actively dividing lymphocytes
 
 **Citation.** Korver W, Roose J, Wilson A, Clevers H. The winged-helix transcription factor Trident is expressed in actively dividing lymphocytes. Immunobiology. 1997;198(1-3):157-61.
 
@@ -27202,7 +27134,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** We recently identified the winged-helix transcription factor Trident and described its expression pattern in synchronized fibroblasts. We have now studied Trident expression in cell lines, differentiating thymocytes and in lymphocytes derived from peripheral blood. During T cell differentiation, expression peaked in the actively dividing immature single positive cells. In peripheral blood lymphocytes, expression of Trident mRNA was absent, but could be induced upon stimulation with mitogens in vitro. These observations imply a function for Trident in dividing lymphocytes.
 
 ---
-### 805. European Immunologists meet in Amsterdam
+### 804. European Immunologists meet in Amsterdam
 
 **Citation.** Clevers H, Miedema F. European Immunologists meet in Amsterdam. Immunol Today. 1997;18(6):257.
 
@@ -27217,10 +27149,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 806. Ectopic activation of lymphoid high mobility group-box transcription factor TCF-1 and overexpression in colorectal cancer cells
+### 805. Ectopic activation of lymphoid high mobility group-box transcription factor TCF-1 and overexpression in colorectal cancer cells
 
 **Citation.** Mayer K, Hieronymus T, Castrop J, Clevers H, Ballhausen WG. Ectopic activation of lymphoid high mobility group-box transcription factor TCF-1 and overexpression in colorectal cancer cells. Int J Cancer. 1997;72(4):625-30.
 
@@ -27243,7 +27175,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Physical interaction between the lymphoid high mobility group (HMG)-box architectural transcription factors TCF/LEF and beta-catenin is associated with translocation of the heteromeric complex to the nucleus and regulation of target gene expression. Since formation of molecular complexes among beta-catenin, E-cadherin, p300apc and TCF/LEF depends on balanced expression of these constituents, we investigated the biosynthesis of TCF-1 in colorectal cancer. Here we report detailed analyses of activation and overexpression of lymphoid transcription factor TCF-1 in human colorectal cancer-derived cell lines. Northern blot analyses revealed considerable steady-state expression levels of TCF-1 mRNA of normal size. Genomic rearrangement of the 5' flanking region of the TCF-1 gene was excluded as a cause of ectopic expression. By contrast, CAT-reporter constructs depending on a 515-bp T-cell-regulated TCF-1 genomic upstream region were significantly activated in epithelial tumor cells. RT-PCR analyses revealed a heterogeneic population of mRNA isoforms due to alternative splicing in the TCF-1 gene. On Western blots of colorectal cancer cells, the TCF-1-specific monoclonal antibody 7H3 detected a similar heterogeneous spectrum of TCF-1 specific polypeptide chains. Interestingly, overexpression of TCF-1-specific splice forms correlated with the metastatic behavior of the analyzed cells and with overproduction of lymphoid tyrosine protein kinase p56(lck). We conclude that ectopic expression of the HMG-box factor TCF-1 is associated with late events in tumor progression.
 
 ---
-### 807. Animal models of congenital defects in the ventriculoarterial connection of the heart
+### 806. Animal models of congenital defects in the ventriculoarterial connection of the heart
 
 **Citation.** Ya J, Schilham MW, Clevers H, Moorman AF, Lamers WH. Animal models of congenital defects in the ventriculoarterial connection of the heart. J Mol Med (Berl). 1997;75(8):551-66.
 
@@ -27266,7 +27198,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The embryonic heart functions as a pump without one-way valves. To accomplish this, a long, slowly conducting myocardial structure, the outflow tract, functions as a sphincter at the arterial pole of the heart. During subsequent development tissue remodeling in the outflow tract and immigrating cells of the neural crest are responsible for connecting the right ventricle with the pulmonary trunk and the left ventricle with the aorta, that is, for the developmental formation of the ventriculoarterial junction. Most congenital malformations of the ventriculoarterial junction stem from disturbances that result in developmental arrest or in abnormal pattern formation ("real" teratology). Abnormal pattern formation can in turn originate from problems with laterality or from aberrant or incomplete formation of structural elements. Genetically modified animals with well-defined gene deficiencies are beginning to provide insight in the signal-transduction pathways and structural elements that are responsible for normal development.
 
 ---
-### 808. In vivo mucosal uptake, mucosal transfer and retention of iron in mice
+### 807. In vivo mucosal uptake, mucosal transfer and retention of iron in mice
 
 **Citation.** Santos M, Wienk KJ, Schilham MW, Clevers H, de Sousa M, Marx JJ. In vivo mucosal uptake, mucosal transfer and retention of iron in mice. Lab Anim. 1997;31(3):264-70.
 
@@ -27290,7 +27222,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** An improved and sensitive method for studying iron absorption in mice with alterations in body iron stores is described. Mice with varying iron status were given a double isotope-labelled test dose containing 59Fe and 51Cr as a non-absorbable indicator, via an oroesophageal needle. Using a whole-body counter it was possible to measure in vivo the initial mucosal iron uptake and long-term iron retention and to calculate mucosal iron transfer. A significant difference was demonstrated between normal and both anaemic and dietary iron-loaded mice with regard to the various steps of iron absorption. When mice were tested twice for iron absorption, the results were highly reproducible. In conjunction with other parameters, the method described is useful in studying the mechanism and the regulation of iron absorption in mice.
 
 ---
-### 809. Molecular characterisation of a cognate 70 kDa heat shock protein of the protozoan Theileria parva
+### 808. Molecular characterisation of a cognate 70 kDa heat shock protein of the protozoan Theileria parva
 
 **Citation.** Daubenberger C, Heussler V, Gobright E, Wijngaard P, Clevers HC, Wells C, Tsuji N, Musoke A, McKeever D. Molecular characterisation of a cognate 70 kDa heat shock protein of the protozoan Theileria parva. Mol Biochem Parasitol. 1997;85(2):265-9.
 
@@ -27314,10 +27246,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 1. International Livestock Research Institute (ILRI), Nairobi, Kenya.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 810. Mutations of the hereditary hemochromatosis candidate gene HLA-H in porphyria cutanea tarda
+### 809. Mutations of the hereditary hemochromatosis candidate gene HLA-H in porphyria cutanea tarda
 
 **Citation.** Santos M, Clevers HC, Marx JJ. Mutations of the hereditary hemochromatosis candidate gene HLA-H in porphyria cutanea tarda. N Engl J Med. 1997;336(18):1327-8.
 
@@ -27333,10 +27265,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 **Affiliations.** _None indexed in PubMed for this record._
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 811. The winged-helix transcription factor Trident is expressed in cycling cells
+### 810. The winged-helix transcription factor Trident is expressed in cycling cells
 
 **Citation.** Korver W, Roose J, Clevers H. The winged-helix transcription factor Trident is expressed in cycling cells. Nucleic Acids Res. 1997;25(9):1715-9.
 
@@ -27357,7 +27289,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** We describe the cloning and characterization of Trident , a novel member of the fork head/winged-helix family, from murine thymus. In the mouse embryo, the gene was expressed in all tissues, whereas in adult mice expression was only detected in the thymus. Further analysis revealed that Trident expression strictly correlated with cell cycling, independent of cell type. Timing of [3H]thymidine incorporation showed that mRNA and protein expression were strongly upregulated upon entry into the S phase of the cell cycle. Moreover, the protein was phosphorylated in M phase. PCR-mediated selection of optimal binding sites yielded a consensus motif resembling that of other family members. These results identify Trident as a transcription factor, which is likely involved in cell cycle-specific gene regulation.
 
 ---
-### 812. Activation of beta-catenin-Tcf signaling in colon cancer by mutations in beta-catenin or APC
+### 811. Activation of beta-catenin-Tcf signaling in colon cancer by mutations in beta-catenin or APC
 
 **Citation.** Morin PJ, Sparks AB, Korinek V, Barker N, Clevers H, Vogelstein B, Kinzler KW. Activation of beta-catenin-Tcf signaling in colon cancer by mutations in beta-catenin or APC. Science. 1997;275(5307):1787-90.
 
@@ -27382,7 +27314,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Inactivation of the adenomatous polyposis coli (APC) tumor suppressor gene initiates colorectal neoplasia. One of the biochemical activities associated with the APC protein is down-regulation of transcriptional activation mediated by beta-catenin and T cell transcription factor 4 (Tcf-4). The protein products of mutant APC genes present in colorectal tumors were found to be defective in this activity. Furthermore, colorectal tumors with intact APC genes were found to contain activating mutations of beta-catenin that altered functionally significant phosphorylation sites. These results indicate that regulation of beta-catenin is critical to APC's tumor suppressive effect and that this regulation can be circumvented by mutations in either APC or beta-catenin.
 
 ---
-### 813. Constitutive transcriptional activation by a beta-catenin-Tcf complex in APC-/- colon carcinoma
+### 812. Constitutive transcriptional activation by a beta-catenin-Tcf complex in APC-/- colon carcinoma
 
 **Citation.** Korinek V, Barker N, Morin PJ, van Wichen D, de Weger R, Kinzler KW, Vogelstein B, Clevers H. Constitutive transcriptional activation by a beta-catenin-Tcf complex in APC-/- colon carcinoma. Science. 1997;275(5307):1784-7.
 
@@ -27408,7 +27340,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The adenomatous polyposis coli (APC) tumor suppressor protein binds to beta-catenin, a protein recently shown to interact with Tcf and Lef transcription factors. The gene encoding hTcf-4, a Tcf family member that is expressed in colonic epithelium, was cloned and characterized. hTcf-4 transactivates transcription only when associated with beta-catenin. Nuclei of APC-/- colon carcinoma cells were found to contain a stable beta-catenin-hTcf-4 complex that was constitutively active, as measured by transcription of a Tcf reporter gene. Reintroduction of APC removed beta-catenin from hTcf-4 and abrogated the transcriptional transactivation. Constitutive transcription of Tcf target genes, caused by loss of APC function, may be a crucial event in the early transformation of colonic epithelium.
 
 ---
-### 814. TCF/LEF factor earn their wings
+### 813. TCF/LEF factor earn their wings
 
 **Citation.** Clevers H, van de Wetering M. TCF/LEF factor earn their wings. Trends Genet. 1997;13(12):485-9.
 
@@ -27431,7 +27363,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 ## 1996
 
-### 815. Allogeneic bone marrow transplantation can restore CD4+ T-lymphocyte count and immune function in idiopathic CD4+ T-lymphocytopenia
+### 814. Allogeneic bone marrow transplantation can restore CD4+ T-lymphocyte count and immune function in idiopathic CD4+ T-lymphocytopenia
 
 **Citation.** Petersen EJ, Rozenberg-Arska M, Dekker AW, Clevers HC, Verdonck LF. Allogeneic bone marrow transplantation can restore CD4+ T-lymphocyte count and immune function in idiopathic CD4+ T-lymphocytopenia. Bone Marrow Transplant. 1996;18(4):813-5.
 
@@ -27454,7 +27386,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** CD4+ T-lymphocytopenia in the absence of HIV infection is a heterogeneous disorder of unknown cause. Here we report a patient with idiopathic CD4+ T-lymphocytopenia, presenting with an opportunistic Rhodococcus equi infection. When aplastic anemia developed subsequently, allogeneic bone marrow transplantation was performed. Complete restoration of immune function was observed. We conclude that allogeneic bone marrow transplantation presents a potentially curative therapy for CD4+ T-lymphocytopenia.
 
 ---
-### 816. XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos
+### 815. XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos
 
 **Citation.** Molenaar M, van de Wetering M, Oosterwegel M, Peterson-Maduro J, Godsave S, Korinek V, Roose J, Destrée O, Clevers H. XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos. Cell. 1996;86(3):391-9.
 
@@ -27481,7 +27413,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** XTcf-3 is a maternally expressed Xenopus homolog of the mammalian HMG box factors Tcf-1 and Lef-1. The N-terminus of XTcf-3 binds to beta-catenin. Microinjection of XTcf-3 mRNA in embryos results in nuclear translocation of beta-catenin. The beta-catenin-XTcf-3 complex activates transcription in a transient reporter gene assay, while XTcf-3 by itself is silent. N-terminal deletion of XTcf-3 (delta N) abrogates the interaction with beta-catenin, as well as the consequent transcription activation. This dominant-negative delta N mutant suppresses the induction of axis duplication by microinjected beta-catenin. It also suppresses endogenous axis specification upon injection into the dorsal blastomeres of a 4-cell-stage embryo. We propose that signaling by beta-catenin involves complex formation with XTcf-3, followed by nuclear translocation and activation of specific XTcf-3 target genes.
 
 ---
-### 817. Selectively impaired development of intestinal T cell receptor gamma delta+ cells and liver CD4+ NK1+ T cell receptor alpha beta+ cells in T cell factor-1-deficient mice
+### 816. Selectively impaired development of intestinal T cell receptor gamma delta+ cells and liver CD4+ NK1+ T cell receptor alpha beta+ cells in T cell factor-1-deficient mice
 
 **Citation.** Ohteki T, Wilson A, Verbeek S, MacDonald HR, Clevers H. Selectively impaired development of intestinal T cell receptor gamma delta+ cells and liver CD4+ NK1+ T cell receptor alpha beta+ cells in T cell factor-1-deficient mice. Eur J Immunol. 1996;26(2):351-5.
 
@@ -27504,7 +27436,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** T cell factor-1 (Tcf-1) is a transcription factor that binds to a sequence motif present in several T cell-specific enhancer elements. In Tcf-1-deficient (Tcf-1-/-) mice, thymocyte development is partially blocked at the transition from the CD4-8+ immature single-positive stage to the CD4+8+ double-positive stage, resulting in a marked decrease of mature peripheral T cells in lymph node and spleen. We report here that the development of most intestinal TCR gamma delta+ cells and liver CD4+ NK1.1+TCR alpha beta+ (NK1+T) cells, which are believed to be of extrathymic origin, is selectively impaired in Tcf-1-/- mice. In contrast, thymic and thymus-derived (splenic) TCR gamma delta+ cells are present in normal numbers in Tcf-1-/- mice, as are other T cell subsets in intestine and liver. Collectively, our data suggest that Tcf-1 is differentially required for the development of some extrathymic T cell subsets, including intestinal TCR gamma delta+ cells and liver CD4+ NK1+T cells.
 
 ---
-### 818. Cloning, sequencing and expression of the bovine CD3 epsilon and TCR-zeta chains, two invariant components of the T-cell receptor complex
+### 817. Cloning, sequencing and expression of the bovine CD3 epsilon and TCR-zeta chains, two invariant components of the T-cell receptor complex
 
 **Citation.** Hagens G, Galley Y, Glaser I, Davis WC, Baldwin CL, Clevers H, Dobbelaere DA. Cloning, sequencing and expression of the bovine CD3 epsilon and TCR-zeta chains, two invariant components of the T-cell receptor complex. Gene. 1996;169(2):165-71.
 
@@ -27529,7 +27461,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** CD3 epsilon and the zeta-chain of the bovine T-cell receptor (TCR) are two invariant molecules with an important role in signal transduction via the TCR/CD3 complex. The nucleotide sequence of a bovine CD3 epsilon cDNA clone containing the complete coding sequence was determined and the deduced amino acid (aa) sequence compared to that of other species. The cytoplasmic domains of the different CD3 epsilon clearly show a higher degree of conservation than the extracellular domains. Bovine CD3 epsilon produced in Escherichia coli using different bacterial expression vectors was recognised by antibodies (Ab) directed against the intracytoplasmic domain of human CD3 epsilon. A partial bovine TCR zeta-chain cDNA was generated by the polymerase chain reaction (PCR) using primers that were based on sequences that are conserved between different species; 3' and 5' RACE-PCR were carried out to obtain the complete TCR zeta-chain cDNA sequence. A comparison of the predicted TCR zeta-chain aa sequence reveals that the GDP/GTP-binding motif, which is conserved in other species, shows marked differences in the bovine and ovine TCR zeta-chains. In contrast to CD3 epsilon, the short extracellular domain of the TCR zeta-chain is 100% conserved between the different species and the transmembrane domain also shows a high degree of identity. Ab were raised against the TCR zeta-chain, produced as a glutathione S-transferase fusion protein in E. coli, and were used in Western blot analysis to further characterise TCR zeta-chain expression in T-cells. The regents provide valuable tools for the study of signal transduction pathways in normal and transformed bovine T-cells.
 
 ---
-### 819. Transcriptional control of lymphoid development: lessons from gene targeting
+### 818. Transcriptional control of lymphoid development: lessons from gene targeting
 
 **Citation.** Clevers HC, Grosschedl R. Transcriptional control of lymphoid development: lessons from gene targeting. Immunol Today. 1996;17(7):336-43.
 
@@ -27546,10 +27478,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 1. Dept of Immunology, University Hospital, GA Utrecht, Holland.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 820. Defective iron homeostasis in beta 2-microglobulin knockout mice recapitulates hereditary hemochromatosis in man
+### 819. Defective iron homeostasis in beta 2-microglobulin knockout mice recapitulates hereditary hemochromatosis in man
 
 **Citation.** Santos M, Schilham MW, Rademakers LH, Marx JJ, de Sousa M, Clevers H. Defective iron homeostasis in beta 2-microglobulin knockout mice recapitulates hereditary hemochromatosis in man. J Exp Med. 1996;184(5):1975-85.
 
@@ -27573,7 +27505,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Previously, hepatic iron overload resembling that in hereditary hemachromatosis (HH) has been found in beta 2-microglobulin knockout (beta 2m-/-) mice. We have now characterized iron metabolism in beta 2m-/- mice. The mutant mice fail to limit the transfer of iron from mucosal cells into the plasma. Transferrin saturation is abnormally high. Pathologic iron depositions occur predominantly in liver parenchymal cells. Reconstitution with normal hematopoietic cells redistributes the iron from parenchymal to Kupffer cells, but does not correct the mucosal defect. We conclude that (a) iron metabolism is defective in the gut mucosa as well as the liver of beta 2m-/- mice; and (b) a beta 2m-dependent gene product is involved in iron homeostasis. Recently, a novel gene of the major histocompatibility complex class I family, HLA-H, has been found to be mutated in a large proportion of HH patients. Our data provide functional support for the proposed causative role of HLA-H mutations in HH.
 
 ---
-### 821. Extensive alternative splicing and dual promoter usage generate Tcf-1 protein isoforms with differential transcription control properties
+### 820. Extensive alternative splicing and dual promoter usage generate Tcf-1 protein isoforms with differential transcription control properties
 
 **Citation.** Van de Wetering M, Castrop J, Korinek V, Clevers H. Extensive alternative splicing and dual promoter usage generate Tcf-1 protein isoforms with differential transcription control properties. Mol Cell Biol. 1996;16(3):745-52.
 
@@ -27595,7 +27527,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Previously, we reported the isolation of cDNA clones representing four alternative splice forms of TCF-1, a T-cell-specific transcription factor. In the present study, Western blotting (immunoblotting) yielded a multitude of TCF-1 proteins ranging from 25-55 kDa, a pattern not simply explained from the known splice alternatives. Subsequent cDNA cloning, PCR amplification, and analysis by rapid amplification of 5' cDNA ends revealed (i) the presence of an alternative upstream promoter, which extended the known N terminus by 116 amino acids, (ii) the presence of four alternative exons, and (iii) the existence of a second reading frame in the last exon encoding an extended C terminus. Inclusion of the extended N terminus into the originally reported protein resulted in a striking similarity to the lymphoid factor Lef-1. Several of the TCF-1 isoforms, although less potent, mimicked Lef-1 in transactivating transcription through the T-cell receptor alpha-chain (TCR-alpha) enhancer. These data provide a molecular basis for the complexity of the expressed TCF-1 proteins and establish the existence of functional differences between these isoforms. Furthermore, the functional redundancy between Tcf-1 and Lef-1 explains the apparently normal TCR-alpha expression in single Tcf-1 or Lef-1 knockout mice despite the firm in vitro evidence for the importance of the Tcf/Lef site in the TCR-alpha enhancer.
 
 ---
-### 822. Defects in cardiac outflow tract formation and pro-B-lymphocyte expansion in mice lacking Sox-4
+### 821. Defects in cardiac outflow tract formation and pro-B-lymphocyte expansion in mice lacking Sox-4
 
 **Citation.** Schilham MW, Oosterwegel MA, Moerer P, Ya J, de Boer PA, van de Wetering M, Verbeek S, Lamers WH, Kruisbeek AM, Cumano A, Clevers H. Defects in cardiac outflow tract formation and pro-B-lymphocyte expansion in mice lacking Sox-4. Nature. 1996;380(6576):711-4.
 
@@ -27627,7 +27559,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 ## 1995
 
-### 823. The human high mobility group (HMG)-box transcription factor TCF-1: novel isoforms due to alternative splicing and usage of a new exon IXA
+### 822. The human high mobility group (HMG)-box transcription factor TCF-1: novel isoforms due to alternative splicing and usage of a new exon IXA
 
 **Citation.** Mayer K, Wolff E, Clevers H, Ballhausen WG. The human high mobility group (HMG)-box transcription factor TCF-1: novel isoforms due to alternative splicing and usage of a new exon IXA. Biochim Biophys Acta. 1995;1263(2):169-72.
 
@@ -27649,7 +27581,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The C-terminal peptide sequences of the human lymphocyte-specific high mobility group (HMG)-box transcription factor TCF-1 are determined by alternative splice mechanisms affecting the exons VIII to X. Here we report, in addition to four splice forms described previously (TCF-1A, B, C, D), the identification of three novel transcripts designated TCF-1E, F, G. Cloning and sequencing of the novel cDNAs revealed (i) joining of the exons VIII and IX to an internal exon X splice acceptor site resulting in a new open reading frame (ORF) of 99 amino acids derived from exon X sequences, (ii) the identification of an additional functional splice acceptor site within exon X, and (iii) a new 81-nucleotide insertion between exon VIII and exon X sequences in a novel transcript form. Genomic cloning and sequence analysis of this transcribed segment of 81 basepairs revealed that it was bordered by canonical splice consensus sites and located in a distance of some 400 bp from both the exons IX and X. It was therefore termed exon IXA. Novel ORFs were generated as a consequence of these alternative splice mechanisms resulting in TCF-1 gene products with significantly different C-terminal peptide sequences, which are prone to selective protein-protein interactions or transactivating functions.
 
 ---
-### 824. The human TCF-1 gene encodes a nuclear DNA-binding protein uniquely expressed in normal and neoplastic T-lineage lymphocytes
+### 823. The human TCF-1 gene encodes a nuclear DNA-binding protein uniquely expressed in normal and neoplastic T-lineage lymphocytes
 
 **Citation.** Castrop J, van Wichen D, Koomans-Bitter M, van de Wetering M, de Weger R, van Dongen J, Clevers H. The human TCF-1 gene encodes a nuclear DNA-binding protein uniquely expressed in normal and neoplastic T-lineage lymphocytes. Blood. 1995;86(8):3050-9.
 
@@ -27674,7 +27606,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The TCF-1 gene encodes a putative transcription factor with affinity for a sequence motif occurring in a number of T-cell enhancers. TCF-1 mRNA was originally found to be expressed in a T cell-specific fashion within a set of human and mouse cell lines. In contrast, expression reportedly occurs in multiple nonlymphoid tissues during murine embryogenesis. We have now raised a monoclonal antibody to document expression and biochemistry of the human TCF-1 protein. As expected, the TCF-1 protein was detectable only in cell lines of T lineage. Its expression was always restricted to the nucleus. Immunohistochemistry on a panel of human tissues revealed that the TCF-1 protein was found exclusively in thymocytes and in CD3+ T cells in peripheral lymphoid tissues. Western blotting yielded a set of bands ranging from 25 kD to 55 kD, resulting from extensive alternative splicing. The TCF-1 protein was detectable in all samples of a set of 22 T-cell malignancies of various stages of maturation, but was absent from a large number of other hematologic neoplasms. These observations imply a T cell-specific function for TCF-1, a notion corroborated by recent observations on Tcf-1 knock-out mice. In addition, these results indicate that nuclear TCF-1 expression can serve as a pan-T-lineage marker in the diagnosis of lymphoid malignancies.
 
 ---
-### 825. Circumvention of tolerance for the nuclear T cell protein TCF-1 by immunization of TCF-1 knock-out mice
+### 824. Circumvention of tolerance for the nuclear T cell protein TCF-1 by immunization of TCF-1 knock-out mice
 
 **Citation.** Castrop J, Verbeek S, Hofhuis F, Clevers H. Circumvention of tolerance for the nuclear T cell protein TCF-1 by immunization of TCF-1 knock-out mice. Immunobiology. 1995;193(2-4):281-7.
 
@@ -27696,7 +27628,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Molecular events that underlie the well-defined phenotypic changes of the differentiating thymocyte are poorly understood. A candidate gene to control thymocyte differentiation, T cell factor-1 (TCF-1)* encodes a DNA-binding protein. Its mRNA expression pattern is complex during embryogenesis, yet restricted to lymphocytes postnatally. Expression studies on TCF-1 protein have been hampered by the difficulty to raise antibodies due to extreme evolutionary conservation. TCF-1 knock-out mice, generated recently in our laboratory, have strongly decreased numbers of thymocytes, but are otherwise normal. We have used these mice to generate anti-TCF-1 antibodies. By immunization with a recombinant fusion protein, we show that TCF-1 knock-out mice readily yield antiserum titers against human and mouse TCF-1 protein. Wild-type littermates remain unresponsive to TCF-1 while they mount a high-titer antibody response to the fusion protein, Maltose Binding Protein (MBP). Subsequently, TCF-1-specific hybridomas could be prepared from the spleens of immunized knock-out mice. This study illustrates the almost complete tolerance of mice for human TCF-1 and demonstrates that this tolerance is readily broken by gene knock-out. Furthermore, the usefulness of knock-out mice for the generation of monoclonal antibodies against the gene product of interest is underscored.
 
 ---
-### 826. Solution structure of the sequence-specific HMG box of the lymphocyte transcriptional activator Sox-4
+### 825. Solution structure of the sequence-specific HMG box of the lymphocyte transcriptional activator Sox-4
 
 **Citation.** van Houte LP, Chuprina VP, van der Wetering M, Boelens R, Kaptein R, Clevers H. Solution structure of the sequence-specific HMG box of the lymphocyte transcriptional activator Sox-4. J Biol Chem. 1995;270(51):30516-24.
 
@@ -27720,7 +27652,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Two groups of HMG box proteins are distinguished. Proteins in the first group contain multiple HMG boxes, are non-sequence-specific, and recognize structural features as found in cruciform DNA and cross-over DNA. The abundant chromosomal protein HMG-1 belongs to this subgroup. Proteins in the second group carry a single HMG box with affinity for the minor groove of the heptamer motif AACAAAG or variations thereof. A solution structure for the non-sequence-specific C-terminal HMG box of HMG-1 has recently been proposed. Now, we report the solution structure of the sequence-specific HMG-box of the SRY-related protein Sox-4. NMR analysis demonstrated the presence of three alpha-helices (Val10-Gln22, Glu30-Leu41 and Phe50-Tyr65) connected by loop regions (Ser23-Ala49 and Leu42-Pro49). Helices I and II are positioned in an antiparallel mode and form one arm of the HMG box. Helix III is less rigid, makes an average angle of about 90 degrees with helices I and II, and constitutes the other arm of the molecule. As in HMG1B, the overall structure of the Sox-4 HMG box is L-shaped and is maintained by a cluster of conserved, mainly aromatic residues.
 
 ---
-### 827. Analysis of CD2 and TCR-beta gene expression in Jurkat cell mutants suggests a cis regulation of gene transcription
+### 826. Analysis of CD2 and TCR-beta gene expression in Jurkat cell mutants suggests a cis regulation of gene transcription
 
 **Citation.** Kamoun M, Woods JS, Sano N, Makni H, Smith R, de Lau WB, van Oers A, Wotton D, Owen MJ, Hashimoto Y, Clevers HC. Analysis of CD2 and TCR-beta gene expression in Jurkat cell mutants suggests a cis regulation of gene transcription. J Immunol. 1995;155(8):3929-37.
 
@@ -27749,7 +27681,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Thirty CD2- J32 stable clones, derived by mutagenesis and subsequent immunoselection with anti-CD2 Ab, were used to study the regulation of CD2 and TCR gene expression. Analysis of RNA expression revealed that the loss of surface expression of CD2 was due to a lack of expression of CD2 mRNA and was associated with a lack of expression of VDJ TCR-beta transcripts in 12 of these mutants, sparing the expression of DJ TCR-beta, TCR-alpha, CD3 gamma, delta, epsilon, and zeta RNA. The expression of other differentiation molecules was unaffected, except for CD1, CD4, and CD5, which were either decreased or absent in most of these mutants. A gain in the expression of TCR-gamma transcripts was observed in each of these mutants, while, as expected, no TCR-gamma transcripts were detected in wild-type J32 cells. Several mutants were able to use the human CD2 enhancer and the murine TCR-beta enhancer and promoter to activate transcription from reporter genes in the context of heterologous promoters, indicating that the mutation(s) does not affect transcription pathways. Consistent with this finding is the adequate expression in these mutants of several lineage-specific transcription factors. The expression of CD2 in several of these mutants was rescued by gene transfer using a genomic 28.5-kb CD2 fragment, suggesting that the enhancer function of this gene may be dependent on the enhancer site. These observations suggest that the coordinate expressions of CD2 and TCR-beta genes share common regulatory mechanisms involving factors regulating chromatin structure and accessibility.
 
 ---
-### 828. Characterization of the gene encoding the polymorphic immunodominant molecule, a neutralizing antigen of Theileria parva
+### 827. Characterization of the gene encoding the polymorphic immunodominant molecule, a neutralizing antigen of Theileria parva
 
 **Citation.** Toye PG, Metzelaar MJ, Wijngaard PL, Nene V, Iams K, Roose J, Nyanjui JK, Gobright E, Musoke AJ, Clevers HC. Characterization of the gene encoding the polymorphic immunodominant molecule, a neutralizing antigen of Theileria parva. J Immunol. 1995;155(3):1370-81.
 
@@ -27777,7 +27709,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Theileria parva, a tick-transmitted protozoan parasite related to Plasmodium spp., causes the disease East Coast fever, an acute and usually fatal lymphoproliferative disorder of cattle in Africa. Previous studies using sera from cattle that have survived infection identified a polymorphic immunodominant molecule (PIM) that is expressed by both the infective sporozoite stage of the parasite and the intracellular schizont. Here we show that mAb specific for the PIM Ag can inhibit sporozoite invasion of lymphocytes in vitro. A cDNA clone encoding the PIM Ag of the T. parva (Muguga) stock was obtained by using these mAb in a novel eukaryotic expression cloning system that allows isolation of cDNA encoding cytoplasmic or surface Ags. To establish the molecular basis of the polymorphism of PIM, the cDNA of the PIM Ag from a buffalo-derived T. parva stock was isolated and its sequence was compared with that of the cattle-derived Muguga PIM. The two cDNAs showed considerable identity in both the 5' and 3' regions, but there was substantial sequence divergence in the central regions. Several types of repeated sequences were identified in the variant regions. In the Muguga form of the molecule, there were five tandem repeats of the tetrapeptide, QPEP, that were shown, by transfection of a deleted version of the PIM gene, not to react with several anti-PIM mAbs. By isolating and sequencing the genomic version of the gene, we identified two small introns in the 3' region of the gene. Finally, we showed that polyclonal rat Abs against recombinant PIM neutralize sporozoite infectivity in vitro, suggesting that the PIM Ag should be evaluated for its capacity to immunize cattle against East Coast Fever.
 
 ---
-### 829. An assay for the identification of antigens recognized by cytotoxic T cells, based on transient transfection of COS cells
+### 828. An assay for the identification of antigens recognized by cytotoxic T cells, based on transient transfection of COS cells
 
 **Citation.** Toye P, Wijngaard P, MacHugh N, Clevers H. An assay for the identification of antigens recognized by cytotoxic T cells, based on transient transfection of COS cells. J Immunol Methods. 1995;187(1):95-101.
 
@@ -27799,7 +27731,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The studies reported here describe methodology permitting the direct identification of antigens recognized by cytotoxic T lymphocytes. We demonstrated that bovine alloreactive CTL can detect a bovine MHC molecule transiently expressed in a COS cell population in a standard microcytotoxicity assay. We then showed that alloreactive CTL can detect cells expressing the bovine class I MHC molecule in a population of cells transfected with the plasmid containing the corresponding gene plus 100-fold as many plasmids containing an irrelevant gene. In addition, the transiently transfected COS cells can specifically restimulate CTL as detected by a standard microcytotoxicity assay using the target cell line. Overall, the results suggest that COS cells could be employed for the direct screening of an antigen or antigen gene library by immune CTL.
 
 ---
-### 830. The drug resistance-related protein LRP is the human major vault protein
+### 829. The drug resistance-related protein LRP is the human major vault protein
 
 **Citation.** Scheffer GL, Wijngaard PL, Flens MJ, Izquierdo MA, Slovak ML, Pinedo HM, Meijer CJ, Clevers HC, Scheper RJ. The drug resistance-related protein LRP is the human major vault protein. Nat Med. 1995;1(6):578-82.
 
@@ -27826,7 +27758,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Multidrug-resistant cancer cells frequently overexpress the 110-kD LRP protein (originally named Lung Resistance-related Protein). LRP overexpression has been found to predict a poor response to chemotherapy in acute myeloid leukaemia and ovarian carcinoma. We describe the cloning and chromosome localization of the gene coding for this novel protein. The deduced LRP amino acid sequence shows 87.7% identity with the 104-kD rat major vault protein. Vaults are multi-subunit structures that may be involved in nucleo-cytoplasmic transport. The LRP gene is located on chromosome 16, close to the genes coding for multidrug resistance-associated protein and protein kinase C-beta, and may mediate drug resistance, perhaps via a transport process.
 
 ---
-### 831. An HMG-box-containing T-cell factor required for thymocyte differentiation
+### 830. An HMG-box-containing T-cell factor required for thymocyte differentiation
 
 **Citation.** Verbeek S, Izon D, Hofhuis F, Robanus-Maandag E, te Riele H, van de Wetering M, Oosterwegel M, Wilson A, MacDonald HR, Clevers H. An HMG-box-containing T-cell factor required for thymocyte differentiation. Nature. 1995;374(6517):70-4.
 
@@ -27857,7 +27789,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 ## 1994
 
-### 832. A novel multi-gene family of sheep gamma delta T cells
+### 831. A novel multi-gene family of sheep gamma delta T cells
 
 **Citation.** Walker ID, Glew MD, O'Keeffe MA, Metcalfe SA, Clevers HC, Wijngaard PL, Adams TE, Hein WR. A novel multi-gene family of sheep gamma delta T cells. Immunology. 1994;83(4):517-23.
 
@@ -27883,7 +27815,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The WC1 protein is a cell surface constituent of bovine gamma delta T cells and is absent from most or all CD4+, CD8+ T cells and from B cells. It is a single polypeptide chain of 1413 amino acids consisting of 11 non-identical repeats of a 110 amino acid consensus sequence, homologous to the macrophage scavenger receptor cysteine rich (SRCR) domain. A 1059 nucleotide segment of the bovine WC1 cDNA sequence was used as a probe to molecularly clone homologous DNA segments from a sheep genomic library in which the presence of numerous positive plaques was documented. The high representation of such recombinants (1-2/1000 clones) within the library suggested the existence of multiple genes for WC1 (called T19 in sheep) and supported Southern blotting data which revealed an unexpectedly high number of WC1/T19 restriction fragments in sheep genomic DNA. Restriction digests of 27 samples of T19 genomic recombinants were examined by electrophoresis and Southern blotting. All but two pairs of recombinants exhibited non-overlapping restriction digest patterns. Four recombinant DNA samples were partially sequenced and in all cases putative exons were identified and exhibited high homology to appropriate segments of the WC1 cDNA at the levels of both nucleotide and amino acid sequence. Furthermore, multiple nucleotide and amino acid differences occurred between all sequences compared, establishing the existence of a repertoire of non-identical T19 genes, each with the potential to encode a different protein.
 
 ---
-### 833. Large deletion of the peroxisomal acyl-CoA oxidase gene in pseudoneonatal adrenoleukodystrophy
+### 832. Large deletion of the peroxisomal acyl-CoA oxidase gene in pseudoneonatal adrenoleukodystrophy
 
 **Citation.** Fournier B, Saudubray JM, Benichou B, Lyonnet S, Munnich A, Clevers H, Poll-The BT. Large deletion of the peroxisomal acyl-CoA oxidase gene in pseudoneonatal adrenoleukodystrophy. J Clin Invest. 1994;94(2):526-31.
 
@@ -27908,7 +27840,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** We have cloned the cDNA encoding human peroxisomal acyl-CoA oxidase, the first enzyme in the peroxisomal beta-oxidation of very long chain fatty acids. Its nucleotide sequence was found to be highly homologous (85%) to the rat cDNA counterpart. An 88% homology between rat and human was found in the COOH-terminal end of the cDNA which includes the Ser-Lys-Leu peroxisomal targeting signal common to many peroxisomal proteins. The gene spans approximately 30-40 kb and is poorly polymorphic. Southern blot analyses were performed in two previously reported siblings with an isolated peroxisomal acyl-CoA oxidase deficiency (pseudoneonatal adrenoleukodystrophy). A deletion of at least 17 kb, starting down-stream from exon 2 and extending beyond the 3' end of the gene, was observed in the two patients. These observations provide a molecular basis for the observed acyl-CoA oxidase deficiency in our family. In addition, our study will enable the characterization of the genetic defect in unrelated families with suspected acyl-CoA oxidase disorders.
 
 ---
-### 834. Members of the novel WC1 gene family are differentially expressed on subsets of bovine CD4-CD8- gamma delta T lymphocytes
+### 833. Members of the novel WC1 gene family are differentially expressed on subsets of bovine CD4-CD8- gamma delta T lymphocytes
 
 **Citation.** Wijngaard PL, MacHugh ND, Metzelaar MJ, Romberg S, Bensaid A, Pepin L, Davis WC, Clevers HC. Members of the novel WC1 gene family are differentially expressed on subsets of bovine CD4-CD8- gamma delta T lymphocytes. J Immunol. 1994;152(7):3476-82.
 
@@ -27937,7 +27869,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 ## 1993
 
-### 835. Differential expression of the HMG box factors TCF-1 and LEF-1 during murine embryogenesis
+### 834. Differential expression of the HMG box factors TCF-1 and LEF-1 during murine embryogenesis
 
 **Citation.** Oosterwegel M, van de Wetering M, Timmerman J, Kruisbeek A, Destree O, Meijlink F, Clevers H. Differential expression of the HMG box factors TCF-1 and LEF-1 during murine embryogenesis. Development. 1993;118(2):439-48.
 
@@ -27962,7 +27894,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The recent identification of a number of T lymphocyte-specific enhancers has allowed the cloning of several novel transcription factors. Two of these, TCF-1 and LEF-1, contain a virtually identical DNA-binding domain of the High Mobility Group (HMG-1) box type. TCF-1 and LEF-1 originate from a recent gene duplication event as evidenced by comparison with the chicken homologue, chTCF. We have now analyzed the differential expression of these two transcription factors. In a panel of lymphoid cell lines, TCF-1 was exclusively expressed in the T cell lineage. In contrast, LEF-1 mRNA was detected at equivalent levels in pro- and pre-B cells and in all T lineage cells. In situ hybridization on murine embryos revealed that TCF-1 and LEF-1 were widely expressed at day 7.5 of gestation. At later stages, the expression patterns were complex and only partially overlapping. The expression of TCF-1 and LEF-1 coincided until day 10.5, when mRNAs were detected in limb buds, neural crest, pharyngeal arches and nasal process. At later time points (day 13.5 to 14.5), sites of overlapping expression included lung, the urogenital system, tooth buds, thymus and choroid plexus. Unique expression sites for TCF-1 included Reichert's membrane and trophectoderm-derived cells, the ribs and thoracic prevertebrae, craniofacial structures, the adrenal gland and meninges. Unique LEF-1 expression was observed in the tail prevertebrae, brain and inner ear. Postnatally, expression of both genes could only be detected in lymphoid tissues. These observations suggest that TCF-1 and LEF-1 exert differential functions during murine embryogenesis.
 
 ---
-### 836. Sox-4, an Sry-like HMG box protein, is a transcriptional activator in lymphocytes
+### 835. Sox-4, an Sry-like HMG box protein, is a transcriptional activator in lymphocytes
 
 **Citation.** van de Wetering M, Oosterwegel M, van Norren K, Clevers H. Sox-4, an Sry-like HMG box protein, is a transcriptional activator in lymphocytes. EMBO J. 1993;12(10):3847-54.
 
@@ -27984,7 +27916,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Previous studies in lymphocytes have described two DNA-binding HMG box proteins, TCF-1 and LEF-1, with affinity for the A/TA/TCAAAG motif found in several T cell-specific enhancers. Evaluation of cotransfection experiments in non-T cells and the observed inactivity of an AACAAAG concatamer in the TCF-1/LEF-1-expressing T cell line BW5147, led us to conclude that these two proteins did not mediate the observed enhancer effect. We therefore searched for additional HMG box proteins. By a PCR-aided strategy, we cloned Sox-4, a gene with homology to the HMG box region of the sex determining gene SRY. Sox-4 was expressed in T and pre-B lymphocyte lines and in the murine thymus. Significantly, BW5147 T cells did not express Sox-4. Recombinant Sox-4 bound with high affinity (Kd 3 x 10(-11) M) to the minor groove of the AACAAAG motif, most likely contacting all seven base pairs. In contrast with observations on TCF-1 and LEF-1, cotransfection with Sox-4 unveiled a transactivating capacity, which mapped to its serine-rich C terminus. This region remained functional upon grafting onto a GAL4 DNA-binding domain. Sox-4 is thus the first 'classical' transcription factor in the Sox gene family with separable DNA-binding and transactivation domains. Our observations indicate that a detailed understanding of T cell-specific gene control must integrate the concerted activity of at least three tissue-specific HMG box genes.
 
 ---
-### 837. Transcription factors in early T-cell development
+### 836. Transcription factors in early T-cell development
 
 **Citation.** Clevers HC, Oosterwegel MA, Georgopoulos K. Transcription factors in early T-cell development. Immunol Today. 1993;14(12):591-6.
 
@@ -28005,7 +27937,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Characterization of the transcription control regions for most genes encoding the TCR-CD3 complex has been followed by identification of DNA-binding factors, some of which are restricted to lymphoid or T-lineage cells. The sequential expression of these factors is linked with the appearance of stage-specific T-cell markers, thus controlling the commitment of the elusive lymphoid progenitor cell and its progression along the T-lineage. Here, Hans Clevers, Mariëtte Oosterwegel and Katia Georgopoulos discuss recent progress made in the recognition of transcription factors that regulate these early events in T-cell ontogeny.
 
 ---
-### 838. The Schizosaccharomyces pombe mating-type gene mat-Mc encodes a sequence-specific DNA-binding high mobility group box protein
+### 837. The Schizosaccharomyces pombe mating-type gene mat-Mc encodes a sequence-specific DNA-binding high mobility group box protein
 
 **Citation.** Dooijes D, van de Wetering M, Knippels L, Clevers H. The Schizosaccharomyces pombe mating-type gene mat-Mc encodes a sequence-specific DNA-binding high mobility group box protein. J Biol Chem. 1993;268(33):24813-7.
 
@@ -28027,7 +27959,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The Schizosaccharomyces pombe gene mat-Mc plays a determinative role in the sexual differentiation of the fission yeast. The mat-Mc protein has been suggested to belong to a novel family of so-called high mobility group (HMG) box proteins, characterized by homology to high mobility group-1 and -2 proteins. Several HMG box proteins, including the mammalian sex-determining gene product SRY and the lymphoid transcription factors TCF-1 and LEF-1, have been shown to bind to DNA in a sequence-specific fashion. To analyze possible DNA-binding properties of mat-Mc, we have cloned and expressed its putative HMG box in Escherichia coli. Gel retardation analysis revealed that the mat-Mc HMG box recognizes the AACAAAG heptamer in a sequence-specific fashion. Combined T-->C and A-->I substitutions on both strands of the AACAAAG heptamer, which change the surface of the major groove while leaving the minor groove intact, did not interfere with sequence-specific binding of mat-Mc. Methylation interference analysis confirmed that the mat-Mc HMG box contacts adenine residues in the minor groove. By using a circular permutation assay, the mat-Mc HMG box was observed to bend DNA. These results indicate that mat-Mc is indeed a member of the HMG box family with DNA-binding characteristics assigned earlier to other members of this novel transcription factor family.
 
 ---
-### 839. The sequence-specific high mobility group 1 box of TCF-1 adopts a predominantly alpha-helical conformation in solution
+### 838. The sequence-specific high mobility group 1 box of TCF-1 adopts a predominantly alpha-helical conformation in solution
 
 **Citation.** van Houte L, van Oers A, van de Wetering M, Dooijes D, Kaptein R, Clevers H. The sequence-specific high mobility group 1 box of TCF-1 adopts a predominantly alpha-helical conformation in solution. J Biol Chem. 1993;268(24):18083-7.
 
@@ -28051,7 +27983,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The High Mobility Group (HMG) 1 box is a protein motif that mediates DNA binding in a novel family of transcription-regulating proteins. Several members of this family, including the lymphoid-specific proteins TCF-1 and LEF-1 and the mammalian sex-determining factor SRY, carry a single HMG box with affinity for the minor groove of the heptamer motif AACAAAG or variations thereof. To initiate studies on the structural characteristics of the TCF-1 HMG box, we have expressed the 87-amino acid HMG box in milligram quantities in Escherichia coli and purified the soluble peptide to > 95% homogeneity. The peptide bound DNA with the same specificity as the complete protein and was capable of inducing DNA bending. Circular dichroism (CD) analysis revealed the TCF-1 HMG box to adopt an approximately 60% alpha-helix/40% random coil conformation in solution. In the presence of an equimolar amount of double-stranded DNA containing the cognate motif, the CD spectrum changed significantly, implying the induction of a structural modification upon DNA/protein association.
 
 ---
-### 840. HB4 antibody recognizes a carbohydrate structure on lymphocyte surface proteins related to HB6, CDw75, and CD76 antigens
+### 839. HB4 antibody recognizes a carbohydrate structure on lymphocyte surface proteins related to HB6, CDw75, and CD76 antigens
 
 **Citation.** De Lau WB, Kuipers J, Voshol H, Clevers H, Bast BJ. HB4 antibody recognizes a carbohydrate structure on lymphocyte surface proteins related to HB6, CDw75, and CD76 antigens. J Immunol. 1993;150(11):4911-9.
 
@@ -28074,7 +28006,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Cells regulate the specificity of the carbohydrate chains on their membrane-bound glycoconjugates by differential expression of glycosyltransferases. In lymphocytes, beta-galactoside alpha 2,6-sialyltransferase is reportedly involved in the generation of epitopes recognized by HB6, CDw75, and CD76 mAb. The HB4 mAb binds to an Ag present on subpopulations of B and NK cells. We now show that this Ag represents another member of a set of neuraminidase-sensitive, alpha 2,6-sialyltransferase-generated sugar Ag. Transient expression of a cDNA encoding this enzyme in COS cells generated a minor population of HB4+ cells that was completely contained within the HB6+ COS cell population. Using various proteinases and an inhibitor of N-linked carbohydrate processing, we show both epitopes to represent components of N-glycosylated membrane proteins. Remarkably, porcine thyroglobulin, an alpha 2,6-NeuAc+ glycoprotein, is specifically recognized by both mAb. These data underline a close relationship between HB4 and HB6 epitopes and imply further that both mAb react with oligosaccharide chains irrespective of the carrier molecule nature. Thus, the terminal sugar residue sialic acid plays a pivotal role in at least four distinct epitopes that are expressed differentially in immune cells. This may point at an important role for these epitopes in biologic recognition.
 
 ---
-### 841. Thoughts on the thymus and the T-lymphocyte repertoire. Relevance to the tolerance of the immune response
+### 840. Thoughts on the thymus and the T-lymphocyte repertoire. Relevance to the tolerance of the immune response
 
 **Citation.** Schuurman HJ, Hu HZ, de Weger RA, Clevers HC. Thoughts on the thymus and the T-lymphocyte repertoire. Relevance to the tolerance of the immune response. Neth J Med. 1993;43(1-2):38-54.
 
@@ -28096,7 +28028,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The thymus is a central lymphoid organ, and has one important function in the immune system. It generates immunocompetent T (= thymus-dependent) cells. 'Immunocompetence' is the single most important characteristic acquired during the differentiation process of T-cells, from progenitor cell in the bone marrow to mature cell in peripheral lymphoid organs and blood. The basis of competence is recognition, mediated by the T-cell receptor on the cell surface. Using this receptor, T-cells recognize antigens only in the form of antigenic fragments complexed with molecules of the major histocompatibility complex. Within the thymus, progenitor cells rearrange gene segments encoding the various parts of the receptor molecule. After expression of all possible receptors (the potentially available repertoire) selection processes occur, yielding only those T-cells that have a receptor by which antigens can be recognized together with molecules of the major histocompatibility complex, and that do not recognize autoantigens (the actual repertoire). This process of selection is considered as a unique function of the thymus. In this review, first some histophysiological aspects of the thymus are described. Next, the events that occur during the sojourn of the lymphocytes in the thymus are presented. Finally, these data are considered with regard to thymic abnormalities. These include acute and age-associated involution, and the generation of autoimmune reactivity due to disturbed intrathymic selection.
 
 ---
-### 842. Ancestry and diversity of the HMG box superfamily
+### 841. Ancestry and diversity of the HMG box superfamily
 
 **Citation.** Laudet V, Stehelin D, Clevers H. Ancestry and diversity of the HMG box superfamily. Nucleic Acids Res. 1993;21(10):2493-501.
 
@@ -28117,7 +28049,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The HMG box is a novel type of DNA-binding domain found in a diverse group of proteins. The HMG box superfamily comprises a.o. the High Mobility Group proteins HMG1 and HMG2, the nucleolar transcription factor UBF, the lymphoid transcription factors TCF-1 and LEF-1, the fungal mating-type genes mat-Mc and MATA1, and the mammalian sex-determining gene SRY. The superfamily dates back to at least 1,000 million years ago, as its members appear in animals, plants and yeast. Alignment of all known HMG boxes defined an unusually loose consensus sequence. We constructed phylogenetic trees connecting the members of the HMG box superfamily in order to understand their evolution. This analysis led us to distinguish two subfamilies: one comprising proteins with a single sequence-specific HMG box, the other encompassing relatively non sequence-specific DNA-binding proteins with multiple HMG boxes. By studying the extent of diversification of the superfamily, we found that the speed of evolution was very different within the various groups of HMG-box containing factors. Comparison of the evolution of the two boxes of ABF2 and of mtTF1 implied different diversification models for these two proteins. Finally, we provide a tree for the highly complex group of SRY-like ('Sox' genes), clustering at least 40 different loci that rapidly diverged in various animal lineages.
 
 ---
-### 843. Sox 15, a novel member of the murine Sox family of HMG box transcription factors
+### 842. Sox 15, a novel member of the murine Sox family of HMG box transcription factors
 
 **Citation.** van de Wetering M, Clevers H. Sox 15, a novel member of the murine Sox family of HMG box transcription factors. Nucleic Acids Res. 1993;21(7):1669.
 
@@ -28134,10 +28066,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 1. University Hospital, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 844. The murine Sox-4 protein is encoded on a single exon
+### 843. The murine Sox-4 protein is encoded on a single exon
 
 **Citation.** Schilham MW, van Eijk M, van de Wetering M, Clevers HC. The murine Sox-4 protein is encoded on a single exon. Nucleic Acids Res. 1993;21(8):2009.
 
@@ -28156,10 +28088,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 1. Department of Immunology, University Hospital, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 845. HMG box proteins in early T-cell differentiation
+### 844. HMG box proteins in early T-cell differentiation
 
 **Citation.** Oosterwegel M, van de Wetering M, Clevers H. HMG box proteins in early T-cell differentiation. Thymus. 1993;22(2):67-81.
 
@@ -28180,7 +28112,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The central theme of this review is the molecular basis for commitment of cells to the T-cell lineage. Principles of transcriptional regulation are illustrated by two examples; the role of GATA-1 during erythroid differentiation and the function of MyoD-like proteins in myogenesis. Several regulatory proteins have been described in the T-cell lineage. Here, we focus attention on the HMG box family of DNA binding proteins. This recently defined family can be divided in two subfamilies: the HMG/UBF and the TCF/SOX group. The first group contains at least two HMG boxes and binds DNA non-specifically, while the other group of proteins has one HMG box and interacts with DNA sequence-specifically. Characteristics of the most prominent members of both subfamilies will be discussed. In particular, we will address the role of HMG box proteins in controlling the expression of T-cell specific proteins during differentiation.
 
 ---
-### 846. Clustering of monoclonal antibodies recognizing different members of the WC1 gene family
+### 845. Clustering of monoclonal antibodies recognizing different members of the WC1 gene family
 
 **Citation.** MacHugh ND, Wijngaard PL, Clevers HC, Davis WC. Clustering of monoclonal antibodies recognizing different members of the WC1 gene family. Vet Immunol Immunopathol. 1993;39(1-3):155-60.
 
@@ -28205,7 +28137,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 ## 1992
 
-### 847. [Physical mapping of the major histocompatibility complex of cattle]
+### 846. [Physical mapping of the major histocompatibility complex of cattle]
 
 **Citation.** Bensaid A, Kaushal A, Young JR, Baldwin CL, Clevers H, Teale AJ. [Physical mapping of the major histocompatibility complex of cattle]. Ann Rech Vet. 1992;23(3):256-8.
 
@@ -28226,10 +28158,10 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 
 1. International laboratory for research on animal diseases, Nairobi, Kenya.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 848. Expression of GATA-3 during lymphocyte differentiation and mouse embryogenesis
+### 847. Expression of GATA-3 during lymphocyte differentiation and mouse embryogenesis
 
 **Citation.** Oosterwegel M, Timmerman J, Leiden J, Clevers H. Expression of GATA-3 during lymphocyte differentiation and mouse embryogenesis. Dev Immunol. 1992;3(1):1-11.
 
@@ -28251,7 +28183,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The GATA family of C4 zinc-finger transcription factors has been implicated in tissue-specific gene regulation in birds and mammals. One of the members of this family, GATA-3, is reportedly expressed specifically in the T-cell lineage, where it interacts with GATA motifs in the TCR-alpha, TCR-beta, and TCR-delta enhancers, thereby controlling the T-cell phenotype. To evaluate the differentiation control properties of GATA-3, we have now documented its expression pattern during lymphoid differentiation and murine embryogenesis. The onset of GATA-3 expression in the lymphoid lineage was studied in a panel of lymphoid (precursor) cell lines by Northern blot analysis. GATA-3 was uniquely expressed in T-lineage lymphocytes expressing TCR and CD3 genes; it was absent from TCR/CD3 mRNA-negative prothymocytes and from all B-lineage cells. In order to obtain information on the expression of GATA-3 outside the immune system, in situ hybridization was performed on mouse embryos on day 11.5-14.5 of gestation. GATA-3 mRNA was detected in fetal thymus and in erythroid cells. Outside the haemopoietic system, we detected GATA-3 mRNA throughout the central nervous system, in kidney, in the epidermis, lens fibers, the inner ear, whisker follicles, and in the primary palate. These data provide new clues about the potential role of GATA-3 during mouse development, and will aid the interpretation of currently ongoing gene knockout experiments.
 
 ---
-### 849. Sequence-specific interaction of the HMG box proteins TCF-1 and SRY occurs within the minor groove of a Watson-Crick double helix
+### 848. Sequence-specific interaction of the HMG box proteins TCF-1 and SRY occurs within the minor groove of a Watson-Crick double helix
 
 **Citation.** van de Wetering M, Clevers H. Sequence-specific interaction of the HMG box proteins TCF-1 and SRY occurs within the minor groove of a Watson-Crick double helix. EMBO J. 1992;11(8):3039-44.
 
@@ -28271,7 +28203,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** The high mobility group I (HMG) box is proposed to mediate DNA binding in a novel group of transcription-regulating proteins. Two of these, the proteins encoded by the T cell-specific TCF-1 and the mammalian sex-determining gene SRY, carry a single HMG box with specificity for the heptamer motif A/T A/T C A A A G. We have now analysed the mode of interaction of the HMG boxes of TCF-1 and SRY with this motif. Methylation interference footprinting revealed that both HMG boxes contacted adenines on both strands in the minor groove, whereas no major groove guanine contacts were discerned. Diethylpyrocarbonate (DEPC) carbethoxylation interference footprinting of TCF-1 indicated the absence of major groove contacts on positions 5, 6 and 7 of the motif. Carbethoxylation interference was observed, however, on positions 2, 3 and 4 and to a lesser extent on position 1 in the major groove. Combined T----C and A----I substitution, which changes the surface of the major groove but leaves the minor groove intact, did not interfere with sequence-specific binding by TCF-1 and SRY. These observations indicate that recognition of the heptamer motif by the HMG boxes of the distantly related TCF-1 and SRY proteins predominantly occurs through nucleotide contacts in the minor groove.
 
 ---
-### 850. A common ancestor of the mammalian transcription factors TCF-1 and TCF-1 alpha/LEF-1 expressed in chicken T cells
+### 849. A common ancestor of the mammalian transcription factors TCF-1 and TCF-1 alpha/LEF-1 expressed in chicken T cells
 
 **Citation.** Gastrop J, Hoevenagel R, Young JR, Clevers HC. A common ancestor of the mammalian transcription factors TCF-1 and TCF-1 alpha/LEF-1 expressed in chicken T cells. Eur J Immunol. 1992;22(5):1327-30.
 
@@ -28293,7 +28225,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Several mammalian T cell-specific transcription factors have been cloned recently. Two of these, TCF-1 and TCF-1 alpha/LEF-1, display a moderate level of overall sequence similarity, and contain virtually identical versions of a novel type of DNA-binding domain, the HMG box. To study evolutionary aspects of the TCF transcription factors in relation to lymphoid differentiation, we have isolated chicken TCF clones from a spleen cDNA library. Low-stringency screening with human probes as well as a polymerase chain reaction-aided strategy resulted in the cloning of a single chicken TCF (chTCF) gene. Sequence comparison revealed that chTCF contained a TCF-1 alpha-like N terminus, and a TCF-1-like C terminus. Furthermore, TCF-1 and TCF-1 alpha were more homologous to chTCF than to each other. We postulate that chTCF is the direct descendant of a single ancestral gene, which has been duplicated in mammals to yield TCF-1 and TCF-1 alpha.
 
 ---
-### 851. The human T cell transcription factor-1 gene. Structure, localization, and promoter characterization
+### 850. The human T cell transcription factor-1 gene. Structure, localization, and promoter characterization
 
 **Citation.** van de Wetering M, Oosterwegel M, Holstege F, Dooyes D, Suijkerbuijk R, Geurts van Kessel A, Clevers H. The human T cell transcription factor-1 gene. Structure, localization, and promoter characterization. J Biol Chem. 1992;267(12):8530-6.
 
@@ -28318,7 +28250,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** We have recently isolated cDNA clones representing four alternative splice forms of a T cell-specific transcription factor, TCF-1. Here we report the characterization of the human gene encoding this factor. The TCF-1 gene is contained in 10 exons including an untranslated first exon. The DNA-binding high mobility group (HMG) box of TCF-1 is encoded by the closely spaced exons VI and VII. Differential splicing involves an alternative exon (IX) and three splice acceptor sites in exon X. Based on comparison of sequence and on the placement of an alternative exon, TCF-1 appears closely related to the recently characterized HMG box transcription factor TCF-1 alpha/LEF. In particular, the HMG boxes encoded by the two TCF genes are virtually identical. The TCF-1 gene resides on chromosome 5 band q31.1. The TCF-1 promoter coincides with a CpG island. As determined by chloramphenicol acetyltransferase analysis, the promoter is preferentially active in T cells. The promoter does not contain TCF-1/TCF-1 alpha binding sites and is therefore not autoregulated. This observation implies the existence of yet uncharacterized T cell transcription factors that are active during early T cell differentiation.
 
 ---
-### 852. Heterodimeric complex formation with CD8 and TCR by bispecific antibody sustains paracrine IL-2-dependent growth of CD3+ CD8+ T cells
+### 851. Heterodimeric complex formation with CD8 and TCR by bispecific antibody sustains paracrine IL-2-dependent growth of CD3+ CD8+ T cells
 
 **Citation.** De Lau WB, Boom SE, Heije K, Griffioen AW, Braakman E, Bolhuis RL, Tax WJ, Clevers H, Bast BJ. Heterodimeric complex formation with CD8 and TCR by bispecific antibody sustains paracrine IL-2-dependent growth of CD3+ CD8+ T cells. J Immunol. 1992;149(6):1840-6.
 
@@ -28345,7 +28277,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** During physiologic activation of mature CD8+ T cells, TCR and CD8 bind to the same Ag-complexed MHC class I molecule. Thereby, close proximity is induced between CD8 and the TCR/CD3 complex. During this engagement, CD8 may deliver TCR-independent signals via its associated protein tyrosine kinase, p56lck. We studied the potential biologic effects of close association between CD8 and TCR/CD3 complexes by using a bispecific antibody (bsAb) directed against both TCR and CD8 molecules. This hybrid hybridoma (quadroma)-produced bsAb binds as a monomeric molecule to CD3+ CD8+ but not CD3+ CD4+ T cells. The bsAb proved capable of inducing the cytotoxic effector function of cloned CD3+ CD8+ T cells but not of CD3+ CD4+ T cells. When the bsAb was presented to resting T cells by monocytes, proliferation of the CD3+ CD4+ but not the CD3+ CD8+ subset of T lymphocytes was induced. Parental anti-TCR antibody induced vigorous growth of cells of both subsets. Essentially identical results were obtained when bsAb was presented in an immobilized fashion. The unresponsiveness of the CD3+ CD8+ T cells with respect to mitogenesis could be restored by exogenous rIL-2. The data suggest that bsAb-induced activation differs from activation by monospecific anti-TCR antibody. The former appears to more closely mimic physiologic Ag-induced signaling, because it leads to a similar paracrine IL-2-dependent growth pattern. The bsAb may, therefore, be instrumental in studying T cell signaling pathways, in particular the role of CD8-associated p56lck therein.
 
 ---
-### 853. Molecular characterization of the WC1 antigen expressed specifically on bovine CD4-CD8- gamma delta T lymphocytes
+### 852. Molecular characterization of the WC1 antigen expressed specifically on bovine CD4-CD8- gamma delta T lymphocytes
 
 **Citation.** Wijngaard PL, Metzelaar MJ, MacHugh ND, Morrison WI, Clevers HC. Molecular characterization of the WC1 antigen expressed specifically on bovine CD4-CD8- gamma delta T lymphocytes. J Immunol. 1992;149(10):3273-7.
 
@@ -28368,7 +28300,7 @@ Stimulation of survivin expression by TCF/beta catenin might impose a stem cell-
 **Abstract.** Although gamma delta T lymphocytes were identified several years ago, the functional importance of these cells remains to be established. gamma delta T cells of ruminants are unique in two respects. First, they are present at much higher levels compared to man and rodents. Second, ruminant CD4-CD8- gamma delta T cells uniquely express a 220 kD surface Ag recognized by a panel of mAb, recently clustered as WC1. WC1 has been most extensively studied in sheep with the use of the mAb T19. Here, we report on the isolation of a full length cDNA clone, encoding the WC1 Ag, from a COS cell cDNA expression library prepared from a bovine gamma delta T cell line. The protein encoded by the pWC1 cDNA clone was reactive with the bovine mAb CC15 and IL.A29, and with T19. The cDNA clone consisted of 4475 bp and contained a single long open reading frame of 1436 amino acids. The pWC1 cDNA clone encoded a type 1 integral membrane protein with an extracellular domain consisting of 11 scavenger receptor cysteine-rich-repeats with homology to CD5 and CD6. Southern blotting suggested that the bovine genome contained multiple sequences highly related to the isolated WC1 cDNA. Furthermore, WC1-like sequences were present in the genomes of all mammals tested including mouse and man. The molecular characterization of the WC1 Ag as reported here provides a starting point for the definition of its role in gamma delta T cell biology.
 
 ---
-### 854. ME491 melanoma-associated glycoprotein family: antigenic identity of ME491, NKI/C-3, neuroglandular antigen (NGA), and CD63 proteins
+### 853. ME491 melanoma-associated glycoprotein family: antigenic identity of ME491, NKI/C-3, neuroglandular antigen (NGA), and CD63 proteins
 
 **Citation.** Demetrick DJ, Herlyn D, Tretiak M, Creasey D, Clevers H, Donoso LA, Vennegoor CJ, Dixon WT, Jerry LM. ME491 melanoma-associated glycoprotein family: antigenic identity of ME491, NKI/C-3, neuroglandular antigen (NGA), and CD63 proteins. J Natl Cancer Inst. 1992;84(6):422-9.
 
@@ -28405,7 +28337,7 @@ These data indicate that the MAGs defined by ME491 and NKI/C-3 as well as the an
 Our results indicate that the data obtained in studies of these three melanoma antigens may be pooled, and we propose that the molecule recognized by these reagents be classified as CD63.
 
 ---
-### 855. A gene family of HMG-box transcription factors with homology to TCF-1
+### 854. A gene family of HMG-box transcription factors with homology to TCF-1
 
 **Citation.** Castrop J, van Norren K, Clevers H. A gene family of HMG-box transcription factors with homology to TCF-1. Nucleic Acids Res. 1992;20(3):611.
 
@@ -28423,10 +28355,10 @@ Our results indicate that the data obtained in studies of these three melanoma a
 
 1. Department of Immunology, University Hospital, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 856. Lysosomal membrane glycoproteins in platelets
+### 855. Lysosomal membrane glycoproteins in platelets
 
 **Citation.** Metzelaar MJ, Clevers HC. Lysosomal membrane glycoproteins in platelets. Thromb Haemost. 1992;68(4):378-82.
 
@@ -28443,13 +28375,13 @@ Our results indicate that the data obtained in studies of these three melanoma a
 
 1. Department of Immunology, University Hospital, Utrecht, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 
 ## 1991
 
-### 857. Identification and cloning of TCF-1, a T lymphocyte-specific transcription factor containing a sequence-specific HMG box
+### 856. Identification and cloning of TCF-1, a T lymphocyte-specific transcription factor containing a sequence-specific HMG box
 
 **Citation.** van de Wetering M, Oosterwegel M, Dooijes D, Clevers H. Identification and cloning of TCF-1, a T lymphocyte-specific transcription factor containing a sequence-specific HMG box. EMBO J. 1991;10(1):123-32.
 
@@ -28471,7 +28403,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** CD3-epsilon expression is controlled by a downstream T lymphocyte-specific enhancer element. We report the identification of a T cell-specific transcription factor, TCF-1, binding to this element. The multimerized recognition motif of TCF-1 constituted a T cell-specific enhancer. Subsequent cloning of TCF-1 identified three splice alternatives. TCF-1 contained a single DNA-binding HMG box most closely related to similar boxes in the putative mammalian sex-determining gene SRY and in the Schizosaccharomyces pombe Mc mating type gene. TCF-1 mRNA was expressed uniquely in T lymphocytes. Upon cotransfection into non-T cells, TCF-1 could transactivate through its cognate motif. These results identify TCF-1 as a T cell-specific transcription factor, which might play a role in the establishment of the mature T cell phenotype.
 
 ---
-### 858. Identification of expressed bovine class I MHC genes at two loci and demonstration of physical linkage
+### 857. Identification of expressed bovine class I MHC genes at two loci and demonstration of physical linkage
 
 **Citation.** Bensaid A, Kaushal A, Baldwin CL, Clevers H, Young JR, Kemp SJ, MacHugh ND, Toye PG, Teale AJ. Identification of expressed bovine class I MHC genes at two loci and demonstration of physical linkage. Immunogenetics. 1991;33(4):247-54.
 
@@ -28498,7 +28430,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** A cDNA library prepared from lymphocytes of a cow (E98), homozygous at major histocompatibility complex (MHC) loci (BoLA phenotype w10, KN104), was screened with a bovine MHC class I probe. Of the cDNA clones isolated, two, (2.1 and 5.1) were selected and showed divergence at both 5' and 3' termini. E98 DNA was digested with rare-cutter enzymes (Sfi I, Mlu I, Not I, and Cla I) and fragments were size-separated by field inversion gel electrophoresis (FIGE). Hybridization with an entire class I cDNA probe revealed multiple fragments generated by each enzyme. When the 3' untranslated regions (UT) of 2.1 and 5.1 were used as probes, only one fragment was revealed in each digested sample, showing locus specificity of these probes in cattle. Further, DNA of transfected mouse fibroblasts L4 (expressing KN104) and L10 (expressing w10) hybridized to the 3'UT regions of clones 2.1 and 5.1, respectively. Northern blot analysis of the mRNA of the L4 and L10 transfected cells provided further evidence that the cDNA clones 2.1 and 5.1 code for the BoLA-KN104 and BoLA-w10 class I molecules respectively, and thus these represent the products of two different genes. A long range physical mapping of the BoLA-w10 and KN104 genes was performed using FIGE analysis of DNA of an homozygous and an heterozygous animal. This analysis revealed that the BoLA-w10 and KN104 genes are separated by not more than 210 kilobases (kb) and that they are components of a multigene family spanning 1550 kb. As the w10 gene is at the BoLA-A locus we assign the KN104 gene to a B locus.
 
 ---
-### 859. Towards a molecular understanding of T-cell differentiation
+### 858. Towards a molecular understanding of T-cell differentiation
 
 **Citation.** Clevers HC, Owen MJ. Towards a molecular understanding of T-cell differentiation. Immunol Today. 1991;12(2):86-92.
 
@@ -28518,7 +28450,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** Lymphoid differentiation is one of the best studied examples of mammalian development. Here Hans Clevers and Michael Owen describe how the cloning of the genes that encode T-cell-specific membrane proteins allows the identification of transcription factors that control the expression of these T-cell genes. Such transcription factors play a key role in the development of the mature T-cell phenotype by functioning as 'master regulators of T-cell differentiation'.
 
 ---
-### 860. TCF-1, a T cell-specific transcription factor of the HMG box family, interacts with sequence motifs in the TCR beta and TCR delta enhancers
+### 859. TCF-1, a T cell-specific transcription factor of the HMG box family, interacts with sequence motifs in the TCR beta and TCR delta enhancers
 
 **Citation.** Oosterwegel MA, van de Wetering ML, Holstege FC, Prosser HM, Owen MJ, Clevers HC. TCF-1, a T cell-specific transcription factor of the HMG box family, interacts with sequence motifs in the TCR beta and TCR delta enhancers. Int Immunol. 1991;3(11):1189-92.
 
@@ -28542,7 +28474,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** We have recently identified and cloned TCF-1, a T cell-specific transcription factor with specificity for the AACAAAG motif in the CD3 epsilon enhancer and for the TTCAAAG motif in the TCR alpha enhancer. TCF-1 belongs to the family of transcription-regulating proteins which share a region of homology termed the HMG-box. Here, we show by gel retardation analysis that TCF-1 specifically recognizes the T beta 5 element of the TCR beta enhancer and the T delta 7 element of the TCR delta enhancer. Comparison of the sequences of all elements recognized by TCF-1 defines a consensus motif A/T A/T C A A/G A G. These observations imply that TCF-1 is involved in the control of several T cell-specific genes and might thus play an important role in the establishment and maintenance of the mature T cell phenotype.
 
 ---
-### 861. CD63 antigen. A novel lysosomal membrane glycoprotein, cloned by a screening procedure for intracellular antigens in eukaryotic cells
+### 860. CD63 antigen. A novel lysosomal membrane glycoprotein, cloned by a screening procedure for intracellular antigens in eukaryotic cells
 
 **Citation.** Metzelaar MJ, Wijngaard PL, Peters PJ, Sixma JJ, Nieuwenhuis HK, Clevers HC. CD63 antigen. A novel lysosomal membrane glycoprotein, cloned by a screening procedure for intracellular antigens in eukaryotic cells. J Biol Chem. 1991;266(5):3239-45.
 
@@ -28566,7 +28498,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** To clone the CD63 antigen, originally described as a blood platelet activation marker, we adapted the expression cloning procedure of Seed and Aruffo (Seed, B., and Aruffo, A. (1987) Proc. Natl. Acad. Sci. U.S. A. 84, 3365-3369) to allow cloning of intracellular antigens. A megakaryocyte expression cDNA library was transiently transfected into MOP-8 mouse fibroblasts cultured on polyvinylidene difluoride membranes. Individual cells expressing intracellular CD63 were identified by autoradiography. cDNA was extracted from positive spots and reintroduced into Escherichia coli. After two screening rounds, a CD63 cDNA clone was isolated as assessed by immunofluorescence and Western blot analysis. The single long open reading frame of 238 amino acids contained four putative transmembrane regions and three N-glycosylation sites. The CD63 gene was expressed in a wide variety of cells. Surprisingly, CD63 was identical to ME491, an antigen reported as a melanoma-associated antigen (Hotta, H., Ross, A. H., Huebner, K., Isobe, M., Wendeborn, S., Chao, M. V., Ricciardi, R. P., Tsujimoto, Y., Croce, C. M., and Koprowski, H. (1988) Cancer Res. 48, 2955-2962). By immunoelectron microscopy, co-localization with the lysosomal glycoproteins lamp-1 and -2 identified CD63 as a novel lysosomal membrane glycoprotein. CD63 was not related to the lysosomal glycoprotein family but contained the putative lysosomal targeting signal Gly-Tyr in its short cytoplasmic tail.
 
 ---
-### 862. Cloning of murine TCF-1, a T cell-specific transcription factor interacting with functional motifs in the CD3-epsilon and T cell receptor alpha enhancers
+### 861. Cloning of murine TCF-1, a T cell-specific transcription factor interacting with functional motifs in the CD3-epsilon and T cell receptor alpha enhancers
 
 **Citation.** Oosterwegel M, van de Wetering M, Dooijes D, Klomp L, Winoto A, Georgopoulos K, Meijlink F, Clevers H. Cloning of murine TCF-1, a T cell-specific transcription factor interacting with functional motifs in the CD3-epsilon and T cell receptor alpha enhancers. J Exp Med. 1991;173(5):1133-42.
 
@@ -28592,7 +28524,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** CD3-epsilon gene expression is confined to the T cell lineage. We have recently identified and cloned a human transcription factor, TCF-1, that binds to a functional element in the T lymphocyte-specific enhancer of CD3-epsilon. In a panel of human cell lines, TCF-1 expression was restricted to T lineage cells. TCF-1 belonged to a novel family of genes that contain the so-called high mobility group 1 (HMG) box. Here we report the cloning of murine TCF-1. Two splice alternatives were identified that were not previously observed in human TCF-1. Murine and human TCF-1 displayed a 95.5% overall amino acid homology. Recombinant murine and human TCF-1 recognized the same sequence motif in the CD3-epsilon enhancer as judged by gel retardation and methylation interference assays. With the murine cDNA clones several aspects of TCF-1 were analyzed. First, deletion analysis revealed that a region of TCF-1 containing the HMG box was sufficient for sequence-specific binding. Second, by high stringency Northern blotting and in situ hybridization, TCF-1 expression was shown to be confined to the thymus and to the T cell areas of the spleen. Third, TCF-1 bound specifically to a functional T cell-specific element in the T cell receptor alpha (TCR-alpha) enhancer. The T lineage-specific expression and the affinity for functional motifs in the TCR-alpha and CD3-epsilon enhancers imply an important role for TCF-1 in the establishment of the mature T cell phenotype.
 
 ---
-### 863. A method for cDNA cloning in COS cells irrespective of subcellular site of expression
+### 862. A method for cDNA cloning in COS cells irrespective of subcellular site of expression
 
 **Citation.** Horst E, Wijngaard PL, Metzelaar M, Bast EJ, Clevers HC. A method for cDNA cloning in COS cells irrespective of subcellular site of expression. Nucleic Acids Res. 1991;19(16):4556.
 
@@ -28612,13 +28544,13 @@ Our results indicate that the data obtained in studies of these three melanoma a
 
 1. Department of Pathology, Free University Hospital, Amsterdam, The Netherlands.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
 
 ## 1990
 
-### 864. Identification of a bovine surface antigen uniquely expressed on CD4-CD8- T cell receptor gamma/delta+ T lymphocytes
+### 863. Identification of a bovine surface antigen uniquely expressed on CD4-CD8- T cell receptor gamma/delta+ T lymphocytes
 
 **Citation.** Clevers H, MacHugh ND, Bensaid A, Dunlap S, Baldwin CL, Kaushal A, Iams K, Howard CJ, Morrison WI. Identification of a bovine surface antigen uniquely expressed on CD4-CD8- T cell receptor gamma/delta+ T lymphocytes. Eur J Immunol. 1990;20(4):809-17.
 
@@ -28645,7 +28577,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** In this study, two monoclonal antibodies, IL-A29 and CC15, are described that identify a novel bovine cell surface marker of 215/300 kDa. The antibodies reacted with a discrete population of resting lymphocytes in peripheral blood which, in young animals, constituted about 25% of the mononuclear cells. Thymus, lymph nodes and spleen contained less than 5% positive cells. These cells were negative for surface Ig, a monocyte/granulocyte marker, and the T lymphocyte antigens CD2, CD6, CD4 and CD8. Immunohistological analyses revealed the presence of IL-A29/CC15-positive lymphocytes in the thymic medulla, in the outer cortex of lymph nodes, in the marginal zones of the spleen, in the dermal and epidermal layers of the skin and in the lamina propria of the gut. The IL-A29/CC15+ cells in unfractionated blood mononuclear cells responded in autologous and allogeneic mixed lymphocyte cultures, and when purified they responded to concanavalin A in the presence of recombinant interleukin 2. These observations suggested this population of cells belonged to the T cell lineage. In order to unambiguously define their lineage, cDNA clones encoding bovine T cell receptor (TcR) and CD3 proteins were isolated. Northern blot analyses of IL-A29/CC15+ cell populations and of established cell lines of various lineages demonstrated that they expressed TcR delta and CD3 gamma, delta and epsilon mRNA: TcR alpha was not expressed, whereas only a truncated form of TcR beta mRNA was present. These results indicate that the IL-A29 and CC15 antibodies define a unique population of CD4-CD8-, gamma/delta T cells.
 
 ---
-### 865. Expression of Tac antigen component of bovine interleukin-2 receptor in different leukocyte populations infected with Theileria parva or Theileria annulata
+### 864. Expression of Tac antigen component of bovine interleukin-2 receptor in different leukocyte populations infected with Theileria parva or Theileria annulata
 
 **Citation.** Dobbelaere DA, Prospero TD, Roditi IJ, Kelke C, Baumann I, Eichhorn M, Williams RO, Ahmed JS, Baldwin CL, Clevers H. Expression of Tac antigen component of bovine interleukin-2 receptor in different leukocyte populations infected with Theileria parva or Theileria annulata. Infect Immun. 1990;58(12):3847-55.
 
@@ -28676,7 +28608,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 
 ## 1989
 
-### 866. An enhancer located in a CpG-island 3' to the TCR/CD3-epsilon gene confers T lymphocyte-specificity to its promoter
+### 865. An enhancer located in a CpG-island 3' to the TCR/CD3-epsilon gene confers T lymphocyte-specificity to its promoter
 
 **Citation.** Clevers H, Lonberg N, Dunlap S, Lacy E, Terhorst C. An enhancer located in a CpG-island 3' to the TCR/CD3-epsilon gene confers T lymphocyte-specificity to its promoter. EMBO J. 1989;8(9):2527-35.
 
@@ -28699,7 +28631,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** The gene encoding the CD3-epsilon chain of the T cell receptor (TCR/CD3) complex is uniquely transcribed in all T lymphocyte lineage cells. The human CD3-epsilon gene, when introduced into the mouse germ line, was expressed in correct tissue-specific fashion. The gene was then screened for T lymphocyte-specific cis-acting elements in transient chloramphenicol transferase assays. The promoter (-228 to +100) functioned irrespective of cell type. A 1225 bp enhancer with strict T cell-specificity was found in a DNase I hypersensitive site downstream of the last exon, 12 kb from the promoter. This site was present in T cells only. The CD3-epsilon enhancer did not display sequence similarity with the T cell-specific enhancer of CD3-delta, a related gene co-regulated with CD3-epsilon during intrathymic differentiation. The CD3-epsilon enhancer was unusual in that it constituted a CpG island, and was hypomethylated independent of tissue type. Two HTLV I-transformed T cell lines were identified in which the CD3-epsilon gene was not expressed, and in which the enhancer was inactive.
 
 ---
-### 867. Molecules relevant for T cell-target cell interaction are present in cytolytic granules of human T lymphocytes
+### 866. Molecules relevant for T cell-target cell interaction are present in cytolytic granules of human T lymphocytes
 
 **Citation.** Peters PJ, Geuze HJ, Van der Donk HA, Slot JW, Griffith JM, Stam NJ, Clevers HC, Borst J. Molecules relevant for T cell-target cell interaction are present in cytolytic granules of human T lymphocytes. Eur J Immunol. 1989;19(8):1469-75.
 
@@ -28728,7 +28660,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 
 ## 1988
 
-### 868. The T cell receptor/CD3 complex: a dynamic protein ensemble
+### 867. The T cell receptor/CD3 complex: a dynamic protein ensemble
 
 **Citation.** Clevers H, Alarcon B, Wileman T, Terhorst C. The T cell receptor/CD3 complex: a dynamic protein ensemble. Annu Rev Immunol. 1988;6:629-62.
 
@@ -28747,10 +28679,10 @@ Our results indicate that the data obtained in studies of these three melanoma a
 
 1. Laboratory of Molecular Immunology, Dana-Farber Cancer Institute, Boston, Massachusetts 02115.
 
-**Abstract.** [Abstract not available]
+**Abstract.** _No abstract in the PubMed record._
 
 ---
-### 869. The transmembrane orientation of the epsilon chain of the TcR/CD3 complex
+### 868. The transmembrane orientation of the epsilon chain of the TcR/CD3 complex
 
 **Citation.** Clevers H, Dunlap S, Terhorst C. The transmembrane orientation of the epsilon chain of the TcR/CD3 complex. Eur J Immunol. 1988;18(5):705-10.
 
@@ -28771,7 +28703,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** The antigen receptor of the T lymphocytes is one of the most complex eukaryotic membrane structures studied to date. The T cell receptor (TcR) consists of two disulfide-linked glycoprotein chains (alpha/beta or gamma/delta) and is noncovalently associated with a group of small and invariable CD 3 proteins. Four CD 3 chains have been recognized: two highly homologous glycoproteins CD 3 gamma and delta, the more distantly related nonglycosylated CD 3 epsilon chain, and the nonglycosylated CD 3 zeta, the latter being present as a homodimer. The unraveling of the architecture of the TcR/CD 3 complex is crucial to our understanding of the processes underlying its assembly, recognition and transmembrane signaling. The transmembrane orientation of the TcR chains and of CD 3 gamma and CD 3 delta can be directly inferred from their primary structure, based on the presence of concensus N-linked glycosylation sites N-terminal of their transmembrane domains. This prediction can not be made, however, for nonglycosylated molecules like the CD 3 epsilon chain. In order to determine the transmembrane orientation of CD 3 epsilon, anti-peptide antisera directed against the N-termini of the human and murine CD 3 epsilon chains were generated in rabbits. Both antisera stained intact T cells, demonstrating that the N-terminus of the CD 3 epsilon chain was located at the outer surface of the plasma membrane. The anti-human CD 3 epsilon peptide antiserum was found to be mitogenic for peripheral blood T cells, a finding previously reported only for monoclonal anti-TcR/CD 3 reagents. Using a novel transient expression system in murine T lymphocytes, the human CD 3 epsilon chain could be expressed on the surface of CD 3+, but not CD 3- murine T cells, as indicated by fluorescence staining with the anti-peptide antiserum. This experiment confirmed the specificity of the anti-peptide antiserum and, perhaps more importantly, indicated that the human CD 3 epsilon chain was correctly assembled in the murine CD 3 complex. Moreover, the anti-human CD 3 monoclonal antibody UCHT1 was found to stain T cells expressing the human CD 3 epsilon chain.
 
 ---
-### 870. Characterization and expression of the murine CD3-epsilon gene
+### 869. Characterization and expression of the murine CD3-epsilon gene
 
 **Citation.** Clevers H, Dunlap S, Saito H, Georgopoulos K, Wileman T, Terhorst C. Characterization and expression of the murine CD3-epsilon gene. Proc Natl Acad Sci U S A. 1988;85(22):8623-7.
 
@@ -28795,7 +28727,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** The receptor for antigen on the surface of T lymphocytes consists of a variable disulfide-bridged hetero-dimer (TCR-alpha/beta or -gamma/delta) associated with invariant CD3 proteins (CD3-gamma, -delta, -epsilon, and -zeta). The genes coding for the CD3 proteins are expressed in the earliest recognizable thymocytes, preceding the rearrangement and expression of the TCR genes. The isolation, characterization, and in vitro expression of the murine CD3-epsilon gene, as reported here, represent obligatory steps toward our understanding of the complex rules that govern T-cell-specific gene expression. The CD3-epsilon gene was transcribed from a non-TATA promoter and consisted of eight exons, two of which were unusually small (18 and 15 base pairs). The transmembrane exon was found to be homologous to the transmembrane exons of the CD3-gamma and CD3-delta genes. In transient-transfection experiments, a genomic fragment comprising 4 kilobases of upstream sequence and extending into the second exon sufficient to drive the expression of a reporter gene in murine T cells.
 
 ---
-### 871. Human CD3-epsilon gene contains three miniexons and is transcribed from a non-TATA promoter
+### 870. Human CD3-epsilon gene contains three miniexons and is transcribed from a non-TATA promoter
 
 **Citation.** Clevers HC, Dunlap S, Wileman TE, Terhorst C. Human CD3-epsilon gene contains three miniexons and is transcribed from a non-TATA promoter. Proc Natl Acad Sci U S A. 1988;85(21):8156-60.
 
@@ -28820,7 +28752,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 
 ## 1987
 
-### 872. Close linkage of the mouse and human CD3 gamma- and delta-chain genes suggests that their transcription is controlled by common regulatory elements
+### 871. Close linkage of the mouse and human CD3 gamma- and delta-chain genes suggests that their transcription is controlled by common regulatory elements
 
 **Citation.** Saito H, Koyama T, Georgopoulos K, Clevers H, Haser WG, LeBien T, Tonegawa S, Terhorst C. Close linkage of the mouse and human CD3 gamma- and delta-chain genes suggests that their transcription is controlled by common regulatory elements. Proc Natl Acad Sci U S A. 1987;84(24):9131-4.
 
@@ -28846,7 +28778,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** Antigen receptors on the T-cell surface are noncovalently associated with at least four invariant polypeptide chains, CD3-gamma, -delta, -epsilon, and -zeta. The mouse CD3-gamma gene, consisting of seven exons, was found to be highly homologous to the CD3-delta gene described earlier. Both the high level of sequence homology and the exon/intron organization indicate that the CD3-gamma and -delta genes arose by gene duplication. Surprisingly, murine and human genomic DNA clones could be isolated that contained elements of both the CD3-gamma and CD3-delta genes. In fact, the putative transcription start site of the mouse CD3-gamma gene is less than 1.4 kilobases from the transcription initiation site of the mouse CD3-delta gene. Common elements that regulate the divergent transcription of the two genes are therefore proposed to be located in the intervening 1.4-kilobase DNA segment. This might contribute to the coordinate expression of the CD3-gamma and -delta genes during intrathymic maturation of T lymphocytes.
 
 ---
-### 873. Evolutionary relationship between the T3 chains of the T-cell receptor complex and the immunoglobulin supergene family
+### 872. Evolutionary relationship between the T3 chains of the T-cell receptor complex and the immunoglobulin supergene family
 
 **Citation.** Gold DP, Clevers H, Alarcon B, Dunlap S, Novotny J, Williams AF, Terhorst C. Evolutionary relationship between the T3 chains of the T-cell receptor complex and the immunoglobulin supergene family. Proc Natl Acad Sci U S A. 1987;84(21):7649-53.
 
@@ -28874,7 +28806,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 
 ## 1986
 
-### 874. Wheat germ agglutinin activates human T lymphocytes by stimulation of phosphoinositide hydrolysis
+### 873. Wheat germ agglutinin activates human T lymphocytes by stimulation of phosphoinositide hydrolysis
 
 **Citation.** Clevers HC, de Bresser A, Kleinveld H, Gmelig-Meyling FH, Ballieux RE. Wheat germ agglutinin activates human T lymphocytes by stimulation of phosphoinositide hydrolysis. J Immunol. 1986;136(9):3180-3.
 
@@ -28898,7 +28830,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 
 ## 1985
 
-### 875. Synergistic action of A23187 and phorbol ester on human B cell activation
+### 874. Synergistic action of A23187 and phorbol ester on human B cell activation
 
 **Citation.** Clevers HC, Versteegen JM, Logtenberg T, Gmelig-Meyling FH, Ballieux RE. Synergistic action of A23187 and phorbol ester on human B cell activation. J Immunol. 1985;135(6):3827-30.
 
@@ -28919,7 +28851,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** We have investigated the existence of a synergy occurring between the calcium ionophore A23187 and phorbol myristic acetate (PMA) with respect to human B cell proliferation and differentiation. The combination of A23187 (250 to 500 nM) with nonmitogenic concentrations of PMA (1 to 3 ng/ml) resulted in a strong proliferative response in human tonsillar, spleen, and peripheral blood B cells. This proliferation could not be blocked by anti-Tac antibody at concentrations that effectively inhibited T cell proliferation under similar culture conditions, suggesting that IL 2 and its receptor are not involved in B cell proliferation in this system. During a 3-day culture period, A23187 (500 nM) did not activate B cells in terms of changes in cell size or in the expression of transferrin receptor, HLA-DR, and Tac antigen. PMA at a nonmitogenic concentration (3 ng/ml) enhanced the expression of the first two markers. Combination of the ionophore with PMA induced the occurrence of Tac and further increased the expression of transferrin receptor and HLA-DR. A23187 similarly enhanced the PMA-mediated increase in cell size. PMA and A23187 did not induce differentiation to lg production. However, when cells were prestimulated with a combination of the two agents and were recultured in the presence of a preparation containing B cell differentiation factor, a strong increase in IgM, IgG, and IgA production was found. We conclude that PMA and A23187 synergistically trigger intracellular events in human B cells, leading to proliferation and to responsiveness to differentiation factors.
 
 ---
-### 876. Calcium ionophore A23187 induces interleukin 2 reactivity in human T cells
+### 875. Calcium ionophore A23187 induces interleukin 2 reactivity in human T cells
 
 **Citation.** Clevers HC, Hoeksema M, Gmelig-Meyling FH, Ballieux RE. Calcium ionophore A23187 induces interleukin 2 reactivity in human T cells. Scand J Immunol. 1985;22(6):633-8.
 
@@ -28939,7 +28871,7 @@ Our results indicate that the data obtained in studies of these three melanoma a
 **Abstract.** In the present study the activation of purified human T lymphocytes by the calcium ionophore A23187 was analysed in the light of current concepts of receptor-linked inositol lipid metabolism. It was found that A23187 was only slightly mitogenic, with a narrow optimum at 400-500 nM. The proliferation could be blocked by anti-Tac ascites at 10(-3) dilution, suggesting an interleukin 2 (IL-2)-dependent pathway of activation. However, an unexpectedly large proportion of A23187-stimulated cells expressed the IL-2 receptor. Reculturing the cells with exogenous IL-2 after removal of A23187 resulted in strongly enhanced proliferation. Phorbol myristic acetate (PMA) at non-mitogenic concentrations exerted an extremely strong synergistic effect on A23187-induced cell proliferation, which was, again, mediated via an IL-2-dependent pathway. Supernatants of A23187-stimulated T cells did not contain detectable amounts of IL-2. Combination of PMA and A23187 resulted in considerable IL-2 production. It is concluded that A23187 induces the expression of IL-2 receptors without concurrent stimulation of IL-2 production, thus allowing only low levels of proliferation. Addition of exogenous IL-2 or of PMA restores the imbalance between the occurrence of IL-2 and its receptor and results in high rates of proliferation.
 
 ---
-### 877. Ligands of surface Ig raise cytoplasmic free Ca++ in human B cells
+### 876. Ligands of surface Ig raise cytoplasmic free Ca++ in human B cells
 
 **Citation.** Clevers HC, Bloem AC, Gmelig-Meyling F, Ballieux RE. Ligands of surface Ig raise cytoplasmic free Ca++ in human B cells. Scand J Immunol. 1985;22(5):557-62.
 

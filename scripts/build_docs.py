@@ -39,6 +39,8 @@ UTRECHT_IMMUNO = re.compile(
 )
 GROUP_RES = (HUBRECHT, MAXIMA, NIOB, UTRECHT_IMMUNO)
 
+NO_ABSTRACT = "[Abstract not available]"
+
 EMAIL = re.compile(r"\s*(Electronic address:\s*)?[\w.+-]+@[\w.-]+\.\w+\.?\s*$", re.I)
 
 
@@ -174,7 +176,7 @@ def build_publications(pubs):
     by_year = defaultdict(int)
     for p in recs:
         by_year[p["year"]] += 1
-    n_abs = sum(1 for p in recs if p["abstract"])
+    n_abs = sum(1 for p in recs if p["abstract"] and p["abstract"] != NO_ABSTRACT)
     n_aff = sum(1 for p in recs if p["affs"])
 
     o = []
@@ -190,7 +192,8 @@ def build_publications(pubs):
         f"| | |\n| --- | ---: |\n"
         f"| Records returned by the PubMed query | 877 |\n"
         f"| Records retrieved in full | {len(recs)} |\n"
-        f"| Records carrying an abstract | {n_abs} |\n"
+        f"| Records carrying a substantive abstract | {n_abs} |\n"
+        f"| Records PubMed marks as having no abstract | {len(recs) - n_abs} |\n"
         f"| Records carrying at least one affiliation | {n_aff} |\n"
         f"| Earliest publication year | {min(p['year'] for p in recs if p['year'])} |\n"
         f"| Latest publication year | {max(p['year'] for p in recs if p['year'])} |\n"
@@ -274,7 +277,10 @@ def build_publications(pubs):
         else:
             o.append("**Affiliations.** _None indexed in PubMed for this record._\n")
 
-        o.append(f"**Abstract.** {p['abstract'] or '_No abstract in the PubMed record._'}\n")
+        abstract = p["abstract"]
+        if not abstract or abstract == NO_ABSTRACT:
+            abstract = "_No abstract in the PubMed record._"
+        o.append(f"**Abstract.** {abstract}\n")
         o.append("---")
 
     return "\n".join(o) + "\n"
@@ -359,9 +365,22 @@ def build_people(pubs, rows, roles):
         "Who worked in Hans Clevers' laboratory over the last thirty years, how many "
         "papers each person co-authored with him, and when their first joint paper "
         "appeared. Derived from the complete PubMed record set in "
-        "`clevers_publications.md`, cross-checked against the current Hubrecht "
-        "Institute and Princess Máxima Center group pages, with roles established by "
-        "targeted web research per person.\n"
+        "`clevers_publications.md`, with roles established by targeted web research "
+        "one person at a time.\n"
+    )
+    o.append(
+        "> **On the group websites.** Both `hubrecht.eu` and `prinsesmaximacentrum.nl` "
+        "refuse automated retrieval (HTTP 403), so the current member lists could not be "
+        "read directly. What could be established from search-engine-indexed content is "
+        "that Clevers returned to the Hubrecht Institute as *distinguished group leader* "
+        "of the Clevers group, and separately leads the Clevers group (formerly the "
+        "Organoid group) at the Princess Máxima Center, where the focus is pediatric "
+        "cancer organoid biobanks. Individual current members named on those pages — "
+        "among them Johan van Es, Harry Begthel, Jeroen Korving, Jens Puschhof, "
+        "Joep Beumer and Antonella Dost — were confirmed through their own institutional "
+        "profiles instead, and appear in Table A. Anyone currently in the group who has "
+        "not yet co-authored an indexed paper with Clevers cannot appear in these tables "
+        "at all, since the tables are built from co-authorship.\n"
     )
 
     o.append("## The lab's three homes\n")
@@ -402,6 +421,11 @@ def build_people(pubs, rows, roles):
         f"{len(members)} have a Hubrecht / NIOB / Máxima / Utrecht-immunology affiliation "
         f"documented on at least one shared paper.\n"
     )
+
+    summary = os.path.join(DATA, "summary.md")
+    if os.path.exists(summary):
+        with open(summary, encoding="utf-8") as fh:
+            o.append("\n" + fh.read().rstrip() + "\n")
 
     o.append("\n## Table A — people with a documented Clevers-group affiliation\n")
     o.append(
