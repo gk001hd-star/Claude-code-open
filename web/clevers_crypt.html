@@ -14,7 +14,9 @@
 :root {
   --ground:  #faf3f0;   /* slide glass, eosin wash */
   --tissue:  #f2e0da;
-  --core:    #e7c3bb;   /* lamina propria         */
+  --core:    #f7e9e4;   /* lamina propria         */
+  --lacteal: #e7efe0;   /* central lymphatic      */
+  --cap:     #c9807e;   /* capillary net          */
   --outline: #d9b3ab;
   --ink:     #47294f;   /* haematoxylin           */
   --muted:   #8a6b73;
@@ -35,20 +37,23 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --ground: #06070f; --tissue: #0e1124; --core: #151a35; --outline: #27305a;
+    --ground: #06070f; --tissue: #0e1124; --core: #10142a; --outline: #27305a;
+    --lacteal: #14261f; --cap: #7d3350;
     --ink: #e7eaf7; --muted: #8e95bb; --faint: #666e96;
     --rule: #1e2444; --rule-2: #2e3663; --panel: #0c0f20;
     --violet: #ab8bff; --alcian: #45baea; --pas: #ff5ea3; --gold: #f0b94a;
   }
 }
 :root[data-theme="dark"] {
-  --ground: #06070f; --tissue: #0e1124; --core: #151a35; --outline: #27305a;
+  --ground: #06070f; --tissue: #0e1124; --core: #10142a; --outline: #27305a;
+    --lacteal: #14261f; --cap: #7d3350;
   --ink: #e7eaf7; --muted: #8e95bb; --faint: #666e96;
   --rule: #1e2444; --rule-2: #2e3663; --panel: #0c0f20;
   --violet: #ab8bff; --alcian: #45baea; --pas: #ff5ea3; --gold: #f0b94a;
 }
 :root[data-theme="light"] {
-  --ground: #faf3f0; --tissue: #f2e0da; --core: #e7c3bb; --outline: #d9b3ab;
+  --ground: #faf3f0; --tissue: #f2e0da; --core: #f7e9e4; --outline: #d9b3ab;
+  --lacteal: #e7efe0; --cap: #c9807e;
   --ink: #47294f; --muted: #8a6b73; --faint: #ac8d93;
   --rule: #e6cbc4; --rule-2: #d2aca4; --panel: #fdf8f6;
   --violet: #5c3d8a; --alcian: #14688b; --pas: #a92a63; --gold: #9a6a12;
@@ -327,7 +332,7 @@ const railEl = document.querySelector(".rail");
 const Y0 = DATA.meta.y0, Y1 = DATA.meta.y1;
 const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-let COL = [], INK = "", TISSUE = "", CORE = "", OUTLINE = "", GROUND = "", GOLD = "", MUTED = "", RULE = "";
+let COL = [], INK = "", TISSUE = "", CORE = "", OUTLINE = "", GROUND = "", GOLD = "", MUTED = "", RULE = "", LACTEAL = "", CAP = "";
 function readTokens() {
   const s = getComputedStyle(document.documentElement);
   COL = SITE.map(([, v]) => s.getPropertyValue(v).trim());
@@ -339,6 +344,8 @@ function readTokens() {
   GOLD = s.getPropertyValue("--gold").trim();
   MUTED = s.getPropertyValue("--muted").trim();
   RULE = s.getPropertyValue("--rule").trim();
+  LACTEAL = s.getPropertyValue("--lacteal").trim();
+  CAP = s.getPropertyValue("--cap").trim();
 }
 readTokens();
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", readTokens);
@@ -392,28 +399,48 @@ resize();
    half-width of the whole unit, inner() the lamina propria core the
    epithelium wraps around; the core stops at the crypt neck, which is why
    the base is a solid pocket of cells and the villus is two files. */
-const U_NECK = 0.36, U_SHOULDER = 0.52;
+/* A finger with a domed tip on a narrower tube — the shape of the textbook
+   plate, and nothing more. Both ends are true half-circles rather than
+   tapers, which is what makes it read as a villus instead of a polygon. */
+const U_SHOULDER = 0.50;
 const yOf = u => base - u * span;
 
+const Wc = () => 58 * scale;    // crypt half-width
+const Wv = () => 86 * scale;    // villus half-width
+const WALL = () => 32 * scale;  // epithelial thickness in the villus
+
+function smooth(t) { return t * t * (3 - 2 * t); }
+
 function outer(u) {
-  const Wc = 76 * scale, Wv = 104 * scale;
-  if (u <= 0) return 0;
-  if (u < 0.045) return Wc * Math.sqrt(u / 0.045);                  // rounded crypt floor
-  if (u < U_NECK) return Wc;                                        // crypt shaft
-  if (u < 0.46) return Wc * (1 - 0.40 * (u - U_NECK) / (0.46 - U_NECK));  // isthmus
-  if (u < 0.58) return Wc * 0.60 + (Wv - Wc * 0.60) * (u - 0.46) / 0.12;
-  if (u < 0.90) return Wv;                                          // villus shaft
-  return Wv * Math.sqrt(Math.max(0, 1 - u) / 0.10);                 // rounded tip
+  const wc = Wc(), wv = Wv();
+  const cap = wv / span, floor = wc / span;          // the two round ends
+  if (u <= 0 || u >= 1) return 0;
+  if (u > 1 - cap) {
+    const dy = (u - (1 - cap)) * span;
+    return Math.sqrt(Math.max(0, wv * wv - dy * dy));
+  }
+  if (u < floor) {
+    const dy = (floor - u) * span;
+    return Math.sqrt(Math.max(0, wc * wc - dy * dy));
+  }
+  if (u < 0.40) return wc;
+  if (u < 0.56) return wc + (wv - wc) * smooth((u - 0.40) / 0.16);
+  return wv;
 }
 /* the lamina propria the villus epithelium wraps around: absent in the crypt,
-   opening above the neck and closing again at the tip */
+   opening above the shoulder and closing again inside the domed tip */
 function inner(u) {
   if (u < U_SHOULDER) return 0;
-  const full = Math.max(0, outer(u) - 30 * scale);
-  return u < 0.62 ? full * (u - U_SHOULDER) / 0.10 : full;
+  const full = Math.max(0, outer(u) - WALL());
+  // rounded bottom rather than a taper, or the core ends in a spike
+  const r = Wv() - WALL(), h = r / span;
+  if (u < U_SHOULDER + h) {
+    const dy = (U_SHOULDER + h - u) * span;
+    return Math.min(full, Math.sqrt(Math.max(0, r * r - dy * dy)));
+  }
+  return full;
 }
-/* a slight lean, so the section reads as tissue rather than a diagram */
-const bend = u => Math.sin(u * 2.1 + 0.4) * 10 * scale;
+const bend = () => 0;   // the plate is drawn straight and symmetric
 
 function wall(halfFn, from, to) {
   const step = to > from ? 0.004 : -0.004;
@@ -447,11 +474,45 @@ function drawUnit() {
   ctx.fillStyle = CORE; ctx.fill();
   ctx.strokeStyle = OUTLINE; ctx.lineWidth = 1; ctx.stroke();
 
+  // the capillary net, looping just inside the epithelium
+  const vTop = 0.905, vBot = U_SHOULDER + 0.05;
+  ctx.strokeStyle = CAP; ctx.lineWidth = 1.6; ctx.globalAlpha = 0.6;
+  ctx.beginPath();
+  for (const s of [-1, 1]) {
+    let started = false;
+    for (let u = vBot; u <= vTop; u += 0.004) {
+      const r = Math.max(0, inner(u) - 7 * scale);
+      const x = cx + s * r, y = yOf(u);
+      started ? ctx.lineTo(x, y) : (ctx.moveTo(x, y), started = true);
+    }
+  }
+  ctx.stroke();
+
+  // the lacteal: one blind-ended lymphatic up the middle
+  const lw = 9 * scale;
+  ctx.globalAlpha = 1;
+  ctx.beginPath();
+  ctx.roundRect(cx - lw / 2, yOf(vTop), lw, yOf(vBot) - yOf(vTop), lw / 2);
+  ctx.fillStyle = LACTEAL; ctx.fill();
+  ctx.strokeStyle = OUTLINE; ctx.lineWidth = 1; ctx.globalAlpha = 0.7; ctx.stroke();
+  ctx.globalAlpha = 1;
+
+  // named in place, inside the core — a leader out to the margin would have to
+  // cross the migration rule
+  ctx.save();
+  ctx.translate(cx + lw / 2 + 11 * scale, yOf(0.72));
+  ctx.rotate(-Math.PI / 2);
+  ctx.font = '9px ui-monospace, SFMono-Regular, Menlo, monospace';
+  ctx.fillStyle = MUTED; ctx.textAlign = "center"; ctx.globalAlpha = 0.85;
+  ctx.fillText("LACTEAL", 0, 0);
+  ctx.restore();
+  ctx.globalAlpha = 1; ctx.textAlign = "left";
+
   // axis annotations
   ctx.font = '10px ui-monospace, SFMono-Regular, Menlo, monospace';
   ctx.fillStyle = MUTED; ctx.textAlign = "left";
-  const lx = cx + outer(0.7) + 30 * scale;
-  const marks = [[0.02, "CRYPT BASE"], [U_NECK + .04, "ISTHMUS"], [0.74, "VILLUS"], [0.995, "SHED"]];
+  const lx = cx + Wv() + 42 * scale;
+  const marks = [[0.02, "CRYPT BASE"], [0.24, "CRYPT"], [0.78, "VILLUS"], [0.995, "SHED"]];
   ctx.strokeStyle = RULE; ctx.lineWidth = 1;
   for (const [u, label] of marks) {
     const y = yOf(u);
@@ -463,7 +524,7 @@ function drawUnit() {
   }
 
   // the migration arrow, drawn once alongside the axis
-  const ax = cx - outer(0.7) - 22 * scale;
+  const ax = cx - Wv() - 26 * scale;
   ctx.strokeStyle = RULE; ctx.lineWidth = 1;
   ctx.beginPath(); ctx.moveTo(ax, yOf(0.12)); ctx.lineTo(ax, yOf(0.86)); ctx.stroke();
   ctx.beginPath();
