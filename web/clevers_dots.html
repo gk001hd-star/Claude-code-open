@@ -1,181 +1,160 @@
-<title>Crypt to Villus</title>
+<title>The Clevers Dot Field</title>
 
 <style>
 /* ------------------------------------------------------------------
-   The lab drawn as the tissue it spent thirty years on: one
-   crypt–villus unit. Cells are born at the crypt base, travel up the
-   villus over a few days, and are shed from the tip. People do the
-   same thing over a few years.
+   The group as a confluent epithelial sheet. Hexagons, because that is
+   what a packed monolayer settles into, and because a tiling has no
+   empty space for someone to drift into.
 
-   Light theme is a haematoxylin-and-eosin section under brightfield.
-   Dark is the same specimen under the fluorescence scope — not an
-   inversion, a second way the same slide is actually read.
+   Warm plate paper, ink washes: plum, verdigris, ochre. Geometric sans
+   throughout — the sheet is a specimen plate, not a document.
    ------------------------------------------------------------------ */
 :root {
-  --ground:  #faf3f0;   /* slide glass, eosin wash */
-  --tissue:  #f2e0da;
-  --core:    #f7e9e4;   /* lamina propria         */
-  --lacteal: #e7efe0;   /* central lymphatic      */
-  --cap:     #c9807e;   /* capillary net          */
-  --outline: #d9b3ab;
-  --ink:     #47294f;   /* haematoxylin           */
-  --muted:   #8a6b73;
-  --faint:   #ac8d93;
-  --rule:    #e6cbc4;
-  --rule-2:  #d2aca4;
-  --panel:   #fdf8f6;
+  --paper:   #241610;   /* prepared ground */
+  --paper-2: #2f1e15;
+  --panel:   #1c110c;
+  --ink:     #f0e3cc;
+  --muted:   #b39f83;
+  --faint:   #7c6a55;
+  --rule:    #3d2a1d;
+  --rule-2:  #55402e;
+  --stipple: #3a2718;   /* the dotted ground between the clusters */
 
-  --violet: #5c3d8a;   /* haematoxylin — Dept of Immunology, Utrecht */
-  --alcian: #14688b;   /* Alcian blue  — Hubrecht Institute / NIOB   */
-  --pas:    #a92a63;   /* PAS magenta  — Princess Máxima Center      */
-  --gold:   #9a6a12;   /* left, and now runs a group of their own    */
+  --plum:  #e9dcc0;   /* Dept of Immunology, Utrecht — chalk white */
+  --verd:  #d9963f;   /* Hubrecht Institute / NIOB   — yellow ochre */
+  --ochre: #b4442c;   /* Princess Máxima Center      — red ochre */
+  --mark:  #6f8f6a;   /* now leads a group           — dry olive */
 
-  --display: Optima, Candara, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  --display: Superclarendon, "Bookman Old Style", Rockwell, "Roboto Slab", Georgia, serif;
   --body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --ground: #06070f; --tissue: #0e1124; --core: #10142a; --outline: #27305a;
-    --lacteal: #14261f; --cap: #7d3350;
-    --ink: #e7eaf7; --muted: #8e95bb; --faint: #666e96;
-    --rule: #1e2444; --rule-2: #2e3663; --panel: #0c0f20;
-    --violet: #ab8bff; --alcian: #45baea; --pas: #ff5ea3; --gold: #f0b94a;
-  }
-}
+/* Single ground, deliberately. A painting is made on one prepared surface, and
+   the pigment names below — chalk, yellow ochre, red ochre — only hold against a
+   dark one. Inverting it would leave "chalk" reading as dark brown. So the
+   light-theme tokens are absent rather than forgotten, and the viewer's toggle
+   lands on the same palette either way. */
 :root[data-theme="dark"] {
-  --ground: #06070f; --tissue: #0e1124; --core: #10142a; --outline: #27305a;
-    --lacteal: #14261f; --cap: #7d3350;
-  --ink: #e7eaf7; --muted: #8e95bb; --faint: #666e96;
-  --rule: #1e2444; --rule-2: #2e3663; --panel: #0c0f20;
-  --violet: #ab8bff; --alcian: #45baea; --pas: #ff5ea3; --gold: #f0b94a;
-}
-:root[data-theme="light"] {
-  --ground: #faf3f0; --tissue: #f2e0da; --core: #f7e9e4; --outline: #d9b3ab;
-  --lacteal: #e7efe0; --cap: #c9807e;
-  --ink: #47294f; --muted: #8a6b73; --faint: #ac8d93;
-  --rule: #e6cbc4; --rule-2: #d2aca4; --panel: #fdf8f6;
-  --violet: #5c3d8a; --alcian: #14688b; --pas: #a92a63; --gold: #9a6a12;
+  --paper: #241610; --paper-2: #2f1e15; --panel: #1c110c;
+  --ink: #f0e3cc; --muted: #b39f83; --faint: #7c6a55;
+  --rule: #3d2a1d; --rule-2: #55402e; --stipple: #3a2718;
+  --plum: #e9dcc0; --verd: #d9963f; --ochre: #b4442c; --mark: #6f8f6a;
 }
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0; height: 100vh; overflow: hidden;
-  background: var(--ground); color: var(--ink);
+  background: var(--paper); color: var(--ink);
   font-family: var(--body); font-size: 14px;
   -webkit-font-smoothing: antialiased;
 }
 
 .stage { position: fixed; inset: 0; }
-#tissue { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: crosshair; }
-#tissue:focus-visible { outline: 2px solid var(--alcian); outline-offset: -3px; }
+#sheet { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: crosshair; }
+#sheet:focus-visible { outline: 2px solid var(--verd); outline-offset: -3px; }
 
-/* ---------- left rail ---------- */
 .rail {
-  position: absolute; top: 0; left: 0; bottom: 0; width: 20.5rem;
-  padding: 1.9rem 1.6rem 1.4rem;
-  display: flex; flex-direction: column; gap: 1.35rem;
+  position: absolute; top: 0; left: 0; bottom: 0; width: 20rem;
+  padding: 1.8rem 1.5rem 1.3rem;
+  display: flex; flex-direction: column; gap: 1.3rem;
   overflow-y: auto; pointer-events: none;
   scrollbar-width: none; -ms-overflow-style: none;
   background: linear-gradient(90deg,
-    color-mix(in srgb, var(--ground) 95%, transparent) 0%,
-    color-mix(in srgb, var(--ground) 88%, transparent) 66%,
-    transparent 100%);
+    color-mix(in srgb, var(--paper) 96%, transparent) 0%,
+    color-mix(in srgb, var(--paper) 88%, transparent) 68%, transparent 100%);
 }
 .rail::-webkit-scrollbar, .hits::-webkit-scrollbar { width: 0; height: 0; }
 .rail > * { pointer-events: auto; }
 
 .eyebrow {
-  margin: 0 0 .55rem; font-family: var(--mono); font-size: .62rem;
-  letter-spacing: .16em; text-transform: uppercase; color: var(--faint);
+  margin: 0 0 .5rem; font-family: var(--mono); font-size: .61rem;
+  letter-spacing: .17em; text-transform: uppercase; color: var(--faint);
 }
 h1 {
   font-family: var(--display); font-weight: 400;
-  font-size: clamp(2rem, 4.6vw, 2.9rem); line-height: .98; margin: 0;
-  letter-spacing: -.01em; text-wrap: balance;
+  font-size: clamp(1.9rem, 4.2vw, 2.7rem); line-height: 1.02; margin: 0;
+  letter-spacing: .01em; text-wrap: balance;
 }
-h1 span { display: block; color: var(--pas); }
-.blurb { margin: .85rem 0 0; font-size: .82rem; line-height: 1.62; color: var(--muted); max-width: 34ch; }
+h1 em { font-style: normal; color: var(--verd); }
+.blurb { margin: .8rem 0 0; font-size: .81rem; line-height: 1.62; color: var(--muted); max-width: 34ch; }
 
-.counts { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.counts { display: flex; gap: 1.4rem; flex-wrap: wrap; }
 .count b {
   display: block; font-family: var(--display); font-weight: 400;
-  font-size: 1.85rem; line-height: 1; font-variant-numeric: tabular-nums;
+  font-size: 1.8rem; line-height: 1; font-variant-numeric: tabular-nums;
 }
 .count span {
-  display: block; margin-top: .28rem; font-family: var(--mono);
-  font-size: .58rem; letter-spacing: .1em; text-transform: uppercase; color: var(--faint);
+  display: block; margin-top: .26rem; font-family: var(--mono);
+  font-size: .57rem; letter-spacing: .1em; text-transform: uppercase; color: var(--faint);
 }
 
-.legend { display: flex; flex-direction: column; gap: .42rem; }
+.legend { display: flex; flex-direction: column; gap: .4rem; }
 .legend h2 {
-  margin: 0 0 .1rem; font-family: var(--mono); font-size: .6rem; font-weight: 400;
+  margin: 0 0 .1rem; font-family: var(--mono); font-size: .59rem; font-weight: 400;
   letter-spacing: .14em; text-transform: uppercase; color: var(--faint);
 }
-.key { display: flex; align-items: center; gap: .6rem; font-size: .76rem; color: var(--muted); }
+.key { display: flex; align-items: center; gap: .6rem; font-size: .75rem; color: var(--muted); }
 .key b { color: var(--ink); font-weight: 500; }
-.key i { width: .8rem; height: .8rem; flex: none; border-radius: .2rem; }
-.key.cell i { border-radius: .28rem .28rem .1rem .1rem; height: 1rem; width: .58rem; background: var(--faint); }
-.key.paneth i { border-radius: 50%; background: var(--faint); height: .8rem; width: .8rem; }
-.key.shed i { border-radius: 50%; background: none; box-shadow: 0 0 0 1.5px var(--gold); }
+.key i { width: .68rem; height: .68rem; border-radius: 50%; flex: none; }
+.key.hollow i { background: var(--verd) !important; opacity: .34; }
+.key.solid i { background: var(--mark); border-radius: 50%; width: .58rem; height: .58rem; }
+.key.founder i { background: var(--ink); border-radius: 50%; box-shadow: 0 0 0 2px color-mix(in srgb, var(--ink) 35%, transparent); width: .6rem; height: .6rem; }
+.key.line i { background: none; clip-path: none; height: 0; width: .9rem; border-top: 1px solid var(--ink); align-self: center; }
+.key.core i { background: var(--ink); border-radius: 50%; width: .45rem; height: .45rem; }
 
 .search {
   width: 100%; background: var(--panel); border: 1px solid var(--rule-2);
-  border-radius: .3rem; color: var(--ink); font: inherit; font-size: .8rem; padding: .5rem .65rem;
+  color: var(--ink); font: inherit; font-size: .8rem; padding: .5rem .65rem;
 }
 .search::placeholder { color: var(--faint); }
-.search:focus { outline: none; border-color: var(--alcian); }
-.hits { list-style: none; margin: .35rem 0 0; padding: 0; max-height: 14rem; overflow-y: auto;
+.search:focus { outline: none; border-color: var(--verd); }
+.hits { list-style: none; margin: .35rem 0 0; padding: 0; max-height: 13rem; overflow-y: auto;
         scrollbar-width: none; -ms-overflow-style: none; }
 .hits li {
   display: flex; justify-content: space-between; gap: .6rem; cursor: pointer;
-  padding: .32rem .65rem; font-size: .78rem; border-radius: .25rem;
+  padding: .3rem .65rem; font-size: .78rem;
 }
-.hits li:hover, .hits li:focus-visible { background: var(--tissue); outline: none; }
-.hits li span { color: var(--faint); font-variant-numeric: tabular-nums; font-family: var(--mono); font-size: .7rem; }
+.hits li:hover, .hits li:focus-visible { background: var(--paper-2); outline: none; }
+.hits li span { color: var(--faint); font-family: var(--mono); font-size: .7rem; font-variant-numeric: tabular-nums; }
 
-.note { margin: auto 0 0; font-size: .68rem; line-height: 1.6; color: var(--faint); }
+.note { margin: auto 0 0; font-size: .67rem; line-height: 1.6; color: var(--faint); }
 .note a { color: var(--muted); }
 
-/* ---------- time ---------- */
 .time {
-  position: absolute; left: 20.5rem; right: 1.6rem; bottom: 0;
+  position: absolute; left: 20rem; right: 17.6rem; bottom: 0;
   padding: 0 0 1.3rem 1.6rem; pointer-events: none;
 }
 .time > * { pointer-events: auto; }
 .time-head { display: flex; align-items: center; gap: 1rem; }
 .play {
-  flex: none; width: 2.3rem; height: 2.3rem; border-radius: 50%; cursor: pointer;
-  border: 1px solid var(--rule-2); background: var(--panel); color: var(--pas);
+  flex: none; width: 2.3rem; height: 2.3rem; cursor: pointer;
+  border: 1px solid var(--rule-2); background: var(--panel); color: var(--verd);
   display: grid; place-items: center; padding: 0;
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
 }
-.play:hover { border-color: var(--pas); }
-.play:focus-visible { outline: 2px solid var(--alcian); outline-offset: 2px; }
-.play svg { width: 1.05rem; height: 1.05rem; fill: currentColor; }
+.play:hover { border-color: var(--verd); }
+.play:focus-visible { outline: 2px solid var(--verd); outline-offset: 3px; }
+.play svg { width: 1rem; height: 1rem; fill: currentColor; }
 .yr {
-  font-family: var(--display); font-size: 2.6rem; line-height: 1;
+  font-family: var(--display); font-size: 2.5rem; line-height: 1;
   font-variant-numeric: tabular-nums; min-width: 4.4ch;
 }
-.phase { font-size: .8rem; color: var(--muted); }
+.phase { font-size: .79rem; color: var(--muted); }
 .hint {
-  margin-left: auto; font-family: var(--mono); font-size: .58rem;
+  margin-left: auto; font-family: var(--mono); font-size: .57rem;
   letter-spacing: .1em; text-transform: uppercase; color: var(--faint);
 }
 #slider {
   -webkit-appearance: none; appearance: none; width: 100%; margin: .8rem 0 0;
-  height: 4px; border-radius: 2px; cursor: pointer;
-  background: linear-gradient(90deg, var(--violet), var(--alcian) 42%, var(--pas));
+  height: 3px; cursor: pointer;
+  background: linear-gradient(90deg, var(--plum), var(--verd) 44%, var(--ochre));
 }
-#slider::-webkit-slider-thumb {
-  -webkit-appearance: none; width: 4px; height: 17px; border-radius: 1px;
-  background: var(--ink); border: 0;
-}
-#slider::-moz-range-thumb { width: 4px; height: 17px; border-radius: 1px; background: var(--ink); border: 0; }
-#slider:focus-visible { outline: 2px solid var(--alcian); outline-offset: 4px; }
+#slider::-webkit-slider-thumb { -webkit-appearance: none; width: 4px; height: 16px; background: var(--ink); border: 0; }
+#slider::-moz-range-thumb { width: 4px; height: 16px; background: var(--ink); border: 0; }
+#slider:focus-visible { outline: 2px solid var(--verd); outline-offset: 4px; }
 
-/* ---------- detail ---------- */
 .detail {
   position: fixed; top: 0; right: 0; bottom: 0; width: min(31rem, 94vw);
   background: var(--panel); border-left: 1px solid var(--rule-2);
@@ -185,105 +164,154 @@ h1 span { display: block; color: var(--pas); }
 .detail[data-open] { transform: none; }
 @media (prefers-reduced-motion: reduce) { .detail { transition: none; } }
 .detail-in { overflow-y: auto; padding: 1.7rem 1.7rem 3rem; }
-.x {
-  position: absolute; top: .8rem; right: .9rem; z-index: 1;
-  background: none; border: 0; color: var(--faint); font-size: 1.15rem;
-  cursor: pointer; line-height: 1; padding: .3rem;
-}
+.x { position: absolute; top: .8rem; right: .9rem; z-index: 1; background: none; border: 0;
+     color: var(--faint); font-size: 1.15rem; cursor: pointer; line-height: 1; padding: .3rem; }
 .x:hover { color: var(--ink); }
-.d-name { font-family: var(--display); font-weight: 400; font-size: 1.65rem; margin: 0 2rem .65rem 0; line-height: 1.1; }
+.d-name { font-family: var(--display); font-weight: 400; font-size: 1.6rem; margin: 0 2rem .65rem 0; line-height: 1.12; }
 .d-meta { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: 1rem; }
 .chip {
   font-family: var(--mono); font-size: .62rem; letter-spacing: .04em;
-  padding: .22rem .5rem; border-radius: .25rem;
-  border: 1px solid var(--rule-2); color: var(--muted);
+  padding: .22rem .5rem; border: 1px solid var(--rule-2); color: var(--muted);
 }
-.chip[data-stain="0"] { color: var(--violet); border-color: color-mix(in srgb, var(--violet) 45%, transparent); }
-.chip[data-stain="1"] { color: var(--alcian); border-color: color-mix(in srgb, var(--alcian) 45%, transparent); }
-.chip[data-stain="2"] { color: var(--pas);    border-color: color-mix(in srgb, var(--pas) 45%, transparent); }
-.chip[data-mark] { color: var(--gold); border-color: color-mix(in srgb, var(--gold) 50%, transparent); }
-.d-role { font-size: .9rem; line-height: 1.55; margin: 0 0 1.1rem; }
-.d-box {
-  border-left: 2px solid var(--pas); background: var(--tissue);
-  padding: .8rem .95rem; margin-bottom: 1.3rem; border-radius: 0 .3rem .3rem 0;
-}
+.chip[data-stain="0"] { color: var(--plum);  border-color: color-mix(in srgb, var(--plum) 45%, transparent); }
+.chip[data-stain="1"] { color: var(--verd);  border-color: color-mix(in srgb, var(--verd) 45%, transparent); }
+.chip[data-stain="2"] { color: var(--ochre); border-color: color-mix(in srgb, var(--ochre) 50%, transparent); }
+.chip[data-mark] { color: var(--mark); border-color: color-mix(in srgb, var(--mark) 50%, transparent); }
+.d-role { font-size: .89rem; line-height: 1.55; margin: 0 0 1.1rem; }
+.d-box { border: 1px solid var(--rule); background: var(--paper-2); padding: .8rem .95rem; margin-bottom: 1.3rem; }
 .d-box h3, .d-papers h3 {
-  margin: 0 0 .35rem; font-family: var(--mono); font-size: .58rem; font-weight: 400;
+  margin: 0 0 .35rem; font-family: var(--mono); font-size: .57rem; font-weight: 400;
   letter-spacing: .13em; text-transform: uppercase; color: var(--faint);
 }
-.d-box p { margin: 0; font-size: .84rem; line-height: 1.5; }
-.d-box a, .d-papers a { color: var(--alcian); word-break: break-word; }
+.d-box p { margin: 0; font-size: .83rem; line-height: 1.5; }
+.d-box a, .d-papers a { color: var(--verd); word-break: break-word; }
 .d-papers h3 { margin: 1.5rem 0 .7rem; }
+.nb { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .5rem; }
+.nb button {
+  font: inherit; font-size: .74rem; cursor: pointer; padding: .18rem .45rem;
+  border: 1px solid var(--rule-2); background: none; color: var(--ink);
+}
+.nb button:hover { border-color: var(--verd); color: var(--verd); }
 .paper { display: grid; grid-template-columns: 3.1rem 1fr; gap: .8rem; padding: .65rem 0; border-top: 1px solid var(--rule); }
-.paper time { font-family: var(--mono); font-size: .74rem; color: var(--faint); font-variant-numeric: tabular-nums; }
-.paper p { margin: 0 0 .28rem; font-size: .88rem; line-height: 1.38; }
-.paper .j { font-size: .74rem; color: var(--muted); font-style: italic; }
-.links { display: flex; gap: .9rem; margin-top: .35rem; font-family: var(--mono); font-size: .68rem; }
+.paper time { font-family: var(--mono); font-size: .73rem; color: var(--faint); font-variant-numeric: tabular-nums; }
+.paper p { margin: 0 0 .28rem; font-size: .87rem; line-height: 1.38; }
+.paper .j { font-size: .73rem; color: var(--muted); font-style: italic; }
+.links { display: flex; gap: .9rem; margin-top: .35rem; font-family: var(--mono); font-size: .67rem; }
+
+/* the roll of names beside the organoid */
+.arrivals {
+  position: absolute; right: 1.2rem; top: 1.6rem; bottom: 5.4rem; width: 16rem; z-index: 3;
+  display: flex; flex-direction: column; gap: .2rem;
+}
+.arrivals h2 {
+  margin: 0 0 .35rem; font-family: var(--mono); font-size: .59rem; font-weight: 400;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--faint); flex: none;
+}
+.arrivals h2 { margin-top: .1rem; }
+.arrivals ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .08rem; }
+.arrivals ul.pin { flex: none; padding-bottom: .55rem; margin-bottom: .55rem; border-bottom: 1px solid var(--rule); }
+.arrivals ul.roll {
+  /* a window, not a scroller. The list is anchored to the foot, so names fill
+     downward while there is room and then everybody moves up, the oldest
+     leaving off the top and the newest arriving at the bottom. */
+  flex: 1 1 auto; overflow: hidden;
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 9%);
+  mask-image: linear-gradient(180deg, transparent 0, #000 9%);
+}
+.arrivals li {
+  display: grid; grid-template-columns: 1.9rem 1fr; column-gap: .45rem;
+  align-items: baseline; cursor: pointer; padding: .12rem .3rem;
+  font-size: .77rem; line-height: 1.25; color: var(--ink);
+}
+.arrivals li[hidden] { display: none; }
+.arrivals li:hover { background: var(--paper-2); }
+.arrivals li b {
+  font-family: var(--mono); font-size: .67rem; font-weight: 600;
+  color: var(--muted); letter-spacing: .02em;
+}
+.arrivals li span { color: var(--ink); }
+.arrivals li em {
+  grid-column: 2; font-style: normal; font-family: var(--mono);
+  font-size: .56rem; letter-spacing: .07em; text-transform: uppercase; color: var(--muted);
+}
+.arrivals li em i { font-style: normal; opacity: .75; }
+/* just arrived */
+.arrivals li[data-new] b, .arrivals li[data-new] span { color: var(--ink); }
+.arrivals li[data-new] { background: color-mix(in srgb, var(--verd) 9%, transparent); }
+/* already left, and — for the pinned three — not yet arrived */
+.arrivals li[data-gone] { opacity: .72; }
+.arrivals li[data-waiting] { opacity: .6; }
 
 #tip {
   position: fixed; z-index: 30; pointer-events: none; opacity: 0;
-  background: var(--ink); color: var(--ground); padding: .3rem .55rem;
-  border-radius: .25rem; font-size: .74rem; white-space: nowrap; transition: opacity .1s;
+  background: var(--ink); color: var(--paper); padding: .3rem .55rem;
+  font-size: .74rem; white-space: nowrap; transition: opacity .1s;
 }
 #tip[data-on] { opacity: 1; }
 
 @media (max-width: 900px) {
-  .rail {
-    position: absolute; width: 100%; bottom: auto;
-    max-height: 44dvh; padding-bottom: 1rem;
-    background: linear-gradient(180deg,
-      color-mix(in srgb, var(--ground) 96%, transparent) 0%,
-      color-mix(in srgb, var(--ground) 88%, transparent) 76%, transparent 100%);
-  }
+  .rail { width: 100%; bottom: auto; max-height: 44dvh; padding-bottom: 1rem;
+    background: linear-gradient(180deg, color-mix(in srgb, var(--paper) 96%, transparent) 0%,
+                color-mix(in srgb, var(--paper) 88%, transparent) 78%, transparent 100%); }
   .note { display: none; }
   .time { left: 1.2rem; right: 1.2rem; padding-left: 0; }
   .hint { display: none; }
+  .arrivals { display: none; }
 }
 </style>
 
 <div class="stage">
-  <canvas id="tissue" tabindex="0" aria-label="A crypt–villus unit whose cells are the members of the Clevers group"></canvas>
+  <canvas id="sheet" tabindex="0" aria-label="The Clevers group drawn as a field of dot clusters"></canvas>
+
+  <div class="arrivals" id="arrivals" aria-live="polite"></div>
 
   <div class="rail">
     <div>
-      <p class="eyebrow">Hubrecht · NIOB · Princess Máxima · 1985—2026</p>
-      <h1>Crypt <span>to Villus</span></h1>
+      <p class="eyebrow">Hubrecht · NIOB · Princess Máxima · 1990—2026</p>
+      <h1>The Clevers <em>Dot Field</em></h1>
       <p class="blurb">
-        The lab as the tissue it spent thirty years on. Cells enter at the crypt base,
-        travel up the villus, and are shed from the tip. Everyone here does the same
-        thing — the axis is their time in the group, base to tip.
+        Everyone is a cluster of dots, one more ring for every step up the paper
+        scale, and nobody's cluster ever shrinks — when someone publishes again
+        theirs gains a ring and the field is pushed outward to make the room.
+        Clevers holds the middle and each address owns a wedge around him, sized
+        by how many people it took on. A busy year is laid down a handful at a
+        time; the roll at the right fills downward and then runs, oldest off the
+        top, with the three who held the lab together never moving.
       </p>
     </div>
 
     <div class="counts">
-      <div class="count"><b id="c-here">0</b><span>in the epithelium</span></div>
-      <div class="count"><b id="c-total">0</b><span>passed through</span></div>
+      <div class="count"><b id="c-cells">0</b><span>in the group</span></div>
+      <div class="count"><b id="c-div">0</b><span>joined that year</span></div>
       <div class="count"><b id="c-papers">0</b><span>papers by then</span></div>
     </div>
 
     <div class="legend">
-      <h2>Stain = where they worked</h2>
-      <div class="key"><i style="background:var(--violet)"></i><span><b>Haematoxylin</b> — Dept of Immunology</span></div>
-      <div class="key"><i style="background:var(--alcian)"></i><span><b>Alcian blue</b> — Hubrecht / NIOB</span></div>
-      <div class="key"><i style="background:var(--pas)"></i><span><b>PAS magenta</b> — Princess Máxima</span></div>
-      <div class="key paneth" style="margin-top:.35rem"><i></i><span><b>Paneth cell</b> — never leaves the base</span></div>
-      <div class="key cell"><i></i><span><b>Enterocyte</b> — migrates and is shed</span></div>
-      <div class="key shed"><i></i><span><b>Ring</b> — went on to lead a group</span></div>
+      <h2>Pigment = which territory</h2>
+      <div class="key"><i style="background:var(--plum)"></i><span><b>Chalk</b> — Dept of Immunology</span></div>
+      <div class="key"><i style="background:var(--verd)"></i><span><b>Yellow ochre</b> — Hubrecht / NIOB</span></div>
+      <div class="key"><i style="background:var(--ochre)"></i><span><b>Red ochre</b> — Princess Máxima</span></div>
+      <div class="key core" style="margin-top:.35rem"><i></i><span><b>Rings of dots</b> — one more for each step up in papers</span></div>
+      <div class="key hollow"><i></i><span><b>Sunk into the ground</b> — no longer in the group</span></div>
+      <div class="key solid"><i></i><span><b>Olive inner ring</b> — went on to lead a group</span></div>
+      <div class="key founder"><i></i><span><b>The chalk cluster</b> — Hans Clevers, at the centre</span></div>
     </div>
 
     <div>
-      <input class="search" id="q" type="search" placeholder="Find someone…" autocomplete="off" spellcheck="false" aria-label="Find someone in the epithelium">
+      <input class="search" id="q" type="search" placeholder="Find someone…" autocomplete="off" spellcheck="false" aria-label="Find someone in the organoid">
       <ul class="hits" id="hits"></ul>
     </div>
 
     <p class="note">
-      One unit stands for the whole group; cells fill the epithelial band rather than
-      the true single-file monolayer, so that a year's worth of people fit. Membership
-      and paper counts come from the complete PubMed record for
-      <span style="font-family:var(--mono)">Clevers&nbsp;H[Author]</span> — only people
-      whose own affiliation names the lab appear, so the pre-2014 group is
-      under-represented. Crypt–villus migration after
-      <a href="https://doi.org/10.1038/nature06196" target="_blank" rel="noopener">Barker et&nbsp;al. 2007</a>.
+      The dotting is borrowed from
+      <a href="https://lammuseum.wfu.edu/2024/03/aboriginal-australian-dot-painting/" target="_blank" rel="noopener">Aboriginal
+      Australian dot painting</a> and nothing else is. None of the iconography is
+      here — no site circles, no U-shapes, no track symbols — because those carry
+      specific meaning and belong to the artists and communities who hold them.
+      This is a chart that owes that tradition a debt, not a work in it.
+      Membership and paper counts come from the complete PubMed record for
+      <span style="font-family:var(--mono)">Clevers&nbsp;H[Author]</span>; the 2026
+      rim is the current roster of both groups.
     </p>
   </div>
 
@@ -294,9 +322,9 @@ h1 span { display: block; color: var(--pas); }
       </button>
       <span class="yr" id="year">2026</span>
       <span class="phase" id="phase"></span>
-      <span class="hint">play, scroll or ← → to move the tissue</span>
+      <span class="hint">play, scroll or ← → to lay down the next dots</span>
     </div>
-    <input type="range" id="slider" min="1985" max="2026" step="1" value="2026" aria-label="Year">
+    <input type="range" id="slider" min="0" max="0" step="1" value="0" aria-label="Year">
   </div>
 </div>
 
@@ -314,12 +342,12 @@ const PHASE = [
   { to: 2015, tag: "the Lgr5 years" },
   { to: 9999, tag: "the organoid years" }
 ];
-const SITE = [["Dept of Immunology, Utrecht", "--violet"],
-              ["Hubrecht Institute / NIOB", "--alcian"],
-              ["Princess Máxima Center", "--pas"]];
+const SITE = [["Dept of Immunology, Utrecht", "--plum"],
+              ["Hubrecht Institute / NIOB", "--verd"],
+              ["Princess Máxima Center", "--ochre"]];
 const SITE_CODE = { IMM: 0, HUB: 1, MAX: 2 };
 
-const cv = document.getElementById("tissue");
+const cv = document.getElementById("sheet");
 const ctx = cv.getContext("2d");
 const tip = document.getElementById("tip");
 const detail = document.getElementById("detail");
@@ -328,55 +356,423 @@ const slider = document.getElementById("slider");
 const yearEl = document.getElementById("year");
 const phaseEl = document.getElementById("phase");
 const railEl = document.querySelector(".rail");
+const arrivalsEl = document.getElementById("arrivals");
 
 const Y0 = DATA.meta.y0, Y1 = DATA.meta.y1;
-const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const reduced = matchMedia("(prefers-color-scheme: reduce)").matches ||
+                matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-let COL = [], INK = "", TISSUE = "", CORE = "", OUTLINE = "", GROUND = "", GOLD = "", MUTED = "", RULE = "", LACTEAL = "", CAP = "";
+let COL = [], INK = "", PAPER = "", MEMBRANE = "", MARK = "", MUTED = "", RULE = "", STIPPLE = "";
 function readTokens() {
   const s = getComputedStyle(document.documentElement);
   COL = SITE.map(([, v]) => s.getPropertyValue(v).trim());
   INK = s.getPropertyValue("--ink").trim();
-  TISSUE = s.getPropertyValue("--tissue").trim();
-  CORE = s.getPropertyValue("--core").trim();
-  OUTLINE = s.getPropertyValue("--outline").trim();
-  GROUND = s.getPropertyValue("--ground").trim();
-  GOLD = s.getPropertyValue("--gold").trim();
+  PAPER = s.getPropertyValue("--paper").trim();
+  MEMBRANE = s.getPropertyValue("--membrane").trim();
+  MARK = s.getPropertyValue("--mark").trim();
   MUTED = s.getPropertyValue("--muted").trim();
   RULE = s.getPropertyValue("--rule").trim();
-  LACTEAL = s.getPropertyValue("--lacteal").trim();
-  CAP = s.getPropertyValue("--cap").trim();
+  STIPPLE = s.getPropertyValue("--stipple").trim();
+  for (const c of cells) c.col = COL[c.p.e];
 }
+let cells = [];
+
+/* ---------- grow the sheet ----------
+   Three territories, one per address, each budding from its own founding site.
+   Within a territory the sheet still goes down one intake at a time, and each
+   intake is laid as a single connected patch — that is what keeps a year's
+   arrivals together, and seating people by collaboration alone scattered them
+   right around the growth front. So: neighbours share an institute, and within
+   an institute they share a year. Flat-top axial coordinates throughout. */
+const DIRS = [[1, 0], [1, -1], [0, -1], [-1, 0], [-1, 1], [0, 1]];
+const hkey = (q, r) => q + "," + r;
+const hdist = (q, r) => (Math.abs(q) + Math.abs(q + r) + Math.abs(r)) / 2;
+const wobble = (q, r) => ((q * 73856093 ^ r * 19349663) & 7) * 0.08;
+const SEAT_OF = new Map();   // lattice seat -> the cell sitting on it
+
+/* Each address owns a wedge of the organoid, sized by how many people it ends
+   up with — Hubrecht 276, Princess Máxima 134, Utrecht immunology 51. Growing
+   the territories from their own drifting centres instead left the tissue
+   lopsided and pushed Clevers off the middle; anchoring them to fixed headings
+   keeps him at the centre with the three clusters radiating out around him. */
+const WEDGE = (() => {
+  const n = [0, 0, 0];
+  for (const p of DATA.people) if (!p.hc) n[p.e]++;
+  const total = n[0] + n[1] + n[2] || 1;
+  const out = [];
+  let a = -Math.PI * 0.55;
+  // Hubrecht in the middle of the sweep, its two neighbours either side
+  for (const site of [0, 1, 2]) {
+    const w = Math.PI * 2 * n[site] / total;
+    out[site] = { a0: a, a1: a + w, mid: a + w / 2 };
+    a += w;
+  }
+  return out;
+})();
+
+const angOf = (q, r) => Math.atan2(r + q / 2, Math.sqrt(3) / 2 * q);
+/* how far outside its own wedge a seat lies, in radians — 0 when it is inside */
+function outsideWedge(q, r, site) {
+  if (!q && !r) return 0;
+  const w = WEDGE[site];
+  let a = angOf(q, r);
+  while (a < w.a0) a += Math.PI * 2;
+  while (a > w.a0 + Math.PI * 2) a -= Math.PI * 2;
+  if (a <= w.a1) return 0;
+  return Math.min(a - w.a1, w.a0 + Math.PI * 2 - a);
+}
+
+function grow() {
+  const taken = new Map();
+  const at = new Array(DATA.people.length).fill(null);
+  const from = new Array(DATA.people.length).fill(null);   // what each cell budded off
+
+  const byYear = new Map();
+  DATA.people.forEach((p, i) => {
+    if (p.hc) {                       // Clevers takes the middle
+      at[i] = { q: 0, r: 0 };
+      taken.set(hkey(0, 0), i);
+      return;
+    }
+    if (!byYear.has(p.gf)) byYear.set(p.gf, []);
+    byYear.get(p.gf).push(i);
+  });
+
+  /* Every cell has to touch one that is already there — a cell budding off
+     nothing would sit in the medium, not in the tissue. */
+  function freeEdge() {
+    const out = [], seen = new Set();
+    for (const k of taken.keys()) {
+      const [q0, r0] = k.split(",").map(Number);
+      for (const [dq, dr] of DIRS) {
+        const q = q0 + dq, r = r0 + dr;
+        const key = hkey(q, r);
+        if (taken.has(key) || seen.has(key)) continue;
+        seen.add(key);
+        out.push([q, r]);
+      }
+    }
+    return out;
+  }
+
+  const SECTORS = 16;
+  const sectorOf = (q, r) => {
+    const a = angOf(q, r) + Math.PI * 4;
+    return Math.floor(a / (Math.PI * 2 / SECTORS)) % SECTORS;
+  };
+
+  /* Where an intake goes in. It wants to be as near Clevers as it can get, so
+     anything still open inside the body of the organoid is taken first. Once
+     the middle is solid every opening is out on the rim at much the same
+     distance, and then the batch goes to whichever part of its own wedge is
+     thinnest — which is what keeps one side from running away from the other. */
+  function entrySeat(site, prefer) {
+    if (!taken.size) return { q: 0, r: 0 };
+    const cand = freeEdge();
+    let radius = 0;
+    for (const k of taken.keys()) {
+      const [q, r] = k.split(",").map(Number);
+      radius = Math.max(radius, hdist(q, r));
+    }
+    const inner = cand.filter(([q, r]) => hdist(q, r) < radius - 0.5);
+    const pool = inner.length ? inner : cand;
+    let count = null;
+    if (!inner.length) {
+      count = new Array(SECTORS).fill(0);
+      for (const [k, i] of taken) {
+        if (DATA.people[i].e !== site) continue;
+        const [q, r] = k.split(",").map(Number);
+        count[sectorOf(q, r)]++;
+      }
+    }
+    let best = null, bestKey = Infinity;
+    for (const [q, r] of pool) {
+      let key = hdist(q, r) * 0.6 + wobble(q, r) + outsideWedge(q, r, site) * 9;
+      if (count) key += count[sectorOf(q, r)] * 1.5;
+      // a first-choice neighbour still counts for something, just less than
+      // keeping the organoid round
+      if (prefer) key += hdist(q - prefer.q, r - prefer.r) * 0.22;
+      if (key < bestKey) { bestKey = key; best = { q, r }; }
+    }
+    return best || { q: 0, r: 0 };
+  }
+
+  for (const y of [...byYear.keys()].sort((a, b) => a - b)) {
+    for (let site = 0; site < 3; site++) {
+      const list = byYear.get(y)
+        .filter(i => DATA.people[i].e === site)
+        .sort((a, b) => DATA.people[b].p.length - DATA.people[a].p.length ||
+                        (DATA.people[a].n < DATA.people[b].n ? -1 : 1));
+      if (!list.length) continue;
+
+      // the intake enters beside whoever it overlaps with most, provided that
+      // person is in the same territory
+      let anchor = null;
+      for (const i of list) {
+        const a = at[DATA.people[i].pa];
+        if (a && DATA.people[DATA.people[i].pa].e === site) { anchor = a; break; }
+      }
+      const patch = [];
+      let sq = 0, sr = 0;
+
+      for (const i of list) {
+        let spot, budded = null;
+        if (!patch.length) {
+          spot = entrySeat(site, anchor);
+          budded = anchor;
+        } else {
+          // any free hex touching the patch, kept compact, held inside its own
+          // wedge and pulled gently back toward the middle
+          let best = null, bestKey = Infinity;
+          const cq = sq / patch.length, cr = sr / patch.length;
+          for (const s of patch) {
+            for (const [dq, dr] of DIRS) {
+              const q = s.q + dq, r = s.r + dr;
+              if (taken.has(hkey(q, r))) continue;
+              const k = hdist(q - cq, r - cr) * 2 + hdist(q, r) * 0.22
+                      + outsideWedge(q, r, site) * 9 + wobble(q, r);
+              if (k < bestKey) { bestKey = k; best = { q, r, from: s }; }
+            }
+          }
+          spot = best || entrySeat(site, { q: cq, r: cr });
+          budded = best ? best.from : null;
+        }
+        at[i] = { q: spot.q, r: spot.r };
+        from[i] = budded;
+        taken.set(hkey(spot.q, spot.r), i);
+        patch.push(at[i]); sq += spot.q; sr += spot.r;
+      }
+    }
+  }
+  return { at, taken, from };
+}
+
+function hexRing(cq, cr, n) {
+  const out = [];
+  let q = cq + DIRS[4][0] * n, r = cr + DIRS[4][1] * n;
+  for (let d = 0; d < 6; d++) {
+    for (let s = 0; s < n; s++) {
+      out.push([q, r]);
+      q += DIRS[d][0]; r += DIRS[d][1];
+    }
+  }
+  return out;
+}
+
+const { at: SEAT, taken: OCCUPANT, from: BUDDED } = grow();
+cells = DATA.people.map((p, i) => ({
+  i, p, n: p.p.length, grow: 1,
+  q: SEAT[i].q, r: SEAT[i].r,
+  col: "", lead: p.pi && p.tr, pillar: p.pl || 0,
+  x: 0, y: 0
+}));
 readTokens();
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", readTokens);
 new MutationObserver(readTokens).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 
-/* deterministic per-person jitter, so nobody jumps between frames or reloads */
-function rand(i, salt) {
-  const x = Math.sin((i + 1) * 12.9898 + salt * 78.233) * 43758.5453;
-  return x - Math.floor(x);
+/* who each cell shares a junction with — used by the detail panel */
+function neighbours(c) {
+  return (c.nb || [])
+    .filter(o => o.p.gf <= year && hdist(o.q - c.q, o.r - c.r) === 1)
+    .slice(0, 8);
 }
 
-const cellsAll = DATA.people.map((p, i) => ({
-  i, p,
-  n: p.p.length,
-  col: COL[p.e],
-  lead: p.pi && p.tr,
-  paneth: !!p.pl,            // the ones who never left the base
-  side: rand(i, 1) < 0.5 ? -1 : 1,
-  band: 0.15 + rand(i, 2) * 0.7,
-  wob: rand(i, 3),
-  x: 0, y: 0, w: 0, h: 0, on: false
-}));
+const maxN = Math.max(...cells.map(c => c.n));
+
+/* how many papers each person had with Clevers by each year — the number that
+   decides how much of the sheet their cell takes up */
+const NY = Y1 - Y0 + 1;
+for (const c of cells) {
+  const run = new Uint16Array(NY);
+  for (const idx of c.p.p) {
+    const y = DATA.papers[idx][0];
+    if (y) run[Math.max(0, Math.min(NY - 1, y - Y0))]++;
+  }
+  for (let k = 1; k < NY; k++) run[k] += run[k - 1];
+  c.byYear = run;
+}
+const maxSoFar = Math.max(...cells.filter(c => !c.p.hc).map(c => c.byYear[NY - 1]));
 
 const CUM = [];
 for (let y = Y0, run = 0, k = 0; y <= Y1; y++) {
   while (k < DATA.papers.length && DATA.papers[k][0] <= y) { run++; k++; }
   CUM.push(run);
 }
+const ARRIVALS = new Array(Y1 - Y0 + 1).fill(0);
+for (const c of cells) if (!c.p.hc) ARRIVALS[Math.max(0, c.p.gf - Y0)]++;
+// each arrival's place in its year's intake, so a big year comes in as a run of
+// cells rather than all at once
+{
+  const seen = new Array(Y1 - Y0 + 1).fill(0);
+  for (const c of cells) {
+    if (c.p.hc) { c.bi = 0; c.bn = 1; continue; }
+    const k = Math.max(0, c.p.gf - Y0);
+    c.bi = seen[k]++; c.bn = ARRIVALS[k] || 1;
+  }
+}
+const YSTART = 1990;    // the first year the timeline shows
 
-let year = Y1, W = 0, H = 0, cx = 0, base = 0, apex = 0, span = 0, scale = 1;
-let hover = null, picked = null, filter = null, tflow = 0, stemHover = false;
+/* The slider stops within a year as well as between them, one stop per handful
+   of arrivals, so a fifty-two-person intake comes in eleven small batches
+   instead of one move. */
+const BATCH = 5;        // people admitted per stop
+const TICKS = [];
+for (let y = YSTART; y <= Y1; y++) {
+  const parts = Math.max(1, Math.min(12, Math.ceil(ARRIVALS[y - Y0] / BATCH)));
+  for (let p = 0; p < parts; p++) TICKS.push({ y, parts, f: (p + 1) / parts });
+}
+const FIRST_TICK = new Int32Array(NY).fill(-1);
+TICKS.forEach((t, i) => { if (FIRST_TICK[t.y - Y0] < 0) FIRST_TICK[t.y - Y0] = i; });
+// a year lasts at least a second, and longer when more people joined
+const tickMs = t => Math.max(1000, t.parts * 420) / t.parts;
+
+/* the stop at which each person's cell first appears — used for the initials on
+   the cell and for the names in the margin, both of which last two stops */
+for (const c of cells) {
+  if (c.p.hc) { c.at = -99; continue; }
+  const first = FIRST_TICK[c.p.gf - Y0];
+  if (first < 0) { c.at = -99; continue; }
+  const parts = TICKS[first].parts;
+  c.at = first + Math.max(0, Math.ceil((c.bi + 0.5) / c.bn * parts) - 1);
+}
+
+/* ---------- the sheet ----------
+   Seats on a jittered hex lattice give the topology: who sits against whom,
+   fixed for good. The geometry is worked out separately for every year, so
+   that a cell which publishes grows without taking anything off its
+   neighbours — they are pushed outward instead and the whole field expands,
+   the way an organoid does. Every layout is computed once at load, so at rest
+   the page is completely still; a year step just moves between two of them. */
+for (const c of cells) {
+  const h = Math.sin((c.q * 12.9898 + c.r * 78.233) * 43758.5453);
+  const h2 = Math.sin((c.q * 39.3468 + c.r * 11.135) * 24634.6345);
+  const a = (h - Math.floor(h)) * Math.PI * 2;
+  const m = 0.20 * (h2 - Math.floor(h2));
+  c.ux = Math.sqrt(3) / 2 * c.q + Math.cos(a) * m;   // lattice seat
+  c.uy = c.r + c.q / 2 + Math.sin(a) * m;
+}
+
+/* who each cell sits against — fixed, because the seating is */
+{
+  cells.forEach(c => SEAT_OF.set(hkey(c.q, c.r), c));
+  for (const c of cells) {
+    c.nb = []; c.touch = [];
+    for (let dq = -2; dq <= 2; dq++)
+      for (let dr = -2; dr <= 2; dr++) {
+        if ((!dq && !dr) || hdist(dq, dr) > 2) continue;
+        const o = SEAT_OF.get(hkey(c.q + dq, c.r + dr));
+        if (!o) continue;
+        c.nb.push(o);
+        if (hdist(dq, dr) === 1) c.touch.push(o);
+      }
+  }
+}
+
+/* Cell radius runs from one publication to the most anyone in the group has
+   published with Clevers today — 112 papers, and that is the reference the
+   whole page is scaled against. The curve is logarithmic rather than square
+   root: a first paper sits a tenth of the way up a square-root scale and a
+   seventh of the way up a log one, which is the difference between a cell that
+   reads as a member of the lab and one that reads as a speck. It costs some
+   separation at the top, where sixty papers against a hundred matters less.
+
+   A radius only ever grows, because a paper count only ever grows. That is what
+   keeps a quiet cell exactly the size it was while the busy one beside it
+   expands: the field gets bigger rather than the neighbour smaller. The floor
+   is one publication, not none, so somebody in the lab who has not yet appeared
+   on a paper still takes the cell of a first paper. */
+const LOGMAX = Math.log(1 + Math.max(1, maxSoFar));
+const R_MIN = 0.42, R_SPAN = 0.74;
+const paperRadius = n => R_MIN + R_SPAN * Math.log(1 + Math.max(1, n)) / LOGMAX;
+const papersBy = (c, y) => c.byYear[Math.max(0, Math.min(NY - 1, y - Y0))];
+
+/* Clevers is drawn the size of whoever is largest that year. All 876 papers are
+   his, and scaling him off that count made him swamp the tissue. */
+const FOUNDER_R = [];
+for (let y = Y0; y <= Y1; y++) {
+  let m = 0;
+  for (const c of cells) if (!c.p.hc && c.p.gf <= y) m = Math.max(m, paperRadius(papersBy(c, y)));
+  FOUNDER_R.push((m || paperRadius(1)) * 1.14);
+}
+
+const radiusAt = (c, y) => c.p.hc ? FOUNDER_R[y - Y0] : paperRadius(papersBy(c, y));
+
+/* ---------- one layout per year ----------
+   Touching seats are held exactly one radius-sum apart; seats a step further
+   off are only pushed if they overlap. Each year starts from the last one, so
+   the field grows continuously instead of being redrawn from scratch. */
+const HC = cells.find(c => c.p.hc) || null;
+const LAYOUT = [];
+{
+  const n = cells.length;
+  const X = new Float64Array(n), Y = new Float64Array(n);
+  const dx = new Float64Array(n), dy = new Float64Array(n);
+  const rad = new Float64Array(n);
+  const placed = new Uint8Array(n);
+  let live = [];
+
+  for (let y = Y0; y <= Y1; y++) {
+    for (const c of cells) {
+      if (placed[c.i] || c.p.gf > y) continue;
+      // a new cell starts where its seat sits relative to a neighbour already
+      // in the tissue, so it arrives attached rather than dropped in
+      const base = c.touch.find(o => placed[o.i]);
+      if (base) { X[c.i] = X[base.i] + (c.ux - base.ux); Y[c.i] = Y[base.i] + (c.uy - base.uy); }
+      else { X[c.i] = c.ux; Y[c.i] = c.uy; }
+      placed[c.i] = 1;
+      live.push(c);
+    }
+    for (const c of live) rad[c.i] = radiusAt(c, y);
+
+    const rounds = y === Y0 ? 400 : 150;
+    for (let it = 0; it < rounds; it++) {
+      dx.fill(0); dy.fill(0);
+      for (const c of live) {
+        for (const o of c.nb) {
+          if (!placed[o.i] || o.i <= c.i) continue;
+          let ax = X[o.i] - X[c.i], ay = Y[o.i] - Y[c.i];
+          let d = Math.hypot(ax, ay);
+          if (d < 1e-9) { ax = 0.01; ay = 0; d = 0.01; }
+          const want = rad[c.i] + rad[o.i];
+          const touching = hdist(o.q - c.q, o.r - c.r) === 1;
+          // a shared edge is held at exactly the radius sum; a cell one step
+          // further off is only ever pushed away, never pulled in
+          const slack = d - want;
+          if (!touching && slack >= 0) continue;
+          const f = (slack < 0 ? slack * 0.55 : Math.min(slack, 0.6) * 0.22);
+          const ux = ax / d * f, uy = ay / d * f;
+          dx[c.i] += ux; dy[c.i] += uy; dx[o.i] -= ux; dy[o.i] -= uy;
+        }
+      }
+      for (const c of live) { X[c.i] += dx[c.i]; Y[c.i] += dy[c.i]; }
+      const hcI = HC ? HC.i : live[0].i;
+      const mx = X[hcI], my = Y[hcI];
+      for (const c of live) { X[c.i] -= mx; Y[c.i] -= my; }
+    }
+    LAYOUT.push({ x: Float64Array.from(X), y: Float64Array.from(Y), r: Float64Array.from(rad) });
+  }
+}
+
+let year = Y1, W = 0, H = 0, cx = 0, cy = 0, U = 20, geomDirty = true;
+let ease = 0, fromF = 1, tick = 0;  // frames left, the fraction it began at, the stop
+let dotPaths = null, stipplePath = null;
+let reveal = 1;                    // how far through this year's intake we are
+const FOUNDER = cells.find(c => c.p.hc) || null;
+let S = 12;                        // nominal cell size, for type and label sizing
+let hover = null, picked = null, filter = null;
+
+const FIT = (() => {
+  // the founder sits at the origin, so the frame is the half-width and
+  // half-height he has to be the middle of — a single circumscribed radius
+  // wasted most of the canvas on a tissue that is wider than it is tall
+  const L = LAYOUT[LAYOUT.length - 1];
+  let hx = 0, hy = 0;
+  for (const c of cells) {
+    hx = Math.max(hx, Math.abs(L.x[c.i]) + L.r[c.i]);
+    hy = Math.max(hy, Math.abs(L.y[c.i]) + L.r[c.i]);
+  }
+  return { hx, hy };
+})();
 
 function resize() {
   const dpr = Math.min(devicePixelRatio || 1, 2);
@@ -385,331 +781,426 @@ function resize() {
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
   const wide = W > 900;
   const railW = wide ? railEl.getBoundingClientRect().width : 0;
-  cx = railW + (W - railW) / 2;
-  base = H - (wide ? 118 : 104);       // crypt floor, clear of the time bar
-  apex = wide ? 92 : railEl.getBoundingClientRect().height + 46;
-  span = base - apex;
-  scale = Math.min(1, Math.max(0.62, (W - railW) / 900));
+  const railH = wide ? 0 : railEl.getBoundingClientRect().height;
+  const availW = W - railW - (wide ? 300 : 56), availH = H - railH - 150;
+  // framed for the finished organoid, and held there: the scale never changes,
+  // so a cell that is not growing keeps exactly the same area on screen
+  U = Math.max(4, Math.min(60, Math.min(availW / (2 * FIT.hx), availH / (2 * FIT.hy))));
+  cx = railW + (W - railW - (wide ? 244 : 0)) / 2;
+  cy = railH + (H - railH - 104) / 2;
+  S = U * 0.58;
+  stipplePath = null;
+  geomDirty = true;
 }
 new ResizeObserver(resize).observe(cv);
 resize();
 
-/* ---------- the unit ----------
-   u runs 0 at the crypt floor to 1 at the villus tip. outer() is the
-   half-width of the whole unit, inner() the lamina propria core the
-   epithelium wraps around; the core stops at the crypt neck, which is why
-   the base is a solid pocket of cells and the villus is two files. */
-/* A finger with a domed tip on a narrower tube — the shape of the textbook
-   plate, and nothing more. Both ends are true half-circles rather than
-   tapers, which is what makes it read as a villus instead of a polygon. */
-const U_SHOULDER = 0.50;
-const yOf = u => base - u * span;
+/* ---------- the tessellation ----------
+   A power diagram over the year's positions. Two neighbours meet where two
+   circles of their radii would touch, so every junction is shared by exactly
+   two cells and the sheet is confluent. */
+const SP = () => U;                       // one radius unit, in pixels
 
-const Wc = () => 58 * scale;    // crypt half-width
-const Wv = () => 86 * scale;    // villus half-width
-const WALL = () => 32 * scale;  // epithelial thickness in the villus
-
-function smooth(t) { return t * t * (3 - 2 * t); }
-
-function outer(u) {
-  const wc = Wc(), wv = Wv();
-  const cap = wv / span, floor = wc / span;          // the two round ends
-  if (u <= 0 || u >= 1) return 0;
-  if (u > 1 - cap) {
-    const dy = (u - (1 - cap)) * span;
-    return Math.sqrt(Math.max(0, wv * wv - dy * dy));
-  }
-  if (u < floor) {
-    const dy = (floor - u) * span;
-    return Math.sqrt(Math.max(0, wc * wc - dy * dy));
-  }
-  if (u < 0.40) return wc;
-  if (u < 0.56) return wc + (wv - wc) * smooth((u - 0.40) / 0.16);
-  return wv;
-}
-/* the lamina propria the villus epithelium wraps around: absent in the crypt,
-   opening above the shoulder and closing again inside the domed tip */
-function inner(u) {
-  if (u < U_SHOULDER) return 0;
-  const full = Math.max(0, outer(u) - WALL());
-  // rounded bottom rather than a taper, or the core ends in a spike
-  const r = Wv() - WALL(), h = r / span;
-  if (u < U_SHOULDER + h) {
-    const dy = (U_SHOULDER + h - u) * span;
-    return Math.min(full, Math.sqrt(Math.max(0, r * r - dy * dy)));
-  }
-  return full;
-}
-const bend = () => 0;   // the plate is drawn straight and symmetric
-
-function wall(halfFn, from, to) {
-  const step = to > from ? 0.004 : -0.004;
-  const pts = [];
-  for (let u = from; step > 0 ? u <= to + 1e-9 : u >= to - 1e-9; u += step) pts.push(u);
-  return pts;
-}
-
-function drawUnit() {
-  // epithelium silhouette: up the left wall, back down the right
-  ctx.beginPath();
-  let first = true;
-  for (const u of wall(outer, 0, 1)) {
-    const x = cx + bend(u) - outer(u), y = yOf(u);
-    first ? (ctx.moveTo(x, y), first = false) : ctx.lineTo(x, y);
-  }
-  for (const u of wall(outer, 1, 0)) ctx.lineTo(cx + bend(u) + outer(u), yOf(u));
-  ctx.closePath();
-  ctx.fillStyle = TISSUE; ctx.fill();
-  ctx.strokeStyle = OUTLINE; ctx.lineWidth = 1.4; ctx.stroke();
-
-  // lamina propria core
-  const lo = U_SHOULDER, hi = 0.995;
-  ctx.beginPath(); first = true;
-  for (const u of wall(inner, lo, hi)) {
-    const x = cx + bend(u) - inner(u), y = yOf(u);
-    first ? (ctx.moveTo(x, y), first = false) : ctx.lineTo(x, y);
-  }
-  for (const u of wall(inner, hi, lo)) ctx.lineTo(cx + bend(u) + inner(u), yOf(u));
-  ctx.closePath();
-  ctx.fillStyle = CORE; ctx.fill();
-  ctx.strokeStyle = OUTLINE; ctx.lineWidth = 1; ctx.stroke();
-
-  // the capillary net, looping just inside the epithelium
-  const vTop = 0.905, vBot = U_SHOULDER + 0.05;
-  ctx.strokeStyle = CAP; ctx.lineWidth = 1.6; ctx.globalAlpha = 0.6;
-  ctx.beginPath();
-  for (const s of [-1, 1]) {
-    let started = false;
-    for (let u = vBot; u <= vTop; u += 0.004) {
-      const r = Math.max(0, inner(u) - 7 * scale);
-      const x = cx + s * r, y = yOf(u);
-      started ? ctx.lineTo(x, y) : (ctx.moveTo(x, y), started = true);
+/* clip a convex polygon to the half-plane on this side of a line */
+function clipHalf(poly, nx, ny, d) {
+  const out = [];
+  for (let i = 0; i < poly.length; i += 2) {
+    const ax = poly[i], ay = poly[i + 1];
+    const bx = poly[(i + 2) % poly.length], by = poly[(i + 3) % poly.length];
+    const da = ax * nx + ay * ny - d, db = bx * nx + by * ny - d;
+    if (da <= 0) { out.push(ax, ay); }
+    if ((da <= 0) !== (db <= 0)) {
+      const t = da / (da - db);
+      out.push(ax + (bx - ax) * t, ay + (by - ay) * t);
     }
   }
-  ctx.stroke();
+  return out;
+}
 
-  // the lacteal: one blind-ended lymphatic up the middle
-  const lw = 9 * scale;
-  ctx.globalAlpha = 1;
-  ctx.beginPath();
-  ctx.roundRect(cx - lw / 2, yOf(vTop), lw, yOf(vBot) - yOf(vTop), lw / 2);
-  ctx.fillStyle = LACTEAL; ctx.fill();
-  ctx.strokeStyle = OUTLINE; ctx.lineWidth = 1; ctx.globalAlpha = 0.7; ctx.stroke();
-  ctx.globalAlpha = 1;
+/* the six directions a seat can have a neighbour, as unit vectors */
+const DIR_UNIT = DIRS.map(([dq, dr]) => {
+  const x = Math.sqrt(3) / 2 * dq, y = dr + dq / 2;
+  const L = Math.hypot(x, y);
+  return [x / L, y / L];
+});
+const CAP_SIDES = 16;
+function cellPolygon(c) {
+  // A backstop only. Inside the sheet every edge comes from a junction shared
+  // with a neighbour, and on the rim from a line drawn where the missing
+  // neighbour would have been — a cap sized by paper count used to bite in the
+  // interior too, which opened gaps between cells that ought to be joined.
+  const cap = c.rad * 1.35;
+  let poly = [];
+  for (let k = 0; k < CAP_SIDES; k++) {
+    const a = k / CAP_SIDES * Math.PI * 2 + 0.2;
+    poly.push(c.x + Math.cos(a) * cap, c.y + Math.sin(a) * cap);
+  }
+  const wi = c.rad * c.rad;
 
-  // named in place, inside the core — a leader out to the margin would have to
-  // cross the migration rule
-  ctx.save();
-  ctx.translate(cx + lw / 2 + 11 * scale, yOf(0.72));
-  ctx.rotate(-Math.PI / 2);
-  ctx.font = '9px ui-monospace, SFMono-Regular, Menlo, monospace';
-  ctx.fillStyle = MUTED; ctx.textAlign = "center"; ctx.globalAlpha = 0.85;
-  ctx.fillText("LACTEAL", 0, 0);
-  ctx.restore();
-  ctx.globalAlpha = 1; ctx.textAlign = "left";
-
-  // axis annotations
-  ctx.font = '10px ui-monospace, SFMono-Regular, Menlo, monospace';
-  ctx.fillStyle = MUTED; ctx.textAlign = "left";
-  const lx = cx + Wv() + 42 * scale;
-  const marks = [[0.02, "CRYPT BASE"], [0.24, "CRYPT"], [0.78, "VILLUS"], [0.995, "SHED"]];
-  ctx.strokeStyle = RULE; ctx.lineWidth = 1;
-  for (const [u, label] of marks) {
-    const y = yOf(u);
-    ctx.globalAlpha = 0.75;
-    ctx.beginPath();
-    ctx.moveTo(cx + bend(u) + outer(u) + 8, y); ctx.lineTo(lx - 6, y); ctx.stroke();
-    ctx.fillText(label, lx, y + 3);
-    ctx.globalAlpha = 1;
+  // junctions with everyone present nearby
+  for (const o of c.nb) {
+    if (o.p.gf > year) continue;
+    const dx = o.x - c.x, dy = o.y - c.y;
+    const d = Math.hypot(dx, dy);
+    if (d < 1e-6) continue;
+    const nx = dx / d, ny = dy / d;
+    // radical axis: half-way, shifted by the difference in weight
+    let t = d / 2 + (wi - o.rad * o.rad) / (2 * d);
+    t = Math.max(d * 0.15, Math.min(d * 0.85, t));   // nobody is reduced to a splinter
+    poly = clipHalf(poly, nx, ny, c.x * nx + c.y * ny + t);
+    if (poly.length < 6) return poly;
   }
 
-  // the migration arrow, drawn once alongside the axis
-  const ax = cx - Wv() - 26 * scale;
-  ctx.strokeStyle = RULE; ctx.lineWidth = 1;
-  ctx.beginPath(); ctx.moveTo(ax, yOf(0.12)); ctx.lineTo(ax, yOf(0.86)); ctx.stroke();
-  ctx.beginPath();
-  ctx.moveTo(ax, yOf(0.90)); ctx.lineTo(ax - 4, yOf(0.855)); ctx.lineTo(ax + 4, yOf(0.855));
-  ctx.closePath(); ctx.fillStyle = RULE; ctx.fill();
-  ctx.save();
-  ctx.translate(ax - 9, yOf(0.5)); ctx.rotate(-Math.PI / 2);
-  ctx.textAlign = "center"; ctx.fillStyle = MUTED;
-  ctx.fillText("MIGRATION", 0, 0);
-  ctx.restore();
+  // and the free edge, where a seat next door is empty
+  const rim = c.rad;
+  for (let k = 0; k < 6; k++) {
+    const o = SEAT_OF.get(hkey(c.q + DIRS[k][0], c.r + DIRS[k][1]));
+    if (o && o.p.gf <= year) continue;
+    const [nx, ny] = DIR_UNIT[k];
+    poly = clipHalf(poly, nx, ny, c.x * nx + c.y * ny + rim);
+    if (poly.length < 6) return poly;
+  }
+  return poly;
 }
 
-/* Where along the axis a person stands in a given year: how far through their
-   own time in the group they are. The denominator counts the last year as a
-   year present — without it everyone still in the lab piles up at the tip in
-   whatever the current year happens to be. */
-function place(c, y) {
-  const p = c.p;
-  if (y < p.gf) return null;
-  if (c.paneth) return 0.03 + c.band * 0.11;            // Paneth cells hold the base
-  const u = (y - p.gf) / (p.gl - p.gf + 1);
-  // a small fixed offset per person so a cohort that arrived together does not
-  // stack in one line
-  return 0.035 + u * 0.94 + (c.wob - 0.5) * 0.05;
+/* Draw a polygon with only its corners eased. Bowing every edge turned the
+   sheet into a pile of loose blobs; a real monolayer is straight-sided with
+   softened junctions. */
+function softPath(poly, radius) {
+  const n = poly.length / 2;
+  ctx.beginPath();
+  if (n < 3) return;
+  const R0 = radius === undefined ? Math.max(1.2, S * 0.13) : radius;
+  let started = false;
+  for (let i = 0; i < n; i++) {
+    const p = ((i - 1 + n) % n) * 2, v = i * 2, q = ((i + 1) % n) * 2;
+    const ax = poly[p] - poly[v], ay = poly[p + 1] - poly[v + 1];
+    const bx = poly[q] - poly[v], by = poly[q + 1] - poly[v + 1];
+    const la = Math.hypot(ax, ay) || 1, lb = Math.hypot(bx, by) || 1;
+    const r = Math.min(R0, la / 2.1, lb / 2.1);
+    const sx = poly[v] + ax / la * r, sy = poly[v + 1] + ay / la * r;
+    const ex = poly[v] + bx / lb * r, ey = poly[v + 1] + by / lb * r;
+    started ? ctx.lineTo(sx, sy) : (ctx.moveTo(sx, sy), started = true);
+    ctx.quadraticCurveTo(poly[v], poly[v + 1], ex, ey);
+  }
+  ctx.closePath();
 }
 
-function drawCell(c, u0, alpha, strong) {
-  // the last stretch is compressed: cells on their way out crowd the tip, and
-  // without this they end up drawn outside the tissue
-  const u = u0 < 0.86 ? u0 : 0.86 + (u0 - 0.86) * 0.62;
-  const half = outer(u), core = inner(u);
-  const lean = bend(u);
-  const room = Math.max(6, half - core);
-  const r = core + room * c.band;
-  const x = cx + lean + c.side * r;
-  const y = yOf(u) + (c.wob - 0.5) * 9;
-  const w = (c.paneth ? 8.5 : 5.4 + Math.sqrt(c.n) * 0.62) * scale;
-  const h = c.paneth ? w * 1.15 : w * 1.75;
-  c.x = x; c.y = y; c.w = w; c.h = h; c.on = true;
+function shrink(poly, cxp, cyp, k) {
+  const out = new Array(poly.length);
+  for (let i = 0; i < poly.length; i += 2) {
+    out[i] = cxp + (poly[i] - cxp) * k;
+    out[i + 1] = cyp + (poly[i + 1] - cyp) * k;
+  }
+  return out;
+}
 
-  ctx.globalAlpha = alpha;
-  ctx.fillStyle = c.col;
-  ctx.beginPath();
-  if (c.paneth) {
-    // wedge with a domed apex — and the secretory granules
-    ctx.ellipse(x, y, w * 0.62, h * 0.72, 0, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.fillStyle = GROUND; ctx.globalAlpha = alpha * 0.65;
-    for (let g = 0; g < 4; g++) {
-      const a = g * 1.9 + c.wob * 6;
-      ctx.beginPath();
-      ctx.arc(x + Math.cos(a) * w * 0.26, y + Math.sin(a) * h * 0.3, w * 0.13, 0, Math.PI * 2);
-      ctx.fill();
+function inside(poly, mx, my) {
+  let hit = false;
+  for (let i = 0, j = poly.length - 2; i < poly.length; j = i, i += 2) {
+    const yi = poly[i + 1], yj = poly[j + 1];
+    if ((yi > my) !== (yj > my) &&
+        mx < (poly[j] - poly[i]) * (my - yi) / (yj - yi) + poly[i]) hit = !hit;
+  }
+  return hit;
+}
+
+let easeTotal = 22;
+/* The roll of names beside the organoid. Everyone who has arrived is on it,
+   newest at the top, and it is built once — a tick only flips which rows are
+   showing. The three who held the lab together are pinned above it whatever the
+   year, because they are who you look for. */
+const PINNED = ["de lau, w", "van es, j", "van de wetering, m"];
+const rollHead = () => "Joined";
+const rollRows = [];
+function buildRoll() {
+  const key = n => {
+    const [last, first] = n.split(",").map(v => (v || "").trim());
+    const strip = t => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    return strip(last) + ", " + strip(first || "")[0];
+  };
+  const pins = [], rest = [];
+  for (const c of cells) (PINNED.includes(key(c.p.n)) ? pins : rest).push(c);
+  pins.sort((a, b) => PINNED.indexOf(key(a.p.n)) - PINNED.indexOf(key(b.p.n)));
+  // newest first: the roll grows downward from the top as the years run
+  rest.sort((a, b) => a.at - b.at || a.n - b.n);   // Clevers is at -99, so he opens it
+  const row = c =>
+    `<li data-n="${esc(c.p.n)}"><b>${esc(initials(c.p.n))}</b>` +
+    `<span>${esc(fullName(c.p.n))}</span>` +
+    `<em>${c.p.hc ? "Group leader" : c.p.e === 2 ? "Máxima" : c.p.e === 0 ? "Utrecht" : "Hubrecht"} ` +
+    `<i>${c.p.gf}–${c.p.gl}</i></em></li>`;
+  arrivalsEl.innerHTML =
+    `<ul class="pin">${pins.map(row).join("")}</ul>` +
+    `<h2>Joined</h2><ul class="roll">${rest.map(row).join("")}</ul>`;
+  const nodes = arrivalsEl.querySelectorAll(".roll li");
+  rest.forEach((c, i) => rollRows.push({ c, el: nodes[i] }));
+  arrivalsEl.querySelectorAll(".pin li").forEach((el, i) => rollRows.push({ c: pins[i], el, pin: true }));
+}
+
+let rollTick = -2;
+function paintRoll() {
+  if (rollTick === tick) return;
+  rollTick = tick;
+  for (const r of rollRows) {
+    const here = r.c.at <= tick;
+    r.el.hidden = !r.pin && !here;
+    r.el.toggleAttribute("data-new", here && tick - r.c.at < 2);
+    r.el.toggleAttribute("data-gone", here && year > r.c.p.gl);
+    if (r.pin) r.el.toggleAttribute("data-waiting", !here);
+  }
+  const roll = arrivalsEl.querySelector(".roll");
+  if (roll) roll.scrollTop = roll.scrollHeight;
+}
+
+/* ---------- dots ----------
+   Every person is a rosette: a centre dot with rings of dots around it, one
+   more ring for every step up the paper scale. Whole colours are collected into
+   one path and filled in a single call, which is what makes twenty thousand
+   dots cheap enough to redraw every frame.
+
+   The technique is borrowed from Aboriginal Australian dot painting and nothing
+   else is: no concentric-circle site maps, no U-shapes, no track symbols. Those
+   carry specific meaning and belong to the artists and communities who hold
+   them. This is a chart that owes them a debt, not a work in their tradition. */
+const DOT_PITCH = 5.4;          // spacing along a ring
+const RING_GAP = 4.6;           // spacing between rings
+
+function rosette(path, x, y, r, from) {
+  for (let ring = from; ; ring++) {
+    const rr = ring * RING_GAP;
+    if (rr > r) break;
+    if (ring === 0) { path.moveTo(x + 1.5, y); path.arc(x, y, 1.5, 0, Math.PI * 2); continue; }
+    const n = Math.max(4, Math.round(2 * Math.PI * rr / DOT_PITCH));
+    // the phase turns with the ring, so the dots do not line up into spokes
+    const a0 = ring * 0.7;
+    for (let k = 0; k < n; k++) {
+      const a = a0 + k / n * Math.PI * 2;
+      const dx = x + Math.cos(a) * rr, dy = y + Math.sin(a) * rr;
+      path.moveTo(dx + 1.5, dy); path.arc(dx, dy, 1.5, 0, Math.PI * 2);
     }
-  } else {
-    // columnar cell, long axis along the migration path
-    const rr = w * 0.34;
-    ctx.roundRect(x - w / 2, y - h / 2, w, h, [rr, rr, rr * 0.5, rr * 0.5]);
-    ctx.fill();
-    // basal nucleus, the way an enterocyte actually sits
-    ctx.fillStyle = INK; ctx.globalAlpha = alpha * 0.5;
-    ctx.beginPath(); ctx.arc(x, y + h * 0.22, w * 0.26, 0, Math.PI * 2); ctx.fill();
   }
-  ctx.globalAlpha = alpha;
-
-  if (c.lead) {
-    ctx.strokeStyle = GOLD; ctx.lineWidth = 1.2;
-    ctx.beginPath(); ctx.ellipse(x, y, w * 0.78, h * 0.66, 0, 0, Math.PI * 2); ctx.stroke();
-  }
-  if (strong) {
-    ctx.globalAlpha = 1;
-    ctx.strokeStyle = INK; ctx.lineWidth = 1.6;
-    ctx.beginPath(); ctx.ellipse(x, y, w * 0.95, h * 0.82, 0, 0, Math.PI * 2); ctx.stroke();
-  }
-  ctx.globalAlpha = 1;
 }
 
-function draw(t) {
-  if (!reduced) tflow = t * 0.001;
-  ctx.clearRect(0, 0, W, H);
-  drawUnit();
+function ringOfDots(path, x, y, r, size) {
+  const n = Math.max(6, Math.round(2 * Math.PI * r / (DOT_PITCH * 0.92)));
+  for (let k = 0; k < n; k++) {
+    const a = k / n * Math.PI * 2 + 0.3;
+    const dx = x + Math.cos(a) * r, dy = y + Math.sin(a) * r;
+    path.moveTo(dx + size, dy); path.arc(dx, dy, size, 0, Math.PI * 2);
+  }
+}
 
+function buildDots() {
+  const body = [new Path2D(), new Path2D(), new Path2D()];   // one per address
+  const gone = [new Path2D(), new Path2D(), new Path2D()];
+  const halo = new Path2D(), lead = new Path2D(), core = new Path2D();
   let here = 0;
-  const shown = [];
-  for (const c of cellsAll) c.on = false;
-
-  for (const c of cellsAll) {
-    const u = place(c, year);
-    if (u === null) continue;
-    const dim = filter && !filter.has(c.p.n);
-    if (u <= 1) {
-      here++;
-      drawCell(c, u, dim ? 0.1 : 1, c === hover || c === picked);
-      if (!dim) shown.push(c);
-    } else if (u < 1.16) {
-      // extruded at the tip: drifting into the lumen, on its way out
-      const k = (u - 1) / 0.16;
-      const y = yOf(1) - 14 - k * 46 - Math.sin(tflow + c.wob * 9) * 3;
-      const x = cx + bend(1) + (c.side * (16 + k * 40)) + Math.sin(tflow * .7 + c.wob * 5) * 4;
-      const w = 5 * scale;
-      ctx.globalAlpha = (dim ? 0.06 : 0.5) * (1 - k);
-      ctx.fillStyle = c.col;
-      ctx.beginPath(); ctx.arc(x, y, w * (1 - k * 0.4), 0, Math.PI * 2); ctx.fill();
-      ctx.globalAlpha = 1;
-      c.x = x; c.y = y; c.w = w * 2; c.h = w * 2; c.on = true;
+  for (const c of cells) {
+    if (!c.poly || !c.grow) continue;
+    const inLab = year <= c.p.gl;
+    if (inLab && !c.p.hc) here++;
+    const r = c.rad * 0.86;
+    if (c.p.hc) {
+      rosette(core, c.x, c.y, r, 0);
+      ringOfDots(halo, c.x, c.y, r + RING_GAP, 2.1);
+    } else {
+      rosette(inLab ? body[c.p.e] : gone[c.p.e], c.x, c.y, r, 0);
+      // the shimmer: a ring of chalk dots just outside anyone still in the lab
+      if (inLab) ringOfDots(halo, c.x, c.y, r + RING_GAP * 0.9, 1.35);
+      if (c.lead) ringOfDots(lead, c.x, c.y, Math.max(3, r * 0.42), 1.7);
     }
   }
+  dotPaths = { body, gone, halo, lead, core, here };
+}
 
-  // names: the Paneth cells always, then the biggest contributors that fit
-  ctx.font = "11px " + getComputedStyle(document.body).fontFamily;
-  ctx.textAlign = "left"; ctx.textBaseline = "middle";
+/* the dotted ground the clusters sit on, keyed to the canvas rather than the data */
+function buildStipple() {
+  const path = new Path2D();
+  const step = 13;
+  for (let y = 6; y < H; y += step) {
+    for (let x = 6 + ((y / step) & 1 ? step / 2 : 0); x < W; x += step) {
+      const j = Math.sin(x * 12.9898 + y * 78.233) * 43758.5453;
+      const k = Math.sin(x * 39.3468 + y * 11.135) * 24634.6345;
+      const px = x + ((j - Math.floor(j)) - 0.5) * 5, py = y + ((k - Math.floor(k)) - 0.5) * 5;
+      path.moveTo(px + 1.1, py); path.arc(px, py, 1.1, 0, Math.PI * 2);
+    }
+  }
+  stipplePath = path;
+}
+
+function draw() {
+  ctx.clearRect(0, 0, W, H);
+
+  const T = TICKS[tick];
+  const L = LAYOUT[T.y - Y0], P = LAYOUT[T.y - 1 - Y0] || L;
+  if (ease > 0 || geomDirty) {
+    // the field slides from the previous year's shape toward this one and then
+    // stops. Within a year it only travels as far as this stop, so a big intake
+    // arrives in fifths and the tissue expands with each of them.
+    const k = ease > 0 ? 1 - ease / easeTotal : 1;
+    const e = k < 1 ? k * k * (3 - 2 * k) : 1;
+    const at = fromF + (T.f - fromF) * e;
+    reveal = at;
+    for (const c of cells) {
+      const i = c.i;
+      // Someone arriving this year has no place in last year's layout — the
+      // array still holds a zero there — so interpolating flung them in from the
+      // middle of the organoid. They start where they belong and swell into it.
+      const isNew = c.p.gf === T.y && !c.p.hc;
+      const ux = isNew ? L.x[i] : P.x[i] + (L.x[i] - P.x[i]) * at;
+      const uy = isNew ? L.y[i] : P.y[i] + (L.y[i] - P.y[i]) * at;
+      c.x = cx + ux * U; c.y = cy + uy * U;
+      // no swelling in: a cell appears at its full size, at its own place, when
+      // its turn comes. Scaling it up moved its outline against its neighbours'
+      // and read as drift.
+      c.grow = isNew && at < (c.bi + 0.5) / Math.max(1, c.bn) ? 0 : 1;
+      c.rad = (isNew ? L.r[i] : P.r[i] + (L.r[i] - P.r[i]) * at) * U;
+      c.poly = (c.p.gf > T.y || !c.grow) ? null : 1;
+    }
+    if (ease > 0) ease--; else { geomDirty = false; fromF = T.f; }
+  }
+
+  if (!stipplePath) buildStipple();
+  ctx.fillStyle = STIPPLE; ctx.globalAlpha = 0.85;
+  ctx.fill(stipplePath);
+  ctx.globalAlpha = 1;
+
+  buildDots();
+  const D = dotPaths;
+  const here = D.here;
+
+  // people who have left, laid down first and quietly
+  for (let e = 0; e < 3; e++) {
+    ctx.globalAlpha = 0.34; ctx.fillStyle = COL[e]; ctx.fill(D.gone[e]);
+  }
+  // the halo of chalk dots that separates each cluster from the ground
+  ctx.globalAlpha = 0.5; ctx.fillStyle = INK; ctx.fill(D.halo);
+  // and everyone still in the group
+  for (let e = 0; e < 3; e++) {
+    ctx.globalAlpha = 1; ctx.fillStyle = COL[e]; ctx.fill(D.body[e]);
+  }
+  ctx.globalAlpha = 0.95; ctx.fillStyle = MARK; ctx.fill(D.lead);
+  ctx.globalAlpha = 1; ctx.fillStyle = INK; ctx.fill(D.core);
+
+  // whoever the pointer is on, ringed
+  for (const c of [hover, picked]) {
+    if (!c || !c.poly || !c.grow) continue;
+    const ring = new Path2D();
+    ringOfDots(ring, c.x, c.y, c.rad * 0.86 + RING_GAP * 1.9, 1.9);
+    ctx.fillStyle = INK; ctx.globalAlpha = 1; ctx.fill(ring);
+  }
+  ctx.globalAlpha = 1;
+
+  /* Names. A new cell carries only its initials; the names themselves are set
+     in the margin, where there is room to read them. Both last two stops. */
+  ctx.textAlign = "center"; ctx.textBaseline = "middle";
   const boxes = [];
-  const label = shown.slice().sort((a, b) =>
-    (b.paneth ? 1 : 0) - (a.paneth ? 1 : 0) ||
-    ((b === hover || b === picked) ? 1 : 0) - ((a === hover || a === picked) ? 1 : 0) ||
-    b.n - a.n);
-  for (const c of label) {
-    const strong = c === hover || c === picked || c.paneth;
-    const t2 = c.p.n.split(",")[0].trim();
-    const tw = ctx.measureText(t2).width;
-    const right = c.side > 0;
-    const x = right ? c.x + c.w * 0.7 + 5 : c.x - c.w * 0.7 - 5 - tw;
-    const box = { x: x - 3, y: c.y - 8, w: tw + 6, h: 16 };
-    if (boxes.some(b => !(box.x + box.w < b.x || b.x + b.w < box.x ||
-                          box.y + box.h < b.y || b.y + b.h < box.y))) continue;
-    if (boxes.length > 46 && !strong) break;
-    boxes.push(box);
-    ctx.fillStyle = strong ? INK : MUTED;
-    ctx.globalAlpha = strong ? 0.95 : 0.5;
-    ctx.fillText(t2, x, c.y);
+  const claim = (x, y, w, h) => {
+    for (const b of boxes)
+      if (!(x + w / 2 < b.x - b.w / 2 || b.x + b.w / 2 < x - w / 2 ||
+            y + h / 2 < b.y - b.h / 2 || b.y + b.h / 2 < y - h / 2)) return false;
+    boxes.push({ x, y, w, h });
+    return true;
+  };
+
+  const fresh = [];
+  for (const c of cells) {
+    if (!c.poly || c.p.hc) continue;
+    if (filter && !filter.has(c.p.n)) continue;
+    const age = tick - c.at;
+    if (age < 0 || age > 1) continue;
+    if (c.grow <= 0) continue;
+    fresh.push(c);
+  }
+  fresh.sort((a, b) => (tick - a.at) - (tick - b.at) || b.n - a.n);
+
+  ctx.font = "600 " + Math.max(8, Math.min(11, S * 0.44)) + "px " +
+             getComputedStyle(document.body).fontFamily;
+  for (const c of fresh) {
+    const t2 = initials(c.p.n);
+    const w = ctx.measureText(t2).width;
+    if (!claim(c.x, c.y, w + 5, 12)) continue;
+    ctx.globalAlpha = tick === c.at ? 1 : 0.7;
+    ctx.lineJoin = "round";
+    ctx.strokeStyle = PAPER; ctx.lineWidth = 3;
+    ctx.strokeText(t2, c.x, c.y);      // a ground to read against, over the nucleus
+    ctx.fillStyle = INK;
+    ctx.fillText(t2, c.x, c.y);
     ctx.globalAlpha = 1;
   }
-  // the founder, an Lgr5+ crypt base columnar cell — everything else in the
-  // tissue is ultimately descended from it
-  const sy = yOf(0.028), sx = cx + bend(0.028);
-  const halo = ctx.createRadialGradient(sx, sy, 0, sx, sy, 34 * scale);
-  halo.addColorStop(0, GOLD + "66");
-  halo.addColorStop(1, GOLD + "00");
-  ctx.fillStyle = halo;
-  ctx.beginPath(); ctx.arc(sx, sy, 34 * scale, 0, Math.PI * 2); ctx.fill();
-  ctx.fillStyle = GOLD;
-  ctx.beginPath();
-  ctx.ellipse(sx, sy, 5 * scale, 9.5 * scale, 0, 0, Math.PI * 2);
-  ctx.fill();
-  ctx.strokeStyle = INK; ctx.lineWidth = 1;
-  ctx.beginPath(); ctx.ellipse(sx, sy, 5 * scale, 9.5 * scale, 0, 0, Math.PI * 2); ctx.stroke();
-  ctx.font = '10px ui-monospace, SFMono-Regular, Menlo, monospace';
-  ctx.textAlign = "right"; ctx.fillStyle = stemHover ? INK : MUTED;
-  ctx.fillText(stemHover ? "HANS CLEVERS · LGR5+ STEM CELL" : "LGR5+", sx - 14 * scale, sy + 3);
-  ctx.textAlign = "left";
-  ctx.textBaseline = "alphabetic";
+  paintRoll();
 
-  document.getElementById("c-here").textContent = here;
+  if (S > 11) {
+    ctx.font = Math.max(8, Math.min(11, S * 0.5)) + "px " + getComputedStyle(document.body).fontFamily;
+    for (const c of cells) {
+      if (!c.poly) continue;
+      if (filter && !filter.has(c.p.n)) continue;
+      const strong = c === hover || c === picked || c.pillar || c.p.hc;
+      if (!strong && !(c.n >= 30 && year <= c.p.gl)) continue;
+      const age = tick - c.at;
+      if (age >= 0 && age <= 1 && !strong) continue;
+      const t2 = c.p.hc ? "Hans Clevers" : c.p.n.split(",")[0].trim();
+      const w = ctx.measureText(t2).width;
+      const y = c.y + c.rad + 7;
+      if (!claim(c.x, y, w + 6, 13)) continue;
+      ctx.fillStyle = strong ? INK : MUTED;
+      ctx.globalAlpha = strong ? 0.98 : 0.75;
+      ctx.fillText(t2, c.x, y);
+      ctx.globalAlpha = 1;
+    }
+  }
+  ctx.textBaseline = "alphabetic"; ctx.textAlign = "left";
+
+  document.getElementById("c-cells").textContent = here;
   requestAnimationFrame(draw);
 }
 
-function setYear(y) {
-  year = Math.max(Y0, Math.min(Y1, Math.round(y)));
-  slider.value = year;
-  yearEl.textContent = year;
-  phaseEl.textContent = PHASE.find(p => year <= p.to).tag;
-  let seen = 0;
-  for (const c of cellsAll) if (c.p.gf <= year) seen++;
-  document.getElementById("c-total").textContent = seen;
-  document.getElementById("c-papers").textContent = CUM[year - Y0];
+function setTick(i, instant) {
+  const was = tick;
+  tick = Math.max(0, Math.min(TICKS.length - 1, Math.round(i)));
+  const T = TICKS[tick];
+  slider.value = tick;
+  year = T.y;
+  yearEl.textContent = T.y;
+  phaseEl.textContent = PHASE.find(p => T.y <= p.to).tag;
+  if (was !== tick) {
+    const W0 = TICKS[was];
+    // where the field was: the same year means carry on from this stop, a
+    // different year means start from that year's finished shape
+    fromF = W0.y === T.y ? W0.f : (W0.y < T.y ? 0 : 1);
+    easeTotal = Math.max(10, Math.round(tickMs(T) / 16.7));
+    ease = reduced || instant ? 0 : easeTotal;
+    if (!ease) fromF = T.f;
+    geomDirty = true;
+  }
+  document.getElementById("c-div").textContent = ARRIVALS[T.y - Y0];
+  document.getElementById("c-papers").textContent = CUM[T.y - Y0];
+}
+function setYear(y, instant) {
+  const yy = Math.max(YSTART, Math.min(Y1, Math.round(y)));
+  // stepping by year lands on that year's last stop, so its whole intake is in
+  setTick(yy === year ? tick : (FIRST_TICK[yy - Y0] + TICKS[FIRST_TICK[yy - Y0]].parts - 1), instant);
 }
 
 /* ---------- interaction ---------- */
 function hit(mx, my) {
-  let best = null, bd = 1e9;
-  for (const c of cellsAll) {
-    if (!c.on) continue;
+  // the cell the pointer is standing in; falls back to the nearest site so a
+  // click on a membrane still lands on something
+  let best = null, bd = Infinity;
+  for (const c of cells) {
+    if (!c.poly || c.poly.length < 6) continue;
+    if (c.p.gf === year && reveal < (c.bi + 0.5) / c.bn) continue;
     if (filter && !filter.has(c.p.n)) continue;
-    const dx = (mx - c.x) / Math.max(9, c.w), dy = (my - c.y) / Math.max(9, c.h);
-    const d = dx * dx + dy * dy;
+    if (inside(c.poly, mx, my)) return c;
+    const d = (mx - c.x) ** 2 + (my - c.y) ** 2;
     if (d < bd) { bd = d; best = c; }
   }
-  return bd <= 1.6 ? best : null;
+  return bd <= (S * 1.1) ** 2 ? best : null;
 }
 
 cv.addEventListener("pointermove", e => {
   const r = cv.getBoundingClientRect();
-  const mx = e.clientX - r.left, my = e.clientY - r.top;
-  stemHover = Math.hypot(mx - (cx + bend(0.028)), my - yOf(0.028)) < 26 * scale;
-  hover = hit(mx, my);
+  hover = hit(e.clientX - r.left, e.clientY - r.top);
   cv.style.cursor = hover ? "pointer" : "crosshair";
   if (hover) {
     const p = hover.p;
@@ -719,7 +1210,7 @@ cv.addEventListener("pointermove", e => {
     tip.style.top = (e.clientY + 16) + "px";
   } else tip.removeAttribute("data-on");
 });
-cv.addEventListener("pointerleave", () => { hover = null; stemHover = false; tip.removeAttribute("data-on"); });
+cv.addEventListener("pointerleave", () => { hover = null; tip.removeAttribute("data-on"); });
 cv.addEventListener("click", e => {
   const r = cv.getBoundingClientRect();
   const c = hit(e.clientX - r.left, e.clientY - r.top);
@@ -731,45 +1222,74 @@ cv.addEventListener("wheel", e => {
   e.preventDefault(); stop();
   wheelAcc += e.deltaY;
   const step = Math.trunc(wheelAcc / 40);
-  if (step) { wheelAcc -= step * 40; setYear(year + step); }
+  if (step) { wheelAcc -= step * 40; setTick(tick + step); }
 }, { passive: false });
 
-slider.addEventListener("input", () => { stop(); setYear(+slider.value); });
+slider.addEventListener("input", () => { stop(); setTick(+slider.value); });
 
 /* ---------- play ---------- */
 let timer = null;
 const PLAY_D = "M8 5.5v13l11-6.5z", PAUSE_D = "M7 5h3.4v14H7zm6.6 0H17v14h-3.4z";
 const playBtn = document.getElementById("play");
 const playIcon = document.getElementById("play-icon");
-
 function playing() { return timer !== null; }
 function stop() {
   if (!timer) return;
-  clearInterval(timer); timer = null;
+  clearTimeout(timer); timer = null;
   playIcon.setAttribute("d", PLAY_D);
   playBtn.setAttribute("aria-pressed", "false");
   playBtn.setAttribute("aria-label", "Play through time");
 }
 function play() {
   if (timer) return;
-  if (year >= Y1) setYear(Y0);
+  if (tick >= TICKS.length - 1) setTick(0, true);
   playIcon.setAttribute("d", PAUSE_D);
   playBtn.setAttribute("aria-pressed", "true");
   playBtn.setAttribute("aria-label", "Pause");
-  timer = setInterval(() => {
-    if (year >= Y1) { stop(); return; }
-    setYear(year + 1);
-  }, 420);
+  // each stop holds for its own share of the year, so a year never goes by in
+  // under a second however few people joined it
+  const beat = () => {
+    if (tick >= TICKS.length - 1) { stop(); return; }
+    setTick(tick + 1);
+    timer = setTimeout(beat, tickMs(TICKS[tick]));
+  };
+  timer = setTimeout(beat, tickMs(TICKS[tick]));
 }
 playBtn.addEventListener("click", () => (playing() ? stop() : play()));
 
 /* ---------- detail ---------- */
+/* PubMed capitalises the particle — "Van Es, Johan H" — so it cannot be picked
+   out by case. This is the list instead, used both for the initials (JE, not JV)
+   and for setting the name the way it is written (Johan van Es). */
+const PARTICLES = new Set(["van", "von", "de", "der", "den", "del", "della", "di",
+                           "da", "dos", "du", "le", "la", "ter", "te", "el", "'t"]);
+// "El" is skipped when picking an initial — El Haddouti is BH — but it is a
+// capitalised part of the name, not a Dutch particle, so it is left alone in print
+const LOWER = new Set([...PARTICLES].filter(w => w !== "el"));
+function initials(n) {
+  const [last, first] = n.split(",").map(v => (v || "").trim());
+  const g = (first || " ").trim()[0] || "";
+  const word = last.split(/\s+/).find(w => !PARTICLES.has(w.toLowerCase())) || last;
+  return (g + word[0]).toUpperCase();
+}
+
+/* "Puschhof, Jens" -> "Jens Puschhof", trimmed of trailing initials */
+function fullName(n) {
+  const [last, first] = n.split(",").map(v => (v || "").trim());
+  const surname = last.split(/\s+/)
+    .map(w => LOWER.has(w.toLowerCase()) ? w.toLowerCase() : w).join(" ");
+  if (!first) return surname;
+  const given = first.split(/\s+/).filter(w => w.length > 1)[0] || first;
+  return given + " " + surname;
+}
+
 function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
 
 function open(c) {
   picked = c;
   const p = c.p;
   const papers = p.p.map(i => DATA.papers[i]).sort((a, b) => b[0] - a[0]);
+  const nb = neighbours(c).filter(Boolean);
   const now = p.pos ? `
     <div class="d-box">
       <h3>${p.tr ? "Where they went" : "Their own group — a collaborator, not a trainee"}</h3>
@@ -784,20 +1304,20 @@ function open(c) {
         const s = SITE_CODE[code];
         return `<span class="chip" data-stain="${s}">${esc(SITE[s][0])} ${a}${b > a ? "–" + b : ""}</span>`;
       }).join("")}
-      <span class="chip">${p.p.length} paper${p.p.length > 1 ? "s" : ""} with Clevers</span>
-      ${p.pi ? `<span class="chip" data-mark>${p.pi === "academic_pi" ? "Leads a research group" : "Leads in industry"}</span>` : ""}
+      <span class="chip">${p.hc ? p.p.length + " papers in all" : (p.p.length ? p.p.length + " paper" + (p.p.length > 1 ? "s" : "") + " with Clevers" : "No joint paper yet")}</span>
+      ${p.pi ? `<span class="chip" data-mark>${p.hc ? "Group leader" : (p.pi === "academic_pi" ? "Leads a research group" : "Leads in industry")}</span>` : ""}
       ${p.pl ? `<span class="chip" data-mark>${p.pl === 1 ? "Long-term senior scientist" : "Long-term technician"}</span>` : ""}
     </div>
     ${p.r ? `<p class="d-role">${esc(p.r)}</p>` : ""}
     <div class="d-box">
-      <h3>Position on the axis</h3>
-      <p>${p.pl
-            ? `A Paneth cell — ${p.gf}–${p.gl} at the base, through every turnover of the rest of the tissue.`
-            : `Enters at the base in ${p.gf}, shed from the tip after ${p.gl}.`}</p>
+      <h3>${p.hc ? "Budding off him" : "Touching this cell"}</h3>
+      <p style="color:var(--muted)">The six places around ${esc(p.n.split(",")[0])} on the sheet.</p>
+      <div class="nb">${nb.map(v => `<button data-n="${esc(v.p.n)}">${esc(v.p.n.split(",")[0])}</button>`).join("")}</div>
     </div>
     ${now}
     <div class="d-papers">
-      <h3>Papers with Clevers</h3>
+      <h3>${p.hc ? "Every paper in the set" : "Papers with Clevers"}</h3>
+      ${papers.length ? "" : `<p style="color:var(--muted);font-size:.83rem">Listed by the institute as a member of the group, but not yet on a paper with Clevers indexed in PubMed.</p>`}
       ${papers.map(a => `
         <div class="paper">
           <time>${a[0]}</time>
@@ -817,6 +1337,16 @@ function open(c) {
 }
 function close() { picked = null; detail.removeAttribute("data-open"); }
 document.getElementById("close").addEventListener("click", close);
+arrivalsEl.addEventListener("click", e => {
+  const li = e.target.closest("li"); if (!li) return;
+  const c = cells.find(v => v.p.n === li.dataset.n);
+  if (c) { stop(); open(c); }
+});
+detailBody.addEventListener("click", e => {
+  const b = e.target.closest(".nb button"); if (!b) return;
+  const c = cells.find(v => v.p.n === b.dataset.n);
+  if (c) open(c);
+});
 
 /* ---------- search ---------- */
 const q = document.getElementById("q");
@@ -824,32 +1354,33 @@ const hits = document.getElementById("hits");
 q.addEventListener("input", () => {
   const t = q.value.trim().toLowerCase();
   if (!t) { filter = null; hits.innerHTML = ""; return; }
-  const found = cellsAll.filter(c => c.p.n.toLowerCase().includes(t))
-                        .sort((a, b) => b.n - a.n).slice(0, 12);
+  const found = cells.filter(c => c.p.n.toLowerCase().includes(t))
+                     .sort((a, b) => b.n - a.n).slice(0, 12);
   filter = new Set(found.map(c => c.p.n));
   hits.innerHTML = found.map(c =>
     `<li tabindex="0" data-n="${esc(c.p.n)}">${esc(c.p.n)}<span>${c.n}</span></li>`).join("");
 });
 function pick(li) {
-  const c = cellsAll.find(v => v.p.n === li.dataset.n);
+  const c = cells.find(v => v.p.n === li.dataset.n);
   if (c) { stop(); open(c); }
 }
 hits.addEventListener("click", e => { const li = e.target.closest("li"); if (li) pick(li); });
-hits.addEventListener("keydown", e => {
-  if (e.key === "Enter") { const li = e.target.closest("li"); if (li) pick(li); }
-});
+hits.addEventListener("keydown", e => { if (e.key === "Enter") { const li = e.target.closest("li"); if (li) pick(li); } });
 
 addEventListener("keydown", e => {
   if (e.target.tagName === "INPUT") {
     if (e.key === "Escape") { q.value = ""; filter = null; hits.innerHTML = ""; q.blur(); }
     return;
   }
-  if (e.key === "ArrowRight") { stop(); setYear(year + 1); e.preventDefault(); }
-  if (e.key === "ArrowLeft") { stop(); setYear(year - 1); e.preventDefault(); }
+  if (e.key === "ArrowRight") { stop(); setTick(tick + 1); e.preventDefault(); }
+  if (e.key === "ArrowLeft") { stop(); setTick(tick - 1); e.preventDefault(); }
   if (e.key === " ") { playing() ? stop() : play(); e.preventDefault(); }
   if (e.key === "Escape") close();
 });
 
-setYear(Y1);
+buildRoll();
+slider.max = TICKS.length - 1;
+setTick(TICKS.length - 1, true);
+ease = 0; fromF = 1; geomDirty = true;          // open on the finished organoid
 requestAnimationFrame(draw);
 </script>
