@@ -226,11 +226,12 @@ h1 em { font-style: normal; color: var(--verd); }
 .arrivals ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .08rem; }
 .arrivals ul.pin { flex: none; padding-bottom: .5rem; border-bottom: 1px solid var(--rule); }
 .arrivals ul.roll {
-  /* a window, not a scroller: names stack from the top and the oldest falls off
-     the bottom once it is full */
+  /* a window, not a scroller. The list is anchored to the foot, so names fill
+     downward while there is room and then everybody moves up, the oldest
+     leaving off the top and the newest arriving at the bottom. */
   flex: 1 1 auto; overflow: hidden;
-  -webkit-mask-image: linear-gradient(180deg, #000 88%, transparent 100%);
-  mask-image: linear-gradient(180deg, #000 88%, transparent 100%);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 12%);
+  mask-image: linear-gradient(180deg, transparent 0, #000 12%);
 }
 .arrivals li {
   display: grid; grid-template-columns: 1.9rem 1fr; column-gap: .45rem;
@@ -936,15 +937,15 @@ function buildRoll() {
   for (const c of cells) (PINNED.includes(key(c.p.n)) ? pins : rest).push(c);
   pins.sort((a, b) => PINNED.indexOf(key(a.p.n)) - PINNED.indexOf(key(b.p.n)));
   // newest first: the roll grows downward from the top as the years run
-  rest.sort((a, b) => b.at - a.at || b.n - a.n);   // Clevers is at -99, so he sits at the foot
+  rest.sort((a, b) => a.at - b.at || a.n - b.n);   // Clevers is at -99, so he opens it
   const row = c =>
     `<li data-n="${esc(c.p.n)}"><b>${esc(initials(c.p.n))}</b>` +
     `<span>${esc(fullName(c.p.n))}</span>` +
     `<em>${c.p.hc ? "Group leader" : c.p.e === 2 ? "Máxima" : c.p.e === 0 ? "Utrecht" : "Hubrecht"} ` +
     `<i>${c.p.gf}–${c.p.gl}</i></em></li>`;
   arrivalsEl.innerHTML =
-    `<h2>The core</h2><ul class="pin">${pins.map(row).join("")}</ul>` +
-    `<h2 id="roll-head">Joined</h2><ul class="roll">${rest.map(row).join("")}</ul>`;
+    `<h2>Core</h2><ul class="pin">${pins.map(row).join("")}</ul>` +
+    `<h2>Joined</h2><ul class="roll">${rest.map(row).join("")}</ul>`;
   const nodes = arrivalsEl.querySelectorAll(".roll li");
   rest.forEach((c, i) => rollRows.push({ c, el: nodes[i] }));
   arrivalsEl.querySelectorAll(".pin li").forEach((el, i) => rollRows.push({ c: pins[i], el, pin: true }));
@@ -962,7 +963,7 @@ function paintRoll() {
     if (r.pin) r.el.toggleAttribute("data-waiting", !here);
   }
   const roll = arrivalsEl.querySelector(".roll");
-  if (roll) roll.scrollTop = 0;
+  if (roll) roll.scrollTop = roll.scrollHeight;
 }
 
 function draw() {
@@ -987,17 +988,12 @@ function draw() {
       const ux = isNew ? L.x[i] : P.x[i] + (L.x[i] - P.x[i]) * at;
       const uy = isNew ? L.y[i] : P.y[i] + (L.y[i] - P.y[i]) * at;
       c.x = cx + ux * U; c.y = cy + uy * U;
-      let r = isNew ? L.r[i] : P.r[i] + (L.r[i] - P.r[i]) * at;
-      if (isNew) {
-        // each one grows in over its own slice of the year, so they come up one
-        // after another rather than together
-        const slot = 1 / Math.max(1, c.bn);
-        const g = (at - (c.bi + 0.5) * slot) / (slot * 0.7);
-        c.grow = Math.max(0, Math.min(1, g + 1));
-        r *= 0.15 + 0.85 * c.grow;
-      } else c.grow = 1;
-      c.rad = r * U;
-      c.poly = c.p.gf > T.y ? null : c;
+      // no swelling in: a cell appears at its full size, at its own place, when
+      // its turn comes. Scaling it up moved its outline against its neighbours'
+      // and read as drift.
+      c.grow = isNew && at < (c.bi + 0.5) / Math.max(1, c.bn) ? 0 : 1;
+      c.rad = (isNew ? L.r[i] : P.r[i] + (L.r[i] - P.r[i]) * at) * U;
+      c.poly = (c.p.gf > T.y || !c.grow) ? null : cellPolygon(c);
     }
     if (ease > 0) ease--; else { geomDirty = false; fromF = T.f; }
   }
