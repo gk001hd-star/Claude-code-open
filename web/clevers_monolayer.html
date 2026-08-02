@@ -293,9 +293,9 @@ h1 em { font-style: normal; color: var(--verd); }
       </button>
       <span class="yr" id="year">2026</span>
       <span class="phase" id="phase"></span>
-      <span class="hint">play, scroll or ← → to grow the organoid</span>
+      <span class="hint">play, scroll or ← → to step the organoid on</span>
     </div>
-    <input type="range" id="slider" min="1990" max="2026" step="1" value="2026" aria-label="Year">
+    <input type="range" id="slider" min="0" max="0" step="1" value="0" aria-label="Year">
   </div>
 </div>
 
@@ -498,10 +498,7 @@ function grow() {
             for (const [dq, dr] of DIRS) {
               const q = s.q + dq, r = s.r + dr;
               if (taken.has(hkey(q, r))) continue;
-              // compact around the patch but growing away from the middle, so
-              // an intake swells into a bud on the rim instead of spreading
-              // along it
-              const k = hdist(q - cq, r - cr) * 2 - hdist(q, r) * 0.34
+              const k = hdist(q - cq, r - cr) * 2 + hdist(q, r) * 0.22
                       + outsideWedge(q, r, site) * 9 + wobble(q, r);
               if (k < bestKey) { bestKey = k; best = { q, r, from: s }; }
             }
@@ -584,6 +581,21 @@ for (const c of cells) if (!c.p.hc) ARRIVALS[Math.max(0, c.p.gf - Y0)]++;
 }
 const YSTART = 1990;    // the first year the timeline shows
 
+/* The slider stops within a year as well as between them. The largest intake
+   gets five stops, everything else scales down from that to a floor of one, so
+   a fifty-two-person year is walked through in fifths instead of landing in a
+   single move. */
+const MAXBATCH = Math.max(1, ...ARRIVALS);
+const TICKS = [];
+for (let y = YSTART; y <= Y1; y++) {
+  const parts = Math.max(1, Math.min(5, Math.round(5 * ARRIVALS[y - Y0] / MAXBATCH)));
+  for (let p = 0; p < parts; p++) TICKS.push({ y, parts, f: (p + 1) / parts });
+}
+const FIRST_TICK = new Int32Array(NY).fill(-1);
+TICKS.forEach((t, i) => { if (FIRST_TICK[t.y - Y0] < 0) FIRST_TICK[t.y - Y0] = i; });
+// a year lasts at least a second, and longer when more people joined
+const tickMs = t => Math.max(1000, t.parts * 500) / t.parts;
+
 /* ---------- the sheet ----------
    Seats on a jittered hex lattice give the topology: who sits against whom,
    fixed for good. The geometry is worked out separately for every year, so
@@ -645,27 +657,34 @@ for (let y = Y0; y <= Y1; y++) {
 
 const radiusAt = (c, y) => c.p.hc ? FOUNDER_R[y - Y0] : paperRadius(papersBy(c, y));
 
-/* ---------- one layout per cell ----------
-   Not per year: a year's intake is added one cell at a time, and the tissue is
-   re-settled after each, so fifty arrivals are fifty separate expansions rather
-   than one jump. Touching seats are held exactly one radius-sum apart; seats a
-   step further off are only pushed if they overlap. Every step starts from the
-   one before it, which is what makes the growth continuous. */
+/* ---------- one layout per year ----------
+   Touching seats are held exactly one radius-sum apart; seats a step further
+   off are only pushed if they overlap. Each year starts from the last one, so
+   the field grows continuously instead of being redrawn from scratch. */
 const HC = cells.find(c => c.p.hc) || null;
-const ORDER = (HC ? [HC] : []).concat(
-  cells.filter(c => !c.p.hc).sort((a, b) => a.p.gf - b.p.gf || a.bi - b.bi));
-const STEPS = [];                       // positions and radii after each addition
-const YEAR_END = new Int32Array(NY);    // the settled step for each year
+const LAYOUT = [];
 {
   const n = cells.length;
   const X = new Float64Array(n), Y = new Float64Array(n);
   const dx = new Float64Array(n), dy = new Float64Array(n);
   const rad = new Float64Array(n);
   const placed = new Uint8Array(n);
-  const live = [];
-  const hcI = HC ? HC.i : -1;
+  let live = [];
 
-  function settle(rounds) {
+  for (let y = Y0; y <= Y1; y++) {
+    for (const c of cells) {
+      if (placed[c.i] || c.p.gf > y) continue;
+      // a new cell starts where its seat sits relative to a neighbour already
+      // in the tissue, so it arrives attached rather than dropped in
+      const base = c.touch.find(o => placed[o.i]);
+      if (base) { X[c.i] = X[base.i] + (c.ux - base.ux); Y[c.i] = Y[base.i] + (c.uy - base.uy); }
+      else { X[c.i] = c.ux; Y[c.i] = c.uy; }
+      placed[c.i] = 1;
+      live.push(c);
+    }
+    for (const c of live) rad[c.i] = radiusAt(c, y);
+
+    const rounds = y === Y0 ? 400 : 150;
     for (let it = 0; it < rounds; it++) {
       dx.fill(0); dy.fill(0);
       for (const c of live) {
@@ -680,49 +699,22 @@ const YEAR_END = new Int32Array(NY);    // the settled step for each year
           // further off is only ever pushed away, never pulled in
           const slack = d - want;
           if (!touching && slack >= 0) continue;
-          const f = slack < 0 ? slack * 0.55 : Math.min(slack, 0.6) * 0.22;
+          const f = (slack < 0 ? slack * 0.55 : Math.min(slack, 0.6) * 0.22);
           const ux = ax / d * f, uy = ay / d * f;
           dx[c.i] += ux; dy[c.i] += uy; dx[o.i] -= ux; dy[o.i] -= uy;
         }
       }
       for (const c of live) { X[c.i] += dx[c.i]; Y[c.i] += dy[c.i]; }
-      const ax = hcI >= 0 ? X[hcI] : 0, ay = hcI >= 0 ? Y[hcI] : 0;
-      for (const c of live) { X[c.i] -= ax; Y[c.i] -= ay; }
+      const hcI = HC ? HC.i : live[0].i;
+      const mx = X[hcI], my = Y[hcI];
+      for (const c of live) { X[c.i] -= mx; Y[c.i] -= my; }
     }
+    LAYOUT.push({ x: Float64Array.from(X), y: Float64Array.from(Y), r: Float64Array.from(rad) });
   }
-  function snap(y) {
-    STEPS.push({ x: Float64Array.from(X), y: Float64Array.from(Y),
-                 r: Float64Array.from(rad), y0: y });
-    return STEPS.length - 1;
-  }
-
-  let k = 0;
-  for (let y = Y0; y <= Y1; y++) {
-    // everyone's radius for this year first: a paper published in it widens a
-    // cell whether or not anybody new arrived
-    for (const c of live) rad[c.i] = radiusAt(c, y);
-    if (live.length) settle(14);
-
-    while (k < ORDER.length && (ORDER[k].p.hc ? Y0 : ORDER[k].p.gf) === y) {
-      const c = ORDER[k++];
-      // a new cell starts where its seat sits relative to a neighbour already
-      // in the tissue, so it arrives attached rather than dropped in
-      const base = c.touch.find(o => placed[o.i]);
-      if (base) { X[c.i] = X[base.i] + (c.ux - base.ux); Y[c.i] = Y[base.i] + (c.uy - base.uy); }
-      else { X[c.i] = c.ux; Y[c.i] = c.uy; }
-      placed[c.i] = 1; live.push(c);
-      rad[c.i] = radiusAt(c, y);
-      settle(live.length < 12 ? 60 : 16);
-      c.step = snap(y);
-    }
-    settle(live.length ? 34 : 0);
-    YEAR_END[y - Y0] = snap(y);
-  }
-  if (HC) HC.step = 0;
 }
 
 let year = Y1, W = 0, H = 0, cx = 0, cy = 0, U = 20, geomDirty = true;
-let ease = 0, stepFrom = 0;        // frames of expansion left, and the step it began at
+let ease = 0, fromF = 1, tick = 0;  // frames left, the fraction it began at, the stop
 let reveal = 1;                    // how far through this year's intake we are
 const FOUNDER = cells.find(c => c.p.hc) || null;
 let S = 12;                        // nominal cell size, for type and label sizing
@@ -732,7 +724,7 @@ const FIT = (() => {
   // the founder sits at the origin, so the frame is the half-width and
   // half-height he has to be the middle of — a single circumscribed radius
   // wasted most of the canvas on a tissue that is wider than it is tall
-  const L = STEPS[STEPS.length - 1];
+  const L = LAYOUT[LAYOUT.length - 1];
   let hx = 0, hy = 0;
   for (const c of cells) {
     hx = Math.max(hx, Math.abs(L.x[c.i]) + L.r[c.i]);
@@ -872,73 +864,28 @@ function inside(poly, mx, my) {
 }
 
 let easeTotal = 22;
-/* The organoid's own outline. An edge belongs to it when nothing sits on the
-   other side — the test is whether any visible neighbour is nearer that edge's
-   midpoint than this cell is. Drawn heavy, it gives the body and each bud the
-   dark rim they have under phase contrast. */
-let OUTLINE = [];
-function buildOutline() {
-  const out = [];
-  const tol = 0.05 * U;
-  for (const c of cells) {
-    const P = c.body;
-    if (!P || P.length < 6) continue;
-    const n = P.length / 2;
-    for (let i = 0; i < n; i++) {
-      const j = (i + 1) % n;
-      const ax = P[i * 2], ay = P[i * 2 + 1], bx = P[j * 2], by = P[j * 2 + 1];
-      const mx = (ax + bx) / 2, my = (ay + by) / 2;
-      const d = Math.hypot(mx - c.x, my - c.y);
-      let free = true;
-      for (const o of c.nb) {
-        if (!o.body) continue;
-        if (Math.hypot(mx - o.x, my - o.y) < d + tol) { free = false; break; }
-      }
-      if (free) out.push(ax, ay, bx, by);
-    }
-  }
-  OUTLINE = out;
-}
-
 function draw() {
   ctx.clearRect(0, 0, W, H);
 
-  // Where we are in the sequence of additions. Idle, that is exactly the
-  // settled step for the year; mid-transition it runs through every cell that
-  // joined, one at a time.
-  const target = YEAR_END[year - Y0];
+  const T = TICKS[tick];
+  const L = LAYOUT[T.y - Y0], P = LAYOUT[T.y - 1 - Y0] || L;
   if (ease > 0 || geomDirty) {
+    // the field slides from the previous year's shape toward this one and then
+    // stops. Within a year it only travels as far as this stop, so a big intake
+    // arrives in fifths and the tissue expands with each of them.
     const k = ease > 0 ? 1 - ease / easeTotal : 1;
     const e = k < 1 ? k * k * (3 - 2 * k) : 1;
-    const p = stepFrom + (target - stepFrom) * e;
-    const k0 = Math.max(0, Math.min(STEPS.length - 1, Math.floor(p)));
-    const k1 = Math.min(STEPS.length - 1, k0 + 1);
-    const f = Math.max(0, Math.min(1, p - k0));
-    const A = STEPS[k0], B = STEPS[k1];
-    reveal = p;
+    const at = fromF + (T.f - fromF) * e;
+    reveal = at;
     for (const c of cells) {
       const i = c.i;
-      if (c.step === undefined || c.step > k1) { c.poly = null; c.body = null; continue; }
-      if (c.step === k1 && k1 !== k0) {
-        // the cell being added right now: it appears where it belongs and
-        // swells into place rather than sliding in from somewhere else
-        c.x = cx + B.x[i] * U; c.y = cy + B.y[i] * U;
-        c.rad = B.r[i] * U * (0.25 + 0.75 * f);
-      } else {
-        c.x = cx + (A.x[i] + (B.x[i] - A.x[i]) * f) * U;
-        c.y = cy + (A.y[i] + (B.y[i] - A.y[i]) * f) * U;
-        c.rad = (A.r[i] + (B.r[i] - A.r[i]) * f) * U;
-      }
+      c.x = cx + (P.x[i] + (L.x[i] - P.x[i]) * at) * U;
+      c.y = cy + (P.y[i] + (L.y[i] - P.y[i]) * at) * U;
+      c.rad = (P.r[i] + (L.r[i] - P.r[i]) * at) * U;
+      c.poly = c.p.gf > T.y ? null : c;
     }
-    const gap0 = Math.max(0.35, S * 0.022);
-    const shrinkK = 1 - gap0 / Math.max(6, SP() * 0.5);
-    for (const c of cells) {
-      if (c.poly === null) { c.body = null; continue; }
-      c.poly = cellPolygon(c);
-      c.body = c.poly.length >= 6 ? shrink(c.poly, c.x, c.y, shrinkK) : null;
-    }
-    buildOutline();
-    if (ease > 0) ease--; else { geomDirty = false; stepFrom = target; }
+    for (const c of cells) c.poly = c.poly === null ? null : cellPolygon(c);
+    if (ease > 0) ease--; else { geomDirty = false; fromF = T.f; }
   }
 
   let here = 0;
@@ -946,14 +893,14 @@ function draw() {
 
   for (const c of cells) {
     if (!c.poly || c.poly.length < 6) continue;
+    if (c.p.gf === year && reveal < (c.bi + 0.5) / c.bn) continue;
     const inLab = year <= c.p.gl;
     const dim = filter && !filter.has(c.p.n);
     const strong = c === hover || c === picked;
     const fresh = c.p.gf === year;
     if (inLab && !c.p.hc) here++;
 
-    const body = c.body;
-    if (!body) continue;
+    const body = shrink(c.poly, c.x, c.y, 1 - gap / Math.max(6, SP() * 0.5));
 
     // cytoplasm wash, then membrane. People who have left keep their colour at a
     // whisper — the sheet is the record of everyone who was ever in it
@@ -1015,61 +962,89 @@ function draw() {
     ctx.globalAlpha = 1;
   }
 
-  // the organoid's own outline, laid down before the names
-  ctx.save();
-  ctx.lineJoin = "round"; ctx.lineCap = "round";
-  ctx.strokeStyle = INK; ctx.lineWidth = Math.max(1.6, U * 0.1);
-  ctx.globalAlpha = 0.5;
-  ctx.beginPath();
-  for (let i = 0; i < OUTLINE.length; i += 4) {
-    ctx.moveTo(OUTLINE[i], OUTLINE[i + 1]);
-    ctx.lineTo(OUTLINE[i + 2], OUTLINE[i + 3]);
-  }
-  ctx.stroke();
-  ctx.restore();
+  /* Names. Everyone who has just arrived is named in full for two years and
+     then fades out; the permanent core and whoever is being pointed at keep
+     their surname. Boxes are claimed in that order, so a new arrival's name is
+     never dropped in favour of a label that will still be there next year. */
+  ctx.textAlign = "center"; ctx.textBaseline = "middle";
+  const boxes = [];
+  const claim = (x, y, w, h) => {
+    for (const b of boxes)
+      if (!(x + w / 2 < b.x - b.w / 2 || b.x + b.w / 2 < x - w / 2 ||
+            y + h / 2 < b.y - b.h / 2 || b.y + b.h / 2 < y - h / 2)) return false;
+    boxes.push({ x, y, w, h });
+    return true;
+  };
 
-  // names, where a cell is wide enough to hold one
+  const arrivals = cells.filter(c => c.poly && !c.p.hc && year - c.p.gf >= 0 && year - c.p.gf < 2
+                                     && !(filter && !filter.has(c.p.n)))
+                        .sort((a, b) => (a.p.gf - b.p.gf) || b.n - a.n);
+  ctx.font = Math.max(9, Math.min(12, S * 0.5)) + "px " + getComputedStyle(document.body).fontFamily;
+  for (const c of arrivals) {
+    if (c.p.gf === year && reveal < (c.bi + 0.5) / c.bn) continue;
+    const t2 = fullName(c.p.n);
+    const w = ctx.measureText(t2).width;
+    const y = c.y + c.rad + 8;
+    if (!claim(c.x, y, w + 8, 14)) continue;
+    // a whole year at full strength, then half, then gone
+    ctx.globalAlpha = year === c.p.gf ? 0.95 : 0.42;
+    ctx.fillStyle = PAPER;
+    ctx.fillRect(c.x - w / 2 - 3, y - 7, w + 6, 14);
+    ctx.globalAlpha = year === c.p.gf ? 1 : 0.5;
+    ctx.fillStyle = INK;
+    ctx.fillText(t2, c.x, y);
+    ctx.globalAlpha = 1;
+  }
+
   if (S > 11) {
     ctx.font = Math.max(8, Math.min(11, S * 0.5)) + "px " + getComputedStyle(document.body).fontFamily;
-    ctx.textAlign = "center"; ctx.textBaseline = "middle";
     for (const c of cells) {
-      if (c.p.gf > year) continue;
+      if (!c.poly) continue;
       if (filter && !filter.has(c.p.n)) continue;
       const strong = c === hover || c === picked || c.pillar || c.p.hc;
       if (!strong && !(c.n >= 30 && year <= c.p.gl)) continue;
+      if (year - c.p.gf >= 0 && year - c.p.gf < 2 && !strong) continue;
       const t2 = c.p.hc ? "Hans Clevers" : c.p.n.split(",")[0].trim();
-      if (!c.poly) continue;
-      if (ctx.measureText(t2).width > S * 2.6 && !strong) continue;
+      const w = ctx.measureText(t2).width;
+      const y = c.y + c.rad + 7;
+      if (!claim(c.x, y, w + 6, 13)) continue;
       ctx.fillStyle = strong ? INK : MUTED;
       ctx.globalAlpha = strong ? 0.95 : 0.55;
-      ctx.fillText(t2, c.x, c.y + S * 0.66);
+      ctx.fillText(t2, c.x, y);
       ctx.globalAlpha = 1;
     }
-    ctx.textBaseline = "alphabetic";
   }
+  ctx.textBaseline = "alphabetic"; ctx.textAlign = "left";
 
   document.getElementById("c-cells").textContent = here;
   requestAnimationFrame(draw);
 }
 
-function setYear(y) {
-  const was = year;
-  year = Math.max(YSTART, Math.min(Y1, Math.round(y)));
-  slider.value = year;
-  yearEl.textContent = year;
-  phaseEl.textContent = PHASE.find(p => year <= p.to).tag;
-  if (was !== year) {
-    stepFrom = YEAR_END[was - Y0];
-    // long enough to see each addition land: a few frames per cell, so a
-    // fifty-person intake takes proportionately longer than a two-person one
-    const steps = Math.abs(YEAR_END[year - Y0] - stepFrom);
-    easeTotal = Math.min(150, 12 + steps * 2.2);
-    ease = reduced ? 0 : Math.round(easeTotal);
+function setTick(i, instant) {
+  const was = tick;
+  tick = Math.max(0, Math.min(TICKS.length - 1, Math.round(i)));
+  const T = TICKS[tick];
+  slider.value = tick;
+  year = T.y;
+  yearEl.textContent = T.y;
+  phaseEl.textContent = PHASE.find(p => T.y <= p.to).tag;
+  if (was !== tick) {
+    const W0 = TICKS[was];
+    // where the field was: the same year means carry on from this stop, a
+    // different year means start from that year's finished shape
+    fromF = W0.y === T.y ? W0.f : (W0.y < T.y ? 0 : 1);
+    easeTotal = Math.max(10, Math.round(tickMs(T) / 16.7));
+    ease = reduced || instant ? 0 : easeTotal;
+    if (!ease) fromF = T.f;
     geomDirty = true;
   }
-  geomDirty = true;
-  document.getElementById("c-div").textContent = ARRIVALS[year - Y0];
-  document.getElementById("c-papers").textContent = CUM[year - Y0];
+  document.getElementById("c-div").textContent = ARRIVALS[T.y - Y0];
+  document.getElementById("c-papers").textContent = CUM[T.y - Y0];
+}
+function setYear(y, instant) {
+  const yy = Math.max(YSTART, Math.min(Y1, Math.round(y)));
+  // stepping by year lands on that year's last stop, so its whole intake is in
+  setTick(yy === year ? tick : (FIRST_TICK[yy - Y0] + TICKS[FIRST_TICK[yy - Y0]].parts - 1), instant);
 }
 
 /* ---------- interaction ---------- */
@@ -1079,6 +1054,7 @@ function hit(mx, my) {
   let best = null, bd = Infinity;
   for (const c of cells) {
     if (!c.poly || c.poly.length < 6) continue;
+    if (c.p.gf === year && reveal < (c.bi + 0.5) / c.bn) continue;
     if (filter && !filter.has(c.p.n)) continue;
     if (inside(c.poly, mx, my)) return c;
     const d = (mx - c.x) ** 2 + (my - c.y) ** 2;
@@ -1111,10 +1087,10 @@ cv.addEventListener("wheel", e => {
   e.preventDefault(); stop();
   wheelAcc += e.deltaY;
   const step = Math.trunc(wheelAcc / 40);
-  if (step) { wheelAcc -= step * 40; setYear(year + step); }
+  if (step) { wheelAcc -= step * 40; setTick(tick + step); }
 }, { passive: false });
 
-slider.addEventListener("input", () => { stop(); setYear(+slider.value); });
+slider.addEventListener("input", () => { stop(); setTick(+slider.value); });
 
 /* ---------- play ---------- */
 let timer = null;
@@ -1124,22 +1100,37 @@ const playIcon = document.getElementById("play-icon");
 function playing() { return timer !== null; }
 function stop() {
   if (!timer) return;
-  clearInterval(timer); timer = null;
+  clearTimeout(timer); timer = null;
   playIcon.setAttribute("d", PLAY_D);
   playBtn.setAttribute("aria-pressed", "false");
   playBtn.setAttribute("aria-label", "Play through time");
 }
 function play() {
   if (timer) return;
-  if (year >= Y1) setYear(YSTART);
+  if (tick >= TICKS.length - 1) setTick(0, true);
   playIcon.setAttribute("d", PAUSE_D);
   playBtn.setAttribute("aria-pressed", "true");
   playBtn.setAttribute("aria-label", "Pause");
-  timer = setInterval(() => { if (year >= Y1) { stop(); return; } setYear(year + 1); }, 400);
+  // each stop holds for its own share of the year, so a year never goes by in
+  // under a second however few people joined it
+  const beat = () => {
+    if (tick >= TICKS.length - 1) { stop(); return; }
+    setTick(tick + 1);
+    timer = setTimeout(beat, tickMs(TICKS[tick]));
+  };
+  timer = setTimeout(beat, tickMs(TICKS[tick]));
 }
 playBtn.addEventListener("click", () => (playing() ? stop() : play()));
 
 /* ---------- detail ---------- */
+/* "Puschhof, Jens" -> "Jens Puschhof", trimmed of trailing initials */
+function fullName(n) {
+  const [last, first] = n.split(",").map(v => (v || "").trim());
+  if (!first) return last;
+  const given = first.split(/\s+/).filter(w => w.length > 1)[0] || first;
+  return given + " " + last;
+}
+
 function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
 
 function open(c) {
@@ -1224,13 +1215,14 @@ addEventListener("keydown", e => {
     if (e.key === "Escape") { q.value = ""; filter = null; hits.innerHTML = ""; q.blur(); }
     return;
   }
-  if (e.key === "ArrowRight") { stop(); setYear(year + 1); e.preventDefault(); }
-  if (e.key === "ArrowLeft") { stop(); setYear(year - 1); e.preventDefault(); }
+  if (e.key === "ArrowRight") { stop(); setTick(tick + 1); e.preventDefault(); }
+  if (e.key === "ArrowLeft") { stop(); setTick(tick - 1); e.preventDefault(); }
   if (e.key === " ") { playing() ? stop() : play(); e.preventDefault(); }
   if (e.key === "Escape") close();
 });
 
-setYear(Y1);
-ease = 0; stepFrom = YEAR_END[Y1 - Y0]; geomDirty = true;   // open on the finished organoid
+slider.max = TICKS.length - 1;
+setTick(TICKS.length - 1, true);
+ease = 0; fromF = 1; geomDirty = true;          // open on the finished organoid
 requestAnimationFrame(draw);
 </script>
