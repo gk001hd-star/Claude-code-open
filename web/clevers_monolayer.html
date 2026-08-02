@@ -503,7 +503,7 @@ for (const c of cells) {
   for (let k = 1; k < NY; k++) run[k] += run[k - 1];
   c.byYear = run;
 }
-const maxSoFar = Math.max(...cells.map(c => c.byYear[NY - 1]));
+const maxSoFar = Math.max(...cells.filter(c => !c.p.hc).map(c => c.byYear[NY - 1]));
 
 const CUM = [];
 for (let y = Y0, run = 0, k = 0; y <= Y1; y++) {
@@ -545,16 +545,34 @@ for (const c of cells) {
   }
 }
 
-const NROOT = Math.sqrt(Math.max(1, maxSoFar));
-const R_MIN = 0.50, R_SPAN = 0.62;   // cell radius, from no papers to the most
-// A radius only ever grows, because a paper count only ever grows. That is what
-// keeps a quiet cell exactly the size it was while the busy one beside it
-// expands: the field gets bigger rather than the neighbour smaller.
-// The floor is one publication, not none: someone in the lab who has not yet
-// appeared on a paper still takes a cell the size of a first paper.
-const radiusAt = (c, y) => c.p.hc
-  ? R_MIN + R_SPAN * 1.45
-  : R_MIN + R_SPAN * Math.sqrt(Math.max(1, c.byYear[Math.max(0, Math.min(NY - 1, y - Y0))])) / NROOT;
+/* Cell radius runs from one publication to the most anyone in the group has
+   published with Clevers today — 112 papers, and that is the reference the
+   whole page is scaled against. The curve is logarithmic rather than square
+   root: a first paper sits a tenth of the way up a square-root scale and a
+   seventh of the way up a log one, which is the difference between a cell that
+   reads as a member of the lab and one that reads as a speck. It costs some
+   separation at the top, where sixty papers against a hundred matters less.
+
+   A radius only ever grows, because a paper count only ever grows. That is what
+   keeps a quiet cell exactly the size it was while the busy one beside it
+   expands: the field gets bigger rather than the neighbour smaller. The floor
+   is one publication, not none, so somebody in the lab who has not yet appeared
+   on a paper still takes the cell of a first paper. */
+const LOGMAX = Math.log(1 + Math.max(1, maxSoFar));
+const R_MIN = 0.42, R_SPAN = 0.74;
+const paperRadius = n => R_MIN + R_SPAN * Math.log(1 + Math.max(1, n)) / LOGMAX;
+const papersBy = (c, y) => c.byYear[Math.max(0, Math.min(NY - 1, y - Y0))];
+
+/* Clevers is drawn the size of whoever is largest that year. All 876 papers are
+   his, and scaling him off that count made him swamp the tissue. */
+const FOUNDER_R = [];
+for (let y = Y0; y <= Y1; y++) {
+  let m = 0;
+  for (const c of cells) if (!c.p.hc && c.p.gf <= y) m = Math.max(m, paperRadius(papersBy(c, y)));
+  FOUNDER_R.push(m || paperRadius(1));
+}
+
+const radiusAt = (c, y) => c.p.hc ? FOUNDER_R[y - Y0] : paperRadius(papersBy(c, y));
 
 /* ---------- one layout per year ----------
    Touching seats are held exactly one radius-sum apart; seats a step further
@@ -805,9 +823,11 @@ function draw() {
     // Nucleus, on the same paper count as the cell. Someone who went on to run
     // their own group gets a full one, filled — it reads at a glance in a way
     // an outline ring never did, and it stays visible after they have left.
-    const base = Math.max(1.3, c.rad * (0.16 + 0.30 * (c.rad / U - R_MIN) / R_SPAN));
+    const base = Math.max(1.3, c.rad * (0.17 + 0.28 * (c.rad / U - R_MIN) / R_SPAN));
     if (inLab || c.lead) {
-      const nr = c.p.hc ? c.rad * 0.5 : (c.lead ? Math.max(base * 1.85, c.rad * 0.46) : base);
+      const nr = c.p.hc ? c.rad * 0.46
+               : c.lead ? Math.min(c.rad * 0.5, Math.max(base * 1.7, c.rad * 0.38))
+               : base;
       ctx.globalAlpha = dim ? 0.12 : (inLab ? 1 : 0.55);
       ctx.fillStyle = c.lead ? MARK : c.col;
       ctx.beginPath(); ctx.arc(c.x, c.y, nr, 0, Math.PI * 2); ctx.fill();
