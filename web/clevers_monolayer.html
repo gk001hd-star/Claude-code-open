@@ -116,6 +116,7 @@ h1 em { font-style: normal; color: var(--verd); }
   clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%); opacity: .55; }
 .key.solid i { background: var(--mark); border-radius: 50%; clip-path: none; width: .62rem; height: .62rem; }
 .key.founder i { background: color-mix(in srgb, var(--mark) 22%, transparent); box-shadow: inset 0 0 0 2px var(--mark); width: 1rem; height: 1.05rem; }
+.key.line i { background: none; clip-path: none; height: 0; width: .9rem; border-top: 1px solid var(--ink); align-self: center; }
 .key.core i { background: var(--ink); border-radius: 50%; clip-path: none; width: .5rem; height: .5rem; }
 
 .search {
@@ -234,15 +235,17 @@ h1 em { font-style: normal; color: var(--verd); }
 
   <div class="rail">
     <div>
-      <p class="eyebrow">Hubrecht · NIOB · Princess Máxima · 1985—2026</p>
+      <p class="eyebrow">Hubrecht · NIOB · Princess Máxima · 1990—2026</p>
       <h1>The Clevers <em>Alumnoid</em></h1>
       <p class="blurb">
-        Clevers is the cell in the middle; everyone else buds off one that is
-        already there, in one of three territories, one per address. Each year's
-        intake settles as a connected patch, so a neighbour is someone who shared
-        both an institute and a year. No cell ever shrinks: when someone publishes
-        again theirs grows, and the field is pushed outward to make the room — the
-        way an organoid expands rather than rearranges.
+        Clevers is the cell in the middle, and each address owns a wedge around
+        him, sized by how many people it took on. Every arrival buds off a cell
+        already there, as near the middle as there is still room; once the body is
+        solid an intake goes to the thinnest part of its own wedge. A year comes in
+        one cell at a time, and a year that took on fifty people takes
+        proportionately longer than one that took on two. No cell ever shrinks:
+        when someone publishes again theirs grows and the field is pushed outward
+        to make the room.
       </p>
     </div>
 
@@ -261,6 +264,7 @@ h1 em { font-style: normal; color: var(--verd); }
       <div class="key hollow"><i></i><span><b>Hollow</b> — no longer in the group</span></div>
       <div class="key solid"><i></i><span><b>Filled nucleus</b> — went on to lead a group</span></div>
       <div class="key founder"><i></i><span><b>The largest cell</b> — Hans Clevers, at the centre</span></div>
+      <div class="key line"><i></i><span><b>Line</b> — drawn from him to each arrival</span></div>
     </div>
 
     <div>
@@ -291,7 +295,7 @@ h1 em { font-style: normal; color: var(--verd); }
       <span class="phase" id="phase"></span>
       <span class="hint">play, scroll or ← → to grow the organoid</span>
     </div>
-    <input type="range" id="slider" min="1985" max="2026" step="1" value="2026" aria-label="Year">
+    <input type="range" id="slider" min="1990" max="2026" step="1" value="2026" aria-label="Year">
   </div>
 </div>
 
@@ -355,9 +359,37 @@ const hdist = (q, r) => (Math.abs(q) + Math.abs(q + r) + Math.abs(r)) / 2;
 const wobble = (q, r) => ((q * 73856093 ^ r * 19349663) & 7) * 0.08;
 const SEAT_OF = new Map();   // lattice seat -> the cell sitting on it
 
-// the direction each territory grows away in; the sheet stays one piece, so
-// these are headings rather than separate origins
-const HOME = [{ q: -1, r: -1 }, { q: 0, r: 0 }, { q: 1, r: 0 }];
+/* Each address owns a wedge of the organoid, sized by how many people it ends
+   up with — Hubrecht 276, Princess Máxima 134, Utrecht immunology 51. Growing
+   the territories from their own drifting centres instead left the tissue
+   lopsided and pushed Clevers off the middle; anchoring them to fixed headings
+   keeps him at the centre with the three clusters radiating out around him. */
+const WEDGE = (() => {
+  const n = [0, 0, 0];
+  for (const p of DATA.people) if (!p.hc) n[p.e]++;
+  const total = n[0] + n[1] + n[2] || 1;
+  const out = [];
+  let a = -Math.PI * 0.55;
+  // Hubrecht in the middle of the sweep, its two neighbours either side
+  for (const site of [0, 1, 2]) {
+    const w = Math.PI * 2 * n[site] / total;
+    out[site] = { a0: a, a1: a + w, mid: a + w / 2 };
+    a += w;
+  }
+  return out;
+})();
+
+const angOf = (q, r) => Math.atan2(r + q / 2, Math.sqrt(3) / 2 * q);
+/* how far outside its own wedge a seat lies, in radians — 0 when it is inside */
+function outsideWedge(q, r, site) {
+  if (!q && !r) return 0;
+  const w = WEDGE[site];
+  let a = angOf(q, r);
+  while (a < w.a0) a += Math.PI * 2;
+  while (a > w.a0 + Math.PI * 2) a -= Math.PI * 2;
+  if (a <= w.a1) return 0;
+  return Math.min(a - w.a1, w.a0 + Math.PI * 2 - a);
+}
 
 function grow() {
   const taken = new Map();
@@ -375,27 +407,61 @@ function grow() {
     byYear.get(p.gf).push(i);
   });
 
-  // running centre of each territory, so it keeps accreting around itself
-  const hub = HOME.map(h => ({ dq: h.q, dr: h.r, sq: 0, sr: 0, n: 0 }));
-  const centreOf = s => hub[s].n
-    ? { q: hub[s].sq / hub[s].n, r: hub[s].sr / hub[s].n }
-    : null;
-
-  /* Every cell after the first has to touch one that is already there — a new
-     cell budding off nothing would sit in the medium, not in the tissue. The
-     candidates are exactly the free seats with an occupied neighbour, and among
-     those the one nearest whatever this intake is being pulled toward. */
-  function freeEdgeSeat(pull) {
-    if (!taken.size) return { q: 0, r: 0 };
-    let best = null, bestKey = Infinity;
+  /* Every cell has to touch one that is already there — a cell budding off
+     nothing would sit in the medium, not in the tissue. */
+  function freeEdge() {
+    const out = [], seen = new Set();
     for (const k of taken.keys()) {
       const [q0, r0] = k.split(",").map(Number);
       for (const [dq, dr] of DIRS) {
         const q = q0 + dq, r = r0 + dr;
-        if (taken.has(hkey(q, r))) continue;
-        const key = hdist(q - pull.q, r - pull.r) + wobble(q, r);
-        if (key < bestKey) { bestKey = key; best = { q, r }; }
+        const key = hkey(q, r);
+        if (taken.has(key) || seen.has(key)) continue;
+        seen.add(key);
+        out.push([q, r]);
       }
+    }
+    return out;
+  }
+
+  const SECTORS = 16;
+  const sectorOf = (q, r) => {
+    const a = angOf(q, r) + Math.PI * 4;
+    return Math.floor(a / (Math.PI * 2 / SECTORS)) % SECTORS;
+  };
+
+  /* Where an intake goes in. It wants to be as near Clevers as it can get, so
+     anything still open inside the body of the organoid is taken first. Once
+     the middle is solid every opening is out on the rim at much the same
+     distance, and then the batch goes to whichever part of its own wedge is
+     thinnest — which is what keeps one side from running away from the other. */
+  function entrySeat(site, prefer) {
+    if (!taken.size) return { q: 0, r: 0 };
+    const cand = freeEdge();
+    let radius = 0;
+    for (const k of taken.keys()) {
+      const [q, r] = k.split(",").map(Number);
+      radius = Math.max(radius, hdist(q, r));
+    }
+    const inner = cand.filter(([q, r]) => hdist(q, r) < radius - 0.5);
+    const pool = inner.length ? inner : cand;
+    let count = null;
+    if (!inner.length) {
+      count = new Array(SECTORS).fill(0);
+      for (const [k, i] of taken) {
+        if (DATA.people[i].e !== site) continue;
+        const [q, r] = k.split(",").map(Number);
+        count[sectorOf(q, r)]++;
+      }
+    }
+    let best = null, bestKey = Infinity;
+    for (const [q, r] of pool) {
+      let key = hdist(q, r) * 0.6 + wobble(q, r) + outsideWedge(q, r, site) * 9;
+      if (count) key += count[sectorOf(q, r)] * 1.5;
+      // a first-choice neighbour still counts for something, just less than
+      // keeping the organoid round
+      if (prefer) key += hdist(q - prefer.q, r - prefer.r) * 0.22;
+      if (key < bestKey) { bestKey = key; best = { q, r }; }
     }
     return best || { q: 0, r: 0 };
   }
@@ -408,13 +474,8 @@ function grow() {
                         (DATA.people[a].n < DATA.people[b].n ? -1 : 1));
       if (!list.length) continue;
 
-      // where this territory is growing. A territory with nobody in it yet is
-      // pulled far out along its own direction, so it starts on the edge of the
-      // sheet facing its own way rather than in the middle of somebody else's.
-      const home = centreOf(site) ||
-                   { q: hub[site].dq * 40, r: hub[site].dr * 40 };
       // the intake enters beside whoever it overlaps with most, provided that
-      // person is in the same territory; otherwise at its own growth front
+      // person is in the same territory
       let anchor = null;
       for (const i of list) {
         const a = at[DATA.people[i].pa];
@@ -426,33 +487,29 @@ function grow() {
       for (const i of list) {
         let spot, budded = null;
         if (!patch.length) {
-          spot = freeEdgeSeat(anchor || home);
+          spot = entrySeat(site, anchor);
           budded = anchor;
         } else {
-          // any free hex touching the patch, kept compact and held in close to
-          // the territory it belongs to
+          // any free hex touching the patch, kept compact, held inside its own
+          // wedge and pulled gently back toward the middle
           let best = null, bestKey = Infinity;
           const cq = sq / patch.length, cr = sr / patch.length;
           for (const s of patch) {
             for (const [dq, dr] of DIRS) {
               const q = s.q + dq, r = s.r + dr;
               if (taken.has(hkey(q, r))) continue;
-              // compact, but biased away from the middle of its own territory,
-              // so an intake grows outward as a bud rather than sheeting round
-              // the body it came from
-              const k = hdist(q - cq, r - cr) * 2
-                      - hdist(q - home.q, r - home.r) * 0.42 + wobble(q, r);
+              const k = hdist(q - cq, r - cr) * 2 + hdist(q, r) * 0.22
+                      + outsideWedge(q, r, site) * 9 + wobble(q, r);
               if (k < bestKey) { bestKey = k; best = { q, r, from: s }; }
             }
           }
-          spot = best || freeEdgeSeat({ q: cq, r: cr });
+          spot = best || entrySeat(site, { q: cq, r: cr });
           budded = best ? best.from : null;
         }
         at[i] = { q: spot.q, r: spot.r };
         from[i] = budded;
         taken.set(hkey(spot.q, spot.r), i);
         patch.push(at[i]); sq += spot.q; sr += spot.r;
-        hub[site].sq += spot.q; hub[site].sr += spot.r; hub[site].n++;
       }
     }
   }
@@ -512,6 +569,17 @@ for (let y = Y0, run = 0, k = 0; y <= Y1; y++) {
 }
 const ARRIVALS = new Array(Y1 - Y0 + 1).fill(0);
 for (const c of cells) if (!c.p.hc) ARRIVALS[Math.max(0, c.p.gf - Y0)]++;
+// each arrival's place in its year's intake, so a big year comes in as a run of
+// cells rather than all at once
+{
+  const seen = new Array(Y1 - Y0 + 1).fill(0);
+  for (const c of cells) {
+    if (c.p.hc) { c.bi = 0; c.bn = 1; continue; }
+    const k = Math.max(0, c.p.gf - Y0);
+    c.bi = seen[k]++; c.bn = ARRIVALS[k] || 1;
+  }
+}
+const YSTART = 1990;    // the first year the timeline shows
 
 /* ---------- the sheet ----------
    Seats on a jittered hex lattice give the topology: who sits against whom,
@@ -569,7 +637,7 @@ const FOUNDER_R = [];
 for (let y = Y0; y <= Y1; y++) {
   let m = 0;
   for (const c of cells) if (!c.p.hc && c.p.gf <= y) m = Math.max(m, paperRadius(papersBy(c, y)));
-  FOUNDER_R.push(m || paperRadius(1));
+  FOUNDER_R.push((m || paperRadius(1)) * 1.14);
 }
 
 const radiusAt = (c, y) => c.p.hc ? FOUNDER_R[y - Y0] : paperRadius(papersBy(c, y));
@@ -578,6 +646,7 @@ const radiusAt = (c, y) => c.p.hc ? FOUNDER_R[y - Y0] : paperRadius(papersBy(c, 
    Touching seats are held exactly one radius-sum apart; seats a step further
    off are only pushed if they overlap. Each year starts from the last one, so
    the field grows continuously instead of being redrawn from scratch. */
+const HC = cells.find(c => c.p.hc) || null;
 const LAYOUT = [];
 {
   const n = cells.length;
@@ -620,9 +689,9 @@ const LAYOUT = [];
           dx[c.i] += ux; dy[c.i] += uy; dx[o.i] -= ux; dy[o.i] -= uy;
         }
       }
-      let mx = 0, my = 0;
-      for (const c of live) { X[c.i] += dx[c.i]; Y[c.i] += dy[c.i]; mx += X[c.i]; my += Y[c.i]; }
-      mx /= live.length; my /= live.length;
+      for (const c of live) { X[c.i] += dx[c.i]; Y[c.i] += dy[c.i]; }
+      const hcI = HC ? HC.i : live[0].i;
+      const mx = X[hcI], my = Y[hcI];
       for (const c of live) { X[c.i] -= mx; Y[c.i] -= my; }
     }
     LAYOUT.push({ x: Float64Array.from(X), y: Float64Array.from(Y), r: Float64Array.from(rad) });
@@ -631,17 +700,22 @@ const LAYOUT = [];
 
 let year = Y1, W = 0, H = 0, cx = 0, cy = 0, U = 20, geomDirty = true;
 let ease = 0, easeFrom = null;     // frames of expansion left, and where from
+let reveal = 1;                    // how far through this year's intake we are
+const FOUNDER = cells.find(c => c.p.hc) || null;
 let S = 12;                        // nominal cell size, for type and label sizing
 let hover = null, picked = null, filter = null;
 
 const FIT = (() => {
+  // the founder sits at the origin, so the frame is the half-width and
+  // half-height he has to be the middle of — a single circumscribed radius
+  // wasted most of the canvas on a tissue that is wider than it is tall
   const L = LAYOUT[LAYOUT.length - 1];
-  let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
+  let hx = 0, hy = 0;
   for (const c of cells) {
-    x0 = Math.min(x0, L.x[c.i] - L.r[c.i]); x1 = Math.max(x1, L.x[c.i] + L.r[c.i]);
-    y0 = Math.min(y0, L.y[c.i] - L.r[c.i]); y1 = Math.max(y1, L.y[c.i] + L.r[c.i]);
+    hx = Math.max(hx, Math.abs(L.x[c.i]) + L.r[c.i]);
+    hy = Math.max(hy, Math.abs(L.y[c.i]) + L.r[c.i]);
   }
-  return { x0, x1, y0, y1 };
+  return { hx, hy };
 })();
 
 function resize() {
@@ -655,10 +729,9 @@ function resize() {
   const availW = W - railW - 56, availH = H - railH - 150;
   // framed for the finished organoid, and held there: the scale never changes,
   // so a cell that is not growing keeps exactly the same area on screen
-  U = Math.max(4, Math.min(60, Math.min(availW / (FIT.x1 - FIT.x0),
-                                        availH / (FIT.y1 - FIT.y0))));
-  cx = railW + (W - railW) / 2 - U * (FIT.x0 + FIT.x1) / 2;
-  cy = railH + (H - railH - 104) / 2 - U * (FIT.y0 + FIT.y1) / 2;
+  U = Math.max(4, Math.min(60, Math.min(availW / (2 * FIT.hx), availH / (2 * FIT.hy))));
+  cx = railW + (W - railW) / 2;
+  cy = railH + (H - railH - 104) / 2;
   S = U * 0.58;
   geomDirty = true;
 }
@@ -775,16 +848,18 @@ function inside(poly, mx, my) {
   return hit;
 }
 
-const EASE_FRAMES = 22;
+let easeTotal = 22;
 function draw() {
   ctx.clearRect(0, 0, W, H);
 
   const L = LAYOUT[year - Y0];
   if (ease > 0 || geomDirty) {
-    // the field slides from the previous year's shape to this one over about a
-    // third of a second, and then stops: the only motion on the page
-    const k = ease > 0 ? 1 - ease / EASE_FRAMES : 1;
+    // the field slides from the previous year's shape to this one and then
+    // stops. A year that took on fifty people takes proportionately longer than
+    // one that took on two, and its arrivals appear in turn rather than at once.
+    const k = ease > 0 ? 1 - ease / easeTotal : 1;
     const e = k < 1 ? k * k * (3 - 2 * k) : 1;
+    reveal = e;
     for (const c of cells) {
       const f = easeFrom;
       const ux = f && e < 1 ? f.x[c.i] + (L.x[c.i] - f.x[c.i]) * e : L.x[c.i];
@@ -801,6 +876,7 @@ function draw() {
 
   for (const c of cells) {
     if (!c.poly || c.poly.length < 6) continue;
+    if (c.p.gf === year && reveal < (c.bi + 0.5) / c.bn) continue;
     const inLab = year <= c.p.gl;
     const dim = filter && !filter.has(c.p.n);
     const strong = c === hover || c === picked;
@@ -836,6 +912,14 @@ function draw() {
         ctx.fillStyle = PAPER; ctx.globalAlpha = dim ? 0.12 : 0.85;
         ctx.beginPath(); ctx.arc(c.x, c.y, nr * 0.38, 0, Math.PI * 2); ctx.fill();
       }
+      ctx.globalAlpha = 1;
+    }
+
+    // as each arrival appears, a line back to the founder
+    if (fresh && !dim && FOUNDER) {
+      ctx.globalAlpha = 0.28;
+      ctx.strokeStyle = INK; ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(FOUNDER.x, FOUNDER.y); ctx.lineTo(c.x, c.y); ctx.stroke();
       ctx.globalAlpha = 1;
     }
 
@@ -887,12 +971,18 @@ function draw() {
 
 function setYear(y) {
   const was = year;
-  year = Math.max(Y0, Math.min(Y1, Math.round(y)));
+  year = Math.max(YSTART, Math.min(Y1, Math.round(y)));
   slider.value = year;
   yearEl.textContent = year;
   phaseEl.textContent = PHASE.find(p => year <= p.to).tag;
-  easeFrom = was === year ? easeFrom : LAYOUT[was - Y0];
-  ease = was === year ? ease : (reduced ? 0 : EASE_FRAMES);
+  if (was !== year) {
+    easeFrom = LAYOUT[was - Y0];
+    // 14 frames plus one for every three people joining, so a fifty-person
+    // intake reads as a wave rather than a jump
+    easeTotal = Math.min(96, 14 + Math.round(ARRIVALS[year - Y0] / 1.6));
+    ease = reduced ? 0 : easeTotal;
+    reveal = reduced ? 1 : 0;
+  }
   geomDirty = true;
   document.getElementById("c-div").textContent = ARRIVALS[year - Y0];
   document.getElementById("c-papers").textContent = CUM[year - Y0];
@@ -905,6 +995,7 @@ function hit(mx, my) {
   let best = null, bd = Infinity;
   for (const c of cells) {
     if (!c.poly || c.poly.length < 6) continue;
+    if (c.p.gf === year && reveal < (c.bi + 0.5) / c.bn) continue;
     if (filter && !filter.has(c.p.n)) continue;
     if (inside(c.poly, mx, my)) return c;
     const d = (mx - c.x) ** 2 + (my - c.y) ** 2;
@@ -957,7 +1048,7 @@ function stop() {
 }
 function play() {
   if (timer) return;
-  if (year >= Y1) setYear(Y0);
+  if (year >= Y1) setYear(YSTART);
   playIcon.setAttribute("d", PAUSE_D);
   playBtn.setAttribute("aria-pressed", "true");
   playBtn.setAttribute("aria-label", "Pause");
