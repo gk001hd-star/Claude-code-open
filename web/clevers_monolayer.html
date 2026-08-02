@@ -239,7 +239,9 @@ h1 em { font-style: normal; color: var(--verd); }
         A sheet that grows one intake at a time. Each year's arrivals settle as a
         single connected patch, entering the tissue beside whoever that year had
         already published with most. So a year reads as one piece of tissue, and
-        people who were in the lab together are never drawn far apart.
+        people who were in the lab together are never drawn far apart. A cell
+        takes more of the sheet every time its occupant publishes with Clevers
+        again — the ones who keep going crowd their neighbours out.
       </p>
     </div>
 
@@ -254,7 +256,7 @@ h1 em { font-style: normal; color: var(--verd); }
       <div class="key"><i style="background:var(--plum)"></i><span><b>Plum</b> — Dept of Immunology</span></div>
       <div class="key"><i style="background:var(--verd)"></i><span><b>Verdigris</b> — Hubrecht / NIOB</span></div>
       <div class="key"><i style="background:var(--ochre)"></i><span><b>Ochre</b> — Princess Máxima</span></div>
-      <div class="key core" style="margin-top:.35rem"><i></i><span><b>Nucleus</b> — scales with joint papers</span></div>
+      <div class="key core" style="margin-top:.35rem"><i></i><span><b>Cell area</b> — one more paper, one step wider</span></div>
       <div class="key hollow"><i></i><span><b>Hollow</b> — no longer in the group</span></div>
       <div class="key ring"><i></i><span><b>Ring</b> — went on to lead a group</span></div>
     </div>
@@ -444,6 +446,38 @@ function neighbours(c) {
 }
 
 const maxN = Math.max(...cells.map(c => c.n));
+
+/* how many papers each person had with Clevers by each year — the number that
+   decides how much of the sheet their cell takes up */
+const NY = Y1 - Y0 + 1;
+for (const c of cells) {
+  const run = new Uint16Array(NY);
+  for (const idx of c.p.p) {
+    const y = DATA.papers[idx][0];
+    if (y) run[Math.max(0, Math.min(NY - 1, y - Y0))]++;
+  }
+  for (let k = 1; k < NY; k++) run[k] += run[k - 1];
+  c.byYear = run;
+}
+const maxSoFar = Math.max(...cells.map(c => c.byYear[NY - 1]));
+
+/* neighbours out to two hex rings — fixed, so the tessellation below never has
+   to go looking for who is nearby */
+{
+  const seatOf = new Map();
+  cells.forEach(c => seatOf.set(hkey(c.q, c.r), c));
+  for (const c of cells) {
+    c.nb = [];
+    for (let dq = -2; dq <= 2; dq++)
+      for (let dr = -2; dr <= 2; dr++) {
+        if (!dq && !dr) continue;
+        if (hdist(dq, dr) > 2) continue;
+        const o = seatOf.get(hkey(c.q + dq, c.r + dr));
+        if (o) c.nb.push(o);
+      }
+  }
+}
+
 const CUM = [];
 for (let y = Y0, run = 0, k = 0; y <= Y1; y++) {
   while (k < DATA.papers.length && DATA.papers[k][0] <= y) { run++; k++; }
@@ -452,7 +486,7 @@ for (let y = Y0, run = 0, k = 0; y <= Y1; y++) {
 const ARRIVALS = new Array(Y1 - Y0 + 1).fill(0);
 for (const c of cells) ARRIVALS[Math.max(0, c.p.gf - Y0)]++;
 
-let year = Y1, W = 0, H = 0, cx = 0, cy = 0, S = 20, pulse = 0;
+let year = Y1, W = 0, H = 0, cx = 0, cy = 0, S = 20, pulse = 0, geomDirty = true;
 let hover = null, picked = null, filter = null;
 
 function resize() {
@@ -476,21 +510,116 @@ function resize() {
   S = Math.max(5, Math.min(30, S));
   cx = railW + (W - railW) / 2 - S * 1.5 * (q0 + q1) / 2;
   cy = railH + (H - railH - 104) / 2 - S * Math.sqrt(3) * (r0 + r1) / 2;
+  geomDirty = true;
 }
 new ResizeObserver(resize).observe(cv);
 resize();
 
-const px = c => cx + S * 1.5 * c.q;
-const py = c => cy + S * Math.sqrt(3) * (c.r + c.q / 2);
+/* ---------- the tessellation ----------
+   A power diagram over the seats: each cell is the set of points closer to its
+   own site than to any neighbour's, where "closer" is offset by the site's
+   weight. Weight is that person's paper count so far, so a cell grows every
+   time its occupant publishes with Clevers again and the neighbours give way.
+   Convex, gapless, and — because the seats are jittered off the lattice and the
+   outlines are drawn as curves — it comes out looking like tissue rather than
+   like graph paper. */
+const SP = () => S * Math.sqrt(3);          // distance between adjacent seats
+const px = c => cx + S * 1.5 * c.q + c.jx * S;
+const py = c => cy + S * Math.sqrt(3) * (c.r + c.q / 2) + c.jy * S;
 
-function hexPath(x, y, s) {
+for (const c of cells) {
+  // fixed per-seat jitter: the lattice is the scaffold, not the look
+  const h = Math.sin((c.q * 12.9898 + c.r * 78.233) * 43758.5453);
+  const h2 = Math.sin((c.q * 39.3468 + c.r * 11.135) * 24634.6345);
+  const a = (h - Math.floor(h)) * Math.PI * 2;
+  const m = 0.44 * (h2 - Math.floor(h2));
+  c.jx = Math.cos(a) * m; c.jy = Math.sin(a) * m;
+}
+
+/* clip a convex polygon to the half-plane on this side of a line */
+function clipHalf(poly, nx, ny, d) {
+  const out = [];
+  for (let i = 0; i < poly.length; i += 2) {
+    const ax = poly[i], ay = poly[i + 1];
+    const bx = poly[(i + 2) % poly.length], by = poly[(i + 3) % poly.length];
+    const da = ax * nx + ay * ny - d, db = bx * nx + by * ny - d;
+    if (da <= 0) { out.push(ax, ay); }
+    if ((da <= 0) !== (db <= 0)) {
+      const t = da / (da - db);
+      out.push(ax + (bx - ax) * t, ay + (by - ay) * t);
+    }
+  }
+  return out;
+}
+
+const CAP_SIDES = 14;
+function cellPolygon(c, weightOf, reach) {
+  // Start from a rounded cap: a cell with no neighbours yet is simply round,
+  // which is what an isolated cell in a sparse colony looks like. The cap grows
+  // with the paper count too, so a cell out at the rim is not automatically
+  // bigger than a busy one hemmed in by neighbours.
+  const cap = SP() * reach(c);
+  let poly = [];
+  for (let k = 0; k < CAP_SIDES; k++) {
+    const a = k / CAP_SIDES * Math.PI * 2 + 0.2;
+    poly.push(c.x + Math.cos(a) * cap, c.y + Math.sin(a) * cap);
+  }
+  const wi = weightOf(c);
+  for (const o of c.nb) {
+    if (o.p.gf > year) continue;
+    const dx = o.x - c.x, dy = o.y - c.y;
+    const d = Math.hypot(dx, dy);
+    if (d < 1e-6) continue;
+    const nx = dx / d, ny = dy / d;
+    // radical axis: half-way, shifted by the difference in weight
+    let t = d / 2 + (wi - weightOf(o)) / (2 * d);
+    t = Math.max(d * 0.13, Math.min(d * 0.87, t));   // nobody gets squeezed out
+    poly = clipHalf(poly, nx, ny, c.x * nx + c.y * ny + t);
+    if (poly.length < 6) break;
+  }
+  return poly;
+}
+
+/* Draw a polygon with only its corners eased. Bowing every edge turned the
+   sheet into a pile of loose blobs; a real monolayer is straight-sided with
+   softened junctions. */
+function softPath(poly, radius) {
+  const n = poly.length / 2;
   ctx.beginPath();
-  for (let k = 0; k < 6; k++) {
-    const a = k * Math.PI / 3;
-    const vx = x + s * Math.cos(a), vy = y + s * Math.sin(a);
-    k ? ctx.lineTo(vx, vy) : ctx.moveTo(vx, vy);
+  if (n < 3) return;
+  const R0 = radius === undefined ? Math.max(1.2, S * 0.13) : radius;
+  let started = false;
+  for (let i = 0; i < n; i++) {
+    const p = ((i - 1 + n) % n) * 2, v = i * 2, q = ((i + 1) % n) * 2;
+    const ax = poly[p] - poly[v], ay = poly[p + 1] - poly[v + 1];
+    const bx = poly[q] - poly[v], by = poly[q + 1] - poly[v + 1];
+    const la = Math.hypot(ax, ay) || 1, lb = Math.hypot(bx, by) || 1;
+    const r = Math.min(R0, la / 2.1, lb / 2.1);
+    const sx = poly[v] + ax / la * r, sy = poly[v + 1] + ay / la * r;
+    const ex = poly[v] + bx / lb * r, ey = poly[v + 1] + by / lb * r;
+    started ? ctx.lineTo(sx, sy) : (ctx.moveTo(sx, sy), started = true);
+    ctx.quadraticCurveTo(poly[v], poly[v + 1], ex, ey);
   }
   ctx.closePath();
+}
+
+function shrink(poly, cxp, cyp, k) {
+  const out = new Array(poly.length);
+  for (let i = 0; i < poly.length; i += 2) {
+    out[i] = cxp + (poly[i] - cxp) * k;
+    out[i + 1] = cyp + (poly[i + 1] - cyp) * k;
+  }
+  return out;
+}
+
+function inside(poly, mx, my) {
+  let hit = false;
+  for (let i = 0, j = poly.length - 2; i < poly.length; j = i, i += 2) {
+    const yi = poly[i + 1], yj = poly[j + 1];
+    if ((yi > my) !== (yj > my) &&
+        mx < (poly[j] - poly[i]) * (my - yi) / (yj - yi) + poly[i]) hit = !hit;
+  }
+  return hit;
 }
 
 function draw(t) {
@@ -498,35 +627,56 @@ function draw(t) {
   ctx.clearRect(0, 0, W, H);
 
   let here = 0;
-  const gap = Math.max(1.1, S * 0.09);
+  const gap = Math.max(0.35, S * 0.022);
 
+  // weights ease toward the year's paper counts, so a cell visibly swells over
+  // the frames after it publishes rather than jumping
+  const k = reduced ? 1 : 0.14;
+  let moving = false;
   for (const c of cells) {
     c.x = px(c); c.y = py(c);
-    if (c.p.gf > year) continue;
+    const target = c.byYear[Math.max(0, Math.min(NY - 1, year - Y0))];
+    c.w = c.w === undefined ? target : c.w + (target - c.w) * k;
+    if (Math.abs(target - c.w) > 0.01) moving = true;
+  }
+  // Normalised so the busiest cell sits at 1: the boundary between two cells
+  // then shifts by up to a third of the gap between them, which is a visible
+  // difference in area without one cell eating its neighbourhood.
+  const d0 = SP(), root = Math.sqrt(Math.max(1, maxSoFar));
+  const B = 0.86 * d0 * d0;
+  const norm = c => Math.sqrt(Math.max(0, c.w)) / root;
+  const weightOf = c => B * norm(c);
+  const reach = c => 0.52 + 0.30 * norm(c);
+
+  if (moving || !cells[0].poly || geomDirty) {
+    for (const c of cells) c.poly = c.p.gf > year ? null : cellPolygon(c, weightOf, reach);
+    geomDirty = false;
+  }
+
+  for (const c of cells) {
+    if (!c.poly || c.poly.length < 6) continue;
     const inLab = year <= c.p.gl;
     const dim = filter && !filter.has(c.p.n);
     const strong = c === hover || c === picked;
     const fresh = c.p.gf === year;
     if (inLab) here++;
 
-    const s = S - gap;
-    ctx.globalAlpha = dim ? 0.12 : 1;
+    const body = shrink(c.poly, c.x, c.y, 1 - gap / Math.max(6, SP() * 0.5));
 
     // cytoplasm wash, then membrane. People who have left keep their colour at a
     // whisper — the sheet is the record of everyone who was ever in it
-    hexPath(c.x, c.y, s);
+    softPath(body);
     ctx.fillStyle = c.col;
-    ctx.globalAlpha = dim ? 0.06 : (inLab ? 0.26 : 0.07);
+    ctx.globalAlpha = dim ? 0.06 : (inLab ? 0.28 : 0.07);
     ctx.fill();
-    hexPath(c.x, c.y, s);
     ctx.globalAlpha = dim ? 0.12 : (inLab ? 0.92 : 0.3);
     ctx.strokeStyle = c.col;
-    ctx.lineWidth = c.pillar ? 2.2 : 1.1;
+    ctx.lineWidth = c.pillar ? 2.2 : 1.05;
     ctx.stroke();
 
-    // nucleus, scaled by joint papers
+    // nucleus, on the same paper count as the cell
     if (inLab) {
-      const nr = Math.max(1.4, s * (0.16 + 0.42 * Math.sqrt(c.n / maxN)));
+      const nr = Math.max(1.3, S * (0.14 + 0.38 * Math.sqrt(c.w / Math.max(1, maxSoFar))));
       ctx.globalAlpha = dim ? 0.12 : 1;
       ctx.fillStyle = c.col;
       ctx.beginPath(); ctx.arc(c.x, c.y, nr, 0, Math.PI * 2); ctx.fill();
@@ -540,34 +690,32 @@ function draw(t) {
     if (c.lead && !dim) {
       ctx.globalAlpha = inLab ? 0.85 : 0.35;
       ctx.strokeStyle = MARK; ctx.lineWidth = 1.3;
-      hexPath(c.x, c.y, s * 0.62); ctx.stroke();
+      softPath(shrink(body, c.x, c.y, 0.6)); ctx.stroke();
     }
 
     // this year's divisions: a cleavage furrow back to the cell it settled beside
     if (fresh && !dim) {
       const a = BUDDED[c.i];
-      if (a && hdist(c.q - a.q, c.r - a.r) === 1) {
-        ctx.globalAlpha = 0.35 + pulse * 0.4;
+      const o = a && cells.find(v => v.q === a.q && v.r === a.r);
+      if (o && hdist(c.q - a.q, c.r - a.r) === 1) {
+        ctx.globalAlpha = 0.3 + pulse * 0.35;
         ctx.strokeStyle = INK; ctx.lineWidth = 1;
-        ctx.beginPath();
-        ctx.moveTo(c.x, c.y);
-        ctx.lineTo(cx + S * 1.5 * a.q, cy + S * Math.sqrt(3) * (a.r + a.q / 2));
-        ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(c.x, c.y); ctx.lineTo(o.x, o.y); ctx.stroke();
       }
-      ctx.globalAlpha = 0.5 + pulse * 0.5;
-      ctx.strokeStyle = INK; ctx.lineWidth = 1.6;
-      hexPath(c.x, c.y, s + 1.5); ctx.stroke();
+      ctx.globalAlpha = 0.45 + pulse * 0.5;
+      ctx.strokeStyle = INK; ctx.lineWidth = 1.5;
+      softPath(body); ctx.stroke();
     }
 
     if (strong) {
       ctx.globalAlpha = 1;
       ctx.strokeStyle = INK; ctx.lineWidth = 2.4;
-      hexPath(c.x, c.y, s + 1); ctx.stroke();
+      softPath(body); ctx.stroke();
     }
     ctx.globalAlpha = 1;
   }
 
-  // names, where a hexagon is wide enough to hold one
+  // names, where a cell is wide enough to hold one
   if (S > 11) {
     ctx.font = Math.max(8, Math.min(11, S * 0.5)) + "px " + getComputedStyle(document.body).fontFamily;
     ctx.textAlign = "center"; ctx.textBaseline = "middle";
@@ -577,7 +725,8 @@ function draw(t) {
       const strong = c === hover || c === picked || c.pillar;
       if (!strong && !(c.n >= 30 && year <= c.p.gl)) continue;
       const t2 = c.p.n.split(",")[0].trim();
-      if (ctx.measureText(t2).width > S * 2.4 && !strong) continue;
+      if (!c.poly) continue;
+      if (ctx.measureText(t2).width > S * 2.6 && !strong) continue;
       ctx.fillStyle = strong ? INK : MUTED;
       ctx.globalAlpha = strong ? 0.95 : 0.55;
       ctx.fillText(t2, c.x, c.y + S * 0.66);
@@ -595,20 +744,24 @@ function setYear(y) {
   slider.value = year;
   yearEl.textContent = year;
   phaseEl.textContent = PHASE.find(p => year <= p.to).tag;
+  geomDirty = true;
   document.getElementById("c-div").textContent = ARRIVALS[year - Y0];
   document.getElementById("c-papers").textContent = CUM[year - Y0];
 }
 
 /* ---------- interaction ---------- */
 function hit(mx, my) {
+  // the cell the pointer is standing in; falls back to the nearest site so a
+  // click on a membrane still lands on something
   let best = null, bd = Infinity;
   for (const c of cells) {
-    if (c.p.gf > year) continue;
+    if (!c.poly || c.poly.length < 6) continue;
     if (filter && !filter.has(c.p.n)) continue;
+    if (inside(c.poly, mx, my)) return c;
     const d = (mx - c.x) ** 2 + (my - c.y) ** 2;
     if (d < bd) { bd = d; best = c; }
   }
-  return bd <= (S * 1.05) ** 2 ? best : null;
+  return bd <= (S * 1.1) ** 2 ? best : null;
 }
 
 cv.addEventListener("pointermove", e => {
