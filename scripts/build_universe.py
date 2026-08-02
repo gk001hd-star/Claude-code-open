@@ -82,6 +82,30 @@ def primary_site(rec):
     return SITES.index(order[0][0]), spread
 
 
+def add_lineage(people):
+    """Attach each person to whoever was already in the lab and shared most work.
+
+    The lineage pages draw the group as a clone: one founder, and every arrival
+    budding off the member they overlap with most. Written onto each record as
+    `pa`, the index of the parent, or -1 for people who attach straight to
+    Clevers because they share no paper with anyone who preceded them.
+    """
+    order = sorted(range(len(people)),
+                   key=lambda i: (people[i]["gf"], -len(people[i]["p"]), people[i]["n"]))
+    sets = [set(p["p"]) for p in people]
+    for p in people:
+        p["pa"] = -1
+    for rank, i in enumerate(order):
+        best, score = -1, 0
+        for j in order[:rank]:
+            n = len(sets[i] & sets[j])
+            # ties go to the more established person — the one with the longer
+            # record is the likelier point of entry
+            if n > score or (n == score and n and len(sets[j]) > len(sets[best])):
+                best, score = j, n
+        people[i]["pa"] = best if score else -1
+
+
 def build():
     pubs = load()
     rows = {author_key(r["name"]): r for r in
@@ -132,6 +156,7 @@ def build():
     # sorted by shared papers: the page places people by rank, so the core lands
     # in the inner orbits and the long tail forms the halo
     people.sort(key=lambda x: (-len(x["p"]), x["n"]))
+    add_lineage(people)
 
     years = [p[0] for p in papers if p[0]]
     return {"papers": papers, "people": people,
@@ -142,7 +167,7 @@ def build():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--inject", action="store_true",
-                    help="also splice the payload into web/clevers_universe.html")
+                    help="also splice the payload into every page in web/")
     args = ap.parse_args()
 
     data = build()
@@ -154,17 +179,22 @@ def main():
           f"-> {out} ({os.path.getsize(out):,} bytes)")
 
     if args.inject:
-        page = os.path.join(WEB, "clevers_universe.html")
-        html = open(page, encoding="utf-8").read()
+        import re
         blob = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
-        if "/*__DATA__*/" in html:
-            html = html.replace("/*__DATA__*/", blob)
-        else:
-            import re
-            html = re.sub(r"const DATA = \{.*?\};\n", "const DATA = " + blob + ";\n",
+        # every page in web/ carries its own copy: an artifact has to be
+        # self-contained, so the payload is inlined rather than fetched
+        for name in sorted(os.listdir(WEB)):
+            if not name.endswith(".html"):
+                continue
+            page = os.path.join(WEB, name)
+            html = open(page, encoding="utf-8").read()
+            if "const DATA = {" not in html:
+                print(f"  skipped {name}: no data slot", file=sys.stderr)
+                continue
+            html = re.sub(r"const DATA = \{.*?\};\n", lambda _: "const DATA = " + blob + ";\n",
                           html, count=1, flags=re.S)
-        open(page, "w", encoding="utf-8").write(html)
-        print(f"injected into {page}")
+            open(page, "w", encoding="utf-8").write(html)
+            print(f"injected into {page}")
 
 
 if __name__ == "__main__":
