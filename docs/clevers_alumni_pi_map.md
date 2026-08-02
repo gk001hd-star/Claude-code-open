@@ -7,18 +7,19 @@ For each person checked, whether they now lead their own research organisation �
 | | |
 | --- | ---: |
 | Candidate alumni identified (≥3 joint papers) | 368 |
-| **Checked so far** | **257** |
-| → **alumni now leading a research organisation** | **61** |
+| **Checked so far** | **298** |
+| → **alumni now leading a research organisation** | **62** |
 | &nbsp;&nbsp;&nbsp;academic principal investigators | 50 |
-| &nbsp;&nbsp;&nbsp;company founders, CEOs and heads of R&D | 11 |
-| → PIs who were collaborators, not trainees | 32 |
-| → confirmed *not* in a research-leadership role | 33 |
-| → external co-authors, settled from affiliation data | 103 |
-| → checked but unresolved | 28 |
-| **Not yet checked** | **113** |
+| &nbsp;&nbsp;&nbsp;company founders, CEOs and heads of R&D | 12 |
+| → PIs who were collaborators, not trainees | 52 |
+| → confirmed *not* in a research-leadership role | 38 |
+| → external co-authors, settled from affiliation data | 106 |
+| → checked but unresolved | 40 |
+| → still in the group (current members, not alumni) | 32 |
+| **Not yet checked** | **40** |
 
 
-The candidate pool is everyone with **three or more** joint papers who either has a documented Hubrecht/NIOB/Máxima/Utrecht-immunology affiliation, or is a pre-2014 co-author (the era when PubMed indexed only the first author's address). The checked set was worked through in descending order of joint papers, so it covers the most prolific members first. **Section 5 lists every unchecked candidate by name** — this document is a partial pass over a named list, not a claim to have covered everyone.
+The candidate pool is everyone with **three or more** joint papers who either has a documented Hubrecht/NIOB/Máxima/Utrecht-immunology affiliation, or is a pre-2014 co-author (the era when PubMed indexed only the first author's address). The checked set was worked through in descending order of joint papers, so it covers the most prolific members first. **Sections 6 and 7 list every remaining candidate by name** — this document is a partial pass over a named list, not a claim to have covered everyone.
 
 Three notes on the classification. **Leadership is counted in two forms**: an academic PI heads a named group, lab or department; an industry lead founded or heads a company or its research function (CEO, CRO, Global Head of R&D, Managing Director Research). Both appear in Section 1 with the type marked, and the counts above keep them separable. **A senior title alone is not leadership** — a principal scientist without a group stays in Section 2. And **people who already led their own laboratory before working with Clevers** are separated into Section 3, because calling them "alumni who became PIs" would misattribute their careers to this lab.
 
@@ -85,11 +86,12 @@ People who trained in or worked for the Clevers group and now head their own aca
 | 54 | **Jansen, Marnix** | Academic PI | 5 | 2006–2016 | — | Professor of Gastrointestinal Pathology; CRUK clinician scientist (PhD in the Clevers lab), UCL Cancer Institute / UCLH, London | [profiles.ucl.ac.uk/60913-marnix-jansen](https://profiles.ucl.ac.uk/60913-marnix-jansen) |
 | 55 | **Smit, Linda** | Academic PI | 5 | 1999–2006 | — | Researcher / group leader, leukaemia stem cells and AML, Amsterdam UMC | [www.amsterdamumc.org/en/research/researchers/linda-smit.htm](https://www.amsterdamumc.org/en/research/researchers/linda-smit.htm) |
 | 56 | **Muraro, Mauro J** | **Industry / org** | 5 | 2016–2021 | — | Co-founder and Chief Executive Officer, Single Cell Discoveries, Utrecht | [www.scdiscoveries.com/about](https://www.scdiscoveries.com/about/) |
-| 57 | **Mullenders, Jasper** | **Industry / org** | 3 | 2019–2021 | — | Senior Director, Translational Research, Scenic Biotech, Amsterdam | [scenicbiotech.com](https://scenicbiotech.com/) |
-| 58 | **Bernink, Jochem H** | Academic PI | 3 | 2024–2026 | — | Group leader (microbiome–epithelium–innate lymphoid cell interactions), Amsterdam UMC | [researchinformation.amsterdamumc.org/en/persons/jochem-berni](https://researchinformation.amsterdamumc.org/en/persons/jochem-bernink-2) |
-| 59 | **Verissimo, Carla S** | **Industry / org** | 3 | 2016–2023 | — | Head of Oncology II (research function head, industry), HUB Organoids, Utrecht | [www.huborganoids.nl](https://www.huborganoids.nl/) |
-| 60 | **Vooijs, Marc** | Academic PI | 2 | 2005–2007 | — | Professor and Chair, Department of Radiotherapy (Group Marc Vooijs), Maastricht University / GROW | [www.maastrichtuniversity.nl/research/radiotherapy/research-g](https://www.maastrichtuniversity.nl/research/radiotherapy/research-groups/group-marc-vooijs) |
-| 61 | **Leushacke, Marc** | Academic PI | 1 | 2012–2012 | — | Professor (Newcastle University) and Senior Principal Investigator, A*STAR Skin Research Labs, Singapore | [www.a-star.edu.sg/sris/people/principal-investigators/marc-l](https://www.a-star.edu.sg/sris/people/principal-investigators/marc-leushacke) |
+| 57 | **Brantjes, Helen** | **Industry / org** | 4 | 1998–2003 | — | Head of the Clinical Chemistry Laboratory (clinical laboratory leadership, not a research group), BovenIJ Ziekenhuis, Amsterdam | [www.bovenij.nl/zorgverleners/helen-brantjes](https://www.bovenij.nl/zorgverleners/helen-brantjes/) |
+| 58 | **Mullenders, Jasper** | **Industry / org** | 3 | 2019–2021 | — | Senior Director, Translational Research, Scenic Biotech, Amsterdam | [scenicbiotech.com](https://scenicbiotech.com/) |
+| 59 | **Bernink, Jochem H** | Academic PI | 3 | 2024–2026 | — | Group leader (microbiome–epithelium–innate lymphoid cell interactions), Amsterdam UMC | [researchinformation.amsterdamumc.org/en/persons/jochem-berni](https://researchinformation.amsterdamumc.org/en/persons/jochem-bernink-2) |
+| 60 | **Verissimo, Carla S** | **Industry / org** | 3 | 2016–2023 | — | Head of Oncology II (research function head, industry), HUB Organoids, Utrecht | [www.huborganoids.nl](https://www.huborganoids.nl/) |
+| 61 | **Vooijs, Marc** | Academic PI | 2 | 2005–2007 | — | Professor and Chair, Department of Radiotherapy (Group Marc Vooijs), Maastricht University / GROW | [www.maastrichtuniversity.nl/research/radiotherapy/research-g](https://www.maastrichtuniversity.nl/research/radiotherapy/research-groups/group-marc-vooijs) |
+| 62 | **Leushacke, Marc** | Academic PI | 1 | 2012–2012 | — | Professor (Newcastle University) and Senior Principal Investigator, A*STAR Skin Research Labs, Singapore | [www.a-star.edu.sg/sris/people/principal-investigators/marc-l](https://www.a-star.edu.sg/sris/people/principal-investigators/marc-leushacke) |
 
 ## 2. Alumni not in a research-leadership role
 
@@ -108,28 +110,33 @@ Checked and confirmed to head neither an academic group nor a company: individua
 | 9 | Kuipers, Jeroen | 11 | 1993–2015 | Manager, electron microscopy facility, UMCG / University of Groningen | [research.rug.nl/en/persons/jeroen-kuipers](https://research.rug.nl/en/persons/jeroen-kuipers/) |
 | 10 | van der Vaart, Jelte Y | 11 | 2020–2026 | Postdoc, Department of Cell Biology, UMC Utrecht | — none found |
 | 11 | Margaritis, Thanasis | 11 | 2019–2025 | Single-cell biologist leading the Single-Cell Genomics core facility (facility leadership, not a research group), Princess Máxima Center for Pediatric Oncology, Utrecht | [www.prinsesmaximacentrum.nl/en/professionals/core-facilities](https://www.prinsesmaximacentrum.nl/en/professionals/core-facilities-shared-resources/single-cell-genomics) |
-| 12 | Sancho, Elena | 10 | 2002–2022 | Research Associate; co-coordinates the Colorectal Cancer laboratory with Eduard Batlle, IRB Barcelona | [www.irbbarcelona.org/en/research/elena-sancho](https://www.irbbarcelona.org/en/research/elena-sancho) |
-| 13 | Pou Casellas, Carla | 9 | 2021–2026 | PhD candidate in the Clevers group, Hubrecht Institute / UMC Utrecht | — none found |
-| 14 | Destree, Olivier | 9 | 1993–2005 | Former group leader (Xenopus developmental biology) at the Hubrecht Laboratory; no current group, Hubrecht Institute (formerly) | — none found |
-| 15 | Dutta, Devanjali | 8 | 2017–2023 | Senior Scientist (industry), Genmab, Copenhagen | — none found |
-| 16 | Kopper, Oded | 8 | 2017–2023 | Scientist (individual contributor), Pre-Cure | — none found |
-| 17 | Yousef Yengej, Fjodor A | 8 | 2020–2026 | MD-researcher; PhD cum laude in the Clevers group ('Organoids: Translation to clinical nephrology'), Hubrecht Institute / UMC Utrecht | [www.hubrecht.eu/phd-yousef-yengej](https://www.hubrecht.eu/phd-yousef-yengej/) |
-| 18 | Post, Yorick | 8 | 2018–2021 | Principal Scientist (individual contributor, industry), Surrozen, Menlo Park, CA | [surrozen.com](https://surrozen.com/) |
-| 19 | Bast, Bert J E G | 7 | 1992–2008 | Department of Immunology (haematology, allergology and clinical immunology) - no current research group found, UMC Utrecht | — none found |
-| 20 | Boonekamp, Kim Elisabeth | 7 | 2018–2023 | Postdoctoral researcher, Boutros lab, DKFZ / BioQuant Heidelberg | [www.genomicc.de/2025/06/09/dr-kim-boonekamp](http://www.genomicc.de/2025/06/09/dr-kim-boonekamp/) |
-| 21 | Boretto, Matteo G | 6 | 2020–2024 | Senior postdoc in the van Boxtel group, Princess Máxima Center for Pediatric Oncology, Utrecht | [www.vanboxtellab.eu](https://www.vanboxtellab.eu/) |
-| 22 | Lõhmussaar, Kadi | 6 | 2019–2021 | PhD student in the Clevers group (thesis defended 17 Nov 2022) - no independent group found, Hubrecht Institute (at the time) | — none found |
-| 23 | Bar-Ephraim, Yotam E | 6 | 2019–2022 | Application scientist, immuno-oncology (industry), LUMICKS, Amsterdam | — none found |
-| 24 | Van Gijn, Marielle E | 6 | 2005–2009 | Clinical laboratory geneticist, Department of Medical Genetics, UMC Utrecht | — none found |
-| 25 | Giles, Rachel H | 5 | 2001–2011 | Associate Professor at UMC Utrecht 2006-2019 (postdoc with Clevers 1999-2003); now chair of the Dutch VHL Organisation and medical writer - no current research group, Dutch VHL Organisation | — none found |
-| 26 | Van Houdt, Winan J | 5 | 2011–2025 | Surgical oncologist; Chair of the EORTC Soft Tissue and Bone Sarcoma Group - clinical rather than laboratory leadership, Antoni van Leeuwenhoek / NKI, Amsterdam | [www.avl.nl/specialisten-medewerkers/specialisten/chirurgen/w](https://www.avl.nl/specialisten-medewerkers/specialisten/chirurgen/winan-van-houdt/) |
-| 27 | Teunissen, Hans | 5 | 2010–2017 | Research analyst / lab manager in the de Wit group, Netherlands Cancer Institute, Amsterdam | [www.nki.nl/research/find-a-researcher/researchers/hans-teuni](https://www.nki.nl/research/find-a-researcher/researchers/hans-teunissen/) |
-| 28 | van Ineveld, Ravian L | 5 | 2020–2025 | Postdoctoral researcher and Manager of the Imaging Core Facility, Princess Máxima Center for Pediatric Oncology, Utrecht | — none found |
-| 29 | Jager, Myrthe | 4 | 2014–2020 | Postdoctoral researcher and manager of the UMC AI lab, UMC Utrecht | [research.umcutrecht.nl](https://research.umcutrecht.nl/) |
-| 30 | Tetteh, Paul W | 3 | 2014–2016 | Scientist II (individual contributor, industry), CRISPR Therapeutics, Boston | [crisprtx.com](https://crisprtx.com/) |
-| 31 | Alieva, Maria | 3 | 2019–2024 | Senior postdoctoral researcher (imaging, BEHAV3D), Princess Máxima Center for Pediatric Oncology, Utrecht | — none found |
-| 32 | Faro, Ana | 3 | 2007–2009 | Postdoctoral researcher, Cell and Developmental Biology, University College London | — none found |
-| 33 | Rosendahl Huber, Axel | 3 | 2020–2024 | Postdoctoral researcher (NWO Veni and Marie Curie laureate); now postdoc in the van Boxtel lab at IRB Barcelona, IRB Barcelona / Hubrecht Institute | [www.hubrecht.eu/marie-curie-grant-axel-rosendahl-huber](https://www.hubrecht.eu/marie-curie-grant-axel-rosendahl-huber/) |
+| 12 | Schilham, M W | 11 | 1993–2000 | Researcher in paediatric immunology (PhD student with Clevers in Utrecht, Sox-4 knockout), Leiden University Medical Center | [www.lumc.nl/patientenzorg/specialistische-centra/willem-alex](https://www.lumc.nl/patientenzorg/specialistische-centra/willem-alexander-kinderziekenhuis/voor-professionals/laboratory-for-pediatric-immunology/) |
+| 13 | Sancho, Elena | 10 | 2002–2022 | Research Associate; co-coordinates the Colorectal Cancer laboratory with Eduard Batlle, IRB Barcelona | [www.irbbarcelona.org/en/research/elena-sancho](https://www.irbbarcelona.org/en/research/elena-sancho) |
+| 14 | Pou Casellas, Carla | 9 | 2021–2026 | PhD candidate in the Clevers group, Hubrecht Institute / UMC Utrecht | — none found |
+| 15 | Destree, Olivier | 9 | 1993–2005 | Former group leader (Xenopus developmental biology) at the Hubrecht Laboratory; no current group, Hubrecht Institute (formerly) | — none found |
+| 16 | Dutta, Devanjali | 8 | 2017–2023 | Senior Scientist (industry), Genmab, Copenhagen | — none found |
+| 17 | Kopper, Oded | 8 | 2017–2023 | Scientist (individual contributor), Pre-Cure | — none found |
+| 18 | Yousef Yengej, Fjodor A | 8 | 2020–2026 | MD-researcher; PhD cum laude in the Clevers group ('Organoids: Translation to clinical nephrology'), Hubrecht Institute / UMC Utrecht | [www.hubrecht.eu/phd-yousef-yengej](https://www.hubrecht.eu/phd-yousef-yengej/) |
+| 19 | Post, Yorick | 8 | 2018–2021 | Principal Scientist (individual contributor, industry), Surrozen, Menlo Park, CA | [surrozen.com](https://surrozen.com/) |
+| 20 | Bast, Bert J E G | 7 | 1992–2008 | Department of Immunology (haematology, allergology and clinical immunology) - no current research group found, UMC Utrecht | — none found |
+| 21 | Boonekamp, Kim Elisabeth | 7 | 2018–2023 | Postdoctoral researcher, Boutros lab, DKFZ / BioQuant Heidelberg | [www.genomicc.de/2025/06/09/dr-kim-boonekamp](http://www.genomicc.de/2025/06/09/dr-kim-boonekamp/) |
+| 22 | Molenaar, Martijn R | 7 | 1996–2017 | Researcher in lipidomics and membrane biology, Utrecht University / EMBL | [sciprofiles.com/profile/1228573](https://sciprofiles.com/profile/1228573) |
+| 23 | Vonk, Annelotte M | 7 | 2016–2019 | Programme manager for digitalisation — left research after 11 years at UMC Utrecht, Nationaal Regieorgaan Praktijkgericht Onderzoek SIA | — none found |
+| 24 | Boretto, Matteo G | 6 | 2020–2024 | Senior postdoc in the van Boxtel group, Princess Máxima Center for Pediatric Oncology, Utrecht | [www.vanboxtellab.eu](https://www.vanboxtellab.eu/) |
+| 25 | Lõhmussaar, Kadi | 6 | 2019–2021 | PhD student in the Clevers group (thesis defended 17 Nov 2022) - no independent group found, Hubrecht Institute (at the time) | — none found |
+| 26 | Bar-Ephraim, Yotam E | 6 | 2019–2022 | Application scientist, immuno-oncology (industry), LUMICKS, Amsterdam | — none found |
+| 27 | Van Gijn, Marielle E | 6 | 2005–2009 | Clinical laboratory geneticist, Department of Medical Genetics, UMC Utrecht | — none found |
+| 28 | Giles, Rachel H | 5 | 2001–2011 | Associate Professor at UMC Utrecht 2006-2019 (postdoc with Clevers 1999-2003); now chair of the Dutch VHL Organisation and medical writer - no current research group, Dutch VHL Organisation | — none found |
+| 29 | Van Houdt, Winan J | 5 | 2011–2025 | Surgical oncologist; Chair of the EORTC Soft Tissue and Bone Sarcoma Group - clinical rather than laboratory leadership, Antoni van Leeuwenhoek / NKI, Amsterdam | [www.avl.nl/specialisten-medewerkers/specialisten/chirurgen/w](https://www.avl.nl/specialisten-medewerkers/specialisten/chirurgen/winan-van-houdt/) |
+| 30 | Teunissen, Hans | 5 | 2010–2017 | Research analyst / lab manager in the de Wit group, Netherlands Cancer Institute, Amsterdam | [www.nki.nl/research/find-a-researcher/researchers/hans-teuni](https://www.nki.nl/research/find-a-researcher/researchers/hans-teunissen/) |
+| 31 | van Ineveld, Ravian L | 5 | 2020–2025 | Postdoctoral researcher and Manager of the Imaging Core Facility, Princess Máxima Center for Pediatric Oncology, Utrecht | — none found |
+| 32 | Jager, Myrthe | 4 | 2014–2020 | Postdoctoral researcher and manager of the UMC AI lab, UMC Utrecht | [research.umcutrecht.nl](https://research.umcutrecht.nl/) |
+| 33 | Tetteh, Paul W | 3 | 2014–2016 | Scientist II (individual contributor, industry), CRISPR Therapeutics, Boston | [crisprtx.com](https://crisprtx.com/) |
+| 34 | Alieva, Maria | 3 | 2019–2024 | Senior postdoctoral researcher (imaging, BEHAV3D), Princess Máxima Center for Pediatric Oncology, Utrecht | — none found |
+| 35 | Faro, Ana | 3 | 2007–2009 | Postdoctoral researcher, Cell and Developmental Biology, University College London | — none found |
+| 36 | Rosendahl Huber, Axel | 3 | 2020–2024 | Postdoctoral researcher (NWO Veni and Marie Curie laureate); now postdoc in the van Boxtel lab at IRB Barcelona, IRB Barcelona / Hubrecht Institute | [www.hubrecht.eu/marie-curie-grant-axel-rosendahl-huber](https://www.hubrecht.eu/marie-curie-grant-axel-rosendahl-huber/) |
+| 37 | Duluc, Isabelle | 3 | 2000–2011 | Researcher, INSERM U1113 (Freund team), INSERM / University of Strasbourg | — none found |
+| 38 | Ten Klooster, Jean Paul | 3 | 2009–2012 | Project leader, Innovative Testing in Life Sciences and Chemistry lectorate (applied-sciences research, not a university research group), HU University of Applied Sciences Utrecht | [www.hu.nl/onderzoek/onderzoekers/jean-paul-ten-klooster](https://www.hu.nl/onderzoek/onderzoekers/jean-paul-ten-klooster) |
 
 ## 3. PIs who were collaborators, not Clevers trainees
 
@@ -147,32 +154,52 @@ These people head their own groups but did so independently of the Clevers lab �
 | 8 | Beekman, Jeffrey M | 14 | 2013–2025 | Professor of Cellular Disease Modelling; PI of the molecular cystic fibrosis laboratory since 2010, UMC Utrecht | [www.umcutrecht.nl/en/research/researchers/beekman-jm](https://www.umcutrecht.nl/en/research/researchers/beekman-jm) |
 | 9 | Holstege, Frank C P | 11 | 1991–2024 | Professor; formerly led a research group at the Princess Máxima (transcription and single-cell genomics), now voluntary research advisor, Princess Máxima Center / UMC Utrecht | [www.holstegelab.nl](https://www.holstegelab.nl/) |
 | 10 | van Rheenen, Jacco | 10 | 2010–2025 | Senior Group Leader, Intravital Microscopy of cancer (Hubrecht group leader before moving to the NKI in 2017), Netherlands Cancer Institute, Amsterdam | [www.nki.nl/research/research-groups/jacco-van-rheenen](https://www.nki.nl/research/research-groups/jacco-van-rheenen/) |
-| 11 | de Koning, Eelco J P | 8 | 2013–2024 | Professor of Diabetology; heads the LUMC diabetes centre and the Islet Group, Leiden University Medical Center | [www.lumc.nl/en/afdelingen/algemene-interne-geneeskunde/ejp-d](https://www.lumc.nl/en/afdelingen/algemene-interne-geneeskunde/ejp-de-koning/) |
-| 12 | Voest, Emile Eugene | 7 | 2006–2020 | Professor of Medical Oncology, Senior Group Leader (collaborator, not a Clevers trainee), Netherlands Cancer Institute / Oncode | [www.nki.nl/research/research-groups/emile-voest](https://www.nki.nl/research/research-groups/emile-voest) |
-| 13 | Korswagen, Hendrik C | 6 | 1999–2013 | Senior Group Leader, Hubrecht Institute; Professor of Molecular Developmental Genetics, Utrecht University (Hubrecht colleague, not a Clevers trainee), Hubrecht Institute / Utrecht University | [www.hubrecht.eu/research-groups/korswagen-group](https://www.hubrecht.eu/research-groups/korswagen-group/) |
-| 14 | Geijsen, Niels | 5 | 2015–2020 | Professor of Developmental Biology and Regenerative Medicine; Head, Anatomy and Embryology (Hubrecht colleague, not a Clevers trainee), Leiden University Medical Center | [www.geijsenlab.org](https://www.geijsenlab.org/) |
-| 15 | Janda, Claudia Y | 5 | 2017–2026 | Group Leader, Janda group (Wnt surrogate protein engineering), Princess Máxima Center for Pediatric Oncology, Utrecht | [research.prinsesmaximacentrum.nl/en/research-groups/janda-gr](https://research.prinsesmaximacentrum.nl/en/research-groups/janda-group) |
-| 16 | Verbeek, S | 5 | 1995–1998 | Associate Professor of Human Genetics and Immunology (made the Tcf1/Lef1 knockout mice), Leiden University Medical Center | [www.universiteitleiden.nl/en/staffmembers/sjef-verbeek](https://www.universiteitleiden.nl/en/staffmembers/sjef-verbeek) |
-| 17 | Stunnenberg, Hendrik G | 5 | 2008–2024 | Group leader, Stunnenberg group (epigenetics of high-grade brain malignancies); full professor, Princess Máxima Center for Pediatric Oncology, Utrecht | [research.prinsesmaximacentrum.nl/en/research-groups/stunnenb](https://research.prinsesmaximacentrum.nl/en/research-groups/stunnenberg-group) |
-| 18 | Versteeg, Rogier | 5 | 2008–2015 | Professor / group leader, Department of Oncogenomics, Amsterdam UMC | [www.amsterdamumc.org/en/research/researchers/rogier-versteeg](https://www.amsterdamumc.org/en/research/researchers/rogier-versteeg.htm) |
-| 19 | Itzkovitz, Shalev | 4 | 2011–2012 | Professor, Department of Molecular Cell Biology (collaborator, not a Clevers trainee), Weizmann Institute of Science | [shalevlab.weizmann.ac.il](https://shalevlab.weizmann.ac.il/) |
-| 20 | Burgering, Boudewijn M T | 4 | 1999–2025 | Professor of Signal Transduction; Head of the Center for Molecular Medicine and of Molecular Cancer Research, UMC Utrecht | [www.oncodeinstitute.nl/research-groups/boudewijn-burgering-g](https://www.oncodeinstitute.nl/research-groups/boudewijn-burgering-group) |
-| 21 | van den Heuvel-Eibrink, Marry M | 4 | 2019–2020 | Group leader (~25 PhD students and postdocs); Professor of Translational Pediatric Oncology, Utrecht University, Princess Máxima Center for Pediatric Oncology, Utrecht | [www.prinsesmaximacentrum.nl/en/professionals/research-groups](https://www.prinsesmaximacentrum.nl/en/professionals/research-groups/van-den-heuvel-eibrink-group) |
-| 22 | Molenaar, Jan J | 4 | 2020–2025 | Professor and Principal Investigator; leads the Molenaar group (precision medicine in paediatric cancer, neuroblastoma), Princess Máxima Center for Pediatric Oncology, Utrecht | [www.prinsesmaximacentrum.nl/en/professionals/researchers/jan](https://www.prinsesmaximacentrum.nl/en/professionals/researchers/jan-molenaar) |
-| 23 | Kops, Geert J P L | 3 | 2015–2019 | Director of the Hubrecht Institute; group leader, chromosome segregation; professor at UMC Utrecht, Hubrecht Institute, Utrecht | [www.hubrecht.eu/research-groups/kops-group](https://www.hubrecht.eu/research-groups/kops-group/) |
-| 24 | Ritsma, Laila | 3 | 2014–2020 | Group leader, Cell Signaling Dynamics (own team: postdoc, PhD student, two technicians), Leiden University Medical Center, Cell & Chemical Biology | [ccb.lumc.nl/research/cell-signaling-dynamics-166/laila-ritsm](https://ccb.lumc.nl/research/cell-signaling-dynamics-166/laila-ritsma-70) |
-| 25 | Kuiper, Roland P | 3 | 2015–2025 | Full professor (UMC Utrecht) and Senior Principal Investigator; leads the Kuiper group, Princess Máxima Center for Pediatric Oncology, Utrecht | [www.prinsesmaximacentrum.com/research/research/our-research-](https://www.prinsesmaximacentrum.com/research/research/our-research-groups/kuiper-group/) |
-| 26 | Kuball, Jürgen | 3 | 2022–2024 | Professor; Chair of the Department of Haematology and Director of the Bone Marrow Transplantation Programme (Kuball laboratory), UMC Utrecht | [www.kuball-laboratories.com](https://www.kuball-laboratories.com/) |
-| 27 | Sebestyen, Zsolt | 3 | 2022–2024 | Principal Investigator, Tumorimmunology, UMC Utrecht | [www.kuball-laboratories.com/people](https://www.kuball-laboratories.com/people) |
-| 28 | Tanenbaum, Marvin E | 3 | 2020–2026 | Senior group leader (Hubrecht), Professor of Gene Expression Dynamics at TU Delft, Oncode Investigator, Hubrecht Institute / TU Delft | [www.hubrecht.eu/research-groups/tanenbaum-group](https://www.hubrecht.eu/research-groups/tanenbaum-group/) |
-| 29 | de Krijger, Ronald R | 3 | 2020–2025 | Professor of Pathology of solid paediatric tumours; pathologist at the Princess Máxima (from Jan 2026 at Helse Fonna, Norway), UMC Utrecht / Princess Máxima Center | [www.umcutrecht.nl/en/research/researchers/de-krijger-ronald-](https://www.umcutrecht.nl/en/research/researchers/de-krijger-ronald-rr) |
-| 30 | Wiener, Dominique J | 3 | 2018–2019 | Clinical Associate Professor of Anatomic Pathology; Director of the dermatopathology specialty service, Texas A&M University College of Veterinary Medicine | [vetmed.tamu.edu/dermatopathology-lab/staff-information/domin](https://vetmed.tamu.edu/dermatopathology-lab/staff-information/dominique-wiener/) |
-| 31 | Pieters, Rob | 3 | 2020–2024 | Chief Máxima International (Chief Medical Officer 2013-2025); Professor of Paediatric Oncology, Utrecht University; President-elect of SIOP, Princess Máxima Center for Pediatric Oncology, Utrecht | [www.prinsesmaximacentrum.nl/en/news/rob-pieters-started-as-c](https://www.prinsesmaximacentrum.nl/en/news/rob-pieters-started-as-chief-maxima-international) |
-| 32 | van Jaarsveld, Richard H | 3 | 2015–2019 | Principal Investigator, Genome Diagnostics, UMC Utrecht | [research.umcutrecht.nl/researchers/richard-van-jaarsveld](https://research.umcutrecht.nl/researchers/richard-van-jaarsveld/) |
+| 11 | Taketo, Makoto M | 10 | 2003–2025 | Professor, Division of Experimental Therapeutics, Graduate School of Medicine, Kyoto University | [sciprofiles.com/profile/1113240](https://sciprofiles.com/profile/1113240) |
+| 12 | de Koning, Eelco J P | 8 | 2013–2024 | Professor of Diabetology; heads the LUMC diabetes centre and the Islet Group, Leiden University Medical Center | [www.lumc.nl/en/afdelingen/algemene-interne-geneeskunde/ejp-d](https://www.lumc.nl/en/afdelingen/algemene-interne-geneeskunde/ejp-de-koning/) |
+| 13 | Voest, Emile Eugene | 7 | 2006–2020 | Professor of Medical Oncology, Senior Group Leader (collaborator, not a Clevers trainee), Netherlands Cancer Institute / Oncode | [www.nki.nl/research/research-groups/emile-voest](https://www.nki.nl/research/research-groups/emile-voest) |
+| 14 | Terhorst, C | 7 | 1987–1989 | Professor of Medicine — **Clevers' own postdoctoral supervisor** (Dana-Farber/Harvard, 1986-1989), not a trainee of his, Beth Israel Deaconess Medical Center / Harvard Medical School | [immunologyphd.hms.harvard.edu/people/cox-terhorst](https://immunologyphd.hms.harvard.edu/people/cox-terhorst) |
+| 15 | Korswagen, Hendrik C | 6 | 1999–2013 | Senior Group Leader, Hubrecht Institute; Professor of Molecular Developmental Genetics, Utrecht University (Hubrecht colleague, not a Clevers trainee), Hubrecht Institute / Utrecht University | [www.hubrecht.eu/research-groups/korswagen-group](https://www.hubrecht.eu/research-groups/korswagen-group/) |
+| 16 | Geijsen, Niels | 5 | 2015–2020 | Professor of Developmental Biology and Regenerative Medicine; Head, Anatomy and Embryology (Hubrecht colleague, not a Clevers trainee), Leiden University Medical Center | [www.geijsenlab.org](https://www.geijsenlab.org/) |
+| 17 | Janda, Claudia Y | 5 | 2017–2026 | Group Leader, Janda group (Wnt surrogate protein engineering), Princess Máxima Center for Pediatric Oncology, Utrecht | [research.prinsesmaximacentrum.nl/en/research-groups/janda-gr](https://research.prinsesmaximacentrum.nl/en/research-groups/janda-group) |
+| 18 | Verbeek, S | 5 | 1995–1998 | Associate Professor of Human Genetics and Immunology (made the Tcf1/Lef1 knockout mice), Leiden University Medical Center | [www.universiteitleiden.nl/en/staffmembers/sjef-verbeek](https://www.universiteitleiden.nl/en/staffmembers/sjef-verbeek) |
+| 19 | Stunnenberg, Hendrik G | 5 | 2008–2024 | Group leader, Stunnenberg group (epigenetics of high-grade brain malignancies); full professor, Princess Máxima Center for Pediatric Oncology, Utrecht | [research.prinsesmaximacentrum.nl/en/research-groups/stunnenb](https://research.prinsesmaximacentrum.nl/en/research-groups/stunnenberg-group) |
+| 20 | Versteeg, Rogier | 5 | 2008–2015 | Professor / group leader, Department of Oncogenomics, Amsterdam UMC | [www.amsterdamumc.org/en/research/researchers/rogier-versteeg](https://www.amsterdamumc.org/en/research/researchers/rogier-versteeg.htm) |
+| 21 | Grosschedl, Rudolf | 5 | 1996–2004 | Director and Head of Cellular and Molecular Immunology 2004-2021, emeritus since 2021, Max Planck Institute of Immunobiology and Epigenetics, Freiburg | [www.ie-freiburg.mpg.de/person/27024/1893504](https://www.ie-freiburg.mpg.de/person/27024/1893504) |
+| 22 | Itzkovitz, Shalev | 4 | 2011–2012 | Professor, Department of Molecular Cell Biology (collaborator, not a Clevers trainee), Weizmann Institute of Science | [shalevlab.weizmann.ac.il](https://shalevlab.weizmann.ac.il/) |
+| 23 | Burgering, Boudewijn M T | 4 | 1999–2025 | Professor of Signal Transduction; Head of the Center for Molecular Medicine and of Molecular Cancer Research, UMC Utrecht | [www.oncodeinstitute.nl/research-groups/boudewijn-burgering-g](https://www.oncodeinstitute.nl/research-groups/boudewijn-burgering-group) |
+| 24 | van den Heuvel-Eibrink, Marry M | 4 | 2019–2020 | Group leader (~25 PhD students and postdocs); Professor of Translational Pediatric Oncology, Utrecht University, Princess Máxima Center for Pediatric Oncology, Utrecht | [www.prinsesmaximacentrum.nl/en/professionals/research-groups](https://www.prinsesmaximacentrum.nl/en/professionals/research-groups/van-den-heuvel-eibrink-group) |
+| 25 | Molenaar, Jan J | 4 | 2020–2025 | Professor and Principal Investigator; leads the Molenaar group (precision medicine in paediatric cancer, neuroblastoma), Princess Máxima Center for Pediatric Oncology, Utrecht | [www.prinsesmaximacentrum.nl/en/professionals/researchers/jan](https://www.prinsesmaximacentrum.nl/en/professionals/researchers/jan-molenaar) |
+| 26 | Brunton, Valerie G | 4 | 2010–2025 | Professor and group leader, adhesion signalling in cancer progression, Edinburgh Cancer Research Centre, University of Edinburgh | [sarcomaaccelerator.org.uk/professor-val-brunton](https://sarcomaaccelerator.org.uk/professor-val-brunton/) |
+| 27 | Myant, Kevin | 4 | 2010–2025 | Group leader, Myant group (RAC1 and splicing in colorectal cancer), Institute of Genetics and Cancer, University of Edinburgh | [institute-genetics-cancer.ed.ac.uk/research/research-groups-](https://institute-genetics-cancer.ed.ac.uk/research/research-groups-a-z/myant-group) |
+| 28 | Jay, Philippe | 4 | 2001–2011 | Research Director (DR1) and team leader, Self-renewal and Differentiation of Epithelia, Institut de Génomique Fonctionnelle, Montpellier | [www.igf.cnrs.fr/en/teams/team-jay](https://www.igf.cnrs.fr/en/teams/team-jay/) |
+| 29 | Cumano, Ana | 4 | 1996–2010 | Head of the Lymphopoiesis unit, Institut Pasteur, Paris | [research.pasteur.fr/en/member/ana-cumano](https://research.pasteur.fr/en/member/ana-cumano/) |
+| 30 | Georgopoulos, K | 4 | 1987–1993 | MGH Research Scholar; head of the Georgopoulos Laboratory (identified the IKAROS family). Overlapped with Clevers in the Terhorst lab at Dana-Farber in the 1980s, Massachusetts General Hospital / Harvard Medical School | [www.massgeneral.org/dermatology/research/cutaneous-biology-r](https://www.massgeneral.org/dermatology/research/cutaneous-biology-research-center/faculty-labs/katia-georgopoulos-lab) |
+| 31 | Kops, Geert J P L | 3 | 2015–2019 | Director of the Hubrecht Institute; group leader, chromosome segregation; professor at UMC Utrecht, Hubrecht Institute, Utrecht | [www.hubrecht.eu/research-groups/kops-group](https://www.hubrecht.eu/research-groups/kops-group/) |
+| 32 | Ritsma, Laila | 3 | 2014–2020 | Group leader, Cell Signaling Dynamics (own team: postdoc, PhD student, two technicians), Leiden University Medical Center, Cell & Chemical Biology | [ccb.lumc.nl/research/cell-signaling-dynamics-166/laila-ritsm](https://ccb.lumc.nl/research/cell-signaling-dynamics-166/laila-ritsma-70) |
+| 33 | Kuiper, Roland P | 3 | 2015–2025 | Full professor (UMC Utrecht) and Senior Principal Investigator; leads the Kuiper group, Princess Máxima Center for Pediatric Oncology, Utrecht | [www.prinsesmaximacentrum.com/research/research/our-research-](https://www.prinsesmaximacentrum.com/research/research/our-research-groups/kuiper-group/) |
+| 34 | Kuball, Jürgen | 3 | 2022–2024 | Professor; Chair of the Department of Haematology and Director of the Bone Marrow Transplantation Programme (Kuball laboratory), UMC Utrecht | [www.kuball-laboratories.com](https://www.kuball-laboratories.com/) |
+| 35 | Sebestyen, Zsolt | 3 | 2022–2024 | Principal Investigator, Tumorimmunology, UMC Utrecht | [www.kuball-laboratories.com/people](https://www.kuball-laboratories.com/people) |
+| 36 | Tanenbaum, Marvin E | 3 | 2020–2026 | Senior group leader (Hubrecht), Professor of Gene Expression Dynamics at TU Delft, Oncode Investigator, Hubrecht Institute / TU Delft | [www.hubrecht.eu/research-groups/tanenbaum-group](https://www.hubrecht.eu/research-groups/tanenbaum-group/) |
+| 37 | de Krijger, Ronald R | 3 | 2020–2025 | Professor of Pathology of solid paediatric tumours; pathologist at the Princess Máxima (from Jan 2026 at Helse Fonna, Norway), UMC Utrecht / Princess Máxima Center | [www.umcutrecht.nl/en/research/researchers/de-krijger-ronald-](https://www.umcutrecht.nl/en/research/researchers/de-krijger-ronald-rr) |
+| 38 | Wiener, Dominique J | 3 | 2018–2019 | Clinical Associate Professor of Anatomic Pathology; Director of the dermatopathology specialty service, Texas A&M University College of Veterinary Medicine | [vetmed.tamu.edu/dermatopathology-lab/staff-information/domin](https://vetmed.tamu.edu/dermatopathology-lab/staff-information/dominique-wiener/) |
+| 39 | Pieters, Rob | 3 | 2020–2024 | Chief Máxima International (Chief Medical Officer 2013-2025); Professor of Paediatric Oncology, Utrecht University; President-elect of SIOP, Princess Máxima Center for Pediatric Oncology, Utrecht | [www.prinsesmaximacentrum.nl/en/news/rob-pieters-started-as-c](https://www.prinsesmaximacentrum.nl/en/news/rob-pieters-started-as-chief-maxima-international) |
+| 40 | van Jaarsveld, Richard H | 3 | 2015–2019 | Principal Investigator, Genome Diagnostics, UMC Utrecht | [research.umcutrecht.nl/researchers/richard-van-jaarsveld](https://research.umcutrecht.nl/researchers/richard-van-jaarsveld/) |
+| 41 | Peifer, M | 3 | 1997–1999 | Michael Hooker Distinguished Professor of Biology (Peifer lab: cell adhesion, Wnt signalling), University of North Carolina at Chapel Hill | [bio.unc.edu/people/faculty/peifer](http://bio.unc.edu/people/faculty/peifer/) |
+| 42 | Robine, Sylvie | 3 | 2005–2012 | Directeur de Recherche, Department of Cell Biology and Development, Institut Curie, Paris | [institut-curie.org](https://institut-curie.org/) |
+| 43 | Guryev, Victor | 3 | 2008–2010 | Team leader / professor, structural genome variation in ageing (head of bioinformatics at the Hubrecht until 2012), ERIBA, University Medical Center Groningen | [eriba.umcg.nl/people/victor-guryev](https://eriba.umcg.nl/people/victor-guryev/) |
+| 44 | Siersema, Peter D | 3 | 2010–2011 | Professor of Gastrointestinal Endoscopy (Radboudumc 2016-2023, then Erasmus MC), Erasmus MC, Rotterdam | [www.erasmusmc.nl/en/research/researchers/siersema-peter](https://www.erasmusmc.nl/en/research/researchers/siersema-peter) |
+| 45 | Van den Brink, Gijs R | 3 | 2010–2013 | SVP and Global Head of Immunology, Infectious Diseases and Ophthalmology Discovery (previously Professor of Experimental Gastroenterology, Tytgat Institute), Roche | [www.roche.com](https://www.roche.com/) |
+| 46 | Wright, Nicholas A | 3 | 2010–2012 | Emeritus Professor of Histopathology; former Warden of Barts and The London, Barts Cancer Institute, Queen Mary University of London | [www.bci.qmul.ac.uk/staff/professor-sir-nicholas-wright](https://www.bci.qmul.ac.uk/staff/professor-sir-nicholas-wright/) |
+| 47 | Freund, Jean-Noel | 3 | 2000–2011 | Research Director; Unit Director and Team 1 leader, INSERM UMR_S1113, INSERM / University of Strasbourg | [u1113-inserm.fr/en/chart/jean-noel-freund](https://u1113-inserm.fr/en/chart/jean-noel-freund/) |
+| 48 | Lanier, L L | 3 | 1999–2003 | American Cancer Society Professor and Distinguished Professor Emeritus; Lanier lab, University of California, San Francisco | [lanierlab.ucsf.edu](https://lanierlab.ucsf.edu/) |
+| 49 | Low, Teck Y | 3 | 2011–2012 | Associate Professor and Senior Research Fellow; leads the cancer proteomics and metabolomics group, UKM Medical Molecular Biology Institute, National University of Malaysia | [www.ukm.my/umbi/dr-low-teck-yew](https://www.ukm.my/umbi/dr-low-teck-yew/) |
+| 50 | Moorman, Antoon F M | 3 | 1997–2011 | Emeritus Professor, Department of Medical Biology (cardiac development), Amsterdam UMC | [scholar.google.com/citations?user=upAOTdwAAAAJ](https://scholar.google.com/citations?user=upAOTdwAAAAJ) |
+| 51 | Smits, R | 3 | 1999–2001 | Assistant Professor, Department of Gastroenterology and Hepatology, Erasmus MC, Rotterdam | [www.erasmusmc.nl/en/research/researchers/smits-mjm](https://www.erasmusmc.nl/en/research/researchers/smits-mjm) |
+| 52 | Lokhorst, Henk M | 3 | 1998–2004 | Professor of Haematology, Amsterdam UMC (VUmc) | [www.researchgate.net/profile/Henk-Lokhorst](https://www.researchgate.net/profile/Henk-Lokhorst) |
 
 ## 4. External co-authors, settled from the publication data
 
-103 of the remaining candidates were resolved without a web search: their own affiliation on the shared papers names another institution, so they were never members of the Clevers group and fall outside the alumni question. Their PI status was therefore not researched — many of them plainly do lead groups. They are listed for completeness and so the coverage arithmetic adds up.
+106 of the remaining candidates were resolved without a web search: their own affiliation on the shared papers names another institution, so they were never members of the Clevers group and fall outside the alumni question. Their PI status was therefore not researched — many of them plainly do lead groups. They are listed for completeness and so the coverage arithmetic adds up.
 
 | # | Name | Papers | Years co-authoring | Affiliation PubMed records for them |
 | ---: | --- | ---: | --- | --- |
@@ -279,6 +306,9 @@ These people head their own groups but did so independently of the Clevers lab �
 | 101 | Meddens, Claartje A | 3 | 2013–2025 | Wilhelmina Children's Hospital, University Medical Center Utrecht |
 | 102 | Reimann, Frank | 3 | 2013–2018 | Metabolic Research Laboratories, Wellcome Trust-MRC Institute of Metabolic Science |
 | 103 | Shen, Lianju | 3 | 2013–2022 | Fudan University Shanghai Cancer Center |
+| 104 | Wu, Shaoguang | 3 | 2020–2025 | Johns Hopkins University, Baltimore |
+| 105 | Poulsom, Richard | 3 | 2010–2012 | Queen Mary University of London |
+| 106 | Schutte, Mieke | 3 | 2001–2009 | Erasmus MC, Rotterdam |
 
 ## 5. Checked but unresolved
 
@@ -287,153 +317,131 @@ Searched, but no source found that settles whether they now lead a group. Mostly
 | # | Name | Papers | Years with Clevers | What is known |
 | ---: | --- | ---: | --- | --- |
 | 1 | Dekkers, Johanna F | 14 | 2013–2024 | Developed BEHAV3D immuno-organoid imaging at the Princess Máxima; independent group leadership not confirmed by the sources found |
-| 2 | Ringnalda, Femke C A S | 11 | 2013–2025 | Clevers group member; current position not established |
-| 3 | Heo, Inha | 8 | 2013–2021 | Postdoc in the Clevers group; current position not established |
-| 4 | Lyubimova, Anna | 8 | 2011–2019 | Worked at the Hubrecht and the Weizmann Institute; current position not established |
-| 5 | van Noort, Mascha | 8 | 2001–2007 | Clevers group (beta-catenin phosphorylation); current position not established |
-| 6 | Wang, Daisong | 8 | 2018–2025 | Postdoc in the Clevers group, still co-authoring in 2025-2026; no independent group found |
-| 7 | Blokzijl, Francis | 7 | 2014–2017 | Postdoc (van Oudenaarden group, Hubrecht); current position not established |
-| 8 | Hu, Huili | 7 | 1993–2023 | Based at the Key Laboratory of Experimental Teratology, Department of Genetics, Shandong University; visited the Hubrecht in 2016 - group leadership not confirmed |
-| 9 | Bannier-Hélaouët, Marie | 7 | 2017–2025 | PhD student in the Clevers group (thesis 'Modeling the ocular surface with organoid technology', defended 12 Apr 2023); current position not established |
-| 10 | Millen, Rosemary | 7 | 2021–2024 | Clevers group co-author; current position not established |
-| 11 | Kim, Seok-Young | 7 | 2017–2025 | Clevers group co-author — current position not established |
-| 12 | Gracanin, Ana | 6 | 2013–2020 | Not resolved - search returned a different person of the same name |
-| 13 | Oving, Irma M | 6 | 2002–2009 | Clevers group; current position not established |
-| 14 | Schutgens, Frans | 6 | 2015–2021 | Current position not established |
-| 15 | Sasselli, Valentina | 6 | 2013–2017 | Clevers group co-author (enteric nervous system / organoids) — current position not established |
-| 16 | Overmeer, René M | 6 | 2015–2023 | Clevers group co-author; likely HUB Organoids — current position not established |
-| 17 | Chen, Chin-Tung | 6 | 2015–2022 | Clevers group co-author — current position not established |
-| 18 | Jaksani, Sridevi | 5 | 2015–2023 | Current position not established |
-| 19 | DeMartino, Jeff | 5 | 2022–2024 | Clevers/Máxima co-author; search returned a different person of the same name |
-| 20 | Saftien, Aurelia | 5 | 2020–2024 | Clevers group co-author (microbiome/organoids) — current position not established |
-| 21 | Ng, Ser Sue | 5 | 2009–2025 | Clevers group co-author (Wnt/Axin1) — current position not established |
-| 22 | Wehrens, Ellen J | 4 | 2019–2024 | Researcher at the Princess Máxima (live-cell imaging of T-cell behaviour); independent group leadership not confirmed |
-| 23 | Giladi, Amir | 3 | 2024–2026 | Immunologist, formerly Weizmann Institute; several people share this name and the current position could not be pinned down |
-| 24 | Balážová, Katarína | 3 | 2023–2026 | Recent Clevers group member (lung organoids) — current position not established |
-| 25 | de Groot, Reinoud E A | 3 | 2013–2020 | Clevers/Korswagen co-author (retromer, Wls recycling) — current position not established |
-| 26 | Boymans, Sander | 3 | 2013–2017 | Bioinformatician, Utrecht (Cuppen/van Boxtel orbit) — current position not established |
-| 27 | Vivié, Judith A | 3 | 2019–2024 | Single-cell sequencing, Hubrecht (van Oudenaarden orbit) — current position not established |
-| 28 | Candelli, Tito | 3 | 2020–2025 | Bioinformatician, Princess Máxima — current position not established |
+| 2 | Oosterwegel, M A | 12 | 1991–1996 | PhD student in the Utrecht immunology department (TCF-1/LEF-1); later at the NKI — current position not confirmed by the search |
+| 3 | Ringnalda, Femke C A S | 11 | 2013–2025 | Clevers group member; current position not established |
+| 4 | Heo, Inha | 8 | 2013–2021 | Postdoc in the Clevers group; current position not established |
+| 5 | Lyubimova, Anna | 8 | 2011–2019 | Worked at the Hubrecht and the Weizmann Institute; current position not established |
+| 6 | van Noort, Mascha | 8 | 2001–2007 | Clevers group (beta-catenin phosphorylation); current position not established |
+| 7 | Wang, Daisong | 8 | 2018–2025 | Postdoc in the Clevers group, still co-authoring in 2025-2026; no independent group found |
+| 8 | Blokzijl, Francis | 7 | 2014–2017 | Postdoc (van Oudenaarden group, Hubrecht); current position not established |
+| 9 | Hu, Huili | 7 | 1993–2023 | Based at the Key Laboratory of Experimental Teratology, Department of Genetics, Shandong University; visited the Hubrecht in 2016 - group leadership not confirmed |
+| 10 | Bannier-Hélaouët, Marie | 7 | 2017–2025 | PhD student in the Clevers group (thesis 'Modeling the ocular surface with organoid technology', defended 12 Apr 2023); current position not established |
+| 11 | Millen, Rosemary | 7 | 2021–2024 | Clevers group co-author; current position not established |
+| 12 | Kim, Seok-Young | 7 | 2017–2025 | Clevers group co-author — current position not established |
+| 13 | Winton, Douglas J | 7 | 2004–2025 | Long-standing collaborator (Cambridge/CRUK, Apc lineage tracing) — current position not confirmed by the search |
+| 14 | Wiebrands, Kay | 7 | 2015–2019 | Single-cell sequencing, Hubrecht (van Oudenaarden orbit) — current position not established |
+| 15 | Gracanin, Ana | 6 | 2013–2020 | Not resolved - search returned a different person of the same name |
+| 16 | Oving, Irma M | 6 | 2002–2009 | Clevers group; current position not established |
+| 17 | Schutgens, Frans | 6 | 2015–2021 | Current position not established |
+| 18 | Sasselli, Valentina | 6 | 2013–2017 | Clevers group co-author (enteric nervous system / organoids) — current position not established |
+| 19 | Overmeer, René M | 6 | 2015–2023 | Clevers group co-author; likely HUB Organoids — current position not established |
+| 20 | Chen, Chin-Tung | 6 | 2015–2022 | Clevers group co-author — current position not established |
+| 21 | Jaksani, Sridevi | 5 | 2015–2023 | Current position not established |
+| 22 | DeMartino, Jeff | 5 | 2022–2024 | Clevers/Máxima co-author; search returned a different person of the same name |
+| 23 | Saftien, Aurelia | 5 | 2020–2024 | Clevers group co-author (microbiome/organoids) — current position not established |
+| 24 | Ng, Ser Sue | 5 | 2009–2025 | Clevers group co-author (Wnt/Axin1) — current position not established |
+| 25 | Nijman, Isaac Johannes | 5 | 2008–2017 | Utrecht sequencing/bioinformatics co-author — current position not established |
+| 26 | Wehrens, Ellen J | 4 | 2019–2024 | Researcher at the Princess Máxima (live-cell imaging of T-cell behaviour); independent group leadership not confirmed |
+| 27 | Zivkovic, Danica | 4 | 2001–2007 | Former zebrafish group leader at the Hubrecht Laboratory — current position not confirmed by the search |
+| 28 | Medema, René H | 4 | 1998–2005 | Director/group leader at the Netherlands Cancer Institute — current position not confirmed by the search |
+| 29 | Pinto, Daniel | 4 | 2003–2005 | PhD student in the Clevers group (Dkk1 transgenics, Wnt in crypt homeostasis) — current position not established |
+| 30 | Bleijs, Margit | 4 | 2019–2023 | Princess Máxima co-author (paediatric tumour organoids) — current position not established |
+| 31 | Asra, Priyanca | 4 | 2018–2021 | Princess Máxima co-author — current position not established |
+| 32 | Derakhshan, Sepideh | 4 | 2019–2020 | Princess Máxima co-author — current position not established |
+| 33 | Giladi, Amir | 3 | 2024–2026 | Immunologist, formerly Weizmann Institute; several people share this name and the current position could not be pinned down |
+| 34 | Balážová, Katarína | 3 | 2023–2026 | Recent Clevers group member (lung organoids) — current position not established |
+| 35 | de Groot, Reinoud E A | 3 | 2013–2020 | Clevers/Korswagen co-author (retromer, Wls recycling) — current position not established |
+| 36 | Boymans, Sander | 3 | 2013–2017 | Bioinformatician, Utrecht (Cuppen/van Boxtel orbit) — current position not established |
+| 37 | Vivié, Judith A | 3 | 2019–2024 | Single-cell sequencing, Hubrecht (van Oudenaarden orbit) — current position not established |
+| 38 | Candelli, Tito | 3 | 2020–2025 | Bioinformatician, Princess Máxima — current position not established |
+| 39 | Abo, Arie | 3 | 2009–2012 | Co-founder/CSO of Surrozen (R-spondin surrogates) — current position not confirmed by the search |
+| 40 | de Barbanson, Buys | 3 | 2020–2021 | Bioinformatics, Hubrecht; ResearchGate lists him as a company founder — current position not established |
 
-## 6. Candidates not yet checked
+## 6. Still in the group — the alumni question does not apply yet
 
-The remaining 113 people in the candidate pool, in descending order of joint papers. Each still needs one search. Tier A means a Hubrecht/NIOB/Máxima/Utrecht-immunology affiliation is documented in PubMed; tier C means they are a pre-2014 co-author whose affiliation PubMed never recorded, so the list contains both further lab members and external collaborators.
+32 candidates are still co-authoring with the group (most recent shared paper in 2024 or later) and hold a documented Hubrecht/Máxima affiliation. They are current members rather than alumni, so they were not searched for independent group leadership. Determined from the publication record, not from a web search.
+
+| # | Name | Papers | First co-pub | Last co-pub |
+| ---: | --- | ---: | ---: | ---: |
+| 1 | van den Born, Maaike M W | 35 | 2002 | 2025 |
+| 2 | de Lau, Wim B M | 26 | 1992 | 2025 |
+| 3 | van Son, Gijs J F | 15 | 2019 | 2026 |
+| 4 | van de Wetering, Willine J | 14 | 2020 | 2026 |
+| 5 | Van den Brink, Stieneke | 11 | 2010 | 2025 |
+| 6 | Geurts, Veerle E | 10 | 2019 | 2026 |
+| 7 | Boot, Charelle | 10 | 2020 | 2026 |
+| 8 | Lin, Lin | 10 | 2022 | 2025 |
+| 9 | Oka, Rurika | 8 | 2019 | 2024 |
+| 10 | Krueger, Daniel | 8 | 2024 | 2026 |
+| 11 | Ammerlaan, Carola M E | 7 | 2019 | 2026 |
+| 12 | Martinez-Silgado, Adriana | 7 | 2020 | 2024 |
+| 13 | Zheng, Xuan | 6 | 2012 | 2026 |
+| 14 | Akkerman, Ninouk | 6 | 2021 | 2026 |
+| 15 | Sanders, Karin | 6 | 2021 | 2025 |
+| 16 | Wijnakker, Joost J A P M | 5 | 2024 | 2026 |
+| 17 | He, Gui-Wei | 4 | 2019 | 2024 |
+| 18 | Vermeulen, Marijn A | 4 | 2019 | 2025 |
+| 19 | Yengej, Fjodor A Yousef | 4 | 2019 | 2024 |
+| 20 | Huang, Lulu | 4 | 2024 | 2026 |
+| 21 | Verlaan-Klink, Ingrid | 3 | 2016 | 2025 |
+| 22 | Heinz, Maria C | 3 | 2020 | 2025 |
+| 23 | Lijnzaad, Philip | 3 | 2020 | 2025 |
+| 24 | Celotti, Martina | 3 | 2023 | 2024 |
+| 25 | Derks, Lucca L M | 3 | 2023 | 2024 |
+| 26 | Jansen, Suze A | 3 | 2023 | 2025 |
+| 27 | Massalini, Simone | 3 | 2023 | 2024 |
+| 28 | Zoutendijk, Iris | 3 | 2023 | 2024 |
+| 29 | Schreurs, Robin | 3 | 2024 | 2025 |
+| 30 | Willemsen, Sam | 3 | 2024 | 2025 |
+| 31 | van Rijt, Fenna L H | 3 | 2024 | 2026 |
+| 32 | Verweij, Laurens H G | 3 | 2025 | 2025 |
+
+## 7. Candidates not yet checked
+
+The remaining 40 people in the candidate pool, in descending order of joint papers. Each still needs one search. Tier A means a Hubrecht/NIOB/Máxima/Utrecht-immunology affiliation is documented in PubMed; tier C means they are a pre-2014 co-author whose affiliation PubMed never recorded, so the list contains both further lab members and external collaborators.
 
 | # | Name | Papers | First co-pub | Last co-pub | Tier |
 | ---: | --- | ---: | ---: | ---: | :---: |
-| 1 | van den Born, Maaike M W | 35 | 2002 | 2025 | A |
-| 2 | de Lau, Wim B M | 26 | 1992 | 2025 | A |
-| 3 | van Son, Gijs J F | 15 | 2019 | 2026 | A |
-| 4 | van de Wetering, Willine J | 14 | 2020 | 2026 | A |
-| 5 | Oosterwegel, M A | 12 | 1991 | 1996 | A |
-| 6 | Schilham, M W | 11 | 1993 | 2000 | A |
-| 7 | Van den Brink, Stieneke | 11 | 2010 | 2025 | A |
-| 8 | Wijngaard, P L | 10 | 1991 | 1997 | A |
-| 9 | Taketo, Makoto M | 10 | 2003 | 2025 | A |
-| 10 | Geurts, Veerle E | 10 | 2019 | 2026 | A |
-| 11 | Boot, Charelle | 10 | 2020 | 2026 | A |
-| 12 | Lin, Lin | 10 | 2022 | 2025 | A |
-| 13 | Dooijes, D | 9 | 1991 | 2000 | A |
-| 14 | Moerer, Petra | 9 | 1996 | 2002 | C |
-| 15 | Oka, Rurika | 8 | 2019 | 2024 | A |
-| 16 | Krueger, Daniel | 8 | 2024 | 2026 | A |
-| 17 | Molenaar, Martijn R | 7 | 1996 | 2017 | A |
-| 18 | van Beest, M | 7 | 1997 | 2006 | A |
-| 19 | Wiebrands, Kay | 7 | 2015 | 2019 | A |
-| 20 | Vonk, Annelotte M | 7 | 2016 | 2019 | A |
-| 21 | Ammerlaan, Carola M E | 7 | 2019 | 2026 | A |
-| 22 | Martinez-Silgado, Adriana | 7 | 2020 | 2024 | A |
-| 23 | Terhorst, C | 7 | 1987 | 1989 | C |
-| 24 | Winton, Douglas J | 7 | 2004 | 2025 | C |
-| 25 | Metzelaar, M J | 6 | 1991 | 1995 | A |
-| 26 | Zheng, Xuan | 6 | 2012 | 2026 | A |
-| 27 | Akkerman, Ninouk | 6 | 2021 | 2026 | A |
-| 28 | Sanders, Karin | 6 | 2021 | 2025 | A |
-| 29 | Dunlap, S | 6 | 1987 | 1990 | C |
-| 30 | Lamers, W H | 6 | 1996 | 1998 | C |
-| 31 | Castrop, J | 5 | 1992 | 1997 | A |
-| 32 | Santos, M M | 5 | 1996 | 2000 | A |
-| 33 | Nijman, Isaac Johannes | 5 | 2008 | 2017 | A |
-| 34 | Hamer, Karien | 5 | 2013 | 2023 | A |
-| 35 | Kruisselbrink, Evelien | 5 | 2016 | 2020 | A |
-| 36 | Wijnakker, Joost J A P M | 5 | 2024 | 2026 | A |
-| 37 | Baldwin, C L | 5 | 1990 | 1996 | C |
-| 38 | Wilson, A | 5 | 1995 | 1998 | C |
-| 39 | Grosschedl, Rudolf | 5 | 1996 | 2004 | C |
-| 40 | Marx, J J | 5 | 1996 | 2000 | C |
-| 41 | Danenberg, Esther | 5 | 2008 | 2010 | C |
-| 42 | Brantjes, Helen | 4 | 1998 | 2003 | A |
-| 43 | Pinto, Daniel | 4 | 2003 | 2005 | A |
-| 44 | Asra, Priyanca | 4 | 2018 | 2021 | A |
-| 45 | Bleijs, Margit | 4 | 2019 | 2023 | A |
-| 46 | Derakhshan, Sepideh | 4 | 2019 | 2020 | A |
-| 47 | He, Gui-Wei | 4 | 2019 | 2024 | A |
-| 48 | Kolders, Sigrid | 4 | 2019 | 2020 | A |
-| 49 | Vermeulen, Marijn A | 4 | 2019 | 2025 | A |
-| 50 | Yengej, Fjodor A Yousef | 4 | 2019 | 2024 | A |
-| 51 | van der Linden, Reinier | 4 | 2020 | 2023 | A |
-| 52 | Huang, Lulu | 4 | 2024 | 2026 | A |
-| 53 | Ballieux, R E | 4 | 1985 | 1986 | C |
-| 54 | Gmelig-Meyling, F H | 4 | 1985 | 1986 | C |
-| 55 | Georgopoulos, K | 4 | 1987 | 1993 | C |
-| 56 | Cumano, Ana | 4 | 1996 | 2010 | C |
-| 57 | de Sousa, M | 4 | 1996 | 2000 | C |
-| 58 | Mortin, M A | 4 | 1997 | 2000 | C |
-| 59 | Hurenkamp, J | 4 | 1998 | 1999 | C |
-| 60 | Medema, René H | 4 | 1998 | 2005 | C |
-| 61 | Jay, Philippe | 4 | 2001 | 2011 | C |
-| 62 | Meeldijk, Jan | 4 | 2001 | 2003 | C |
-| 63 | Zivkovic, Danica | 4 | 2001 | 2007 | C |
-| 64 | Brunton, Valerie G | 4 | 2010 | 2025 | C |
-| 65 | Myant, Kevin | 4 | 2010 | 2025 | C |
-| 66 | Ya, J | 3 | 1996 | 1998 | A |
-| 67 | van der Vuurst de Vries, A R | 3 | 1999 | 2003 | A |
-| 68 | van de Born, Maaike | 3 | 2005 | 2014 | A |
-| 69 | Ten Klooster, Jean Paul | 3 | 2009 | 2012 | A |
-| 70 | van der Elst, Stefan | 3 | 2014 | 2020 | A |
-| 71 | Verlaan-Klink, Ingrid | 3 | 2016 | 2025 | A |
-| 72 | Heinz, Maria C | 3 | 2020 | 2025 | A |
-| 73 | Koomen, Mandy | 3 | 2020 | 2023 | A |
-| 74 | Lijnzaad, Philip | 3 | 2020 | 2025 | A |
-| 75 | Wu, Shaoguang | 3 | 2020 | 2025 | A |
-| 76 | de Barbanson, Buys | 3 | 2020 | 2021 | A |
-| 77 | Celotti, Martina | 3 | 2023 | 2024 | A |
-| 78 | Derks, Lucca L M | 3 | 2023 | 2024 | A |
-| 79 | Jansen, Suze A | 3 | 2023 | 2025 | A |
-| 80 | Massalini, Simone | 3 | 2023 | 2024 | A |
-| 81 | Zoutendijk, Iris | 3 | 2023 | 2024 | A |
-| 82 | Schreurs, Robin | 3 | 2024 | 2025 | A |
-| 83 | Willemsen, Sam | 3 | 2024 | 2025 | A |
-| 84 | van Rijt, Fenna L H | 3 | 2024 | 2026 | A |
-| 85 | Verweij, Laurens H G | 3 | 2025 | 2025 | A |
-| 86 | Wileman, T E | 3 | 1988 | 1988 | C |
-| 87 | Kaushal, A | 3 | 1990 | 1992 | C |
-| 88 | Owen, M J | 3 | 1991 | 1995 | C |
-| 89 | Young, J R | 3 | 1991 | 1992 | C |
-| 90 | Davis, W C | 3 | 1993 | 1996 | C |
-| 91 | de Weger, R A | 3 | 1993 | 1997 | C |
-| 92 | Hofhuis, Frans | 3 | 1995 | 2012 | C |
-| 93 | Jones, T | 3 | 1997 | 2000 | C |
-| 94 | Moorman, Antoon F M | 3 | 1997 | 2011 | C |
-| 95 | Peifer, M | 3 | 1997 | 1999 | C |
-| 96 | Lokhorst, Henk M | 3 | 1998 | 2004 | C |
-| 97 | Kielman, Menno | 3 | 1999 | 2005 | C |
-| 98 | Lanier, L L | 3 | 1999 | 2003 | C |
-| 99 | Phillips, J H | 3 | 1999 | 2003 | C |
-| 100 | Smits, R | 3 | 1999 | 2001 | C |
-| 101 | Duluc, Isabelle | 3 | 2000 | 2011 | C |
-| 102 | Freund, Jean-Noel | 3 | 2000 | 2011 | C |
-| 103 | Schutte, Mieke | 3 | 2001 | 2009 | C |
-| 104 | Jonkheer, Suzanne | 3 | 2004 | 2005 | C |
-| 105 | Robine, Sylvie | 3 | 2005 | 2012 | C |
-| 106 | Wilkins, Julie A | 3 | 2007 | 2025 | C |
-| 107 | Guryev, Victor | 3 | 2008 | 2010 | C |
-| 108 | Abo, Arie | 3 | 2009 | 2012 | C |
-| 109 | Poulsom, Richard | 3 | 2010 | 2012 | C |
-| 110 | Siersema, Peter D | 3 | 2010 | 2011 | C |
-| 111 | Van den Brink, Gijs R | 3 | 2010 | 2013 | C |
-| 112 | Wright, Nicholas A | 3 | 2010 | 2012 | C |
-| 113 | Low, Teck Y | 3 | 2011 | 2012 | C |
+| 1 | Wijngaard, P L | 10 | 1991 | 1997 | A |
+| 2 | Dooijes, D | 9 | 1991 | 2000 | A |
+| 3 | Moerer, Petra | 9 | 1996 | 2002 | C |
+| 4 | van Beest, M | 7 | 1997 | 2006 | A |
+| 5 | Metzelaar, M J | 6 | 1991 | 1995 | A |
+| 6 | Dunlap, S | 6 | 1987 | 1990 | C |
+| 7 | Lamers, W H | 6 | 1996 | 1998 | C |
+| 8 | Castrop, J | 5 | 1992 | 1997 | A |
+| 9 | Santos, M M | 5 | 1996 | 2000 | A |
+| 10 | Hamer, Karien | 5 | 2013 | 2023 | A |
+| 11 | Kruisselbrink, Evelien | 5 | 2016 | 2020 | A |
+| 12 | Baldwin, C L | 5 | 1990 | 1996 | C |
+| 13 | Wilson, A | 5 | 1995 | 1998 | C |
+| 14 | Marx, J J | 5 | 1996 | 2000 | C |
+| 15 | Danenberg, Esther | 5 | 2008 | 2010 | C |
+| 16 | Kolders, Sigrid | 4 | 2019 | 2020 | A |
+| 17 | van der Linden, Reinier | 4 | 2020 | 2023 | A |
+| 18 | Ballieux, R E | 4 | 1985 | 1986 | C |
+| 19 | Gmelig-Meyling, F H | 4 | 1985 | 1986 | C |
+| 20 | de Sousa, M | 4 | 1996 | 2000 | C |
+| 21 | Mortin, M A | 4 | 1997 | 2000 | C |
+| 22 | Hurenkamp, J | 4 | 1998 | 1999 | C |
+| 23 | Meeldijk, Jan | 4 | 2001 | 2003 | C |
+| 24 | Ya, J | 3 | 1996 | 1998 | A |
+| 25 | van der Vuurst de Vries, A R | 3 | 1999 | 2003 | A |
+| 26 | van de Born, Maaike | 3 | 2005 | 2014 | A |
+| 27 | van der Elst, Stefan | 3 | 2014 | 2020 | A |
+| 28 | Koomen, Mandy | 3 | 2020 | 2023 | A |
+| 29 | Wileman, T E | 3 | 1988 | 1988 | C |
+| 30 | Kaushal, A | 3 | 1990 | 1992 | C |
+| 31 | Owen, M J | 3 | 1991 | 1995 | C |
+| 32 | Young, J R | 3 | 1991 | 1992 | C |
+| 33 | Davis, W C | 3 | 1993 | 1996 | C |
+| 34 | de Weger, R A | 3 | 1993 | 1997 | C |
+| 35 | Hofhuis, Frans | 3 | 1995 | 2012 | C |
+| 36 | Jones, T | 3 | 1997 | 2000 | C |
+| 37 | Kielman, Menno | 3 | 1999 | 2005 | C |
+| 38 | Phillips, J H | 3 | 1999 | 2003 | C |
+| 39 | Jonkheer, Suzanne | 3 | 2004 | 2005 | C |
+| 40 | Wilkins, Julie A | 3 | 2007 | 2025 | C |
 
 ---
 

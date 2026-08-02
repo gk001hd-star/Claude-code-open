@@ -81,7 +81,13 @@ def main():
     unknown.sort(key=lambda k: -npapers(k))
     external.sort(key=lambda k: -npapers(k))
 
-    unchecked = [c for c in cands if c["key"] not in pis]
+    remaining = [c for c in cands if c["key"] not in pis]
+    # People still co-publishing with the group are current members, not alumni:
+    # the "did they become a PI" question does not apply to them yet.
+    current = [c for c in remaining
+               if c["tier"] == "A" and str(c["last"]).isdigit() and int(c["last"]) >= 2024]
+    unchecked = [c for c in remaining if c not in current]
+    current.sort(key=lambda c: -c["papers"])
     unchecked.sort(key=lambda c: -c["papers"])
 
     o = []
@@ -106,6 +112,7 @@ def main():
         f"| → confirmed *not* in a research-leadership role | {len(no_lead)} |\n"
         f"| → external co-authors, settled from affiliation data | {len(external)} |\n"
         f"| → checked but unresolved | {len(unknown)} |\n"
+        f"| → still in the group (current members, not alumni) | {len(current)} |\n"
         f"| **Not yet checked** | **{len(unchecked)}** |\n"
     )
     o.append(
@@ -113,7 +120,7 @@ def main():
         "documented Hubrecht/NIOB/Máxima/Utrecht-immunology affiliation, or is a pre-2014 "
         "co-author (the era when PubMed indexed only the first author's address). The checked "
         "set was worked through in descending order of joint papers, so it covers the most "
-        "prolific members first. **Section 5 lists every unchecked candidate by name** — this "
+        "prolific members first. **Sections 6 and 7 list every remaining candidate by name** — this "
         "document is a partial pass over a named list, not a claim to have covered everyone.\n"
     )
     o.append(
@@ -209,7 +216,19 @@ def main():
         yrs = f"{r.get('first_copublication','?')}–{r.get('last_copublication','?')}"
         o.append(f"| {i} | {r.get('name', k)} | {r.get('n','')} | {yrs} | {p['position']} |")
 
-    o.append("\n## 6. Candidates not yet checked\n")
+    o.append("\n## 6. Still in the group — the alumni question does not apply yet\n")
+    o.append(
+        f"{len(current)} candidates are still co-authoring with the group (most recent shared paper "
+        "in 2024 or later) and hold a documented Hubrecht/Máxima affiliation. They are current "
+        "members rather than alumni, so they were not searched for independent group leadership. "
+        "Determined from the publication record, not from a web search.\n"
+    )
+    o.append("| # | Name | Papers | First co-pub | Last co-pub |")
+    o.append("| ---: | --- | ---: | ---: | ---: |")
+    for i, c in enumerate(current, 1):
+        o.append(f"| {i} | {c['name']} | {c['papers']} | {c['first']} | {c['last']} |")
+
+    o.append("\n## 7. Candidates not yet checked\n")
     o.append(
         f"The remaining {len(unchecked)} people in the candidate pool, in descending order of "
         "joint papers. Each still needs one search. Tier A means a Hubrecht/NIOB/Máxima/"
@@ -240,6 +259,7 @@ def main():
     print(f"  no leadership   : {len(no_lead)}")
     print(f"  external        : {len(external)}")
     print(f"  unresolved      : {len(unknown)}")
+    print(f"  current members : {len(current)}")
     print(f"  unchecked       : {len(unchecked)}")
     print(f"wrote {out}")
 

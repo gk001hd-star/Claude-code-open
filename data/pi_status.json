@@ -2415,5 +2415,377 @@
   "source": "search inconclusive",
   "clevers_trainee": false,
   "lead_type": null
+ },
+ "Terhorst, C": {
+  "pi": true,
+  "position": "Professor of Medicine — **Clevers' own postdoctoral supervisor** (Dana-Farber/Harvard, 1986-1989), not a trainee of his",
+  "institution": "Beth Israel Deaconess Medical Center / Harvard Medical School",
+  "group_page": "https://immunologyphd.hms.harvard.edu/people/cox-terhorst",
+  "source": "Harvard Immunology PhD programme page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Grosschedl, Rudolf": {
+  "pi": true,
+  "position": "Director and Head of Cellular and Molecular Immunology 2004-2021, emeritus since 2021",
+  "institution": "Max Planck Institute of Immunobiology and Epigenetics, Freiburg",
+  "group_page": "https://www.ie-freiburg.mpg.de/person/27024/1893504",
+  "source": "MPI-IE profile",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Peifer, M": {
+  "pi": true,
+  "position": "Michael Hooker Distinguished Professor of Biology (Peifer lab: cell adhesion, Wnt signalling)",
+  "institution": "University of North Carolina at Chapel Hill",
+  "group_page": "http://bio.unc.edu/people/faculty/peifer/",
+  "source": "UNC Department of Biology",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Robine, Sylvie": {
+  "pi": true,
+  "position": "Directeur de Recherche, Department of Cell Biology and Development",
+  "institution": "Institut Curie, Paris",
+  "group_page": "https://institut-curie.org/",
+  "source": "Institut Curie / LinkedIn",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Taketo, Makoto M": {
+  "pi": true,
+  "position": "Professor, Division of Experimental Therapeutics, Graduate School of Medicine",
+  "institution": "Kyoto University",
+  "group_page": "https://sciprofiles.com/profile/1113240",
+  "source": "Kyoto University profile",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Guryev, Victor": {
+  "pi": true,
+  "position": "Team leader / professor, structural genome variation in ageing (head of bioinformatics at the Hubrecht until 2012)",
+  "institution": "ERIBA, University Medical Center Groningen",
+  "group_page": "https://eriba.umcg.nl/people/victor-guryev/",
+  "source": "ERIBA people page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Schilham, M W": {
+  "pi": false,
+  "position": "Researcher in paediatric immunology (PhD student with Clevers in Utrecht, Sox-4 knockout)",
+  "institution": "Leiden University Medical Center",
+  "group_page": "https://www.lumc.nl/patientenzorg/specialistische-centra/willem-alexander-kinderziekenhuis/voor-professionals/laboratory-for-pediatric-immunology/",
+  "source": "LUMC paediatric immunology laboratory",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Wu, Shaoguang": {
+  "pi": "not assessed",
+  "position": "External co-author — Department of Medicine",
+  "institution": "Johns Hopkins University, Baltimore",
+  "group_page": "",
+  "source": "ResearchGate; outside the alumni question",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Oosterwegel, M A": {
+  "pi": "unknown",
+  "position": "PhD student in the Utrecht immunology department (TCF-1/LEF-1); later at the NKI — current position not confirmed by the search",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Winton, Douglas J": {
+  "pi": "unknown",
+  "position": "Long-standing collaborator (Cambridge/CRUK, Apc lineage tracing) — current position not confirmed by the search",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Zivkovic, Danica": {
+  "pi": "unknown",
+  "position": "Former zebrafish group leader at the Hubrecht Laboratory — current position not confirmed by the search",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Abo, Arie": {
+  "pi": "unknown",
+  "position": "Co-founder/CSO of Surrozen (R-spondin surrogates) — current position not confirmed by the search",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Medema, René H": {
+  "pi": "unknown",
+  "position": "Director/group leader at the Netherlands Cancer Institute — current position not confirmed by the search",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Siersema, Peter D": {
+  "pi": true,
+  "position": "Professor of Gastrointestinal Endoscopy (Radboudumc 2016-2023, then Erasmus MC)",
+  "institution": "Erasmus MC, Rotterdam",
+  "group_page": "https://www.erasmusmc.nl/en/research/researchers/siersema-peter",
+  "source": "Erasmus MC researcher page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Van den Brink, Gijs R": {
+  "pi": true,
+  "position": "SVP and Global Head of Immunology, Infectious Diseases and Ophthalmology Discovery (previously Professor of Experimental Gastroenterology, Tytgat Institute)",
+  "institution": "Roche",
+  "group_page": "https://www.roche.com/",
+  "source": "RocketReach / Google Scholar",
+  "clevers_trainee": false,
+  "lead_type": "industry_lead"
+ },
+ "Wright, Nicholas A": {
+  "pi": true,
+  "position": "Emeritus Professor of Histopathology; former Warden of Barts and The London",
+  "institution": "Barts Cancer Institute, Queen Mary University of London",
+  "group_page": "https://www.bci.qmul.ac.uk/staff/professor-sir-nicholas-wright/",
+  "source": "Barts Cancer Institute",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Brunton, Valerie G": {
+  "pi": true,
+  "position": "Professor and group leader, adhesion signalling in cancer progression",
+  "institution": "Edinburgh Cancer Research Centre, University of Edinburgh",
+  "group_page": "https://sarcomaaccelerator.org.uk/professor-val-brunton/",
+  "source": "Edinburgh / Sarcoma Accelerator",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Myant, Kevin": {
+  "pi": true,
+  "position": "Group leader, Myant group (RAC1 and splicing in colorectal cancer)",
+  "institution": "Institute of Genetics and Cancer, University of Edinburgh",
+  "group_page": "https://institute-genetics-cancer.ed.ac.uk/research/research-groups-a-z/myant-group",
+  "source": "IGC group page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Freund, Jean-Noel": {
+  "pi": true,
+  "position": "Research Director; Unit Director and Team 1 leader, INSERM UMR_S1113",
+  "institution": "INSERM / University of Strasbourg",
+  "group_page": "https://u1113-inserm.fr/en/chart/jean-noel-freund/",
+  "source": "INSERM U1113",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Jay, Philippe": {
+  "pi": true,
+  "position": "Research Director (DR1) and team leader, Self-renewal and Differentiation of Epithelia",
+  "institution": "Institut de Génomique Fonctionnelle, Montpellier",
+  "group_page": "https://www.igf.cnrs.fr/en/teams/team-jay/",
+  "source": "IGF CNRS team page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Lanier, L L": {
+  "pi": true,
+  "position": "American Cancer Society Professor and Distinguished Professor Emeritus; Lanier lab",
+  "institution": "University of California, San Francisco",
+  "group_page": "https://lanierlab.ucsf.edu/",
+  "source": "Lanier lab site",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Cumano, Ana": {
+  "pi": true,
+  "position": "Head of the Lymphopoiesis unit",
+  "institution": "Institut Pasteur, Paris",
+  "group_page": "https://research.pasteur.fr/en/member/ana-cumano/",
+  "source": "Institut Pasteur",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Georgopoulos, K": {
+  "pi": true,
+  "position": "MGH Research Scholar; head of the Georgopoulos Laboratory (identified the IKAROS family). Overlapped with Clevers in the Terhorst lab at Dana-Farber in the 1980s",
+  "institution": "Massachusetts General Hospital / Harvard Medical School",
+  "group_page": "https://www.massgeneral.org/dermatology/research/cutaneous-biology-research-center/faculty-labs/katia-georgopoulos-lab",
+  "source": "Mass General laboratory page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Low, Teck Y": {
+  "pi": true,
+  "position": "Associate Professor and Senior Research Fellow; leads the cancer proteomics and metabolomics group",
+  "institution": "UKM Medical Molecular Biology Institute, National University of Malaysia",
+  "group_page": "https://www.ukm.my/umbi/dr-low-teck-yew/",
+  "source": "UKM UMBI page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Duluc, Isabelle": {
+  "pi": false,
+  "position": "Researcher, INSERM U1113 (Freund team)",
+  "institution": "INSERM / University of Strasbourg",
+  "group_page": "",
+  "source": "ResearchGate / INSERM",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Ten Klooster, Jean Paul": {
+  "pi": false,
+  "position": "Project leader, Innovative Testing in Life Sciences and Chemistry lectorate (applied-sciences research, not a university research group)",
+  "institution": "HU University of Applied Sciences Utrecht",
+  "group_page": "https://www.hu.nl/onderzoek/onderzoekers/jean-paul-ten-klooster",
+  "source": "HU Utrecht researcher page",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Poulsom, Richard": {
+  "pi": "not assessed",
+  "position": "External co-author — Centre for Digestive Diseases",
+  "institution": "Queen Mary University of London",
+  "group_page": "",
+  "source": "ResearchGate; outside the alumni question",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Schutte, Mieke": {
+  "pi": "not assessed",
+  "position": "External co-author — Department of Medical Oncology",
+  "institution": "Erasmus MC, Rotterdam",
+  "group_page": "",
+  "source": "ResearchGate; outside the alumni question",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Nijman, Isaac Johannes": {
+  "pi": "unknown",
+  "position": "Utrecht sequencing/bioinformatics co-author — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Brantjes, Helen": {
+  "pi": false,
+  "position": "Head of the Clinical Chemistry Laboratory (clinical laboratory leadership, not a research group)",
+  "institution": "BovenIJ Ziekenhuis, Amsterdam",
+  "group_page": "https://www.bovenij.nl/zorgverleners/helen-brantjes/",
+  "source": "BovenIJ hospital page; PhD student in the Clevers group (TCF/Groucho repression)",
+  "clevers_trainee": true,
+  "lead_type": "industry_lead"
+ },
+ "Molenaar, Martijn R": {
+  "pi": false,
+  "position": "Researcher in lipidomics and membrane biology",
+  "institution": "Utrecht University / EMBL",
+  "group_page": "https://sciprofiles.com/profile/1228573",
+  "source": "Google Scholar / SciProfiles",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Moorman, Antoon F M": {
+  "pi": true,
+  "position": "Emeritus Professor, Department of Medical Biology (cardiac development)",
+  "institution": "Amsterdam UMC",
+  "group_page": "https://scholar.google.com/citations?user=upAOTdwAAAAJ",
+  "source": "Google Scholar / Amsterdam UMC",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Smits, R": {
+  "pi": true,
+  "position": "Assistant Professor, Department of Gastroenterology and Hepatology",
+  "institution": "Erasmus MC, Rotterdam",
+  "group_page": "https://www.erasmusmc.nl/en/research/researchers/smits-mjm",
+  "source": "Erasmus MC researcher page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Lokhorst, Henk M": {
+  "pi": true,
+  "position": "Professor of Haematology",
+  "institution": "Amsterdam UMC (VUmc)",
+  "group_page": "https://www.researchgate.net/profile/Henk-Lokhorst",
+  "source": "ResearchGate / Amsterdam UMC",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Vonk, Annelotte M": {
+  "pi": false,
+  "position": "Programme manager for digitalisation — left research after 11 years at UMC Utrecht",
+  "institution": "Nationaal Regieorgaan Praktijkgericht Onderzoek SIA",
+  "group_page": "",
+  "source": "LinkedIn",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Pinto, Daniel": {
+  "pi": "unknown",
+  "position": "PhD student in the Clevers group (Dkk1 transgenics, Wnt in crypt homeostasis) — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Bleijs, Margit": {
+  "pi": "unknown",
+  "position": "Princess Máxima co-author (paediatric tumour organoids) — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Asra, Priyanca": {
+  "pi": "unknown",
+  "position": "Princess Máxima co-author — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Derakhshan, Sepideh": {
+  "pi": "unknown",
+  "position": "Princess Máxima co-author — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Wiebrands, Kay": {
+  "pi": "unknown",
+  "position": "Single-cell sequencing, Hubrecht (van Oudenaarden orbit) — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "de Barbanson, Buys": {
+  "pi": "unknown",
+  "position": "Bioinformatics, Hubrecht; ResearchGate lists him as a company founder — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
  }
 }
