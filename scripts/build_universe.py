@@ -22,6 +22,16 @@ DATA, WEB = os.path.join(ROOT, "data"), os.path.join(ROOT, "web")
 # 0 = Utrecht immunology, 1 = Hubrecht / NIOB, 2 = Princess Máxima
 SITES = ["IMM", "HUB", "MAX"]
 
+# The people who stayed. Paper count alone does not separate them from a
+# collaborator with a long consortium record, so they are named explicitly:
+# 1 = long-term senior scientist, 2 = long-term technician. The page gives
+# each group its own glyph.
+PILLARS = {
+    "van de wetering, m": 1, "van es, j": 1, "de lau, w": 1,
+    "zeinstra, l": 2, "van den brink, s": 2,
+    "korving, j": 2, "begthel, h": 2,
+}
+
 
 def sites_on(aff):
     """Which of the lab's homes does this one affiliation string name?"""
@@ -86,6 +96,11 @@ def build():
     tier_a = {k: r for k, r in rows.items() if r["evidence_tier"] == "A"}
     hist = site_history(pubs, tier_a)
 
+    missing = [k for k in PILLARS if k not in tier_a]
+    if missing:
+        print("warning: named pillars not found in tier A:", ", ".join(missing),
+              file=sys.stderr)
+
     papers, idx = [], {}
     for p in sorted(pubs.values(), key=lambda x: (x["year"] or 0, x["title"])):
         idx[p["pmid"]] = len(papers)
@@ -107,7 +122,8 @@ def build():
             "f": int(r["first_copublication"]), "l": int(r["last_copublication"]),
             "gf": int(r["group_affiliation_first_year"]),
             "gl": int(r["group_affiliation_last_year"]),
-            "e": e, "sv": spread, "r": roles.get(k, {}).get("role", ""),
+            "e": e, "sv": spread, "pl": PILLARS.get(k, 0),
+            "r": roles.get(k, {}).get("role", ""),
             "pi": pi.get("lead_type") or "",
             "tr": bool(pi.get("clevers_trainee", True)) if pi else True,
             "ck": bool(pi), "pos": pi.get("position", ""),
