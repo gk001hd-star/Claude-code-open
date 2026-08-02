@@ -486,8 +486,85 @@ for (let y = Y0, run = 0, k = 0; y <= Y1; y++) {
 const ARRIVALS = new Array(Y1 - Y0 + 1).fill(0);
 for (const c of cells) ARRIVALS[Math.max(0, c.p.gf - Y0)]++;
 
-let year = Y1, W = 0, H = 0, cx = 0, cy = 0, S = 20, pulse = 0, geomDirty = true;
+let year = Y1, W = 0, H = 0, cx = 0, cy = 0, U = 20, pulse = 0, geomDirty = true;
+let S = 12;   // nominal cell size, for type and label sizing
 let hover = null, picked = null, filter = null;
+
+/* ---------- the sheet, in units of one seat spacing ----------
+   Seats sit on a hex lattice, jittered, and then the cells push each other
+   apart. A cell's target radius follows its paper count, so a busy cell does
+   not just take area off the neighbour it happens to touch — it shoves the
+   neighbour outward, that one shoves the next, and the whole tissue swells.
+   The lattice is only the starting arrangement; the packing decides the rest. */
+for (const c of cells) {
+  const h = Math.sin((c.q * 12.9898 + c.r * 78.233) * 43758.5453);
+  const h2 = Math.sin((c.q * 39.3468 + c.r * 11.135) * 24634.6345);
+  const a = (h - Math.floor(h)) * Math.PI * 2;
+  const m = 0.30 * (h2 - Math.floor(h2));
+  c.sx = Math.sqrt(3) / 2 * c.q + Math.cos(a) * m;   // seat, in spacing units
+  c.sy = c.r + c.q / 2 + Math.sin(a) * m;
+  c.ux = c.sx; c.uy = c.sy;                          // where it has been pushed to
+  c.rad = 0.5;
+}
+
+const R_MIN = 0.40, R_SPAN = 0.62;
+function targetRadius(norm) { return R_MIN + R_SPAN * norm; }
+
+/* One pass of the packing: neighbours that overlap push apart, neighbours that
+   have drifted apart pull back together, and a weak tether to the seat keeps
+   the arrangement from shearing over time. */
+function relax(list, k) {
+  for (const c of list) { c.dx = 0; c.dy = 0; }
+  for (const c of list) {
+    for (const o of c.nb) {
+      if (o.p.gf > year || o.i <= c.i) continue;
+      let dx = o.ux - c.ux, dy = o.uy - c.uy;
+      let d = Math.hypot(dx, dy);
+      if (d < 1e-6) { dx = 0.01; dy = 0; d = 0.01; }
+      const want = c.rad + o.rad;
+      const slack = d - want;
+      // overlapping pushes hard; a gap pulls back gently, so the sheet stays
+      // confluent instead of drifting into islands
+      const f = slack < 0 ? slack * 0.5 : Math.min(slack, 0.5) * 0.12;
+      const ux = dx / d * f, uy = dy / d * f;
+      c.dx += ux; c.dy += uy; o.dx -= ux; o.dy -= uy;
+    }
+  }
+  let mx = 0, my = 0;
+  for (const c of list) {
+    c.ux += c.dx * k + (c.sx - c.ux) * 0.005;
+    c.uy += c.dy * k + (c.sy - c.uy) * 0.005;
+    mx += c.ux; my += c.uy;
+  }
+  // hold the centroid still, or the whole sheet wanders
+  mx = mx / list.length - anchor[0]; my = my / list.length - anchor[1];
+  for (const c of list) { c.ux -= mx; c.uy -= my; }
+}
+
+const anchor = [0, 0];   // the point the sheet is held centred on
+{
+  let a = 0, b = 0;
+  for (const c of cells) { a += c.sx; b += c.sy; }
+  anchor[0] = a / cells.length; anchor[1] = b / cells.length;
+}
+
+/* Settle the finished sheet once, so the view can be framed for how big the
+   tissue ends up rather than for the lattice it started from. */
+const FIT = (() => {
+  const root = Math.sqrt(Math.max(1, maxSoFar));
+  for (const c of cells) c.rad = targetRadius(Math.sqrt(c.byYear[NY - 1]) / root);
+  for (let n = 0; n < 260; n++) relax(cells, 1);
+  let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
+  for (const c of cells) {
+    x0 = Math.min(x0, c.ux - c.rad); x1 = Math.max(x1, c.ux + c.rad);
+    y0 = Math.min(y0, c.uy - c.rad); y1 = Math.max(y1, c.uy + c.rad);
+  }
+  for (const c of cells) { c.ux = c.sx; c.uy = c.sy; }   // back to the start
+  // hold every year's sheet on the middle of the finished one, so growth reads
+  // as the tissue spreading outward rather than sliding across the frame
+  anchor[0] = (x0 + x1) / 2; anchor[1] = (y0 + y1) / 2;
+  return { x0, x1, y0, y1 };
+})();
 
 function resize() {
   const dpr = Math.min(devicePixelRatio || 1, 2);
@@ -497,44 +574,25 @@ function resize() {
   const wide = W > 900;
   const railW = wide ? railEl.getBoundingClientRect().width : 0;
   const railH = wide ? 0 : railEl.getBoundingClientRect().height;
-  const availW = W - railW - 48, availH = H - railH - 132;
-  // fit and centre on the sheet's own bounding box — the growth is lopsided, so
-  // centring on the origin leaves it hanging off one side
-  let q0 = Infinity, q1 = -Infinity, r0 = Infinity, r1 = -Infinity;
-  for (const c of cells) {
-    q0 = Math.min(q0, c.q); q1 = Math.max(q1, c.q);
-    const rr = c.r + c.q / 2;
-    r0 = Math.min(r0, rr); r1 = Math.max(r1, rr);
-  }
-  S = Math.min(availW / ((q1 - q0) * 1.5 + 2), availH / ((r1 - r0 + 1.16) * Math.sqrt(3)));
-  S = Math.max(5, Math.min(30, S));
-  cx = railW + (W - railW) / 2 - S * 1.5 * (q0 + q1) / 2;
-  cy = railH + (H - railH - 104) / 2 - S * Math.sqrt(3) * (r0 + r1) / 2;
+  const availW = W - railW - 64, availH = H - railH - 152;
+  U = Math.max(4, Math.min(60, Math.min(availW / (FIT.x1 - FIT.x0),
+                                        availH / (FIT.y1 - FIT.y0))));
+  cx = railW + (W - railW) / 2 - U * (FIT.x0 + FIT.x1) / 2;
+  cy = railH + (H - railH - 104) / 2 - U * (FIT.y0 + FIT.y1) / 2;
+  S = U * 0.58;
   geomDirty = true;
 }
 new ResizeObserver(resize).observe(cv);
 resize();
 
 /* ---------- the tessellation ----------
-   A power diagram over the seats: each cell is the set of points closer to its
-   own site than to any neighbour's, where "closer" is offset by the site's
-   weight. Weight is that person's paper count so far, so a cell grows every
-   time its occupant publishes with Clevers again and the neighbours give way.
-   Convex, gapless, and — because the seats are jittered off the lattice and the
-   outlines are drawn as curves — it comes out looking like tissue rather than
-   like graph paper. */
-const SP = () => S * Math.sqrt(3);          // distance between adjacent seats
-const px = c => cx + S * 1.5 * c.q + c.jx * S;
-const py = c => cy + S * Math.sqrt(3) * (c.r + c.q / 2) + c.jy * S;
-
-for (const c of cells) {
-  // fixed per-seat jitter: the lattice is the scaffold, not the look
-  const h = Math.sin((c.q * 12.9898 + c.r * 78.233) * 43758.5453);
-  const h2 = Math.sin((c.q * 39.3468 + c.r * 11.135) * 24634.6345);
-  const a = (h - Math.floor(h)) * Math.PI * 2;
-  const m = 0.44 * (h2 - Math.floor(h2));
-  c.jx = Math.cos(a) * m; c.jy = Math.sin(a) * m;
-}
+   A power diagram over the packed positions: each cell is the set of points
+   closer to its own site than to any neighbour's, where "closer" is offset by
+   the site's weight. The packing decides how much room a cell is given; the
+   diagram decides the shape it takes in that room. Convex and gapless. */
+const SP = () => U;                       // one seat spacing, in pixels
+const px = c => cx + c.ux * U;
+const py = c => cy + c.uy * U;
 
 /* clip a convex polygon to the half-plane on this side of a line */
 function clipHalf(poly, nx, ny, d) {
@@ -573,7 +631,7 @@ function cellPolygon(c, weightOf, reach) {
     const nx = dx / d, ny = dy / d;
     // radical axis: half-way, shifted by the difference in weight
     let t = d / 2 + (wi - weightOf(o)) / (2 * d);
-    t = Math.max(d * 0.13, Math.min(d * 0.87, t));   // nobody gets squeezed out
+    t = Math.max(d * 0.10, Math.min(d * 0.90, t));   // nobody gets squeezed out entirely
     poly = clipHalf(poly, nx, ny, c.x * nx + c.y * ny + t);
     if (poly.length < 6) break;
   }
@@ -629,26 +687,39 @@ function draw(t) {
   let here = 0;
   const gap = Math.max(0.35, S * 0.022);
 
-  // weights ease toward the year's paper counts, so a cell visibly swells over
-  // the frames after it publishes rather than jumping
+  // weights ease toward the year's paper counts, so a cell swells over the
+  // frames after it publishes rather than jumping
   const k = reduced ? 1 : 0.14;
+  const root = Math.sqrt(Math.max(1, maxSoFar));
   let moving = false;
+  const present = [];
   for (const c of cells) {
-    c.x = px(c); c.y = py(c);
     const target = c.byYear[Math.max(0, Math.min(NY - 1, year - Y0))];
     c.w = c.w === undefined ? target : c.w + (target - c.w) * k;
     if (Math.abs(target - c.w) > 0.01) moving = true;
+    c.rad = targetRadius(Math.sqrt(Math.max(0, c.w)) / root);
+    if (c.p.gf <= year) present.push(c);
   }
-  // Normalised so the busiest cell sits at 1: the boundary between two cells
-  // then shifts by up to a third of the gap between them, which is a visible
-  // difference in area without one cell eating its neighbourhood.
-  const d0 = SP(), root = Math.sqrt(Math.max(1, maxSoFar));
-  const B = 0.86 * d0 * d0;
-  const norm = c => Math.sqrt(Math.max(0, c.w)) / root;
-  const weightOf = c => B * norm(c);
-  const reach = c => 0.52 + 0.30 * norm(c);
 
-  if (moving || !cells[0].poly || geomDirty) {
+  // let the packing chase the new radii; this is what carries a cell's growth
+  // outward through its neighbours to the edge of the sheet
+  for (let n = 0; n < (reduced ? 30 : 4); n++) relax(present, 1);
+  let shift = 0;
+  for (const c of cells) {
+    const nx = px(c), ny = py(c);
+    shift += Math.abs(nx - c.x) + Math.abs(ny - c.y);
+    c.x = nx; c.y = ny;
+  }
+
+  // Weight is the square of the packing radius. That is not a tuning choice:
+  // the radical axis of two touching circles passes through the point where
+  // they touch, so every cell's outline lands exactly on the circle the packing
+  // gave it. Guessing at the weight left a 112-paper cell smaller than a
+  // 22-paper one, because the boundary it was granted did not match its room.
+  const weightOf = c => (c.rad * U) * (c.rad * U);
+  const reach = c => c.rad * 1.06;
+
+  if (moving || shift > 0.5 || !cells[0].poly || geomDirty) {
     for (const c of cells) c.poly = c.p.gf > year ? null : cellPolygon(c, weightOf, reach);
     geomDirty = false;
   }
@@ -907,5 +978,14 @@ addEventListener("keydown", e => {
 });
 
 setYear(Y1);
+{
+  const root = Math.sqrt(Math.max(1, maxSoFar));
+  for (const c of cells) {
+    c.w = c.byYear[NY - 1];
+    c.rad = targetRadius(Math.sqrt(c.w) / root);
+  }
+  const present = cells.filter(c => c.p.gf <= year);
+  for (let n = 0; n < 220; n++) relax(present, 1);
+}
 requestAnimationFrame(draw);
 </script>
