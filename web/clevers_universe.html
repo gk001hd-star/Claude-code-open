@@ -1,4 +1,4 @@
-<title>The Clevers Universe</title>
+<title>The Clevers Orbit</title>
 
 <style>
 /* ------------------------------------------------------------------
@@ -70,7 +70,7 @@ h1 {
 h1 em { font-style: italic; color: var(--gfp); }
 .blurb { margin: 0; font-size: .8125rem; line-height: 1.55; color: var(--muted); max-width: 34ch; }
 
-.counts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem 1.1rem; }
+.counts { display: flex; flex-wrap: wrap; gap: 1.1rem 1.4rem; }
 .count b {
   display: block; font-family: var(--mono); font-size: 1.35rem; font-weight: 500;
   font-variant-numeric: tabular-nums; color: var(--ink);
@@ -224,7 +224,7 @@ input[type=range]:focus-visible { outline: 2px solid var(--cfp); outline-offset:
   }
   h1 { font-size: 1.6rem; }
   .blurb { font-size: .75rem; max-width: none; }
-  .counts { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .55rem; }
+  .counts { gap: .5rem 1.1rem; }
   .count b { font-size: 1.05rem; }
   .legend { flex-direction: row; flex-wrap: wrap; gap: .3rem .9rem; }
   .legend h2 { flex-basis: 100%; }
@@ -243,7 +243,7 @@ input[type=range]:focus-visible { outline: 2px solid var(--cfp); outline-offset:
   <div class="rail">
     <div>
       <p class="eyebrow">Hubrecht · NIOB · Princess Máxima · 1985—2026</p>
-      <h1>The <em>Clevers</em> Universe</h1>
+      <h1>The <em>Clevers</em> Orbit</h1>
       <p class="blurb">
         Everyone PubMed places inside Hans Clevers' laboratory, orbiting by how much
         work they share with him. The tightest orbits are the permanent core; the halo
@@ -252,8 +252,7 @@ input[type=range]:focus-visible { outline: 2px solid var(--cfp); outline-offset:
     </div>
 
     <div class="counts">
-      <div class="count"><b id="c-people">0</b><span>in the lab</span></div>
-      <div class="count"><b id="c-alumni">0</b><span>have left</span></div>
+      <div class="count"><b id="c-people">0</b><span>people by then</span></div>
       <div class="count"><b id="c-papers">0</b><span>papers by then</span></div>
       <div class="count"><b id="c-leads">0</b><span>lead a lab</span></div>
     </div>
@@ -340,7 +339,10 @@ const stars = DATA.people.map((p, i) => ({
 
 let year = Y1, W = 0, H = 0, cx = 0, cy = 0, R = 0, spin = 0;
 let panelW = 0, shift = 0;
-let hover = null, picked = null, filter = null;
+let hover = null, picked = null, filter = null, sunHover = false;
+
+/* "Van Es, Johan H" -> "Van Es" — the labels only have room for the surname. */
+function surname(n) { return n.split(",")[0].trim(); }
 
 const railEl = document.querySelector(".rail");
 
@@ -393,7 +395,7 @@ function draw(t) {
     ctx.stroke();
   }
 
-  let lit = 0, gone = 0, leads = 0;
+  let here = 0, leads = 0;
 
   for (const s of stars) {
     const arrived = s.p.gf <= year;
@@ -406,8 +408,9 @@ function draw(t) {
 
     const dim = filter && !filter.has(s.p.n);
     const alpha = dim ? 0.09 : (active ? 1 : 0.2);
-    if (active) lit++; else gone++;
+    here++;
     if (s.lead) leads++;
+    s.active = active;
 
     if (active && !dim) {
       const g = ctx.createRadialGradient(s.x, s.y, 0, s.x, s.y, s.rad * 4.5);
@@ -434,6 +437,35 @@ function draw(t) {
     ctx.globalAlpha = 1;
   }
 
+  // Faint surnames. Labelled in order of standing, and any label whose box
+  // would collide with one already placed is dropped rather than overlapped.
+  ctx.textAlign = "left";
+  ctx.textBaseline = "alphabetic";
+  ctx.font = "10px " + css.getPropertyValue("--ui");
+  const boxes = [];
+  let placed = 0;
+  const labelled = stars
+    .filter(s => s.rad && (!filter || filter.has(s.p.n)))
+    .sort((a, b) => b.n - a.n);
+  for (const s of labelled) {
+    if (placed > 110 && s !== hover && s !== picked) break;
+    const t = surname(s.p.n);
+    const w = ctx.measureText(t).width;
+    const x = s.x + s.rad + 5, y = s.y + 3.5;
+    // generous boxes: the map has to stay readable, so labels claim room
+    const box = { x: x - 4, y: y - 11, w: w + 12, h: 17 };
+    if (boxes.some(b => !(box.x + box.w < b.x || b.x + b.w < box.x ||
+                          box.y + box.h < b.y || b.y + b.h < box.y))) continue;
+    boxes.push(box); placed++;
+    const strong = s === hover || s === picked;
+    ctx.shadowColor = "rgba(4,9,11,.9)"; ctx.shadowBlur = 6;
+    ctx.fillStyle = strong ? "rgba(232,244,246,.96)"
+                  : s.active ? "rgba(214,232,236,.46)"
+                  : "rgba(190,214,220,.17)";  // already left — quieter still
+    ctx.fillText(t, x, y);
+    ctx.shadowBlur = 0;
+  }
+
   // the star at the centre
   const cg = ctx.createRadialGradient(cx, cy, 0, cx, cy, 72);
   cg.addColorStop(0, "rgba(244,253,249,.98)");
@@ -445,17 +477,18 @@ function draw(t) {
   ctx.fillStyle = "#f6fdfa";
   ctx.beginPath(); ctx.arc(cx, cy, 11, 0, Math.PI * 2); ctx.fill();
 
-  ctx.font = "italic 13.5px " + css.getPropertyValue("--serif");
-  ctx.textAlign = "center";
-  ctx.shadowColor = "rgba(4,9,11,.95)"; ctx.shadowBlur = 10;
-  ctx.fillStyle = "rgba(219,232,234,.78)";
-  ctx.fillText("Hans Clevers", cx, cy + 96);
-  ctx.shadowBlur = 0;
-
+  if (sunHover) {
+    ctx.font = "italic 15px " + css.getPropertyValue("--serif");
+    ctx.textAlign = "center";
+    ctx.shadowColor = "rgba(4,9,11,.95)"; ctx.shadowBlur = 12;
+    ctx.fillStyle = "rgba(232,244,246,.95)";
+    ctx.fillText("Hans Clevers", cx, cy + 96);
+    ctx.shadowBlur = 0;
+    ctx.textAlign = "left";
+  }
   ctx.restore();
 
-  document.getElementById("c-people").textContent = lit;
-  document.getElementById("c-alumni").textContent = gone;
+  document.getElementById("c-people").textContent = here;
   document.getElementById("c-papers").textContent = papersBy(year);
   document.getElementById("c-leads").textContent = leads;
 
@@ -483,7 +516,18 @@ function hit(mx, my) {
 
 cv.addEventListener("mousemove", e => {
   const r = cv.getBoundingClientRect();
-  hover = hit(e.clientX - r.left, e.clientY - r.top);
+  const mx = e.clientX - r.left, my = e.clientY - r.top;
+  sunHover = Math.hypot(mx - (cx + shift), my - cy) < 42;  // match the visible glow
+  hover = sunHover ? null : hit(mx, my);
+  if (sunHover) {
+    cv.style.cursor = "default";
+    tip.innerHTML = `<b>Hans Clevers</b> <em>${DATA.meta.npapers} papers · ${Y0}–${Y1}</em>`;
+    tip.style.opacity = 1;
+    const tw = tip.offsetWidth;
+    tip.style.left = Math.min(e.clientX + 14, innerWidth - tw - 12) + "px";
+    tip.style.top = (e.clientY - 34) + "px";
+    return;
+  }
   cv.style.cursor = hover ? "pointer" : "crosshair";
   if (hover) {
     tip.innerHTML = `<b>${esc(hover.p.n)}</b> <em>${hover.n} paper${hover.n > 1 ? "s" : ""} · ${hover.p.gf}–${hover.p.gl}</em>`;
@@ -493,7 +537,7 @@ cv.addEventListener("mousemove", e => {
     tip.style.top = (e.clientY - 34) + "px";
   } else tip.style.opacity = 0;
 });
-cv.addEventListener("mouseleave", () => { hover = null; tip.style.opacity = 0; });
+cv.addEventListener("mouseleave", () => { hover = null; sunHover = false; tip.style.opacity = 0; });
 cv.addEventListener("click", e => {
   const r = cv.getBoundingClientRect();
   const s = hit(e.clientX - r.left, e.clientY - r.top);
