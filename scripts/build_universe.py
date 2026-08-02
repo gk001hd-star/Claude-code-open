@@ -12,18 +12,64 @@ Run after build_docs.py, then re-inject with:
 import argparse, csv, json, os, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_docs import author_key, load  # noqa: E402
+from build_docs import (author_key, load, HUBRECHT, MAXIMA, NIOB,  # noqa: E402
+                        UTRECHT_IMMUNO)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA, WEB = os.path.join(ROOT, "data"), os.path.join(ROOT, "web")
 
 
-def era(row):
-    """Which of the lab's three homes did this person arrive into?"""
-    y, site = int(row["group_affiliation_first_year"]), row["site"]
-    if "Immunology" in site and "Hubrecht" not in site and "Máxima" not in site:
-        return 0
-    return 0 if y < 2002 else (1 if y < 2015 else 2)
+# 0 = Utrecht immunology, 1 = Hubrecht / NIOB, 2 = Princess Máxima
+SITES = ["IMM", "HUB", "MAX"]
+
+
+def sites_on(aff):
+    """Which of the lab's homes does this one affiliation string name?"""
+    out = set()
+    if HUBRECHT.search(aff) or NIOB.search(aff):
+        out.add("HUB")
+    if MAXIMA.search(aff):
+        out.add("MAX")
+    if UTRECHT_IMMUNO.search(aff):
+        out.add("IMM")
+    return out
+
+
+def site_history(pubs, keys):
+    """Per person, how many papers place them at each site and over which years.
+
+    Read from the affiliation strings themselves. An earlier version inferred the
+    site from the year someone first appeared, which mislabelled 40% of people —
+    anyone who joined the Hubrecht after 2015 was painted as Princess Máxima, and
+    anyone at the Máxima before 2015 as Hubrecht.
+    """
+    hist = {}
+    for p in pubs.values():
+        year = p["year"]
+        for name, idxs in p["authors"]:
+            k = author_key(name)
+            if k not in keys:
+                continue
+            hit = set()
+            for i in idxs:
+                if i < len(p["affs"]):
+                    hit |= sites_on(p["affs"][i])
+            for code in hit:
+                rec = hist.setdefault(k, {}).setdefault(code, {"n": 0, "y0": 9999, "y1": 0})
+                rec["n"] += 1
+                if year:
+                    rec["y0"] = min(rec["y0"], year)
+                    rec["y1"] = max(rec["y1"], year)
+    return hist
+
+
+def primary_site(rec):
+    """Where this person mostly was: most papers, ties broken by the more recent."""
+    if not rec:
+        return 1, []
+    order = sorted(rec.items(), key=lambda kv: (-kv[1]["n"], -kv[1]["y1"]))
+    spread = [[c, v["n"], v["y0"] if v["y0"] != 9999 else v["y1"], v["y1"]] for c, v in order]
+    return SITES.index(order[0][0]), spread
 
 
 def build():
@@ -38,6 +84,7 @@ def build():
            if not k.startswith("_")}
 
     tier_a = {k: r for k, r in rows.items() if r["evidence_tier"] == "A"}
+    hist = site_history(pubs, tier_a)
 
     papers, idx = [], {}
     for p in sorted(pubs.values(), key=lambda x: (x["year"] or 0, x["title"])):
@@ -54,12 +101,13 @@ def build():
     people = []
     for k, r in tier_a.items():
         pi = pis.get(k, {})
+        e, spread = primary_site(hist.get(k, {}))
         people.append({
             "n": r["name"], "p": sorted(set(per.get(k, []))),
             "f": int(r["first_copublication"]), "l": int(r["last_copublication"]),
             "gf": int(r["group_affiliation_first_year"]),
             "gl": int(r["group_affiliation_last_year"]),
-            "e": era(r), "s": r["site"], "r": roles.get(k, {}).get("role", ""),
+            "e": e, "sv": spread, "r": roles.get(k, {}).get("role", ""),
             "pi": pi.get("lead_type") or "",
             "tr": bool(pi.get("clevers_trainee", True)) if pi else True,
             "ck": bool(pi), "pos": pi.get("position", ""),
