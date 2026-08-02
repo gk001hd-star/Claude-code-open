@@ -1,6 +1,6 @@
 {
   "_what": "People the institute rosters list as currently in the Clevers group but whom PubMed has not yet attached to a paper with Clevers. They carry no papers, so the pages draw them at the size of a single publication.",
-  "_why_empty": "hubrecht.eu and prinsesmaximacentrum.nl both answer automated requests with HTTP 403, and web.archive.org is unreachable from this environment, so the rosters could not be read. Paste them in here and re-run scripts/build_universe.py --inject.",
+  "_why_empty": "Filled in from the rosters. Names already carrying a Clevers paper in PubMed are skipped by build_universe.py, so only the ones PubMed has not caught up with are added.",
   "_fields": {
     "name": "Surname, Given names — same form as PubMed uses, e.g. \"Puschhof, Jens\"",
     "site": "HUB | MAX | IMM",
@@ -8,6 +8,247 @@
     "role": "PhD student / postdoc / technician / staff scientist / ...",
     "url": "optional link to their page"
   },
-  "_source": "",
-  "members": []
+  "_source": "Rosters supplied by the user from hubrecht.eu/research-groups/clevers-group and prinsesmaximacentrum.nl team page; both refuse automated fetches.",
+  "members": [
+    {
+      "name": "van Es, Johan",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Acting group leader"
+    },
+    {
+      "name": "Zeinstra, Laura",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Technician"
+    },
+    {
+      "name": "Korving, Jeroen",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Technician"
+    },
+    {
+      "name": "Geurts, Veerle",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Technician"
+    },
+    {
+      "name": "El Haddouti, Benaissa",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Technician"
+    },
+    {
+      "name": "van Rooijen, Lisanne",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Technician"
+    },
+    {
+      "name": "Abendroth, Matthijs",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Technician"
+    },
+    {
+      "name": "van Hamersveld, Patricia",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Technician"
+    },
+    {
+      "name": "de Lau, Wim",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Postdoc"
+    },
+    {
+      "name": "Lin, Lin",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Postdoc"
+    },
+    {
+      "name": "Krueger, Daniel",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Postdoc"
+    },
+    {
+      "name": "Grenier, Theodore",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Postdoc"
+    },
+    {
+      "name": "Shabso, Sarina",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Postdoc"
+    },
+    {
+      "name": "Zheng, Xuan",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Postdoc"
+    },
+    {
+      "name": "Zheng, Yichao",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Postdoc"
+    },
+    {
+      "name": "Chen, Hanxiao",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Postdoc"
+    },
+    {
+      "name": "Zhang, Guoying",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Postdoc"
+    },
+    {
+      "name": "Hu, Xiaoyu",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Postdoc"
+    },
+    {
+      "name": "Qu, Molong",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Postdoc"
+    },
+    {
+      "name": "Pou Casellas, Carla",
+      "site": "HUB",
+      "since": 2026,
+      "role": "PhD student"
+    },
+    {
+      "name": "Celotti, Martina",
+      "site": "HUB",
+      "since": 2026,
+      "role": "PhD student"
+    },
+    {
+      "name": "Willemsen, Sam",
+      "site": "HUB",
+      "since": 2026,
+      "role": "PhD student"
+    },
+    {
+      "name": "Balazova, Katarina",
+      "site": "HUB",
+      "since": 2026,
+      "role": "PhD student"
+    },
+    {
+      "name": "Schreurs, Robin",
+      "site": "HUB",
+      "since": 2026,
+      "role": "PhD student"
+    },
+    {
+      "name": "Mu, Chunyang",
+      "site": "HUB",
+      "since": 2026,
+      "role": "PhD student"
+    },
+    {
+      "name": "Mastebroek, Dirk Jan",
+      "site": "HUB",
+      "since": 2026,
+      "role": "PhD student"
+    },
+    {
+      "name": "Ammerlaan, Carola",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Guest"
+    },
+    {
+      "name": "van Esch, Ruben",
+      "site": "HUB",
+      "since": 2026,
+      "role": "Guest"
+    },
+    {
+      "name": "van de Wetering, Marc",
+      "site": "MAX",
+      "since": 2026,
+      "role": ""
+    },
+    {
+      "name": "Bon, Sebastian",
+      "site": "MAX",
+      "since": 2026,
+      "role": ""
+    },
+    {
+      "name": "Ringnalda, Femke",
+      "site": "MAX",
+      "since": 2026,
+      "role": ""
+    },
+    {
+      "name": "Tiersma-Gerlach, Yvonne",
+      "site": "MAX",
+      "since": 2026,
+      "role": ""
+    },
+    {
+      "name": "van Son, Gijs",
+      "site": "MAX",
+      "since": 2026,
+      "role": ""
+    },
+    {
+      "name": "Liuzzi, Elisabetta",
+      "site": "MAX",
+      "since": 2026,
+      "role": ""
+    },
+    {
+      "name": "Deng, Haidong",
+      "site": "MAX",
+      "since": 2026,
+      "role": ""
+    },
+    {
+      "name": "Verweij, Laurens",
+      "site": "MAX",
+      "since": 2026,
+      "role": ""
+    },
+    {
+      "name": "Ordelman, Valeska",
+      "site": "MAX",
+      "since": 2026,
+      "role": ""
+    },
+    {
+      "name": "Sanders, Karin",
+      "site": "MAX",
+      "since": 2026,
+      "role": ""
+    },
+    {
+      "name": "Kim, Seok Young",
+      "site": "MAX",
+      "since": 2026,
+      "role": ""
+    },
+    {
+      "name": "Meerts, Lizzy",
+      "site": "MAX",
+      "since": 2026,
+      "role": ""
+    }
+  ]
 }

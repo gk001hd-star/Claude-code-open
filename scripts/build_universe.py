@@ -98,11 +98,21 @@ def add_roster(people, y1):
     if not os.path.exists(path):
         return 0
     roster = json.load(open(path, encoding="utf-8")).get("members", [])
-    have = {author_key(p["n"]) for p in people}
-    added = 0
+    have = {author_key(p["n"]): p for p in people}
+    added = held = 0
     for m in roster:
         name = m.get("name", "").strip()
-        if not name or author_key(name) in have:
+        if not name:
+            continue
+        known = have.get(author_key(name))
+        if known:
+            # the roster is better evidence of who is still there than the date
+            # of their last indexed paper: someone between papers looked gone
+            if known["gl"] < y1:
+                known["gl"] = y1
+                held += 1
+            if m.get("role") and not known.get("r"):
+                known["r"] = m["role"]
             continue
         code = m.get("site", "HUB").upper()
         if code not in SITE_CODE:
@@ -116,11 +126,36 @@ def add_roster(people, y1):
             "r": m.get("role", ""), "pi": "", "tr": True, "ck": False,
             "pos": "", "inst": m.get("institute", ""), "url": m.get("url", ""),
         })
-        have.add(author_key(name))
+        have[author_key(name)] = people[-1]
         added += 1
-    if added:
-        print(f"{added} current members added from the institute rosters")
+    if added or held:
+        print(f"rosters: {added} members added, {held} kept in the lab to {y1}")
     return added
+
+
+def add_founder(people, npapers, y0, y1):
+    """Clevers himself, seated at the centre with everything else budding off him.
+
+    Every paper in the set is his, so his cell is given a fixed size on the page
+    rather than one derived from the count — otherwise he would be three times
+    the largest member and the tissue would be unreadable.
+    """
+    # inserting at the front shifts every index, and `pa` holds indices
+    for rec in people:
+        if rec.get("pa", -1) >= 0:
+            rec["pa"] += 1
+    people.insert(0, {
+        "n": "Clevers, Hans", "p": list(range(npapers)), "pa": -1,
+        "f": y0, "l": y1, "gf": y0, "gl": y1,
+        "e": 1, "pl": 0, "hc": 1,
+        "sv": [["HUB", 0, 2002, y1], ["MAX", 0, 2015, y1], ["IMM", 0, y0, 2002]],
+        "r": "Group leader. Hubrecht Institute from 2002 and the Princess Máxima "
+             "Center from 2015; Roche pRED and the Institute of Human Biology, "
+             "Basel, from 2022.",
+        "pi": "academic_pi", "tr": True, "ck": True,
+        "pos": "Group leader", "inst": "Hubrecht Institute · Princess Máxima Center",
+        "url": "https://www.hubrecht.eu/research-groups/clevers-group/",
+    })
 
 
 def add_lineage(people):
@@ -200,6 +235,7 @@ def build():
     add_roster(people, max(years))
     people.sort(key=lambda x: (-len(x["p"]), x["n"]))
     add_lineage(people)
+    add_founder(people, len(papers), min(years), max(years))
 
     return {"papers": papers, "people": people,
             "meta": {"npapers": len(papers), "npeople": len(people),
