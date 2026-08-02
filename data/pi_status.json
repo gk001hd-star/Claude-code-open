@@ -1,12 +1,13 @@
 {
- "_README": "PI status and current research-group page for Clevers-group alumni. One web search per person. 'pi' is true only where a source shows the person heads their own research group/lab (group leader, PI, professor with a named lab) or an equivalent industry research group. 'unknown' means the search did not settle it. Keys match author_key (surname + first-name initial) in scripts/build_docs.py.",
+ "_README": "PI / research-leadership status and current group page for Clevers-group alumni. One targeted web search per person. 'lead_type' is 'academic_pi' when a source shows the person heads a named academic group, lab or department; 'industry_lead' when they head a company or a research function in one (CEO, CRO, Global Head of R&D, Managing Director Research); null when neither. 'pi' stays true only for academic group leadership, so the two can be counted separately. 'clevers_trainee' is false for people who already led their own group independently of this lab. Keys match author_key (surname + first initial) in scripts/build_docs.py.",
  "Barker, Nick": {
   "pi": true,
   "position": "Research Director / Senior PI",
   "institution": "A*STAR Institute of Molecular and Cell Biology, Singapore",
   "group_page": "https://www.a-star.edu.sg/imcb/people/nick-barker",
   "source": "A*STAR profile",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Koo, Bon-Kyoung": {
   "pi": true,
@@ -14,7 +15,8 @@
   "institution": "Institute for Basic Science (IBS), Daejeon, South Korea",
   "group_page": "https://cge.ibs.re.kr/html/cge_en/teams/teams_020202.html",
   "source": "IBS Center for Genome Engineering team page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Huch, Meritxell": {
   "pi": true,
@@ -22,7 +24,8 @@
   "institution": "Max Planck Institute of Molecular Cell Biology and Genetics, Dresden",
   "group_page": "https://www.mpi-cbg.de/research/researchgroups/currentgroups/meritxell-huch/research-focus",
   "source": "MPI-CBG group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Sato, Toshiro": {
   "pi": true,
@@ -30,7 +33,8 @@
   "institution": "Keio University School of Medicine, Tokyo",
   "group_page": "https://organoidmed.org/en",
   "source": "Keio Organoid Medicine lab site",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Batlle, Eduard": {
   "pi": true,
@@ -38,7 +42,8 @@
   "institution": "IRB Barcelona",
   "group_page": "https://www.irbbarcelona.org/en/research/eduard-batlle",
   "source": "IRB Barcelona group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Li, Vivian Sze Wing": {
   "pi": true,
@@ -46,7 +51,8 @@
   "institution": "The Francis Crick Institute, London",
   "group_page": "https://www.crick.ac.uk/research/labs/vivian-li-lab",
   "source": "Crick lab page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Gehart, Helmuth": {
   "pi": true,
@@ -54,7 +60,8 @@
   "institution": "ETH Zurich, Institute of Molecular Health Sciences",
   "group_page": "https://mhs.biol.ethz.ch/research/gehart.html",
   "source": "ETH Zurich group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Puschhof, Jens": {
   "pi": true,
@@ -62,7 +69,8 @@
   "institution": "German Cancer Research Center (DKFZ), Heidelberg",
   "group_page": "https://www.dkfz.de/en/Epithel-Mikrobiom-lnteraktionen/index.php",
   "source": "DKFZ division page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Farin, Henner F": {
   "pi": true,
@@ -70,7 +78,8 @@
   "institution": "Georg-Speyer-Haus, Frankfurt",
   "group_page": "https://georg-speyer-haus.de/forschung/forschungsgruppen/pd-dr-henner-farin",
   "source": "Georg-Speyer-Haus group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Dost, Antonella F M": {
   "pi": true,
@@ -78,15 +87,17 @@
   "institution": "reNEW, University of Copenhagen",
   "group_page": "https://renew.science/principal_investigat/antonella-dost/",
   "source": "reNEW PI page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Andersson-Rolf, Amanda": {
   "pi": true,
-  "position": "Assistant Professor (lab opened Feb 2026)",
+  "position": "Assistant Professor / group leader (lab opened February 2026)",
   "institution": "Karolinska Institutet, Stockholm",
   "group_page": "https://ki.se/en/people/amanda-andersson-rolf",
-  "source": "Karolinska Institutet profile",
-  "clevers_trainee": true
+  "source": "Karolinska Institutet profile; confirmed by the user",
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Kretzschmar, Kai": {
   "pi": true,
@@ -94,7 +105,8 @@
   "institution": "University Hospital Würzburg",
   "group_page": "https://www.ukw.de/mildred-scheel-early-career-center/forschung/nachwuchsgruppen/kretzschmar-lab/",
   "source": "MSNZ Würzburg group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Stange, Daniel E": {
   "pi": true,
@@ -102,7 +114,8 @@
   "institution": "University Hospital Carl Gustav Carus, TU Dresden",
   "group_page": "https://www.uniklinikum-dresden.de/de/das-klinikum/kliniken-polikliniken-institute/vtg/forschung",
   "source": "Uniklinikum Dresden",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Korinek, Vladimir": {
   "pi": true,
@@ -110,7 +123,8 @@
   "institution": "Institute of Molecular Genetics, Czech Academy of Sciences, Prague",
   "group_page": "https://www.img.cas.cz/group/vladimir-korinek/",
   "source": "IMG Prague group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Hatzis, Pantelis": {
   "pi": true,
@@ -118,7 +132,8 @@
   "institution": "BSRC Alexander Fleming, Athens",
   "group_page": "https://www.fleming.gr/research/ifbr/researchers/hatzis-lab",
   "source": "BSRC Fleming lab page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Gregorieff, Alexander": {
   "pi": true,
@@ -126,7 +141,8 @@
   "institution": "McGill University, Montreal",
   "group_page": "https://www.mcgill.ca/pathology/alexander-gregorieff",
   "source": "McGill department page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Roose, Jeroen P": {
   "pi": true,
@@ -134,7 +150,8 @@
   "institution": "University of California San Francisco",
   "group_page": "https://rooselab.ucsf.edu/",
   "source": "Roose lab site",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Snippert, Hugo Johannes Gerhardus": {
   "pi": true,
@@ -142,7 +159,8 @@
   "institution": "UMC Utrecht",
   "group_page": "https://www.umcutrecht.nl/en/research/researchers/snippert-hugo-jg-hj",
   "source": "UMC Utrecht group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Basak, Onur": {
   "pi": true,
@@ -150,7 +168,8 @@
   "institution": "UMC Utrecht Brain Center",
   "group_page": "https://research.umcutrecht.nl/researchers/onur-basak/",
   "source": "UMC Utrecht researcher page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Drost, Jarno": {
   "pi": true,
@@ -158,7 +177,8 @@
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
   "group_page": "https://research.prinsesmaximacentrum.nl/en/research-groups/drost-group",
   "source": "Princess Máxima group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Artegiani, Benedetta": {
   "pi": true,
@@ -166,7 +186,8 @@
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
   "group_page": "https://www.bendellab.com/",
   "source": "BenDel lab site",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Hendriks, Delilah": {
   "pi": true,
@@ -174,7 +195,8 @@
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
   "group_page": "https://www.bendellab.com/",
   "source": "BenDel lab site",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "van Boxtel, Ruben": {
   "pi": true,
@@ -182,7 +204,8 @@
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
   "group_page": "https://www.vanboxtellab.eu/",
   "source": "van Boxtel lab site",
-  "clevers_trainee": false
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
  },
  "Beumer, Joep": {
   "pi": true,
@@ -190,7 +213,8 @@
   "institution": "Roche Institute of Human Biology, Basel",
   "group_page": "https://institutehumanbiology.com/about-the-ihb/exploratory-biology/gastrointestinal-stem-cells-and-nutrient-sensing/joep-beumer/",
   "source": "Institute of Human Biology page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Muncan, Vanesa": {
   "pi": true,
@@ -198,7 +222,8 @@
   "institution": "Amsterdam UMC",
   "group_page": "https://www.amsterdamumc.org/en/research/researchers/vanesa-dijkstra-muncan.htm",
   "source": "Amsterdam UMC researcher page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Haramis, Anna-Pavlina G": {
   "pi": true,
@@ -206,7 +231,8 @@
   "institution": "Leiden University",
   "group_page": "https://www.universiteitleiden.nl/en/staffmembers/anna-pavlina-haramis",
   "source": "Leiden University staff page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Karthaus, Wouter R": {
   "pi": true,
@@ -214,7 +240,8 @@
   "institution": "EPFL, Lausanne",
   "group_page": "https://people.epfl.ch/wouter.karthaus?lang=en",
   "source": "EPFL people page / graphsearch unit UPKARTHAUS",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Mokry, Michal": {
   "pi": true,
@@ -222,7 +249,8 @@
   "institution": "UMC Utrecht, Experimental Cardiology",
   "group_page": "https://research.umcutrecht.nl/researchers/michal-mokry/",
   "source": "UMC Utrecht researcher page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Staal, Frank J T": {
   "pi": true,
@@ -230,7 +258,8 @@
   "institution": "Leiden University Medical Center, Immunohematology & Blood Transfusion",
   "group_page": "https://immunology.lumc.nl/education/team/frank-staal-285",
   "source": "LUMC Immunology team page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Mizutani, Tomohiro": {
   "pi": true,
@@ -238,7 +267,8 @@
   "institution": "Institute of Science Tokyo (formerly Tokyo Medical and Dental University)",
   "group_page": "https://reins.tmd.ac.jp/html/100014486_en.html",
   "source": "Science Tokyo researcher database",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Busslinger, Georg A": {
   "pi": true,
@@ -246,39 +276,44 @@
   "institution": "Medical University of Vienna / CeMM",
   "group_page": "https://cemm.at/research/groups/georg-busslinger-group/",
   "source": "CeMM group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Sachs, Norman": {
   "pi": false,
-  "position": "Industry scientist (not an academic PI)",
+  "position": "Scientist (individual contributor)",
   "institution": "Vertex Pharmaceuticals",
   "group_page": "",
   "source": "LinkedIn / ORCID",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Vries, Robert Gerhardus Jacob": {
   "pi": false,
-  "position": "CEO (company leadership, not an academic research group)",
+  "position": "Chief Executive Officer; co-developed the organoid culture system the company was founded on",
   "institution": "HUB Organoids (Hubrecht Organoid Technology), Utrecht",
   "group_page": "https://www.huborganoids.nl/",
   "source": "HUB Organoids",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "industry_lead"
  },
  "Boj, Sylvia Fernandez": {
   "pi": false,
-  "position": "Chief Research Officer (company leadership, not an academic research group)",
+  "position": "Chief Research Officer",
   "institution": "HUB Organoids, Utrecht",
   "group_page": "https://www.huborganoids.nl/",
   "source": "HUB Organoids",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "industry_lead"
  },
  "Driehuis, Else": {
   "pi": false,
-  "position": "Site Head (industry)",
+  "position": "Site Head",
   "institution": "Xilis BV, Utrecht",
   "group_page": "https://xilis.com/",
   "source": "Xilis",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "industry_lead"
  },
  "Geurts, Maarten H": {
   "pi": false,
@@ -286,7 +321,8 @@
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
   "group_page": "https://www.vanboxtellab.eu/team/maarten-geurts",
   "source": "van Boxtel lab team page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Bartfeld, Sina": {
   "pi": true,
@@ -294,7 +330,8 @@
   "institution": "Technical University Berlin",
   "group_page": "https://www.bartfeldlab.com/",
   "source": "Bartfeld lab site / TU Berlin",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Schwank, Gerald": {
   "pi": true,
@@ -302,7 +339,8 @@
   "institution": "University of Zurich / ETH Zurich",
   "group_page": "https://schwanklab.org/",
   "source": "Schwank lab site",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Leushacke, Marc": {
   "pi": true,
@@ -310,7 +348,8 @@
   "institution": "A*STAR Skin Research Labs, Singapore",
   "group_page": "https://www.a-star.edu.sg/sris/people/principal-investigators/marc-leushacke",
   "source": "A*STAR SRIS PI page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Sasaki, Nobuo": {
   "pi": true,
@@ -318,7 +357,8 @@
   "institution": "Institute for Molecular and Cellular Regulation, Gunma University",
   "group_page": "https://rdb.gunma-u.ac.jp/profile/en.d21bbb0ba98e69f4520e17560c007669.html",
   "source": "Gunma University researcher directory",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Dayton, Talya L": {
   "pi": true,
@@ -326,7 +366,8 @@
   "institution": "EMBL Barcelona",
   "group_page": "https://www.embl.org/groups/dayton/",
   "source": "EMBL group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Mahmoudi, Tokameh": {
   "pi": true,
@@ -334,7 +375,8 @@
   "institution": "Erasmus MC, Rotterdam",
   "group_page": "https://www.mahmoudilab.nl/",
   "source": "Mahmoudi lab site / Erasmus MC PI page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Meyaard, Linde": {
   "pi": true,
@@ -342,7 +384,8 @@
   "institution": "UMC Utrecht",
   "group_page": "https://www.umcutrecht.nl/en/group-meyaard",
   "source": "UMC Utrecht group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Vooijs, Marc": {
   "pi": true,
@@ -350,7 +393,8 @@
   "institution": "Maastricht University / GROW",
   "group_page": "https://www.maastrichtuniversity.nl/research/radiotherapy/research-groups/group-marc-vooijs",
   "source": "Maastricht University group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Schuijers, Jurian": {
   "pi": true,
@@ -358,7 +402,8 @@
   "institution": "UMC Utrecht, Center for Molecular Medicine",
   "group_page": "https://www.umcutrecht.nl/en/group-schuijers",
   "source": "UMC Utrecht group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Hurlstone, Adam F L": {
   "pi": true,
@@ -366,7 +411,8 @@
   "institution": "University of Manchester",
   "group_page": "https://research.manchester.ac.uk/en/persons/adam.hurlstone",
   "source": "University of Manchester / ZFIN person record",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Middendorp, Sabine": {
   "pi": true,
@@ -374,7 +420,8 @@
   "institution": "UMC Utrecht",
   "group_page": "https://appliedstemcelltechnologies.com/sabine-middendorp/",
   "source": "Applied Stem Cell Technologies / UMC Utrecht",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Baas, Annette F": {
   "pi": true,
@@ -382,7 +429,8 @@
   "institution": "UMC Utrecht",
   "group_page": "https://research.umcutrecht.nl/researchers/baas/",
   "source": "UMC Utrecht researcher page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Itzkovitz, Shalev": {
   "pi": true,
@@ -390,7 +438,8 @@
   "institution": "Weizmann Institute of Science",
   "group_page": "https://shalevlab.weizmann.ac.il/",
   "source": "Itzkovitz lab site",
-  "clevers_trainee": false
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
  },
  "Giles, Rachel H": {
   "pi": false,
@@ -398,7 +447,8 @@
   "institution": "Dutch VHL Organisation",
   "group_page": "",
   "source": "European Cancer Organisation profile",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Kuipers, Jeroen": {
   "pi": false,
@@ -406,7 +456,8 @@
   "institution": "UMCG / University of Groningen",
   "group_page": "https://research.rug.nl/en/persons/jeroen-kuipers/",
   "source": "University of Groningen research portal",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Dutta, Devanjali": {
   "pi": false,
@@ -414,31 +465,35 @@
   "institution": "Genmab, Copenhagen",
   "group_page": "",
   "source": "ResearchGate / LinkedIn",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Kopper, Oded": {
   "pi": false,
-  "position": "Industry scientist",
+  "position": "Scientist (individual contributor)",
   "institution": "Pre-Cure",
   "group_page": "",
   "source": "LinkedIn",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Schepers, Arnout G": {
   "pi": false,
-  "position": "Chief Executive Officer (industry)",
+  "position": "Chief Executive Officer",
   "institution": "TenAces Biosciences",
-  "group_page": "",
+  "group_page": "https://www.tenaces.bio/",
   "source": "LinkedIn / TPD Partnering Summit",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "industry_lead"
  },
  "Haegebarth, Andrea": {
   "pi": false,
-  "position": "Global Head of Research and Early Development, Cardiovascular/Renal/Immunology - industry research leadership, not an academic group",
+  "position": "Global Head of Research and Early Development, Cardiovascular, Renal and Immunology",
   "institution": "Bayer Pharmaceuticals",
-  "group_page": "",
+  "group_page": "https://www.bayer.com/en/pharma/research-development",
   "source": "Life-Sciences-Europe profile",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "industry_lead"
  },
  "Sancho, Elena": {
   "pi": false,
@@ -446,15 +501,17 @@
   "institution": "IRB Barcelona",
   "group_page": "https://www.irbbarcelona.org/en/research/elena-sancho",
   "source": "IRB Barcelona profile",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Van der Flier, Laurens G": {
   "pi": false,
-  "position": "Managing Director Research (research management, not a PI)",
+  "position": "Managing Director Research (research management rather than a lab)",
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
-  "group_page": "",
+  "group_page": "https://research.prinsesmaximacentrum.nl/",
   "source": "LinkedIn / Princess Máxima staff page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "industry_lead"
  },
  "Pleguezuelos-Manzano, Cayetano": {
   "pi": false,
@@ -462,7 +519,8 @@
   "institution": "Roche Institute of Human Biology, Basel",
   "group_page": "https://institutehumanbiology.com/about-the-ihb/bioengineering/organoid-engineering/cayetano-pleguezuelos-manzano/",
   "source": "Institute of Human Biology page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "van der Vaart, Jelte Y": {
   "pi": false,
@@ -470,7 +528,8 @@
   "institution": "UMC Utrecht",
   "group_page": "",
   "source": "ResearchGate profile",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Boretto, Matteo G": {
   "pi": false,
@@ -478,7 +537,8 @@
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
   "group_page": "https://www.vanboxtellab.eu/",
   "source": "ResearchGate profile",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Lõhmussaar, Kadi": {
   "pi": false,
@@ -486,7 +546,8 @@
   "institution": "Hubrecht Institute (at the time)",
   "group_page": "",
   "source": "Hubrecht thesis defense announcement",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Begthel, Harry": {
   "pi": false,
@@ -494,7 +555,8 @@
   "institution": "Hubrecht Institute",
   "group_page": "https://www.hubrecht.eu/research-groups/clevers-group/",
   "source": "Hubrecht / KNAW",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Korving, Jeroen": {
   "pi": false,
@@ -502,7 +564,8 @@
   "institution": "Hubrecht Institute",
   "group_page": "https://www.hubrecht.eu/research-groups/clevers-group/",
   "source": "ResearchGate / Hubrecht",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Heo, Inha": {
   "pi": "unknown",
@@ -510,7 +573,8 @@
   "institution": "",
   "group_page": "",
   "source": "search inconclusive",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Ringnalda, Femke C A S": {
   "pi": "unknown",
@@ -518,7 +582,8 @@
   "institution": "",
   "group_page": "",
   "source": "search inconclusive",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Dekkers, Johanna F": {
   "pi": "unknown",
@@ -526,7 +591,8 @@
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
   "group_page": "",
   "source": "search inconclusive",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Lyubimova, Anna": {
   "pi": "unknown",
@@ -534,7 +600,8 @@
   "institution": "",
   "group_page": "",
   "source": "search inconclusive",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Jansen, Marnix": {
   "pi": true,
@@ -542,7 +609,8 @@
   "institution": "UCL Cancer Institute / UCLH, London",
   "group_page": "https://profiles.ucl.ac.uk/60913-marnix-jansen",
   "source": "UCL profile",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Peng, Weng Chuan": {
   "pi": true,
@@ -550,7 +618,8 @@
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
   "group_page": "https://research.prinsesmaximacentrum.nl/en/research-groups/peng-group",
   "source": "Princess Máxima group page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Huls, Gerwin": {
   "pi": true,
@@ -558,7 +627,8 @@
   "institution": "University Medical Center Groningen",
   "group_page": "https://umcgresearch.org/w/g-huls",
   "source": "UMCG research portal",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Kuijk, Ewart W": {
   "pi": true,
@@ -566,7 +636,8 @@
   "institution": "UMC Utrecht",
   "group_page": "https://research.umcutrecht.nl/researchers/ewart-kuijk/",
   "source": "UMC Utrecht researcher page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Kester, Lennart A": {
   "pi": true,
@@ -574,15 +645,17 @@
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
   "group_page": "https://research.prinsesmaximacentrum.nl/en/team-members/lennart-kester",
   "source": "Princess Máxima team page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Lim, Sangho": {
   "pi": true,
-  "position": "Professor, personalised precision immunotherapy using patient-derived organoids (postdoc at the Hubrecht)",
-  "institution": "KAIST, South Korea",
-  "group_page": "",
-  "source": "search result; institutional page not located - treat as provisional",
-  "clevers_trainee": true
+  "position": "Professor, Graduate School of Medical Science and Engineering — personalised precision immunotherapy platforms using patient-derived organoids",
+  "institution": "KAIST, Daejeon, South Korea",
+  "group_page": "https://gsmse.kaist.ac.kr/",
+  "source": "KAIST Graduate School of Medical Science and Engineering; confirmed by the user (individual lab page not located)",
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Smit, Linda": {
   "pi": true,
@@ -590,7 +663,8 @@
   "institution": "Amsterdam UMC",
   "group_page": "https://www.amsterdamumc.org/en/research/researchers/linda-smit.htm",
   "source": "Amsterdam UMC researcher page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
  },
  "Geijsen, Niels": {
   "pi": true,
@@ -598,7 +672,8 @@
   "institution": "Leiden University Medical Center",
   "group_page": "https://www.geijsenlab.org/",
   "source": "Geijsen lab site / LUMC",
-  "clevers_trainee": false
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
  },
  "Korswagen, Hendrik C": {
   "pi": true,
@@ -606,7 +681,8 @@
   "institution": "Hubrecht Institute / Utrecht University",
   "group_page": "https://www.hubrecht.eu/research-groups/korswagen-group/",
   "source": "Hubrecht group page",
-  "clevers_trainee": false
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
  },
  "Voest, Emile Eugene": {
   "pi": true,
@@ -614,15 +690,17 @@
   "institution": "Netherlands Cancer Institute / Oncode",
   "group_page": "https://www.nki.nl/research/research-groups/emile-voest",
   "source": "NKI group page",
-  "clevers_trainee": false
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
  },
  "de Ligt, Joep": {
   "pi": false,
-  "position": "Senior Science Lead, Bioinformatics and Genomics (not an academic PI)",
+  "position": "Senior Science Lead, Bioinformatics and Genomics",
   "institution": "ESR, New Zealand",
-  "group_page": "",
+  "group_page": "https://www.esr.cri.nz/",
   "source": "LinkedIn / SlideShare",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "industry_lead"
  },
  "Van Houdt, Winan J": {
   "pi": false,
@@ -630,7 +708,8 @@
   "institution": "Antoni van Leeuwenhoek / NKI, Amsterdam",
   "group_page": "https://www.avl.nl/specialisten-medewerkers/specialisten/chirurgen/winan-van-houdt/",
   "source": "AvL specialist page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Bar-Ephraim, Yotam E": {
   "pi": false,
@@ -638,23 +717,26 @@
   "institution": "LUMICKS, Amsterdam",
   "group_page": "",
   "source": "ResearchGate profile",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Muraro, Mauro J": {
   "pi": false,
-  "position": "Co-founder and CEO (industry)",
+  "position": "Co-founder and Chief Executive Officer",
   "institution": "Single Cell Discoveries, Utrecht",
   "group_page": "https://www.scdiscoveries.com/about/",
   "source": "Single Cell Discoveries / Crunchbase",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "industry_lead"
  },
  "Korver, W": {
   "pi": false,
-  "position": "Director, Research (industry)",
+  "position": "Director, Research",
   "institution": "Allakos Inc., Menlo Park, CA",
-  "group_page": "",
+  "group_page": "https://allakos.com/",
   "source": "RocketReach / ResearchGate",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": "industry_lead"
  },
  "Teunissen, Hans": {
   "pi": false,
@@ -662,7 +744,8 @@
   "institution": "Netherlands Cancer Institute, Amsterdam",
   "group_page": "https://www.nki.nl/research/find-a-researcher/researchers/hans-teunissen/",
   "source": "NKI researcher page",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Kujala, Pekka": {
   "pi": false,
@@ -670,7 +753,8 @@
   "institution": "Netherlands Cancer Institute, Amsterdam",
   "group_page": "",
   "source": "ResearchGate profile",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Van Gijn, Marielle E": {
   "pi": false,
@@ -678,7 +762,8 @@
   "institution": "UMC Utrecht",
   "group_page": "",
   "source": "ResearchGate profile",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Yousef Yengej, Fjodor A": {
   "pi": false,
@@ -686,7 +771,8 @@
   "institution": "Hubrecht Institute / UMC Utrecht",
   "group_page": "https://www.hubrecht.eu/phd-yousef-yengej/",
   "source": "Hubrecht PhD defence announcement",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Pou Casellas, Carla": {
   "pi": false,
@@ -694,7 +780,8 @@
   "institution": "Hubrecht Institute / UMC Utrecht",
   "group_page": "",
   "source": "LinkedIn / ResearchGate",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Bast, Bert J E G": {
   "pi": false,
@@ -702,7 +789,8 @@
   "institution": "UMC Utrecht",
   "group_page": "",
   "source": "ResearchGate profile",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Destree, Olivier": {
   "pi": false,
@@ -710,7 +798,8 @@
   "institution": "Hubrecht Institute (formerly)",
   "group_page": "",
   "source": "Hubrecht history / publications",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Blokzijl, Francis": {
   "pi": "unknown",
@@ -718,7 +807,8 @@
   "institution": "",
   "group_page": "",
   "source": "search inconclusive",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Gracanin, Ana": {
   "pi": "unknown",
@@ -726,7 +816,8 @@
   "institution": "",
   "group_page": "",
   "source": "search inconclusive",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Jaksani, Sridevi": {
   "pi": "unknown",
@@ -734,7 +825,8 @@
   "institution": "",
   "group_page": "",
   "source": "search inconclusive",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "van Noort, Mascha": {
   "pi": "unknown",
@@ -742,7 +834,8 @@
   "institution": "",
   "group_page": "",
   "source": "search inconclusive",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Oving, Irma M": {
   "pi": "unknown",
@@ -750,7 +843,8 @@
   "institution": "",
   "group_page": "",
   "source": "search inconclusive",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Boonekamp, Kim Elisabeth": {
   "pi": "unknown",
@@ -758,7 +852,8 @@
   "institution": "",
   "group_page": "",
   "source": "search inconclusive",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Schutgens, Frans": {
   "pi": "unknown",
@@ -766,7 +861,8 @@
   "institution": "",
   "group_page": "",
   "source": "search inconclusive",
-  "clevers_trainee": true
+  "clevers_trainee": true,
+  "lead_type": null
  },
  "Cuppen, Edwin P J G": {
   "pi": true,
@@ -774,7 +870,8 @@
   "institution": "Hartwig Medical Foundation / UMC Utrecht",
   "group_page": "https://www.hartwigmedicalfoundation.nl/",
   "source": "Hartwig Medical Foundation",
-  "clevers_trainee": false
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
  },
  "van Oudenaarden, Alexander": {
   "pi": true,
@@ -782,7 +879,8 @@
   "institution": "Hubrecht Institute, Utrecht",
   "group_page": "https://www.hubrecht.eu/research-groups/van-oudenaarden-group/",
   "source": "Hubrecht group page",
-  "clevers_trainee": false
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
  },
  "Peters, Peter J": {
   "pi": true,
@@ -790,7 +888,8 @@
   "institution": "Maastricht University",
   "group_page": "https://www.maastrichtuniversity.nl/research/institute-nanoscopy",
   "source": "Maastricht M4I",
-  "clevers_trainee": false
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
  },
  "Sansom, Owen J": {
   "pi": true,
@@ -798,6 +897,7 @@
   "institution": "CRUK Scotland Institute, Glasgow",
   "group_page": "https://www.crukscotlandinstitute.ac.uk/research/research-groups/owen-sansom",
   "source": "CRUK Scotland Institute",
-  "clevers_trainee": false
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
  }
 }

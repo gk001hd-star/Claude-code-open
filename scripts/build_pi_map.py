@@ -60,19 +60,22 @@ def main():
     by_key = {r["key"]: r for r in rows}
 
     checked = [k for k in pis]
-    pi_yes = [k for k in checked if pis[k]["pi"] is True]
-    pi_no = [k for k in checked if pis[k]["pi"] is False]
     unknown = [k for k in checked if pis[k]["pi"] == "unknown"]
+    # Anyone heading a research organisation, academic or industry.
+    leads = [k for k in checked if pis[k].get("lead_type")]
+    no_lead = [k for k in checked if pis[k]["pi"] != "unknown" and not pis[k].get("lead_type")]
 
-    alumni_pi = [k for k in pi_yes if not is_collaborator(k, roles, pis)]
-    collab_pi = [k for k in pi_yes if is_collaborator(k, roles, pis)]
+    alumni_lead = [k for k in leads if not is_collaborator(k, roles, pis)]
+    collab_pi = [k for k in leads if is_collaborator(k, roles, pis)]
+    n_acad = sum(1 for k in alumni_lead if pis[k]["lead_type"] == "academic_pi")
+    n_ind = sum(1 for k in alumni_lead if pis[k]["lead_type"] == "industry_lead")
 
     def npapers(k):
         return by_key.get(k, {}).get("n", 0)
 
-    alumni_pi.sort(key=lambda k: -npapers(k))
+    alumni_lead.sort(key=lambda k: -npapers(k))
     collab_pi.sort(key=lambda k: -npapers(k))
-    pi_no.sort(key=lambda k: -npapers(k))
+    no_lead.sort(key=lambda k: -npapers(k))
     unknown.sort(key=lambda k: -npapers(k))
 
     unchecked = [c for c in cands if c["key"] not in pis]
@@ -81,8 +84,8 @@ def main():
     o = []
     o.append("# Clevers-group alumni: who became a principal investigator, and where\n")
     o.append(
-        "For each person checked, whether they now head their own research group and "
-        "the URL of that group's page. Built on the co-authorship data in "
+        "For each person checked, whether they now lead their own research organisation — "
+        "an academic group or a company — and the URL of its page. Built on the co-authorship data in "
         "`clevers_group_members.md`; PI status established by one targeted web search "
         "per person against institutional pages, lab sites and thesis-defence "
         "announcements.\n"
@@ -93,10 +96,11 @@ def main():
         f"| | |\n| --- | ---: |\n"
         f"| Candidate alumni identified (≥3 joint papers) | {len(cands)} |\n"
         f"| **Checked so far** | **{len(checked)}** |\n"
-        f"| → confirmed principal investigators | {len(pi_yes)} |\n"
-        f"| &nbsp;&nbsp;&nbsp;of which trained in the Clevers group | {len(alumni_pi)} |\n"
-        f"| &nbsp;&nbsp;&nbsp;of which were already independent (collaborators) | {len(collab_pi)} |\n"
-        f"| → confirmed *not* running an academic group | {len(pi_no)} |\n"
+        f"| → **alumni now leading a research organisation** | **{len(alumni_lead)}** |\n"
+        f"| &nbsp;&nbsp;&nbsp;academic principal investigators | {n_acad} |\n"
+        f"| &nbsp;&nbsp;&nbsp;company founders, CEOs and heads of R&D | {n_ind} |\n"
+        f"| → PIs who were collaborators, not trainees | {len(collab_pi)} |\n"
+        f"| → confirmed *not* in a research-leadership role | {len(no_lead)} |\n"
         f"| → checked but unresolved | {len(unknown)} |\n"
         f"| **Not yet checked** | **{len(unchecked)}** |\n"
     )
@@ -109,41 +113,47 @@ def main():
         "document is a partial pass over a named list, not a claim to have covered everyone.\n"
     )
     o.append(
-        "Two caveats on the classification. A person is marked a PI only where a source shows "
-        "them heading a named group, lab or department — not merely holding a senior title. "
-        "And people who ran their own laboratory *before* working with Clevers are separated "
-        "into Section 3, because calling them \"alumni who became PIs\" would misattribute their "
-        "careers to this lab.\n"
+        "Three notes on the classification. **Leadership is counted in two forms**: an academic "
+        "PI heads a named group, lab or department; an industry lead founded or heads a company "
+        "or its research function (CEO, CRO, Global Head of R&D, Managing Director Research). "
+        "Both appear in Section 1 with the type marked, and the counts above keep them separable. "
+        "**A senior title alone is not leadership** — a principal scientist without a group stays "
+        "in Section 2. And **people who already led their own laboratory before working with "
+        "Clevers** are separated into Section 3, because calling them \"alumni who became PIs\" "
+        "would misattribute their careers to this lab.\n"
     )
 
-    o.append("\n## 1. Alumni who became principal investigators\n")
+    o.append("\n## 1. Alumni who now lead a research organisation\n")
     o.append(
-        "People who trained in or worked for the Clevers group and now head their own group. "
-        "Sorted by joint papers with Clevers.\n"
+        "People who trained in or worked for the Clevers group and now head their own academic "
+        "group or their own company. Sorted by joint papers with Clevers. **Type** is *Academic "
+        "PI* for a named research group, *Industry* for company founders, CEOs and heads of "
+        "research.\n"
     )
-    o.append("| # | Name | Papers | Years with Clevers | Role then | Position now | Current group page |")
-    o.append("| ---: | --- | ---: | --- | --- | --- | --- |")
-    for i, k in enumerate(alumni_pi, 1):
+    o.append("| # | Name | Type | Papers | Years with Clevers | Role then | Position now | Current group / company page |")
+    o.append("| ---: | --- | :---: | ---: | --- | --- | --- | --- |")
+    for i, k in enumerate(alumni_lead, 1):
         r = by_key.get(k, {})
         p = pis[k]
         role = roles.get(k, {}).get("role", "—")
         role = role.split(";")[0].split("→")[0].strip()
         yrs = f"{r.get('first_copublication','?')}–{r.get('last_copublication','?')}"
+        typ = "Academic PI" if p["lead_type"] == "academic_pi" else "**Industry / org**"
         o.append(
-            f"| {i} | **{r.get('name', k)}** | {r.get('n','')} | {yrs} | {role} | "
+            f"| {i} | **{r.get('name', k)}** | {typ} | {r.get('n','')} | {yrs} | {role} | "
             f"{p['position']}, {p['institution']} | {link(p)} |"
         )
 
-    o.append("\n## 2. Alumni who did not take an academic PI route\n")
+    o.append("\n## 2. Alumni not in a research-leadership role\n")
     o.append(
-        "Checked and confirmed not to head an academic research group: industry roles, "
-        "company leadership, clinical posts, core-facility and technical staff, research "
-        "management, and people still in training. Several of these are senior positions — "
-        "they are simply not research-group leadership.\n"
+        "Checked and confirmed to head neither an academic group nor a company: individual "
+        "contributor roles in industry, clinical posts, core-facility and technical staff, and "
+        "people still in training. Several of these are senior positions — they are simply not "
+        "leadership of a research organisation.\n"
     )
     o.append("| # | Name | Papers | Years with Clevers | Where they are now | Page |")
     o.append("| ---: | --- | ---: | --- | --- | --- |")
-    for i, k in enumerate(pi_no, 1):
+    for i, k in enumerate(no_lead, 1):
         r = by_key.get(k, {})
         p = pis[k]
         yrs = f"{r.get('first_copublication','?')}–{r.get('last_copublication','?')}"
@@ -206,9 +216,9 @@ def main():
         fh.write("\n".join(o) + "\n")
 
     print(f"checked {len(checked)} of {len(cands)} candidates")
-    print(f"  alumni PIs      : {len(alumni_pi)}")
+    print(f"  alumni leaders  : {len(alumni_lead)} ({n_acad} academic PI, {n_ind} industry)")
     print(f"  collaborator PIs: {len(collab_pi)}")
-    print(f"  not a PI        : {len(pi_no)}")
+    print(f"  no leadership   : {len(no_lead)}")
     print(f"  unresolved      : {len(unknown)}")
     print(f"  unchecked       : {len(unchecked)}")
     print(f"wrote {out}")
