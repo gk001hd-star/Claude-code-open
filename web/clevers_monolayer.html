@@ -236,12 +236,12 @@ h1 em { font-style: normal; color: var(--verd); }
       <p class="eyebrow">Hubrecht · NIOB · Princess Máxima · 1985—2026</p>
       <h1>The Clevers <em>Monolayer</em></h1>
       <p class="blurb">
-        A sheet that grows one intake at a time. Each year's arrivals settle as a
-        single connected patch, entering the tissue beside whoever that year had
-        already published with most. So a year reads as one piece of tissue, and
-        people who were in the lab together are never drawn far apart. A cell
-        takes more of the sheet every time its occupant publishes with Clevers
-        again — the ones who keep going crowd their neighbours out.
+        Three territories, one per address, each budding from its own founding
+        cell. Inside a territory the sheet goes down one intake at a time and
+        each year settles as a single connected patch, so a neighbour is someone
+        who shared both an institute and a year. A cell takes more of the sheet
+        every time its occupant publishes with Clevers again — the ones who keep
+        going push their neighbours, and the whole tissue, outward.
       </p>
     </div>
 
@@ -252,7 +252,7 @@ h1 em { font-style: normal; color: var(--verd); }
     </div>
 
     <div class="legend">
-      <h2>Wash = where they worked</h2>
+      <h2>Wash = which territory</h2>
       <div class="key"><i style="background:var(--plum)"></i><span><b>Plum</b> — Dept of Immunology</span></div>
       <div class="key"><i style="background:var(--verd)"></i><span><b>Verdigris</b> — Hubrecht / NIOB</span></div>
       <div class="key"><i style="background:var(--ochre)"></i><span><b>Ochre</b> — Princess Máxima</span></div>
@@ -337,16 +337,20 @@ function readTokens() {
 let cells = [];
 
 /* ---------- grow the sheet ----------
-   One intake at a time, and each intake laid down as a single connected patch:
-   the first of a year settles beside whoever that year had already published
-   with most, and everyone after it takes a free place touching the patch. That
-   is the whole point — seating people by collaboration alone scattered a year's
-   arrivals right around the growth front, which put contemporaries as far apart
-   as strangers. Flat-top axial coordinates throughout. */
+   Three territories, one per address, each budding from its own founding site.
+   Within a territory the sheet still goes down one intake at a time, and each
+   intake is laid as a single connected patch — that is what keeps a year's
+   arrivals together, and seating people by collaboration alone scattered them
+   right around the growth front. So: neighbours share an institute, and within
+   an institute they share a year. Flat-top axial coordinates throughout. */
 const DIRS = [[1, 0], [1, -1], [0, -1], [-1, 0], [-1, 1], [0, 1]];
 const hkey = (q, r) => q + "," + r;
 const hdist = (q, r) => (Math.abs(q) + Math.abs(q + r) + Math.abs(r)) / 2;
 const wobble = (q, r) => ((q * 73856093 ^ r * 19349663) & 7) * 0.08;
+
+// founding sites, spaced by roughly the radius each territory grows to
+// (Hubrecht 276 people, Máxima 134, Utrecht immunology 51)
+const HOME = [{ q: -7, r: -6 }, { q: 0, r: 0 }, { q: 12, r: -1 }];
 
 function grow() {
   const taken = new Map();
@@ -359,13 +363,19 @@ function grow() {
     byYear.get(p.gf).push(i);
   });
 
-  function nearestFree(seat) {
-    for (let ring = 0; ring <= 60; ring++) {
+  // running centre of each territory, so it keeps accreting around itself
+  const hub = HOME.map(h => ({ q: h.q, r: h.r, sq: 0, sr: 0, n: 0 }));
+  const centreOf = s => hub[s].n
+    ? { q: hub[s].sq / hub[s].n, r: hub[s].sr / hub[s].n }
+    : { q: hub[s].q, r: hub[s].r };
+
+  function nearestFree(seat, pull) {
+    for (let ring = 0; ring <= 80; ring++) {
       const cand = ring === 0 ? [[seat.q, seat.r]] : hexRing(seat.q, seat.r, ring);
       let best = null, bestKey = Infinity;
       for (const [q, r] of cand) {
         if (taken.has(hkey(q, r))) continue;
-        const k = hdist(q, r) + wobble(q, r);   // ties pull toward the middle
+        const k = hdist(q - pull.q, r - pull.r) + wobble(q, r);
         if (k < bestKey) { bestKey = k; best = [q, r]; }
       }
       if (best) return { q: best[0], r: best[1] };
@@ -374,40 +384,52 @@ function grow() {
   }
 
   for (const y of [...byYear.keys()].sort((a, b) => a - b)) {
-    const list = byYear.get(y).sort((a, b) =>
-      DATA.people[b].p.length - DATA.people[a].p.length ||
-      (DATA.people[a].n < DATA.people[b].n ? -1 : 1));
+    for (let site = 0; site < 3; site++) {
+      const list = byYear.get(y)
+        .filter(i => DATA.people[i].e === site)
+        .sort((a, b) => DATA.people[b].p.length - DATA.people[a].p.length ||
+                        (DATA.people[a].n < DATA.people[b].n ? -1 : 1));
+      if (!list.length) continue;
 
-    // the intake's point of entry: the seat of the person it overlaps with most
-    let anchor = null;
-    for (const i of list) { const a = at[DATA.people[i].pa]; if (a) { anchor = a; break; } }
-    const patch = [];
-    let sq = 0, sr = 0;
-
-    for (const i of list) {
-      let spot, budded = null;
-      if (!patch.length) {
-        spot = nearestFree(anchor || { q: 0, r: 0 });
-        budded = anchor;
-      } else {
-        // any free hex touching the patch, kept as compact as possible
-        let best = null, bestKey = Infinity;
-        for (const s of patch) {
-          for (const [dq, dr] of DIRS) {
-            const q = s.q + dq, r = s.r + dr;
-            if (taken.has(hkey(q, r))) continue;
-            const cq = sq / patch.length, cr = sr / patch.length;
-            const k = hdist(q - cq, r - cr) * 2 + hdist(q, r) * 0.25 + wobble(q, r);
-            if (k < bestKey) { bestKey = k; best = { q, r, from: s }; }
-          }
-        }
-        spot = best || nearestFree({ q: sq / patch.length, r: sr / patch.length });
-        budded = best ? best.from : null;
+      const home = centreOf(site);
+      // the intake enters beside whoever it overlaps with most, provided that
+      // person is in the same territory; otherwise at its own growth front
+      let anchor = null;
+      for (const i of list) {
+        const a = at[DATA.people[i].pa];
+        if (a && DATA.people[DATA.people[i].pa].e === site) { anchor = a; break; }
       }
-      at[i] = { q: spot.q, r: spot.r };
-      from[i] = budded;
-      taken.set(hkey(spot.q, spot.r), i);
-      patch.push(at[i]); sq += spot.q; sr += spot.r;
+      const patch = [];
+      let sq = 0, sr = 0;
+
+      for (const i of list) {
+        let spot, budded = null;
+        if (!patch.length) {
+          spot = nearestFree(anchor || home, home);
+          budded = anchor;
+        } else {
+          // any free hex touching the patch, kept compact and held in close to
+          // the territory it belongs to
+          let best = null, bestKey = Infinity;
+          const cq = sq / patch.length, cr = sr / patch.length;
+          for (const s of patch) {
+            for (const [dq, dr] of DIRS) {
+              const q = s.q + dq, r = s.r + dr;
+              if (taken.has(hkey(q, r))) continue;
+              const k = hdist(q - cq, r - cr) * 2
+                      + hdist(q - home.q, r - home.r) * 0.3 + wobble(q, r);
+              if (k < bestKey) { bestKey = k; best = { q, r, from: s }; }
+            }
+          }
+          spot = best || nearestFree({ q: cq, r: cr }, home);
+          budded = best ? best.from : null;
+        }
+        at[i] = { q: spot.q, r: spot.r };
+        from[i] = budded;
+        taken.set(hkey(spot.q, spot.r), i);
+        patch.push(at[i]); sq += spot.q; sr += spot.r;
+        hub[site].sq += spot.q; hub[site].sr += spot.r; hub[site].n++;
+      }
     }
   }
   return { at, taken, from };
@@ -435,14 +457,12 @@ readTokens();
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", readTokens);
 new MutationObserver(readTokens).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 
-/* who each cell physically touches — used by the detail panel */
+/* who each cell physically touches on the sheet — used by the detail panel */
 function neighbours(c) {
-  const out = [];
-  for (const [dq, dr] of DIRS) {
-    const j = OCCUPANT.get(hkey(c.q + dq, c.r + dr));
-    if (j !== undefined) out.push(cells.find(v => v.i === j));
-  }
-  return out;
+  return (c.nb || [])
+    .filter(o => o.p.gf <= year &&
+            Math.hypot(o.ux - c.ux, o.uy - c.uy) < (c.rad + o.rad) * 1.16)
+    .slice(0, 8);
 }
 
 const maxN = Math.max(...cells.map(c => c.n));
@@ -461,23 +481,6 @@ for (const c of cells) {
 }
 const maxSoFar = Math.max(...cells.map(c => c.byYear[NY - 1]));
 
-/* neighbours out to two hex rings — fixed, so the tessellation below never has
-   to go looking for who is nearby */
-{
-  const seatOf = new Map();
-  cells.forEach(c => seatOf.set(hkey(c.q, c.r), c));
-  for (const c of cells) {
-    c.nb = [];
-    for (let dq = -2; dq <= 2; dq++)
-      for (let dr = -2; dr <= 2; dr++) {
-        if (!dq && !dr) continue;
-        if (hdist(dq, dr) > 2) continue;
-        const o = seatOf.get(hkey(c.q + dq, c.r + dr));
-        if (o) c.nb.push(o);
-      }
-  }
-}
-
 const CUM = [];
 for (let y = Y0, run = 0, k = 0; y <= Y1; y++) {
   while (k < DATA.papers.length && DATA.papers[k][0] <= y) { run++; k++; }
@@ -486,7 +489,8 @@ for (let y = Y0, run = 0, k = 0; y <= Y1; y++) {
 const ARRIVALS = new Array(Y1 - Y0 + 1).fill(0);
 for (const c of cells) ARRIVALS[Math.max(0, c.p.gf - Y0)]++;
 
-let year = Y1, W = 0, H = 0, cx = 0, cy = 0, U = 20, pulse = 0, geomDirty = true;
+let year = Y1, W = 0, H = 0, cx = 0, cy = 0, U = 20, geomDirty = true;
+let settle = 0, spin = 0;   // frames of packing left to run, and the slow drift
 let S = 12;   // nominal cell size, for type and label sizing
 let hover = null, picked = null, filter = null;
 
@@ -510,10 +514,43 @@ for (const c of cells) {
 const R_MIN = 0.40, R_SPAN = 0.62;
 function targetRadius(norm) { return R_MIN + R_SPAN * norm; }
 
+/* Who is actually touching whom, from the current positions. This has to be
+   rebuilt as the sheet moves: a fixed list of lattice neighbours stopped
+   describing the tissue as soon as the packing pushed cells off their seats,
+   and two thirds of the sheet ended up overlapping a cell its own outline knew
+   nothing about. */
+const _grid = new Map();
+function rebuildNeighbours(list) {
+  const G = 3.6;
+  _grid.clear();
+  for (const c of list) {
+    const k = Math.floor(c.ux / G) + ":" + Math.floor(c.uy / G);
+    let arr = _grid.get(k);
+    if (!arr) _grid.set(k, arr = []);
+    arr.push(c);
+  }
+  for (const c of list) {
+    const gx = Math.floor(c.ux / G), gy = Math.floor(c.uy / G);
+    const out = [];
+    for (let a = -1; a <= 1; a++) for (let b = -1; b <= 1; b++) {
+      const arr = _grid.get((gx + a) + ":" + (gy + b));
+      if (!arr) continue;
+      for (const o of arr) {
+        if (o === c) continue;
+        const d = Math.hypot(o.ux - c.ux, o.uy - c.uy);
+        if (d < (c.rad + o.rad) * 1.55 + 0.35) out.push([d, o]);
+      }
+    }
+    out.sort((x, y) => x[0] - y[0]);
+    c.nb = out.slice(0, 15).map(v => v[1]);
+  }
+}
+
 /* One pass of the packing: neighbours that overlap push apart, neighbours that
    have drifted apart pull back together, and a weak tether to the seat keeps
    the arrangement from shearing over time. */
 function relax(list, k) {
+  rebuildNeighbours(list);
   for (const c of list) { c.dx = 0; c.dy = 0; }
   for (const c of list) {
     for (const o of c.nb) {
@@ -548,23 +585,31 @@ const anchor = [0, 0];   // the point the sheet is held centred on
   anchor[0] = a / cells.length; anchor[1] = b / cells.length;
 }
 
-/* Settle the finished sheet once, so the view can be framed for how big the
-   tissue ends up rather than for the lattice it started from. */
-const FIT = (() => {
+/* Settle the finished sheet once, and leave it settled: the page opens on the
+   finished tissue, and the frame is sized for how big it ends up rather than for the
+   lattice it started from. */
+const FIT = { r: 10 };
+function settleFinished() {
   const root = Math.sqrt(Math.max(1, maxSoFar));
-  for (const c of cells) c.rad = targetRadius(Math.sqrt(c.byYear[NY - 1]) / root);
-  for (let n = 0; n < 260; n++) relax(cells, 1);
+  for (const c of cells) {
+    c.w = c.byYear[NY - 1];
+    c.rad = targetRadius(Math.sqrt(c.w) / root);
+  }
+  for (let n = 0; n < 300; n++) relax(cells, 1);
   let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
   for (const c of cells) {
     x0 = Math.min(x0, c.ux - c.rad); x1 = Math.max(x1, c.ux + c.rad);
     y0 = Math.min(y0, c.uy - c.rad); y1 = Math.max(y1, c.uy + c.rad);
   }
-  for (const c of cells) { c.ux = c.sx; c.uy = c.sy; }   // back to the start
-  // hold every year's sheet on the middle of the finished one, so growth reads
-  // as the tissue spreading outward rather than sliding across the frame
   anchor[0] = (x0 + x1) / 2; anchor[1] = (y0 + y1) / 2;
-  return { x0, x1, y0, y1 };
-})();
+  // the sheet turns, so it has to be framed by the circle it sweeps rather than
+  // by its bounding box, or the corners swing off the canvas
+  let rad = 0;
+  for (const c of cells)
+    rad = Math.max(rad, Math.hypot(c.ux - anchor[0], c.uy - anchor[1]) + c.rad);
+  FIT.r = rad * 1.04;
+}
+settleFinished();
 
 function resize() {
   const dpr = Math.min(devicePixelRatio || 1, 2);
@@ -574,12 +619,13 @@ function resize() {
   const wide = W > 900;
   const railW = wide ? railEl.getBoundingClientRect().width : 0;
   const railH = wide ? 0 : railEl.getBoundingClientRect().height;
-  const availW = W - railW - 64, availH = H - railH - 152;
-  U = Math.max(4, Math.min(60, Math.min(availW / (FIT.x1 - FIT.x0),
-                                        availH / (FIT.y1 - FIT.y0))));
-  cx = railW + (W - railW) / 2 - U * (FIT.x0 + FIT.x1) / 2;
-  cy = railH + (H - railH - 104) / 2 - U * (FIT.y0 + FIT.y1) / 2;
+  const availW = W - railW - 64, availH = H - railH - 172;
+  U = Math.max(4, Math.min(60, Math.min(availW, availH) / (2 * FIT.r)));
+  // the sheet is held centred on the anchor, which is also what it turns about
+  cx = railW + (W - railW) / 2 - U * anchor[0];
+  cy = railH + (H - railH - 104) / 2 - U * anchor[1];
   S = U * 0.58;
+  settle = Math.max(settle, 8);
   geomDirty = true;
 }
 new ResizeObserver(resize).observe(cv);
@@ -681,34 +727,33 @@ function inside(poly, mx, my) {
 }
 
 function draw(t) {
-  pulse = reduced ? 0.5 : (Math.sin(t * 0.0032) + 1) / 2;
+  // The sheet is still unless the time axis moves. After a year change it
+  // settles for a moment and then stops dead; the only continuous motion is a
+  // slow rigid turn of the whole tissue, which never changes anything's shape
+  // or its neighbours.
+  spin = reduced ? 0 : -t * 0.0000075;          // one turn, anticlockwise, in about fourteen minutes
   ctx.clearRect(0, 0, W, H);
+  ctx.save();
+  ctx.translate(cx, cy); ctx.rotate(spin); ctx.translate(-cx, -cy);
 
-  let here = 0;
-  const gap = Math.max(0.35, S * 0.022);
-
-  // weights ease toward the year's paper counts, so a cell swells over the
-  // frames after it publishes rather than jumping
-  const k = reduced ? 1 : 0.14;
   const root = Math.sqrt(Math.max(1, maxSoFar));
-  let moving = false;
   const present = [];
-  for (const c of cells) {
-    const target = c.byYear[Math.max(0, Math.min(NY - 1, year - Y0))];
-    c.w = c.w === undefined ? target : c.w + (target - c.w) * k;
-    if (Math.abs(target - c.w) > 0.01) moving = true;
-    c.rad = targetRadius(Math.sqrt(Math.max(0, c.w)) / root);
-    if (c.p.gf <= year) present.push(c);
-  }
+  for (const c of cells) if (c.p.gf <= year) present.push(c);
 
-  // let the packing chase the new radii; this is what carries a cell's growth
-  // outward through its neighbours to the edge of the sheet
-  for (let n = 0; n < (reduced ? 30 : 4); n++) relax(present, 1);
-  let shift = 0;
-  for (const c of cells) {
-    const nx = px(c), ny = py(c);
-    shift += Math.abs(nx - c.x) + Math.abs(ny - c.y);
-    c.x = nx; c.y = ny;
+  if (settle > 0) {
+    // weights ease toward the year's counts, so a cell swells over the moment
+    // after it publishes rather than jumping
+    const k = reduced ? 1 : 0.16;
+    for (const c of cells) {
+      const target = c.byYear[Math.max(0, Math.min(NY - 1, year - Y0))];
+      c.w = c.w === undefined ? target : c.w + (target - c.w) * k;
+      c.rad = targetRadius(Math.sqrt(Math.max(0, c.w)) / root);
+    }
+    // the packing carries a cell's growth outward through its neighbours
+    for (let n = 0; n < 4; n++) relax(present, 1);
+    for (const c of cells) { c.x = px(c); c.y = py(c); }
+    geomDirty = true;
+    settle--;
   }
 
   // Weight is the square of the packing radius. That is not a tuning choice:
@@ -716,13 +761,17 @@ function draw(t) {
   // they touch, so every cell's outline lands exactly on the circle the packing
   // gave it. Guessing at the weight left a 112-paper cell smaller than a
   // 22-paper one, because the boundary it was granted did not match its room.
+  const norm = c => Math.sqrt(Math.max(0, c.w)) / root;
   const weightOf = c => (c.rad * U) * (c.rad * U);
   const reach = c => c.rad * 1.06;
 
-  if (moving || shift > 0.5 || !cells[0].poly || geomDirty) {
+  if (geomDirty) {
     for (const c of cells) c.poly = c.p.gf > year ? null : cellPolygon(c, weightOf, reach);
     geomDirty = false;
   }
+
+  let here = 0;
+  const gap = Math.max(0.35, S * 0.022);
 
   for (const c of cells) {
     if (!c.poly || c.poly.length < 6) continue;
@@ -768,12 +817,12 @@ function draw(t) {
     if (fresh && !dim) {
       const a = BUDDED[c.i];
       const o = a && cells.find(v => v.q === a.q && v.r === a.r);
-      if (o && hdist(c.q - a.q, c.r - a.r) === 1) {
-        ctx.globalAlpha = 0.3 + pulse * 0.35;
+      if (o && Math.hypot(o.ux - c.ux, o.uy - c.uy) < (c.rad + o.rad) * 1.2) {
+        ctx.globalAlpha = 0.55;
         ctx.strokeStyle = INK; ctx.lineWidth = 1;
         ctx.beginPath(); ctx.moveTo(c.x, c.y); ctx.lineTo(o.x, o.y); ctx.stroke();
       }
-      ctx.globalAlpha = 0.45 + pulse * 0.5;
+      ctx.globalAlpha = 0.8;
       ctx.strokeStyle = INK; ctx.lineWidth = 1.5;
       softPath(body); ctx.stroke();
     }
@@ -805,6 +854,7 @@ function draw(t) {
     }
     ctx.textBaseline = "alphabetic";
   }
+  ctx.restore();
 
   document.getElementById("c-cells").textContent = here;
   requestAnimationFrame(draw);
@@ -815,6 +865,7 @@ function setYear(y) {
   slider.value = year;
   yearEl.textContent = year;
   phaseEl.textContent = PHASE.find(p => year <= p.to).tag;
+  settle = reduced ? 1 : 46;
   geomDirty = true;
   document.getElementById("c-div").textContent = ARRIVALS[year - Y0];
   document.getElementById("c-papers").textContent = CUM[year - Y0];
@@ -835,9 +886,16 @@ function hit(mx, my) {
   return bd <= (S * 1.1) ** 2 ? best : null;
 }
 
+/* undo the slow rotation before testing what the pointer is over */
+function unspin(mx, my) {
+  const c = Math.cos(-spin), s2 = Math.sin(-spin);
+  const dx = mx - cx, dy = my - cy;
+  return [cx + dx * c - dy * s2, cy + dx * s2 + dy * c];
+}
+
 cv.addEventListener("pointermove", e => {
   const r = cv.getBoundingClientRect();
-  hover = hit(e.clientX - r.left, e.clientY - r.top);
+  hover = hit(...unspin(e.clientX - r.left, e.clientY - r.top));
   cv.style.cursor = hover ? "pointer" : "crosshair";
   if (hover) {
     const p = hover.p;
@@ -850,7 +908,7 @@ cv.addEventListener("pointermove", e => {
 cv.addEventListener("pointerleave", () => { hover = null; tip.removeAttribute("data-on"); });
 cv.addEventListener("click", e => {
   const r = cv.getBoundingClientRect();
-  const c = hit(e.clientX - r.left, e.clientY - r.top);
+  const c = hit(...unspin(e.clientX - r.left, e.clientY - r.top));
   if (c) { stop(); open(c); } else close();
 });
 
@@ -978,14 +1036,8 @@ addEventListener("keydown", e => {
 });
 
 setYear(Y1);
-{
-  const root = Math.sqrt(Math.max(1, maxSoFar));
-  for (const c of cells) {
-    c.w = c.byYear[NY - 1];
-    c.rad = targetRadius(Math.sqrt(c.w) / root);
-  }
-  const present = cells.filter(c => c.p.gf <= year);
-  for (let n = 0; n < 220; n++) relax(present, 1);
-}
+settle = 0;                       // settleFinished() already left it at rest
+for (const c of cells) { c.x = px(c); c.y = py(c); }
+geomDirty = true;
 requestAnimationFrame(draw);
 </script>
