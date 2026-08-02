@@ -213,6 +213,35 @@ h1 em { font-style: normal; color: var(--verd); }
 .paper .j { font-size: .73rem; color: var(--muted); font-style: italic; }
 .links { display: flex; gap: .9rem; margin-top: .35rem; font-family: var(--mono); font-size: .67rem; }
 
+/* the margin list of new arrivals */
+.arrivals {
+  position: absolute; right: 1.4rem; top: 1.7rem; width: 15.5rem; z-index: 3;
+  max-height: calc(100dvh - 10rem); overflow-y: auto;
+  scrollbar-width: none; -ms-overflow-style: none;
+}
+.arrivals::-webkit-scrollbar { width: 0; }
+.arrivals h2 {
+  margin: 0 0 .5rem; font-family: var(--mono); font-size: .59rem; font-weight: 400;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--faint);
+}
+.arrivals ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .12rem; }
+.arrivals li {
+  display: grid; grid-template-columns: 1.9rem 1fr; column-gap: .45rem;
+  align-items: baseline; cursor: pointer; padding: .1rem .3rem;
+  font-size: .78rem; line-height: 1.25;
+}
+.arrivals li:hover { background: var(--paper-2); }
+.arrivals li[data-old] { opacity: .42; }
+.arrivals li b {
+  font-family: var(--mono); font-size: .68rem; font-weight: 600;
+  color: var(--ink); letter-spacing: .02em;
+}
+.arrivals li span { color: var(--ink); }
+.arrivals li em {
+  grid-column: 2; font-style: normal; font-family: var(--mono);
+  font-size: .58rem; letter-spacing: .08em; text-transform: uppercase; color: var(--faint);
+}
+
 #tip {
   position: fixed; z-index: 30; pointer-events: none; opacity: 0;
   background: var(--ink); color: var(--paper); padding: .3rem .55rem;
@@ -227,11 +256,14 @@ h1 em { font-style: normal; color: var(--verd); }
   .note { display: none; }
   .time { left: 1.2rem; right: 1.2rem; padding-left: 0; }
   .hint { display: none; }
+  .arrivals { display: none; }
 }
 </style>
 
 <div class="stage">
   <canvas id="sheet" tabindex="0" aria-label="The Clevers group drawn as a growing organoid"></canvas>
+
+  <div class="arrivals" id="arrivals" aria-live="polite"></div>
 
   <div class="rail">
     <div>
@@ -264,7 +296,6 @@ h1 em { font-style: normal; color: var(--verd); }
       <div class="key hollow"><i></i><span><b>Hollow</b> — no longer in the group</span></div>
       <div class="key solid"><i></i><span><b>Filled nucleus</b> — went on to lead a group</span></div>
       <div class="key founder"><i></i><span><b>The largest cell</b> — Hans Clevers, at the centre</span></div>
-      <div class="key line"><i></i><span><b>Line</b> — drawn from him to each arrival</span></div>
     </div>
 
     <div>
@@ -327,6 +358,7 @@ const slider = document.getElementById("slider");
 const yearEl = document.getElementById("year");
 const phaseEl = document.getElementById("phase");
 const railEl = document.querySelector(".rail");
+const arrivalsEl = document.getElementById("arrivals");
 
 const Y0 = DATA.meta.y0, Y1 = DATA.meta.y1;
 const reduced = matchMedia("(prefers-color-scheme: reduce)").matches ||
@@ -581,20 +613,29 @@ for (const c of cells) if (!c.p.hc) ARRIVALS[Math.max(0, c.p.gf - Y0)]++;
 }
 const YSTART = 1990;    // the first year the timeline shows
 
-/* The slider stops within a year as well as between them. The largest intake
-   gets five stops, everything else scales down from that to a floor of one, so
-   a fifty-two-person year is walked through in fifths instead of landing in a
-   single move. */
-const MAXBATCH = Math.max(1, ...ARRIVALS);
+/* The slider stops within a year as well as between them, one stop per handful
+   of arrivals, so a fifty-two-person intake comes in eleven small batches
+   instead of one move. */
+const BATCH = 5;        // people admitted per stop
 const TICKS = [];
 for (let y = YSTART; y <= Y1; y++) {
-  const parts = Math.max(1, Math.min(5, Math.round(5 * ARRIVALS[y - Y0] / MAXBATCH)));
+  const parts = Math.max(1, Math.min(12, Math.ceil(ARRIVALS[y - Y0] / BATCH)));
   for (let p = 0; p < parts; p++) TICKS.push({ y, parts, f: (p + 1) / parts });
 }
 const FIRST_TICK = new Int32Array(NY).fill(-1);
 TICKS.forEach((t, i) => { if (FIRST_TICK[t.y - Y0] < 0) FIRST_TICK[t.y - Y0] = i; });
 // a year lasts at least a second, and longer when more people joined
-const tickMs = t => Math.max(1000, t.parts * 500) / t.parts;
+const tickMs = t => Math.max(1000, t.parts * 420) / t.parts;
+
+/* the stop at which each person's cell first appears — used for the initials on
+   the cell and for the names in the margin, both of which last two stops */
+for (const c of cells) {
+  if (c.p.hc) { c.at = -99; continue; }
+  const first = FIRST_TICK[c.p.gf - Y0];
+  if (first < 0) { c.at = -99; continue; }
+  const parts = TICKS[first].parts;
+  c.at = first + Math.max(0, Math.ceil((c.bi + 0.5) / c.bn * parts) - 1);
+}
 
 /* ---------- the sheet ----------
    Seats on a jittered hex lattice give the topology: who sits against whom,
@@ -741,11 +782,11 @@ function resize() {
   const wide = W > 900;
   const railW = wide ? railEl.getBoundingClientRect().width : 0;
   const railH = wide ? 0 : railEl.getBoundingClientRect().height;
-  const availW = W - railW - 56, availH = H - railH - 150;
+  const availW = W - railW - (wide ? 300 : 56), availH = H - railH - 150;
   // framed for the finished organoid, and held there: the scale never changes,
   // so a cell that is not growing keeps exactly the same area on screen
   U = Math.max(4, Math.min(60, Math.min(availW / (2 * FIT.hx), availH / (2 * FIT.hy))));
-  cx = railW + (W - railW) / 2;
+  cx = railW + (W - railW - (wide ? 244 : 0)) / 2;
   cy = railH + (H - railH - 104) / 2;
   S = U * 0.58;
   geomDirty = true;
@@ -864,6 +905,23 @@ function inside(poly, mx, my) {
 }
 
 let easeTotal = 22;
+/* The names of whoever has just arrived, set in the margin where they can be
+   read. Rewritten only when the set changes — this runs on every frame. */
+let arrivalsKey = "";
+function paintArrivals(list) {
+  const key = tick + ":" + list.map(c => c.i).join(",");
+  if (key === arrivalsKey) return;
+  arrivalsKey = key;
+  if (!list.length) { arrivalsEl.innerHTML = ""; return; }
+  const rows = list.map(c => {
+    const age = tick - c.at;
+    return `<li data-n="${esc(c.p.n)}"${age ? ' data-old' : ''}>` +
+           `<b>${esc(initials(c.p.n))}</b><span>${esc(fullName(c.p.n))}</span>` +
+           `<em>${c.p.e === 2 ? "Máxima" : c.p.e === 0 ? "Utrecht" : "Hubrecht"}</em></li>`;
+  }).join("");
+  arrivalsEl.innerHTML = `<h2>Joining ${year}</h2><ul>${rows}</ul>`;
+}
+
 function draw() {
   ctx.clearRect(0, 0, W, H);
 
@@ -932,14 +990,6 @@ function draw() {
       ctx.globalAlpha = 1;
     }
 
-    // as each arrival appears, a line back to the founder
-    if (fresh && !dim && FOUNDER) {
-      ctx.globalAlpha = 0.28;
-      ctx.strokeStyle = INK; ctx.lineWidth = 1;
-      ctx.beginPath(); ctx.moveTo(FOUNDER.x, FOUNDER.y); ctx.lineTo(c.x, c.y); ctx.stroke();
-      ctx.globalAlpha = 1;
-    }
-
     // this year's divisions: a cleavage furrow back to the cell it settled beside
     if (fresh && !dim) {
       const a = BUDDED[c.i];
@@ -962,10 +1012,8 @@ function draw() {
     ctx.globalAlpha = 1;
   }
 
-  /* Names. Everyone who has just arrived is named in full for two years and
-     then fades out; the permanent core and whoever is being pointed at keep
-     their surname. Boxes are claimed in that order, so a new arrival's name is
-     never dropped in favour of a label that will still be there next year. */
+  /* Names. A new cell carries only its initials; the names themselves are set
+     in the margin, where there is room to read them. Both last two stops. */
   ctx.textAlign = "center"; ctx.textBaseline = "middle";
   const boxes = [];
   const claim = (x, y, w, h) => {
@@ -976,25 +1024,32 @@ function draw() {
     return true;
   };
 
-  const arrivals = cells.filter(c => c.poly && !c.p.hc && year - c.p.gf >= 0 && year - c.p.gf < 2
-                                     && !(filter && !filter.has(c.p.n)))
-                        .sort((a, b) => (a.p.gf - b.p.gf) || b.n - a.n);
-  ctx.font = Math.max(9, Math.min(12, S * 0.5)) + "px " + getComputedStyle(document.body).fontFamily;
-  for (const c of arrivals) {
+  const fresh = [];
+  for (const c of cells) {
+    if (!c.poly || c.p.hc) continue;
+    if (filter && !filter.has(c.p.n)) continue;
+    const age = tick - c.at;
+    if (age < 0 || age > 1) continue;
     if (c.p.gf === year && reveal < (c.bi + 0.5) / c.bn) continue;
-    const t2 = fullName(c.p.n);
+    fresh.push(c);
+  }
+  fresh.sort((a, b) => (tick - a.at) - (tick - b.at) || b.n - a.n);
+
+  ctx.font = "600 " + Math.max(8, Math.min(11, S * 0.44)) + "px " +
+             getComputedStyle(document.body).fontFamily;
+  for (const c of fresh) {
+    const t2 = initials(c.p.n);
     const w = ctx.measureText(t2).width;
-    const y = c.y + c.rad + 8;
-    if (!claim(c.x, y, w + 8, 14)) continue;
-    // a whole year at full strength, then half, then gone
-    ctx.globalAlpha = year === c.p.gf ? 0.95 : 0.42;
-    ctx.fillStyle = PAPER;
-    ctx.fillRect(c.x - w / 2 - 3, y - 7, w + 6, 14);
-    ctx.globalAlpha = year === c.p.gf ? 1 : 0.5;
+    if (!claim(c.x, c.y, w + 5, 12)) continue;
+    ctx.globalAlpha = tick === c.at ? 1 : 0.45;
+    ctx.lineJoin = "round";
+    ctx.strokeStyle = PAPER; ctx.lineWidth = 3;
+    ctx.strokeText(t2, c.x, c.y);      // a ground to read against, over the nucleus
     ctx.fillStyle = INK;
-    ctx.fillText(t2, c.x, y);
+    ctx.fillText(t2, c.x, c.y);
     ctx.globalAlpha = 1;
   }
+  paintArrivals(fresh);
 
   if (S > 11) {
     ctx.font = Math.max(8, Math.min(11, S * 0.5)) + "px " + getComputedStyle(document.body).fontFamily;
@@ -1003,7 +1058,8 @@ function draw() {
       if (filter && !filter.has(c.p.n)) continue;
       const strong = c === hover || c === picked || c.pillar || c.p.hc;
       if (!strong && !(c.n >= 30 && year <= c.p.gl)) continue;
-      if (year - c.p.gf >= 0 && year - c.p.gf < 2 && !strong) continue;
+      const age = tick - c.at;
+      if (age >= 0 && age <= 1 && !strong) continue;
       const t2 = c.p.hc ? "Hans Clevers" : c.p.n.split(",")[0].trim();
       const w = ctx.measureText(t2).width;
       const y = c.y + c.rad + 7;
@@ -1123,6 +1179,15 @@ function play() {
 playBtn.addEventListener("click", () => (playing() ? stop() : play()));
 
 /* ---------- detail ---------- */
+/* "Puschhof, Jens" -> "JP". Dutch particles are skipped, so van de Wetering
+   comes out MW rather than MV. */
+function initials(n) {
+  const [last, first] = n.split(",").map(v => (v || "").trim());
+  const g = (first || " ").trim()[0] || "";
+  const word = last.split(/\s+/).find(w => /^[A-ZÀ-Þ]/.test(w)) || last;
+  return (g + word[0]).toUpperCase();
+}
+
 /* "Puschhof, Jens" -> "Jens Puschhof", trimmed of trailing initials */
 function fullName(n) {
   const [last, first] = n.split(",").map(v => (v || "").trim());
@@ -1185,6 +1250,11 @@ function open(c) {
 }
 function close() { picked = null; detail.removeAttribute("data-open"); }
 document.getElementById("close").addEventListener("click", close);
+arrivalsEl.addEventListener("click", e => {
+  const li = e.target.closest("li"); if (!li) return;
+  const c = cells.find(v => v.p.n === li.dataset.n);
+  if (c) { stop(); open(c); }
+});
 detailBody.addEventListener("click", e => {
   const b = e.target.closest(".nb button"); if (!b) return;
   const c = cells.find(v => v.p.n === b.dataset.n);
