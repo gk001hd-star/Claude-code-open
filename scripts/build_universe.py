@@ -104,12 +104,15 @@ def add_roster(people, y1):
         name = m.get("name", "").strip()
         if not name:
             continue
+        # a roster entry can carry its own leaving year, which then wins over
+        # both the roster's default and the last indexed paper
+        last = int(m.get("until", y1))
         known = have.get(author_key(name))
         if known:
             # the roster is better evidence of who is still there than the date
             # of their last indexed paper: someone between papers looked gone
-            if known["gl"] < y1:
-                known["gl"] = y1
+            if known["gl"] != last:
+                known["gl"] = last
                 held += 1
             if m.get("role") and not known.get("r"):
                 known["r"] = m["role"]
@@ -120,9 +123,9 @@ def add_roster(people, y1):
             continue
         since = int(m.get("since", y1))
         people.append({
-            "n": name, "p": [], "f": since, "l": y1,
-            "gf": since, "gl": y1,
-            "e": SITE_CODE[code], "sv": [[code, 0, since, y1]], "pl": 0,
+            "n": name, "p": [], "f": since, "l": last,
+            "gf": since, "gl": last,
+            "e": SITE_CODE[code], "sv": [[code, 0, since, last]], "pl": 0,
             "r": m.get("role", ""), "pi": "", "tr": True, "ck": False,
             "pos": "", "inst": m.get("institute", ""), "url": m.get("url", ""),
         })

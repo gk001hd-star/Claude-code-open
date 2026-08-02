@@ -6,7 +6,8 @@
     "site": "HUB | MAX | IMM",
     "since": "year they joined, as an integer",
     "role": "PhD student / postdoc / technician / staff scientist / ...",
-    "url": "optional link to their page"
+    "url": "optional link to their page",
+    "until": "optional last year in the group, when it is not the current one"
   },
   "_source": "Rosters supplied by the user from hubrecht.eu/research-groups/clevers-group and prinsesmaximacentrum.nl team page; both refuse automated fetches.",
   "members": [
@@ -62,7 +63,8 @@
       "name": "de Lau, Wim",
       "site": "HUB",
       "since": 2026,
-      "role": "Postdoc"
+      "role": "Postdoc",
+      "until": 2025
     },
     {
       "name": "Lin, Lin",
