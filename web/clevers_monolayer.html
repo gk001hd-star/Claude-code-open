@@ -138,7 +138,7 @@ h1 em { font-style: normal; color: var(--verd); }
 .note a { color: var(--muted); }
 
 .time {
-  position: absolute; left: 20rem; right: 1.6rem; bottom: 0;
+  position: absolute; left: 20rem; right: 17.6rem; bottom: 0;
   padding: 0 0 1.3rem 1.6rem; pointer-events: none;
 }
 .time > * { pointer-events: auto; }
@@ -215,47 +215,47 @@ h1 em { font-style: normal; color: var(--verd); }
 
 /* the roll of names beside the organoid */
 .arrivals {
-  position: absolute; right: 1.2rem; top: 1.6rem; bottom: 3.2rem; width: 16rem; z-index: 3;
+  position: absolute; right: 1.2rem; top: 1.6rem; bottom: 5.4rem; width: 16rem; z-index: 3;
   display: flex; flex-direction: column; gap: .2rem;
 }
 .arrivals h2 {
   margin: 0 0 .35rem; font-family: var(--mono); font-size: .59rem; font-weight: 400;
   letter-spacing: .14em; text-transform: uppercase; color: var(--faint); flex: none;
 }
-.arrivals h2 + ul { margin-bottom: .9rem; }
+.arrivals h2 { margin-top: .1rem; }
 .arrivals ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .08rem; }
-.arrivals ul.pin { flex: none; padding-bottom: .5rem; border-bottom: 1px solid var(--rule); }
+.arrivals ul.pin { flex: none; padding-bottom: .55rem; margin-bottom: .55rem; border-bottom: 1px solid var(--rule); }
 .arrivals ul.roll {
   /* a window, not a scroller. The list is anchored to the foot, so names fill
      downward while there is room and then everybody moves up, the oldest
      leaving off the top and the newest arriving at the bottom. */
   flex: 1 1 auto; overflow: hidden;
-  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 12%);
-  mask-image: linear-gradient(180deg, transparent 0, #000 12%);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 9%);
+  mask-image: linear-gradient(180deg, transparent 0, #000 9%);
 }
 .arrivals li {
   display: grid; grid-template-columns: 1.9rem 1fr; column-gap: .45rem;
   align-items: baseline; cursor: pointer; padding: .12rem .3rem;
-  font-size: .77rem; line-height: 1.25; color: var(--muted);
+  font-size: .77rem; line-height: 1.25; color: var(--ink);
 }
 .arrivals li[hidden] { display: none; }
 .arrivals li:hover { background: var(--paper-2); }
 .arrivals li b {
   font-family: var(--mono); font-size: .67rem; font-weight: 600;
-  color: var(--faint); letter-spacing: .02em;
+  color: var(--muted); letter-spacing: .02em;
 }
-.arrivals li span { color: var(--muted); }
+.arrivals li span { color: var(--ink); }
 .arrivals li em {
   grid-column: 2; font-style: normal; font-family: var(--mono);
-  font-size: .56rem; letter-spacing: .07em; text-transform: uppercase; color: var(--faint);
+  font-size: .56rem; letter-spacing: .07em; text-transform: uppercase; color: var(--muted);
 }
 .arrivals li em i { font-style: normal; opacity: .75; }
 /* just arrived */
 .arrivals li[data-new] b, .arrivals li[data-new] span { color: var(--ink); }
 .arrivals li[data-new] { background: color-mix(in srgb, var(--verd) 9%, transparent); }
 /* already left, and — for the pinned three — not yet arrived */
-.arrivals li[data-gone] { opacity: .45; }
-.arrivals li[data-waiting] { opacity: .3; }
+.arrivals li[data-gone] { opacity: .72; }
+.arrivals li[data-waiting] { opacity: .6; }
 
 #tip {
   position: fixed; z-index: 30; pointer-events: none; opacity: 0;
@@ -944,7 +944,7 @@ function buildRoll() {
     `<em>${c.p.hc ? "Group leader" : c.p.e === 2 ? "Máxima" : c.p.e === 0 ? "Utrecht" : "Hubrecht"} ` +
     `<i>${c.p.gf}–${c.p.gl}</i></em></li>`;
   arrivalsEl.innerHTML =
-    `<h2>Core</h2><ul class="pin">${pins.map(row).join("")}</ul>` +
+    `<ul class="pin">${pins.map(row).join("")}</ul>` +
     `<h2>Joined</h2><ul class="roll">${rest.map(row).join("")}</ul>`;
   const nodes = arrivalsEl.querySelectorAll(".roll li");
   rest.forEach((c, i) => rollRows.push({ c, el: nodes[i] }));
@@ -1093,7 +1093,7 @@ function draw() {
     const t2 = initials(c.p.n);
     const w = ctx.measureText(t2).width;
     if (!claim(c.x, c.y, w + 5, 12)) continue;
-    ctx.globalAlpha = tick === c.at ? 1 : 0.45;
+    ctx.globalAlpha = tick === c.at ? 1 : 0.7;
     ctx.lineJoin = "round";
     ctx.strokeStyle = PAPER; ctx.lineWidth = 3;
     ctx.strokeText(t2, c.x, c.y);      // a ground to read against, over the nucleus
@@ -1117,7 +1117,7 @@ function draw() {
       const y = c.y + c.rad + 7;
       if (!claim(c.x, y, w + 6, 13)) continue;
       ctx.fillStyle = strong ? INK : MUTED;
-      ctx.globalAlpha = strong ? 0.95 : 0.55;
+      ctx.globalAlpha = strong ? 0.98 : 0.75;
       ctx.fillText(t2, c.x, y);
       ctx.globalAlpha = 1;
     }
