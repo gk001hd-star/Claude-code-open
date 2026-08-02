@@ -215,7 +215,7 @@ h1 em { font-style: normal; color: var(--verd); }
 
 /* the roll of names beside the organoid */
 .arrivals {
-  position: absolute; right: 1.2rem; top: 1.7rem; bottom: 5.5rem; width: 16rem; z-index: 3;
+  position: absolute; right: 1.2rem; top: 1.6rem; bottom: 3.2rem; width: 16rem; z-index: 3;
   display: flex; flex-direction: column; gap: .2rem;
 }
 .arrivals h2 {
@@ -226,12 +226,12 @@ h1 em { font-style: normal; color: var(--verd); }
 .arrivals ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .08rem; }
 .arrivals ul.pin { flex: none; padding-bottom: .5rem; border-bottom: 1px solid var(--rule); }
 .arrivals ul.roll {
-  flex: 1 1 auto; overflow-y: auto; scrollbar-width: thin;
-  scrollbar-color: var(--rule-2) transparent; padding-right: .3rem;
+  /* a window, not a scroller: names stack from the top and the oldest falls off
+     the bottom once it is full */
+  flex: 1 1 auto; overflow: hidden;
+  -webkit-mask-image: linear-gradient(180deg, #000 88%, transparent 100%);
+  mask-image: linear-gradient(180deg, #000 88%, transparent 100%);
 }
-.arrivals ul.roll::-webkit-scrollbar { width: 6px; }
-.arrivals ul.roll::-webkit-scrollbar-thumb { background: var(--rule-2); border-radius: 3px; }
-.arrivals ul.roll::-webkit-scrollbar-track { background: transparent; }
 .arrivals li {
   display: grid; grid-template-columns: 1.9rem 1fr; column-gap: .45rem;
   align-items: baseline; cursor: pointer; padding: .12rem .3rem;
@@ -576,7 +576,7 @@ function hexRing(cq, cr, n) {
 
 const { at: SEAT, taken: OCCUPANT, from: BUDDED } = grow();
 cells = DATA.people.map((p, i) => ({
-  i, p, n: p.p.length,
+  i, p, n: p.p.length, grow: 1,
   q: SEAT[i].q, r: SEAT[i].r,
   col: "", lead: p.pi && p.tr, pillar: p.pl || 0,
   x: 0, y: 0
@@ -924,6 +924,7 @@ let easeTotal = 22;
    showing. The three who held the lab together are pinned above it whatever the
    year, because they are who you look for. */
 const PINNED = ["de lau, w", "van es, j", "van de wetering, m"];
+const rollHead = () => "Joined";
 const rollRows = [];
 function buildRoll() {
   const key = n => {
@@ -932,17 +933,14 @@ function buildRoll() {
     return strip(last) + ", " + strip(first || "")[0];
   };
   const pins = [], rest = [];
-  for (const c of cells) {
-    if (c.p.hc) continue;
-    (PINNED.includes(key(c.p.n)) ? pins : rest).push(c);
-  }
+  for (const c of cells) (PINNED.includes(key(c.p.n)) ? pins : rest).push(c);
   pins.sort((a, b) => PINNED.indexOf(key(a.p.n)) - PINNED.indexOf(key(b.p.n)));
   // newest first: the roll grows downward from the top as the years run
-  rest.sort((a, b) => b.at - a.at || b.n - a.n);
+  rest.sort((a, b) => b.at - a.at || b.n - a.n);   // Clevers is at -99, so he sits at the foot
   const row = c =>
     `<li data-n="${esc(c.p.n)}"><b>${esc(initials(c.p.n))}</b>` +
     `<span>${esc(fullName(c.p.n))}</span>` +
-    `<em>${c.p.e === 2 ? "Máxima" : c.p.e === 0 ? "Utrecht" : "Hubrecht"} ` +
+    `<em>${c.p.hc ? "Group leader" : c.p.e === 2 ? "Máxima" : c.p.e === 0 ? "Utrecht" : "Hubrecht"} ` +
     `<i>${c.p.gf}–${c.p.gl}</i></em></li>`;
   arrivalsEl.innerHTML =
     `<h2>The core</h2><ul class="pin">${pins.map(row).join("")}</ul>` +
@@ -982,12 +980,25 @@ function draw() {
     reveal = at;
     for (const c of cells) {
       const i = c.i;
-      c.x = cx + (P.x[i] + (L.x[i] - P.x[i]) * at) * U;
-      c.y = cy + (P.y[i] + (L.y[i] - P.y[i]) * at) * U;
-      c.rad = (P.r[i] + (L.r[i] - P.r[i]) * at) * U;
+      // Someone arriving this year has no place in last year's layout — the
+      // array still holds a zero there — so interpolating flung them in from the
+      // middle of the organoid. They start where they belong and swell into it.
+      const isNew = c.p.gf === T.y && !c.p.hc;
+      const ux = isNew ? L.x[i] : P.x[i] + (L.x[i] - P.x[i]) * at;
+      const uy = isNew ? L.y[i] : P.y[i] + (L.y[i] - P.y[i]) * at;
+      c.x = cx + ux * U; c.y = cy + uy * U;
+      let r = isNew ? L.r[i] : P.r[i] + (L.r[i] - P.r[i]) * at;
+      if (isNew) {
+        // each one grows in over its own slice of the year, so they come up one
+        // after another rather than together
+        const slot = 1 / Math.max(1, c.bn);
+        const g = (at - (c.bi + 0.5) * slot) / (slot * 0.7);
+        c.grow = Math.max(0, Math.min(1, g + 1));
+        r *= 0.15 + 0.85 * c.grow;
+      } else c.grow = 1;
+      c.rad = r * U;
       c.poly = c.p.gf > T.y ? null : c;
     }
-    for (const c of cells) c.poly = c.poly === null ? null : cellPolygon(c);
     if (ease > 0) ease--; else { geomDirty = false; fromF = T.f; }
   }
 
@@ -996,7 +1007,7 @@ function draw() {
 
   for (const c of cells) {
     if (!c.poly || c.poly.length < 6) continue;
-    if (c.p.gf === year && reveal < (c.bi + 0.5) / c.bn) continue;
+    if (c.grow <= 0) continue;
     const inLab = year <= c.p.gl;
     const dim = filter && !filter.has(c.p.n);
     const strong = c === hover || c === picked;
@@ -1075,7 +1086,7 @@ function draw() {
     if (filter && !filter.has(c.p.n)) continue;
     const age = tick - c.at;
     if (age < 0 || age > 1) continue;
-    if (c.p.gf === year && reveal < (c.bi + 0.5) / c.bn) continue;
+    if (c.grow <= 0) continue;
     fresh.push(c);
   }
   fresh.sort((a, b) => (tick - a.at) - (tick - b.at) || b.n - a.n);
