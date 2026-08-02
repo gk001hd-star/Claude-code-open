@@ -59,7 +59,10 @@ def main():
     rows, roles, pis, cands = load()
     by_key = {r["key"]: r for r in rows}
 
+    cand_keys = {c["key"] for c in cands}
     checked = [k for k in pis]
+    checked_in_pool = [k for k in checked if k in cand_keys]
+    extra = [k for k in checked if k not in cand_keys]
     unknown = [k for k in checked if pis[k]["pi"] == "unknown"]
     # Anyone heading a research organisation, academic or industry.
     external = [k for k in checked if pis[k].get("category") == "external_collaborator"]
@@ -100,11 +103,21 @@ def main():
         "announcements.\n"
     )
 
+    o.append(
+        "> **Validation.** `scripts/validate.py` audits this data for internal consistency and "
+        "evidence quality — entries that match no co-author in the corpus, two names collapsing "
+        "onto one key, PI claims with no group page, group links that are really generic "
+        "homepages, people flagged as trainees with no group affiliation on any post-2014 paper, "
+        "and PI claims resting on non-institutional sources. The current result is in "
+        "[`validation_report.md`](validation_report.md), and any open items there apply to the "
+        "tables below.\n"
+    )
     o.append("## Coverage — read this first\n")
     o.append(
         f"| | |\n| --- | ---: |\n"
         f"| Candidate alumni identified (≥3 joint papers) | {len(cands)} |\n"
-        f"| **Checked so far** | **{len(checked)}** |\n"
+        f"| **Candidates checked** | **{len(checked_in_pool)}** |\n"
+        f"| additionally checked, below the 3-paper cut-off | {len(extra)} |\n"
         f"| → **alumni now leading a research organisation** | **{len(alumni_lead)}** |\n"
         f"| &nbsp;&nbsp;&nbsp;academic principal investigators | {n_acad} |\n"
         f"| &nbsp;&nbsp;&nbsp;company founders, CEOs and heads of R&D | {n_ind} |\n"
@@ -253,7 +266,7 @@ def main():
     with open(out, "w", encoding="utf-8") as fh:
         fh.write("\n".join(o) + "\n")
 
-    print(f"checked {len(checked)} of {len(cands)} candidates")
+    print(f"checked {len(checked_in_pool)} of {len(cands)} candidates (+{len(extra)} below the cut-off)")
     print(f"  alumni leaders  : {len(alumni_lead)} ({n_acad} academic PI, {n_ind} industry)")
     print(f"  collaborator PIs: {len(collab_pi)}")
     print(f"  no leadership   : {len(no_lead)}")

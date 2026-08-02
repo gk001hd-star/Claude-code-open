@@ -2,12 +2,15 @@
 
 For each person checked, whether they now lead their own research organisation — an academic group or a company — and the URL of its page. Built on the co-authorship data in `clevers_group_members.md`; PI status established by one targeted web search per person against institutional pages, lab sites and thesis-defence announcements.
 
+> **Validation.** `scripts/validate.py` audits this data for internal consistency and evidence quality — entries that match no co-author in the corpus, two names collapsing onto one key, PI claims with no group page, group links that are really generic homepages, people flagged as trainees with no group affiliation on any post-2014 paper, and PI claims resting on non-institutional sources. The current result is in [`validation_report.md`](validation_report.md), and any open items there apply to the tables below.
+
 ## Coverage — read this first
 
 | | |
 | --- | ---: |
 | Candidate alumni identified (≥3 joint papers) | 368 |
-| **Checked so far** | **298** |
+| **Candidates checked** | **296** |
+| additionally checked, below the 3-paper cut-off | 2 |
 | → **alumni now leading a research organisation** | **62** |
 | &nbsp;&nbsp;&nbsp;academic principal investigators | 50 |
 | &nbsp;&nbsp;&nbsp;company founders, CEOs and heads of R&D | 12 |
@@ -63,7 +66,7 @@ People who trained in or worked for the Clevers group and now head their own aca
 | 31 | **Haegebarth, Andrea** | **Industry / org** | 11 | 2006–2015 | — | Global Head of Research and Early Development, Cardiovascular, Renal and Immunology, Bayer Pharmaceuticals | [www.bayer.com/en/pharma/research-development](https://www.bayer.com/en/pharma/research-development) |
 | 32 | **Muncan, Vanesa** | Academic PI | 10 | 2003–2025 | PhD student / postdoc, Hubrecht (c-Myc in crypts, zebrafish tcf4) | Principal Investigator, Tytgat Institute / Gastroenterology & Hepatology, Amsterdam UMC | [www.amsterdamumc.org/en/research/researchers/vanesa-dijkstra](https://www.amsterdamumc.org/en/research/researchers/vanesa-dijkstra-muncan.htm) |
 | 33 | **Dayton, Talya L** | Academic PI | 10 | 2017–2025 | — | Group Leader, Organoid Models of Endocrine Development and Cancer (since Sep 2022), EMBL Barcelona | [www.embl.org/groups/dayton](https://www.embl.org/groups/dayton/) |
-| 34 | **Van der Flier, Laurens G** | **Industry / org** | 10 | 2006–2015 | PhD student then postdoc, Clevers group (intestinal Wnt/TCF signature, Ascl2, Olfm4) (inferred from tenure and first-authorships) | Managing Director Research (research management rather than a lab), Princess Máxima Center for Pediatric Oncology, Utrecht | [research.prinsesmaximacentrum.nl](https://research.prinsesmaximacentrum.nl/) |
+| 34 | **Van der Flier, Laurens G** | **Industry / org** | 10 | 2006–2015 | PhD student then postdoc, Clevers group (intestinal Wnt/TCF signature, Ascl2, Olfm4) (inferred from tenure and first-authorships) | Managing Director Research (research management rather than a lab), Princess Máxima Center for Pediatric Oncology, Utrecht | — none found |
 | 35 | **Schuijers, Jurian** | Academic PI | 9 | 2010–2015 | — | Assistant Professor / group leader, Molecular Cancer Research (Group Schuijers), UMC Utrecht, Center for Molecular Medicine | [www.umcutrecht.nl/en/group-schuijers](https://www.umcutrecht.nl/en/group-schuijers) |
 | 36 | **Korinek, V** | Academic PI | 8 | 1996–1999 | Postdoc, Dept of Immunology Utrecht, 1993–1997 (β-catenin/TCF-4 in APC-mutant colon cancer | Head, Laboratory of Cell and Developmental Biology, Institute of Molecular Genetics, Czech Academy of Sciences, Prague | [www.img.cas.cz/group/vladimir-korinek](https://www.img.cas.cz/group/vladimir-korinek/) |
 | 37 | **Bartfeld, Sina** | Academic PI | 8 | 2010–2018 | — | Full Professor, Head of the Department of Medical Biotechnology (Bartfeld lab), Technical University Berlin | [www.bartfeldlab.com](https://www.bartfeldlab.com/) |
@@ -88,7 +91,7 @@ People who trained in or worked for the Clevers group and now head their own aca
 | 56 | **Muraro, Mauro J** | **Industry / org** | 5 | 2016–2021 | — | Co-founder and Chief Executive Officer, Single Cell Discoveries, Utrecht | [www.scdiscoveries.com/about](https://www.scdiscoveries.com/about/) |
 | 57 | **Brantjes, Helen** | **Industry / org** | 4 | 1998–2003 | — | Head of the Clinical Chemistry Laboratory (clinical laboratory leadership, not a research group), BovenIJ Ziekenhuis, Amsterdam | [www.bovenij.nl/zorgverleners/helen-brantjes](https://www.bovenij.nl/zorgverleners/helen-brantjes/) |
 | 58 | **Mullenders, Jasper** | **Industry / org** | 3 | 2019–2021 | — | Senior Director, Translational Research, Scenic Biotech, Amsterdam | [scenicbiotech.com](https://scenicbiotech.com/) |
-| 59 | **Bernink, Jochem H** | Academic PI | 3 | 2024–2026 | — | Group leader (microbiome–epithelium–innate lymphoid cell interactions), Amsterdam UMC | [researchinformation.amsterdamumc.org/en/persons/jochem-berni](https://researchinformation.amsterdamumc.org/en/persons/jochem-bernink-2) |
+| 59 | **Bernink, Jochem H** | Academic PI | 3 | 2024–2026 | — | Group leader, Department of Experimental Immunology (postdoc in the Clevers group at the Hubrecht; PhD at the AMC on human innate lymphoid cells); retains a Hubrecht affiliation, Amsterdam UMC | [researchinformation.amsterdamumc.org/en/persons/jochem-berni](https://researchinformation.amsterdamumc.org/en/persons/jochem-bernink-2) |
 | 60 | **Verissimo, Carla S** | **Industry / org** | 3 | 2016–2023 | — | Head of Oncology II (research function head, industry), HUB Organoids, Utrecht | [www.huborganoids.nl](https://www.huborganoids.nl/) |
 | 61 | **Vooijs, Marc** | Academic PI | 2 | 2005–2007 | — | Professor and Chair, Department of Radiotherapy (Group Marc Vooijs), Maastricht University / GROW | [www.maastrichtuniversity.nl/research/radiotherapy/research-g](https://www.maastrichtuniversity.nl/research/radiotherapy/research-groups/group-marc-vooijs) |
 | 62 | **Leushacke, Marc** | Academic PI | 1 | 2012–2012 | — | Professor (Newcastle University) and Senior Principal Investigator, A*STAR Skin Research Labs, Singapore | [www.a-star.edu.sg/sris/people/principal-investigators/marc-l](https://www.a-star.edu.sg/sris/people/principal-investigators/marc-leushacke) |
@@ -117,7 +120,7 @@ Checked and confirmed to head neither an academic group nor a company: individua
 | 16 | Dutta, Devanjali | 8 | 2017–2023 | Senior Scientist (industry), Genmab, Copenhagen | — none found |
 | 17 | Kopper, Oded | 8 | 2017–2023 | Scientist (individual contributor), Pre-Cure | — none found |
 | 18 | Yousef Yengej, Fjodor A | 8 | 2020–2026 | MD-researcher; PhD cum laude in the Clevers group ('Organoids: Translation to clinical nephrology'), Hubrecht Institute / UMC Utrecht | [www.hubrecht.eu/phd-yousef-yengej](https://www.hubrecht.eu/phd-yousef-yengej/) |
-| 19 | Post, Yorick | 8 | 2018–2021 | Principal Scientist (individual contributor, industry), Surrozen, Menlo Park, CA | [surrozen.com](https://surrozen.com/) |
+| 19 | Post, Yorick | 8 | 2018–2021 | Principal Scientist (individual contributor, industry), Surrozen, Menlo Park, CA | — none found |
 | 20 | Bast, Bert J E G | 7 | 1992–2008 | Department of Immunology (haematology, allergology and clinical immunology) - no current research group found, UMC Utrecht | — none found |
 | 21 | Boonekamp, Kim Elisabeth | 7 | 2018–2023 | Postdoctoral researcher, Boutros lab, DKFZ / BioQuant Heidelberg | [www.genomicc.de/2025/06/09/dr-kim-boonekamp](http://www.genomicc.de/2025/06/09/dr-kim-boonekamp/) |
 | 22 | Molenaar, Martijn R | 7 | 1996–2017 | Researcher in lipidomics and membrane biology, Utrecht University / EMBL | [sciprofiles.com/profile/1228573](https://sciprofiles.com/profile/1228573) |
@@ -130,8 +133,8 @@ Checked and confirmed to head neither an academic group nor a company: individua
 | 29 | Van Houdt, Winan J | 5 | 2011–2025 | Surgical oncologist; Chair of the EORTC Soft Tissue and Bone Sarcoma Group - clinical rather than laboratory leadership, Antoni van Leeuwenhoek / NKI, Amsterdam | [www.avl.nl/specialisten-medewerkers/specialisten/chirurgen/w](https://www.avl.nl/specialisten-medewerkers/specialisten/chirurgen/winan-van-houdt/) |
 | 30 | Teunissen, Hans | 5 | 2010–2017 | Research analyst / lab manager in the de Wit group, Netherlands Cancer Institute, Amsterdam | [www.nki.nl/research/find-a-researcher/researchers/hans-teuni](https://www.nki.nl/research/find-a-researcher/researchers/hans-teunissen/) |
 | 31 | van Ineveld, Ravian L | 5 | 2020–2025 | Postdoctoral researcher and Manager of the Imaging Core Facility, Princess Máxima Center for Pediatric Oncology, Utrecht | — none found |
-| 32 | Jager, Myrthe | 4 | 2014–2020 | Postdoctoral researcher and manager of the UMC AI lab, UMC Utrecht | [research.umcutrecht.nl](https://research.umcutrecht.nl/) |
-| 33 | Tetteh, Paul W | 3 | 2014–2016 | Scientist II (individual contributor, industry), CRISPR Therapeutics, Boston | [crisprtx.com](https://crisprtx.com/) |
+| 32 | Jager, Myrthe | 4 | 2014–2020 | Postdoctoral researcher and manager of the UMC AI lab, UMC Utrecht | — none found |
+| 33 | Tetteh, Paul W | 3 | 2014–2016 | Scientist II (individual contributor, industry), CRISPR Therapeutics, Boston | — none found |
 | 34 | Alieva, Maria | 3 | 2019–2024 | Senior postdoctoral researcher (imaging, BEHAV3D), Princess Máxima Center for Pediatric Oncology, Utrecht | — none found |
 | 35 | Faro, Ana | 3 | 2007–2009 | Postdoctoral researcher, Cell and Developmental Biology, University College London | — none found |
 | 36 | Rosendahl Huber, Axel | 3 | 2020–2024 | Postdoctoral researcher (NWO Veni and Marie Curie laureate); now postdoc in the van Boxtel lab at IRB Barcelona, IRB Barcelona / Hubrecht Institute | [www.hubrecht.eu/marie-curie-grant-axel-rosendahl-huber](https://www.hubrecht.eu/marie-curie-grant-axel-rosendahl-huber/) |
@@ -145,7 +148,7 @@ These people head their own groups but did so independently of the Clevers lab �
 | # | Name | Papers | Years co-authoring | Position | Group page |
 | ---: | --- | ---: | --- | --- | --- |
 | 1 | Peters, Peter J | 48 | 1989–2026 | Professor; Director of M4I (electron microscopy), Maastricht University | [www.maastrichtuniversity.nl/research/institute-nanoscopy](https://www.maastrichtuniversity.nl/research/institute-nanoscopy) |
-| 2 | Cuppen, Edwin P J G | 34 | 2003–2024 | Group leader (own group at the Hubrecht / UMC Utrecht); later Hartwig Medical Foundation, Hartwig Medical Foundation / UMC Utrecht | [www.hartwigmedicalfoundation.nl](https://www.hartwigmedicalfoundation.nl/) |
+| 2 | Cuppen, Edwin P J G | 34 | 2003–2024 | Professor of Human Genetics and Director of the Center for Molecular Medicine (UMC Utrecht); initiator and scientific director of the Hartwig Medical Foundation. Held group-leader posts at the NKI, the Hubrecht and UMC Utrecht, Hartwig Medical Foundation / UMC Utrecht | [research.umcutrecht.nl/researchers/edwin-cuppen](https://research.umcutrecht.nl/researchers/edwin-cuppen/) |
 | 3 | van Oudenaarden, Alexander | 31 | 2011–2024 | Group leader and Director of the Hubrecht Institute, Hubrecht Institute, Utrecht | [www.hubrecht.eu/research-groups/van-oudenaarden-group](https://www.hubrecht.eu/research-groups/van-oudenaarden-group/) |
 | 4 | van Boxtel, Ruben | 27 | 2014–2025 | Group Leader / Oncode Investigator (postdoc was in the Cuppen group, not Clevers'), Princess Máxima Center for Pediatric Oncology, Utrecht | [www.vanboxtellab.eu](https://www.vanboxtellab.eu/) |
 | 5 | Sansom, Owen J | 22 | 2002–2025 | Director, CRUK Scotland Institute (formerly Beatson), CRUK Scotland Institute, Glasgow | [www.crukscotlandinstitute.ac.uk/research/research-groups/owe](https://www.crukscotlandinstitute.ac.uk/research/research-groups/owen-sansom) |
@@ -185,7 +188,7 @@ These people head their own groups but did so independently of the Clevers lab �
 | 39 | Pieters, Rob | 3 | 2020–2024 | Chief Máxima International (Chief Medical Officer 2013-2025); Professor of Paediatric Oncology, Utrecht University; President-elect of SIOP, Princess Máxima Center for Pediatric Oncology, Utrecht | [www.prinsesmaximacentrum.nl/en/news/rob-pieters-started-as-c](https://www.prinsesmaximacentrum.nl/en/news/rob-pieters-started-as-chief-maxima-international) |
 | 40 | van Jaarsveld, Richard H | 3 | 2015–2019 | Principal Investigator, Genome Diagnostics, UMC Utrecht | [research.umcutrecht.nl/researchers/richard-van-jaarsveld](https://research.umcutrecht.nl/researchers/richard-van-jaarsveld/) |
 | 41 | Peifer, M | 3 | 1997–1999 | Michael Hooker Distinguished Professor of Biology (Peifer lab: cell adhesion, Wnt signalling), University of North Carolina at Chapel Hill | [bio.unc.edu/people/faculty/peifer](http://bio.unc.edu/people/faculty/peifer/) |
-| 42 | Robine, Sylvie | 3 | 2005–2012 | Directeur de Recherche, Department of Cell Biology and Development, Institut Curie, Paris | [institut-curie.org](https://institut-curie.org/) |
+| 42 | Robine, Sylvie | 3 | 2005–2012 | Directeur de Recherche, Department of Cell Biology and Development, Institut Curie, Paris | [science.institut-curie.org/research-teams/multiscale-physics](https://science.institut-curie.org/research-teams/multiscale-physics-biology-chemistry/) |
 | 43 | Guryev, Victor | 3 | 2008–2010 | Team leader / professor, structural genome variation in ageing (head of bioinformatics at the Hubrecht until 2012), ERIBA, University Medical Center Groningen | [eriba.umcg.nl/people/victor-guryev](https://eriba.umcg.nl/people/victor-guryev/) |
 | 44 | Siersema, Peter D | 3 | 2010–2011 | Professor of Gastrointestinal Endoscopy (Radboudumc 2016-2023, then Erasmus MC), Erasmus MC, Rotterdam | [www.erasmusmc.nl/en/research/researchers/siersema-peter](https://www.erasmusmc.nl/en/research/researchers/siersema-peter) |
 | 45 | Van den Brink, Gijs R | 3 | 2010–2013 | SVP and Global Head of Immunology, Infectious Diseases and Ophthalmology Discovery (previously Professor of Experimental Gastroenterology, Tytgat Institute), Roche | [www.roche.com](https://www.roche.com/) |
@@ -316,7 +319,7 @@ Searched, but no source found that settles whether they now lead a group. Mostly
 
 | # | Name | Papers | Years with Clevers | What is known |
 | ---: | --- | ---: | --- | --- |
-| 1 | Dekkers, Johanna F | 14 | 2013–2024 | Developed BEHAV3D immuno-organoid imaging at the Princess Máxima; independent group leadership not confirmed by the sources found |
+| 1 | Dekkers, Johanna F | 14 | 2013–2024 | Developed BEHAV3D immuno-organoid imaging; appears within the Rios group at the Princess Máxima. Independent group leadership still not confirmed after a second search |
 | 2 | Oosterwegel, M A | 12 | 1991–1996 | PhD student in the Utrecht immunology department (TCF-1/LEF-1); later at the NKI — current position not confirmed by the search |
 | 3 | Ringnalda, Femke C A S | 11 | 2013–2025 | Clevers group member; current position not established |
 | 4 | Heo, Inha | 8 | 2013–2021 | Postdoc in the Clevers group; current position not established |

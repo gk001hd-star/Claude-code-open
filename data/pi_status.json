@@ -88,7 +88,8 @@
   "group_page": "https://renew.science/principal_investigat/antonella-dost/",
   "source": "reNEW PI page",
   "clevers_trainee": true,
-  "lead_type": "academic_pi"
+  "lead_type": "academic_pi",
+  "identity_verified": "Hubrecht affiliation on her papers from 2023 — genuine Clevers-group postdoc"
  },
  "Andersson-Rolf, Amanda": {
   "pi": true,
@@ -508,7 +509,7 @@
   "pi": false,
   "position": "Managing Director Research (research management rather than a lab)",
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
-  "group_page": "https://research.prinsesmaximacentrum.nl/",
+  "group_page": "",
   "source": "LinkedIn / Princess Máxima staff page",
   "clevers_trainee": true,
   "lead_type": "industry_lead"
@@ -587,7 +588,7 @@
  },
  "Dekkers, Johanna F": {
   "pi": "unknown",
-  "position": "Developed BEHAV3D immuno-organoid imaging at the Princess Máxima; independent group leadership not confirmed by the sources found",
+  "position": "Developed BEHAV3D immuno-organoid imaging; appears within the Rios group at the Princess Máxima. Independent group leadership still not confirmed after a second search",
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
   "group_page": "",
   "source": "search inconclusive",
@@ -655,7 +656,8 @@
   "group_page": "https://gsmse.kaist.ac.kr/",
   "source": "KAIST Graduate School of Medical Science and Engineering; confirmed by the user (individual lab page not located)",
   "clevers_trainee": true,
-  "lead_type": "academic_pi"
+  "lead_type": "academic_pi",
+  "identity_verified": "Hubrecht affiliation on all 7 shared papers (2024-2025) — genuine Clevers-group postdoc, independently corroborating the user's confirmation"
  },
  "Smit, Linda": {
   "pi": true,
@@ -866,10 +868,10 @@
  },
  "Cuppen, Edwin P J G": {
   "pi": true,
-  "position": "Group leader (own group at the Hubrecht / UMC Utrecht); later Hartwig Medical Foundation",
+  "position": "Professor of Human Genetics and Director of the Center for Molecular Medicine (UMC Utrecht); initiator and scientific director of the Hartwig Medical Foundation. Held group-leader posts at the NKI, the Hubrecht and UMC Utrecht",
   "institution": "Hartwig Medical Foundation / UMC Utrecht",
-  "group_page": "https://www.hartwigmedicalfoundation.nl/",
-  "source": "Hartwig Medical Foundation",
+  "group_page": "https://research.umcutrecht.nl/researchers/edwin-cuppen/",
+  "source": "UMC Utrecht researcher page / Hartwig Medical Foundation",
   "clevers_trainee": false,
   "lead_type": "academic_pi"
  },
@@ -1970,7 +1972,7 @@
   "pi": false,
   "position": "Principal Scientist (individual contributor, industry)",
   "institution": "Surrozen, Menlo Park, CA",
-  "group_page": "https://surrozen.com/",
+  "group_page": "",
   "source": "The Org / LinkedIn; PhD in the Clevers group Nov 2015-Dec 2019",
   "clevers_trainee": true,
   "lead_type": null
@@ -2039,7 +2041,7 @@
   "lead_type": null
  },
  "Nieuwenhuis, Edward E S": {
-  "pi": true,
+  "pi": false,
   "position": "Chief Medical Officer (from 1 Feb 2025); previously head of paediatrics at the Wilhelmina Children's Hospital and professor at University College Roosevelt",
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
   "group_page": "https://research.prinsesmaximacentrum.nl/en/about-us/organization-management-and-advice/board-of-directors/edward-nieuwenhuis",
@@ -2103,12 +2105,13 @@
  },
  "Bernink, Jochem H": {
   "pi": true,
-  "position": "Group leader (microbiome–epithelium–innate lymphoid cell interactions)",
+  "position": "Group leader, Department of Experimental Immunology (postdoc in the Clevers group at the Hubrecht; PhD at the AMC on human innate lymphoid cells); retains a Hubrecht affiliation",
   "institution": "Amsterdam UMC",
   "group_page": "https://researchinformation.amsterdamumc.org/en/persons/jochem-bernink-2",
-  "source": "Amsterdam UMC research portal",
+  "source": "Amsterdam UMC research portal; Hubrecht Clevers group page; VIB Conferences speaker profile — trainee status verified in this validation round",
   "clevers_trainee": true,
-  "lead_type": "academic_pi"
+  "lead_type": "academic_pi",
+  "identity_verified": "Hubrecht affiliation from 2024 — genuine Clevers-group postdoc"
  },
  "Kuiper, Roland P": {
   "pi": true,
@@ -2126,7 +2129,8 @@
   "group_page": "https://www.kuball-laboratories.com/",
   "source": "Kuball lab site / UMC Utrecht",
   "clevers_trainee": false,
-  "lead_type": "academic_pi"
+  "lead_type": "academic_pi",
+  "identity_verified": "Own affiliation is the Center for Translational Immunology, UMC Utrecht on every shared paper — external collaborator, correctly not counted as an alumnus"
  },
  "Sebestyen, Zsolt": {
   "pi": true,
@@ -2135,7 +2139,8 @@
   "group_page": "https://www.kuball-laboratories.com/people",
   "source": "UMC Utrecht Tumorimmunology",
   "clevers_trainee": false,
-  "lead_type": "academic_pi"
+  "lead_type": "academic_pi",
+  "identity_verified": "Own affiliation is the Center for Translational Immunology, UMC Utrecht on every shared paper — external collaborator, correctly not counted as an alumnus"
  },
  "Tanenbaum, Marvin E": {
   "pi": true,
@@ -2159,7 +2164,7 @@
   "pi": false,
   "position": "Scientist II (individual contributor, industry)",
   "institution": "CRISPR Therapeutics, Boston",
-  "group_page": "https://crisprtx.com/",
+  "group_page": "",
   "source": "LinkedIn / ResearchGate; PhD student in the Clevers group",
   "clevers_trainee": true,
   "lead_type": null
@@ -2336,7 +2341,7 @@
   "lead_type": "academic_pi"
  },
  "Pieters, Rob": {
-  "pi": true,
+  "pi": false,
   "position": "Chief Máxima International (Chief Medical Officer 2013-2025); Professor of Paediatric Oncology, Utrecht University; President-elect of SIOP",
   "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
   "group_page": "https://www.prinsesmaximacentrum.nl/en/news/rob-pieters-started-as-chief-maxima-international",
@@ -2384,7 +2389,7 @@
   "pi": false,
   "position": "Postdoctoral researcher and manager of the UMC AI lab",
   "institution": "UMC Utrecht",
-  "group_page": "https://research.umcutrecht.nl/",
+  "group_page": "",
   "source": "LinkedIn / ResearchGate",
   "clevers_trainee": true,
   "lead_type": null
@@ -2447,8 +2452,8 @@
   "pi": true,
   "position": "Directeur de Recherche, Department of Cell Biology and Development",
   "institution": "Institut Curie, Paris",
-  "group_page": "https://institut-curie.org/",
-  "source": "Institut Curie / LinkedIn",
+  "group_page": "https://science.institut-curie.org/research-teams/multiscale-physics-biology-chemistry/",
+  "source": "Institut Curie / LinkedIn — no individual team page located, so this entry rests on weaker evidence than the rest",
   "clevers_trainee": false,
   "lead_type": "academic_pi"
  },
@@ -2544,7 +2549,7 @@
   "lead_type": "academic_pi"
  },
  "Van den Brink, Gijs R": {
-  "pi": true,
+  "pi": false,
   "position": "SVP and Global Head of Immunology, Infectious Diseases and Ophthalmology Discovery (previously Professor of Experimental Gastroenterology, Tytgat Institute)",
   "institution": "Roche",
   "group_page": "https://www.roche.com/",
