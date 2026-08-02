@@ -1,181 +1,167 @@
-<title>Crypt to Villus</title>
+<title>Clevers Growth Rings</title>
 
 <style>
 /* ------------------------------------------------------------------
-   The lab drawn as the tissue it spent thirty years on: one
-   crypt–villus unit. Cells are born at the crypt base, travel up the
-   villus over a few days, and are shed from the tip. People do the
-   same thing over a few years.
+   One ring per year. Radius is arrival, nothing else — so everyone who
+   joined in the same year sits on the same band, and two people who
+   overlapped in the lab can never be drawn far apart.
 
-   Light theme is a haematoxylin-and-eosin section under brightfield.
-   Dark is the same specimen under the fluorescence scope — not an
-   inversion, a second way the same slide is actually read.
+   Each band's area is proportional to that year's intake, which keeps
+   the cell density even from the founding core to the outer edge.
+
+   Cool plate, ultramarine / vermilion / bottle green, condensed type.
    ------------------------------------------------------------------ */
 :root {
-  --ground:  #faf3f0;   /* slide glass, eosin wash */
-  --tissue:  #f2e0da;
-  --core:    #f7e9e4;   /* lamina propria         */
-  --lacteal: #e7efe0;   /* central lymphatic      */
-  --cap:     #c9807e;   /* capillary net          */
-  --outline: #d9b3ab;
-  --ink:     #47294f;   /* haematoxylin           */
-  --muted:   #8a6b73;
-  --faint:   #ac8d93;
-  --rule:    #e6cbc4;
-  --rule-2:  #d2aca4;
-  --panel:   #fdf8f6;
+  --plate:   #eceff1;
+  --plate-2: #e0e5e8;
+  --panel:   #f7f9fa;
+  --ink:     #10191f;
+  --muted:   #5f6f79;
+  --faint:   #93a1aa;
+  --rule:    #d3dade;
+  --rule-2:  #b6c1c7;
 
-  --violet: #5c3d8a;   /* haematoxylin — Dept of Immunology, Utrecht */
-  --alcian: #14688b;   /* Alcian blue  — Hubrecht Institute / NIOB   */
-  --pas:    #a92a63;   /* PAS magenta  — Princess Máxima Center      */
-  --gold:   #9a6a12;   /* left, and now runs a group of their own    */
+  --ultra: #2f4bbd;   /* Dept of Immunology, Utrecht */
+  --verm:  #c4462a;   /* Hubrecht Institute / NIOB   */
+  --bottle:#2f6d4d;   /* Princess Máxima Center      */
+  --mark:  #8a6a00;   /* now leads a group           */
 
-  --display: Optima, Candara, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  --display: "Avenir Next Condensed", "Helvetica Neue", "Arial Narrow", Helvetica, sans-serif;
   --body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --ground: #06070f; --tissue: #0e1124; --core: #10142a; --outline: #27305a;
-    --lacteal: #14261f; --cap: #7d3350;
-    --ink: #e7eaf7; --muted: #8e95bb; --faint: #666e96;
-    --rule: #1e2444; --rule-2: #2e3663; --panel: #0c0f20;
-    --violet: #ab8bff; --alcian: #45baea; --pas: #ff5ea3; --gold: #f0b94a;
+    --plate: #0c1116; --plate-2: #121a20; --panel: #101820;
+    --ink: #dfe8ed; --muted: #8798a3; --faint: #5e6d77;
+    --rule: #1e2a32; --rule-2: #2e3d46;
+    --ultra: #7f97ee; --verm: #f0765a; --bottle: #4fb583; --mark: #d8b551;
   }
 }
 :root[data-theme="dark"] {
-  --ground: #06070f; --tissue: #0e1124; --core: #10142a; --outline: #27305a;
-    --lacteal: #14261f; --cap: #7d3350;
-  --ink: #e7eaf7; --muted: #8e95bb; --faint: #666e96;
-  --rule: #1e2444; --rule-2: #2e3663; --panel: #0c0f20;
-  --violet: #ab8bff; --alcian: #45baea; --pas: #ff5ea3; --gold: #f0b94a;
+  --plate: #0c1116; --plate-2: #121a20; --panel: #101820;
+  --ink: #dfe8ed; --muted: #8798a3; --faint: #5e6d77;
+  --rule: #1e2a32; --rule-2: #2e3d46;
+  --ultra: #7f97ee; --verm: #f0765a; --bottle: #4fb583; --mark: #d8b551;
 }
 :root[data-theme="light"] {
-  --ground: #faf3f0; --tissue: #f2e0da; --core: #f7e9e4; --outline: #d9b3ab;
-  --lacteal: #e7efe0; --cap: #c9807e;
-  --ink: #47294f; --muted: #8a6b73; --faint: #ac8d93;
-  --rule: #e6cbc4; --rule-2: #d2aca4; --panel: #fdf8f6;
-  --violet: #5c3d8a; --alcian: #14688b; --pas: #a92a63; --gold: #9a6a12;
+  --plate: #eceff1; --plate-2: #e0e5e8; --panel: #f7f9fa;
+  --ink: #10191f; --muted: #5f6f79; --faint: #93a1aa;
+  --rule: #d3dade; --rule-2: #b6c1c7;
+  --ultra: #2f4bbd; --verm: #c4462a; --bottle: #2f6d4d; --mark: #8a6a00;
 }
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0; height: 100vh; overflow: hidden;
-  background: var(--ground); color: var(--ink);
+  background: var(--plate); color: var(--ink);
   font-family: var(--body); font-size: 14px;
   -webkit-font-smoothing: antialiased;
 }
 
 .stage { position: fixed; inset: 0; }
-#tissue { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: crosshair; }
-#tissue:focus-visible { outline: 2px solid var(--alcian); outline-offset: -3px; }
+#rings { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: crosshair; }
+#rings:focus-visible { outline: 2px solid var(--ultra); outline-offset: -3px; }
 
-/* ---------- left rail ---------- */
 .rail {
-  position: absolute; top: 0; left: 0; bottom: 0; width: 20.5rem;
-  padding: 1.9rem 1.6rem 1.4rem;
-  display: flex; flex-direction: column; gap: 1.35rem;
+  position: absolute; top: 0; left: 0; bottom: 0; width: 19.5rem;
+  padding: 1.8rem 1.5rem 1.3rem;
+  display: flex; flex-direction: column; gap: 1.25rem;
   overflow-y: auto; pointer-events: none;
   scrollbar-width: none; -ms-overflow-style: none;
   background: linear-gradient(90deg,
-    color-mix(in srgb, var(--ground) 95%, transparent) 0%,
-    color-mix(in srgb, var(--ground) 88%, transparent) 66%,
-    transparent 100%);
+    color-mix(in srgb, var(--plate) 96%, transparent) 0%,
+    color-mix(in srgb, var(--plate) 88%, transparent) 68%, transparent 100%);
 }
 .rail::-webkit-scrollbar, .hits::-webkit-scrollbar { width: 0; height: 0; }
 .rail > * { pointer-events: auto; }
 
 .eyebrow {
-  margin: 0 0 .55rem; font-family: var(--mono); font-size: .62rem;
-  letter-spacing: .16em; text-transform: uppercase; color: var(--faint);
+  margin: 0 0 .5rem; font-family: var(--mono); font-size: .61rem;
+  letter-spacing: .17em; text-transform: uppercase; color: var(--faint);
 }
 h1 {
-  font-family: var(--display); font-weight: 400;
-  font-size: clamp(2rem, 4.6vw, 2.9rem); line-height: .98; margin: 0;
-  letter-spacing: -.01em; text-wrap: balance;
+  font-family: var(--display); font-weight: 500;
+  font-size: clamp(2.1rem, 4.6vw, 3.1rem); line-height: .95; margin: 0;
+  letter-spacing: -.005em; text-transform: uppercase; text-wrap: balance;
 }
-h1 span { display: block; color: var(--pas); }
-.blurb { margin: .85rem 0 0; font-size: .82rem; line-height: 1.62; color: var(--muted); max-width: 34ch; }
+h1 em { font-style: normal; display: block; color: var(--verm); }
+.blurb { margin: .85rem 0 0; font-size: .81rem; line-height: 1.62; color: var(--muted); max-width: 34ch; }
 
-.counts { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.counts { display: flex; gap: 1.4rem; flex-wrap: wrap; }
 .count b {
-  display: block; font-family: var(--display); font-weight: 400;
-  font-size: 1.85rem; line-height: 1; font-variant-numeric: tabular-nums;
+  display: block; font-family: var(--display); font-weight: 500;
+  font-size: 2rem; line-height: 1; font-variant-numeric: tabular-nums;
 }
 .count span {
-  display: block; margin-top: .28rem; font-family: var(--mono);
-  font-size: .58rem; letter-spacing: .1em; text-transform: uppercase; color: var(--faint);
+  display: block; margin-top: .24rem; font-family: var(--mono);
+  font-size: .57rem; letter-spacing: .1em; text-transform: uppercase; color: var(--faint);
 }
 
-.legend { display: flex; flex-direction: column; gap: .42rem; }
+.legend { display: flex; flex-direction: column; gap: .4rem; }
 .legend h2 {
-  margin: 0 0 .1rem; font-family: var(--mono); font-size: .6rem; font-weight: 400;
+  margin: 0 0 .1rem; font-family: var(--mono); font-size: .59rem; font-weight: 400;
   letter-spacing: .14em; text-transform: uppercase; color: var(--faint);
 }
-.key { display: flex; align-items: center; gap: .6rem; font-size: .76rem; color: var(--muted); }
+.key { display: flex; align-items: center; gap: .6rem; font-size: .75rem; color: var(--muted); }
 .key b { color: var(--ink); font-weight: 500; }
-.key i { width: .8rem; height: .8rem; flex: none; border-radius: .2rem; }
-.key.cell i { border-radius: .28rem .28rem .1rem .1rem; height: 1rem; width: .58rem; background: var(--faint); }
-.key.paneth i { border-radius: 50%; background: var(--faint); height: .8rem; width: .8rem; }
-.key.shed i { border-radius: 50%; background: none; box-shadow: 0 0 0 1.5px var(--gold); }
+.key i { width: .72rem; height: .72rem; border-radius: 50%; flex: none; }
+.key.hollow i { background: none !important; box-shadow: inset 0 0 0 1.4px var(--rule-2); }
+.key.ring i { background: none !important; box-shadow: 0 0 0 1.5px var(--mark); }
+.key.band i { border-radius: 0; width: .72rem; height: .3rem; background: var(--rule-2); }
 
 .search {
   width: 100%; background: var(--panel); border: 1px solid var(--rule-2);
-  border-radius: .3rem; color: var(--ink); font: inherit; font-size: .8rem; padding: .5rem .65rem;
+  color: var(--ink); font: inherit; font-size: .8rem; padding: .5rem .65rem;
 }
 .search::placeholder { color: var(--faint); }
-.search:focus { outline: none; border-color: var(--alcian); }
-.hits { list-style: none; margin: .35rem 0 0; padding: 0; max-height: 14rem; overflow-y: auto;
+.search:focus { outline: none; border-color: var(--ultra); }
+.hits { list-style: none; margin: .35rem 0 0; padding: 0; max-height: 13rem; overflow-y: auto;
         scrollbar-width: none; -ms-overflow-style: none; }
 .hits li {
   display: flex; justify-content: space-between; gap: .6rem; cursor: pointer;
-  padding: .32rem .65rem; font-size: .78rem; border-radius: .25rem;
+  padding: .3rem .65rem; font-size: .78rem;
 }
-.hits li:hover, .hits li:focus-visible { background: var(--tissue); outline: none; }
-.hits li span { color: var(--faint); font-variant-numeric: tabular-nums; font-family: var(--mono); font-size: .7rem; }
+.hits li:hover, .hits li:focus-visible { background: var(--plate-2); outline: none; }
+.hits li span { color: var(--faint); font-family: var(--mono); font-size: .7rem; font-variant-numeric: tabular-nums; }
 
-.note { margin: auto 0 0; font-size: .68rem; line-height: 1.6; color: var(--faint); }
+.note { margin: auto 0 0; font-size: .67rem; line-height: 1.6; color: var(--faint); }
 .note a { color: var(--muted); }
 
-/* ---------- time ---------- */
 .time {
-  position: absolute; left: 20.5rem; right: 1.6rem; bottom: 0;
+  position: absolute; left: 19.5rem; right: 1.6rem; bottom: 0;
   padding: 0 0 1.3rem 1.6rem; pointer-events: none;
 }
 .time > * { pointer-events: auto; }
 .time-head { display: flex; align-items: center; gap: 1rem; }
 .play {
   flex: none; width: 2.3rem; height: 2.3rem; border-radius: 50%; cursor: pointer;
-  border: 1px solid var(--rule-2); background: var(--panel); color: var(--pas);
+  border: 1px solid var(--rule-2); background: var(--panel); color: var(--verm);
   display: grid; place-items: center; padding: 0;
 }
-.play:hover { border-color: var(--pas); }
-.play:focus-visible { outline: 2px solid var(--alcian); outline-offset: 2px; }
-.play svg { width: 1.05rem; height: 1.05rem; fill: currentColor; }
+.play:hover { border-color: var(--verm); }
+.play:focus-visible { outline: 2px solid var(--ultra); outline-offset: 3px; }
+.play svg { width: 1rem; height: 1rem; fill: currentColor; }
 .yr {
-  font-family: var(--display); font-size: 2.6rem; line-height: 1;
-  font-variant-numeric: tabular-nums; min-width: 4.4ch;
+  font-family: var(--display); font-weight: 500; font-size: 2.7rem; line-height: 1;
+  font-variant-numeric: tabular-nums; min-width: 4.2ch;
 }
-.phase { font-size: .8rem; color: var(--muted); }
+.phase { font-size: .79rem; color: var(--muted); }
 .hint {
-  margin-left: auto; font-family: var(--mono); font-size: .58rem;
+  margin-left: auto; font-family: var(--mono); font-size: .57rem;
   letter-spacing: .1em; text-transform: uppercase; color: var(--faint);
 }
 #slider {
   -webkit-appearance: none; appearance: none; width: 100%; margin: .8rem 0 0;
-  height: 4px; border-radius: 2px; cursor: pointer;
-  background: linear-gradient(90deg, var(--violet), var(--alcian) 42%, var(--pas));
+  height: 3px; cursor: pointer;
+  background: linear-gradient(90deg, var(--ultra), var(--verm) 45%, var(--bottle));
 }
-#slider::-webkit-slider-thumb {
-  -webkit-appearance: none; width: 4px; height: 17px; border-radius: 1px;
-  background: var(--ink); border: 0;
-}
-#slider::-moz-range-thumb { width: 4px; height: 17px; border-radius: 1px; background: var(--ink); border: 0; }
-#slider:focus-visible { outline: 2px solid var(--alcian); outline-offset: 4px; }
+#slider::-webkit-slider-thumb { -webkit-appearance: none; width: 4px; height: 16px; background: var(--ink); border: 0; }
+#slider::-moz-range-thumb { width: 4px; height: 16px; background: var(--ink); border: 0; }
+#slider:focus-visible { outline: 2px solid var(--ultra); outline-offset: 4px; }
 
-/* ---------- detail ---------- */
 .detail {
   position: fixed; top: 0; right: 0; bottom: 0; width: min(31rem, 94vw);
   background: var(--panel); border-left: 1px solid var(--rule-2);
@@ -185,56 +171,51 @@ h1 span { display: block; color: var(--pas); }
 .detail[data-open] { transform: none; }
 @media (prefers-reduced-motion: reduce) { .detail { transition: none; } }
 .detail-in { overflow-y: auto; padding: 1.7rem 1.7rem 3rem; }
-.x {
-  position: absolute; top: .8rem; right: .9rem; z-index: 1;
-  background: none; border: 0; color: var(--faint); font-size: 1.15rem;
-  cursor: pointer; line-height: 1; padding: .3rem;
-}
+.x { position: absolute; top: .8rem; right: .9rem; z-index: 1; background: none; border: 0;
+     color: var(--faint); font-size: 1.15rem; cursor: pointer; line-height: 1; padding: .3rem; }
 .x:hover { color: var(--ink); }
-.d-name { font-family: var(--display); font-weight: 400; font-size: 1.65rem; margin: 0 2rem .65rem 0; line-height: 1.1; }
+.d-name { font-family: var(--display); font-weight: 500; font-size: 1.8rem; margin: 0 2rem .6rem 0; line-height: 1.06; text-transform: uppercase; }
 .d-meta { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: 1rem; }
 .chip {
   font-family: var(--mono); font-size: .62rem; letter-spacing: .04em;
-  padding: .22rem .5rem; border-radius: .25rem;
-  border: 1px solid var(--rule-2); color: var(--muted);
+  padding: .22rem .5rem; border: 1px solid var(--rule-2); color: var(--muted);
 }
-.chip[data-stain="0"] { color: var(--violet); border-color: color-mix(in srgb, var(--violet) 45%, transparent); }
-.chip[data-stain="1"] { color: var(--alcian); border-color: color-mix(in srgb, var(--alcian) 45%, transparent); }
-.chip[data-stain="2"] { color: var(--pas);    border-color: color-mix(in srgb, var(--pas) 45%, transparent); }
-.chip[data-mark] { color: var(--gold); border-color: color-mix(in srgb, var(--gold) 50%, transparent); }
-.d-role { font-size: .9rem; line-height: 1.55; margin: 0 0 1.1rem; }
-.d-box {
-  border-left: 2px solid var(--pas); background: var(--tissue);
-  padding: .8rem .95rem; margin-bottom: 1.3rem; border-radius: 0 .3rem .3rem 0;
-}
+.chip[data-stain="0"] { color: var(--ultra);  border-color: color-mix(in srgb, var(--ultra) 45%, transparent); }
+.chip[data-stain="1"] { color: var(--verm);   border-color: color-mix(in srgb, var(--verm) 45%, transparent); }
+.chip[data-stain="2"] { color: var(--bottle); border-color: color-mix(in srgb, var(--bottle) 50%, transparent); }
+.chip[data-mark] { color: var(--mark); border-color: color-mix(in srgb, var(--mark) 55%, transparent); }
+.d-role { font-size: .89rem; line-height: 1.55; margin: 0 0 1.1rem; }
+.d-box { border-top: 2px solid var(--verm); background: var(--plate-2); padding: .8rem .95rem; margin-bottom: 1.3rem; }
 .d-box h3, .d-papers h3 {
-  margin: 0 0 .35rem; font-family: var(--mono); font-size: .58rem; font-weight: 400;
+  margin: 0 0 .35rem; font-family: var(--mono); font-size: .57rem; font-weight: 400;
   letter-spacing: .13em; text-transform: uppercase; color: var(--faint);
 }
-.d-box p { margin: 0; font-size: .84rem; line-height: 1.5; }
-.d-box a, .d-papers a { color: var(--alcian); word-break: break-word; }
+.d-box p { margin: 0; font-size: .83rem; line-height: 1.5; }
+.d-box a, .d-papers a { color: var(--ultra); word-break: break-word; }
 .d-papers h3 { margin: 1.5rem 0 .7rem; }
+.nb { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .5rem; }
+.nb button {
+  font: inherit; font-size: .74rem; cursor: pointer; padding: .18rem .45rem;
+  border: 1px solid var(--rule-2); background: none; color: var(--ink);
+}
+.nb button:hover { border-color: var(--verm); color: var(--verm); }
 .paper { display: grid; grid-template-columns: 3.1rem 1fr; gap: .8rem; padding: .65rem 0; border-top: 1px solid var(--rule); }
-.paper time { font-family: var(--mono); font-size: .74rem; color: var(--faint); font-variant-numeric: tabular-nums; }
-.paper p { margin: 0 0 .28rem; font-size: .88rem; line-height: 1.38; }
-.paper .j { font-size: .74rem; color: var(--muted); font-style: italic; }
-.links { display: flex; gap: .9rem; margin-top: .35rem; font-family: var(--mono); font-size: .68rem; }
+.paper time { font-family: var(--mono); font-size: .73rem; color: var(--faint); font-variant-numeric: tabular-nums; }
+.paper p { margin: 0 0 .28rem; font-size: .87rem; line-height: 1.38; }
+.paper .j { font-size: .73rem; color: var(--muted); font-style: italic; }
+.links { display: flex; gap: .9rem; margin-top: .35rem; font-family: var(--mono); font-size: .67rem; }
 
 #tip {
   position: fixed; z-index: 30; pointer-events: none; opacity: 0;
-  background: var(--ink); color: var(--ground); padding: .3rem .55rem;
-  border-radius: .25rem; font-size: .74rem; white-space: nowrap; transition: opacity .1s;
+  background: var(--ink); color: var(--plate); padding: .3rem .55rem;
+  font-size: .74rem; white-space: nowrap; transition: opacity .1s;
 }
 #tip[data-on] { opacity: 1; }
 
 @media (max-width: 900px) {
-  .rail {
-    position: absolute; width: 100%; bottom: auto;
-    max-height: 44dvh; padding-bottom: 1rem;
-    background: linear-gradient(180deg,
-      color-mix(in srgb, var(--ground) 96%, transparent) 0%,
-      color-mix(in srgb, var(--ground) 88%, transparent) 76%, transparent 100%);
-  }
+  .rail { width: 100%; bottom: auto; max-height: 44dvh; padding-bottom: 1rem;
+    background: linear-gradient(180deg, color-mix(in srgb, var(--plate) 96%, transparent) 0%,
+                color-mix(in srgb, var(--plate) 88%, transparent) 78%, transparent 100%); }
   .note { display: none; }
   .time { left: 1.2rem; right: 1.2rem; padding-left: 0; }
   .hint { display: none; }
@@ -242,48 +223,48 @@ h1 span { display: block; color: var(--pas); }
 </style>
 
 <div class="stage">
-  <canvas id="tissue" tabindex="0" aria-label="A crypt–villus unit whose cells are the members of the Clevers group"></canvas>
+  <canvas id="rings" tabindex="0" aria-label="The Clevers group drawn as annual growth rings"></canvas>
 
   <div class="rail">
     <div>
       <p class="eyebrow">Hubrecht · NIOB · Princess Máxima · 1985—2026</p>
-      <h1>Crypt <span>to Villus</span></h1>
+      <h1>Growth <em>Rings</em></h1>
       <p class="blurb">
-        The lab as the tissue it spent thirty years on. Cells enter at the crypt base,
-        travel up the villus, and are shed from the tip. Everyone here does the same
-        thing — the axis is their time in the group, base to tip.
+        One band per year, laid down outward from the founding core. Where a person
+        sits is decided by one thing — the year they arrived — so an intake is always
+        a single ring, and two people who were in the lab together are always
+        neighbours. Each band's area matches that year's intake, so the sheet stays
+        evenly packed from the middle to the rim.
       </p>
     </div>
 
     <div class="counts">
-      <div class="count"><b id="c-here">0</b><span>in the epithelium</span></div>
-      <div class="count"><b id="c-total">0</b><span>passed through</span></div>
+      <div class="count"><b id="c-in">0</b><span>in the lab</span></div>
+      <div class="count"><b id="c-arr">0</b><span>joined that year</span></div>
       <div class="count"><b id="c-papers">0</b><span>papers by then</span></div>
     </div>
 
     <div class="legend">
-      <h2>Stain = where they worked</h2>
-      <div class="key"><i style="background:var(--violet)"></i><span><b>Haematoxylin</b> — Dept of Immunology</span></div>
-      <div class="key"><i style="background:var(--alcian)"></i><span><b>Alcian blue</b> — Hubrecht / NIOB</span></div>
-      <div class="key"><i style="background:var(--pas)"></i><span><b>PAS magenta</b> — Princess Máxima</span></div>
-      <div class="key paneth" style="margin-top:.35rem"><i></i><span><b>Paneth cell</b> — never leaves the base</span></div>
-      <div class="key cell"><i></i><span><b>Enterocyte</b> — migrates and is shed</span></div>
-      <div class="key shed"><i></i><span><b>Ring</b> — went on to lead a group</span></div>
+      <h2>Colour = where they worked</h2>
+      <div class="key"><i style="background:var(--ultra)"></i><span><b>Ultramarine</b> — Dept of Immunology</span></div>
+      <div class="key"><i style="background:var(--verm)"></i><span><b>Vermilion</b> — Hubrecht / NIOB</span></div>
+      <div class="key"><i style="background:var(--bottle)"></i><span><b>Bottle green</b> — Princess Máxima</span></div>
+      <div class="key hollow" style="margin-top:.35rem"><i></i><span><b>Hollow</b> — no longer in the group</span></div>
+      <div class="key ring"><i></i><span><b>Ring</b> — went on to lead a group</span></div>
+      <div class="key band"><i></i><span><b>Band width</b> — the size of that year's intake</span></div>
     </div>
 
     <div>
-      <input class="search" id="q" type="search" placeholder="Find someone…" autocomplete="off" spellcheck="false" aria-label="Find someone in the epithelium">
+      <input class="search" id="q" type="search" placeholder="Find someone…" autocomplete="off" spellcheck="false" aria-label="Find someone in the rings">
       <ul class="hits" id="hits"></ul>
     </div>
 
     <p class="note">
-      One unit stands for the whole group; cells fill the epithelial band rather than
-      the true single-file monolayer, so that a year's worth of people fit. Membership
-      and paper counts come from the complete PubMed record for
-      <span style="font-family:var(--mono)">Clevers&nbsp;H[Author]</span> — only people
-      whose own affiliation names the lab appear, so the pre-2014 group is
-      under-represented. Crypt–villus migration after
-      <a href="https://doi.org/10.1038/nature06196" target="_blank" rel="noopener">Barker et&nbsp;al. 2007</a>.
+      Dot size follows joint papers. Membership comes from the complete PubMed record
+      for <span style="font-family:var(--mono)">Clevers&nbsp;H[Author]</span>; only
+      people whose own affiliation names the lab appear, so the narrow inner rings are
+      an artefact of PubMed indexing all-author addresses only from about 2014, not of
+      a small early lab.
     </p>
   </div>
 
@@ -294,7 +275,7 @@ h1 span { display: block; color: var(--pas); }
       </button>
       <span class="yr" id="year">2026</span>
       <span class="phase" id="phase"></span>
-      <span class="hint">play, scroll or ← → to move the tissue</span>
+      <span class="hint">play, scroll or ← → to lay down rings</span>
     </div>
     <input type="range" id="slider" min="1985" max="2026" step="1" value="2026" aria-label="Year">
   </div>
@@ -314,12 +295,12 @@ const PHASE = [
   { to: 2015, tag: "the Lgr5 years" },
   { to: 9999, tag: "the organoid years" }
 ];
-const SITE = [["Dept of Immunology, Utrecht", "--violet"],
-              ["Hubrecht Institute / NIOB", "--alcian"],
-              ["Princess Máxima Center", "--pas"]];
+const SITE = [["Dept of Immunology, Utrecht", "--ultra"],
+              ["Hubrecht Institute / NIOB", "--verm"],
+              ["Princess Máxima Center", "--bottle"]];
 const SITE_CODE = { IMM: 0, HUB: 1, MAX: 2 };
 
-const cv = document.getElementById("tissue");
+const cv = document.getElementById("rings");
 const ctx = cv.getContext("2d");
 const tip = document.getElementById("tip");
 const detail = document.getElementById("detail");
@@ -332,51 +313,99 @@ const railEl = document.querySelector(".rail");
 const Y0 = DATA.meta.y0, Y1 = DATA.meta.y1;
 const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-let COL = [], INK = "", TISSUE = "", CORE = "", OUTLINE = "", GROUND = "", GOLD = "", MUTED = "", RULE = "", LACTEAL = "", CAP = "";
+let COL = [], INK = "", PLATE = "", PLATE2 = "", RULE = "", RULE2 = "", MARK = "", MUTED = "", FAINT = "";
 function readTokens() {
   const s = getComputedStyle(document.documentElement);
   COL = SITE.map(([, v]) => s.getPropertyValue(v).trim());
   INK = s.getPropertyValue("--ink").trim();
-  TISSUE = s.getPropertyValue("--tissue").trim();
-  CORE = s.getPropertyValue("--core").trim();
-  OUTLINE = s.getPropertyValue("--outline").trim();
-  GROUND = s.getPropertyValue("--ground").trim();
-  GOLD = s.getPropertyValue("--gold").trim();
-  MUTED = s.getPropertyValue("--muted").trim();
+  PLATE = s.getPropertyValue("--plate").trim();
+  PLATE2 = s.getPropertyValue("--plate-2").trim();
   RULE = s.getPropertyValue("--rule").trim();
-  LACTEAL = s.getPropertyValue("--lacteal").trim();
-  CAP = s.getPropertyValue("--cap").trim();
+  RULE2 = s.getPropertyValue("--rule-2").trim();
+  MARK = s.getPropertyValue("--mark").trim();
+  MUTED = s.getPropertyValue("--muted").trim();
+  FAINT = s.getPropertyValue("--faint").trim();
+  for (const c of cells) c.col = COL[c.p.e];
+}
+
+/* ---------- lay down the rings ----------
+   Cohort by cohort. A band's outer radius is set by the cumulative head count,
+   so band area is proportional to intake and the packing density never changes.
+   Inside a band, people are spread over as many sub-rows as the band is thick,
+   which is what stops a fifty-person year from being strung out into a wire. */
+const N = DATA.people.length;
+const GOLDEN = Math.PI * (3 - Math.sqrt(5));
+/* a wedge on the right is kept clear of cells so the year scale has somewhere
+   to live — the same gutter a tree-ring core is read along */
+const GUT = 0.34, A0 = GUT / 2, ARC = Math.PI * 2 - GUT;
+const cohorts = [];
+const cells = [];
+{
+  const byYear = new Map();
+  for (const p of DATA.people) {
+    if (!byYear.has(p.gf)) byYear.set(p.gf, []);
+    byYear.get(p.gf).push(p);
+  }
+  const years = [...byYear.keys()].sort((a, b) => a - b);
+  // every year is padded by a constant before the areas are worked out: without
+  // it a two-person year becomes a hairline and the founding decades vanish
+  const PAD = 3.2;
+  const denom = N + PAD * years.length;
+  let cum = 0;
+  for (const y of years) {
+    const list = byYear.get(y).sort((a, b) => b.p.length - a.p.length ||
+                                              (a.n < b.n ? -1 : 1));
+    const r0 = Math.sqrt(cum / denom);
+    cum += list.length + PAD;
+    const r1 = Math.sqrt(cum / denom);
+    const band = { y, r0, r1, n: list.length, a0: Infinity, a1: -Infinity };
+    cohorts.push(band);
+
+    /* Spacing between neighbours is constant, so an intake occupies exactly as
+       much of its ring as it needs: two people that year sit side by side
+       instead of being flung to opposite ends of the circle. Rows are added
+       until the arc fits. */
+    const d = 0.048;                       // neighbour spacing, in units of R
+    const rMid = (r0 + r1) / 2;
+    let rows = 1;
+    while (rows < 10 && Math.ceil(list.length / rows) * d > ARC * rMid) rows++;
+    const perRow = Math.ceil(list.length / rows);
+    // widest row decides how much room the patch needs; the start is then
+    // placed so the whole patch stays clear of the year gutter
+    const halfSpan = (perRow - 1) / 2 * (d / Math.max(0.06, rMid));
+    const free = Math.max(0, ARC - 2 * halfSpan);
+    const start = A0 + halfSpan + ((y * 0.38196601125) % 1) * free;
+    for (let j = 0; j < rows; j++) {
+      const rowR = rows === 1 ? rMid : r0 + (j + 0.5) * (r1 - r0) / rows;
+      const slice = list.slice(j * perRow, (j + 1) * perRow);
+      const step = d / Math.max(0.06, rowR);
+      slice.forEach((p, m) => {
+        const a = start + (m - (slice.length - 1) / 2) * step;
+        band.a0 = Math.min(band.a0, a); band.a1 = Math.max(band.a1, a);
+        cells.push({
+          p, n: p.p.length, rr: rowR, a,
+          col: "", lead: p.pi && p.tr, pillar: p.pl || 0,
+          x: 0, y: 0, rad: 0
+        });
+      });
+    }
+  }
 }
 readTokens();
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", readTokens);
 new MutationObserver(readTokens).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 
-/* deterministic per-person jitter, so nobody jumps between frames or reloads */
-function rand(i, salt) {
-  const x = Math.sin((i + 1) * 12.9898 + salt * 78.233) * 43758.5453;
-  return x - Math.floor(x);
-}
-
-const cellsAll = DATA.people.map((p, i) => ({
-  i, p,
-  n: p.p.length,
-  col: COL[p.e],
-  lead: p.pi && p.tr,
-  paneth: !!p.pl,            // the ones who never left the base
-  side: rand(i, 1) < 0.5 ? -1 : 1,
-  band: 0.15 + rand(i, 2) * 0.7,
-  wob: rand(i, 3),
-  x: 0, y: 0, w: 0, h: 0, on: false
-}));
-
+const maxN = Math.max(...cells.map(c => c.n));
 const CUM = [];
 for (let y = Y0, run = 0, k = 0; y <= Y1; y++) {
   while (k < DATA.papers.length && DATA.papers[k][0] <= y) { run++; k++; }
   CUM.push(run);
 }
+const ARRIVALS = new Array(Y1 - Y0 + 1).fill(0);
+for (const c of cells) ARRIVALS[Math.max(0, c.p.gf - Y0)]++;
 
-let year = Y1, W = 0, H = 0, cx = 0, base = 0, apex = 0, span = 0, scale = 1;
-let hover = null, picked = null, filter = null, tflow = 0, stemHover = false;
+let year = Y1, W = 0, H = 0, cx = 0, cy = 0, R = 1, spin = 0;
+let hover = null, picked = null, filter = null;
 
 function resize() {
   const dpr = Math.min(devicePixelRatio || 1, 2);
@@ -385,299 +414,137 @@ function resize() {
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
   const wide = W > 900;
   const railW = wide ? railEl.getBoundingClientRect().width : 0;
+  const railH = wide ? 0 : railEl.getBoundingClientRect().height;
   cx = railW + (W - railW) / 2;
-  base = H - (wide ? 118 : 104);       // crypt floor, clear of the time bar
-  apex = wide ? 92 : railEl.getBoundingClientRect().height + 46;
-  span = base - apex;
-  scale = Math.min(1, Math.max(0.62, (W - railW) / 900));
+  cy = railH + (H - railH - 104) / 2;
+  R = Math.max(70, Math.min((W - railW) / 2 - 54, (H - railH - 132) / 2 - 26));
 }
 new ResizeObserver(resize).observe(cv);
 resize();
 
-/* ---------- the unit ----------
-   u runs 0 at the crypt floor to 1 at the villus tip. outer() is the
-   half-width of the whole unit, inner() the lamina propria core the
-   epithelium wraps around; the core stops at the crypt neck, which is why
-   the base is a solid pocket of cells and the villus is two files. */
-/* A finger with a domed tip on a narrower tube — the shape of the textbook
-   plate, and nothing more. Both ends are true half-circles rather than
-   tapers, which is what makes it read as a villus instead of a polygon. */
-const U_SHOULDER = 0.50;
-const yOf = u => base - u * span;
-
-const Wc = () => 58 * scale;    // crypt half-width
-const Wv = () => 86 * scale;    // villus half-width
-const WALL = () => 32 * scale;  // epithelial thickness in the villus
-
-function smooth(t) { return t * t * (3 - 2 * t); }
-
-function outer(u) {
-  const wc = Wc(), wv = Wv();
-  const cap = wv / span, floor = wc / span;          // the two round ends
-  if (u <= 0 || u >= 1) return 0;
-  if (u > 1 - cap) {
-    const dy = (u - (1 - cap)) * span;
-    return Math.sqrt(Math.max(0, wv * wv - dy * dy));
-  }
-  if (u < floor) {
-    const dy = (floor - u) * span;
-    return Math.sqrt(Math.max(0, wc * wc - dy * dy));
-  }
-  if (u < 0.40) return wc;
-  if (u < 0.56) return wc + (wv - wc) * smooth((u - 0.40) / 0.16);
-  return wv;
-}
-/* the lamina propria the villus epithelium wraps around: absent in the crypt,
-   opening above the shoulder and closing again inside the domed tip */
-function inner(u) {
-  if (u < U_SHOULDER) return 0;
-  const full = Math.max(0, outer(u) - WALL());
-  // rounded bottom rather than a taper, or the core ends in a spike
-  const r = Wv() - WALL(), h = r / span;
-  if (u < U_SHOULDER + h) {
-    const dy = (U_SHOULDER + h - u) * span;
-    return Math.min(full, Math.sqrt(Math.max(0, r * r - dy * dy)));
-  }
-  return full;
-}
-const bend = () => 0;   // the plate is drawn straight and symmetric
-
-function wall(halfFn, from, to) {
-  const step = to > from ? 0.004 : -0.004;
-  const pts = [];
-  for (let u = from; step > 0 ? u <= to + 1e-9 : u >= to - 1e-9; u += step) pts.push(u);
-  return pts;
-}
-
-function drawUnit() {
-  // epithelium silhouette: up the left wall, back down the right
-  ctx.beginPath();
-  let first = true;
-  for (const u of wall(outer, 0, 1)) {
-    const x = cx + bend(u) - outer(u), y = yOf(u);
-    first ? (ctx.moveTo(x, y), first = false) : ctx.lineTo(x, y);
-  }
-  for (const u of wall(outer, 1, 0)) ctx.lineTo(cx + bend(u) + outer(u), yOf(u));
-  ctx.closePath();
-  ctx.fillStyle = TISSUE; ctx.fill();
-  ctx.strokeStyle = OUTLINE; ctx.lineWidth = 1.4; ctx.stroke();
-
-  // lamina propria core
-  const lo = U_SHOULDER, hi = 0.995;
-  ctx.beginPath(); first = true;
-  for (const u of wall(inner, lo, hi)) {
-    const x = cx + bend(u) - inner(u), y = yOf(u);
-    first ? (ctx.moveTo(x, y), first = false) : ctx.lineTo(x, y);
-  }
-  for (const u of wall(inner, hi, lo)) ctx.lineTo(cx + bend(u) + inner(u), yOf(u));
-  ctx.closePath();
-  ctx.fillStyle = CORE; ctx.fill();
-  ctx.strokeStyle = OUTLINE; ctx.lineWidth = 1; ctx.stroke();
-
-  // the capillary net, looping just inside the epithelium
-  const vTop = 0.905, vBot = U_SHOULDER + 0.05;
-  ctx.strokeStyle = CAP; ctx.lineWidth = 1.6; ctx.globalAlpha = 0.6;
-  ctx.beginPath();
-  for (const s of [-1, 1]) {
-    let started = false;
-    for (let u = vBot; u <= vTop; u += 0.004) {
-      const r = Math.max(0, inner(u) - 7 * scale);
-      const x = cx + s * r, y = yOf(u);
-      started ? ctx.lineTo(x, y) : (ctx.moveTo(x, y), started = true);
-    }
-  }
-  ctx.stroke();
-
-  // the lacteal: one blind-ended lymphatic up the middle
-  const lw = 9 * scale;
-  ctx.globalAlpha = 1;
-  ctx.beginPath();
-  ctx.roundRect(cx - lw / 2, yOf(vTop), lw, yOf(vBot) - yOf(vTop), lw / 2);
-  ctx.fillStyle = LACTEAL; ctx.fill();
-  ctx.strokeStyle = OUTLINE; ctx.lineWidth = 1; ctx.globalAlpha = 0.7; ctx.stroke();
-  ctx.globalAlpha = 1;
-
-  // named in place, inside the core — a leader out to the margin would have to
-  // cross the migration rule
-  ctx.save();
-  ctx.translate(cx + lw / 2 + 11 * scale, yOf(0.72));
-  ctx.rotate(-Math.PI / 2);
-  ctx.font = '9px ui-monospace, SFMono-Regular, Menlo, monospace';
-  ctx.fillStyle = MUTED; ctx.textAlign = "center"; ctx.globalAlpha = 0.85;
-  ctx.fillText("LACTEAL", 0, 0);
-  ctx.restore();
-  ctx.globalAlpha = 1; ctx.textAlign = "left";
-
-  // axis annotations
-  ctx.font = '10px ui-monospace, SFMono-Regular, Menlo, monospace';
-  ctx.fillStyle = MUTED; ctx.textAlign = "left";
-  const lx = cx + Wv() + 42 * scale;
-  const marks = [[0.02, "CRYPT BASE"], [0.24, "CRYPT"], [0.78, "VILLUS"], [0.995, "SHED"]];
-  ctx.strokeStyle = RULE; ctx.lineWidth = 1;
-  for (const [u, label] of marks) {
-    const y = yOf(u);
-    ctx.globalAlpha = 0.75;
-    ctx.beginPath();
-    ctx.moveTo(cx + bend(u) + outer(u) + 8, y); ctx.lineTo(lx - 6, y); ctx.stroke();
-    ctx.fillText(label, lx, y + 3);
-    ctx.globalAlpha = 1;
-  }
-
-  // the migration arrow, drawn once alongside the axis
-  const ax = cx - Wv() - 26 * scale;
-  ctx.strokeStyle = RULE; ctx.lineWidth = 1;
-  ctx.beginPath(); ctx.moveTo(ax, yOf(0.12)); ctx.lineTo(ax, yOf(0.86)); ctx.stroke();
-  ctx.beginPath();
-  ctx.moveTo(ax, yOf(0.90)); ctx.lineTo(ax - 4, yOf(0.855)); ctx.lineTo(ax + 4, yOf(0.855));
-  ctx.closePath(); ctx.fillStyle = RULE; ctx.fill();
-  ctx.save();
-  ctx.translate(ax - 9, yOf(0.5)); ctx.rotate(-Math.PI / 2);
-  ctx.textAlign = "center"; ctx.fillStyle = MUTED;
-  ctx.fillText("MIGRATION", 0, 0);
-  ctx.restore();
-}
-
-/* Where along the axis a person stands in a given year: how far through their
-   own time in the group they are. The denominator counts the last year as a
-   year present — without it everyone still in the lab piles up at the tip in
-   whatever the current year happens to be. */
-function place(c, y) {
-  const p = c.p;
-  if (y < p.gf) return null;
-  if (c.paneth) return 0.03 + c.band * 0.11;            // Paneth cells hold the base
-  const u = (y - p.gf) / (p.gl - p.gf + 1);
-  // a small fixed offset per person so a cohort that arrived together does not
-  // stack in one line
-  return 0.035 + u * 0.94 + (c.wob - 0.5) * 0.05;
-}
-
-function drawCell(c, u0, alpha, strong) {
-  // the last stretch is compressed: cells on their way out crowd the tip, and
-  // without this they end up drawn outside the tissue
-  const u = u0 < 0.86 ? u0 : 0.86 + (u0 - 0.86) * 0.62;
-  const half = outer(u), core = inner(u);
-  const lean = bend(u);
-  const room = Math.max(6, half - core);
-  const r = core + room * c.band;
-  const x = cx + lean + c.side * r;
-  const y = yOf(u) + (c.wob - 0.5) * 9;
-  const w = (c.paneth ? 8.5 : 5.4 + Math.sqrt(c.n) * 0.62) * scale;
-  const h = c.paneth ? w * 1.15 : w * 1.75;
-  c.x = x; c.y = y; c.w = w; c.h = h; c.on = true;
-
-  ctx.globalAlpha = alpha;
-  ctx.fillStyle = c.col;
-  ctx.beginPath();
-  if (c.paneth) {
-    // wedge with a domed apex — and the secretory granules
-    ctx.ellipse(x, y, w * 0.62, h * 0.72, 0, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.fillStyle = GROUND; ctx.globalAlpha = alpha * 0.65;
-    for (let g = 0; g < 4; g++) {
-      const a = g * 1.9 + c.wob * 6;
-      ctx.beginPath();
-      ctx.arc(x + Math.cos(a) * w * 0.26, y + Math.sin(a) * h * 0.3, w * 0.13, 0, Math.PI * 2);
-      ctx.fill();
-    }
-  } else {
-    // columnar cell, long axis along the migration path
-    const rr = w * 0.34;
-    ctx.roundRect(x - w / 2, y - h / 2, w, h, [rr, rr, rr * 0.5, rr * 0.5]);
-    ctx.fill();
-    // basal nucleus, the way an enterocyte actually sits
-    ctx.fillStyle = INK; ctx.globalAlpha = alpha * 0.5;
-    ctx.beginPath(); ctx.arc(x, y + h * 0.22, w * 0.26, 0, Math.PI * 2); ctx.fill();
-  }
-  ctx.globalAlpha = alpha;
-
-  if (c.lead) {
-    ctx.strokeStyle = GOLD; ctx.lineWidth = 1.2;
-    ctx.beginPath(); ctx.ellipse(x, y, w * 0.78, h * 0.66, 0, 0, Math.PI * 2); ctx.stroke();
-  }
-  if (strong) {
-    ctx.globalAlpha = 1;
-    ctx.strokeStyle = INK; ctx.lineWidth = 1.6;
-    ctx.beginPath(); ctx.ellipse(x, y, w * 0.95, h * 0.82, 0, 0, Math.PI * 2); ctx.stroke();
-  }
-  ctx.globalAlpha = 1;
-}
-
 function draw(t) {
-  if (!reduced) tflow = t * 0.001;
+  spin = reduced ? 0 : t * 0.000012;
   ctx.clearRect(0, 0, W, H);
-  drawUnit();
 
-  let here = 0;
-  const shown = [];
-  for (const c of cellsAll) c.on = false;
+  const shownYears = cohorts.filter(c => c.y <= year);
 
-  for (const c of cellsAll) {
-    const u = place(c, year);
-    if (u === null) continue;
-    const dim = filter && !filter.has(c.p.n);
-    if (u <= 1) {
-      here++;
-      drawCell(c, u, dim ? 0.1 : 1, c === hover || c === picked);
-      if (!dim) shown.push(c);
-    } else if (u < 1.16) {
-      // extruded at the tip: drifting into the lumen, on its way out
-      const k = (u - 1) / 0.16;
-      const y = yOf(1) - 14 - k * 46 - Math.sin(tflow + c.wob * 9) * 3;
-      const x = cx + bend(1) + (c.side * (16 + k * 40)) + Math.sin(tflow * .7 + c.wob * 5) * 4;
-      const w = 5 * scale;
-      ctx.globalAlpha = (dim ? 0.06 : 0.5) * (1 - k);
-      ctx.fillStyle = c.col;
-      ctx.beginPath(); ctx.arc(x, y, w * (1 - k * 0.4), 0, Math.PI * 2); ctx.fill();
-      ctx.globalAlpha = 1;
-      c.x = x; c.y = y; c.w = w * 2; c.h = w * 2; c.on = true;
-    }
+  shownYears.forEach((co, i) => {
+    const pad = 0.055 / Math.max(0.08, (co.r0 + co.r1) / 2);
+    const a0 = co.a0 - pad, a1 = co.a1 + pad;
+    ctx.beginPath();
+    ctx.arc(cx, cy, co.r1 * R, a0, a1);
+    ctx.arc(cx, cy, co.r0 * R, a1, a0, true);
+    ctx.closePath();
+    ctx.fillStyle = i % 2 ? RULE : PLATE2;
+    ctx.globalAlpha = i % 2 ? 0.7 : 0.42;
+    ctx.fill();
+    ctx.globalAlpha = 1;
+  });
+  const front = shownYears[shownYears.length - 1];
+  if (front) {
+    ctx.strokeStyle = INK; ctx.lineWidth = 1.4; ctx.globalAlpha = 0.6;
+    ctx.beginPath();
+    ctx.arc(cx, cy, front.r1 * R, front.a0 - 0.06, front.a1 + 0.06);
+    ctx.stroke();
+    ctx.globalAlpha = 1;
   }
 
-  // names: the Paneth cells always, then the biggest contributors that fit
-  ctx.font = "11px " + getComputedStyle(document.body).fontFamily;
+  let inLab = 0;
+  for (const c of cells) {
+    if (c.p.gf > year) { c.rad = 0; continue; }
+    const live = year <= c.p.gl;
+    if (live) inLab++;
+    const dim = filter && !filter.has(c.p.n);
+    const strong = c === hover || c === picked;
+    const a = c.a + spin;
+    c.x = cx + Math.cos(a) * c.rr * R;
+    c.y = cy + Math.sin(a) * c.rr * R;
+    c.rad = Math.max(2, Math.min(7.5, 1.9 + Math.sqrt(c.n / maxN) * 12)) * (c.pillar ? 1.2 : 1);
+
+    ctx.globalAlpha = dim ? 0.1 : 1;
+    if (live) {
+      ctx.fillStyle = c.col;
+      ctx.beginPath(); ctx.arc(c.x, c.y, c.rad, 0, Math.PI * 2); ctx.fill();
+    } else {
+      ctx.fillStyle = c.col; ctx.globalAlpha = dim ? 0.04 : 0.16;
+      ctx.beginPath(); ctx.arc(c.x, c.y, c.rad * 0.82, 0, Math.PI * 2); ctx.fill();
+      ctx.strokeStyle = c.col; ctx.lineWidth = 1.1;
+      ctx.globalAlpha = dim ? 0.08 : 0.55;
+      ctx.beginPath(); ctx.arc(c.x, c.y, c.rad * 0.82, 0, Math.PI * 2); ctx.stroke();
+    }
+    if (c.pillar && !dim) {
+      ctx.globalAlpha = 1;
+      ctx.fillStyle = PLATE;
+      ctx.beginPath(); ctx.arc(c.x, c.y, c.rad * 0.34, 0, Math.PI * 2); ctx.fill();
+    }
+    if (c.lead && !dim) {
+      ctx.globalAlpha = live ? 0.9 : 0.4;
+      ctx.strokeStyle = MARK; ctx.lineWidth = 1.2;
+      ctx.beginPath(); ctx.arc(c.x, c.y, c.rad + 2.6, 0, Math.PI * 2); ctx.stroke();
+    }
+    if (strong) {
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = INK; ctx.lineWidth = 1.8;
+      ctx.beginPath(); ctx.arc(c.x, c.y, c.rad + 4.5, 0, Math.PI * 2); ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  // year gauge, in the wedge that was left clear of cells
+  ctx.font = '10px ui-monospace, SFMono-Regular, Menlo, monospace';
   ctx.textAlign = "left"; ctx.textBaseline = "middle";
+  for (const co of shownYears) {
+    const isNow = co.y === year, tick = isNow || co.y % 5 === 0;
+    if (!tick) continue;
+    const rx = cx + co.r1 * R;
+    ctx.globalAlpha = isNow ? 1 : 0.6;
+    ctx.strokeStyle = isNow ? INK : RULE2; ctx.lineWidth = isNow ? 1.4 : 1;
+    ctx.beginPath(); ctx.moveTo(rx, cy - 5); ctx.lineTo(rx, cy + 5); ctx.stroke();
+    ctx.fillStyle = isNow ? INK : FAINT;
+    ctx.save();
+    ctx.translate(rx, cy - 9); ctx.rotate(-Math.PI / 2);
+    ctx.fillText(co.y, 0, 3);
+    ctx.restore();
+    ctx.globalAlpha = 1;
+  }
+
+  // the founder, at the middle of the innermost ring
+  ctx.fillStyle = INK;
+  ctx.beginPath(); ctx.arc(cx, cy, 5, 0, Math.PI * 2); ctx.fill();
+  ctx.textAlign = "center";
+  ctx.fillStyle = MUTED; ctx.globalAlpha = 0.85;
+  ctx.fillText("CLEVERS", cx, cy - 14);
+  ctx.globalAlpha = 1;
+
+  // names for the people the eye should land on
+  ctx.font = "11px " + getComputedStyle(document.body).fontFamily;
   const boxes = [];
-  const label = shown.slice().sort((a, b) =>
-    (b.paneth ? 1 : 0) - (a.paneth ? 1 : 0) ||
-    ((b === hover || b === picked) ? 1 : 0) - ((a === hover || a === picked) ? 1 : 0) ||
-    b.n - a.n);
+  const label = cells.filter(c => c.rad && (!filter || filter.has(c.p.n)))
+    .sort((a, b) => (b.pillar ? 1 : 0) - (a.pillar ? 1 : 0) ||
+                    ((b === hover || b === picked) ? 1 : 0) - ((a === hover || a === picked) ? 1 : 0) ||
+                    b.n - a.n);
+  ctx.textAlign = "left";
   for (const c of label) {
-    const strong = c === hover || c === picked || c.paneth;
+    const strong = c === hover || c === picked || c.pillar;
+    if (!strong && boxes.length > 34) break;
     const t2 = c.p.n.split(",")[0].trim();
     const tw = ctx.measureText(t2).width;
-    const right = c.side > 0;
-    const x = right ? c.x + c.w * 0.7 + 5 : c.x - c.w * 0.7 - 5 - tw;
-    const box = { x: x - 3, y: c.y - 8, w: tw + 6, h: 16 };
+    const right = c.x >= cx;
+    const x = right ? c.x + c.rad + 4 : c.x - c.rad - 4 - tw;
+    const box = { x: x - 2, y: c.y - 7, w: tw + 4, h: 14 };
     if (boxes.some(b => !(box.x + box.w < b.x || b.x + b.w < box.x ||
                           box.y + box.h < b.y || b.y + b.h < box.y))) continue;
-    if (boxes.length > 46 && !strong) break;
     boxes.push(box);
+    ctx.fillStyle = PLATE; ctx.globalAlpha = 0.78;
+    ctx.fillRect(box.x, box.y, box.w, box.h);
+    ctx.globalAlpha = strong ? 0.98 : 0.6;
     ctx.fillStyle = strong ? INK : MUTED;
-    ctx.globalAlpha = strong ? 0.95 : 0.5;
     ctx.fillText(t2, x, c.y);
     ctx.globalAlpha = 1;
   }
-  // the founder, an Lgr5+ crypt base columnar cell — everything else in the
-  // tissue is ultimately descended from it
-  const sy = yOf(0.028), sx = cx + bend(0.028);
-  const halo = ctx.createRadialGradient(sx, sy, 0, sx, sy, 34 * scale);
-  halo.addColorStop(0, GOLD + "66");
-  halo.addColorStop(1, GOLD + "00");
-  ctx.fillStyle = halo;
-  ctx.beginPath(); ctx.arc(sx, sy, 34 * scale, 0, Math.PI * 2); ctx.fill();
-  ctx.fillStyle = GOLD;
-  ctx.beginPath();
-  ctx.ellipse(sx, sy, 5 * scale, 9.5 * scale, 0, 0, Math.PI * 2);
-  ctx.fill();
-  ctx.strokeStyle = INK; ctx.lineWidth = 1;
-  ctx.beginPath(); ctx.ellipse(sx, sy, 5 * scale, 9.5 * scale, 0, 0, Math.PI * 2); ctx.stroke();
-  ctx.font = '10px ui-monospace, SFMono-Regular, Menlo, monospace';
-  ctx.textAlign = "right"; ctx.fillStyle = stemHover ? INK : MUTED;
-  ctx.fillText(stemHover ? "HANS CLEVERS · LGR5+ STEM CELL" : "LGR5+", sx - 14 * scale, sy + 3);
-  ctx.textAlign = "left";
   ctx.textBaseline = "alphabetic";
 
-  document.getElementById("c-here").textContent = here;
+  document.getElementById("c-in").textContent = inLab;
   requestAnimationFrame(draw);
 }
 
@@ -686,40 +553,35 @@ function setYear(y) {
   slider.value = year;
   yearEl.textContent = year;
   phaseEl.textContent = PHASE.find(p => year <= p.to).tag;
-  let seen = 0;
-  for (const c of cellsAll) if (c.p.gf <= year) seen++;
-  document.getElementById("c-total").textContent = seen;
+  document.getElementById("c-arr").textContent = ARRIVALS[year - Y0];
   document.getElementById("c-papers").textContent = CUM[year - Y0];
 }
 
 /* ---------- interaction ---------- */
 function hit(mx, my) {
-  let best = null, bd = 1e9;
-  for (const c of cellsAll) {
-    if (!c.on) continue;
+  let best = null, bd = Infinity;
+  for (const c of cells) {
+    if (!c.rad) continue;
     if (filter && !filter.has(c.p.n)) continue;
-    const dx = (mx - c.x) / Math.max(9, c.w), dy = (my - c.y) / Math.max(9, c.h);
-    const d = dx * dx + dy * dy;
+    const d = (mx - c.x) ** 2 + (my - c.y) ** 2;
     if (d < bd) { bd = d; best = c; }
   }
-  return bd <= 1.6 ? best : null;
+  return bd <= 15 ** 2 ? best : null;
 }
 
 cv.addEventListener("pointermove", e => {
   const r = cv.getBoundingClientRect();
-  const mx = e.clientX - r.left, my = e.clientY - r.top;
-  stemHover = Math.hypot(mx - (cx + bend(0.028)), my - yOf(0.028)) < 26 * scale;
-  hover = hit(mx, my);
+  hover = hit(e.clientX - r.left, e.clientY - r.top);
   cv.style.cursor = hover ? "pointer" : "crosshair";
   if (hover) {
     const p = hover.p;
-    tip.textContent = `${p.n} · ${hover.n} paper${hover.n > 1 ? "s" : ""} · ${p.gf}–${p.gl}`;
+    tip.textContent = `${p.n} · joined ${p.gf} · ${hover.n} paper${hover.n > 1 ? "s" : ""}`;
     tip.setAttribute("data-on", "");
     tip.style.left = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 10) + "px";
     tip.style.top = (e.clientY + 16) + "px";
   } else tip.removeAttribute("data-on");
 });
-cv.addEventListener("pointerleave", () => { hover = null; stemHover = false; tip.removeAttribute("data-on"); });
+cv.addEventListener("pointerleave", () => { hover = null; tip.removeAttribute("data-on"); });
 cv.addEventListener("click", e => {
   const r = cv.getBoundingClientRect();
   const c = hit(e.clientX - r.left, e.clientY - r.top);
@@ -741,7 +603,6 @@ let timer = null;
 const PLAY_D = "M8 5.5v13l11-6.5z", PAUSE_D = "M7 5h3.4v14H7zm6.6 0H17v14h-3.4z";
 const playBtn = document.getElementById("play");
 const playIcon = document.getElementById("play-icon");
-
 function playing() { return timer !== null; }
 function stop() {
   if (!timer) return;
@@ -756,10 +617,7 @@ function play() {
   playIcon.setAttribute("d", PAUSE_D);
   playBtn.setAttribute("aria-pressed", "true");
   playBtn.setAttribute("aria-label", "Pause");
-  timer = setInterval(() => {
-    if (year >= Y1) { stop(); return; }
-    setYear(year + 1);
-  }, 420);
+  timer = setInterval(() => { if (year >= Y1) { stop(); return; } setYear(year + 1); }, 400);
 }
 playBtn.addEventListener("click", () => (playing() ? stop() : play()));
 
@@ -770,6 +628,8 @@ function open(c) {
   picked = c;
   const p = c.p;
   const papers = p.p.map(i => DATA.papers[i]).sort((a, b) => b[0] - a[0]);
+  const mates = cells.filter(v => v.p.gf === p.gf && v !== c)
+                     .sort((a, b) => b.n - a.n).slice(0, 12);
   const now = p.pos ? `
     <div class="d-box">
       <h3>${p.tr ? "Where they went" : "Their own group — a collaborator, not a trainee"}</h3>
@@ -790,10 +650,9 @@ function open(c) {
     </div>
     ${p.r ? `<p class="d-role">${esc(p.r)}</p>` : ""}
     <div class="d-box">
-      <h3>Position on the axis</h3>
-      <p>${p.pl
-            ? `A Paneth cell — ${p.gf}–${p.gl} at the base, through every turnover of the rest of the tissue.`
-            : `Enters at the base in ${p.gf}, shed from the tip after ${p.gl}.`}</p>
+      <h3>The ${p.gf} ring${mates.length ? ` — ${mates.length + 1} people` : ""}</h3>
+      <p style="color:var(--muted)">First documented in the group in ${p.gf}, last in ${p.gl}.</p>
+      ${mates.length ? `<div class="nb">${mates.map(v => `<button data-n="${esc(v.p.n)}">${esc(v.p.n.split(",")[0])}</button>`).join("")}</div>` : ""}
     </div>
     ${now}
     <div class="d-papers">
@@ -817,6 +676,11 @@ function open(c) {
 }
 function close() { picked = null; detail.removeAttribute("data-open"); }
 document.getElementById("close").addEventListener("click", close);
+detailBody.addEventListener("click", e => {
+  const b = e.target.closest(".nb button"); if (!b) return;
+  const c = cells.find(v => v.p.n === b.dataset.n);
+  if (c) open(c);
+});
 
 /* ---------- search ---------- */
 const q = document.getElementById("q");
@@ -824,20 +688,18 @@ const hits = document.getElementById("hits");
 q.addEventListener("input", () => {
   const t = q.value.trim().toLowerCase();
   if (!t) { filter = null; hits.innerHTML = ""; return; }
-  const found = cellsAll.filter(c => c.p.n.toLowerCase().includes(t))
-                        .sort((a, b) => b.n - a.n).slice(0, 12);
+  const found = cells.filter(c => c.p.n.toLowerCase().includes(t))
+                     .sort((a, b) => b.n - a.n).slice(0, 12);
   filter = new Set(found.map(c => c.p.n));
   hits.innerHTML = found.map(c =>
     `<li tabindex="0" data-n="${esc(c.p.n)}">${esc(c.p.n)}<span>${c.n}</span></li>`).join("");
 });
 function pick(li) {
-  const c = cellsAll.find(v => v.p.n === li.dataset.n);
+  const c = cells.find(v => v.p.n === li.dataset.n);
   if (c) { stop(); open(c); }
 }
 hits.addEventListener("click", e => { const li = e.target.closest("li"); if (li) pick(li); });
-hits.addEventListener("keydown", e => {
-  if (e.key === "Enter") { const li = e.target.closest("li"); if (li) pick(li); }
-});
+hits.addEventListener("keydown", e => { if (e.key === "Enter") { const li = e.target.closest("li"); if (li) pick(li); } });
 
 addEventListener("keydown", e => {
   if (e.target.tagName === "INPUT") {

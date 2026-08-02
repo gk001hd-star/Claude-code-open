@@ -83,12 +83,12 @@ def primary_site(rec):
 
 
 def add_lineage(people):
-    """Attach each person to whoever was already in the lab and shared most work.
+    """For each person, who was already in the lab and shared the most work.
 
-    The lineage pages draw the group as a clone: one founder, and every arrival
-    budding off the member they overlap with most. Written onto each record as
-    `pa`, the index of the parent, or -1 for people who attach straight to
-    Clevers because they share no paper with anyone who preceded them.
+    Written onto each record as `pa`. This is a seating rule, not a claim of
+    descent: the monolayer page places an arrival next to whoever they had
+    already published with most, so that neighbours on the sheet are real
+    collaborators. -1 means they share no paper with anyone who preceded them.
     """
     order = sorted(range(len(people)),
                    key=lambda i: (people[i]["gf"], -len(people[i]["p"]), people[i]["n"]))
