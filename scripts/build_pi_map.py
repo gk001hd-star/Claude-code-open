@@ -62,8 +62,10 @@ def main():
     checked = [k for k in pis]
     unknown = [k for k in checked if pis[k]["pi"] == "unknown"]
     # Anyone heading a research organisation, academic or industry.
-    leads = [k for k in checked if pis[k].get("lead_type")]
-    no_lead = [k for k in checked if pis[k]["pi"] != "unknown" and not pis[k].get("lead_type")]
+    external = [k for k in checked if pis[k].get("category") == "external_collaborator"]
+    leads = [k for k in checked if pis[k].get("lead_type") and k not in external]
+    no_lead = [k for k in checked
+               if pis[k]["pi"] != "unknown" and not pis[k].get("lead_type") and k not in external]
 
     alumni_lead = [k for k in leads if not is_collaborator(k, roles, pis)]
     collab_pi = [k for k in leads if is_collaborator(k, roles, pis)]
@@ -77,6 +79,7 @@ def main():
     collab_pi.sort(key=lambda k: -npapers(k))
     no_lead.sort(key=lambda k: -npapers(k))
     unknown.sort(key=lambda k: -npapers(k))
+    external.sort(key=lambda k: -npapers(k))
 
     unchecked = [c for c in cands if c["key"] not in pis]
     unchecked.sort(key=lambda c: -c["papers"])
@@ -101,6 +104,7 @@ def main():
         f"| &nbsp;&nbsp;&nbsp;company founders, CEOs and heads of R&D | {n_ind} |\n"
         f"| → PIs who were collaborators, not trainees | {len(collab_pi)} |\n"
         f"| → confirmed *not* in a research-leadership role | {len(no_lead)} |\n"
+        f"| → external co-authors, settled from affiliation data | {len(external)} |\n"
         f"| → checked but unresolved | {len(unknown)} |\n"
         f"| **Not yet checked** | **{len(unchecked)}** |\n"
     )
@@ -177,7 +181,22 @@ def main():
             f"{p['position']}, {p['institution']} | {link(p)} |"
         )
 
-    o.append("\n## 4. Checked but unresolved\n")
+    o.append("\n## 4. External co-authors, settled from the publication data\n")
+    o.append(
+        f"{len(external)} of the remaining candidates were resolved without a web search: their own "
+        "affiliation on the shared papers names another institution, so they were never members of "
+        "the Clevers group and fall outside the alumni question. Their PI status was therefore not "
+        "researched — many of them plainly do lead groups. They are listed for completeness and so "
+        "the coverage arithmetic adds up.\n"
+    )
+    o.append("| # | Name | Papers | Years co-authoring | Affiliation PubMed records for them |")
+    o.append("| ---: | --- | ---: | --- | --- |")
+    for i, k in enumerate(external, 1):
+        r = by_key.get(k, {})
+        yrs = f"{r.get('first_copublication','?')}–{r.get('last_copublication','?')}"
+        o.append(f"| {i} | {r.get('name', k)} | {r.get('n','')} | {yrs} | {pis[k]['institution']} |")
+
+    o.append("\n## 5. Checked but unresolved\n")
     o.append(
         "Searched, but no source found that settles whether they now lead a group. Mostly "
         "people with common names, or who left academia without a public profile.\n"
@@ -190,7 +209,7 @@ def main():
         yrs = f"{r.get('first_copublication','?')}–{r.get('last_copublication','?')}"
         o.append(f"| {i} | {r.get('name', k)} | {r.get('n','')} | {yrs} | {p['position']} |")
 
-    o.append("\n## 5. Candidates not yet checked\n")
+    o.append("\n## 6. Candidates not yet checked\n")
     o.append(
         f"The remaining {len(unchecked)} people in the candidate pool, in descending order of "
         "joint papers. Each still needs one search. Tier A means a Hubrecht/NIOB/Máxima/"
@@ -219,6 +238,7 @@ def main():
     print(f"  alumni leaders  : {len(alumni_lead)} ({n_acad} academic PI, {n_ind} industry)")
     print(f"  collaborator PIs: {len(collab_pi)}")
     print(f"  no leadership   : {len(no_lead)}")
+    print(f"  external        : {len(external)}")
     print(f"  unresolved      : {len(unknown)}")
     print(f"  unchecked       : {len(unchecked)}")
     print(f"wrote {out}")

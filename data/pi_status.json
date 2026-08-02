@@ -847,11 +847,11 @@
   "lead_type": null
  },
  "Boonekamp, Kim Elisabeth": {
-  "pi": "unknown",
-  "position": "Current position not established",
-  "institution": "",
-  "group_page": "",
-  "source": "search inconclusive",
+  "pi": false,
+  "position": "Postdoctoral researcher, Boutros lab",
+  "institution": "DKFZ / BioQuant Heidelberg",
+  "group_page": "http://www.genomicc.de/2025/06/09/dr-kim-boonekamp/",
+  "source": "GenoMiCC / DKFZ",
   "clevers_trainee": true,
   "lead_type": null
  },
@@ -899,5 +899,1521 @@
   "source": "CRUK Scotland Institute",
   "clevers_trainee": false,
   "lead_type": "academic_pi"
+ },
+ "Rookmaaker, Maarten B": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: University Medical Center Utrecht",
+  "institution": "University Medical Center Utrecht",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Verhaar, Marianne C": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: University Medical Center Utrecht",
+  "institution": "University Medical Center Utrecht",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Heck, Albert J R": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University",
+  "institution": "Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Clarke, Alan R": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: European Cancer Stem Cell Research Institute, Cardiff University School of Biosciences",
+  "institution": "European Cancer Stem Cell Research Institute, Cardiff University School of Biosciences",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Offerhaus, George Johan": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: University Medical Center Utrecht",
+  "institution": "University Medical Center Utrecht",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Wang, Xiangdong": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: City University of Hong Kong",
+  "institution": "City University of Hong Kong",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Pals, Steven T": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Academic Medical Center, University of Amsterdam",
+  "institution": "Academic Medical Center, University of Amsterdam",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Mohammed, Shabaz": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Bijvoet Centre for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University",
+  "institution": "Bijvoet Centre for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Ridgway, Rachel A": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Cancer Research UK Scotland Institute",
+  "institution": "Cancer Research UK Scotland Institute",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Tuveson, David A": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Cold Spring Harbor Laboratory",
+  "institution": "Cold Spring Harbor Laboratory",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Chen, Ye-Guang": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Memorial Sloan Kettering Cancer Center",
+  "institution": "Memorial Sloan Kettering Cancer Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Zhou, Jian": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Centre for Virology",
+  "institution": "Centre for Virology",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Nusse, Roeland": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Howard Hughes Medical Institute, Institute for Stem Cell Biology and Regenerative Medicine",
+  "institution": "Howard Hughes Medical Institute, Institute for Stem Cell Biology and Regenerative Medicine",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Phesse, Toby J": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: University of Melbourne & Victorian Infectious Diseases Reference Laboratory, Doherty Institute of Infection and Immunity",
+  "institution": "University of Melbourne & Victorian Infectious Diseases Reference Laboratory, Doherty Institute of Infection and Immunity",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Maurice, Madelon M": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Oncode Institute",
+  "institution": "Oncode Institute",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Simons, Benjamin D": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Cavendish Laboratory, University of Cambridge",
+  "institution": "Cavendish Laboratory, University of Cambridge",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Kranenburg, Onno W": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Utrecht Medical Center Utrecht",
+  "institution": "Utrecht Medical Center Utrecht",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Schneeberger, Kerstin": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Department of Clinical Sciences of Companion Animals, Utrecht University",
+  "institution": "Department of Clinical Sciences of Companion Animals, Utrecht University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "van der Ent, Cornelis K": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Wilhelmina Children's Hospital - University Medical Center, Utrecht University",
+  "institution": "Wilhelmina Children's Hospital - University Medical Center, Utrecht University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Spaargaren, Marcel": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Academic Medical Center, University of Amsterdam",
+  "institution": "Academic Medical Center, University of Amsterdam",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Wang, Jingqiang": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Crown Bioscience Inc.",
+  "institution": "Crown Bioscience Inc.",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Chan, Anthony K W": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: The University of Hong Kong, Queen Mary Hospital",
+  "institution": "The University of Hong Kong, Queen Mary Hospital",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Leung, Suet Yi": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: The University of Hong Kong, Queen Mary Hospital",
+  "institution": "The University of Hong Kong, Queen Mary Hospital",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Liu, X Shirley": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Clinical Stem Cell Research Center, Peking University Third Hospital",
+  "institution": "Clinical Stem Cell Research Center, Peking University Third Hospital",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Zhang, Lixing": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Fudan University Shanghai Cancer Center, Fudan University",
+  "institution": "Fudan University Shanghai Cancer Center, Fudan University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Jonkers, Jos": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Netherlands Cancer Institute, The Netherlands; Oncode Institute",
+  "institution": "Netherlands Cancer Institute, The Netherlands; Oncode Institute",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Wang, Hongmei": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: LTD",
+  "institution": "LTD",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "de Winter-de Groot, Karin M": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Wilhelmina Children's Hospital - University Medical Center, Utrecht University",
+  "institution": "Wilhelmina Children's Hospital - University Medical Center, Utrecht University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "MacHugh, N D": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: International Laboratory for Research on Animal Diseases",
+  "institution": "International Laboratory for Research on Animal Diseases",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Zhang, Zheng": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Fudan University Shanghai Cancer Center",
+  "institution": "Fudan University Shanghai Cancer Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Reed, Karen R": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: European Cancer Stem Cell Research Institute, Cardiff University School of Biosciences",
+  "institution": "European Cancer Stem Cell Research Institute, Cardiff University School of Biosciences",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Zhang, Jiangwen": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Erasmus Medical Center",
+  "institution": "Erasmus Medical Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Yuen, Siu Tsan": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: The University of Hong Kong, Queen Mary Hospital",
+  "institution": "The University of Hong Kong, Queen Mary Hospital",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Pronk, Apollo": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Department of Surgery, Diakonessenhuis Utrecht and Zeist",
+  "institution": "Department of Surgery, Diakonessenhuis Utrecht and Zeist",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Hua, Guoqiang": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Fudan University Shanghai Cancer Center",
+  "institution": "Fudan University Shanghai Cancer Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Mummery, Christine L": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Leiden University Medical Center",
+  "institution": "Leiden University Medical Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Zhang, Shuang": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: The University of Hong Kong",
+  "institution": "The University of Hong Kong",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "He, Xingfeng": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: the Stowers Institute for Medical Research",
+  "institution": "the Stowers Institute for Medical Research",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Radtke, Freddy": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Ludwig Institute for Cancer Research, University of Lausanne",
+  "institution": "Ludwig Institute for Cancer Research, University of Lausanne",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Bos, Johannes L": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Oncode Institute, Center for Molecular Medicine",
+  "institution": "Oncode Institute, Center for Molecular Medicine",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Athineos, Dimitris": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Cancer Research UK Beatson Institute, Institute of Cancer Sciences",
+  "institution": "Cancer Research UK Beatson Institute, Institute of Cancer Sciences",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Koster, Jan": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Academic Medical Center, University of Amsterdam",
+  "institution": "Academic Medical Center, University of Amsterdam",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Cai, Jian-Piao": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: The University of Hong Kong",
+  "institution": "The University of Hong Kong",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Zhao, Xian-Hui": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: The University of Hong Kong",
+  "institution": "The University of Hong Kong",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Chen, Xueqing": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Crown Bioscience Inc.",
+  "institution": "Crown Bioscience Inc.",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Borel Rinkes, Inne H M": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: University Medical Center Utrecht",
+  "institution": "University Medical Center Utrecht",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Wang, Longlong": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: King's College London Dental Institute, Guy's Hospital",
+  "institution": "King's College London Dental Institute, Guy's Hospital",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Rosenstiel, Philip": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Institute of Clinical Molecular Biology, Kiel University",
+  "institution": "Institute of Clinical Molecular Biology, Kiel University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Janssens, Hettie M": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Erasmus Medical Center/Sophia Children's Hospital",
+  "institution": "Erasmus Medical Center/Sophia Children's Hospital",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Joosten, Sander P J": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Academic Medical Center, University of Amsterdam",
+  "institution": "Academic Medical Center, University of Amsterdam",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Wiegerinck, Caroline L": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Wilhelmina Children's Hospital, University Medical Center Utrecht",
+  "institution": "Wilhelmina Children's Hospital, University Medical Center Utrecht",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "de Jonge, Hugo R": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Erasmus Medical Center",
+  "institution": "Erasmus Medical Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Logtenberg, Ton": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Merus NV, Utrecht",
+  "institution": "Merus NV, Utrecht",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Bensaid, A": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: International laboratory for research on animal diseases",
+  "institution": "International laboratory for research on animal diseases",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Fodde, Riccardo": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: University Medical Center",
+  "institution": "University Medical Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Held, Werner": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Ludwig Institute for Cancer Research, Lausanne Branch and University of Lausanne",
+  "institution": "Ludwig Institute for Cancer Research, Lausanne Branch and University of Lausanne",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Cole, Alicia M": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: The Beatson Institute",
+  "institution": "The Beatson Institute",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "van Diest, Paul Joannes": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: University Medical Center Utrecht, Utrecht University",
+  "institution": "University Medical Center Utrecht, Utrecht University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Ernst, Matthias": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Olivia Newton-John Cancer Research Institute and La Trobe University School of Cancer Medicine",
+  "institution": "Olivia Newton-John Cancer Research Institute and La Trobe University School of Cancer Medicine",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Morsink, Folkert H M": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: University Medical Center Utrecht",
+  "institution": "University Medical Center Utrecht",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Kasper, Maria": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Karolinska Institutet, Department of Biosciences and Nutrition and Center for Innovative Medicine",
+  "institution": "Karolinska Institutet, Department of Biosciences and Nutrition and Center for Innovative Medicine",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Toftgård, Rune": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Karolinska Institutet, Department of Biosciences and Nutrition and Center for Innovative Medicine",
+  "institution": "Karolinska Institutet, Department of Biosciences and Nutrition and Center for Innovative Medicine",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Taouatas, Nadia": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University",
+  "institution": "Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Liu, Hongtao": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Robert H. Lurie Comprehensive Cancer Center, Northwestern University Feinberg School of Medicine",
+  "institution": "Robert H. Lurie Comprehensive Cancer Center, Northwestern University Feinberg School of Medicine",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Van Gorp, Joost": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: St. Antonius Hospital",
+  "institution": "St. Antonius Hospital",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Medema, Jan Paul": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Cancer Center Amsterdam, Laboratory of Experimental Oncology and Radiobiology (LEXOR)",
+  "institution": "Cancer Center Amsterdam, Laboratory of Experimental Oncology and Radiobiology (LEXOR)",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Wang, Yinsheng": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Fudan University Shanghai Cancer Center",
+  "institution": "Fudan University Shanghai Cancer Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Ravelli, Raimond B G": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Maastricht University",
+  "institution": "Maastricht University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Smith, Andrew D": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Inc.",
+  "institution": "Inc.",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Theis, Fabian J": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Institute of Computational Biology, Helmholtz Zentrum München - German Research Center for Environmental Health",
+  "institution": "Institute of Computational Biology, Helmholtz Zentrum München - German Research Center for Environmental Health",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "van Andel, Harmen": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Academic Medical Center, University of Amsterdam",
+  "institution": "Academic Medical Center, University of Amsterdam",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Toye, P G": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: International Laboratory for Research on Animal Diseases",
+  "institution": "International Laboratory for Research on Animal Diseases",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Morin, P J": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Howard Hughes Medical Institute and Johns Hopkins Oncology Center",
+  "institution": "Howard Hughes Medical Institute and Johns Hopkins Oncology Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Wells, Christine A": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Centre for Stem Cell Systems, University of Melbourne",
+  "institution": "Centre for Stem Cell Systems, University of Melbourne",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "De Strooper, Bart": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: VIB Center for Brain and Disease Research",
+  "institution": "VIB Center for Brain and Disease Research",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "van den Hoff, Maurice J B": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Academic Medical Center, Amsterdam University Medical Centers",
+  "institution": "Academic Medical Center, Amsterdam University Medical Centers",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Bienz, Mariann": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Medical Research Council Laboratory of Molecular Biology",
+  "institution": "Medical Research Council Laboratory of Molecular Biology",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Meniel, Valerie S": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: European Cancer Stem Cell Research Institute, Cardiff University",
+  "institution": "European Cancer Stem Cell Research Institute, Cardiff University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Derksen, Patrick W B": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: University Medical Center Utrecht",
+  "institution": "University Medical Center Utrecht",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Riccio, Orbicia": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Swiss Institute for Experimental Cancer Research",
+  "institution": "Swiss Institute for Experimental Cancer Research",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Iacobuzio-Donahue, Christine A": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Memorial Sloan Kettering Cancer Center",
+  "institution": "Memorial Sloan Kettering Cancer Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Hruban, Ralph H": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Johns Hopkins University",
+  "institution": "Johns Hopkins University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Jaks, Viljar": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Karolinska Institutet",
+  "institution": "Karolinska Institutet",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Lu, Q Richard": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center",
+  "institution": "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Li, Linheng": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Shanghai Key Laboratory of Regulatory Biology, Joint Research Center for Translational Medicine",
+  "institution": "Shanghai Key Laboratory of Regulatory Biology, Joint Research Center for Translational Medicine",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Romagnolo, Beatrice": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Université de Paris, Institut Cochin",
+  "institution": "Université de Paris, Institut Cochin",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Sears, Rosalie C": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Oregon Health & Science University",
+  "institution": "Oregon Health & Science University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Shivdasani, Ramesh A": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Department of Medical Oncology and Center for Functional Cancer Epigenetics, Dana-Farber Cancer Institute",
+  "institution": "Department of Medical Oncology and Center for Functional Cancer Epigenetics, Dana-Farber Cancer Institute",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Munro, June": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Cancer Research UK Scotland Institute",
+  "institution": "Cancer Research UK Scotland Institute",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Nishimori, Katsuhiko": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Laboratory of Molecular Biology, Graduate School of Agricultural Science",
+  "institution": "Laboratory of Molecular Biology, Graduate School of Agricultural Science",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Gloerich, Martijn": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Center for Molecular Medicine, University Medical Center Utrecht and Utrecht University",
+  "institution": "Center for Molecular Medicine, University Medical Center Utrecht and Utrecht University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Jordens, Ingrid": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Center for Molecular Medicine, University Medical Center Utrecht",
+  "institution": "Center for Molecular Medicine, University Medical Center Utrecht",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Kemper, Kristel": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: EurOPDX Consortium and are at The Netherlands Cancer Institute",
+  "institution": "EurOPDX Consortium and are at The Netherlands Cancer Institute",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Nakamura, Toshiyuki": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Laboratory Animal Research Center, Institute of Medical Science",
+  "institution": "Laboratory Animal Research Center, Institute of Medical Science",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Prasetyanti, Pramudita R": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Cancer Center Amsterdam, Laboratory of Experimental Oncology and Radiobiology (LEXOR)",
+  "institution": "Cancer Center Amsterdam, Laboratory of Experimental Oncology and Radiobiology (LEXOR)",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Watt, Fiona M": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Centre for Stem Cells and Regenerative Medicine, King's College London",
+  "institution": "Centre for Stem Cells and Regenerative Medicine, King's College London",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Berns, Anton": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Netherlands Cancer Institute",
+  "institution": "Netherlands Cancer Institute",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Carlotti, Françoise": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Leiden University Medical Center",
+  "institution": "Leiden University Medical Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Gribble, Fiona M": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Metabolic Research Laboratories, Wellcome Trust-MRC Institute of Metabolic Science",
+  "institution": "Metabolic Research Laboratories, Wellcome Trust-MRC Institute of Metabolic Science",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Gros, Piet": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Bijvoet Center for Biomolecular Research, Utrecht University",
+  "institution": "Bijvoet Center for Biomolecular Research, Utrecht University",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Meddens, Claartje A": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Wilhelmina Children's Hospital, University Medical Center Utrecht",
+  "institution": "Wilhelmina Children's Hospital, University Medical Center Utrecht",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Reimann, Frank": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Metabolic Research Laboratories, Wellcome Trust-MRC Institute of Metabolic Science",
+  "institution": "Metabolic Research Laboratories, Wellcome Trust-MRC Institute of Metabolic Science",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Shen, Lianju": {
+  "pi": "not assessed",
+  "position": "External co-author — PubMed records them at: Fudan University Shanghai Cancer Center",
+  "institution": "Fudan University Shanghai Cancer Center",
+  "group_page": "",
+  "source": "own affiliation on the shared papers (data/articles.json) — outside the alumni question, so PI status not researched",
+  "clevers_trainee": false,
+  "lead_type": null,
+  "category": "external_collaborator"
+ },
+ "Rios, Anne C": {
+  "pi": true,
+  "position": "Tenured Group Leader, Dream3D Lab; Head of the Imaging Centre",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "https://research.prinsesmaximacentrum.nl/en/research-groups/rios-group",
+  "source": "Princess Máxima group page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Janda, Claudia Y": {
+  "pi": true,
+  "position": "Group Leader, Janda group (Wnt surrogate protein engineering)",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "https://research.prinsesmaximacentrum.nl/en/research-groups/janda-group",
+  "source": "Princess Máxima group page; PhD Utrecht/Radboud, postdoc TU Munich and Stanford - not a Clevers trainee",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Holstege, Frank C P": {
+  "pi": true,
+  "position": "Professor; formerly led a research group at the Princess Máxima (transcription and single-cell genomics), now voluntary research advisor",
+  "institution": "Princess Máxima Center / UMC Utrecht",
+  "group_page": "https://www.holstegelab.nl/",
+  "source": "Holstege lab site / Princess Máxima team page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "van Rheenen, Jacco": {
+  "pi": true,
+  "position": "Senior Group Leader, Intravital Microscopy of cancer (Hubrecht group leader before moving to the NKI in 2017)",
+  "institution": "Netherlands Cancer Institute, Amsterdam",
+  "group_page": "https://www.nki.nl/research/research-groups/jacco-van-rheenen/",
+  "source": "NKI group page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Post, Yorick": {
+  "pi": false,
+  "position": "Principal Scientist (individual contributor, industry)",
+  "institution": "Surrozen, Menlo Park, CA",
+  "group_page": "https://surrozen.com/",
+  "source": "The Org / LinkedIn; PhD in the Clevers group Nov 2015-Dec 2019",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "van Ineveld, Ravian L": {
+  "pi": false,
+  "position": "Postdoctoral researcher and Manager of the Imaging Core Facility",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "",
+  "source": "RocketReach / Princess Máxima",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Wang, Daisong": {
+  "pi": "unknown",
+  "position": "Postdoc in the Clevers group, still co-authoring in 2025-2026; no independent group found",
+  "institution": "Hubrecht Institute",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Hu, Huili": {
+  "pi": "unknown",
+  "position": "Based at the Key Laboratory of Experimental Teratology, Department of Genetics, Shandong University; visited the Hubrecht in 2016 - group leadership not confirmed",
+  "institution": "Shandong University, Jinan",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Bannier-Hélaouët, Marie": {
+  "pi": "unknown",
+  "position": "PhD student in the Clevers group (thesis 'Modeling the ocular surface with organoid technology', defended 12 Apr 2023); current position not established",
+  "institution": "Hubrecht Institute (at the time)",
+  "group_page": "https://www.hubrecht.eu/thesis-defense-marie-bannier-helaouet/",
+  "source": "Hubrecht thesis defence",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Millen, Rosemary": {
+  "pi": "unknown",
+  "position": "Clevers group co-author; current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "DeMartino, Jeff": {
+  "pi": "unknown",
+  "position": "Clevers/Máxima co-author; search returned a different person of the same name",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Margaritis, Thanasis": {
+  "pi": false,
+  "position": "Single-cell biologist leading the Single-Cell Genomics core facility (facility leadership, not a research group)",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "https://www.prinsesmaximacentrum.nl/en/professionals/core-facilities-shared-resources/single-cell-genomics",
+  "source": "Princess Máxima core-facility page",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Nieuwenhuis, Edward E S": {
+  "pi": true,
+  "position": "Chief Medical Officer (from 1 Feb 2025); previously head of paediatrics at the Wilhelmina Children's Hospital and professor at University College Roosevelt",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "https://research.prinsesmaximacentrum.nl/en/about-us/organization-management-and-advice/board-of-directors/edward-nieuwenhuis",
+  "source": "Princess Máxima board page",
+  "clevers_trainee": false,
+  "lead_type": "industry_lead"
+ },
+ "Beekman, Jeffrey M": {
+  "pi": true,
+  "position": "Professor of Cellular Disease Modelling; PI of the molecular cystic fibrosis laboratory since 2010",
+  "institution": "UMC Utrecht",
+  "group_page": "https://www.umcutrecht.nl/en/research/researchers/beekman-jm",
+  "source": "UMC Utrecht researcher page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "de Koning, Eelco J P": {
+  "pi": true,
+  "position": "Professor of Diabetology; heads the LUMC diabetes centre and the Islet Group",
+  "institution": "Leiden University Medical Center",
+  "group_page": "https://www.lumc.nl/en/afdelingen/algemene-interne-geneeskunde/ejp-de-koning/",
+  "source": "LUMC staff page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Burgering, Boudewijn M T": {
+  "pi": true,
+  "position": "Professor of Signal Transduction; Head of the Center for Molecular Medicine and of Molecular Cancer Research",
+  "institution": "UMC Utrecht",
+  "group_page": "https://www.oncodeinstitute.nl/research-groups/boudewijn-burgering-group",
+  "source": "Oncode / UMC Utrecht group page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Kops, Geert J P L": {
+  "pi": true,
+  "position": "Director of the Hubrecht Institute; group leader, chromosome segregation; professor at UMC Utrecht",
+  "institution": "Hubrecht Institute, Utrecht",
+  "group_page": "https://www.hubrecht.eu/research-groups/kops-group/",
+  "source": "Hubrecht group page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Ritsma, Laila": {
+  "pi": true,
+  "position": "Group leader, Cell Signaling Dynamics (own team: postdoc, PhD student, two technicians)",
+  "institution": "Leiden University Medical Center, Cell & Chemical Biology",
+  "group_page": "https://ccb.lumc.nl/research/cell-signaling-dynamics-166/laila-ritsma-70",
+  "source": "LUMC CCB group page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Mullenders, Jasper": {
+  "pi": false,
+  "position": "Senior Director, Translational Research",
+  "institution": "Scenic Biotech, Amsterdam",
+  "group_page": "https://scenicbiotech.com/",
+  "source": "The Org / LinkedIn; postdoc in the Clevers group",
+  "clevers_trainee": true,
+  "lead_type": "industry_lead"
+ },
+ "Bernink, Jochem H": {
+  "pi": true,
+  "position": "Group leader (microbiome–epithelium–innate lymphoid cell interactions)",
+  "institution": "Amsterdam UMC",
+  "group_page": "https://researchinformation.amsterdamumc.org/en/persons/jochem-bernink-2",
+  "source": "Amsterdam UMC research portal",
+  "clevers_trainee": true,
+  "lead_type": "academic_pi"
+ },
+ "Kuiper, Roland P": {
+  "pi": true,
+  "position": "Full professor (UMC Utrecht) and Senior Principal Investigator; leads the Kuiper group",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "https://www.prinsesmaximacentrum.com/research/research/our-research-groups/kuiper-group/",
+  "source": "Princess Máxima group page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Kuball, Jürgen": {
+  "pi": true,
+  "position": "Professor; Chair of the Department of Haematology and Director of the Bone Marrow Transplantation Programme (Kuball laboratory)",
+  "institution": "UMC Utrecht",
+  "group_page": "https://www.kuball-laboratories.com/",
+  "source": "Kuball lab site / UMC Utrecht",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Sebestyen, Zsolt": {
+  "pi": true,
+  "position": "Principal Investigator, Tumorimmunology",
+  "institution": "UMC Utrecht",
+  "group_page": "https://www.kuball-laboratories.com/people",
+  "source": "UMC Utrecht Tumorimmunology",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Tanenbaum, Marvin E": {
+  "pi": true,
+  "position": "Senior group leader (Hubrecht), Professor of Gene Expression Dynamics at TU Delft, Oncode Investigator",
+  "institution": "Hubrecht Institute / TU Delft",
+  "group_page": "https://www.hubrecht.eu/research-groups/tanenbaum-group/",
+  "source": "Hubrecht group page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "de Krijger, Ronald R": {
+  "pi": true,
+  "position": "Professor of Pathology of solid paediatric tumours; pathologist at the Princess Máxima (from Jan 2026 at Helse Fonna, Norway)",
+  "institution": "UMC Utrecht / Princess Máxima Center",
+  "group_page": "https://www.umcutrecht.nl/en/research/researchers/de-krijger-ronald-rr",
+  "source": "UMC Utrecht",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Tetteh, Paul W": {
+  "pi": false,
+  "position": "Scientist II (individual contributor, industry)",
+  "institution": "CRISPR Therapeutics, Boston",
+  "group_page": "https://crisprtx.com/",
+  "source": "LinkedIn / ResearchGate; PhD student in the Clevers group",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Alieva, Maria": {
+  "pi": false,
+  "position": "Senior postdoctoral researcher (imaging, BEHAV3D)",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "",
+  "source": "Google Scholar / Princess Máxima",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Wehrens, Ellen J": {
+  "pi": "unknown",
+  "position": "Researcher at the Princess Máxima (live-cell imaging of T-cell behaviour); independent group leadership not confirmed",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Giladi, Amir": {
+  "pi": "unknown",
+  "position": "Immunologist, formerly Weizmann Institute; several people share this name and the current position could not be pinned down",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Verissimo, Carla S": {
+  "pi": false,
+  "position": "Head of Oncology II (research function head, industry)",
+  "institution": "HUB Organoids, Utrecht",
+  "group_page": "https://www.huborganoids.nl/",
+  "source": "HUB Organoids",
+  "clevers_trainee": true,
+  "lead_type": "industry_lead"
+ },
+ "Verbeek, S": {
+  "pi": true,
+  "position": "Associate Professor of Human Genetics and Immunology (made the Tcf1/Lef1 knockout mice)",
+  "institution": "Leiden University Medical Center",
+  "group_page": "https://www.universiteitleiden.nl/en/staffmembers/sjef-verbeek",
+  "source": "Leiden University staff page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Stunnenberg, Hendrik G": {
+  "pi": true,
+  "position": "Group leader, Stunnenberg group (epigenetics of high-grade brain malignancies); full professor",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "https://research.prinsesmaximacentrum.nl/en/research-groups/stunnenberg-group",
+  "source": "Princess Máxima group page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Versteeg, Rogier": {
+  "pi": true,
+  "position": "Professor / group leader, Department of Oncogenomics",
+  "institution": "Amsterdam UMC",
+  "group_page": "https://www.amsterdamumc.org/en/research/researchers/rogier-versteeg.htm",
+  "source": "Amsterdam UMC researcher page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "van den Heuvel-Eibrink, Marry M": {
+  "pi": true,
+  "position": "Group leader (~25 PhD students and postdocs); Professor of Translational Pediatric Oncology, Utrecht University",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "https://www.prinsesmaximacentrum.nl/en/professionals/research-groups/van-den-heuvel-eibrink-group",
+  "source": "Princess Máxima group page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Wiener, Dominique J": {
+  "pi": true,
+  "position": "Clinical Associate Professor of Anatomic Pathology; Director of the dermatopathology specialty service",
+  "institution": "Texas A&M University College of Veterinary Medicine",
+  "group_page": "https://vetmed.tamu.edu/dermatopathology-lab/staff-information/dominique-wiener/",
+  "source": "Texas A&M staff page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Faro, Ana": {
+  "pi": false,
+  "position": "Postdoctoral researcher, Cell and Developmental Biology",
+  "institution": "University College London",
+  "group_page": "",
+  "source": "ResearchGate profile",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Sasselli, Valentina": {
+  "pi": "unknown",
+  "position": "Clevers group co-author (enteric nervous system / organoids) — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Overmeer, René M": {
+  "pi": "unknown",
+  "position": "Clevers group co-author; likely HUB Organoids — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Saftien, Aurelia": {
+  "pi": "unknown",
+  "position": "Clevers group co-author (microbiome/organoids) — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Balážová, Katarína": {
+  "pi": "unknown",
+  "position": "Recent Clevers group member (lung organoids) — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Ng, Ser Sue": {
+  "pi": "unknown",
+  "position": "Clevers group co-author (Wnt/Axin1) — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Chen, Chin-Tung": {
+  "pi": "unknown",
+  "position": "Clevers group co-author — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Kim, Seok-Young": {
+  "pi": "unknown",
+  "position": "Clevers group co-author — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "de Groot, Reinoud E A": {
+  "pi": "unknown",
+  "position": "Clevers/Korswagen co-author (retromer, Wls recycling) — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Molenaar, Jan J": {
+  "pi": true,
+  "position": "Professor and Principal Investigator; leads the Molenaar group (precision medicine in paediatric cancer, neuroblastoma)",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "https://www.prinsesmaximacentrum.nl/en/professionals/researchers/jan-molenaar",
+  "source": "Princess Máxima researcher page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Pieters, Rob": {
+  "pi": true,
+  "position": "Chief Máxima International (Chief Medical Officer 2013-2025); Professor of Paediatric Oncology, Utrecht University; President-elect of SIOP",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "https://www.prinsesmaximacentrum.nl/en/news/rob-pieters-started-as-chief-maxima-international",
+  "source": "Princess Máxima news / SIOP",
+  "clevers_trainee": false,
+  "lead_type": "industry_lead"
+ },
+ "van Jaarsveld, Richard H": {
+  "pi": true,
+  "position": "Principal Investigator, Genome Diagnostics",
+  "institution": "UMC Utrecht",
+  "group_page": "https://research.umcutrecht.nl/researchers/richard-van-jaarsveld/",
+  "source": "UMC Utrecht researcher page",
+  "clevers_trainee": false,
+  "lead_type": "academic_pi"
+ },
+ "Van de Wetering, Marc": {
+  "pi": false,
+  "position": "Senior Scientist, paediatric solid-tumour organoid technology — one of the two longest-serving members of the group (PhD student with Clevers in the early 1990s)",
+  "institution": "Princess Máxima Center for Pediatric Oncology, Utrecht",
+  "group_page": "https://research.prinsesmaximacentrum.nl/en/team-members/marc-van-de-wetering",
+  "source": "Princess Máxima team page",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Van Es, Johan H": {
+  "pi": false,
+  "position": "Senior Scientist in the Clevers group — the longest-serving scientific member of the lab, in post since 1997",
+  "institution": "Hubrecht Institute (KNAW), Utrecht",
+  "group_page": "https://www.hubrecht.eu/research-groups/clevers-group/",
+  "source": "ResearchGate / Hubrecht Clevers group page",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Rosendahl Huber, Axel": {
+  "pi": false,
+  "position": "Postdoctoral researcher (NWO Veni and Marie Curie laureate); now postdoc in the van Boxtel lab at IRB Barcelona",
+  "institution": "IRB Barcelona / Hubrecht Institute",
+  "group_page": "https://www.hubrecht.eu/marie-curie-grant-axel-rosendahl-huber/",
+  "source": "Hubrecht news / ResearchGate",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Jager, Myrthe": {
+  "pi": false,
+  "position": "Postdoctoral researcher and manager of the UMC AI lab",
+  "institution": "UMC Utrecht",
+  "group_page": "https://research.umcutrecht.nl/",
+  "source": "LinkedIn / ResearchGate",
+  "clevers_trainee": true,
+  "lead_type": null
+ },
+ "Boymans, Sander": {
+  "pi": "unknown",
+  "position": "Bioinformatician, Utrecht (Cuppen/van Boxtel orbit) — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Vivié, Judith A": {
+  "pi": "unknown",
+  "position": "Single-cell sequencing, Hubrecht (van Oudenaarden orbit) — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
+ },
+ "Candelli, Tito": {
+  "pi": "unknown",
+  "position": "Bioinformatician, Princess Máxima — current position not established",
+  "institution": "",
+  "group_page": "",
+  "source": "search inconclusive",
+  "clevers_trainee": false,
+  "lead_type": null
  }
 }

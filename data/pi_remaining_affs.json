@@ -1,0 +1,2538 @@
+{
+ "van es, j": {
+  "name": "Van Es, Johan H",
+  "papers": 112,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Utrecht, The Netherlands.",
+   "Hubrecht Laboratory, Netherlands Institute for Developmental Biology, Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, 3584 CT Utrecht, the Netherlands; Oncode Institute, 3521 AL Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Centre Utrecht, 3584 CT Utrecht, The Netherlands."
+  ]
+ },
+ "van de wetering, m": {
+  "name": "Van de Wetering, Marc",
+  "papers": 101,
+  "tier": "A",
+  "affs": [
+   "Department of Clinical Immunology, University Hospital Utrecht, The Netherlands.",
+   "Department of Immunology, University Hospital, Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Oncode Institute, Utrecht, Netherlands."
+  ]
+ },
+ "van den born, m": {
+  "name": "van den Born, Maaike M W",
+  "papers": 35,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Centre Utrecht, 3584 CT Utrecht, The Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, 3584 CT Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, University Medical Center Utrecht , Utrecht, the Netherlands.",
+   "Oncode Institute, Utrecht, the Netherlands."
+  ]
+ },
+ "de lau, w": {
+  "name": "de Lau, Wim B M",
+  "papers": 26,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, University Medical Center (UMC) Utrecht, Utrecht, 3584CX, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute-Royal Netherlands Academy of Arts and Science, Utrecht 3584 CT, The Netherlands.",
+   "University Medical Centre, Utrecht 3584 CT, The Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center, Utrecht, Netherlands."
+  ]
+ },
+ "nieuwenhuis, e": {
+  "name": "Nieuwenhuis, Edward E S",
+  "papers": 16,
+  "tier": "A",
+  "affs": [
+   "Department of Pediatric Gastroenterology, Wilhelmina Children's Hospital, University Medical Center Utrecht, 3584 EA Utrecht, Netherlands.",
+   "Department of Pediatric Gastroenterology, Wilhelmina Children's Hospital, University Medical Center, Utrecht University, Utrecht 3584 EA, The Netherlands.",
+   "Regenerative Medicine Center Utrecht, University Medical Center, Utrecht University, Utrecht 3584 CT, The Netherlands.",
+   "Princess Maximá Center for Pediatric Oncology, Utrecht 3584 CS, The Netherlands."
+  ]
+ },
+ "rios, a": {
+  "name": "Rios, Anne C",
+  "papers": 16,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Oncode Institute, Utrecht, the Netherlands.",
+   "The Princess Maxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, 3584 CT Utrecht, the Netherlands; The Princess Maxima Center for Pediatric Oncology, 3584 CS Utrecht, the Netherlands."
+  ]
+ },
+ "rookmaaker, m": {
+  "name": "Rookmaaker, Maarten B",
+  "papers": 16,
+  "tier": "C",
+  "affs": [
+   "Department of Nephrology and Hypertension, University Medical Center Utrecht, 3584 CX Utrecht, the Netherlands.",
+   "Department of Nephrology and Hypertension, University Medical Center Utrecht (UMCU), Utrecht, The Netherlands.",
+   "Department of Nephrology and Hypertension, University Medical Center Utrecht (UMCU), Utrecht, the Netherlands.",
+   "University Medical Centre Utrecht, Utrecht 3584 CX, The Netherlands."
+  ]
+ },
+ "verhaar, m": {
+  "name": "Verhaar, Marianne C",
+  "papers": 16,
+  "tier": "C",
+  "affs": [
+   "Department of Nephrology and Hypertension, University Medical Center Utrecht, 3584 CX Utrecht, the Netherlands.",
+   "Department of Nephrology and Hypertension, University Medical Center Utrecht (UMCU), Utrecht, The Netherlands.",
+   "Department of Nephrology and Hypertension, University Medical Center Utrecht (UMCU), Utrecht, the Netherlands.",
+   "University Medical Centre Utrecht, Utrecht 3584 CX, The Netherlands."
+  ]
+ },
+ "van son, g": {
+  "name": "van Son, Gijs J F",
+  "papers": 15,
+  "tier": "A",
+  "affs": [
+   "The Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "The Princess Maxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Princess Maxima Center of Pediatric Oncology, Utrecht 3584 CS, The Netherlands."
+  ]
+ },
+ "beekman, j": {
+  "name": "Beekman, Jeffrey M",
+  "papers": 14,
+  "tier": "A",
+  "affs": [
+   "Department of Pediatric Respiratory Medicine, Wilhelmina Children's Hospital, University Medical Center, Utrecht University, Utrecht, the Netherlands.",
+   "Regenerative Medicine Utrecht, University Medical Center, Utrecht University, Utrecht, the Netherlands.",
+   "Dept of Pediatric Pulmonology, Wilhelmina Children's Hospital - University Medical Center, Utrecht University, Utrecht, The Netherlands.",
+   "Regenerative Medicine Center Utrecht, University Medical Center, Utrecht University, Utrecht, The Netherlands."
+  ]
+ },
+ "van de wetering, w": {
+  "name": "van de Wetering, Willine J",
+  "papers": 14,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, 3584 CT Utrecht, the Netherlands; The Maastricht Multimodal Molecular Imaging Institute, Maastricht University, 6229 ER Maastricht, the Netherlands.",
+   "The Maastricht Multimodal Molecular Imaging Institute, Maastricht University, Maastricht, Netherlands.",
+   "The Microscopy CORE Lab, Maastricht University, Maastricht, The Netherlands.",
+   "Microscopy CORE Lab, Faculty of Health, Medicine and Life Sciences, Maastricht University, Maastricht, The Netherlands."
+  ]
+ },
+ "heck, a": {
+  "name": "Heck, Albert J R",
+  "papers": 14,
+  "tier": "C",
+  "affs": [
+   "Biomolecular Mass Spectrometry and Proteomics, Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Padualaan 8, 3584 CH, Utrecht, The Netherlands.",
+   "Netherlands Proteomics Centre, Padualaan 8, 3584 CH, Utrecht, The Netherlands.",
+   "Biomolecular Mass Spectrometry and Proteomics Group, Bijvoet Centre for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Padualaan 8, NL-3584 CH Utrecht, The Netherlands.",
+   "Biomolecular Mass Spectrometry and Proteomics Group, Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Padualaan 8, 3584 CH, Utrecht, The Netherlands."
+  ]
+ },
+ "clarke, a": {
+  "name": "Clarke, Alan R",
+  "papers": 13,
+  "tier": "C",
+  "affs": [
+   "European Cancer Stem Cell Research Institute, Cardiff University School of Biosciences, Cardiff, Wales, UK.",
+   "Cardiff School of Biosciences, Cardiff University, Cardiff, United Kingdom CF10 3US."
+  ]
+ },
+ "oosterwegel, m": {
+  "name": "Oosterwegel, M A",
+  "papers": 12,
+  "tier": "A",
+  "affs": [
+   "Department of Immunology, University Hospital, Utrecht, The Netherlands.",
+   "Department of Clinical Immunology, University Hospital Utrecht, The Netherlands.",
+   "Department of Immunology, University Hospital Utrecht, The Netherlands."
+  ]
+ },
+ "offerhaus, g": {
+  "name": "Offerhaus, George Johan",
+  "papers": 12,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, University Medical Center Utrecht, Utrecht 3584 CM, The Netherlands.",
+   "Department of Pathology, UMC Utrecht, 3584 CX, Utrecht, The Netherlands.",
+   "UMC Utrecht, Utrecht, The Netherlands.",
+   "Department of Pathology, University Medical Centre Utrecht, 3584 CX Utrecht, The Netherlands."
+  ]
+ },
+ "wang, x": {
+  "name": "Wang, Xiangdong",
+  "papers": 12,
+  "tier": "C",
+  "affs": [
+   "Department of Biomedical Sciences, City University of Hong Kong, Kowloon Tong, Hong Kong.",
+   "Shanghai Institute for Advanced Immunochemical Studies (SIAIS), ShanghaiTech University, Shanghai, China.",
+   "Department of Pharmacology and Cancer Biology, Duke University Medical Center, Durham, NC, 27710, USA.",
+   "Department of Liver Surgery and Transplantation, Liver Cancer Institute, Zhongshan Hospital, Key Laboratory of Carcinogenesis and Cancer Invasion of Ministry of Education, Fudan University, Shanghai 200032, China."
+  ]
+ },
+ "holstege, f": {
+  "name": "Holstege, Frank C P",
+  "papers": 11,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Department of Physiological Chemistry, University Medical Center Utrecht, 3584 CG Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands; Center for Molecular Medicine, University Medical Center Utrecht and Utrecht University, Utrecht, the Netherlands.",
+   "Center for Molecular Medicine, UMC Utrecht and Utrecht University, Utrecht, the Netherlands."
+  ]
+ },
+ "schilham, m": {
+  "name": "Schilham, M W",
+  "papers": 11,
+  "tier": "A",
+  "affs": [
+   "Department of Immunology, University Hospital, Utrecht, The Netherlands.",
+   "Department of Pediatrics, Leiden University Medical Center, The Netherlands.",
+   "Department of Pediatrics, University Hospital Leiden, The Netherlands."
+  ]
+ },
+ "van den brink, s": {
+  "name": "Van den Brink, Stieneke",
+  "papers": 11,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Oncode Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), 3584 CT Utrecht, the Netherlands; University Medical Center Utrecht, 3584 CX Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht, The Netherlands.",
+   "Oncode Institute, Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), Cancer Genomics.nl and University Medical Center Utrecht, Uppsalalaan 8, Utrecht 3584 CT, The Netherlands."
+  ]
+ },
+ "margaritis, t": {
+  "name": "Margaritis, Thanasis",
+  "papers": 11,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, 3584 CS, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, Utrecht, the Netherlands.",
+   "The Princess Maxima Center for Pediatric Oncology, Utrecht, The Netherlands."
+  ]
+ },
+ "pals, s": {
+  "name": "Pals, Steven T",
+  "papers": 11,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, Academic Medical Center, University of Amsterdam, Amsterdam, The Netherlands.",
+   "Amsterdam University Medical Centers, University of Amsterdam, Department of Pathology, Cancer Center Amsterdam, Amsterdam, The Netherlands.",
+   "Department of Pathology and Cancer Center Amsterdam (CCA), Amsterdam University Medical Centers, Loc. AMC, the Netherlands..",
+   "Lymphoma and Myeloma Center Amsterdam, Amsterdam, The Netherlands."
+  ]
+ },
+ "mohammed, s": {
+  "name": "Mohammed, Shabaz",
+  "papers": 11,
+  "tier": "C",
+  "affs": [
+   "Biomolecular Mass Spectrometry and Proteomics Group, Bijvoet Centre for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Padualaan 8, NL-3584 CH Utrecht, The Netherlands.",
+   "Biomolecular Mass Spectrometry and Proteomics Group, Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Padualaan 8, 3584 CH, Utrecht, The Netherlands.",
+   "Netherlands Proteomics Centre, Utrecht, The Netherlands.",
+   "Biomolecular Mass Spectrometry and Proteomics Group, Bijvoet Center for Biomolecular Research, Utrecht University, Padualaan 8, 3584 Utrecht, the Netherlands; Netherlands Proteomics Center, Padualaan 8, 3584 Utrecht, the Netherlands; Department of Biochemistry, University of Oxford, New Biochemistry building, South Parks Road, Oxford OX1 3QU, UK; Department of Chemistry, University of Oxford, Chemistry Research Laboratory, Mansfield Road, Oxford OX1 3TA, UK."
+  ]
+ },
+ "wijngaard, p": {
+  "name": "Wijngaard, P L",
+  "papers": 10,
+  "tier": "A",
+  "affs": [
+   "Department of Immunology, University Hospital, Utrecht, The Netherlands."
+  ]
+ },
+ "taketo, m": {
+  "name": "Taketo, Makoto M",
+  "papers": 10,
+  "tier": "A",
+  "affs": [
+   "Authors' Affiliations: Department of Molecular Pathology and Translational Research Unit, Tokyo Medical University; Cancer Genomics Project; Departments of Pathology, and Cardiovascular Medicine; Animal Resources, Graduate School of Medicine, University of Tokyo; Honeybee Science Research Center, Tamagawa University; Department of Gastroenterology, School of Medicine, Keio University, Tokyo; Department of Pharmacology, Graduate School of Medicine, Kyoto University, Kyoto; Laboratory for Animal Resources and Genetic Engineering, RIKEN Center for Developmental Biology, Kobe; Jichi Medical University, Shimotsuke, Tochigi, Japan; and Hubrecht Institute and KNAW, Utrecht, the Netherlands.",
+   "Department of Pharmacology, Graduate School of Medicine, Kyoto University, Kyoto, Japan."
+  ]
+ },
+ "van rheenen, j": {
+  "name": "van Rheenen, Jacco",
+  "papers": 10,
+  "tier": "A",
+  "affs": [
+   "Division of Molecular Pathology, Oncode Institute, Netherlands Cancer Institute, Amsterdam, the Netherlands.",
+   "Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center (UMC) Utrecht, 3584 CT Utrecht, The Netherlands",
+   "Cancer Genomics Netherlands, UMC Utrecht, 3584 CG, Utrecht, The Netherlands."
+  ]
+ },
+ "geurts, v": {
+  "name": "Geurts, Veerle E",
+  "papers": 10,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, 3584 CT Utrecht, the Netherlands.",
+   "Oncode Institute, Utrecht, the Netherlands.",
+   "Hubrecht Institute-KNAW & University Medical Center Utrecht, 3584 CT Utrecht, the Netherlands."
+  ]
+ },
+ "boot, c": {
+  "name": "Boot, Charelle",
+  "papers": 10,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, 3584 CT Utrecht, the Netherlands; Oncode Institute, Hubrecht Institute, 3584 CT Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), and Oncode Institute, UMC Utrecht, 3584 CT Utrecht, Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht, the Netherlands."
+  ]
+ },
+ "lin, l": {
+  "name": "Lin, Lin",
+  "papers": 10,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, 3584 CS, The Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center, Royal Netherlands Academy of Arts and Sciences and University Medical Center, Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute-Royal Netherlands Academy of Arts and Science, Utrecht 3584 CT, The Netherlands.",
+   "University Medical Centre, Utrecht 3584 CT, The Netherlands."
+  ]
+ },
+ "ridgway, r": {
+  "name": "Ridgway, Rachel A",
+  "papers": 10,
+  "tier": "C",
+  "affs": [
+   "Cancer Research UK Scotland Institute, Glasgow, UK.",
+   "Cancer Research UK Beatson Institute, Glasgow, UK.",
+   "Wnt Signaling and Colorectal Cancer Group, Cancer Research UK Beatson Institute, Institute of Cancer Sciences, Glasgow University, Garscube Estate, Switichback Road, Glasgow G61 1BD, UK.",
+   "Beatson Institute for Cancer Research, Garscube Estate, Switchback Road, Glasgow G61 1BD, UK."
+  ]
+ },
+ "tuveson, d": {
+  "name": "Tuveson, David A",
+  "papers": 10,
+  "tier": "C",
+  "affs": [
+   "Cold Spring Harbor Laboratory, Cold Spring Harbor, New York.",
+   "Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724.",
+   "Lustgarten Foundation Pancreatic Cancer Research Laboratory, Cold Spring Harbor, NY 11724.",
+   "Cold Spring Harbor Laboratory; Cold Spring Harbor, NY USA; Lustgarten Foundation Pancreatic Cancer Research Laboratory; Cold Spring Harbor, NY USA; Rubenstein Center for Pancreatic Cancer Research; Memorial Sloan Kettering Cancer Center; New York, NY USA."
+  ]
+ },
+ "dooijes, d": {
+  "name": "Dooijes, D",
+  "papers": 9,
+  "tier": "A",
+  "affs": [
+   "Department of Immunology, University Hospital, Utrecht, The Netherlands.",
+   "Department of Immunology, University Hospital Utrecht, Holland."
+  ]
+ },
+ "moerer, p": {
+  "name": "Moerer, Petra",
+  "papers": 9,
+  "tier": "C",
+  "affs": []
+ },
+ "chen, y": {
+  "name": "Chen, Ye-Guang",
+  "papers": 9,
+  "tier": "C",
+  "affs": [
+   "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+   "Department of Medicine, Weill Cornell Medical College and New York-Presbyterian Hospital, New York, New York, USA.",
+   "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, New York, USA.",
+   "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA."
+  ]
+ },
+ "zhou, j": {
+  "name": "Zhou, Jian",
+  "papers": 9,
+  "tier": "C",
+  "affs": [
+   "Centre for Virology, Vaccinology and Therapeutics, Hong Kong Science and Technology Park, Hong Kong, China.",
+   "State Key Laboratory of Emerging Infectious Diseases, The University of Hong Kong, Hong Kong, China.",
+   "Department of Microbiology, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Pokfulam, Hong Kong, China.",
+   "BiomOrgan Ltd, Hong Kong, China."
+  ]
+ },
+ "de koning, e": {
+  "name": "de Koning, Eelco J P",
+  "papers": 8,
+  "tier": "A",
+  "affs": [
+   "Department of Internal Medicine, Leiden University Medical Center, 2333 ZA Leiden, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center, Utrecht, the Netherlands; Leiden University Medical Center, Department of Medicine, Leiden, the Netherlands.",
+   "Hubrecht Institute/KNAW and University Medical Center Utrecht, 3584 CT Utrecht, the Netherlands; Department of Internal Medicine, Leiden University Medical Center, 2333 ZA Leiden, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, 3584 CT Utrecht, the Netherlands; Cancer Genomics Netherlands, University Medical Center Utrecht, 3584 CX Utrecht, the Netherlands; Department of Medicine, Section of Nephrology and Section of Endocrinology, Leiden University Medical Center, 2333 ZA Leiden, the Netherlands."
+  ]
+ },
+ "post, y": {
+  "name": "Post, Yorick",
+  "papers": 8,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, 3584 CT Utrecht, the Netherlands; Oncode Institute, Hubrecht Institute, 3584 CT Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), University Medical Center Utrecht, 3584 CT Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, 3584 CT Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, University Medical Center Utrecht , Utrecht, the Netherlands."
+  ]
+ },
+ "wang, d": {
+  "name": "Wang, Daisong",
+  "papers": 8,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, UMC Utrecht, Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht, The Netherlands.",
+   "Department of Microbiology, The University of Hong Kong, Pokfulam, Hong Kong."
+  ]
+ },
+ "oka, r": {
+  "name": "Oka, Rurika",
+  "papers": 8,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Utrecht, The Netherlands.",
+   "The Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Oncode Institute,Princes Maxima Center, Utrecht, The Netherlands.",
+   "Oncode Institute, Jaarbeursplein 6, 3521 AL Utrecht, the Netherlands; Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, 3584 CS Utrecht, the Netherlands."
+  ]
+ },
+ "krueger, d": {
+  "name": "Krueger, Daniel",
+  "papers": 8,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research; Oncode Institute; Royal Netherlands Academy of Arts and Sciences (KNAW); University Medical Center Utrecht.",
+   "Oncode Institute, Hubrecht Institute-Royal Netherlands Academy of Arts and Science, Utrecht 3584 CT, The Netherlands.",
+   "University Medical Centre, Utrecht 3584 CT, The Netherlands.",
+   "Hubrecht Institute, Oncode Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), 3584 CT Utrecht, the Netherlands; University Medical Center Utrecht, 3584 CX Utrecht, the Netherlands."
+  ]
+ },
+ "nusse, r": {
+  "name": "Nusse, Roeland",
+  "papers": 8,
+  "tier": "C",
+  "affs": [
+   "Howard Hughes Medical Institute, Department of Developmental Biology, Institute for Stem Cell Biology and Regenerative Medicine, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+   "Department of Developmental Biology, Howard Hughes Medical Institute, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+   "Howard Hughes Medical Institute, Department of Developmental Biology, and Institute for Stem Cell Biology and Regenerative Medicine, School of Medicine, Stanford University, Stanford, California, USA; email:",
+   "Department of Developmental Biology, Howard Hughes Medical Institute, Stanford Institute for Stem Cell Biology and Regenerative Medicine, Stanford University School of Medicine, Stanford, California 94305, USA."
+  ]
+ },
+ "phesse, t": {
+  "name": "Phesse, Toby J",
+  "papers": 8,
+  "tier": "C",
+  "affs": [
+   "University of Melbourne & Victorian Infectious Diseases Reference Laboratory, Doherty Institute of Infection and Immunity, Melbourne, Victoria, Australia.",
+   "European Cancer Stem Cell Research Institute, Cardiff University, Cardiff, United Kingdom.",
+   "Cardiff School of Biosciences, Cardiff University, Cardiff, United Kingdom CF10 3US.",
+   "University of Melbourne and Victorian Infectious Diseases Reference Laboratory, Doherty Institute of Infection and Immunity, Melbourne, Victoria 3000, Australia"
+  ]
+ },
+ "maurice, m": {
+  "name": "Maurice, Madelon M",
+  "papers": 8,
+  "tier": "C",
+  "affs": [
+   "Oncode Institute, Utrecht, the Netherlands.",
+   "Center for Molecular Medicine, UMC Utrecht, Utrecht, the Netherlands.",
+   "Department of Cell Biology, Center for Molecular Medicine, University Medical Center Utrecht, 3584CX Utrecht, the Netherlands.",
+   "Department of Cell Biology, University Medical Center Utrecht, Utrecht, The Netherlands; and."
+  ]
+ },
+ "simons, b": {
+  "name": "Simons, Benjamin D",
+  "papers": 8,
+  "tier": "C",
+  "affs": [
+   "Cavendish Laboratory, Department of Physics, J.J. Thomson Avenue, University of Cambridge, Cambridge CB3 0HE, United Kingdom.",
+   "Wellcome Trust-Medical Research Council Stem Cell Institute, University of Cambridge, Cambridge CB2 1QR, UK; The Wellcome Trust/Cancer Research UK Gurdon Institute, University of Cambridge, Cambridge CB2 1QN, UK; Department of Applied Mathematics and Theoretical Physics, Centre for Mathematical Sciences, University of Cambridge, Wilberforce Road, Cambridge CB3 0WA, UK.",
+   "The Wellcome Trust/Cancer Research UK Gurdon Institute, University of Cambridge, Tennis Court Road, Cambridge CB2 1QN, UK; Cavendish Laboratory, Department of Physics, J. J. Thomson Avenue, University of Cambridge, Cambridge CB3 0HE, UK; Wellcome Trust-Medical Research Council Stem Cell Institute, University of Cambridge, Cambridge CB2 1QR, UK.",
+   "The Wellcome Trust/Cancer Research UK Gurdon Institute, University of Cambridge, Cambridge CB2 1QN, United Kingdom"
+  ]
+ },
+ "kranenburg, o": {
+  "name": "Kranenburg, Onno W",
+  "papers": 8,
+  "tier": "C",
+  "affs": [
+   "Utrecht Platform for Organoid Technology (U-PORT), Utrecht Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Utrecht Platform for Organoid Technology (U-PORT), UMC Utrecht, Utrecht University, Heidelberglaan 100, 3584 CX Utrecht, the Netherlands.",
+   "Utrecht Platform for Organoid Technology, Utrecht Medical Center Utrecht, Utrecht 3584 CM, The Netherlands.",
+   "Department of Surgical Oncology, UMC Utrecht Cancer Centre, University Medical Centre, Utrecht, the Netherlands."
+  ]
+ },
+ "schneeberger, k": {
+  "name": "Schneeberger, Kerstin",
+  "papers": 8,
+  "tier": "C",
+  "affs": [
+   "Department of Clinical Sciences of Companion Animals, Faculty of Veterinary Medicine, Utrecht University, The Netherlands.",
+   "Department of Clinical Sciences of Companion Animals, Utrecht University, Utrecht, The Netherlands.",
+   "Division of Paediatrics, Department of Paediatric Gastroenterology, Wilhelmina Children's Hospital, University Medical Centre (UMC) Utrecht, 3584 EA, Utrecht, The Netherlands",
+   "Division of Pediatrics, Department of Pediatric Gastroenterology, Wilhelmina Children's Hospital, University Medical Center Utrecht, Utrecht, The Netherlands."
+  ]
+ },
+ "van der ent, c": {
+  "name": "van der Ent, Cornelis K",
+  "papers": 8,
+  "tier": "C",
+  "affs": [
+   "Dept of Pediatric Pulmonology, Wilhelmina Children's Hospital - University Medical Center, Utrecht University, Utrecht, The Netherlands.",
+   "Department of Pediatric Pulmonology, Wilhelmina Children's Hospital - University Medical Centre, Utrecht University, Utrecht, Netherlands.",
+   "Department of Pediatric Respiratory Medicine, Wilhelmina Children's Hospital, University Medical Center, Utrecht University, 3584 EA Utrecht, the Netherlands.",
+   "Wilhelmina Children's Hospital and UMC Utrecht, Utrecht, The Netherlands."
+  ]
+ },
+ "hu, h": {
+  "name": "Hu, Huili",
+  "papers": 7,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, Utrecht, The Netherlands.",
+   "Oncode Institute, Utrecht, The Netherlands.",
+   "The Research Center of Stem Cell and Regenerative Medicine, Department of Systems Biomedicine, School of Basic Medical Sciences, Cheeloo College of Medicine, Shandong University, Jinan, China.",
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center, 3584 CT, Utrecht, The Netherlands."
+  ]
+ },
+ "molenaar, m": {
+  "name": "Molenaar, Martijn R",
+  "papers": 7,
+  "tier": "A",
+  "affs": [
+   "Department of Biochemistry and Cell Biology, Faculty of Veterinary Medicine & Institute of Biomembranes, Utrecht University, 3584 CM Utrecht, the Netherlands.",
+   "Hubrecht Laboratory, Netherlands Institute for Developmental Biology, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands.",
+   "Department of Immunology University Hospital, Utrecht The Netherlands.",
+   "NIOB/Hubrecht Laboratory, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands."
+  ]
+ },
+ "van beest, m": {
+  "name": "van Beest, M",
+  "papers": 7,
+  "tier": "A",
+  "affs": [
+   "Department of Immunology, University Medical Center Utrecht, Heidelberglaan 100 Rm F03.821, 3584 CX Utrecht, The Netherlands.",
+   "Department of Immunology, University Hospital, Utrecht, The Netherlands and Laboratory of Biochemistry, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA."
+  ]
+ },
+ "wiebrands, k": {
+  "name": "Wiebrands, Kay",
+  "papers": 7,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Centre Utrecht, 3584 CT Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center, Utrecht, Uppsalalaan 8, 3584 CT Utrecht, the Netherlands.",
+   "Hubrecht Institute-KNAW (Royal Netherlands Academy of Arts and Sciences), 3584 CT Utrecht, The Netherlands.",
+   "University Medical Center Utrecht, Cancer Genomics Netherlands, 3584 CG Utrecht, The Netherlands."
+  ]
+ },
+ "vonk, a": {
+  "name": "Vonk, Annelotte M",
+  "papers": 7,
+  "tier": "A",
+  "affs": [
+   "Dept of Pediatric Pulmonology, Wilhelmina Children's Hospital - University Medical Center, Utrecht University, Utrecht, The Netherlands.",
+   "Regenerative Medicine Center Utrecht, University Medical Center, Utrecht University, Utrecht, The Netherlands.",
+   "Department of Pediatric Pulmonology, Regenerative Medicine Centre Utrecht, Wilhelmina Children's Hospital, University Medical Centre Utrecht.",
+   "Department of Pediatric Pulmonology, Wilhelmina Children's Hospital - University Medical Centre, Utrecht University, Utrecht, Netherlands; Regenerative Medicine Center, University Medical Centre, Utrecht University, Utrecht, Netherlands."
+  ]
+ },
+ "bannier-helaouet, m": {
+  "name": "Bannier-Hélaouët, Marie",
+  "papers": 7,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute-KNAW and University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Oncode Institute, Hubrecht Institute-KNAW and University Medical Center, Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), University Medical Center Utrecht; Oncode Institute, Hubrecht Institute.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), University Medical Center Utrecht, 3584 CT Utrecht, the Netherlands; Oncode Institute, Hubrecht Institute, 3584 CT Utrecht, the Netherlands."
+  ]
+ },
+ "kim, s": {
+  "name": "Kim, Seok-Young",
+  "papers": 7,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, 3584 CS, The Netherlands.",
+   "The Princess Maxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Oncode Institute, Utrecht, The Netherlands."
+  ]
+ },
+ "ammerlaan, c": {
+  "name": "Ammerlaan, Carola M E",
+  "papers": 7,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Dutch Academy of Science (KNAW) and University Medical Center Utrecht (UMCU), Utrecht, the Netherlands.",
+   "Department of Nephrology and Hypertension, University Medical Center Utrecht (UMCU), Utrecht, the Netherlands.",
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research - Royal Netherlands Academy of Arts and Sciences (KNAW) & University Medical Center Utrecht, 3584 CT and 3584 CX Utrecht, Netherlands.",
+   "Department of Nephrology and Hypertension, University Medical Center Utrecht, 3584 CX Utrecht, the Netherlands."
+  ]
+ },
+ "martinez-silgado, a": {
+  "name": "Martinez-Silgado, Adriana",
+  "papers": 7,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, 3584 CT Utrecht, the Netherlands; Oncode Institute, Hubrecht Institute, 3584 CT Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), and Oncode Institute, UMC Utrecht, 3584 CT Utrecht, Netherlands."
+  ]
+ },
+ "millen, r": {
+  "name": "Millen, Rosemary",
+  "papers": 7,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Oncode Institute, Utrecht, the Netherlands.",
+   "Organoid group, Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center, 3584 CT Utrecht, the Netherlands."
+  ]
+ },
+ "terhorst, c": {
+  "name": "Terhorst, C",
+  "papers": 7,
+  "tier": "C",
+  "affs": []
+ },
+ "spaargaren, m": {
+  "name": "Spaargaren, Marcel",
+  "papers": 7,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, Academic Medical Center, University of Amsterdam, Amsterdam, The Netherlands.",
+   "Amsterdam University Medical Centers, University of Amsterdam, Department of Pathology, Cancer Center Amsterdam, Amsterdam, The Netherlands.",
+   "Department of Pathology and Cancer Center Amsterdam (CCA), Amsterdam University Medical Centers, Loc. AMC, the Netherlands.",
+   "Lymphoma and Myeloma Center Amsterdam, Amsterdam, The Netherlands."
+  ]
+ },
+ "winton, d": {
+  "name": "Winton, Douglas J",
+  "papers": 7,
+  "tier": "C",
+  "affs": []
+ },
+ "wang, j": {
+  "name": "Wang, Jingqiang",
+  "papers": 7,
+  "tier": "C",
+  "affs": [
+   "Crown Bioscience Inc., Taicang City, Jiangsu, China.",
+   "State Key Laboratory of Cell Biology, CAS Center for Excellence in Molecular Cell Science, Institute of Biochemistry and Cell Biology, Chinese Academy of Sciences, University of Chinese Academy of Sciences, Shanghai 200031, China.",
+   "Bioinformatics Unit, Barts Cancer Institute, Queen Mary University of London, Charterhouse Square, London EC1M 6BQ, UK.",
+   "Division of Experimental Hematology and Cancer Biology, Department of Pediatrics, Brain Tumor Center, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio 45229, USA."
+  ]
+ },
+ "chan, a": {
+  "name": "Chan, Anthony K W",
+  "papers": 7,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, The University of Hong Kong, Queen Mary Hospital, Pokfulam, Hong Kong.",
+   "Department of Pathology, School of Clinical Medicine, Queen Mary Hospital, The University of Hong Kong, Pokfulam, Hong Kong SAR, China.",
+   "Hereditary Gastrointestinal Cancer Genetic Diagnosis Laboratory, Department of Pathology, The University of Hong Kong, Queen Mary Hospital, Pokfulam, Hong Kong.",
+   "Sangamo BioSciences, Richmond, CA 94804, USA."
+  ]
+ },
+ "leung, s": {
+  "name": "Leung, Suet Yi",
+  "papers": 7,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, The University of Hong Kong, Queen Mary Hospital, Pokfulam, Hong Kong",
+   "Centre for PanorOmic Sciences, The University of Hong Kong, Pokfulam, Hong Kong.",
+   "The Jockey Club Centre for Clinical Innovation and Discovery, LKS Faculty of Medicine, The University of Hong Kong, Pokfulam, Hong Kong.",
+   "Department of Pathology, The University of Hong Kong, Queen Mary Hospital, Pokfulam, Hong Kong."
+  ]
+ },
+ "liu, x": {
+  "name": "Liu, X Shirley",
+  "papers": 7,
+  "tier": "C",
+  "affs": [
+   "Clinical Stem Cell Research Center, Peking University Third Hospital, Beijing, China.",
+   "Department of Microbiology, School of Clinical Medicine, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, China.",
+   "Clinical Stem Cell Research Center, Peking University Third Hospital, Beijing 100191, China.",
+   "Department of Microbiology, School of Clinical Medicine, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Pokfulam, Hong Kong, China."
+  ]
+ },
+ "zhang, l": {
+  "name": "Zhang, Lixing",
+  "papers": 7,
+  "tier": "C",
+  "affs": [
+   "Department of Colorectal Surgery, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, China.",
+   "Cancer institute, Fudan University Shanghai Cancer Center, Shanghai, China.",
+   "Crown Bioscience Inc., Beijing, China.",
+   "Research and Early Development, Shanghai 121Biomed Inc., Shanghai 200235, China."
+  ]
+ },
+ "jonkers, j": {
+  "name": "Jonkers, Jos",
+  "papers": 7,
+  "tier": "C",
+  "affs": [
+   "Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands; Oncode Institute, 3521 AL Utrecht, The Netherlands.",
+   "EurOPDX Consortium and are at The Netherlands Cancer Institute, Plesmanlaan 121, 1066CX Amsterdam, The Netherlands.",
+   "Mouse Clinic for Cancer and Aging (MCCA) Preclinical Intervention Unit, The Netherlands Cancer Institute, Amsterdam, The Netherlands.",
+   "Division of Molecular Pathology and Cancer Genomics Netherlands, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+  ]
+ },
+ "wang, h": {
+  "name": "Wang, Hongmei",
+  "papers": 7,
+  "tier": "C",
+  "affs": [
+   "Suzhou NeoLogics Bioscience Co, LTD, Suzhou, China.",
+   "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA 02215, USA; Departments of Genetics and Medicine, Harvard Medical School, Boston, MA 02115, USA.",
+   "Division of Biostatistics and Bioinformatics, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins Medicine Institutions, Baltimore, Maryland, USA.",
+   "Monell Chemical Senses Center, Philadelphia, PA 19104, USA."
+  ]
+ },
+ "de winter-de groot, k": {
+  "name": "de Winter-de Groot, Karin M",
+  "papers": 7,
+  "tier": "C",
+  "affs": [
+   "Dept of Pediatric Pulmonology, Wilhelmina Children's Hospital - University Medical Center, Utrecht University, Utrecht, The Netherlands.",
+   "Department of Pediatric Pulmonology, Wilhelmina Children's Hospital - University Medical Centre, Utrecht University, Utrecht, Netherlands.",
+   "Department of Pediatric Respiratory Medicine, Wilhelmina Children's Hospital, University Medical Center, Utrecht University, 3584 EA Utrecht, the Netherlands.",
+   "Wilhelmina Children's Hospital, University Medical Center Utrecht, Utrecht, the Netherlands."
+  ]
+ },
+ "metzelaar, m": {
+  "name": "Metzelaar, M J",
+  "papers": 6,
+  "tier": "A",
+  "affs": [
+   "Department of Haematology, University Hospital Utrecht, The Netherlands.",
+   "Department of Immunology, University Hospital, Utrecht, The Netherlands."
+  ]
+ },
+ "zheng, x": {
+  "name": "Zheng, Xuan",
+  "papers": 6,
+  "tier": "A",
+  "affs": [
+   "AMOLF, Amsterdam, the Netherlands.",
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research; Oncode Institute; Royal Netherlands Academy of Arts and Sciences (KNAW); University Medical Center Utrecht.",
+   "AMOLF, Amsterdam, Netherlands."
+  ]
+ },
+ "sasselli, v": {
+  "name": "Sasselli, Valentina",
+  "papers": 6,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research, KNAW and University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center (UMC) Utrecht, 3584CT Utrecht, Netherlands.",
+   "Cancer Genomics Netherlands, UMC Utrecht, 3584CX Utrecht, Netherlands.",
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research, KNAW and University Medical Center Utrecht, Uppsalalaan 8, 3584CT Utrecht, The Netherlands."
+  ]
+ },
+ "chen, c": {
+  "name": "Chen, Chin-Tung",
+  "papers": 6,
+  "tier": "A",
+  "affs": [
+   "Colorectal Service, Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+   "Department of Clinical Sciences of Companion Animals, Faculty of Veterinary Medicine, Utrecht University, The Netherlands.",
+   "Hubrecht Institute-KNAW and University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Department of Clinical Sciences of Companion Animals, Faculty of Veterinary Medicine, Utrecht University, Utrecht, 3584 CM, the Netherlands; Hubrecht Institute and University Medical Centre, Utrecht, 3584 CT, the Netherlands."
+  ]
+ },
+ "overmeer, r": {
+  "name": "Overmeer, René M",
+  "papers": 6,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Organoid Technology (HUB), Utrecht, the Netherlands.",
+   "Hubrecht Organoid Technology (HUB).",
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research, University Medical Centre, Utrecht, Foundation, Hubrecht Organoid Technology, Utrecht, the Netherlands.",
+   "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Utrecht, Netherlands."
+  ]
+ },
+ "akkerman, n": {
+  "name": "Akkerman, Ninouk",
+  "papers": 6,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Hubrecht Institute, Royal NetherlandsAcademy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht, The Netherlands.",
+   "Institute of Human Biology, Roche Pharma Research and Early Development, Roche Innovation Center Basel, CH-4070 Basel, Switzerland.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Utrecht, the Netherlands."
+  ]
+ },
+ "sanders, k": {
+  "name": "Sanders, Karin",
+  "papers": 6,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, 3584 CS, The Netherlands.",
+   "The Princess Maxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Oncode Institute, Utrecht, The Netherlands."
+  ]
+ },
+ "dunlap, s": {
+  "name": "Dunlap, S",
+  "papers": 6,
+  "tier": "C",
+  "affs": []
+ },
+ "machugh, n": {
+  "name": "MacHugh, N D",
+  "papers": 6,
+  "tier": "C",
+  "affs": [
+   "International Laboratory for Research on Animal Diseases, Nairobi, Kenya."
+  ]
+ },
+ "lamers, w": {
+  "name": "Lamers, W H",
+  "papers": 6,
+  "tier": "C",
+  "affs": []
+ },
+ "zhang, z": {
+  "name": "Zhang, Zheng",
+  "papers": 6,
+  "tier": "C",
+  "affs": [
+   "Department of Radiation Oncology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+   "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+   "Department of Radiation Oncology, Fudan University Shanghai Cancer Center, Fudan University, Shanghai 200032, China; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, China.",
+   "Institute for Hepatology, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital, Shenzhen 518112, China."
+  ]
+ },
+ "reed, k": {
+  "name": "Reed, Karen R",
+  "papers": 6,
+  "tier": "C",
+  "affs": [
+   "European Cancer Stem Cell Research Institute, Cardiff University School of Biosciences, Cardiff, Wales, UK."
+  ]
+ },
+ "zhang, j": {
+  "name": "Zhang, Jiangwen",
+  "papers": 6,
+  "tier": "C",
+  "affs": [
+   "Viroscience Department, Erasmus Medical Center, Rotterdam, Netherlands.",
+   "Department of Radiation Oncology, Fudan University Shanghai Cancer Center, Fudan University, Shanghai 200032, China; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, China.",
+   "Viroscience Department, Erasmus Medical Center , Rotterdam, the Netherlands.",
+   "School of Biological Sciences, The University of Hong Kong, Pokfulam, Hong Kong."
+  ]
+ },
+ "yuen, s": {
+  "name": "Yuen, Siu Tsan",
+  "papers": 6,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, The University of Hong Kong, Queen Mary Hospital, Pokfulam, Hong Kong.",
+   "Department of Pathology, St. Paul's Hospital, No.2, Eastern Hospital Road, Causeway Bay, Hong Kong.",
+   "1] Department of Pathology, The University of Hong Kong, Queen Mary Hospital, Pokfulam, Hong Kong. [2].",
+   "Department of Pathology, School of Clinical Medicine, Queen Mary Hospital, The University of Hong Kong, Pokfulam, Hong Kong SAR, China."
+  ]
+ },
+ "pronk, a": {
+  "name": "Pronk, Apollo",
+  "papers": 6,
+  "tier": "C",
+  "affs": [
+   "Department of Surgery, Diakonessenhuis Utrecht and Zeist, Utrecht, The Netherlands.",
+   "Department of Surgery, Diakonessenhuis Hospital, 3582 KE, Utrecht, The Netherlands.",
+   "Department of Surgery, Diakonessenhuis, Utrecht, The Netherlands.",
+   "Department of Surgery, Diakonessenhuis, 3582 KE Utrecht, the Netherlands."
+  ]
+ },
+ "hua, g": {
+  "name": "Hua, Guoqiang",
+  "papers": 6,
+  "tier": "C",
+  "affs": [
+   "Department of Radiation Oncology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+   "Cancer institute, Fudan University Shanghai Cancer Center, Shanghai, China.",
+   "Institute of Radiation Medicine and Cancer Institute, Fudan University Shanghai Cancer Center, Fudan University, Shanghai 200032, China.",
+   "Department of Radiation Oncology, and Cancer Institute, Fudan University Shanghai Cancer Center, Fudan University, Shanghai 200032, China."
+  ]
+ },
+ "mummery, c": {
+  "name": "Mummery, Christine L",
+  "papers": 6,
+  "tier": "C",
+  "affs": [
+   "Department of Anatomy and Embryology, Leiden University Medical Center, Leiden, the Netherlands.",
+   "Leiden University Medical Center, Leiden, The Netherlands.",
+   "Anatomy and Embryology, Leiden University Medical Center, Einthovenweg 20, P.O. Box 9600, 2300 RC Leiden, The Netherlands."
+  ]
+ },
+ "zhang, s": {
+  "name": "Zhang, Shuang",
+  "papers": 6,
+  "tier": "C",
+  "affs": [
+   "Department of Microbiology, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Pokfulam, Hong Kong, China.",
+   "Department of Microbiology, School of Clinical Medicine, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, China.",
+   "Department of Liver Surgery and Transplantation, Liver Cancer Institute, Zhongshan Hospital, Key Laboratory of Carcinogenesis and Cancer Invasion of Ministry of Education, Fudan University, Shanghai 200032, China.",
+   "Department of Cell and Molecular Biology, Karolinska Institutet, 171 77 Stockholm, Sweden."
+  ]
+ },
+ "castrop, j": {
+  "name": "Castrop, J",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "Department of Immunology, University Hospital, Utrecht, The Netherlands.",
+   "Department of Immunology, University Hospital Utrecht, The Netherlands."
+  ]
+ },
+ "verbeek, s": {
+  "name": "Verbeek, S",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "Department of Immunology, University Hospital, Utrecht, The Netherlands."
+  ]
+ },
+ "santos, m": {
+  "name": "Santos, M M",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "Departments of Immunology, Pathology, and Internal Medicine, University Hospital Utrecht, Utrecht, The Netherlands.",
+   "Department of Immunology, Eijkman-Winkler Institute, University Hospital Utrecht, The Netherlands.",
+   "Department of Immunology, Eijkman-Winkler Institute, Utrecht, The Netherlands.",
+   "Department of Immunology, Eijkman-Winkler Institute, University Hospital Utrecht, Utrecht, The Netherlands."
+  ]
+ },
+ "nijman, i": {
+  "name": "Nijman, Isaac Johannes",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "Department of Medical Genetics, University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Center for Molecular Medicine, Department of Genetics, University Medical Center Utrecht, Utrecht University, Universiteitsweg 100, 3584 CG Utrecht, the Netherlands; Cancer Genomics Netherlands, Oncode Institute, 3584 CG Utrecht, the Netherlands.",
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research, KNAW and University Medical Center Utrecht, Uppsalalaan 8, 3584CT Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), University Medical Centre Utrecht and CancerGenomics.nl, 3584 CT Utrecht, the Netherlands."
+  ]
+ },
+ "stunnenberg, h": {
+  "name": "Stunnenberg, Hendrik G",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, Utrecht, the Netherlands."
+  ]
+ },
+ "versteeg, r": {
+  "name": "Versteeg, Rogier",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "Authors' Affiliations: Molecular Diagnostics, Philips Research, Eindhoven; Hubrecht Institute, Utrecht; Human Genetics, AMC, Amsterdam; and Medical Oncology, Erasmus MC, Rotterdam, the Netherlands.",
+   "Department of Oncogenomics, Academic Medical Center, University of Amsterdam, 1105 AZ Amsterdam, the Netherlands."
+  ]
+ },
+ "ng, s": {
+  "name": "Ng, Ser Sue",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute-KNAW and University Medical Centre Utrecht, Uppsalalaan 8, 3584CT Utrecht.",
+   "Hubrecht Institute - KNAW and University Medical Centre Utrecht, Uppsalalaan 8, 3584CT, Utrecht, The Netherlands."
+  ]
+ },
+ "hamer, k": {
+  "name": "Hamer, Karien",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, Utrecht, The Netherlands.",
+   "Oncode Institute, Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Centre (UMC) Utrecht, 3584 CT Utrecht, the Netherlands.",
+   "Hubrecht Institute-KNAW, University Medical Centre Utrecht, CancerGenomics.nl, Uppsalalaan 8, 3584 CT Utrecht, the Netherlands."
+  ]
+ },
+ "kruisselbrink, e": {
+  "name": "Kruisselbrink, Evelien",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "Dept of Pediatric Pulmonology, Wilhelmina Children's Hospital - University Medical Center, Utrecht University, Utrecht, The Netherlands.",
+   "Regenerative Medicine Center Utrecht, University Medical Center, Utrecht University, Utrecht, The Netherlands.",
+   "Department of Pediatric Pulmonology, Wilhelmina Children's Hospital - University Medical Centre, Utrecht University, Utrecht, Netherlands; Regenerative Medicine Center, University Medical Centre, Utrecht University, Utrecht, Netherlands.",
+   "Department of Pediatric Respiratory Medicine, Wilhelmina Children's Hospital, University Medical Center, Utrecht University, 3584 EA Utrecht, the Netherlands; Regenerative Medicine Utrecht, University Medical Center, Utrecht University, 3584 CT Utrecht, the Netherlands."
+  ]
+ },
+ "janda, c": {
+  "name": "Janda, Claudia Y",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "The Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Princess Maxima Center of Pediatric Oncology, Utrecht 3584 CS, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Department of Molecular and Cellular Physiology, Howard Hughes Medical Institute, and Department of Structural Biology, Stanford University School of Medicine, Stanford, California 94305, USA."
+  ]
+ },
+ "saftien, a": {
+  "name": "Saftien, Aurelia",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, 3584 CT Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands; Microbiome and Cancer Division, German Cancer Research Center (DKFZ), Im Neuenheimer Feld 280, 69120 Heidelberg, Germany.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht, The Netherlands."
+  ]
+ },
+ "van ineveld, r": {
+  "name": "van Ineveld, Ravian L",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "The Princess Maxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Oncode Institute, Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, 3584 CT Utrecht, the Netherlands; The Princess Maxima Center for Pediatric Oncology, 3584 CS Utrecht, the Netherlands."
+  ]
+ },
+ "demartino, j": {
+  "name": "DeMartino, Jeff",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, Utrecht, the Netherlands.",
+   "Oncode Institute, Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Oncode Institute, Utrecht, Netherlands."
+  ]
+ },
+ "wijnakker, j": {
+  "name": "Wijnakker, Joost J A P M",
+  "papers": 5,
+  "tier": "A",
+  "affs": [
+   "University Medical Centre, Utrecht 3584 CT, The Netherlands.",
+   "Hubrecht Institute, University Medical Center (UMC) Utrecht, Utrecht, 3584CX, the Netherlands.",
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research: Hubrecht Institute; Oncode Institute; Royal Netherlands Academy of Arts and Science (KNAW); University Medical Center Utrecht.",
+   "Oncode Institute, Hubrecht Institute-Royal Netherlands Academy of Arts and Science, Utrecht 3584 CT, The Netherlands."
+  ]
+ },
+ "baldwin, c": {
+  "name": "Baldwin, C L",
+  "papers": 5,
+  "tier": "C",
+  "affs": []
+ },
+ "wilson, a": {
+  "name": "Wilson, A",
+  "papers": 5,
+  "tier": "C",
+  "affs": []
+ },
+ "grosschedl, r": {
+  "name": "Grosschedl, Rudolf",
+  "papers": 5,
+  "tier": "C",
+  "affs": []
+ },
+ "marx, j": {
+  "name": "Marx, J J",
+  "papers": 5,
+  "tier": "C",
+  "affs": []
+ },
+ "he, x": {
+  "name": "He, Xingfeng",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "the Stowers Institute for Medical Research, Kansas City, Missouri 64110.",
+   "Kirby Neurobiology Center, Boston Children's Hospital, Department of Neurology, Harvard Medical School, Boston, Massachusetts, United States of America.",
+   "Department of Colorectal Surgery, Fudan University Shanghai Cancer Center, Fudan University, Shanghai, 200032, P. R. China.",
+   "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, 200032, P. R. China."
+  ]
+ },
+ "radtke, f": {
+  "name": "Radtke, Freddy",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Ludwig Institute for Cancer Research, Lausanne Branch, University of Lausanne, Chemin des Boveresses 155, 1066 Epalinges, Switzerland.",
+   "Ludwig Institute for Cancer Research, Lausanne Branch, University of Lausanne, Chemin de Boveresses 155, CH-1066 Epalinges, Switzerland."
+  ]
+ },
+ "bos, j": {
+  "name": "Bos, Johannes L",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Oncode Institute, Center for Molecular Medicine, University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Oncode Institute, Utrecht, the Netherlands.",
+   "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands.",
+   "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Utrecht, Netherlands."
+  ]
+ },
+ "athineos, d": {
+  "name": "Athineos, Dimitris",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Wnt Signaling and Colorectal Cancer Group, Cancer Research UK Beatson Institute, Institute of Cancer Sciences, Glasgow University, Garscube Estate, Switichback Road, Glasgow G61 1BD, UK."
+  ]
+ },
+ "danenberg, e": {
+  "name": "Danenberg, Esther",
+  "papers": 5,
+  "tier": "C",
+  "affs": []
+ },
+ "koster, j": {
+  "name": "Koster, Jan",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Department of Oncogenomics, Academic Medical Center, University of Amsterdam, 1105 AZ Amsterdam, the Netherlands."
+  ]
+ },
+ "cai, j": {
+  "name": "Cai, Jian-Piao",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Department of Microbiology, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Pokfulam, Hong Kong, China.",
+   "Department of Microbiology, School of Clinical Medicine, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, China.",
+   "Department of Microbiology, School of Clinical Medicine, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Pokfulam, Hong Kong, China."
+  ]
+ },
+ "zhao, x": {
+  "name": "Zhao, Xian-Hui",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Department of Microbiology, The University of Hong Kong, Pokfulam, Hong Kong.",
+   "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center, Dallas, Texas, USA.",
+   "Institute for Immunology and School of Medicine, Tsinghua University, Beijing, China."
+  ]
+ },
+ "chen, x": {
+  "name": "Chen, Xueqing",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Crown Bioscience Inc., Beijing, China.",
+   "Department of Public Health Sciences, Sylvestor Comprehensive Cancer Center, Miami, FL, USA.",
+   "Division of Genetics, Department of Medicine, Brigham and Women's Hospital, Boston, Massachusetts, United States of America.",
+   "Department of Medicine, Harvard Medical School, Boston, Massachusetts, United States of America."
+  ]
+ },
+ "borel rinkes, i": {
+  "name": "Borel Rinkes, Inne H M",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Department of Endocrine Surgical Oncology, University Medical Center Utrecht, Utrecht 3508 GA, the Netherlands.",
+   "Department of Surgical Oncology, UMC Utrecht Cancer Center, 3584 CX Utrecht, The Netherlands.",
+   "Department of Surgery, University Medical Center Utrecht, 3584 CX Utrecht, the Netherlands."
+  ]
+ },
+ "wang, l": {
+  "name": "Wang, Longlong",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Department of Craniofacial Development and Stem Cell Biology, King's College London Dental Institute, Guy's Hospital, London SE1 3QD, UK.",
+   "Department of Tissue Morphogenesis, Max Planck Institute for Molecular Biomedicine, University of Münster, Münster, Germany.",
+   "Department of Biomedical Engineering, Pratt School of Engineering, Duke University, Durham, NC, 27708, USA.",
+   "Department of Nutrition and Integrative Physiology and the Diabetes and Metabolism Research Center, University of Utah, Salt Lake City, Utah."
+  ]
+ },
+ "rosenstiel, p": {
+  "name": "Rosenstiel, Philip",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Institute of Clinical Molecular Biology, Kiel University, Kiel, Germany.",
+   "University Hospital Schleswig-Holstein, Campus Kiel, Kiel, Germany.",
+   "Institute of Clinical Molecular Biology, Kiel University and University Hospital Schleswig-Holstein, Kiel, Germany.",
+   "Institute of Clinical Molecular Biology, Christian-Albrechts-University and University Hospital Schleswig-Holstein, Kiel, Germany."
+  ]
+ },
+ "janssens, h": {
+  "name": "Janssens, Hettie M",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Dept of Pediatric Pulmonology, Erasmus Medical Center/Sophia Children's Hospital, Rotterdam, The Netherlands.",
+   "Department of Pediatrics, division of Respiratory Medicine and Allergology, ErasmusMC-Sophia Children's Hospital, University Hospital Rotterdam, 3015 GD Rotterdam, the Netherlands.",
+   "Department of Pediatrics, Division of Respiratory Medicine and Allergology, Erasmus MC-Sophia Children's Hospital, University Medical Center, 3015 GD Rotterdam, the Netherlands.",
+   "Department of Pediatric Pulmonology, Erasmus University Medical Center/Sophia Children's Hospital, 3015 CN Rotterdam, Netherlands."
+  ]
+ },
+ "joosten, s": {
+  "name": "Joosten, Sander P J",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, Academic Medical Center, University of Amsterdam, Amsterdam, The Netherlands.",
+   "Amsterdam University Medical Centers, University of Amsterdam, Department of Pathology, Cancer Center Amsterdam, Amsterdam, The Netherlands.",
+   "Department of Pathology and Cancer Center Amsterdam (CCA), Amsterdam University Medical Centers, Loc. AMC, the Netherlands.",
+   "Department of Pathology, Academic Medical Center, University of Amsterdam, 1105 AZ Amsterdam, The Netherlands."
+  ]
+ },
+ "wiegerinck, c": {
+  "name": "Wiegerinck, Caroline L",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Division of Pediatrics, Department of Pediatric Gastroenterology, Wilhelmina Children's Hospital, University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Division of Pediatrics, Wilhelmina Children's Hospital, University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Department of Pediatrics, University Medical Center Utrecht, Lundlaan 6, 3584 EA Utrecht, The Netherlands."
+  ]
+ },
+ "de jonge, h": {
+  "name": "de Jonge, Hugo R",
+  "papers": 5,
+  "tier": "C",
+  "affs": [
+   "Dept of Gastroenterology and Hepatology, Erasmus Medical Center, Rotterdam, The Netherlands.",
+   "Department of Gastroenterology, Erasmus MC-University Medical Center, Rotterdam, The Netherlands.",
+   "Department of Gastroenterology and Hepatology, Erasmus University Medical Center, 3015 GD Rotterdam, the Netherlands.",
+   "Department of Gastroenterology and Hepatology, Erasmus University Medical Center, 3015 CE Rotterdam, Netherlands."
+  ]
+ },
+ "brantjes, h": {
+  "name": "Brantjes, Helen",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Department of Immunology, University Medical Center Utrecht, PO Box 85500, 3508 GA, Utrecht, The Netherlands.",
+   "Department of Immunology, University Hospital Utrecht, The Netherlands."
+  ]
+ },
+ "burgering, b": {
+  "name": "Burgering, Boudewijn M T",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Department of Molecular Cancer Research, Center Molecular Medicine, Oncode Institute, University Medical Center Utrecht, Utrecht 3584 CM, The Netherlands.",
+   "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Heidelberglaan 100, 3584 CG Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands.",
+   "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, 3584 CG, Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, 3584 CT, Utrecht, The Netherlands."
+  ]
+ },
+ "pinto, d": {
+  "name": "Pinto, Daniel",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Laboratory, Netherlands Institute for Developmental Biology, 3584 CT Utrecht, The Netherlands.",
+   "Netherlands Institute for Developmental Biology, Hubrecht Laboratory, Uppsalalaan 8, 3584 CT Utrecht, The Netherlands."
+  ]
+ },
+ "jager, m": {
+  "name": "Jager, Myrthe",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Center for Molecular Medicine and Oncode Institute, University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Center for Molecular Medicine and Oncode Institute, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands.",
+   "Center for Molecular Medicine, Cancer Genomics Netherlands, Department of Genetics, University Medical Center Utrecht, Heidelberglaan 100, 3584CX Utrecht, The Netherlands.",
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research, KNAW and University Medical Center Utrecht, Uppsalalaan 8, 3584CT Utrecht, The Netherlands."
+  ]
+ },
+ "asra, p": {
+  "name": "Asra, Priyanca",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Centre (UMC) Utrecht, 3584 CT Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, 3584 CT Utrecht, The Netherlands.",
+   "Hubrecht Institute, Developmental Biology and Stem Cell Research, Royal Netherlands Academy of Arts and Sciences and University Medical Centre Utrecht, 3584 CT Utrecht, The Netherlands.",
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Centre (UMC) Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, the Netherlands."
+  ]
+ },
+ "bleijs, m": {
+  "name": "Bleijs, Margit",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Centre (UMC) Utrecht, 3584 CT Utrecht, the Netherlands; Princess Máxima Center for Pediatric Oncology, 3584 CS Utrecht, the Netherlands.",
+   "Oncode Institute, Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, 3584 CT Utrecht, The Netherlands."
+  ]
+ },
+ "derakhshan, s": {
+  "name": "Derakhshan, Sepideh",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Developmental Biology and Stem Cell Research, Royal Netherlands Academy of Arts and Sciences and University Medical Centre Utrecht, 3584 CT Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, 3584 CS, Utrecht, The Netherlands.",
+   "Oncode Institute, Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, 3584 CS, Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands."
+  ]
+ },
+ "he, g": {
+  "name": "He, Gui-Wei",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Organoid group, Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center, 3584 CT Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center, Uppsalalaan 8, Utrecht, 3584 CT, the Netherlands."
+  ]
+ },
+ "kolders, s": {
+  "name": "Kolders, Sigrid",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, University Medical Center Utrecht, 3584 CX Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center Utrecht, 3584 CT Utrecht, The Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, The Netherlands."
+  ]
+ },
+ "vermeulen, m": {
+  "name": "Vermeulen, Marijn A",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Department of Molecular Biology, Faculty of Science, Radboud Institute for Molecular Life Sciences, Oncode Institute, Radboud University Nijmegen, Nijmegen 6525 GA, the Netherlands; Oncode Institute, Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, Netherlands.",
+   "Oncode Institute, Utrecht, the Netherlands; Department of Molecular Biology, Faculty of Science, Radboud Institute for Molecular Life Science, Radboud University Nijmegen, Nijmegen, the Netherlands."
+  ]
+ },
+ "wehrens, e": {
+  "name": "Wehrens, Ellen J",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Oncode Institute, Utrecht, the Netherlands.",
+   "Department of Cancer Research, Oncode Institute, Hubrecht Institute-KNAW Utrecht, Utrecht, the Netherlands.",
+   "Cancer Genomics Center (CGC), Utrecht, the Netherlands."
+  ]
+ },
+ "yengej, f": {
+  "name": "Yengej, Fjodor A Yousef",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, Utrecht 3584 CT, The Netherlands.",
+   "University Medical Centre Utrecht, Utrecht 3584 CX, The Netherlands.",
+   "Hubrecht Institute-Royal Netherlands Academy of Arts and Sciences and University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Department of Nephrology and Hypertension, University Medical Center Utrecht, Utrecht, the Netherlands."
+  ]
+ },
+ "van den heuvel-eibrink, m": {
+  "name": "van den Heuvel-Eibrink, Marry M",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, 3584 CS, Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands."
+  ]
+ },
+ "molenaar, j": {
+  "name": "Molenaar, Jan J",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, Netherlands.",
+   "Department of Pharmaceutical Sciences, University Utrecht, Utrecht, Netherlands."
+  ]
+ },
+ "van der linden, r": {
+  "name": "van der Linden, Reinier",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht, Netherlands.",
+   "Oncode Institute, Utrecht, Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, 3584 CT Utrecht, the Netherlands; Oncode Institute, Hubrecht Institute, 3584 CT Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht, The Netherlands."
+  ]
+ },
+ "huang, l": {
+  "name": "Huang, Lulu",
+  "papers": 4,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands.",
+   "BiomOrgan Ltd, Hong Kong, China.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Utrecht, the Netherlands."
+  ]
+ },
+ "ballieux, r": {
+  "name": "Ballieux, R E",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "gmelig-meyling, f": {
+  "name": "Gmelig-Meyling, F H",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "logtenberg, t": {
+  "name": "Logtenberg, Ton",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Merus NV, Utrecht, The Netherlands."
+  ]
+ },
+ "georgopoulos, k": {
+  "name": "Georgopoulos, K",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "bensaid, a": {
+  "name": "Bensaid, A",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "International laboratory for research on animal diseases, Nairobi, Kenya.",
+   "International Laboratory for Research on Animal Diseases, Nairobi, Kenya."
+  ]
+ },
+ "cumano, a": {
+  "name": "Cumano, Ana",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "de sousa, m": {
+  "name": "de Sousa, M",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "mortin, m": {
+  "name": "Mortin, M A",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "hurenkamp, j": {
+  "name": "Hurenkamp, J",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "medema, r": {
+  "name": "Medema, René H",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "fodde, r": {
+  "name": "Fodde, Riccardo",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, University Medical Center, Rotterdam, the Netherlands.",
+   "Department of Human and Clinical Genetics, and Center for Biomedical Genetics, Leiden University Medical Center, PO Box 9503, 2300 RA Leiden, The Netherlands.",
+   "Department of Human and Clinical Genetics, and Center for Biomedical Genetics, Leiden University Medical Center, The Netherlands."
+  ]
+ },
+ "held, w": {
+  "name": "Held, Werner",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Ludwig Institute for Cancer Research, Lausanne Branch and University of Lausanne, Epalinges, Switzerland.",
+   "Ludwig Institute for Cancer Research Lausanne Branch, University of Lausanne, Epalinges, Switzerland."
+  ]
+ },
+ "jay, p": {
+  "name": "Jay, Philippe",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "meeldijk, j": {
+  "name": "Meeldijk, Jan",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "zivkovic, d": {
+  "name": "Zivkovic, Danica",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "cole, a": {
+  "name": "Cole, Alicia M",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "The Beatson Institute, Garscube Estate, Glasgow, United Kingdom.",
+   "Beatson Institute of Cancer Research, Glasgow, UK.",
+   "Beatson Institute of Cancer Research, Glasgow, United Kingdom; School of Biosciences, Cardiff, United Kingdom."
+  ]
+ },
+ "van diest, p": {
+  "name": "van Diest, Paul Joannes",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, University Medical Center Utrecht, Utrecht University, Heidelberglaan 100, 3584 CX Utrecht, the Netherlands.",
+   "Department of Pathology, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands.",
+   "Department of Pathology, University Medical Center Utrecht, Heidelberglaan 100, 3584 CX Utrecht, the Netherlands."
+  ]
+ },
+ "ernst, m": {
+  "name": "Ernst, Matthias",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Olivia Newton-John Cancer Research Institute and La Trobe University School of Cancer Medicine, Melbourne, Victoria, Australia.",
+   "Olivia Newton-John Cancer Research Institute, Australia and La Trobe University School of Cancer Medicine, Heidelberg, Victoria 3084, Australia.",
+   "Walter and Eliza Hall Institute and Department of Medical Biology, University of Melbourne, Melbourne, VIC 3010, Australia."
+  ]
+ },
+ "morsink, f": {
+  "name": "Morsink, Folkert H M",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, University Medical Center Utrecht, Utrecht 3584 CM, The Netherlands.",
+   "Department of Pathology, University Medical Centre Utrecht, 3584 CX Utrecht, The Netherlands.",
+   "Department of Pathology, University Medical Centre Utrecht, 3584 CX Utrecht, the Netherlands."
+  ]
+ },
+ "kasper, m": {
+  "name": "Kasper, Maria",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Karolinska Institutet, Department of Biosciences and Nutrition and Center for Innovative Medicine, Novum, 141 83 Huddinge, Sweden."
+  ]
+ },
+ "toftgard, r": {
+  "name": "Toftgård, Rune",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Karolinska Institutet, Department of Biosciences and Nutrition and Center for Innovative Medicine, Novum, 141 83 Huddinge, Sweden."
+  ]
+ },
+ "taouatas, n": {
+  "name": "Taouatas, Nadia",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Biomolecular Mass Spectrometry and Proteomics Group, Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University, Padualaan 8, 3584 CH, Utrecht, The Netherlands.",
+   "Netherlands Proteomics Centre, Utrecht, The Netherlands."
+  ]
+ },
+ "brunton, v": {
+  "name": "Brunton, Valerie G",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "liu, h": {
+  "name": "Liu, Hongtao",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Circulating Tumor Cell Core, Robert H. Lurie Comprehensive Cancer Center, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA.",
+   "From the Department of Histology and Embryology, Harbin Medical University, Harbin 150086, China",
+   "Cancer Biology and Stem Cells Division, The Walter and Eliza Hall Institute of Medical Research, Parkville, Victoria, Australia."
+  ]
+ },
+ "myant, k": {
+  "name": "Myant, Kevin",
+  "papers": 4,
+  "tier": "C",
+  "affs": []
+ },
+ "van gorp, j": {
+  "name": "Van Gorp, Joost",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, St. Antonius Hospital, 3543 AZ, Utrecht, The Netherlands.",
+   "Department of Pathology, Diakonessenhuis, Utrecht, The Netherlands.",
+   "Department of Pathology, Diakonessenhuis, 3582 KE Utrecht, the Netherlands."
+  ]
+ },
+ "medema, j": {
+  "name": "Medema, Jan Paul",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Cancer Center Amsterdam, Laboratory of Experimental Oncology and Radiobiology (LEXOR), CEMM, Academic Medical Center, Meibergdreef 9, 1105AZ, Amsterdam, The Netherlands.",
+   "Cancer Genomics Netherlands, Utrecht, The Netherlands.",
+   "Laboratory for Experimental Oncology and Radiobiology (LEXOR), Center for Experimental Molecular Medicine (CEMM), Academic Medical Center (AMC), University of Amsterdam, Amsterdam, The Netherlands Cancer Genomics Center, Amsterdam, The Netherlands",
+   "1] Cancer Genomics Netherlands, UMC Utrecht, 3584CG Utrecht, The Netherlands [2] Laboratory of Experimental Oncology and Radiobiology, Centre for Experimental Molecular Medicine, AMC, 1105AZ Amsterdam, The Netherlands."
+  ]
+ },
+ "wang, y": {
+  "name": "Wang, Yinsheng",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Department of Radiation Oncology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+   "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+   "Department of Radiation Oncology, Fudan University Shanghai Cancer Center, Fudan University, Shanghai 200032, China; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, China."
+  ]
+ },
+ "ravelli, r": {
+  "name": "Ravelli, Raimond B G",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "M4i Nanoscopy Division, Maastricht University, Maastricht, The Netherlands.",
+   "The Maastricht Multimodal Molecular Imaging Institute, Maastricht University, Maastricht, The Netherlands.",
+   "The Maastricht Multimodal Molecular Imaging Institute, Maastricht University, Maastricht, Netherlands."
+  ]
+ },
+ "smith, a": {
+  "name": "Smith, Andrew D",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Xilis, Inc., Durham, NC, USA.",
+   "Xilis, Inc., Durham, NC 27713, USA."
+  ]
+ },
+ "theis, f": {
+  "name": "Theis, Fabian J",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Institute of Computational Biology, Helmholtz Zentrum München - German Research Center for Environmental Health, Neuherberg, Germany.",
+   "Department of Mathematics, Technical University of Munich, Munich, Germany.",
+   "Institute of Computational Biology, German Research Center for Environmental Health, Helmholtz Center Munich, Neuherberg, Germany.",
+   "Department of Mathematics, Technical University of Munich, Garching, Germany."
+  ]
+ },
+ "van andel, h": {
+  "name": "van Andel, Harmen",
+  "papers": 4,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, Academic Medical Center, University of Amsterdam, Amsterdam, The Netherlands.",
+   "Lymphoma and Myeloma Center Amsterdam, Amsterdam, The Netherlands.",
+   "Cancer Center Amsterdam, Amsterdam, The Netherlands.",
+   "Department of Pathology, Academic Medical Center, University of Amsterdam, 1105 AZ Amsterdam, The Netherlands."
+  ]
+ },
+ "ya, j": {
+  "name": "Ya, J",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Department of Anatomy and Embryology, University of Amsterdam, The Netherlands.",
+   "Department of Anatomy and Embryology, Academic Medical Center, University of Amsterdam, and the Department of Immunology, University of Utrecht, The Netherlands."
+  ]
+ },
+ "van der vuurst de vries, a": {
+  "name": "van der Vuurst de Vries, A R",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Department of Immunology, University Hospital Utrecht, Utrecht, The Netherlands."
+  ]
+ },
+ "van de born, m": {
+  "name": "van de Born, Maaike",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute - KNAW and University Medical Centre Utrecht, Utrecht, The Netherlands."
+  ]
+ },
+ "faro, a": {
+  "name": "Faro, Ana",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research, Utrecht, The Netherlands."
+  ]
+ },
+ "ten klooster, j": {
+  "name": "Ten Klooster, Jean Paul",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, KNAW and University Medical Centre, Utrecht, The Netherlands."
+  ]
+ },
+ "boymans, s": {
+  "name": "Boymans, Sander",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Center for Molecular Medicine and Oncode Institute, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands.",
+   "Center for Molecular Medicine, Cancer Genomics Netherlands, Department of Genetics, University Medical Center Utrecht, Heidelberglaan 100, 3584CX Utrecht, The Netherlands.",
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research, KNAW and University Medical Center Utrecht, Uppsalalaan 8, 3584CT Utrecht, The Netherlands."
+  ]
+ },
+ "de groot, r": {
+  "name": "de Groot, Reinoud E A",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Department of Hematopoeisis, Sanquin Research, 1066 CX Amsterdam, the Netherlands.",
+   "Department of Hematopoiesis, Sanquin Research, 1066 CX Amsterdam, the Netherlands; Landsteiner Laboratory, Amsterdam University Medical Center, Location AMC, 1105 AZ Amsterdam, the Netherlands; Oncode Institute, Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Centre Utrecht, Utrecht, The Netherlands."
+  ]
+ },
+ "ritsma, l": {
+  "name": "Ritsma, Laila",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Leiden University Medical Center, 2333 ZA Leiden, The Netherlands.",
+   "Hubrecht Institute-KNAW & University Medical Centre Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, the Netherlands.",
+   "Cancer Genomics Netherlands."
+  ]
+ },
+ "tetteh, p": {
+  "name": "Tetteh, Paul W",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center, Utrecht, Uppsalalaan 8, 3584 CT Utrecht, the Netherlands.",
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research, Royal Netherlands Academy of Arts and Sciences (KNAW), 3584 CT Utrecht, The Netherlands; University Medical Centre Utrecht, 3584 CT Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, and University Medical Center Utrecht, Uppsalalaan 8, 3584 CT Utrecht, The Netherlands."
+  ]
+ },
+ "van der elst, s": {
+  "name": "van der Elst, Stefan",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute - KNAW and University Medical Centre Utrecht, Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Centre Utrecht, 3584 CT Utrecht, The Netherlands."
+  ]
+ },
+ "kops, g": {
+  "name": "Kops, Geert J P L",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute-KNAW, University Medical Centre Utrecht, Utrecht, the Netherlands.",
+   "1] Cancer Genomics Netherlands, UMC Utrecht, 3584CG Utrecht, The Netherlands [2] Molecular Cancer Research, Centre for Molecular Medicine, UMC Utrecht, 3584CG, Utrecht, The Netherlands."
+  ]
+ },
+ "kuiper, r": {
+  "name": "Kuiper, Roland P",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Department of Genetics, University Medical Center Utrecht, Utrecht University, Utrecht, The Netherlands.",
+   "Department of Human Genetics, Radboud Institute for Molecular Life Sciences, Radboud University Medical Center, Nijmegen, Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, 3584CT Utrecht, Netherlands."
+  ]
+ },
+ "van jaarsveld, r": {
+  "name": "van Jaarsveld, Richard H",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute-KNAW, University Medical Centre Utrecht, Utrecht, the Netherlands.",
+   "1] Cancer Genomics Netherlands, UMC Utrecht, 3584CG Utrecht, The Netherlands [2] Molecular Cancer Research, Centre for Molecular Medicine, UMC Utrecht, 3584CG, Utrecht, The Netherlands."
+  ]
+ },
+ "verissimo, c": {
+  "name": "Verissimo, Carla S",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Center for Molecular Medicine, University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Foundation Hubrecht Organoid Technology (HUB), Utrecht, the Netherlands.",
+   "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Utrecht, Netherlands.",
+   "Cancer Genomics Netherlands, Utrecht, Netherlands."
+  ]
+ },
+ "verlaan-klink, i": {
+  "name": "Verlaan-Klink, Ingrid",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Center for Molecular Medicine, University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Oncode Institute, Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Oncode Institute, Center for Molecular Medicine, University Medical Centre Utrecht, Utrecht, the Netherlands."
+  ]
+ },
+ "wiener, d": {
+  "name": "Wiener, Dominique J",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Developmental Biology and Stem Cell Research, Royal Netherlands Academy of Arts and Sciences and University Medical Centre Utrecht, 3584 CT Utrecht, The Netherlands.",
+   "Vetsuisse Faculty, Institute of Animal Pathology, University of Bern, 3012 Bern, Switzerland.",
+   "Dermfocus, Vetsuisse Faculty, Inselspital, Bern University Hospital, 3008 Bern, Switzerland.",
+   "Department of Veterinary Pathobiology, College of Veterinary Medicine & Biomedical Science, Texas A&M University, College Station, TX 77843."
+  ]
+ },
+ "alieva, m": {
+  "name": "Alieva, Maria",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Instituto de Investigaciones Biomédicas Sols-Morreale (IIBM), CSIC-UAM, Madrid, Spain.",
+   "Oncode Institute, Utrecht, the Netherlands.",
+   "Department of Cancer Research, Oncode Institute, Hubrecht Institute-KNAW Utrecht, Utrecht, the Netherlands."
+  ]
+ },
+ "mullenders, j": {
+  "name": "Mullenders, Jasper",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center, Utrecht, the Netherlands.",
+   "Hubrecht Organoid Technology, 3584 CM, Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center Utrecht, 3584 CT Utrecht, The Netherlands.",
+   "Oncode Institute, Hubrecht Institute, 3584 CT Utrecht, The Netherlands."
+  ]
+ },
+ "vivie, j": {
+  "name": "Vivié, Judith A",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Single Cell Discoveries BV, 3584 BW Utrecht, Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Single Cell Discoveries, Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute-KNAW, University Medical Centre Utrecht, Utrecht, the Netherlands."
+  ]
+ },
+ "candelli, t": {
+  "name": "Candelli, Tito",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, 3584 CS, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, 3584 CS Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, 3584 CS, Utrecht, The Netherlands."
+  ]
+ },
+ "heinz, m": {
+  "name": "Heinz, Maria C",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Utrecht University, 3584 CX Utrecht, the Netherlands; Oncode Institute, 3521 AL Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, 3584 CT Utrecht, the Netherlands; Molecular Cancer Research, Center for Molecular Medicine, University Medical Center Utrecht, Utrecht University, 3584 CX Utrecht, the Netherlands.",
+   "Center for Molecular Medicine, University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Oncode Institute, Utrecht, The Netherlands."
+  ]
+ },
+ "koomen, m": {
+  "name": "Koomen, Mandy",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Centre (UMC) Utrecht, 3584 CT Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, 3584 CT, Utrecht, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Centre Utrecht, 3584 CT, Utrecht, The Netherlands."
+  ]
+ },
+ "lijnzaad, p": {
+  "name": "Lijnzaad, Philip",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, 3584 CS, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, 3584 CS, Utrecht, The Netherlands."
+  ]
+ },
+ "pieters, r": {
+  "name": "Pieters, Rob",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands."
+  ]
+ },
+ "rosendahl huber, a": {
+  "name": "Rosendahl Huber, Axel",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, Utrecht, The Netherlands.",
+   "The Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, 3584 CS Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands; Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Carrer de Baldiri Reixac, 10, 08028 Barcelona, Spain."
+  ]
+ },
+ "tanenbaum, m": {
+  "name": "Tanenbaum, Marvin E",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute-KNAW, Oncode Institute, and University Medical Center Utrecht, 3584 CT Utrecht, the Netherlands; Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology; 2628 CJ Delft, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute-KNAW and University Medical Center Utrecht, 3584 CT Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute-KNAW (Royal Netherlands Academy of Arts and Sciences) and University Medical Center Utrecht, 3584 CT Utrecht, Netherlands."
+  ]
+ },
+ "wu, s": {
+  "name": "Wu, Shaoguang",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Division of Cardiovascular Medicine, Department of Medicine, Cardiovascular Institute and Institute of Stem Cell Biology and Regenerative Medicine, Stanford University School of Medicine, Stanford, CA 94305, USA.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Centre Utrecht (UMC), Utrecht, Netherlands.",
+   "Department of Medicine, Johns Hopkins University School of Medicinegrid.471401.7, Baltimore, Maryland, USA."
+  ]
+ },
+ "de barbanson, b": {
+  "name": "de Barbanson, Buys",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, 3584 CT Utrecht, the Netherlands; Oncode Institute, Hubrecht Institute, 3584 CT Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, 3584 CT Utrecht, The Netherlands.",
+   "Oncode Institute, Royal Netherlands Academy of Arts and Sciences, 3521 AL Utrecht, The Netherlands.",
+   "Oncode Institute, Hubrecht Institute-KNAW (Royal Netherlands Academy of Arts and Sciences) and University Medical Center Utrecht, 3584 CT Utrecht, Netherlands."
+  ]
+ },
+ "de krijger, r": {
+  "name": "de Krijger, Ronald R",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, Utrecht, the Netherlands.",
+   "Department of Pathology, University Medical Center Utrecht, Heidelberglaan 100, Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Department of Pathology, University Medical Center Utrecht, Utrecht, The Netherlands."
+  ]
+ },
+ "kuball, j": {
+  "name": "Kuball, Jürgen",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Center for Translational Immunology, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands.",
+   "Center for Translational Immunology, University Medical Centre (UMC) Utrecht, Utrecht, the Netherlands.",
+   "Department of Hematology, UMC Utrecht, Utrecht University, Utrecht, the Netherlands.",
+   "Department of Hematology, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands."
+  ]
+ },
+ "sebestyen, z": {
+  "name": "Sebestyen, Zsolt",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Center for Translational Immunology, University Medical Center Utrecht, Utrecht University, Utrecht, the Netherlands.",
+   "Center for Translational Immunology, University Medical Centre (UMC) Utrecht, Utrecht, the Netherlands."
+  ]
+ },
+ "balazova, k": {
+  "name": "Balážová, Katarína",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute - Royal Netherlands Academy of Arts and Sciences and University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Oncode Institute, Utrecht, The Netherlands.",
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research: Hubrecht Institute; Oncode Institute; Royal Netherlands Academy of Arts and Science (KNAW); University Medical Center Utrecht.",
+   "Hubrecht Institute for Developmental Biology and Stem Cell Research-KNAW & University Medical Centre Utrecht, Utrecht, Netherlands."
+  ]
+ },
+ "celotti, m": {
+  "name": "Celotti, Martina",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, 3584 CT Utrecht, the Netherlands; Oncode Institute, 3521 AL Utrecht, the Netherlands.",
+   "Organoid group, Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center, 3584 CT Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, 3584 CT, Utrecht, the Netherlands.",
+   "Oncode Institute, 3521AL, Utrecht, the Netherlands."
+  ]
+ },
+ "derks, l": {
+  "name": "Derks, Lucca L M",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Oncode Institute, 3521 AL Utrecht, the Netherlands; Princess Maxima Center for Pediatric Oncology, 3584 CS Utrecht, the Netherlands.",
+   "Center for Molecular Medicine, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands.",
+   "Oncode Institute, 3521AL, Utrecht, the Netherlands.",
+   "Princess Maxima Center for Pediatric Oncology, 3584 CS, Utrecht, the Netherlands."
+  ]
+ },
+ "jansen, s": {
+  "name": "Jansen, Suze A",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Department of Pediatric Gastroenterology, Wilhelmina Children's Hospital, University Medical Center Utrecht, Utrecht, Netherlands.",
+   "Regenerative Medicine Center Utrecht, University Medical Center Utrecht, Utrecht, Netherlands.",
+   "Department of Pediatric Gastroenterology, Wilhelmina Children's Hospital, University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Regenerative Medicine Center Utrecht, Uppsalalaan 8, 3584 CT Utrecht, The Netherlands."
+  ]
+ },
+ "massalini, s": {
+  "name": "Massalini, Simone",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "The Princess Maxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands."
+  ]
+ },
+ "zoutendijk, i": {
+  "name": "Zoutendijk, Iris",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "The Princess Maxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands."
+  ]
+ },
+ "bernink, j": {
+  "name": "Bernink, Jochem H",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands; Amsterdam University Medical Center, University of Amsterdam, Department of Experimental Immunology, Amsterdam Institute for Immunology and Infectious Diseases, Amsterdam, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Amsterdam University Medical Center, University of Amsterdam, Department of Experimental Immunology, Amsterdam Institute for Immunology and Infectious Diseases, Amsterdam, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences and University Medical Center Utrecht, Utrecht, The Netherlands."
+  ]
+ },
+ "giladi, a": {
+  "name": "Giladi, Amir",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, the Netherlands; Oncode Institute, Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Utrecht, the Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW), University Medical Center, Utrecht, the Netherlands; Oncode Institute, Hubrecht Institute, Utrecht, the Netherlands."
+  ]
+ },
+ "schreurs, r": {
+  "name": "Schreurs, Robin",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "University Medical Centre, Utrecht 3584 CT, The Netherlands.",
+   "Oncode Institute, Hubrecht Institute-Royal Netherlands Academy of Arts and Science, Utrecht 3584 CT, The Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Science (KNAW) and UMC, Utrecht, The Netherlands.",
+   "Oncode Institute, Hubrecht Institute, Royal Netherlands Academy of Arts and Science (KNAW), Utrecht 3584 CT, The Netherlands."
+  ]
+ },
+ "willemsen, s": {
+  "name": "Willemsen, Sam",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences, Utrecht 3584 CT, The Netherlands.",
+   "University Medical Centre Utrecht, Utrecht 3584 CX, The Netherlands.",
+   "Oncode Institute, Utrecht 3584 CT, The Netherlands.",
+   "Hubrecht Institute, Royal Netherlands Academy of Arts and Sciences (KNAW) and UMC Utrecht, Utrecht 3584 CT, the Netherlands; Oncode Institute, Utrecht, the Netherlands."
+  ]
+ },
+ "van rijt, f": {
+  "name": "van Rijt, Fenna L H",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "The Princess Máxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Princess Maxima Center of Pediatric Oncology, Utrecht 3584 CS, The Netherlands.",
+   "Oncode Institute, Princess Maxima Center of Pediatric Oncology, Utrecht, The Netherlands.",
+   "Synaffix/Lonza Company, Oss, The Netherlands."
+  ]
+ },
+ "verweij, l": {
+  "name": "Verweij, Laurens H G",
+  "papers": 3,
+  "tier": "A",
+  "affs": [
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, 3584 CS, The Netherlands.",
+   "The Princess Maxima Center for Pediatric Oncology, Utrecht, the Netherlands.",
+   "Princess Máxima Center for Pediatric Oncology, Utrecht, The Netherlands.",
+   "Oncode Institute, Utrecht, The Netherlands."
+  ]
+ },
+ "wileman, t": {
+  "name": "Wileman, T E",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "kaushal, a": {
+  "name": "Kaushal, A",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "owen, m": {
+  "name": "Owen, M J",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "toye, p": {
+  "name": "Toye, P G",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "International Laboratory for Research on Animal Diseases, Nairobi, Kenya."
+  ]
+ },
+ "young, j": {
+  "name": "Young, J R",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "davis, w": {
+  "name": "Davis, W C",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "de weger, r": {
+  "name": "de Weger, R A",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "hofhuis, f": {
+  "name": "Hofhuis, Frans",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "jones, t": {
+  "name": "Jones, T",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "moorman, a": {
+  "name": "Moorman, Antoon F M",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "morin, p": {
+  "name": "Morin, P J",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Howard Hughes Medical Institute and Johns Hopkins Oncology Center, 424 North Bond Street, Baltimore, MD 21231, USA."
+  ]
+ },
+ "peifer, m": {
+  "name": "Peifer, M",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "wells, c": {
+  "name": "Wells, Christine A",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Centre for Stem Cell Systems, Department of Anatomy and Neuroscience, MDHS, University of Melbourne, Melbourne, VIC 3010, Australia."
+  ]
+ },
+ "de strooper, b": {
+  "name": "De Strooper, Bart",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "VIB Center for Brain and Disease Research, Leuven, Belgium.",
+   "Department of Neurosciences, KU Leuven, Leuven, Belgium.",
+   "UK Dementia Research Institute at UCL, University College London, London, UK."
+  ]
+ },
+ "lokhorst, h": {
+  "name": "Lokhorst, Henk M",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "van den hoff, m": {
+  "name": "van den Hoff, Maurice J B",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Department of Medical Physiology, Academic Medical Center, Amsterdam University Medical Centers, 1105 AZ Amsterdam, The Netherlands."
+  ]
+ },
+ "kielman, m": {
+  "name": "Kielman, Menno",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "lanier, l": {
+  "name": "Lanier, L L",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "phillips, j": {
+  "name": "Phillips, J H",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "smits, r": {
+  "name": "Smits, R",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "bienz, m": {
+  "name": "Bienz, Mariann",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Medical Research Council Laboratory of Molecular Biology, Hills Road, Cambridge CB2 2QH, UK.",
+   "MRC Laboratory of Molecular Biology, Cambridge, United Kingdom."
+  ]
+ },
+ "duluc, i": {
+  "name": "Duluc, Isabelle",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "freund, j": {
+  "name": "Freund, Jean-Noel",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "schutte, m": {
+  "name": "Schutte, Mieke",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "meniel, v": {
+  "name": "Meniel, Valerie S",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "European Cancer Stem Cell Research Institute, Cardiff University, Cardiff, United Kingdom."
+  ]
+ },
+ "derksen, p": {
+  "name": "Derksen, Patrick W B",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, University Medical Center Utrecht, Utrecht, the Netherlands.",
+   "Department of Pathology, University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Department of Pathology, Academic Medical Center, University of Amsterdam, 1105AZ, Amsterdam, The Netherlands."
+  ]
+ },
+ "jonkheer, s": {
+  "name": "Jonkheer, Suzanne",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "riccio, o": {
+  "name": "Riccio, Orbicia",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Ecole Polytechnique Fédérale de Lausanne, Swiss Institute for Experimental Cancer Research, Chemin des Boveresses 155, Epalinges 1066, Switzerland."
+  ]
+ },
+ "robine, s": {
+  "name": "Robine, Sylvie",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "iacobuzio-donahue, c": {
+  "name": "Iacobuzio-Donahue, Christine A",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Memorial Sloan Kettering Cancer Center, New York, New York.",
+   "Rubenstein Center for Pancreatic Cancer Research, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA."
+  ]
+ },
+ "wilkins, j": {
+  "name": "Wilkins, Julie A",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "guryev, v": {
+  "name": "Guryev, Victor",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "hruban, r": {
+  "name": "Hruban, Ralph H",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Department of Pathology, Johns Hopkins University, Baltimore, Maryland.",
+   "The Sol Goldman Pancreatic Cancer Research Center, Johns Hopkins University School of Medicine, Baltimore, MD 21231, USA."
+  ]
+ },
+ "jaks, v": {
+  "name": "Jaks, Viljar",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Karolinska Institutet, Department of Biosciences and Nutrition, Novum, SE-141 57 Huddinge, Sweden."
+  ]
+ },
+ "abo, a": {
+  "name": "Abo, Arie",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "lu, q": {
+  "name": "Lu, Q Richard",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center, Dallas, Texas, USA.",
+   "Department of Molecular Biology, University of Texas Southwestern Medical Center, Dallas, Texas, USA.",
+   "West China Second University Hospital, Sichuan University, Chengdu, China.",
+   "Division of Experimental Hematology and Cancer Biology, Department of Pediatrics, Brain Tumor Center, Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio 45229, USA."
+  ]
+ },
+ "li, l": {
+  "name": "Li, Linheng",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Shanghai Key Laboratory of Regulatory Biology, Joint Research Center for Translational Medicine, ECNU-Fengxian Hospital, Institute of Biomedical Sciences and School of Life Sciences, East China Normal University, Shanghai 200241, China.",
+   "the Stowers Institute for Medical Research, Kansas City, Missouri 64110, Pathology, University of Kansas Medical Center, Kansas City, Kansas 66160",
+   "Stowers Institute for Medical Research (SIMR), Kansas City, MO 64110, USA."
+  ]
+ },
+ "poulsom, r": {
+  "name": "Poulsom, Richard",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "romagnolo, b": {
+  "name": "Romagnolo, Beatrice",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Université de Paris, Institut Cochin, INSERM, CNRS, Paris, France."
+  ]
+ },
+ "sears, r": {
+  "name": "Sears, Rosalie C",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Department of Medical and Molecular Genetics, Oregon Health & Science University, Portland, OR 97201, USA."
+  ]
+ },
+ "shivdasani, r": {
+  "name": "Shivdasani, Ramesh A",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Department of Medical Oncology and Center for Functional Cancer Epigenetics, Dana-Farber Cancer Institute, Boston, MA, USA.",
+   "Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA.",
+   "Harvard Stem Cell Institute, Cambridge, MA, USA.",
+   "Department of Medical Oncology and Center for Functional Cancer Epigenetics, Dana-Farber Cancer Institute, Boston, MA 02215, USA; Departments of Medicine, Brigham & Women's Hospital and Harvard Medical School, Boston, MA 02215, USA; Harvard Stem Cell Institute, Cambridge, MA 02138, USA."
+  ]
+ },
+ "siersema, p": {
+  "name": "Siersema, Peter D",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "van den brink, g": {
+  "name": "Van den Brink, Gijs R",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "wright, n": {
+  "name": "Wright, Nicholas A",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "low, t": {
+  "name": "Low, Teck Y",
+  "papers": 3,
+  "tier": "C",
+  "affs": []
+ },
+ "munro, j": {
+  "name": "Munro, June",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Cancer Research UK Scotland Institute, Glasgow, UK."
+  ]
+ },
+ "nishimori, k": {
+  "name": "Nishimori, Katsuhiko",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Laboratory of Molecular Biology, Graduate School of Agricultural Science, Tohoku University, Sendai, Japan"
+  ]
+ },
+ "gloerich, m": {
+  "name": "Gloerich, Martijn",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Center for Molecular Medicine, University Medical Center Utrecht and Utrecht University, Utrecht, The Netherlands.",
+   "Center for Molecular Medicine, University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Molecular Cancer Research, Centre for Biomedical Genetics and Cancer Genomics Centre, University Medical Center Utrecht, Utrecht 3584 CG, The Netherlands."
+  ]
+ },
+ "jordens, i": {
+  "name": "Jordens, Ingrid",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Department of Cell Biology, Center for Molecular Medicine, University Medical Center Utrecht, 3584CX Utrecht, the Netherlands.",
+   "Center for Molecular Medicine, University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Oncode Institute, Utrecht, The Netherlands."
+  ]
+ },
+ "kemper, k": {
+  "name": "Kemper, Kristel",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "EurOPDX Consortium and are at The Netherlands Cancer Institute, Plesmanlaan 121, 1066CX Amsterdam, The Netherlands.",
+   "Laboratory for Experimental Oncology and Radiobiology, Centre for Molecular Medicine, Academic Medical Centre, Amsterdam, The Netherlands."
+  ]
+ },
+ "nakamura, t": {
+  "name": "Nakamura, Toshiyuki",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Laboratory Animal Research Center, Institute of Medical Science, The University of Tokyo, Minato-ku, Tokyo 108-8639, Japan."
+  ]
+ },
+ "prasetyanti, p": {
+  "name": "Prasetyanti, Pramudita R",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Cancer Center Amsterdam, Laboratory of Experimental Oncology and Radiobiology (LEXOR), CEMM, Academic Medical Center, Meibergdreef 9, 1105AZ, Amsterdam, The Netherlands.",
+   "Cancer Genomics Netherlands, Utrecht, The Netherlands.",
+   "Laboratory for Experimental Oncology and Radiobiology (LEXOR), Center for Experimental Molecular Medicine (CEMM), Academic Medical Center (AMC), University of Amsterdam, Amsterdam, The Netherlands Cancer Genomics Center, Amsterdam, The Netherlands."
+  ]
+ },
+ "watt, f": {
+  "name": "Watt, Fiona M",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Centre for Stem Cells and Regenerative Medicine, King's College London, London SE1 9RT, United Kingdom; email:",
+   "Centre for Stem Cells and Regenerative Medicine, King's College London, London, United Kingdom."
+  ]
+ },
+ "berns, a": {
+  "name": "Berns, Anton",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Netherlands Cancer Institute, 1066 CX Amsterdam, The Netherlands.",
+   "Division of Molecular Genetics, The Netherlands Cancer Institute, Amsterdam, The Netherlands."
+  ]
+ },
+ "carlotti, f": {
+  "name": "Carlotti, Françoise",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Department of Internal Medicine, Leiden University Medical Center, 2333 ZA Leiden, the Netherlands."
+  ]
+ },
+ "gribble, f": {
+  "name": "Gribble, Fiona M",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Metabolic Research Laboratories, Wellcome Trust-MRC Institute of Metabolic Science, Addenbrooke's Hospital, Cambridge, UK."
+  ]
+ },
+ "gros, p": {
+  "name": "Gros, Piet",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Crystal and Structural Chemistry, Bijvoet Center for Biomolecular Research, Department of Chemistry, Faculty of Science, Utrecht University, Utrecht, The Netherlands."
+  ]
+ },
+ "meddens, c": {
+  "name": "Meddens, Claartje A",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Division of Pediatrics, Wilhelmina Children's Hospital, University Medical Center Utrecht, Utrecht, The Netherlands.",
+   "Department of Pediatric Gastroenterology, Wilhelmina Children's Hospital, University Medical Center Utrecht, Utrecht, Netherlands.",
+   "Regenerative Medicine Center Utrecht, University Medical Center Utrecht, Utrecht, Netherlands.",
+   "Department of Pediatric Gastroenterology, Wilhelmina Children's Hospital, University Medical Center Utrecht, Utrecht, The Netherlands."
+  ]
+ },
+ "reimann, f": {
+  "name": "Reimann, Frank",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Metabolic Research Laboratories, Wellcome Trust-MRC Institute of Metabolic Science, Addenbrooke's Hospital, Cambridge, UK."
+  ]
+ },
+ "shen, l": {
+  "name": "Shen, Lianju",
+  "papers": 3,
+  "tier": "C",
+  "affs": [
+   "Department of Radiation Oncology, Fudan University Shanghai Cancer Center, Shanghai, China.",
+   "Department of Oncology, Shanghai Medical College, Fudan University, Shanghai, China.",
+   "Department of Radiation Oncology, Fudan University Shanghai Cancer Center, Fudan University, Shanghai 200032, China; Department of Oncology, Shanghai Medical College, Fudan University, Shanghai 200032, China."
+  ]
+ }
+}
